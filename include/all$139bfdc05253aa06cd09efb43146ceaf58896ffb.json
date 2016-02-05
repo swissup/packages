@@ -79,7 +79,7 @@
                 }
             }
         },
-        "Swissup/Countdowntimer": {
+        "swissup/countdowntimer": {
             "0.1.0": {
                 "name": "Swissup/Countdowntimer",
                 "version": "0.1.0",
@@ -165,20 +165,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/email.git",
-                    "reference": "0b0e139ac03a39991011e1c9c6e787b1213f0063"
+                    "reference": "d9c1abcad1837dd1d8f178172896604ef140771d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/0b0e139ac03a39991011e1c9c6e787b1213f0063",
-                    "reference": "0b0e139ac03a39991011e1c9c6e787b1213f0063",
+                    "url": "https://api.github.com/repos/swissup/email/zipball/d9c1abcad1837dd1d8f178172896604ef140771d",
+                    "reference": "d9c1abcad1837dd1d8f178172896604ef140771d",
                     "shasum": ""
                 },
                 "require": {
+                    "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "php": "~5.5.0|~5.6.0",
                     "slm/mail": "~1.5",
                     "swissup/core": "*"
                 },
-                "time": "2016-02-03 15:02:44",
+                "time": "2016-02-05 07:54:21",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

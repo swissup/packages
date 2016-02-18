@@ -119,25 +119,25 @@
             }
         },
         "swissup/core": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "15914d7a940dbf9eaa1b44aab99bbeee5c18a9e7"
+                    "reference": "ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/15914d7a940dbf9eaa1b44aab99bbeee5c18a9e7",
-                    "reference": "15914d7a940dbf9eaa1b44aab99bbeee5c18a9e7",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9",
+                    "reference": "ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0"
                 },
-                "time": "2016-02-17 10:16:53",
+                "time": "2016-02-18 12:47:27",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -152,7 +152,44 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/master",
+                    "source": "https://github.com/swissup/core/tree/1.0.0",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/core.git",
+                    "reference": "ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9",
+                    "reference": "ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0"
+                },
+                "time": "2016-02-18 12:47:27",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.0.0",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -663,25 +700,25 @@
             }
         },
         "swissup/subscription-checker": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/subscription-checker",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscription-checker.git",
-                    "reference": "83327aeb5b8773096d9e82b53747f3b04a24d5d7"
+                    "reference": "9c2afad24b954c688fa8f478a7317e892ba9ef4e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/83327aeb5b8773096d9e82b53747f3b04a24d5d7",
-                    "reference": "83327aeb5b8773096d9e82b53747f3b04a24d5d7",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/9c2afad24b954c688fa8f478a7317e892ba9ef4e",
+                    "reference": "9c2afad24b954c688fa8f478a7317e892ba9ef4e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2016-02-17 10:21:56",
+                "time": "2016-02-18 12:48:05",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -696,7 +733,44 @@
                 ],
                 "description": "Client-side subscription validation",
                 "support": {
-                    "source": "https://github.com/swissup/subscription-checker/tree/master",
+                    "source": "https://github.com/swissup/subscription-checker/tree/1.0.0",
+                    "issues": "https://github.com/swissup/subscription-checker/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/subscription-checker",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/subscription-checker.git",
+                    "reference": "9c2afad24b954c688fa8f478a7317e892ba9ef4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/9c2afad24b954c688fa8f478a7317e892ba9ef4e",
+                    "reference": "9c2afad24b954c688fa8f478a7317e892ba9ef4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2016-02-18 12:48:05",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SubscriptionChecker\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Client-side subscription validation",
+                "support": {
+                    "source": "https://github.com/swissup/subscription-checker/tree/1.0.0",
                     "issues": "https://github.com/swissup/subscription-checker/issues"
                 }
             }

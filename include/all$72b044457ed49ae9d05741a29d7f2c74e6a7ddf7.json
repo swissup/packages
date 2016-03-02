@@ -1,5 +1,147 @@
 {
     "packages": {
+        "argento/theme-frontend-blank": {
+            "0.1.0": {
+                "name": "argento/theme-frontend-blank",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argentoproject/theme-frontend-blank.git",
+                    "reference": "10333783b2f511c108f8f50bbfd6d3adfbe55b2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argentoproject/theme-frontend-blank/zipball/10333783b2f511c108f8f50bbfd6d3adfbe55b2a",
+                    "reference": "10333783b2f511c108f8f50bbfd6d3adfbe55b2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-02-29 16:05:24",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/argentoproject/theme-frontend-blank/tree/master",
+                    "issues": "https://github.com/argentoproject/theme-frontend-blank/issues"
+                }
+            },
+            "dev-master": {
+                "name": "argento/theme-frontend-blank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argentoproject/theme-frontend-blank.git",
+                    "reference": "10333783b2f511c108f8f50bbfd6d3adfbe55b2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argentoproject/theme-frontend-blank/zipball/10333783b2f511c108f8f50bbfd6d3adfbe55b2a",
+                    "reference": "10333783b2f511c108f8f50bbfd6d3adfbe55b2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-02-29 16:05:24",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/argentoproject/theme-frontend-blank/tree/master",
+                    "issues": "https://github.com/argentoproject/theme-frontend-blank/issues"
+                }
+            }
+        },
+        "argento/theme-frontend-essence": {
+            "0.1.0": {
+                "name": "argento/theme-frontend-essence",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argentoproject/theme-frontend-essence.git",
+                    "reference": "da31dc7a6908dc88bb0f7898c6580d5d9f995e09"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argentoproject/theme-frontend-essence/zipball/da31dc7a6908dc88bb0f7898c6580d5d9f995e09",
+                    "reference": "da31dc7a6908dc88bb0f7898c6580d5d9f995e09",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-02-26 15:40:25",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/argentoproject/theme-frontend-essence/tree/master",
+                    "issues": "https://github.com/argentoproject/theme-frontend-essence/issues"
+                }
+            },
+            "dev-master": {
+                "name": "argento/theme-frontend-essence",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argentoproject/theme-frontend-essence.git",
+                    "reference": "da31dc7a6908dc88bb0f7898c6580d5d9f995e09"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argentoproject/theme-frontend-essence/zipball/da31dc7a6908dc88bb0f7898c6580d5d9f995e09",
+                    "reference": "da31dc7a6908dc88bb0f7898c6580d5d9f995e09",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-02-26 15:40:25",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/argentoproject/theme-frontend-essence/tree/master",
+                    "issues": "https://github.com/argentoproject/theme-frontend-essence/issues"
+                }
+            }
+        },
         "swissup/ajaxsearch": {
             "dev-master": {
                 "name": "swissup/ajaxsearch",
@@ -8,19 +150,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "1e41fd694a5097e84bdf0b2073d6c6c6f97080f2"
+                    "reference": "198a492da8837e13c102625811bad422fe2d577a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/1e41fd694a5097e84bdf0b2073d6c6c6f97080f2",
-                    "reference": "1e41fd694a5097e84bdf0b2073d6c6c6f97080f2",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/198a492da8837e13c102625811bad422fe2d577a",
+                    "reference": "198a492da8837e13c102625811bad422fe2d577a",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-02-17 15:23:17",
+                "time": "2016-02-25 13:43:34",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -627,19 +769,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "802eb4e05a3a18f56371d0a6b63c59393cd2d0b3"
+                    "reference": "1a09c42a2225fc4b894040d2e3bfad1b5f4b2cb5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/802eb4e05a3a18f56371d0a6b63c59393cd2d0b3",
-                    "reference": "802eb4e05a3a18f56371d0a6b63c59393cd2d0b3",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/1a09c42a2225fc4b894040d2e3bfad1b5f4b2cb5",
+                    "reference": "1a09c42a2225fc4b894040d2e3bfad1b5f4b2cb5",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-01-28 14:28:12",
+                "time": "2016-02-25 09:14:30",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -654,7 +796,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.1",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }

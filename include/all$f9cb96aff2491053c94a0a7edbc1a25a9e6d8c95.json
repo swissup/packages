@@ -42,18 +42,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "d0f1afe66ec5cca2021ea4fe56dc7d8e6afbc722"
+                    "reference": "52b85983a61374e17fba1b47dc19b99a5238fabf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/d0f1afe66ec5cca2021ea4fe56dc7d8e6afbc722",
-                    "reference": "d0f1afe66ec5cca2021ea4fe56dc7d8e6afbc722",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/52b85983a61374e17fba1b47dc19b99a5238fabf",
+                    "reference": "52b85983a61374e17fba1b47dc19b99a5238fabf",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-15 09:49:03",
+                "time": "2016-03-21 14:19:02",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -113,19 +113,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "0f58c98dfbebb19023f1fec3743e0146b67d9bc4"
+                    "reference": "fa3171d367aa05c622806796bcaa6dc5adeb0d8c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/0f58c98dfbebb19023f1fec3743e0146b67d9bc4",
-                    "reference": "0f58c98dfbebb19023f1fec3743e0146b67d9bc4",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/fa3171d367aa05c622806796bcaa6dc5adeb0d8c",
+                    "reference": "fa3171d367aa05c622806796bcaa6dc5adeb0d8c",
                     "shasum": ""
                 },
                 "require": {
                     "argento/theme-frontend-blank": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-15 09:50:29",
+                "time": "2016-03-21 12:43:54",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -150,19 +150,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "6d76f46755503e837f444959a8b15de42bb79dd5"
+                    "reference": "760fadbc2d7202abf675ef4fcaee18be8557165f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6d76f46755503e837f444959a8b15de42bb79dd5",
-                    "reference": "6d76f46755503e837f444959a8b15de42bb79dd5",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/760fadbc2d7202abf675ef4fcaee18be8557165f",
+                    "reference": "760fadbc2d7202abf675ef4fcaee18be8557165f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-10 15:11:30",
+                "time": "2016-03-15 10:36:37",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -177,32 +177,32 @@
                 ],
                 "description": "Advanced ajax search",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/1.0.0",
+                    "source": "https://github.com/swissup/ajaxsearch/tree/master",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             }
         },
         "swissup/akismet": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/akismet",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/akismet.git",
-                    "reference": "e19b95dbf5ca94421123d0293aeeefd6b798fad7"
+                    "reference": "2fd5ba35c3e8afe0d996f7373a6940f0dd69a442"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/akismet/zipball/e19b95dbf5ca94421123d0293aeeefd6b798fad7",
-                    "reference": "e19b95dbf5ca94421123d0293aeeefd6b798fad7",
+                    "url": "https://api.github.com/repos/swissup/akismet/zipball/2fd5ba35c3e8afe0d996f7373a6940f0dd69a442",
+                    "reference": "2fd5ba35c3e8afe0d996f7373a6940f0dd69a442",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-15 08:18:15",
+                "time": "2016-03-21 15:23:27",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -217,7 +217,45 @@
                 ],
                 "description": "Akismet integration",
                 "support": {
-                    "source": "https://github.com/swissup/akismet/tree/master",
+                    "source": "https://github.com/swissup/akismet/tree/1.0.0",
+                    "issues": "https://github.com/swissup/akismet/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/akismet",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/akismet.git",
+                    "reference": "2fd5ba35c3e8afe0d996f7373a6940f0dd69a442"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/akismet/zipball/2fd5ba35c3e8afe0d996f7373a6940f0dd69a442",
+                    "reference": "2fd5ba35c3e8afe0d996f7373a6940f0dd69a442",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-21 15:23:27",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Akismet\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Akismet integration",
+                "support": {
+                    "source": "https://github.com/swissup/akismet/tree/1.0.0",
                     "issues": "https://github.com/swissup/akismet/issues"
                 }
             }
@@ -268,19 +306,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "598c847d45ce49158884ab8867d53306919318bc"
+                    "reference": "22fc32fd0d8602d9f5cab0f91ddd3b545f988cf1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/598c847d45ce49158884ab8867d53306919318bc",
-                    "reference": "598c847d45ce49158884ab8867d53306919318bc",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/22fc32fd0d8602d9f5cab0f91ddd3b545f988cf1",
+                    "reference": "22fc32fd0d8602d9f5cab0f91ddd3b545f988cf1",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-02-18 08:37:02",
+                "time": "2016-03-15 10:38:56",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

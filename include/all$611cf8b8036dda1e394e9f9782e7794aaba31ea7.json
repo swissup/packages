@@ -42,18 +42,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "52b85983a61374e17fba1b47dc19b99a5238fabf"
+                    "reference": "75de6c4643e4ad02a986bd98f9c2831b97e9a1ea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/52b85983a61374e17fba1b47dc19b99a5238fabf",
-                    "reference": "52b85983a61374e17fba1b47dc19b99a5238fabf",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/75de6c4643e4ad02a986bd98f9c2831b97e9a1ea",
+                    "reference": "75de6c4643e4ad02a986bd98f9c2831b97e9a1ea",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-21 14:19:02",
+                "time": "2016-03-22 10:17:31",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -113,19 +113,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "fa3171d367aa05c622806796bcaa6dc5adeb0d8c"
+                    "reference": "070702b93fba8a559669154049095ce6e55c336a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/fa3171d367aa05c622806796bcaa6dc5adeb0d8c",
-                    "reference": "fa3171d367aa05c622806796bcaa6dc5adeb0d8c",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/070702b93fba8a559669154049095ce6e55c336a",
+                    "reference": "070702b93fba8a559669154049095ce6e55c336a",
                     "shasum": ""
                 },
                 "require": {
                     "argento/theme-frontend-blank": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-21 12:43:54",
+                "time": "2016-03-22 10:18:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -139,6 +139,46 @@
                 "support": {
                     "source": "https://github.com/argento/theme-frontend-essence/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
+                }
+            }
+        },
+        "swissup/ajaxpro": {
+            "dev-master": {
+                "name": "swissup/ajaxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxpro.git",
+                    "reference": "033a9ed4fa168fb1678eb3fb433ca6fcb424310a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/033a9ed4fa168fb1678eb3fb433ca6fcb424310a",
+                    "reference": "033a9ed4fa168fb1678eb3fb433ca6fcb424310a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-22 10:31:12",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
+                "support": {
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
         },

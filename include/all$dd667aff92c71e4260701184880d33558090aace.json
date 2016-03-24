@@ -42,19 +42,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "a5516f3aaf27dc1f7029eaea475fb3c2b57fb830"
+                    "reference": "c234a3c53cbdd302057e0ff58d9b35ec35e00ea4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/a5516f3aaf27dc1f7029eaea475fb3c2b57fb830",
-                    "reference": "a5516f3aaf27dc1f7029eaea475fb3c2b57fb830",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/c234a3c53cbdd302057e0ff58d9b35ec35e00ea4",
+                    "reference": "c234a3c53cbdd302057e0ff58d9b35ec35e00ea4",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/easy-slide": "*"
                 },
-                "time": "2016-03-22 13:36:57",
+                "time": "2016-03-24 14:30:01",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -114,19 +114,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "674d563b8adb8d09ca660711b10af9cbc01e8d1c"
+                    "reference": "027a4ba9d24f583bedcb40850f8bf8265a75b346"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/674d563b8adb8d09ca660711b10af9cbc01e8d1c",
-                    "reference": "674d563b8adb8d09ca660711b10af9cbc01e8d1c",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/027a4ba9d24f583bedcb40850f8bf8265a75b346",
+                    "reference": "027a4ba9d24f583bedcb40850f8bf8265a75b346",
                     "shasum": ""
                 },
                 "require": {
                     "argento/theme-frontend-blank": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-22 12:46:44",
+                "time": "2016-03-24 14:34:40",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -387,19 +387,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "74ad7f47915cabfe8249a997334f6cfcebd09e7e"
+                    "reference": "28f3873cb59a0069f9999407b68e0f65ce233149"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/74ad7f47915cabfe8249a997334f6cfcebd09e7e",
-                    "reference": "74ad7f47915cabfe8249a997334f6cfcebd09e7e",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/28f3873cb59a0069f9999407b68e0f65ce233149",
+                    "reference": "28f3873cb59a0069f9999407b68e0f65ce233149",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-21 15:54:14",
+                "time": "2016-03-24 14:02:51",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -650,26 +650,26 @@
                     "issues": "https://github.com/swissup/easyslide/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/easy-slide",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easyslide.git",
-                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a"
+                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easyslide/zipball/051b5f73414a030c73893dac4a1a537568119f9a",
-                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a",
+                    "url": "https://api.github.com/repos/swissup/easyslide/zipball/d938e17f3661337dffd6e40d0c33d3ebf682762d",
+                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-14 15:02:53",
+                "time": "2016-03-24 08:07:26",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -683,7 +683,81 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/easyslide/tree/1.0.0",
+                    "source": "https://github.com/swissup/easyslide/tree/1.0.1",
+                    "issues": "https://github.com/swissup/easyslide/issues"
+                }
+            },
+            "1.0.2": {
+                "name": "swissup/easy-slide",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/easyslide.git",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyslide/zipball/35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-24 09:13:13",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easyslide/tree/1.0.2",
+                    "issues": "https://github.com/swissup/easyslide/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easy-slide",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/easyslide.git",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyslide/zipball/35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-24 09:13:13",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easyslide/tree/1.0.2",
                     "issues": "https://github.com/swissup/easyslide/issues"
                 }
             }
@@ -1550,18 +1624,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/theme-frontend-absolute.git",
-                    "reference": "bd9f1928aa1ec920ae2f0e0b1130693053ac8cb3"
+                    "reference": "877caf3e4b59ac908a3a6e598514231e518ce48d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/bd9f1928aa1ec920ae2f0e0b1130693053ac8cb3",
-                    "reference": "bd9f1928aa1ec920ae2f0e0b1130693053ac8cb3",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/877caf3e4b59ac908a3a6e598514231e518ce48d",
+                    "reference": "877caf3e4b59ac908a3a6e598514231e518ce48d",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-16 14:44:53",
+                "time": "2016-03-23 15:38:44",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

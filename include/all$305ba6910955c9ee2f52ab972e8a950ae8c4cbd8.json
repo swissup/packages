@@ -42,12 +42,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "08dbacf4766534c42f25a269dae2c5f5bd8406b6"
+                    "reference": "f9972f8bfdd3133b5ee8f77aa1eb74d06775ef86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/08dbacf4766534c42f25a269dae2c5f5bd8406b6",
-                    "reference": "08dbacf4766534c42f25a269dae2c5f5bd8406b6",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/f9972f8bfdd3133b5ee8f77aa1eb74d06775ef86",
+                    "reference": "f9972f8bfdd3133b5ee8f77aa1eb74d06775ef86",
                     "shasum": ""
                 },
                 "require": {
@@ -56,7 +56,7 @@
                     "swissup/easycatalogimg": "*",
                     "swissup/highlight": "*"
                 },
-                "time": "2016-03-25 14:59:38",
+                "time": "2016-03-25 16:03:03",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -116,19 +116,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "ed056d98d5e9c74e87b95f1d198e5bf8521d6dc2"
+                    "reference": "5878ae3b21070f11fa19a42f945de4a538e5fea0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/ed056d98d5e9c74e87b95f1d198e5bf8521d6dc2",
-                    "reference": "ed056d98d5e9c74e87b95f1d198e5bf8521d6dc2",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/5878ae3b21070f11fa19a42f945de4a538e5fea0",
+                    "reference": "5878ae3b21070f11fa19a42f945de4a538e5fea0",
                     "shasum": ""
                 },
                 "require": {
                     "argento/theme-frontend-blank": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-25 14:57:48",
+                "time": "2016-03-28 06:36:17",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -1617,6 +1617,44 @@
             }
         },
         "swissup/testimonials": {
+            "1.0.0": {
+                "name": "swissup/testimonials",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/testimonials.git",
+                    "reference": "2a2440504edde112b9ef19cc915b5ae4d54f2e28"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/2a2440504edde112b9ef19cc915b5ae4d54f2e28",
+                    "reference": "2a2440504edde112b9ef19cc915b5ae4d54f2e28",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-24 14:58:48",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
+                    "issues": "https://github.com/swissup/testimonials/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/testimonials",
                 "version": "dev-master",
@@ -1651,7 +1689,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             }

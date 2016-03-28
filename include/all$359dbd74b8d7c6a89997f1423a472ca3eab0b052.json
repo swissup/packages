@@ -843,6 +843,44 @@
             }
         },
         "swissup/easytabs": {
+            "1.0.0": {
+                "name": "swissup/easytabs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/easytabs.git",
+                    "reference": "e507e54131159ca3bff499c0d068975d6e4fc775"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/e507e54131159ca3bff499c0d068975d6e4fc775",
+                    "reference": "e507e54131159ca3bff499c0d068975d6e4fc775",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-02-17 15:21:12",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "issues": "https://github.com/swissup/easytabs/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/easytabs",
                 "version": "dev-master",
@@ -1386,6 +1424,44 @@
             }
         },
         "swissup/reviewreminder": {
+            "1.0.0": {
+                "name": "swissup/reviewreminder",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/reviewreminder.git",
+                    "reference": "b56028edbbadb1f4bfabf2dfbe0675d75fe858bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/reviewreminder/zipball/b56028edbbadb1f4bfabf2dfbe0675d75fe858bf",
+                    "reference": "b56028edbbadb1f4bfabf2dfbe0675d75fe858bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-01-22 10:01:38",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Reviewreminder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Review Reminder extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
+                    "issues": "https://github.com/swissup/reviewreminder/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/reviewreminder",
                 "version": "dev-master",

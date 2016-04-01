@@ -1,6 +1,42 @@
 {
     "packages": {
         "argento/m2": {
+            "0.1.0": {
+                "name": "argento/m2",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/m2.git",
+                    "reference": "d2dd823f275346ea30ce6ec46a3367458153092e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/d2dd823f275346ea30ce6ec46a3367458153092e",
+                    "reference": "d2dd823f275346ea30ce6ec46a3367458153092e",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "*",
+                    "argento/theme-frontend-essence": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/easy-slide": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/highlight": "*",
+                    "swissup/slick-carousel": "*",
+                    "swissup/sold-together": "*"
+                },
+                "time": "2016-04-01 07:07:31",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/master",
+                    "issues": "https://github.com/argento/m2/issues"
+                }
+            },
             "dev-master": {
                 "name": "argento/m2",
                 "version": "dev-master",

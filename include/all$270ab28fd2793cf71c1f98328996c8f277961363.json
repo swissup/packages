@@ -457,26 +457,26 @@
             }
         },
         "swissup/ajaxsearch": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "760fadbc2d7202abf675ef4fcaee18be8557165f"
+                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/760fadbc2d7202abf675ef4fcaee18be8557165f",
-                    "reference": "760fadbc2d7202abf675ef4fcaee18be8557165f",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f",
+                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-15 10:36:37",
+                "time": "2016-04-01 09:28:35",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -491,7 +491,45 @@
                 ],
                 "description": "Advanced ajax search",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/master",
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.0.0",
+                    "issues": "https://github.com/swissup/ajaxsearch/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxsearch.git",
+                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f",
+                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-01 09:28:35",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "support": {
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.0.0",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             }

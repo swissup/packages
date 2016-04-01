@@ -232,19 +232,19 @@
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
-            "dev-master": {
+            "0.7.0": {
                 "name": "argento/m2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.7.0",
+                "version_normalized": "0.7.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/argento/m2.git",
-                    "reference": "bc55dc8c1561b18543243b34f39f5a971b14d6a6"
+                    "reference": "47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/m2/zipball/bc55dc8c1561b18543243b34f39f5a971b14d6a6",
-                    "reference": "bc55dc8c1561b18543243b34f39f5a971b14d6a6",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6",
+                    "reference": "47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6",
                     "shasum": ""
                 },
                 "require": {
@@ -252,24 +252,71 @@
                     "argento/theme-frontend-essence": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/ajaxsearch": "*",
+                    "swissup/askit": "*",
                     "swissup/easy-slide": "*",
                     "swissup/easycatalogimg": "*",
                     "swissup/easytabs": "*",
+                    "swissup/fblike": "*",
                     "swissup/highlight": "*",
                     "swissup/pro-labels": "*",
+                    "swissup/reviewreminder": "*",
                     "swissup/rich-snippets": "*",
                     "swissup/slick-carousel": "*",
                     "swissup/sold-together": "*",
                     "swissup/testimonials": "*"
                 },
-                "time": "2016-04-01 09:13:17",
+                "time": "2016-04-01 10:46:29",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.6.0",
+                    "source": "https://github.com/argento/m2/tree/0.7.0",
+                    "issues": "https://github.com/argento/m2/issues"
+                }
+            },
+            "dev-master": {
+                "name": "argento/m2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/m2.git",
+                    "reference": "47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6",
+                    "reference": "47b27a49fcaadf13d2c9ae6c55fcd719b9e2dae6",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "*",
+                    "argento/theme-frontend-essence": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/ajaxsearch": "*",
+                    "swissup/askit": "*",
+                    "swissup/easy-slide": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/easytabs": "*",
+                    "swissup/fblike": "*",
+                    "swissup/highlight": "*",
+                    "swissup/pro-labels": "*",
+                    "swissup/reviewreminder": "*",
+                    "swissup/rich-snippets": "*",
+                    "swissup/slick-carousel": "*",
+                    "swissup/sold-together": "*",
+                    "swissup/testimonials": "*"
+                },
+                "time": "2016-04-01 10:46:29",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/0.7.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             }
@@ -316,18 +363,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "db214921de00b15b834983a95db5aa16270f750a"
+                    "reference": "e8d8fe281fac9f554b0257ecfc106dfaa71a8b3a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/db214921de00b15b834983a95db5aa16270f750a",
-                    "reference": "db214921de00b15b834983a95db5aa16270f750a",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/e8d8fe281fac9f554b0257ecfc106dfaa71a8b3a",
+                    "reference": "e8d8fe281fac9f554b0257ecfc106dfaa71a8b3a",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-04-01 09:04:04",
+                "time": "2016-04-01 10:34:53",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -464,19 +511,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f"
+                    "reference": "ba10bee30c3bbfbde5b50f7899d607220df10e3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f",
-                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/ba10bee30c3bbfbde5b50f7899d607220df10e3e",
+                    "reference": "ba10bee30c3bbfbde5b50f7899d607220df10e3e",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 09:28:35",
+                "time": "2016-04-01 10:15:31",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -502,19 +549,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f"
+                    "reference": "ba10bee30c3bbfbde5b50f7899d607220df10e3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f",
-                    "reference": "5975c867293082ec1eb9fc495353de056e599c5f",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/ba10bee30c3bbfbde5b50f7899d607220df10e3e",
+                    "reference": "ba10bee30c3bbfbde5b50f7899d607220df10e3e",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 09:28:35",
+                "time": "2016-04-01 10:15:31",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

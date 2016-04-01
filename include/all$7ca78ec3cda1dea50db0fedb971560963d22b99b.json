@@ -33,7 +33,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -2004,7 +2004,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -2041,7 +2041,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             }
@@ -2337,30 +2337,30 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/testimonials",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/testimonials.git",
-                    "reference": "2a2440504edde112b9ef19cc915b5ae4d54f2e28"
+                    "reference": "ab0d4e245d0e3ba5646e6e1f3b0861f55d761985"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/2a2440504edde112b9ef19cc915b5ae4d54f2e28",
-                    "reference": "2a2440504edde112b9ef19cc915b5ae4d54f2e28",
+                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/ab0d4e245d0e3ba5646e6e1f3b0861f55d761985",
+                    "reference": "ab0d4e245d0e3ba5646e6e1f3b0861f55d761985",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-24 14:58:48",
+                "time": "2016-04-01 11:18:54",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2375,7 +2375,45 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.1",
+                    "issues": "https://github.com/swissup/testimonials/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/testimonials",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/testimonials.git",
+                    "reference": "ab0d4e245d0e3ba5646e6e1f3b0861f55d761985"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/ab0d4e245d0e3ba5646e6e1f3b0861f55d761985",
+                    "reference": "ab0d4e245d0e3ba5646e6e1f3b0861f55d761985",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-01 11:18:54",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.1",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             }

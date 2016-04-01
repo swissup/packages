@@ -1,5 +1,43 @@
 {
     "packages": {
+        "argento/m2": {
+            "dev-master": {
+                "name": "argento/m2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/m2.git",
+                    "reference": "d2dd823f275346ea30ce6ec46a3367458153092e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/d2dd823f275346ea30ce6ec46a3367458153092e",
+                    "reference": "d2dd823f275346ea30ce6ec46a3367458153092e",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "*",
+                    "argento/theme-frontend-essence": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/easy-slide": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/highlight": "*",
+                    "swissup/slick-carousel": "*",
+                    "swissup/sold-together": "*"
+                },
+                "time": "2016-04-01 07:07:31",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/master",
+                    "issues": "https://github.com/argento/m2/issues"
+                }
+            }
+        },
         "argento/theme-frontend-blank": {
             "0.1.0": {
                 "name": "argento/theme-frontend-blank",
@@ -42,22 +80,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "c6d42e41083ceef09b0b3e4ef5fa67c0e6b6c66e"
+                    "reference": "c04298f0905cab53ff705e1e7a5d78c9fd342a54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/c6d42e41083ceef09b0b3e4ef5fa67c0e6b6c66e",
-                    "reference": "c6d42e41083ceef09b0b3e4ef5fa67c0e6b6c66e",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/c04298f0905cab53ff705e1e7a5d78c9fd342a54",
+                    "reference": "c04298f0905cab53ff705e1e7a5d78c9fd342a54",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/easy-slide": "*",
-                    "swissup/easycatalogimg": "*",
-                    "swissup/highlight": "*",
-                    "swissup/slick-carousel": "*"
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-03-31 13:03:15",
+                "time": "2016-04-01 07:09:28",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

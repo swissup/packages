@@ -44,7 +44,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Swissup Packages Composer Repository
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-04-04T04:36:24-0700">Mon, 04 Apr 2016 04:36:24 -0700</time>
+                Last updated: <time datetime="2016-04-04T05:34:36-0700">Mon, 04 Apr 2016 05:34:36 -0700</time>
             </div>
         </div>
         <div id="bd">
@@ -62,6 +62,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
+                <div id="package-list">
                                     <div>
                         <h3 id="argento/m2">argento/m2</h3>
                                                     <p>Argento for Magento 2.x</p>
@@ -570,6 +571,35 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
+                        <h3 id="swissup/font-awesome">swissup/font-awesome</h3>
+                                                    <p>Adds and replaces all Magento2 icons with FontAwesome</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>GPL</td>
+                                </tr>
+                                                                                                                <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/swissup/font-awesome/tree/0.1.0">https://github.com/swissup/font-awesome/tree/0.1.0</a></li>
+                                                                            <li>Issues: <a href="https://github.com/swissup/font-awesome/issues">https://github.com/swissup/font-awesome/issues</a></li>
+                                                                        </ul>
+                                </tr>
+                            </td>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/swissup/font-awesome/zipball/356ffb8489c2c3c8eeefaafc91e879a86d53d9fd" title="356ffb8489c2c3c8eeefaafc91e879a86d53d9fd">dev-master</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/356ffb8489c2c3c8eeefaafc91e879a86d53d9fd" title="356ffb8489c2c3c8eeefaafc91e879a86d53d9fd">0.1.0</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
                         <h3 id="swissup/highlight">swissup/highlight</h3>
                                                     <p>Various product listing widgets with flexible filters</p>
                                                 <table>
@@ -705,7 +735,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/1.0.0">https://github.com/swissup/richsnippets/tree/1.0.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/master">https://github.com/swissup/richsnippets/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/richsnippets/issues">https://github.com/swissup/richsnippets/issues</a></li>
                                                                         </ul>
                                 </tr>
@@ -879,10 +909,11 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </tr>
                         </table>
                     </div>
-                            </div>
+                                </div>
+            </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-04-04T04:36:24-0700</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-04-04T05:34:36-0700</small></p>
         </div>
     </div>
 
@@ -906,10 +937,12 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
             var ms = 350; // milliseconds
             var needle = $(this).val().toLowerCase(), show;
             timer = setTimeout(function() {
+                $('#package-list').hide();
                 packages.each(function(){
                     show = $(this).text().toLowerCase().indexOf(needle) != -1;
                     $(this).parent().toggle(show);
                 });
+                $('#package-list').show();
             }, ms);
         }).focus();
         $('input#search').change(function(){
@@ -931,7 +964,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-04-04T04:36:24-0700').fromNow());
+            $lastUpdate.text(moment('2016-04-04T05:34:36-0700').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

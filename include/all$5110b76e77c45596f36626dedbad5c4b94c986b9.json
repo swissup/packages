@@ -1460,7 +1460,7 @@
                 ],
                 "description": "Easy Catalog Images extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.0",
+                    "source": "https://github.com/swissup/easycatalogimg/tree/master",
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             },
@@ -1576,7 +1576,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.0.0",
+                    "source": "https://github.com/swissup/easytabs/tree/master",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -1812,26 +1812,26 @@
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/fblike",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/fblike.git",
-                    "reference": "2ca11a8425a1e2add392fc070bd2c97e95981c73"
+                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/fblike/zipball/2ca11a8425a1e2add392fc070bd2c97e95981c73",
-                    "reference": "2ca11a8425a1e2add392fc070bd2c97e95981c73",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
+                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 19:17:16",
+                "time": "2016-04-04 11:26:22",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1845,7 +1845,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/1.0.1",
+                    "source": "https://github.com/swissup/fblike/tree/1.0.2",
+                    "issues": "https://github.com/swissup/fblike/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/fblike",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/fblike.git",
+                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
+                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-04 11:26:22",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/fblike/tree/1.0.2",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             }
@@ -2308,7 +2345,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.0",
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },
@@ -2423,7 +2460,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -2460,7 +2497,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             }
@@ -2955,19 +2992,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/theme-frontend-absolute.git",
-                    "reference": "b6b172e722dc643f76ba040acdd2efbaabc31db1"
+                    "reference": "3acba79d2e108eaca9f5864e174583bd4d5f3d33"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/b6b172e722dc643f76ba040acdd2efbaabc31db1",
-                    "reference": "b6b172e722dc643f76ba040acdd2efbaabc31db1",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/3acba79d2e108eaca9f5864e174583bd4d5f3d33",
+                    "reference": "3acba79d2e108eaca9f5864e174583bd4d5f3d33",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-04-01 14:35:58",
+                "time": "2016-04-01 23:13:45",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

@@ -33,7 +33,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -362,23 +362,23 @@
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
-            "dev-master": {
+            "0.8.2": {
                 "name": "argento/m2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/m2.git",
-                    "reference": "a451d6982dafc284f4698c9f662790d41f51ebd0"
+                    "reference": "8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/m2/zipball/a451d6982dafc284f4698c9f662790d41f51ebd0",
-                    "reference": "a451d6982dafc284f4698c9f662790d41f51ebd0",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11",
+                    "reference": "8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11",
                     "shasum": ""
                 },
                 "require": {
-                    "argento/theme-frontend-blank": "0.8.0",
+                    "argento/theme-frontend-blank": "0.8.1",
                     "argento/theme-frontend-essence": "0.8.0",
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/ajaxsearch": "1.0.0",
@@ -386,6 +386,7 @@
                     "swissup/easycatalogimg": "1.0.1",
                     "swissup/easytabs": "1.0.1",
                     "swissup/fblike": "1.0.1",
+                    "swissup/font-awesome": "0.2.0",
                     "swissup/highlight": "1.0.2",
                     "swissup/pro-labels": "1.0.2",
                     "swissup/reviewreminder": "1.0.1",
@@ -394,14 +395,58 @@
                     "swissup/sold-together": "1.0.1",
                     "swissup/testimonials": "1.0.2"
                 },
-                "time": "2016-04-01 19:27:55",
+                "time": "2016-04-04 14:30:48",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.1",
+                    "source": "https://github.com/argento/m2/tree/0.8.2",
+                    "issues": "https://github.com/argento/m2/issues"
+                }
+            },
+            "dev-master": {
+                "name": "argento/m2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/m2.git",
+                    "reference": "8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11",
+                    "reference": "8c88c5d7f20ecf2b6311ff5edd80f324a6ff2a11",
+                    "shasum": ""
+                },
+                "require": {
+                    "argento/theme-frontend-blank": "0.8.1",
+                    "argento/theme-frontend-essence": "0.8.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/ajaxsearch": "1.0.0",
+                    "swissup/easy-slide": "1.0.5",
+                    "swissup/easycatalogimg": "1.0.1",
+                    "swissup/easytabs": "1.0.1",
+                    "swissup/fblike": "1.0.1",
+                    "swissup/font-awesome": "0.2.0",
+                    "swissup/highlight": "1.0.2",
+                    "swissup/pro-labels": "1.0.2",
+                    "swissup/reviewreminder": "1.0.1",
+                    "swissup/rich-snippets": "1.0.0",
+                    "swissup/slick-carousel": "1.0.0",
+                    "swissup/sold-together": "1.0.1",
+                    "swissup/testimonials": "1.0.2"
+                },
+                "time": "2016-04-04 14:30:48",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/0.8.2",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             }
@@ -482,18 +527,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "5cf841ffa465f22f48684b53c99557d33f8bab8f"
+                    "reference": "f0ca0550c753373979508a6376c6da5277992613"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/5cf841ffa465f22f48684b53c99557d33f8bab8f",
-                    "reference": "5cf841ffa465f22f48684b53c99557d33f8bab8f",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/f0ca0550c753373979508a6376c6da5277992613",
+                    "reference": "f0ca0550c753373979508a6376c6da5277992613",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-04-01 12:57:00",
+                "time": "2016-04-04 14:30:03",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -505,7 +550,7 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.8.0",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.8.2",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             }
@@ -625,19 +670,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "9386b209ba56f317da2e571114c41d3f88b6403b"
+                    "reference": "c691d3060a289e7a8700dd76df951a7b62e0e1a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/9386b209ba56f317da2e571114c41d3f88b6403b",
-                    "reference": "9386b209ba56f317da2e571114c41d3f88b6403b",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/c691d3060a289e7a8700dd76df951a7b62e0e1a9",
+                    "reference": "c691d3060a289e7a8700dd76df951a7b62e0e1a9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-03-31 11:27:32",
+                "time": "2016-04-11 14:45:42",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -703,19 +748,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "4bf3bd26c703f977374ed6d26feddcf45a1b4ac9"
+                    "reference": "557a5df950117077a6caeffab5618965c81fe5e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/4bf3bd26c703f977374ed6d26feddcf45a1b4ac9",
-                    "reference": "4bf3bd26c703f977374ed6d26feddcf45a1b4ac9",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/557a5df950117077a6caeffab5618965c81fe5e7",
+                    "reference": "557a5df950117077a6caeffab5618965c81fe5e7",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 11:55:37",
+                "time": "2016-04-05 14:43:25",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -899,19 +944,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "1fcb0340a7b6c94e4a0698f11a17c0612ae89dfc"
+                    "reference": "dcbc0aeecc0470b412e89d70fe23d2f2020ee699"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/1fcb0340a7b6c94e4a0698f11a17c0612ae89dfc",
-                    "reference": "1fcb0340a7b6c94e4a0698f11a17c0612ae89dfc",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/dcbc0aeecc0470b412e89d70fe23d2f2020ee699",
+                    "reference": "dcbc0aeecc0470b412e89d70fe23d2f2020ee699",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 14:06:59",
+                "time": "2016-04-05 08:31:32",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1963,18 +2008,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/font-awesome.git",
-                    "reference": "bb7b8cbacde3a719d4ae0a78b66a42583f438bd2"
+                    "reference": "cbcd0f5123d7a990f8e029420a7c820c0e5913f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/bb7b8cbacde3a719d4ae0a78b66a42583f438bd2",
-                    "reference": "bb7b8cbacde3a719d4ae0a78b66a42583f438bd2",
+                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/cbcd0f5123d7a990f8e029420a7c820c0e5913f9",
+                    "reference": "cbcd0f5123d7a990f8e029420a7c820c0e5913f9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-04-04 12:48:33",
+                "time": "2016-04-04 13:43:59",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1984,9 +2029,9 @@
                 "license": [
                     "GPL"
                 ],
-                "description": "Adds and replaces all Magento2 icons with FontAwesome",
+                "description": "FontAwesome in Magento2",
                 "support": {
-                    "source": "https://github.com/swissup/font-awesome/tree/0.2.0",
+                    "source": "https://github.com/swissup/font-awesome/tree/master",
                     "issues": "https://github.com/swissup/font-awesome/issues"
                 }
             }
@@ -2375,26 +2420,26 @@
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47"
+                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47",
-                    "reference": "69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
+                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 12:09:25",
+                "time": "2016-04-06 13:40:24",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2409,7 +2454,45 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.2",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.3",
+                    "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/prolabels.git",
+                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
+                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-06 13:40:24",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.3",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -2564,7 +2647,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -2601,7 +2684,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             }
@@ -2934,7 +3017,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
@@ -3089,26 +3172,25 @@
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             },
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/theme-frontend-absolute",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/theme-frontend-absolute.git",
-                    "reference": "3acba79d2e108eaca9f5864e174583bd4d5f3d33"
+                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/3acba79d2e108eaca9f5864e174583bd4d5f3d33",
-                    "reference": "3acba79d2e108eaca9f5864e174583bd4d5f3d33",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab",
+                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/slick-carousel": "*"
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-04-01 23:13:45",
+                "time": "2016-04-13 12:10:21",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -3118,9 +3200,43 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "N/A",
+                "description": "Absolute Theme for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/master",
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.0.0",
+                    "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-absolute",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/theme-frontend-absolute.git",
+                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab",
+                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-04-13 12:10:21",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Absolute Theme for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.0.0",
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             }

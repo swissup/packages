@@ -44,7 +44,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Swissup Packages Composer Repository
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-04-14T06:26:50-0700">Thu, 14 Apr 2016 06:26:50 -0700</time>
+                Last updated: <time datetime="2016-04-15T01:11:43-0700">Fri, 15 Apr 2016 01:11:43 -0700</time>
             </div>
         </div>
         <div id="bd">
@@ -62,7 +62,6 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
-                <div id="package-list">
                                     <div>
                         <h3 id="swissup/ajaxpro">swissup/ajaxpro</h3>
                                                     <p>Magento2 module Streamline add to cart function and remove interruptions from the shopping process</p>
@@ -674,7 +673,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/master">https://github.com/swissup/richsnippets/tree/master</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/1.0.0">https://github.com/swissup/richsnippets/tree/1.0.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/richsnippets/issues">https://github.com/swissup/richsnippets/issues</a></li>
                                                                         </ul>
                                 </tr>
@@ -831,7 +830,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/theme-frontend-absolute/tree/1.0.0">https://github.com/swissup/theme-frontend-absolute/tree/1.0.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/theme-frontend-absolute/tree/1.0.1">https://github.com/swissup/theme-frontend-absolute/tree/1.0.1</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/theme-frontend-absolute/issues">https://github.com/swissup/theme-frontend-absolute/issues</a></li>
                                                                         </ul>
                                 </tr>
@@ -839,7 +838,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab" title="4db8e7679ee165aad7288e743652cc8a7a737eab">dev-master</a>, <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab" title="4db8e7679ee165aad7288e743652cc8a7a737eab">1.0.0</a>, <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/14ef0f55b5072b203a9104a18b9a586723fc98cd" title="14ef0f55b5072b203a9104a18b9a586723fc98cd">0.1.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/7720dd7961c31009aa2e5216f37ed442639931a2" title="7720dd7961c31009aa2e5216f37ed442639931a2">dev-master</a>, <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/7720dd7961c31009aa2e5216f37ed442639931a2" title="7720dd7961c31009aa2e5216f37ed442639931a2">1.0.1</a>, <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab" title="4db8e7679ee165aad7288e743652cc8a7a737eab">1.0.0</a>, <a href="https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/14ef0f55b5072b203a9104a18b9a586723fc98cd" title="14ef0f55b5072b203a9104a18b9a586723fc98cd">0.1.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -913,11 +912,10 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </tr>
                         </table>
                     </div>
-                                </div>
-            </div>
+                            </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-04-14T06:26:50-0700</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-04-15T01:11:43-0700</small></p>
         </div>
     </div>
 
@@ -941,12 +939,10 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
             var ms = 350; // milliseconds
             var needle = $(this).val().toLowerCase(), show;
             timer = setTimeout(function() {
-                $('#package-list').hide();
                 packages.each(function(){
                     show = $(this).text().toLowerCase().indexOf(needle) != -1;
                     $(this).parent().toggle(show);
                 });
-                $('#package-list').show();
             }, ms);
         }).focus();
         $('input#search').change(function(){
@@ -968,7 +964,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-04-14T06:26:50-0700').fromNow());
+            $lastUpdate.text(moment('2016-04-15T01:11:43-0700').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

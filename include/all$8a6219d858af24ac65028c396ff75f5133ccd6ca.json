@@ -229,7 +229,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -2604,7 +2604,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -2641,7 +2641,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             }
@@ -3014,7 +3014,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
@@ -3203,25 +3203,25 @@
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/theme-frontend-absolute",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/theme-frontend-absolute.git",
-                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab"
+                    "reference": "7720dd7961c31009aa2e5216f37ed442639931a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/4db8e7679ee165aad7288e743652cc8a7a737eab",
-                    "reference": "4db8e7679ee165aad7288e743652cc8a7a737eab",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/7720dd7961c31009aa2e5216f37ed442639931a2",
+                    "reference": "7720dd7961c31009aa2e5216f37ed442639931a2",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-04-13 12:10:21",
+                "time": "2016-04-15 08:02:35",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -3233,7 +3233,41 @@
                 ],
                 "description": "Absolute Theme for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.0.0",
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.0.1",
+                    "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-absolute",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/theme-frontend-absolute.git",
+                    "reference": "7720dd7961c31009aa2e5216f37ed442639931a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/7720dd7961c31009aa2e5216f37ed442639931a2",
+                    "reference": "7720dd7961c31009aa2e5216f37ed442639931a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-04-15 08:02:35",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Absolute Theme for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.0.1",
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             }

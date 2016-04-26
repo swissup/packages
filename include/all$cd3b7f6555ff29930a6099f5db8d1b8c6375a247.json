@@ -2358,6 +2358,60 @@
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             },
+            "1.0.3": {
+                "name": "swissup/highlight",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/highlight.git",
+                    "reference": "4eec38d350f86405d07700b9cbb7e2a943b0072d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/highlight/zipball/4eec38d350f86405d07700b9cbb7e2a943b0072d",
+                    "reference": "4eec38d350f86405d07700b9cbb7e2a943b0072d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-26 08:57:27",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-highlight.html",
+                            "store": "https://swissuplabs.com/magento-extensions/magento-custom-product-list-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/highlight/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/highlight/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Highlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Various product listing widgets with flexible filters",
+                "keywords": [
+                    "highlight",
+                    "product listing",
+                    "widgets"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "issues": "https://github.com/swissup/highlight/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/highlight",
                 "version": "dev-master",

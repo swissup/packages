@@ -365,7 +365,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -869,7 +869,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -914,7 +914,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             }
@@ -1196,18 +1196,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "934867181f51eb3d2a884d3b4a1b58f7ac5e46dc"
+                    "reference": "83c4b5a7b7e9ffb04c3ef95abcb463942d89d018"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/934867181f51eb3d2a884d3b4a1b58f7ac5e46dc",
-                    "reference": "934867181f51eb3d2a884d3b4a1b58f7ac5e46dc",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/83c4b5a7b7e9ffb04c3ef95abcb463942d89d018",
+                    "reference": "83c4b5a7b7e9ffb04c3ef95abcb463942d89d018",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-05-11 15:09:19",
+                "time": "2016-05-13 12:20:47",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1727,19 +1727,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "166de70d011d262468a36ab8a1c3259aa54d1e23"
+                    "reference": "caa11ae2e23f85c5e1578a9b6fad186fdef4fc0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/166de70d011d262468a36ab8a1c3259aa54d1e23",
-                    "reference": "166de70d011d262468a36ab8a1c3259aa54d1e23",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/caa11ae2e23f85c5e1578a9b6fad186fdef4fc0e",
+                    "reference": "caa11ae2e23f85c5e1578a9b6fad186fdef4fc0e",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-05-05 09:18:48",
+                "time": "2016-05-13 20:05:58",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1753,7 +1753,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/easybanner/tree/1.0.1",
+                    "source": "https://github.com/swissup/easybanner/tree/master",
                     "issues": "https://github.com/swissup/easybanner/issues"
                 }
             }
@@ -1873,26 +1873,26 @@
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/easycatalogimg",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easycatalogimg.git",
-                    "reference": "fc1653d23f11b6e2740e5d5acc6de2db27ad967b"
+                    "reference": "83583f7c9ebfd3cbc51e3681fe80026483998dae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/fc1653d23f11b6e2740e5d5acc6de2db27ad967b",
-                    "reference": "fc1653d23f11b6e2740e5d5acc6de2db27ad967b",
+                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/83583f7c9ebfd3cbc51e3681fe80026483998dae",
+                    "reference": "83583f7c9ebfd3cbc51e3681fe80026483998dae",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-21 13:24:26",
+                "time": "2016-05-16 07:02:06",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1907,7 +1907,45 @@
                 ],
                 "description": "Easy Catalog Images extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.2",
+                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.3",
+                    "issues": "https://github.com/swissup/easycatalogimg/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easycatalogimg",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/easycatalogimg.git",
+                    "reference": "83583f7c9ebfd3cbc51e3681fe80026483998dae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/83583f7c9ebfd3cbc51e3681fe80026483998dae",
+                    "reference": "83583f7c9ebfd3cbc51e3681fe80026483998dae",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-16 07:02:06",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easycatalogimg\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Catalog Images extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.3",
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             }
@@ -2220,26 +2258,26 @@
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/fblike",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/fblike.git",
-                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c"
+                    "reference": "ad1aae1eb1335b01bdf7b74038127192305d993a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/fblike/zipball/911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
-                    "reference": "911c31be2c0e6889aae1d3047a1fef45f33f9b1c",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/ad1aae1eb1335b01bdf7b74038127192305d993a",
+                    "reference": "ad1aae1eb1335b01bdf7b74038127192305d993a",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-04 11:26:22",
+                "time": "2016-05-16 07:08:18",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2253,7 +2291,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/1.0.2",
+                    "source": "https://github.com/swissup/fblike/tree/1.0.3",
+                    "issues": "https://github.com/swissup/fblike/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/fblike",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/fblike.git",
+                    "reference": "ad1aae1eb1335b01bdf7b74038127192305d993a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/ad1aae1eb1335b01bdf7b74038127192305d993a",
+                    "reference": "ad1aae1eb1335b01bdf7b74038127192305d993a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-16 07:08:18",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/fblike/tree/1.0.3",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             }
@@ -2643,7 +2718,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             },
@@ -2697,7 +2772,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             }
@@ -3120,7 +3195,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -3604,7 +3679,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
@@ -4113,19 +4188,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "a274015194b8310d11a33e01d0e4e2139ac82703"
+                    "reference": "a0501f9bae144b34330b013eb9e542c028e1751f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/a274015194b8310d11a33e01d0e4e2139ac82703",
-                    "reference": "a274015194b8310d11a33e01d0e4e2139ac82703",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/a0501f9bae144b34330b013eb9e542c028e1751f",
+                    "reference": "a0501f9bae144b34330b013eb9e542c028e1751f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2016-05-13 08:03:31",
+                "time": "2016-05-13 12:22:10",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

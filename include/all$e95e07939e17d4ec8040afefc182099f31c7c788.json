@@ -365,7 +365,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.1.0",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -1196,18 +1196,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "cd1f983ed90a8afcc03c3755533670449eea113c"
+                    "reference": "f7645522ac495d869caf4c6c1a4a0776594c4dbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/cd1f983ed90a8afcc03c3755533670449eea113c",
-                    "reference": "cd1f983ed90a8afcc03c3755533670449eea113c",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/f7645522ac495d869caf4c6c1a4a0776594c4dbb",
+                    "reference": "f7645522ac495d869caf4c6c1a4a0776594c4dbb",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-05-16 07:15:32",
+                "time": "2016-05-16 15:04:31",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2718,7 +2718,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
+                    "source": "https://github.com/swissup/highlight/tree/master",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             },
@@ -2772,7 +2772,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
+                    "source": "https://github.com/swissup/highlight/tree/master",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             }
@@ -3195,7 +3195,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
+                    "source": "https://github.com/swissup/richsnippets/tree/master",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -3530,26 +3530,26 @@
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "8daf185eeaa1d380c2242d0b2e3256e87cb2c5df"
+                    "reference": "dabcb1a978bf9b07e1bf688b9207189b1c9f079c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/8daf185eeaa1d380c2242d0b2e3256e87cb2c5df",
-                    "reference": "8daf185eeaa1d380c2242d0b2e3256e87cb2c5df",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/dabcb1a978bf9b07e1bf688b9207189b1c9f079c",
+                    "reference": "dabcb1a978bf9b07e1bf688b9207189b1c9f079c",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-05-12 13:53:17",
+                "time": "2016-05-16 12:44:24",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3563,7 +3563,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/1.0.2",
+                    "source": "https://github.com/swissup/soldtogether/tree/1.0.3",
+                    "issues": "https://github.com/swissup/soldtogether/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/soldtogether.git",
+                    "reference": "dabcb1a978bf9b07e1bf688b9207189b1c9f079c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/dabcb1a978bf9b07e1bf688b9207189b1c9f079c",
+                    "reference": "dabcb1a978bf9b07e1bf688b9207189b1c9f079c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-16 12:44:24",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/soldtogether/tree/1.0.3",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }
@@ -3679,7 +3716,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
+                    "source": "https://github.com/swissup/testimonials/tree/master",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
@@ -4181,27 +4218,40 @@
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },
-            "dev-master": {
+            "0.9.0-beta": {
                 "name": "swissup/theme-frontend-argento-essence",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.0-beta",
+                "version_normalized": "0.9.0.0-beta",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "a0501f9bae144b34330b013eb9e542c028e1751f"
+                    "reference": "135addede562ab087e139491652f06a828fec3bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/a0501f9bae144b34330b013eb9e542c028e1751f",
-                    "reference": "a0501f9bae144b34330b013eb9e542c028e1751f",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/135addede562ab087e139491652f06a828fec3bb",
+                    "reference": "135addede562ab087e139491652f06a828fec3bb",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2016-05-13 12:22:10",
+                "time": "2016-05-16 15:10:57",
                 "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -4210,9 +4260,71 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "N/A",
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.0-beta",
+                    "issues": "https://github.com/argento/theme-frontend-essence/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-essence",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-essence.git",
+                    "reference": "135addede562ab087e139491652f06a828fec3bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/135addede562ab087e139491652f06a828fec3bb",
+                    "reference": "135addede562ab087e139491652f06a828fec3bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2016-05-16 15:10:57",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.0-beta",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             }

@@ -144,19 +144,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "aba8aac3e744f8c96fd449ce7a041c64a879960b"
+                    "reference": "23b3bf116879bb7ec4c6dc7f85ea48c807efd7cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/aba8aac3e744f8c96fd449ce7a041c64a879960b",
-                    "reference": "aba8aac3e744f8c96fd449ce7a041c64a879960b",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/23b3bf116879bb7ec4c6dc7f85ea48c807efd7cb",
+                    "reference": "23b3bf116879bb7ec4c6dc7f85ea48c807efd7cb",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~7.0.4",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-05-06 08:07:13",
+                "time": "2016-05-18 09:13:59",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -171,7 +171,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/1.0.0",
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
@@ -965,19 +965,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "6ece88171d11ad077e2a5e4dcb202ae7934f5e01"
+                    "reference": "2995bb4179db2f334889e7522ae7330254d2e160"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/6ece88171d11ad077e2a5e4dcb202ae7934f5e01",
-                    "reference": "6ece88171d11ad077e2a5e4dcb202ae7934f5e01",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/2995bb4179db2f334889e7522ae7330254d2e160",
+                    "reference": "2995bb4179db2f334889e7522ae7330254d2e160",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-01 12:01:18",
+                "time": "2016-05-18 08:58:16",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3117,26 +3117,26 @@
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9"
+                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
-                    "reference": "2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/1938a8e87964aadedec0138b3c4bd4987c70b4a9",
+                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-04-06 13:40:24",
+                "time": "2016-05-18 09:16:33",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3151,7 +3151,45 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.3",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/prolabels.git",
+                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/1938a8e87964aadedec0138b3c4bd4987c70b4a9",
+                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-18 09:16:33",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }

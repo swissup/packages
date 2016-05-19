@@ -441,7 +441,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -945,7 +945,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -990,7 +990,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             }
@@ -1151,19 +1151,19 @@
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/attributepages",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b"
+                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b",
-                    "reference": "79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/12d3816fd16aa09883bb7a16762841eb2e6d43d3",
+                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3",
                     "shasum": ""
                 },
                 "require": {
@@ -1171,7 +1171,7 @@
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-05-05 08:24:22",
+                "time": "2016-05-19 08:28:41",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1186,7 +1186,46 @@
                 ],
                 "description": "Attribute Pages extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.0",
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.1",
+                    "issues": "https://github.com/swissup/attributepages/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/attributepages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/attributepages.git",
+                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/12d3816fd16aa09883bb7a16762841eb2e6d43d3",
+                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2016-05-19 08:28:41",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Attributepages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Attribute Pages extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.1",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }
@@ -3017,7 +3056,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             },
@@ -3071,7 +3110,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "source": "https://github.com/swissup/highlight/tree/1.0.3",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             }
@@ -3350,19 +3389,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9"
+                    "reference": "67ea7313b23e3f8332bff46028b3f581b392c12b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/1938a8e87964aadedec0138b3c4bd4987c70b4a9",
-                    "reference": "1938a8e87964aadedec0138b3c4bd4987c70b4a9",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/67ea7313b23e3f8332bff46028b3f581b392c12b",
+                    "reference": "67ea7313b23e3f8332bff46028b3f581b392c12b",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-05-18 09:16:33",
+                "time": "2016-05-19 08:32:23",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3377,7 +3416,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -3570,7 +3609,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.0.0",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
@@ -4165,7 +4204,7 @@
                 ],
                 "description": "Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.0",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },

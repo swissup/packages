@@ -2948,7 +2948,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/1.0.4",
+                    "source": "https://github.com/swissup/fblike/tree/master",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             },
@@ -2985,7 +2985,7 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/1.0.4",
+                    "source": "https://github.com/swissup/fblike/tree/master",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             }
@@ -4412,26 +4412,26 @@
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             },
-            "dev-master": {
+            "1.0.5": {
                 "name": "swissup/sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97"
+                    "reference": "7769e60f31b746fd3f3f6cb9c6544aa05dc429a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97",
-                    "reference": "45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/7769e60f31b746fd3f3f6cb9c6544aa05dc429a0",
+                    "reference": "7769e60f31b746fd3f3f6cb9c6544aa05dc429a0",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-05-18 09:52:52",
+                "time": "2016-05-26 14:27:10",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4445,7 +4445,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/1.0.4",
+                    "source": "https://github.com/swissup/soldtogether/tree/1.0.5",
+                    "issues": "https://github.com/swissup/soldtogether/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/soldtogether.git",
+                    "reference": "7769e60f31b746fd3f3f6cb9c6544aa05dc429a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/7769e60f31b746fd3f3f6cb9c6544aa05dc429a0",
+                    "reference": "7769e60f31b746fd3f3f6cb9c6544aa05dc429a0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-26 14:27:10",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/soldtogether/tree/1.0.5",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }

@@ -945,7 +945,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -1331,19 +1331,19 @@
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/attributepages",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3"
+                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/12d3816fd16aa09883bb7a16762841eb2e6d43d3",
-                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/df407d83d1628c546588b5cfa7a81db171b2e068",
+                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068",
                     "shasum": ""
                 },
                 "require": {
@@ -1351,7 +1351,7 @@
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-05-19 08:28:41",
+                "time": "2016-06-01 08:01:25",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1366,7 +1366,46 @@
                 ],
                 "description": "Attribute Pages extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.1",
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.2",
+                    "issues": "https://github.com/swissup/attributepages/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/attributepages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/attributepages.git",
+                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/df407d83d1628c546588b5cfa7a81db171b2e068",
+                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2016-06-01 08:01:25",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Attributepages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Attribute Pages extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.2",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }
@@ -2698,7 +2737,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -2736,7 +2775,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -3832,7 +3871,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -5298,18 +5337,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "bbd0e41ec2bf12a625e16a7b8fb6e4cba5d9fbf8"
+                    "reference": "a517e93c49626f22fca096a2ce2571f408b544b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/bbd0e41ec2bf12a625e16a7b8fb6e4cba5d9fbf8",
-                    "reference": "bbd0e41ec2bf12a625e16a7b8fb6e4cba5d9fbf8",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/a517e93c49626f22fca096a2ce2571f408b544b7",
+                    "reference": "a517e93c49626f22fca096a2ce2571f408b544b7",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-05-31 10:05:34",
+                "time": "2016-06-01 07:54:37",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

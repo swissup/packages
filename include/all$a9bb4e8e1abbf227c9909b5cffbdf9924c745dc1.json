@@ -945,7 +945,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -1407,6 +1407,84 @@
                 "support": {
                     "source": "https://github.com/swissup/attributepages/tree/1.0.2",
                     "issues": "https://github.com/swissup/attributepages/issues"
+                }
+            }
+        },
+        "swissup/checkout-success": {
+            "1.0.0": {
+                "name": "swissup/checkout-success",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-success.git",
+                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/74279718bb6c4bfc6e7c5befac22b5130523476f",
+                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-06-16 09:14:13",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSuccess\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 checkout success page",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-success/tree/1.0.0",
+                    "issues": "https://github.com/swissup/checkout-success/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/checkout-success",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-success.git",
+                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/74279718bb6c4bfc6e7c5befac22b5130523476f",
+                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-06-16 09:14:13",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSuccess\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 checkout success page",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-success/tree/1.0.0",
+                    "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             }
         },
@@ -2737,7 +2815,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -2775,7 +2853,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -3871,7 +3949,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },

@@ -481,7 +481,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.1.0"
+                    "source": "https://github.com/argento/m2/tree/0.1.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.2.0": {
@@ -517,7 +518,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.2.0"
+                    "source": "https://github.com/argento/m2/tree/0.2.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.3.0": {
@@ -554,7 +556,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.3.0"
+                    "source": "https://github.com/argento/m2/tree/0.3.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.4.0": {
@@ -592,7 +595,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.4.0"
+                    "source": "https://github.com/argento/m2/tree/0.4.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.5.0": {
@@ -631,7 +635,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.5.0"
+                    "source": "https://github.com/argento/m2/tree/0.5.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.6.0": {
@@ -671,7 +676,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.6.0"
+                    "source": "https://github.com/argento/m2/tree/0.6.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.7.0": {
@@ -714,7 +720,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.7.0"
+                    "source": "https://github.com/argento/m2/tree/0.7.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.0": {
@@ -756,7 +763,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.0"
+                    "source": "https://github.com/argento/m2/tree/0.8.0",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.1": {
@@ -2766,6 +2774,122 @@
                 "support": {
                     "source": "https://github.com/swissup/easycatalogimg/tree/master",
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
+                }
+            }
+        },
+        "swissup/easyflags": {
+            "0.6.0": {
+                "name": "swissup/easyflags",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easyflags.git",
+                    "reference": "b70eccb16e84dbdd4316deec608fd0e2edf66fc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/b70eccb16e84dbdd4316deec608fd0e2edf66fc9",
+                    "reference": "b70eccb16e84dbdd4316deec608fd0e2edf66fc9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-06 11:51:59",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easyflags extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/easyflags/tree/master",
+                    "issues": "https://github.com/swissup/easyflags/issues"
+                }
+            },
+            "1.0.0": {
+                "name": "swissup/easyflags",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easyflags.git",
+                    "reference": "669543adee21b1d946725fac02206432354c9302"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/669543adee21b1d946725fac02206432354c9302",
+                    "reference": "669543adee21b1d946725fac02206432354c9302",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-06-22 13:27:47",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module relaces default store switcher with flag images",
+                "support": {
+                    "source": "https://github.com/swissup/easyflags/tree/1.0.0",
+                    "issues": "https://github.com/swissup/easyflags/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easyflags",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easyflags.git",
+                    "reference": "669543adee21b1d946725fac02206432354c9302"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/669543adee21b1d946725fac02206432354c9302",
+                    "reference": "669543adee21b1d946725fac02206432354c9302",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-06-22 13:27:47",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module relaces default store switcher with flag images",
+                "support": {
+                    "source": "https://github.com/swissup/easyflags/tree/1.0.0",
+                    "issues": "https://github.com/swissup/easyflags/issues"
                 }
             }
         },

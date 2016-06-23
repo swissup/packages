@@ -806,7 +806,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.1"
+                    "source": "https://github.com/argento/m2/tree/0.8.1",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.2": {
@@ -849,7 +850,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.2"
+                    "source": "https://github.com/argento/m2/tree/0.8.2",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.3": {
@@ -893,7 +895,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.3"
+                    "source": "https://github.com/argento/m2/tree/0.8.3",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.4": {
@@ -937,7 +940,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.4"
+                    "source": "https://github.com/argento/m2/tree/0.8.4",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.8.5": {
@@ -981,7 +985,8 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5"
+                    "source": "https://github.com/argento/m2/tree/master",
+                    "issues": "https://github.com/argento/m2/issues"
                 }
             },
             "0.9.0": {
@@ -2620,7 +2625,7 @@
                 ],
                 "description": "Easy Catalog Images extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.0",
+                    "source": "https://github.com/swissup/easycatalogimg/tree/master",
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             },
@@ -2738,26 +2743,26 @@
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/easycatalogimg",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/easycatalogimg.git",
-                    "reference": "03ba67b3a985ced292d63fd8654d5e26913747f9"
+                    "reference": "1135ebf9de0d5da709b30da89cde9a9a9a09619d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/03ba67b3a985ced292d63fd8654d5e26913747f9",
-                    "reference": "03ba67b3a985ced292d63fd8654d5e26913747f9",
+                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/1135ebf9de0d5da709b30da89cde9a9a9a09619d",
+                    "reference": "1135ebf9de0d5da709b30da89cde9a9a9a09619d",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-06-13 08:53:36",
+                "time": "2016-06-23 13:53:26",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2772,7 +2777,45 @@
                 ],
                 "description": "Easy Catalog Images extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easycatalogimg/tree/master",
+                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.4",
+                    "issues": "https://github.com/swissup/easycatalogimg/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easycatalogimg",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easycatalogimg.git",
+                    "reference": "1135ebf9de0d5da709b30da89cde9a9a9a09619d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easycatalogimg/zipball/1135ebf9de0d5da709b30da89cde9a9a9a09619d",
+                    "reference": "1135ebf9de0d5da709b30da89cde9a9a9a09619d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-06-23 13:53:26",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easycatalogimg\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Catalog Images extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/easycatalogimg/tree/1.0.4",
                     "issues": "https://github.com/swissup/easycatalogimg/issues"
                 }
             }
@@ -2812,7 +2855,7 @@
                 ],
                 "description": "Easyflags extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easyflags/tree/master",
+                    "source": "https://github.com/swissup/easyflags/tree/0.6.0",
                     "issues": "https://github.com/swissup/easyflags/issues"
                 }
             },
@@ -2928,7 +2971,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.0.0",
+                    "source": "https://github.com/swissup/easytabs/tree/master",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -4100,7 +4143,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -4254,7 +4297,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.0",
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },

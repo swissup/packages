@@ -4744,26 +4744,26 @@
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
-            "dev-master": {
+            "1.0.8": {
                 "name": "swissup/pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "b4e6e822f1d51d9e979428dd1e9571c0060e17d3"
+                    "reference": "9494a18de0413f7cdebe149ea168e7be4d781c98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/b4e6e822f1d51d9e979428dd1e9571c0060e17d3",
-                    "reference": "b4e6e822f1d51d9e979428dd1e9571c0060e17d3",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/9494a18de0413f7cdebe149ea168e7be4d781c98",
+                    "reference": "9494a18de0413f7cdebe149ea168e7be4d781c98",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-07-05 12:36:43",
+                "time": "2016-07-08 12:55:41",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4778,7 +4778,45 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.7",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.8",
+                    "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/prolabels.git",
+                    "reference": "9494a18de0413f7cdebe149ea168e7be4d781c98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/9494a18de0413f7cdebe149ea168e7be4d781c98",
+                    "reference": "9494a18de0413f7cdebe149ea168e7be4d781c98",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-07-08 12:55:41",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.8",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -5757,19 +5795,19 @@
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             },
-            "dev-master": {
+            "1.1.4": {
                 "name": "swissup/sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "21e6bb2bd007c6d352d4c3124110f290086979cb"
+                    "reference": "cbbf3a9948cd9b8568d959d1a342c771ac295d80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/21e6bb2bd007c6d352d4c3124110f290086979cb",
-                    "reference": "21e6bb2bd007c6d352d4c3124110f290086979cb",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/cbbf3a9948cd9b8568d959d1a342c771ac295d80",
+                    "reference": "cbbf3a9948cd9b8568d959d1a342c771ac295d80",
                     "shasum": ""
                 },
                 "require": {
@@ -5777,7 +5815,7 @@
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-07-04 08:07:31",
+                "time": "2016-07-08 12:57:30",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5791,7 +5829,45 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/1.1.3",
+                    "source": "https://github.com/swissup/soldtogether/tree/1.1.4",
+                    "issues": "https://github.com/swissup/soldtogether/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/soldtogether.git",
+                    "reference": "cbbf3a9948cd9b8568d959d1a342c771ac295d80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/cbbf3a9948cd9b8568d959d1a342c771ac295d80",
+                    "reference": "cbbf3a9948cd9b8568d959d1a342c771ac295d80",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2016-07-08 12:57:30",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/soldtogether/tree/1.1.4",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }

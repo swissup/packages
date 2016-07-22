@@ -296,19 +296,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "54134577947fbe69c954371b13f1102f564fc9c8"
+                    "reference": "0e9b1d473b06b81afbe47d0c31515cb177de943f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/54134577947fbe69c954371b13f1102f564fc9c8",
-                    "reference": "54134577947fbe69c954371b13f1102f564fc9c8",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/0e9b1d473b06b81afbe47d0c31515cb177de943f",
+                    "reference": "0e9b1d473b06b81afbe47d0c31515cb177de943f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-07-12 14:45:00",
+                "time": "2016-07-13 09:05:51",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1838,20 +1838,28 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-success.git",
-                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f"
+                    "reference": "ededb88474d2557ba2c04db6f93af2106e27867d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/74279718bb6c4bfc6e7c5befac22b5130523476f",
-                    "reference": "74279718bb6c4bfc6e7c5befac22b5130523476f",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/ededb88474d2557ba2c04db6f93af2106e27867d",
+                    "reference": "ededb88474d2557ba2c04db6f93af2106e27867d",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-06-16 09:14:13",
+                "time": "2016-07-21 15:23:19",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/changelog"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -1864,8 +1872,12 @@
                     "OSL-3.0"
                 ],
                 "description": "Magento 2 checkout success page",
+                "keywords": [
+                    "checkout",
+                    "success page"
+                ],
                 "support": {
-                    "source": "https://github.com/swissup/checkout-success/tree/1.0.0",
+                    "source": "https://github.com/swissup/checkout-success/tree/master",
                     "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             }
@@ -2154,25 +2166,25 @@
                     "issues": "https://github.com/swissup/core/issues"
                 }
             },
-            "dev-master": {
+            "1.3.0.2": {
                 "name": "swissup/core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.0.2",
+                "version_normalized": "1.3.0.2",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9"
+                    "reference": "161489039e554dcf3bb16a4d8efdfc09781f42ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9",
-                    "reference": "5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/161489039e554dcf3bb16a4d8efdfc09781f42ca",
+                    "reference": "161489039e554dcf3bb16a4d8efdfc09781f42ca",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-07-08 06:32:34",
+                "time": "2016-07-21 15:27:54",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2195,7 +2207,52 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/1.3.0.1",
+                    "source": "https://github.com/swissup/core/tree/1.3.0.2",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/core.git",
+                    "reference": "161489039e554dcf3bb16a4d8efdfc09781f42ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/161489039e554dcf3bb16a4d8efdfc09781f42ca",
+                    "reference": "161489039e554dcf3bb16a4d8efdfc09781f42ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-07-21 15:27:54",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "keywords": [
+                    "core",
+                    "installer",
+                    "module manager",
+                    "notifier",
+                    "popup messenger",
+                    "swissup services"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.3.0.2",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -4126,18 +4183,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/font-awesome.git",
-                    "reference": "7038bb3621bdc009240363f0fc15b28d3e1d1f67"
+                    "reference": "6c469801732fe7726cae2cb67f4228cde01ee8d1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/7038bb3621bdc009240363f0fc15b28d3e1d1f67",
-                    "reference": "7038bb3621bdc009240363f0fc15b28d3e1d1f67",
+                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/6c469801732fe7726cae2cb67f4228cde01ee8d1",
+                    "reference": "6c469801732fe7726cae2cb67f4228cde01ee8d1",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
                 },
-                "time": "2016-07-11 19:18:57",
+                "time": "2016-07-16 18:43:31",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4204,19 +4262,19 @@
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/geoip",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/geoip.git",
-                    "reference": "97036dbdca49719d57334273a80c58abb5d263ad"
+                    "reference": "2ab571207bfe967dc1a33085f773db92477a11ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/geoip/zipball/97036dbdca49719d57334273a80c58abb5d263ad",
-                    "reference": "97036dbdca49719d57334273a80c58abb5d263ad",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/2ab571207bfe967dc1a33085f773db92477a11ce",
+                    "reference": "2ab571207bfe967dc1a33085f773db92477a11ce",
                     "shasum": ""
                 },
                 "require": {
@@ -4224,8 +4282,16 @@
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-06-13 14:13:18",
+                "time": "2016-07-21 15:19:35",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -4238,8 +4304,67 @@
                     "OSL-3.0"
                 ],
                 "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ],
                 "support": {
-                    "source": "https://github.com/swissup/geoip/tree/master",
+                    "source": "https://github.com/swissup/geoip/tree/1.0.1",
+                    "issues": "https://github.com/swissup/geoip/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/geoip",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/geoip.git",
+                    "reference": "2ab571207bfe967dc1a33085f773db92477a11ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/2ab571207bfe967dc1a33085f773db92477a11ce",
+                    "reference": "2ab571207bfe967dc1a33085f773db92477a11ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-07-21 15:19:35",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/geoip/tree/1.0.1",
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             }

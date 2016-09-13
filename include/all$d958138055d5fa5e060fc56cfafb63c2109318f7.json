@@ -1651,19 +1651,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "fb3609dcb6877d528f339a35c401dad261b44ae9"
+                    "reference": "e537140079e6fd4413e5999913aa25302a7f71dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/fb3609dcb6877d528f339a35c401dad261b44ae9",
-                    "reference": "fb3609dcb6877d528f339a35c401dad261b44ae9",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/e537140079e6fd4413e5999913aa25302a7f71dc",
+                    "reference": "e537140079e6fd4413e5999913aa25302a7f71dc",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-09-12 07:22:01",
+                "time": "2016-09-12 14:44:20",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3333,26 +3333,26 @@
                     "issues": "https://github.com/swissup/easybanner/issues"
                 }
             },
-            "dev-master": {
+            "1.0.6.3": {
                 "name": "swissup/easybanner",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.6.3",
+                "version_normalized": "1.0.6.3",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "eaa1eb79e8685f0696dc6e2ffcee83cba240b4b1"
+                    "reference": "febbd9866d21081689c608f670a5fc6e85d1f2fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/eaa1eb79e8685f0696dc6e2ffcee83cba240b4b1",
-                    "reference": "eaa1eb79e8685f0696dc6e2ffcee83cba240b4b1",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/febbd9866d21081689c608f670a5fc6e85d1f2fb",
+                    "reference": "febbd9866d21081689c608f670a5fc6e85d1f2fb",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-07-13 06:36:08",
+                "time": "2016-09-12 14:01:07",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3375,7 +3375,53 @@
                     "lightbox"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/easybanner/tree/1.0.6.2",
+                    "source": "https://github.com/swissup/easybanner/tree/1.0.6.3",
+                    "issues": "https://github.com/swissup/easybanner/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easybanner",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/easybanner.git",
+                    "reference": "febbd9866d21081689c608f670a5fc6e85d1f2fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/febbd9866d21081689c608f670a5fc6e85d1f2fb",
+                    "reference": "febbd9866d21081689c608f670a5fc6e85d1f2fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-09-12 14:01:07",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easybanner\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento banners and blocks",
+                "keywords": [
+                    "advertising",
+                    "awesomebar",
+                    "banner",
+                    "block",
+                    "easybanner",
+                    "lightbox"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easybanner/tree/1.0.6.3",
                     "issues": "https://github.com/swissup/easybanner/issues"
                 }
             }

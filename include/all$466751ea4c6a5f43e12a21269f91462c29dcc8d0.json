@@ -5424,26 +5424,26 @@
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/orderattachment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/orderattachment.git",
-                    "reference": "b819b1afbba263c7344ec19bad7cb97457cc5836"
+                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/b819b1afbba263c7344ec19bad7cb97457cc5836",
-                    "reference": "b819b1afbba263c7344ec19bad7cb97457cc5836",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/7c73d7289ee921fac07e8d162e15d061d19e537b",
+                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-09-19 08:21:45",
+                "time": "2016-09-19 09:31:04",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5457,7 +5457,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/orderattachment/tree/1.0.2",
+                    "source": "https://github.com/swissup/orderattachment/tree/1.0.3",
+                    "issues": "https://github.com/swissup/orderattachment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/orderattachment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/orderattachment.git",
+                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/7c73d7289ee921fac07e8d162e15d061d19e537b",
+                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-09-19 09:31:04",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/orderattachment/tree/1.0.3",
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             }

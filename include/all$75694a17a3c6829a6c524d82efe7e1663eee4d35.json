@@ -180,19 +180,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-autocomplete.git",
-                    "reference": "174386c649d525d30b6854dbe8ba8fde87df888c"
+                    "reference": "f0effc3b96e8a7e9223ef131cc8953eddc7b4da8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/174386c649d525d30b6854dbe8ba8fde87df888c",
-                    "reference": "174386c649d525d30b6854dbe8ba8fde87df888c",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/f0effc3b96e8a7e9223ef131cc8953eddc7b4da8",
+                    "reference": "f0effc3b96e8a7e9223ef131cc8953eddc7b4da8",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-09-19 07:59:32",
+                "time": "2016-09-19 12:33:04",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4895,19 +4895,19 @@
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/geoip",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/geoip.git",
-                    "reference": "0fbf5e0ceb0fa952077a858438ad641ad2a49d35"
+                    "reference": "562b67756d89c75ee2cc79824e94941eb5aa12a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/geoip/zipball/0fbf5e0ceb0fa952077a858438ad641ad2a49d35",
-                    "reference": "0fbf5e0ceb0fa952077a858438ad641ad2a49d35",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/562b67756d89c75ee2cc79824e94941eb5aa12a6",
+                    "reference": "562b67756d89c75ee2cc79824e94941eb5aa12a6",
                     "shasum": ""
                 },
                 "require": {
@@ -4915,7 +4915,60 @@
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-09-19 12:12:43",
+                "time": "2016-09-19 12:35:57",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/geoip/tree/1.0.2",
+                    "issues": "https://github.com/swissup/geoip/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/geoip",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/geoip.git",
+                    "reference": "562b67756d89c75ee2cc79824e94941eb5aa12a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/562b67756d89c75ee2cc79824e94941eb5aa12a6",
+                    "reference": "562b67756d89c75ee2cc79824e94941eb5aa12a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-09-19 12:35:57",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

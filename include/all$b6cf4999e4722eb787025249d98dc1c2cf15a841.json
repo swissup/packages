@@ -5252,26 +5252,26 @@
                     "issues": "https://github.com/swissup/font-awesome/issues"
                 }
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "swissup/font-awesome",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/font-awesome.git",
-                    "reference": "d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d"
+                    "reference": "163249e439258e406d140d4508626b009bc8b4c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d",
-                    "reference": "d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d",
+                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/163249e439258e406d140d4508626b009bc8b4c9",
+                    "reference": "163249e439258e406d140d4508626b009bc8b4c9",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-07-27 17:38:02",
+                "time": "2016-10-04 10:49:52",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5293,7 +5293,52 @@
                     "icons"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/font-awesome/tree/1.0.0",
+                    "source": "https://github.com/swissup/font-awesome/tree/1.1.0",
+                    "issues": "https://github.com/swissup/font-awesome/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/font-awesome",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/font-awesome.git",
+                    "reference": "163249e439258e406d140d4508626b009bc8b4c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/163249e439258e406d140d4508626b009bc8b4c9",
+                    "reference": "163249e439258e406d140d4508626b009bc8b4c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-10-04 10:49:52",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FontAwesome\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "FontAwesome for Magento2",
+                "keywords": [
+                    "font",
+                    "font awesome",
+                    "font-awesome",
+                    "fontawesome",
+                    "icons"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/font-awesome/tree/1.1.0",
                     "issues": "https://github.com/swissup/font-awesome/issues"
                 }
             }
@@ -6306,6 +6351,44 @@
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
+            "1.0.13": {
+                "name": "swissup/pro-labels",
+                "version": "1.0.13",
+                "version_normalized": "1.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/prolabels.git",
+                    "reference": "250e578a5e6caa52e96e89f0fbb0a135364ef063"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/250e578a5e6caa52e96e89f0fbb0a135364ef063",
+                    "reference": "250e578a5e6caa52e96e89f0fbb0a135364ef063",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-10-04 08:44:51",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.13",
+                    "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            },
             "1.0.2": {
                 "name": "swissup/pro-labels",
                 "version": "1.0.2",
@@ -6617,19 +6700,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "2096586152b9fbbb5e6cf0546020aff4b6acf1ae"
+                    "reference": "250e578a5e6caa52e96e89f0fbb0a135364ef063"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/2096586152b9fbbb5e6cf0546020aff4b6acf1ae",
-                    "reference": "2096586152b9fbbb5e6cf0546020aff4b6acf1ae",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/250e578a5e6caa52e96e89f0fbb0a135364ef063",
+                    "reference": "250e578a5e6caa52e96e89f0fbb0a135364ef063",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-09-30 08:05:35",
+                "time": "2016-10-04 08:44:51",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6644,7 +6727,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.12",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.13",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -9507,18 +9590,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "50719f33ba44ee26d31d50d0c68570a2cbbd6f1e"
+                    "reference": "3394bfdb5a43d3ec90cce79734fd70cd847dbddc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/50719f33ba44ee26d31d50d0c68570a2cbbd6f1e",
-                    "reference": "50719f33ba44ee26d31d50d0c68570a2cbbd6f1e",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/3394bfdb5a43d3ec90cce79734fd70cd847dbddc",
+                    "reference": "3394bfdb5a43d3ec90cce79734fd70cd847dbddc",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-09-30 07:26:38",
+                "time": "2016-10-03 15:03:26",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -9538,7 +9621,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             }
@@ -10105,19 +10188,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-flat.git",
-                    "reference": "a573d3d7edd0e7a9deff28ce338ac3ec8770c6ad"
+                    "reference": "1efe6a8485548e6709d055fc9048674c0fdef957"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-flat/zipball/a573d3d7edd0e7a9deff28ce338ac3ec8770c6ad",
-                    "reference": "a573d3d7edd0e7a9deff28ce338ac3ec8770c6ad",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-flat/zipball/1efe6a8485548e6709d055fc9048674c0fdef957",
+                    "reference": "1efe6a8485548e6709d055fc9048674c0fdef957",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2016-09-30 13:52:11",
+                "time": "2016-10-03 14:58:43",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -10150,7 +10233,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-flat/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-flat/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-flat/issues"
                 }
             }

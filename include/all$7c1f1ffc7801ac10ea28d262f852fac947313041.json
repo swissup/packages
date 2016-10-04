@@ -5304,19 +5304,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/font-awesome.git",
-                    "reference": "163249e439258e406d140d4508626b009bc8b4c9"
+                    "reference": "339b8b1c69ea2e9ef2381265a161249e24d6e029"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/163249e439258e406d140d4508626b009bc8b4c9",
-                    "reference": "163249e439258e406d140d4508626b009bc8b4c9",
+                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/339b8b1c69ea2e9ef2381265a161249e24d6e029",
+                    "reference": "339b8b1c69ea2e9ef2381265a161249e24d6e029",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-10-04 10:49:52",
+                "time": "2016-10-04 13:03:59",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5338,7 +5338,7 @@
                     "icons"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/font-awesome/tree/1.1.0",
+                    "source": "https://github.com/swissup/font-awesome/tree/master",
                     "issues": "https://github.com/swissup/font-awesome/issues"
                 }
             }
@@ -8952,6 +8952,46 @@
                 "support": {
                     "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.0.0",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
+                }
+            }
+        },
+        "swissup/theme-editor-argento-flat": {
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-flat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/theme-editor-argento-flat.git",
+                    "reference": "fa31da8c98c96bbb22b1af7c9a602c9f1735335d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/fa31da8c98c96bbb22b1af7c9a602c9f1735335d",
+                    "reference": "fa31da8c98c96bbb22b1af7c9a602c9f1735335d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2016-10-04 13:22:42",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoFlat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Flat theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/master",
+                    "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             }
         },

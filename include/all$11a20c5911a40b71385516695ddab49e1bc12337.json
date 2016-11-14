@@ -224,26 +224,26 @@
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-autocomplete.git",
-                    "reference": "b808a3f5dd7d6b183020ab70b297c806f3de48f0"
+                    "reference": "00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/b808a3f5dd7d6b183020ab70b297c806f3de48f0",
-                    "reference": "b808a3f5dd7d6b183020ab70b297c806f3de48f0",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc",
+                    "reference": "00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-11-11 13:43:57",
+                "time": "2016-11-14 09:18:57",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -271,7 +271,58 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.2",
+                    "issues": "https://github.com/swissup/address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-autocomplete.git",
+                    "reference": "00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc",
+                    "reference": "00b06e5f4b0cfae59f1c385cd5e7fef1685d7adc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:18:57",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.2",
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             }
@@ -315,26 +366,26 @@
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             },
-            "dev-master": {
+            "0.0.2": {
                 "name": "swissup/address-field-manager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "088d2d707b725d7522292d79cef9d78163b07592"
+                    "reference": "712507d912b186f23eb6df7f003813544ced4c0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/088d2d707b725d7522292d79cef9d78163b07592",
-                    "reference": "088d2d707b725d7522292d79cef9d78163b07592",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/712507d912b186f23eb6df7f003813544ced4c0f",
+                    "reference": "712507d912b186f23eb6df7f003813544ced4c0f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-11-10 15:44:07",
+                "time": "2016-11-14 09:52:40",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -349,7 +400,45 @@
                 ],
                 "description": "Magento checkout address field manager",
                 "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/master",
+                    "source": "https://github.com/swissup/address-field-manager/tree/0.0.2",
+                    "issues": "https://github.com/swissup/address-field-manager/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/address-field-manager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-field-manager.git",
+                    "reference": "712507d912b186f23eb6df7f003813544ced4c0f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/712507d912b186f23eb6df7f003813544ced4c0f",
+                    "reference": "712507d912b186f23eb6df7f003813544ced4c0f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:52:40",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressFieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento checkout address field manager",
+                "support": {
+                    "source": "https://github.com/swissup/address-field-manager/tree/0.0.2",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             }
@@ -2051,201 +2140,6 @@
             }
         },
         "swissup/attributepages": {
-            "1.0.0": {
-                "name": "swissup/attributepages",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b",
-                    "reference": "79704f32dc94ba84a6281ff5c6f01e82b3bc1e8b",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2016-05-05 08:24:22",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.0",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
-            "1.0.1": {
-                "name": "swissup/attributepages",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/12d3816fd16aa09883bb7a16762841eb2e6d43d3",
-                    "reference": "12d3816fd16aa09883bb7a16762841eb2e6d43d3",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2016-05-19 08:28:41",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.1",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
-            "1.0.2": {
-                "name": "swissup/attributepages",
-                "version": "1.0.2",
-                "version_normalized": "1.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/df407d83d1628c546588b5cfa7a81db171b2e068",
-                    "reference": "df407d83d1628c546588b5cfa7a81db171b2e068",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2016-06-01 08:01:25",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.2",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
-            "1.0.3": {
-                "name": "swissup/attributepages",
-                "version": "1.0.3",
-                "version_normalized": "1.0.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "7f605f0cf84658e50132a61df2b83783dd48d4e5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/7f605f0cf84658e50132a61df2b83783dd48d4e5",
-                    "reference": "7f605f0cf84658e50132a61df2b83783dd48d4e5",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2016-07-04 10:27:30",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.3",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
-            "1.0.4": {
-                "name": "swissup/attributepages",
-                "version": "1.0.4",
-                "version_normalized": "1.0.4.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "b9f6820468b2473a17deef957ce23f9d98d7d876"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/b9f6820468b2473a17deef957ce23f9d98d7d876",
-                    "reference": "b9f6820468b2473a17deef957ce23f9d98d7d876",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2016-09-12 07:48:26",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.4",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/attributepages",
                 "version": "dev-master",
@@ -2403,26 +2297,26 @@
                     "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/checkout-success",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-success.git",
-                    "reference": "01b629d0ced29afe7c98d1d7b3d3ac3fd35546d6"
+                    "reference": "65025ac8288a1bf142ad46fba05ace3095afce93"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/01b629d0ced29afe7c98d1d7b3d3ac3fd35546d6",
-                    "reference": "01b629d0ced29afe7c98d1d7b3d3ac3fd35546d6",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/65025ac8288a1bf142ad46fba05ace3095afce93",
+                    "reference": "65025ac8288a1bf142ad46fba05ace3095afce93",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-11-11 13:47:08",
+                "time": "2016-11-14 09:19:28",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -2449,7 +2343,57 @@
                     "success page"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/checkout-success/tree/master",
+                    "source": "https://github.com/swissup/checkout-success/tree/1.0.1",
+                    "issues": "https://github.com/swissup/checkout-success/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/checkout-success",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-success.git",
+                    "reference": "65025ac8288a1bf142ad46fba05ace3095afce93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/65025ac8288a1bf142ad46fba05ace3095afce93",
+                    "reference": "65025ac8288a1bf142ad46fba05ace3095afce93",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:19:28",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSuccess\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 checkout success page",
+                "keywords": [
+                    "checkout",
+                    "success page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/checkout-success/tree/1.0.1",
                     "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             }
@@ -2873,25 +2817,25 @@
                     "issues": "https://github.com/swissup/core/issues"
                 }
             },
-            "dev-master": {
+            "1.4.1": {
                 "name": "swissup/core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "761876b344d5f48eda96e7eb82e87584c25d24ff"
+                    "reference": "81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/761876b344d5f48eda96e7eb82e87584c25d24ff",
-                    "reference": "761876b344d5f48eda96e7eb82e87584c25d24ff",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5",
+                    "reference": "81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-11-11 13:47:30",
+                "time": "2016-11-14 09:21:26",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2914,7 +2858,52 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/master",
+                    "source": "https://github.com/swissup/core/tree/1.4.1",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/core.git",
+                    "reference": "81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5",
+                    "reference": "81ef44f1c1a5e6915b4f3c3bfca4ffaa63e5c2b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-11-14 09:21:26",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "keywords": [
+                    "core",
+                    "installer",
+                    "module manager",
+                    "notifier",
+                    "popup messenger",
+                    "swissup services"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.4.1",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -5345,31 +5334,31 @@
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/firecheckout",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "93ab9bee066243db3039a5e9744337f883f782fc"
+                    "reference": "8d89f30d1084fb406480bafa6f0ca190213674d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/93ab9bee066243db3039a5e9744337f883f782fc",
-                    "reference": "93ab9bee066243db3039a5e9744337f883f782fc",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/8d89f30d1084fb406480bafa6f0ca190213674d3",
+                    "reference": "8d89f30d1084fb406480bafa6f0ca190213674d3",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/address-autocomplete": "*",
+                    "swissup/checkout": "*",
                     "swissup/checkout-success": "*",
-                    "swissup/core": "*",
                     "swissup/geoip": "*",
                     "swissup/orderattachment": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2016-11-07 12:05:19",
+                "time": "2016-11-14 09:22:06",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -5397,7 +5386,63 @@
                     "onestep checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/master",
+                    "source": "https://github.com/swissup/firecheckout/tree/1.2.1",
+                    "issues": "https://github.com/swissup/firecheckout/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/firecheckout",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/firecheckout.git",
+                    "reference": "8d89f30d1084fb406480bafa6f0ca190213674d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/8d89f30d1084fb406480bafa6f0ca190213674d3",
+                    "reference": "8d89f30d1084fb406480bafa6f0ca190213674d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/address-autocomplete": "*",
+                    "swissup/checkout": "*",
+                    "swissup/checkout-success": "*",
+                    "swissup/geoip": "*",
+                    "swissup/orderattachment": "*",
+                    "swissup/taxvat": "*"
+                },
+                "time": "2016-11-14 09:22:06",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/firecheckout/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Firecheckout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Onestep checkout extension for Magento2",
+                "keywords": [
+                    "checkout",
+                    "firecheckout",
+                    "onestep checkout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout/tree/1.2.1",
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             }
@@ -5790,27 +5835,27 @@
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/geoip",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/geoip.git",
-                    "reference": "eec96849445828a6255d5bb4e2e36a7b287f6a15"
+                    "reference": "9927650e85b59849fbd5e14d87e402d26e9d0074"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/geoip/zipball/eec96849445828a6255d5bb4e2e36a7b287f6a15",
-                    "reference": "eec96849445828a6255d5bb4e2e36a7b287f6a15",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/9927650e85b59849fbd5e14d87e402d26e9d0074",
+                    "reference": "9927650e85b59849fbd5e14d87e402d26e9d0074",
                     "shasum": ""
                 },
                 "require": {
                     "geoip2/geoip2": "~2.0",
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-11-11 13:50:03",
+                "time": "2016-11-14 09:23:23",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -5833,13 +5878,68 @@
                 ],
                 "description": "Magento 2 module for geo location detecting by ip",
                 "keywords": [
+                    "address detection",
                     "city",
                     "country",
                     "geoip",
                     "postcode"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/geoip/tree/master",
+                    "source": "https://github.com/swissup/geoip/tree/1.0.3",
+                    "issues": "https://github.com/swissup/geoip/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/geoip",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/geoip.git",
+                    "reference": "9927650e85b59849fbd5e14d87e402d26e9d0074"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/9927650e85b59849fbd5e14d87e402d26e9d0074",
+                    "reference": "9927650e85b59849fbd5e14d87e402d26e9d0074",
+                    "shasum": ""
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:23:23",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "address detection",
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/geoip/tree/1.0.3",
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             }
@@ -6423,26 +6523,26 @@
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/orderattachment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/orderattachment.git",
-                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b"
+                    "reference": "4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/7c73d7289ee921fac07e8d162e15d061d19e537b",
-                    "reference": "7c73d7289ee921fac07e8d162e15d061d19e537b",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b",
+                    "reference": "4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-09-19 09:31:04",
+                "time": "2016-11-14 09:46:36",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6456,7 +6556,44 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/orderattachment/tree/1.0.3",
+                    "source": "https://github.com/swissup/orderattachment/tree/1.0.4",
+                    "issues": "https://github.com/swissup/orderattachment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/orderattachment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/orderattachment.git",
+                    "reference": "4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b",
+                    "reference": "4063465e26eb1fcbae24dcf906b4f4dfa85a2e2b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:46:36",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/orderattachment/tree/1.0.4",
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             }
@@ -8612,26 +8749,26 @@
                     "issues": "https://github.com/swissup/taxvat/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/taxvat",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/taxvat.git",
-                    "reference": "96fbe39f3daf1dbced59afad56bf46a5c13491cc"
+                    "reference": "28231dad9da21c5e7df5f3525030b1406a7763b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/taxvat/zipball/96fbe39f3daf1dbced59afad56bf46a5c13491cc",
-                    "reference": "96fbe39f3daf1dbced59afad56bf46a5c13491cc",
+                    "url": "https://api.github.com/repos/swissup/taxvat/zipball/28231dad9da21c5e7df5f3525030b1406a7763b1",
+                    "reference": "28231dad9da21c5e7df5f3525030b1406a7763b1",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
+                    "swissup/checkout": "*"
                 },
-                "time": "2016-11-11 13:50:40",
+                "time": "2016-11-14 09:24:34",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8654,7 +8791,53 @@
                 ],
                 "description": "Magento 2 Checkout Tax VAT",
                 "support": {
-                    "source": "https://github.com/swissup/taxvat/tree/master",
+                    "source": "https://github.com/swissup/taxvat/tree/1.0.1",
+                    "issues": "https://github.com/swissup/taxvat/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/taxvat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/taxvat.git",
+                    "reference": "28231dad9da21c5e7df5f3525030b1406a7763b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/taxvat/zipball/28231dad9da21c5e7df5f3525030b1406a7763b1",
+                    "reference": "28231dad9da21c5e7df5f3525030b1406a7763b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2016-11-14 09:24:34",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/taxvat/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/taxvat/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Taxvat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 Checkout Tax VAT",
+                "support": {
+                    "source": "https://github.com/swissup/taxvat/tree/1.0.1",
                     "issues": "https://github.com/swissup/taxvat/issues"
                 }
             }

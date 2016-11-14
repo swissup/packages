@@ -34,6 +34,10 @@ th { background-color: #eee }
 input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 #lastupdate { text-align: right; }
 #lastupdate time { font-weight: bold; }
+.abandoned { border: 1px solid #800; background: #fee; text-align: center; padding: 5px; margin: 20px 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.package-title .anchor { display: inline-block; padding-right: 2px; margin-left: -18px; }
+.package-title .anchor .octicon-link { vertical-align: middle; visibility: hidden; }
+.package-title:hover .anchor .octicon-link { visibility: visible; }
     </style>
 </head>
 <body>
@@ -44,7 +48,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Swissup Packages Composer Repository
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-10-19T01:05:39-0700">Wed, 19 Oct 2016 01:05:39 -0700</time>
+                Last updated: <time datetime="2016-11-14T10:51:39+0200">Mon, 14 Nov 2016 10:51:39 +0200</time>
             </div>
         </div>
         <div id="bd">
@@ -62,9 +66,10 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
+                <div id="package-list">
                                     <div>
-                        <h3 id="swissup/absolute-metapackage">swissup/absolute-metapackage</h3>
-                                                    <p>Absolute Theme for Magento 2.x</p>
+                        <h3 id="swissup/absolute-metapackage" class="package-title"><a href="#swissup/absolute-metapackage" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/absolute-metapackage</h3>
+                                                                            <p>Absolute Theme for Magento 2.x</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -77,8 +82,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/absolute-metapackage/tree/1.1.0">https://github.com/swissup/absolute-metapackage/tree/1.1.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/absolute-metapackage/issues">https://github.com/swissup/absolute-metapackage/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -92,8 +97,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/address-autocomplete">swissup/address-autocomplete</h3>
-                                                    <p>Magento 2 module for address autocompleting</p>
+                        <h3 id="swissup/address-autocomplete" class="package-title"><a href="#swissup/address-autocomplete" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/address-autocomplete</h3>
+                                                                            <p>Magento 2 module for address autocompleting</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -106,12 +111,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/address-autocomplete/tree/master">https://github.com/swissup/address-autocomplete/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/address-autocomplete/issues">https://github.com/swissup/address-autocomplete/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/d5febc6c6291e4e6c38f2d515b8ecee6499ca207" title="d5febc6c6291e4e6c38f2d515b8ecee6499ca207">dev-master</a>, <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/e62e186653406a48e33c447c70ae5d576c3adbb4" title="e62e186653406a48e33c447c70ae5d576c3adbb4">1.0.1</a>, <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/5dbbfa813108d9497d04886145acd826b9ed3e6f" title="5dbbfa813108d9497d04886145acd826b9ed3e6f">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/b808a3f5dd7d6b183020ab70b297c806f3de48f0" title="b808a3f5dd7d6b183020ab70b297c806f3de48f0">dev-master</a>, <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/e62e186653406a48e33c447c70ae5d576c3adbb4" title="e62e186653406a48e33c447c70ae5d576c3adbb4">1.0.1</a>, <a href="https://api.github.com/repos/swissup/address-autocomplete/zipball/5dbbfa813108d9497d04886145acd826b9ed3e6f" title="5dbbfa813108d9497d04886145acd826b9ed3e6f">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -124,8 +129,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/ajaxpro">swissup/ajaxpro</h3>
-                                                    <p>Magento2 module Streamline add to cart function and remove interruptions from the shopping process</p>
+                        <h3 id="swissup/address-field-manager" class="package-title"><a href="#swissup/address-field-manager" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/address-field-manager</h3>
+                                                                            <p>Magento checkout address field manager</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -135,15 +140,44 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/ajaxpro/tree/1.1.0">https://github.com/swissup/ajaxpro/tree/1.1.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/address-field-manager/tree/master">https://github.com/swissup/address-field-manager/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/swissup/address-field-manager/issues">https://github.com/swissup/address-field-manager/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/swissup/address-field-manager/zipball/088d2d707b725d7522292d79cef9d78163b07592" title="088d2d707b725d7522292d79cef9d78163b07592">dev-master</a>, <a href="https://api.github.com/repos/swissup/address-field-manager/zipball/088d2d707b725d7522292d79cef9d78163b07592" title="088d2d707b725d7522292d79cef9d78163b07592">0.0.1</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="swissup/ajaxpro" class="package-title"><a href="#swissup/ajaxpro" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/ajaxpro</h3>
+                                                                            <p>Magento2 module Streamline add to cart function and remove interruptions from the shopping process</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>OSL-3.0</td>
+                                </tr>
+                                                                                                                <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/swissup/ajaxpro/tree/master">https://github.com/swissup/ajaxpro/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/ajaxpro/issues">https://github.com/swissup/ajaxpro/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/7ae40ac599583a8a6170a3ae02b140ade69f2ef1" title="7ae40ac599583a8a6170a3ae02b140ade69f2ef1">dev-master</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/7ae40ac599583a8a6170a3ae02b140ade69f2ef1" title="7ae40ac599583a8a6170a3ae02b140ade69f2ef1">1.1.0</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/4d961bdb9dd2a5e88e4370470b9664591f9b2809" title="4d961bdb9dd2a5e88e4370470b9664591f9b2809">1.0.1</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/aba8aac3e744f8c96fd449ce7a041c64a879960b" title="aba8aac3e744f8c96fd449ce7a041c64a879960b">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/7152c9bc52717b5c2aaf103a9ae2adaf558b3029" title="7152c9bc52717b5c2aaf103a9ae2adaf558b3029">dev-master</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/7ae40ac599583a8a6170a3ae02b140ade69f2ef1" title="7ae40ac599583a8a6170a3ae02b140ade69f2ef1">1.1.0</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/4d961bdb9dd2a5e88e4370470b9664591f9b2809" title="4d961bdb9dd2a5e88e4370470b9664591f9b2809">1.0.1</a>, <a href="https://api.github.com/repos/swissup/ajaxpro/zipball/aba8aac3e744f8c96fd449ce7a041c64a879960b" title="aba8aac3e744f8c96fd449ce7a041c64a879960b">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -156,8 +190,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/ajaxsearch">swissup/ajaxsearch</h3>
-                                                    <p>Advanced ajax search</p>
+                        <h3 id="swissup/ajaxsearch" class="package-title"><a href="#swissup/ajaxsearch" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/ajaxsearch</h3>
+                                                                            <p>Advanced ajax search</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -167,15 +201,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/ajaxsearch/tree/1.2.0">https://github.com/swissup/ajaxsearch/tree/1.2.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/ajaxsearch/tree/master">https://github.com/swissup/ajaxsearch/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/ajaxsearch/issues">https://github.com/swissup/ajaxsearch/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/58de525a09cbfbc1409b1a9f75f703d243421e3e" title="58de525a09cbfbc1409b1a9f75f703d243421e3e">dev-master</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/58de525a09cbfbc1409b1a9f75f703d243421e3e" title="58de525a09cbfbc1409b1a9f75f703d243421e3e">1.2.0</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/174ce5794bd06ccf67ba54969b4e92c1da131e3f" title="174ce5794bd06ccf67ba54969b4e92c1da131e3f">1.1.0</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/e5cee57dead409795b0d292696f1d19760f3fe9d" title="e5cee57dead409795b0d292696f1d19760f3fe9d">1.0.1</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f" title="5975c867293082ec1eb9fc495353de056e599c5f">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/e02970a9825d2be169b3e8f63218c3bee9488c37" title="e02970a9825d2be169b3e8f63218c3bee9488c37">dev-master</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/58de525a09cbfbc1409b1a9f75f703d243421e3e" title="58de525a09cbfbc1409b1a9f75f703d243421e3e">1.2.0</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/174ce5794bd06ccf67ba54969b4e92c1da131e3f" title="174ce5794bd06ccf67ba54969b4e92c1da131e3f">1.1.0</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/e5cee57dead409795b0d292696f1d19760f3fe9d" title="e5cee57dead409795b0d292696f1d19760f3fe9d">1.0.1</a>, <a href="https://api.github.com/repos/swissup/ajaxsearch/zipball/5975c867293082ec1eb9fc495353de056e599c5f" title="5975c867293082ec1eb9fc495353de056e599c5f">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -188,8 +222,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/akismet">swissup/akismet</h3>
-                                                    <p>Akismet integration</p>
+                        <h3 id="swissup/akismet" class="package-title"><a href="#swissup/akismet" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/akismet</h3>
+                                                                            <p>Akismet integration</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -199,11 +233,11 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/akismet/tree/master">https://github.com/swissup/akismet/tree/master</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/akismet/tree/1.0.0">https://github.com/swissup/akismet/tree/1.0.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/akismet/issues">https://github.com/swissup/akismet/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -217,8 +251,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/argento-m2">swissup/argento-m2</h3>
-                                                    <p>Argento metapackage for Magento 2.x</p>
+                        <h3 id="swissup/argento-m2" class="package-title"><a href="#swissup/argento-m2" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/argento-m2</h3>
+                                                                            <p>Argento metapackage for Magento 2.x</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -230,8 +264,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <ul>
                                                                             <li>Source: <a href="https://github.com/argento/m2/tree/0.9.4">https://github.com/argento/m2/tree/0.9.4</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -245,8 +279,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/askit">swissup/askit</h3>
-                                                    <p>Product, Category, CmsPage questions and comments</p>
+                        <h3 id="swissup/askit" class="package-title"><a href="#swissup/askit" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/askit</h3>
+                                                                            <p>Product, Category, CmsPage questions and comments</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -259,12 +293,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/askit/tree/master">https://github.com/swissup/askit/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/askit/issues">https://github.com/swissup/askit/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/askit/zipball/7e944dd1b0ce040f5006b58e1f704b40f8627321" title="7e944dd1b0ce040f5006b58e1f704b40f8627321">dev-master</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/d0d0c51b3c85f4f66c4744c4c831b1fdc3abc868" title="d0d0c51b3c85f4f66c4744c4c831b1fdc3abc868">1.2.0</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/95f1dd789a11ad1191f6265f048ad1f695e5c424" title="95f1dd789a11ad1191f6265f048ad1f695e5c424">1.1.0</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/02c9ff74f16033a2d29c7aedb76d36d780b70728" title="02c9ff74f16033a2d29c7aedb76d36d780b70728">1.0.1</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/81efbc72813449b63383fe5a9bc8c83b57ff3405" title="81efbc72813449b63383fe5a9bc8c83b57ff3405">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/askit/zipball/750b45bad7ba1abdeaf3205918c1ad0e749b9429" title="750b45bad7ba1abdeaf3205918c1ad0e749b9429">dev-master</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/d0d0c51b3c85f4f66c4744c4c831b1fdc3abc868" title="d0d0c51b3c85f4f66c4744c4c831b1fdc3abc868">1.2.0</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/95f1dd789a11ad1191f6265f048ad1f695e5c424" title="95f1dd789a11ad1191f6265f048ad1f695e5c424">1.1.0</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/02c9ff74f16033a2d29c7aedb76d36d780b70728" title="02c9ff74f16033a2d29c7aedb76d36d780b70728">1.0.1</a>, <a href="https://api.github.com/repos/swissup/askit/zipball/81efbc72813449b63383fe5a9bc8c83b57ff3405" title="81efbc72813449b63383fe5a9bc8c83b57ff3405">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -277,8 +311,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/attributepages">swissup/attributepages</h3>
-                                                    <p>Attribute Pages extension from Swissup</p>
+                        <h3 id="swissup/attributepages" class="package-title"><a href="#swissup/attributepages" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/attributepages</h3>
+                                                                            <p>Attribute Pages extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -291,8 +325,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/attributepages/tree/1.0.4">https://github.com/swissup/attributepages/tree/1.0.4</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/attributepages/issues">https://github.com/swissup/attributepages/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -309,8 +343,37 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/checkout-success">swissup/checkout-success</h3>
-                                                    <p>Magento 2 checkout success page</p>
+                        <h3 id="swissup/checkout" class="package-title"><a href="#swissup/checkout" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/checkout</h3>
+                                                                            <p>Dummy checkout module. It&#039;s purpose is to add swissup menu and config sections.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>OSL-3.0</td>
+                                </tr>
+                                                                                                                <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/swissup/checkout/tree/0.0.1">https://github.com/swissup/checkout/tree/0.0.1</a></li>
+                                                                            <li>Issues: <a href="https://github.com/swissup/checkout/issues">https://github.com/swissup/checkout/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/swissup/checkout/zipball/690a5121cf2fb301397eb40cc736fa339b473aed" title="690a5121cf2fb301397eb40cc736fa339b473aed">dev-master</a>, <a href="https://api.github.com/repos/swissup/checkout/zipball/690a5121cf2fb301397eb40cc736fa339b473aed" title="690a5121cf2fb301397eb40cc736fa339b473aed">0.0.1</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="swissup/checkout-success" class="package-title"><a href="#swissup/checkout-success" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/checkout-success</h3>
+                                                                            <p>Magento 2 checkout success page</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -323,12 +386,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/checkout-success/tree/master">https://github.com/swissup/checkout-success/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/checkout-success/issues">https://github.com/swissup/checkout-success/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/checkout-success/zipball/ededb88474d2557ba2c04db6f93af2106e27867d" title="ededb88474d2557ba2c04db6f93af2106e27867d">dev-master</a>, <a href="https://api.github.com/repos/swissup/checkout-success/zipball/74279718bb6c4bfc6e7c5befac22b5130523476f" title="74279718bb6c4bfc6e7c5befac22b5130523476f">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/checkout-success/zipball/01b629d0ced29afe7c98d1d7b3d3ac3fd35546d6" title="01b629d0ced29afe7c98d1d7b3d3ac3fd35546d6">dev-master</a>, <a href="https://api.github.com/repos/swissup/checkout-success/zipball/74279718bb6c4bfc6e7c5befac22b5130523476f" title="74279718bb6c4bfc6e7c5befac22b5130523476f">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -341,8 +404,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/core">swissup/core</h3>
-                                                    <p>Swissup core module. It&#039;s purpose is to add menu and config placeholders</p>
+                        <h3 id="swissup/core" class="package-title"><a href="#swissup/core" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/core</h3>
+                                                                            <p>Swissup core module. It&#039;s purpose is to add menu and config placeholders</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -352,15 +415,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/core/tree/1.4.0">https://github.com/swissup/core/tree/1.4.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/core/tree/master">https://github.com/swissup/core/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/core/issues">https://github.com/swissup/core/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/core/zipball/357040df6537a2dfacef7e1a05b1085a6c7db920" title="357040df6537a2dfacef7e1a05b1085a6c7db920">dev-master</a>, <a href="https://api.github.com/repos/swissup/core/zipball/357040df6537a2dfacef7e1a05b1085a6c7db920" title="357040df6537a2dfacef7e1a05b1085a6c7db920">1.4.0</a>, <a href="https://api.github.com/repos/swissup/core/zipball/0941ac0c4677009f2796ea22db9d057efdfb00ec" title="0941ac0c4677009f2796ea22db9d057efdfb00ec">1.3.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/7d7f3462d0f2c772cfdf87284f38f556b53651b0" title="7d7f3462d0f2c772cfdf87284f38f556b53651b0">1.3.0.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9" title="5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9">1.3.0.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/efea980d933252918b861c807d27bdf82bea72e7" title="efea980d933252918b861c807d27bdf82bea72e7">1.3.0</a>, <a href="https://api.github.com/repos/swissup/core/zipball/9815b898aa77344aa838a7532d45c6b7182eae75" title="9815b898aa77344aa838a7532d45c6b7182eae75">1.2.3</a>, <a href="https://api.github.com/repos/swissup/core/zipball/eff059c2f62eca259473f4d99d3d87d5645de895" title="eff059c2f62eca259473f4d99d3d87d5645de895">1.2.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/285edf2d1643d1e2a8483c1c5a682402781e8323" title="285edf2d1643d1e2a8483c1c5a682402781e8323">1.0.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/ec26dbafd7ca11e512a0fcb154c617a2dd53f412" title="ec26dbafd7ca11e512a0fcb154c617a2dd53f412">1.0.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9" title="ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/core/zipball/761876b344d5f48eda96e7eb82e87584c25d24ff" title="761876b344d5f48eda96e7eb82e87584c25d24ff">dev-master</a>, <a href="https://api.github.com/repos/swissup/core/zipball/357040df6537a2dfacef7e1a05b1085a6c7db920" title="357040df6537a2dfacef7e1a05b1085a6c7db920">1.4.0</a>, <a href="https://api.github.com/repos/swissup/core/zipball/0941ac0c4677009f2796ea22db9d057efdfb00ec" title="0941ac0c4677009f2796ea22db9d057efdfb00ec">1.3.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/7d7f3462d0f2c772cfdf87284f38f556b53651b0" title="7d7f3462d0f2c772cfdf87284f38f556b53651b0">1.3.0.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9" title="5c1d61d9cd6f6f4876f3afc4b1fef23dcd8711d9">1.3.0.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/efea980d933252918b861c807d27bdf82bea72e7" title="efea980d933252918b861c807d27bdf82bea72e7">1.3.0</a>, <a href="https://api.github.com/repos/swissup/core/zipball/9815b898aa77344aa838a7532d45c6b7182eae75" title="9815b898aa77344aa838a7532d45c6b7182eae75">1.2.3</a>, <a href="https://api.github.com/repos/swissup/core/zipball/eff059c2f62eca259473f4d99d3d87d5645de895" title="eff059c2f62eca259473f4d99d3d87d5645de895">1.2.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/285edf2d1643d1e2a8483c1c5a682402781e8323" title="285edf2d1643d1e2a8483c1c5a682402781e8323">1.0.2</a>, <a href="https://api.github.com/repos/swissup/core/zipball/ec26dbafd7ca11e512a0fcb154c617a2dd53f412" title="ec26dbafd7ca11e512a0fcb154c617a2dd53f412">1.0.1</a>, <a href="https://api.github.com/repos/swissup/core/zipball/ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9" title="ef998f3acabd6c2ea1ad0e78e935ac8b3fb095d9">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -368,12 +431,14 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                                                 <ul>
                                                                                             <li><a href="#swissup/absolute-metapackage">swissup/absolute-metapackage</a></li>
                                                                                             <li><a href="#swissup/address-autocomplete">swissup/address-autocomplete</a></li>
+                                                                                            <li><a href="#swissup/address-field-manager">swissup/address-field-manager</a></li>
                                                                                             <li><a href="#swissup/ajaxpro">swissup/ajaxpro</a></li>
                                                                                             <li><a href="#swissup/ajaxsearch">swissup/ajaxsearch</a></li>
                                                                                             <li><a href="#swissup/akismet">swissup/akismet</a></li>
                                                                                             <li><a href="#swissup/argento-m2">swissup/argento-m2</a></li>
                                                                                             <li><a href="#swissup/askit">swissup/askit</a></li>
                                                                                             <li><a href="#swissup/attributepages">swissup/attributepages</a></li>
+                                                                                            <li><a href="#swissup/checkout">swissup/checkout</a></li>
                                                                                             <li><a href="#swissup/checkout-success">swissup/checkout-success</a></li>
                                                                                             <li><a href="#swissup/dailydeals">swissup/dailydeals</a></li>
                                                                                             <li><a href="#swissup/delivery-date">swissup/delivery-date</a></li>
@@ -401,8 +466,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/countdowntimer">swissup/countdowntimer</h3>
-                                                    <p>Countdown timer widgets</p>
+                        <h3 id="swissup/countdowntimer" class="package-title"><a href="#swissup/countdowntimer" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/countdowntimer</h3>
+                                                                            <p>Countdown timer widgets</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -415,8 +480,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/countdowntimer/tree/0.9.0">https://github.com/swissup/countdowntimer/tree/0.9.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/countdowntimer/issues">https://github.com/swissup/countdowntimer/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -430,8 +495,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/dailydeals">swissup/dailydeals</h3>
-                                                    <p>N/A</p>
+                        <h3 id="swissup/dailydeals" class="package-title"><a href="#swissup/dailydeals" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/dailydeals</h3>
+                                                                            <p>N/A</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -444,8 +509,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/dailydeals/tree/master">https://github.com/swissup/dailydeals/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/dailydeals/issues">https://github.com/swissup/dailydeals/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -459,8 +524,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/delivery-date">swissup/delivery-date</h3>
-                                                    <p>Magento 2 module gives your customers possibility to choose the delivery date</p>
+                        <h3 id="swissup/delivery-date" class="package-title"><a href="#swissup/delivery-date" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/delivery-date</h3>
+                                                                            <p>Magento 2 module gives your customers possibility to choose the delivery date</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -473,12 +538,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/delivery-date/tree/master">https://github.com/swissup/delivery-date/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/delivery-date/issues">https://github.com/swissup/delivery-date/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/delivery-date/zipball/f20c0e1966d15828bfec07e797a89da8b67f7c30" title="f20c0e1966d15828bfec07e797a89da8b67f7c30">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/delivery-date/zipball/173027be509f017694297cc804dd1ee2bc133fc2" title="173027be509f017694297cc804dd1ee2bc133fc2">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -488,8 +553,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/easy-slide">swissup/easy-slide</h3>
-                                                    <p>Create and manage Magento sliders</p>
+                        <h3 id="swissup/easy-slide" class="package-title"><a href="#swissup/easy-slide" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/easy-slide</h3>
+                                                                            <p>Create and manage Magento sliders</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -502,8 +567,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/easyslide/tree/1.1.0">https://github.com/swissup/easyslide/tree/1.1.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/easyslide/issues">https://github.com/swissup/easyslide/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -520,8 +585,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/easybanner">swissup/easybanner</h3>
-                                                    <p>Magento banners and blocks</p>
+                        <h3 id="swissup/easybanner" class="package-title"><a href="#swissup/easybanner" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/easybanner</h3>
+                                                                            <p>Magento banners and blocks</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -534,8 +599,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/easybanner/tree/1.0.6.4">https://github.com/swissup/easybanner/tree/1.0.6.4</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/easybanner/issues">https://github.com/swissup/easybanner/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -552,8 +617,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/easycatalogimg">swissup/easycatalogimg</h3>
-                                                    <p>Easy Catalog Images extension from Swissup</p>
+                        <h3 id="swissup/easycatalogimg" class="package-title"><a href="#swissup/easycatalogimg" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/easycatalogimg</h3>
+                                                                            <p>Easy Catalog Images extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -563,15 +628,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/easycatalogimg/tree/1.1.1">https://github.com/swissup/easycatalogimg/tree/1.1.1</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/easycatalogimg/tree/master">https://github.com/swissup/easycatalogimg/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/easycatalogimg/issues">https://github.com/swissup/easycatalogimg/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/b81f6407265f35b811a359d1b0f2f29cea8094fa" title="b81f6407265f35b811a359d1b0f2f29cea8094fa">dev-master</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/b81f6407265f35b811a359d1b0f2f29cea8094fa" title="b81f6407265f35b811a359d1b0f2f29cea8094fa">1.1.1</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/1ff3d6f5ccbc330e592e999af986e43a948bc60e" title="1ff3d6f5ccbc330e592e999af986e43a948bc60e">1.1.0</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/1135ebf9de0d5da709b30da89cde9a9a9a09619d" title="1135ebf9de0d5da709b30da89cde9a9a9a09619d">1.0.4</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/07533e53a57390aa3615bec83e9feb75d621dfec" title="07533e53a57390aa3615bec83e9feb75d621dfec">1.0.3</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/fc1653d23f11b6e2740e5d5acc6de2db27ad967b" title="fc1653d23f11b6e2740e5d5acc6de2db27ad967b">1.0.2</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/fa14a5672f433231a00ecacff46e1cb892a9fc39" title="fa14a5672f433231a00ecacff46e1cb892a9fc39">1.0.1</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/a36f1b4d3d543b195f5f656e1f84cf407ab6e14a" title="a36f1b4d3d543b195f5f656e1f84cf407ab6e14a">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/8921f517bbe50b5d3c8092a15f7d6971abfa16d2" title="8921f517bbe50b5d3c8092a15f7d6971abfa16d2">dev-master</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/b81f6407265f35b811a359d1b0f2f29cea8094fa" title="b81f6407265f35b811a359d1b0f2f29cea8094fa">1.1.1</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/1ff3d6f5ccbc330e592e999af986e43a948bc60e" title="1ff3d6f5ccbc330e592e999af986e43a948bc60e">1.1.0</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/1135ebf9de0d5da709b30da89cde9a9a9a09619d" title="1135ebf9de0d5da709b30da89cde9a9a9a09619d">1.0.4</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/07533e53a57390aa3615bec83e9feb75d621dfec" title="07533e53a57390aa3615bec83e9feb75d621dfec">1.0.3</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/fc1653d23f11b6e2740e5d5acc6de2db27ad967b" title="fc1653d23f11b6e2740e5d5acc6de2db27ad967b">1.0.2</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/fa14a5672f433231a00ecacff46e1cb892a9fc39" title="fa14a5672f433231a00ecacff46e1cb892a9fc39">1.0.1</a>, <a href="https://api.github.com/repos/swissup/easycatalogimg/zipball/a36f1b4d3d543b195f5f656e1f84cf407ab6e14a" title="a36f1b4d3d543b195f5f656e1f84cf407ab6e14a">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -584,8 +649,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/easyflags">swissup/easyflags</h3>
-                                                    <p>Module relaces default store switcher with flag images</p>
+                        <h3 id="swissup/easyflags" class="package-title"><a href="#swissup/easyflags" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/easyflags</h3>
+                                                                            <p>Module relaces default store switcher with flag images</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -595,15 +660,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/easyflags/tree/1.0.0">https://github.com/swissup/easyflags/tree/1.0.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/easyflags/tree/master">https://github.com/swissup/easyflags/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/easyflags/issues">https://github.com/swissup/easyflags/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/easyflags/zipball/669543adee21b1d946725fac02206432354c9302" title="669543adee21b1d946725fac02206432354c9302">dev-master</a>, <a href="https://api.github.com/repos/swissup/easyflags/zipball/669543adee21b1d946725fac02206432354c9302" title="669543adee21b1d946725fac02206432354c9302">1.0.0</a>, <a href="https://api.github.com/repos/swissup/easyflags/zipball/b70eccb16e84dbdd4316deec608fd0e2edf66fc9" title="b70eccb16e84dbdd4316deec608fd0e2edf66fc9">0.6.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/easyflags/zipball/9491705a7b07508efce52ec7759feb69bbd1b2b4" title="9491705a7b07508efce52ec7759feb69bbd1b2b4">dev-master</a>, <a href="https://api.github.com/repos/swissup/easyflags/zipball/669543adee21b1d946725fac02206432354c9302" title="669543adee21b1d946725fac02206432354c9302">1.0.0</a>, <a href="https://api.github.com/repos/swissup/easyflags/zipball/b70eccb16e84dbdd4316deec608fd0e2edf66fc9" title="b70eccb16e84dbdd4316deec608fd0e2edf66fc9">0.6.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -613,8 +678,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/easytabs">swissup/easytabs</h3>
-                                                    <p>Easy Tabs extension from Swissup</p>
+                        <h3 id="swissup/easytabs" class="package-title"><a href="#swissup/easytabs" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/easytabs</h3>
+                                                                            <p>Easy Tabs extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -624,15 +689,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/easytabs/tree/1.0.2">https://github.com/swissup/easytabs/tree/1.0.2</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/easytabs/tree/master">https://github.com/swissup/easytabs/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/easytabs/issues">https://github.com/swissup/easytabs/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/easytabs/zipball/cd74a5d76776534d288b650c6b948e6bffa21cc6" title="cd74a5d76776534d288b650c6b948e6bffa21cc6">dev-master</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/cd74a5d76776534d288b650c6b948e6bffa21cc6" title="cd74a5d76776534d288b650c6b948e6bffa21cc6">1.0.2</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/60a925a3888f63cdd394552035efcd9246d2dec5" title="60a925a3888f63cdd394552035efcd9246d2dec5">1.0.1</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/e507e54131159ca3bff499c0d068975d6e4fc775" title="e507e54131159ca3bff499c0d068975d6e4fc775">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/easytabs/zipball/3e08d49c9790d6623d00c3bd151836e320b7f959" title="3e08d49c9790d6623d00c3bd151836e320b7f959">dev-master</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/cd74a5d76776534d288b650c6b948e6bffa21cc6" title="cd74a5d76776534d288b650c6b948e6bffa21cc6">1.0.2</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/60a925a3888f63cdd394552035efcd9246d2dec5" title="60a925a3888f63cdd394552035efcd9246d2dec5">1.0.1</a>, <a href="https://api.github.com/repos/swissup/easytabs/zipball/e507e54131159ca3bff499c0d068975d6e4fc775" title="e507e54131159ca3bff499c0d068975d6e4fc775">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -645,8 +710,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/email">swissup/email</h3>
-                                                    <p>Magento2 for email providers integrations (smtp, mandrill, amazon ses)</p>
+                        <h3 id="swissup/email" class="package-title"><a href="#swissup/email" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/email</h3>
+                                                                            <p>Magento2 email providers integration (smtp, mandrill, amazon ses)</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -656,15 +721,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/email/tree/0.1.1">https://github.com/swissup/email/tree/0.1.1</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/email/tree/master">https://github.com/swissup/email/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/email/issues">https://github.com/swissup/email/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/email/zipball/3a144ad9e3de6eff8f351747a8f0dda47f2995bb" title="3a144ad9e3de6eff8f351747a8f0dda47f2995bb">dev-master</a>, <a href="https://api.github.com/repos/swissup/email/zipball/3a144ad9e3de6eff8f351747a8f0dda47f2995bb" title="3a144ad9e3de6eff8f351747a8f0dda47f2995bb">0.1.1</a>, <a href="https://api.github.com/repos/swissup/email/zipball/842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a" title="842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a">0.1.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/email/zipball/431148e936c1188c73257802bd45b06716c3faad" title="431148e936c1188c73257802bd45b06716c3faad">dev-master</a>, <a href="https://api.github.com/repos/swissup/email/zipball/48e1b060d5464a7088d252e1551fd8a8fcfaec70" title="48e1b060d5464a7088d252e1551fd8a8fcfaec70">0.1.2</a>, <a href="https://api.github.com/repos/swissup/email/zipball/3a144ad9e3de6eff8f351747a8f0dda47f2995bb" title="3a144ad9e3de6eff8f351747a8f0dda47f2995bb">0.1.1</a>, <a href="https://api.github.com/repos/swissup/email/zipball/842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a" title="842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a">0.1.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -674,8 +739,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/fblike">swissup/fblike</h3>
-                                                <table>
+                        <h3 id="swissup/fblike" class="package-title"><a href="#swissup/fblike" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/fblike</h3>
+                                                                        <table>
                                                                                         <tr>
                                     <th>License</th>
                                     <td>OSL-3.0</td>
@@ -684,15 +749,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/fblike/tree/1.0.5">https://github.com/swissup/fblike/tree/1.0.5</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/fblike/tree/master">https://github.com/swissup/fblike/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/fblike/issues">https://github.com/swissup/fblike/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/fblike/zipball/371a2bac1fe56fb65a1260a9b2b5f0002191451f" title="371a2bac1fe56fb65a1260a9b2b5f0002191451f">dev-master</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/371a2bac1fe56fb65a1260a9b2b5f0002191451f" title="371a2bac1fe56fb65a1260a9b2b5f0002191451f">1.0.5</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/6b6f0aa6a3255cfe1430f1f655d14d4324fa3678" title="6b6f0aa6a3255cfe1430f1f655d14d4324fa3678">1.0.4</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/ad1aae1eb1335b01bdf7b74038127192305d993a" title="ad1aae1eb1335b01bdf7b74038127192305d993a">1.0.3</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/911c31be2c0e6889aae1d3047a1fef45f33f9b1c" title="911c31be2c0e6889aae1d3047a1fef45f33f9b1c">1.0.2</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/2ca11a8425a1e2add392fc070bd2c97e95981c73" title="2ca11a8425a1e2add392fc070bd2c97e95981c73">1.0.1</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/799d2791000cc9b22ae5445f4eaed0f9ce3fb34c" title="799d2791000cc9b22ae5445f4eaed0f9ce3fb34c">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/fblike/zipball/d692e618e9b9a6272aa7edcc5aab0c605533f424" title="d692e618e9b9a6272aa7edcc5aab0c605533f424">dev-master</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/371a2bac1fe56fb65a1260a9b2b5f0002191451f" title="371a2bac1fe56fb65a1260a9b2b5f0002191451f">1.0.5</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/6b6f0aa6a3255cfe1430f1f655d14d4324fa3678" title="6b6f0aa6a3255cfe1430f1f655d14d4324fa3678">1.0.4</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/ad1aae1eb1335b01bdf7b74038127192305d993a" title="ad1aae1eb1335b01bdf7b74038127192305d993a">1.0.3</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/911c31be2c0e6889aae1d3047a1fef45f33f9b1c" title="911c31be2c0e6889aae1d3047a1fef45f33f9b1c">1.0.2</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/2ca11a8425a1e2add392fc070bd2c97e95981c73" title="2ca11a8425a1e2add392fc070bd2c97e95981c73">1.0.1</a>, <a href="https://api.github.com/repos/swissup/fblike/zipball/799d2791000cc9b22ae5445f4eaed0f9ce3fb34c" title="799d2791000cc9b22ae5445f4eaed0f9ce3fb34c">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -705,8 +770,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/firecheckout">swissup/firecheckout</h3>
-                                                    <p>Onestep checkout extension for Magento2</p>
+                        <h3 id="swissup/firecheckout" class="package-title"><a href="#swissup/firecheckout" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/firecheckout</h3>
+                                                                            <p>Onestep checkout extension for Magento2</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -716,15 +781,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/firecheckout/tree/1.2.0">https://github.com/swissup/firecheckout/tree/1.2.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/firecheckout/tree/master">https://github.com/swissup/firecheckout/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/firecheckout/issues">https://github.com/swissup/firecheckout/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/firecheckout/zipball/f997279664a2b870fc25cb670c1df7c5e58834f0" title="f997279664a2b870fc25cb670c1df7c5e58834f0">dev-master</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/f997279664a2b870fc25cb670c1df7c5e58834f0" title="f997279664a2b870fc25cb670c1df7c5e58834f0">1.2.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/f58604236cb552b0e04598123634a11dfcec2a97" title="f58604236cb552b0e04598123634a11dfcec2a97">1.1.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/20c3aef349e3868d3663c55e36f0c3cc44523603" title="20c3aef349e3868d3663c55e36f0c3cc44523603">1.0.1</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/61f600b9dac161fba594d81d61b6aedbaf65351e" title="61f600b9dac161fba594d81d61b6aedbaf65351e">1.0.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/d563205a79c4e7696619786931958897f7504382" title="d563205a79c4e7696619786931958897f7504382">0.0.1</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/firecheckout/zipball/93ab9bee066243db3039a5e9744337f883f782fc" title="93ab9bee066243db3039a5e9744337f883f782fc">dev-master</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/f997279664a2b870fc25cb670c1df7c5e58834f0" title="f997279664a2b870fc25cb670c1df7c5e58834f0">1.2.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/f58604236cb552b0e04598123634a11dfcec2a97" title="f58604236cb552b0e04598123634a11dfcec2a97">1.1.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/20c3aef349e3868d3663c55e36f0c3cc44523603" title="20c3aef349e3868d3663c55e36f0c3cc44523603">1.0.1</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/61f600b9dac161fba594d81d61b6aedbaf65351e" title="61f600b9dac161fba594d81d61b6aedbaf65351e">1.0.0</a>, <a href="https://api.github.com/repos/swissup/firecheckout/zipball/d563205a79c4e7696619786931958897f7504382" title="d563205a79c4e7696619786931958897f7504382">0.0.1</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -734,8 +799,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/font-awesome">swissup/font-awesome</h3>
-                                                    <p>FontAwesome for Magento2</p>
+                        <h3 id="swissup/font-awesome" class="package-title"><a href="#swissup/font-awesome" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/font-awesome</h3>
+                                                                            <p>FontAwesome for Magento2</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -748,12 +813,12 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/font-awesome/tree/master">https://github.com/swissup/font-awesome/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/font-awesome/issues">https://github.com/swissup/font-awesome/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/font-awesome/zipball/339b8b1c69ea2e9ef2381265a161249e24d6e029" title="339b8b1c69ea2e9ef2381265a161249e24d6e029">dev-master</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/163249e439258e406d140d4508626b009bc8b4c9" title="163249e439258e406d140d4508626b009bc8b4c9">1.1.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d" title="d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d">1.0.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/1880247febc41ac011eeb6b9e51d5f72eb417480" title="1880247febc41ac011eeb6b9e51d5f72eb417480">0.2.1</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/bb7b8cbacde3a719d4ae0a78b66a42583f438bd2" title="bb7b8cbacde3a719d4ae0a78b66a42583f438bd2">0.2.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/356ffb8489c2c3c8eeefaafc91e879a86d53d9fd" title="356ffb8489c2c3c8eeefaafc91e879a86d53d9fd">0.1.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/font-awesome/zipball/43f7915abc4f514cdb04ca404a8e31c6c189d298" title="43f7915abc4f514cdb04ca404a8e31c6c189d298">dev-master</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/163249e439258e406d140d4508626b009bc8b4c9" title="163249e439258e406d140d4508626b009bc8b4c9">1.1.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d" title="d72b9a4d47d3936f439b2c55edf4a4cc2bc3eb1d">1.0.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/1880247febc41ac011eeb6b9e51d5f72eb417480" title="1880247febc41ac011eeb6b9e51d5f72eb417480">0.2.1</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/bb7b8cbacde3a719d4ae0a78b66a42583f438bd2" title="bb7b8cbacde3a719d4ae0a78b66a42583f438bd2">0.2.0</a>, <a href="https://api.github.com/repos/swissup/font-awesome/zipball/356ffb8489c2c3c8eeefaafc91e879a86d53d9fd" title="356ffb8489c2c3c8eeefaafc91e879a86d53d9fd">0.1.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -767,8 +832,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/geoip">swissup/geoip</h3>
-                                                    <p>Magento 2 module for geo location detecting by ip</p>
+                        <h3 id="swissup/geoip" class="package-title"><a href="#swissup/geoip" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/geoip</h3>
+                                                                            <p>Magento 2 module for geo location detecting by ip</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -778,15 +843,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/geoip/tree/1.0.2">https://github.com/swissup/geoip/tree/1.0.2</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/geoip/tree/master">https://github.com/swissup/geoip/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/geoip/issues">https://github.com/swissup/geoip/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/geoip/zipball/562b67756d89c75ee2cc79824e94941eb5aa12a6" title="562b67756d89c75ee2cc79824e94941eb5aa12a6">dev-master</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/562b67756d89c75ee2cc79824e94941eb5aa12a6" title="562b67756d89c75ee2cc79824e94941eb5aa12a6">1.0.2</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/2ab571207bfe967dc1a33085f773db92477a11ce" title="2ab571207bfe967dc1a33085f773db92477a11ce">1.0.1</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/97036dbdca49719d57334273a80c58abb5d263ad" title="97036dbdca49719d57334273a80c58abb5d263ad">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/geoip/zipball/eec96849445828a6255d5bb4e2e36a7b287f6a15" title="eec96849445828a6255d5bb4e2e36a7b287f6a15">dev-master</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/562b67756d89c75ee2cc79824e94941eb5aa12a6" title="562b67756d89c75ee2cc79824e94941eb5aa12a6">1.0.2</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/2ab571207bfe967dc1a33085f773db92477a11ce" title="2ab571207bfe967dc1a33085f773db92477a11ce">1.0.1</a>, <a href="https://api.github.com/repos/swissup/geoip/zipball/97036dbdca49719d57334273a80c58abb5d263ad" title="97036dbdca49719d57334273a80c58abb5d263ad">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -799,8 +864,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/highlight">swissup/highlight</h3>
-                                                    <p>Various product listing widgets with flexible filters</p>
+                        <h3 id="swissup/highlight" class="package-title"><a href="#swissup/highlight" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/highlight</h3>
+                                                                            <p>Various product listing widgets with flexible filters</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -810,15 +875,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/highlight/tree/1.1.0">https://github.com/swissup/highlight/tree/1.1.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/highlight/tree/master">https://github.com/swissup/highlight/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/highlight/issues">https://github.com/swissup/highlight/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/highlight/zipball/db85fd1df0a84d80f0b1dd4abc5a562ad130ad91" title="db85fd1df0a84d80f0b1dd4abc5a562ad130ad91">dev-master</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/db85fd1df0a84d80f0b1dd4abc5a562ad130ad91" title="db85fd1df0a84d80f0b1dd4abc5a562ad130ad91">1.1.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/4eec38d350f86405d07700b9cbb7e2a943b0072d" title="4eec38d350f86405d07700b9cbb7e2a943b0072d">1.0.3</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/05153e2b20a8bd58877252e89e4e8520fe88b214" title="05153e2b20a8bd58877252e89e4e8520fe88b214">1.0.2</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/9b8f40b0a98a069243f4b727f5e01cf11f07cace" title="9b8f40b0a98a069243f4b727f5e01cf11f07cace">1.0.1</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/0446f50ea44914cfce0f303f2315a4737d0df188" title="0446f50ea44914cfce0f303f2315a4737d0df188">1.0.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/5d67c92e495b5a51d60911cf8e999d7c9ed2a1d3" title="5d67c92e495b5a51d60911cf8e999d7c9ed2a1d3">0.6.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/10030fa05470a8824a4d0a516ddf0e12992f3003" title="10030fa05470a8824a4d0a516ddf0e12992f3003">0.2.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/highlight/zipball/533393006bf488e8b8da5f5b48ef836d33b14f06" title="533393006bf488e8b8da5f5b48ef836d33b14f06">dev-master</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/db85fd1df0a84d80f0b1dd4abc5a562ad130ad91" title="db85fd1df0a84d80f0b1dd4abc5a562ad130ad91">1.1.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/4eec38d350f86405d07700b9cbb7e2a943b0072d" title="4eec38d350f86405d07700b9cbb7e2a943b0072d">1.0.3</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/05153e2b20a8bd58877252e89e4e8520fe88b214" title="05153e2b20a8bd58877252e89e4e8520fe88b214">1.0.2</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/9b8f40b0a98a069243f4b727f5e01cf11f07cace" title="9b8f40b0a98a069243f4b727f5e01cf11f07cace">1.0.1</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/0446f50ea44914cfce0f303f2315a4737d0df188" title="0446f50ea44914cfce0f303f2315a4737d0df188">1.0.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/5d67c92e495b5a51d60911cf8e999d7c9ed2a1d3" title="5d67c92e495b5a51d60911cf8e999d7c9ed2a1d3">0.6.0</a>, <a href="https://api.github.com/repos/swissup/highlight/zipball/10030fa05470a8824a4d0a516ddf0e12992f3003" title="10030fa05470a8824a4d0a516ddf0e12992f3003">0.2.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -831,8 +896,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/maintenance">swissup/maintenance</h3>
-                                                    <p>Maintenance store extension</p>
+                        <h3 id="swissup/maintenance" class="package-title"><a href="#swissup/maintenance" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/maintenance</h3>
+                                                                            <p>Maintenance store extension</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -845,8 +910,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/maintenance/tree/1.0.0">https://github.com/swissup/maintenance/tree/1.0.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/maintenance/issues">https://github.com/swissup/maintenance/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -860,8 +925,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/orderattachment">swissup/orderattachment</h3>
-                                                <table>
+                        <h3 id="swissup/orderattachment" class="package-title"><a href="#swissup/orderattachment" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/orderattachment</h3>
+                                                                        <table>
                                                                                         <tr>
                                     <th>License</th>
                                     <td>OSL-3.0</td>
@@ -873,8 +938,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/orderattachment/tree/1.0.3">https://github.com/swissup/orderattachment/tree/1.0.3</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/orderattachment/issues">https://github.com/swissup/orderattachment/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -891,8 +956,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/pro-labels">swissup/pro-labels</h3>
-                                                    <p>Product labels and badges</p>
+                        <h3 id="swissup/pro-labels" class="package-title"><a href="#swissup/pro-labels" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/pro-labels</h3>
+                                                                            <p>Product labels and badges</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -902,15 +967,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/prolabels/tree/1.0.14">https://github.com/swissup/prolabels/tree/1.0.14</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/prolabels/tree/master">https://github.com/swissup/prolabels/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/prolabels/issues">https://github.com/swissup/prolabels/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/prolabels/zipball/b2d084d2d753677bdf0f22c4709f69b3571c9d6f" title="b2d084d2d753677bdf0f22c4709f69b3571c9d6f">dev-master</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/b2d084d2d753677bdf0f22c4709f69b3571c9d6f" title="b2d084d2d753677bdf0f22c4709f69b3571c9d6f">1.0.14</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/250e578a5e6caa52e96e89f0fbb0a135364ef063" title="250e578a5e6caa52e96e89f0fbb0a135364ef063">1.0.13</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/2096586152b9fbbb5e6cf0546020aff4b6acf1ae" title="2096586152b9fbbb5e6cf0546020aff4b6acf1ae">1.0.12</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/ccb75da817e94ed6722dc2d92f5fb47d089e9c87" title="ccb75da817e94ed6722dc2d92f5fb47d089e9c87">1.0.11</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/d24260f2584c09003ee5e95e5544485b2a1f2111" title="d24260f2584c09003ee5e95e5544485b2a1f2111">1.0.10</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/581fb371b058841cd71face427a3551ee25a3d30" title="581fb371b058841cd71face427a3551ee25a3d30">1.0.9</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/9494a18de0413f7cdebe149ea168e7be4d781c98" title="9494a18de0413f7cdebe149ea168e7be4d781c98">1.0.8</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/b4e6e822f1d51d9e979428dd1e9571c0060e17d3" title="b4e6e822f1d51d9e979428dd1e9571c0060e17d3">1.0.7</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/cb4ede8958fa1291333169e24631953ec900e4d2" title="cb4ede8958fa1291333169e24631953ec900e4d2">1.0.6</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/9f89091be664c98db4bd8da809e3009116b06e4c" title="9f89091be664c98db4bd8da809e3009116b06e4c">1.0.5</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/67ea7313b23e3f8332bff46028b3f581b392c12b" title="67ea7313b23e3f8332bff46028b3f581b392c12b">1.0.4</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9" title="2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9">1.0.3</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47" title="69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47">1.0.2</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/802eb4e05a3a18f56371d0a6b63c59393cd2d0b3" title="802eb4e05a3a18f56371d0a6b63c59393cd2d0b3">1.0.1</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/806692b18a7e12c35d35cdb4b4084682c038ec38" title="806692b18a7e12c35d35cdb4b4084682c038ec38">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/prolabels/zipball/a3edc89488e533f1d3bde0d7be45a3112d3db6ce" title="a3edc89488e533f1d3bde0d7be45a3112d3db6ce">dev-master</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/b2d084d2d753677bdf0f22c4709f69b3571c9d6f" title="b2d084d2d753677bdf0f22c4709f69b3571c9d6f">1.0.14</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/250e578a5e6caa52e96e89f0fbb0a135364ef063" title="250e578a5e6caa52e96e89f0fbb0a135364ef063">1.0.13</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/2096586152b9fbbb5e6cf0546020aff4b6acf1ae" title="2096586152b9fbbb5e6cf0546020aff4b6acf1ae">1.0.12</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/ccb75da817e94ed6722dc2d92f5fb47d089e9c87" title="ccb75da817e94ed6722dc2d92f5fb47d089e9c87">1.0.11</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/d24260f2584c09003ee5e95e5544485b2a1f2111" title="d24260f2584c09003ee5e95e5544485b2a1f2111">1.0.10</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/581fb371b058841cd71face427a3551ee25a3d30" title="581fb371b058841cd71face427a3551ee25a3d30">1.0.9</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/9494a18de0413f7cdebe149ea168e7be4d781c98" title="9494a18de0413f7cdebe149ea168e7be4d781c98">1.0.8</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/b4e6e822f1d51d9e979428dd1e9571c0060e17d3" title="b4e6e822f1d51d9e979428dd1e9571c0060e17d3">1.0.7</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/cb4ede8958fa1291333169e24631953ec900e4d2" title="cb4ede8958fa1291333169e24631953ec900e4d2">1.0.6</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/9f89091be664c98db4bd8da809e3009116b06e4c" title="9f89091be664c98db4bd8da809e3009116b06e4c">1.0.5</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/67ea7313b23e3f8332bff46028b3f581b392c12b" title="67ea7313b23e3f8332bff46028b3f581b392c12b">1.0.4</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9" title="2a3b0b00171e28c8541cf5e97d4ab9e69e3c33b9">1.0.3</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47" title="69d1ca3457d5cb53f7aa0879e5bb4f4cca378a47">1.0.2</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/802eb4e05a3a18f56371d0a6b63c59393cd2d0b3" title="802eb4e05a3a18f56371d0a6b63c59393cd2d0b3">1.0.1</a>, <a href="https://api.github.com/repos/swissup/prolabels/zipball/806692b18a7e12c35d35cdb4b4084682c038ec38" title="806692b18a7e12c35d35cdb4b4084682c038ec38">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -923,8 +988,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/recaptcha">swissup/recaptcha</h3>
-                                                    <p>Recaptcha for M2</p>
+                        <h3 id="swissup/recaptcha" class="package-title"><a href="#swissup/recaptcha" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/recaptcha</h3>
+                                                                            <p>Recaptcha for M2</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -937,8 +1002,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/recaptcha/tree/master">https://github.com/swissup/recaptcha/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/recaptcha/issues">https://github.com/swissup/recaptcha/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -952,8 +1017,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/reviewreminder">swissup/reviewreminder</h3>
-                                                    <p>Review Reminder extension from Swissup</p>
+                        <h3 id="swissup/reviewreminder" class="package-title"><a href="#swissup/reviewreminder" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/reviewreminder</h3>
+                                                                            <p>Review Reminder extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -963,15 +1028,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/reviewreminder/tree/1.0.5">https://github.com/swissup/reviewreminder/tree/1.0.5</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/reviewreminder/tree/master">https://github.com/swissup/reviewreminder/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/reviewreminder/issues">https://github.com/swissup/reviewreminder/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/f1fe0f865540baed86e0000f6114c9db84b2f3e7" title="f1fe0f865540baed86e0000f6114c9db84b2f3e7">dev-master</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/f1fe0f865540baed86e0000f6114c9db84b2f3e7" title="f1fe0f865540baed86e0000f6114c9db84b2f3e7">1.0.5</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/bf9f349f5d1f70b84b6d33b4039ed7dd11e9f265" title="bf9f349f5d1f70b84b6d33b4039ed7dd11e9f265">1.0.4</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/ac1477838014c5f5e12dd193619e05dc51612a88" title="ac1477838014c5f5e12dd193619e05dc51612a88">1.0.3</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/0720c62a285c73b703632802de34b32c04c69c0d" title="0720c62a285c73b703632802de34b32c04c69c0d">1.0.2</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/88375f369d4f9fe897ba61238045a01acad22d84" title="88375f369d4f9fe897ba61238045a01acad22d84">1.0.1</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/b56028edbbadb1f4bfabf2dfbe0675d75fe858bf" title="b56028edbbadb1f4bfabf2dfbe0675d75fe858bf">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/434d316209328b59ad0ff590e5e25fcaea432001" title="434d316209328b59ad0ff590e5e25fcaea432001">dev-master</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/f1fe0f865540baed86e0000f6114c9db84b2f3e7" title="f1fe0f865540baed86e0000f6114c9db84b2f3e7">1.0.5</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/bf9f349f5d1f70b84b6d33b4039ed7dd11e9f265" title="bf9f349f5d1f70b84b6d33b4039ed7dd11e9f265">1.0.4</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/ac1477838014c5f5e12dd193619e05dc51612a88" title="ac1477838014c5f5e12dd193619e05dc51612a88">1.0.3</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/0720c62a285c73b703632802de34b32c04c69c0d" title="0720c62a285c73b703632802de34b32c04c69c0d">1.0.2</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/88375f369d4f9fe897ba61238045a01acad22d84" title="88375f369d4f9fe897ba61238045a01acad22d84">1.0.1</a>, <a href="https://api.github.com/repos/swissup/reviewreminder/zipball/b56028edbbadb1f4bfabf2dfbe0675d75fe858bf" title="b56028edbbadb1f4bfabf2dfbe0675d75fe858bf">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -984,8 +1049,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/rich-snippets">swissup/rich-snippets</h3>
-                                                <table>
+                        <h3 id="swissup/rich-snippets" class="package-title"><a href="#swissup/rich-snippets" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/rich-snippets</h3>
+                                                                        <table>
                                                                                         <tr>
                                     <th>License</th>
                                     <td>OSL-3.0</td>
@@ -994,15 +1059,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/1.0.3">https://github.com/swissup/richsnippets/tree/1.0.3</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/richsnippets/tree/master">https://github.com/swissup/richsnippets/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/richsnippets/issues">https://github.com/swissup/richsnippets/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/richsnippets/zipball/6c46b66e727793560b33a49809aafc06feb45c54" title="6c46b66e727793560b33a49809aafc06feb45c54">dev-master</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/6c46b66e727793560b33a49809aafc06feb45c54" title="6c46b66e727793560b33a49809aafc06feb45c54">1.0.3</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/12d80326b28109f29b0e9ed1eb6cf5b131ed6149" title="12d80326b28109f29b0e9ed1eb6cf5b131ed6149">1.0.2</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/b8a49c142c52e18a9ae7791d78877e49a0e636e7" title="b8a49c142c52e18a9ae7791d78877e49a0e636e7">1.0.1</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/b6f1e1ac48db862a87eb81c6eaee3445dedfcde1" title="b6f1e1ac48db862a87eb81c6eaee3445dedfcde1">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/richsnippets/zipball/547a616d145e6ee3462c3f8cc3f1729fa1cb025d" title="547a616d145e6ee3462c3f8cc3f1729fa1cb025d">dev-master</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/6c46b66e727793560b33a49809aafc06feb45c54" title="6c46b66e727793560b33a49809aafc06feb45c54">1.0.3</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/12d80326b28109f29b0e9ed1eb6cf5b131ed6149" title="12d80326b28109f29b0e9ed1eb6cf5b131ed6149">1.0.2</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/b8a49c142c52e18a9ae7791d78877e49a0e636e7" title="b8a49c142c52e18a9ae7791d78877e49a0e636e7">1.0.1</a>, <a href="https://api.github.com/repos/swissup/richsnippets/zipball/b6f1e1ac48db862a87eb81c6eaee3445dedfcde1" title="b6f1e1ac48db862a87eb81c6eaee3445dedfcde1">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1015,8 +1080,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/slick-carousel">swissup/slick-carousel</h3>
-                                                    <p>the last carousel you&#039;ll ever need for magento2</p>
+                        <h3 id="swissup/slick-carousel" class="package-title"><a href="#swissup/slick-carousel" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/slick-carousel</h3>
+                                                                            <p>the last carousel you&#039;ll ever need for magento2</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1029,8 +1094,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/slick-carousel/tree/1.1.0">https://github.com/swissup/slick-carousel/tree/1.1.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/slick-carousel/issues">https://github.com/swissup/slick-carousel/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1051,8 +1116,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/sold-together">swissup/sold-together</h3>
-                                                <table>
+                        <h3 id="swissup/sold-together" class="package-title"><a href="#swissup/sold-together" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/sold-together</h3>
+                                                                        <table>
                                                                                         <tr>
                                     <th>License</th>
                                     <td>OSL-3.0</td>
@@ -1061,15 +1126,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/soldtogether/tree/1.1.6">https://github.com/swissup/soldtogether/tree/1.1.6</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/soldtogether/tree/master">https://github.com/swissup/soldtogether/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/soldtogether/issues">https://github.com/swissup/soldtogether/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/soldtogether/zipball/00684cb6bdba08e0e082d75b777179f99fb1fa75" title="00684cb6bdba08e0e082d75b777179f99fb1fa75">dev-master</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/00684cb6bdba08e0e082d75b777179f99fb1fa75" title="00684cb6bdba08e0e082d75b777179f99fb1fa75">1.1.6</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/ae898ac2e48f54b376da9105bdde7bfb6ab26892" title="ae898ac2e48f54b376da9105bdde7bfb6ab26892">1.1.5</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/cbbf3a9948cd9b8568d959d1a342c771ac295d80" title="cbbf3a9948cd9b8568d959d1a342c771ac295d80">1.1.4</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/21e6bb2bd007c6d352d4c3124110f290086979cb" title="21e6bb2bd007c6d352d4c3124110f290086979cb">1.1.3</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/ef752940c85eae04fe055a59cfa6cbafca935add" title="ef752940c85eae04fe055a59cfa6cbafca935add">1.1.2</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/d901be45181bfbf5416beb0c3d64d5039abd0228" title="d901be45181bfbf5416beb0c3d64d5039abd0228">1.1.1</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/c6aa2f7a05b94710bb13b062594e9329839c17e0" title="c6aa2f7a05b94710bb13b062594e9329839c17e0">1.1.0</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/7769e60f31b746fd3f3f6cb9c6544aa05dc429a0" title="7769e60f31b746fd3f3f6cb9c6544aa05dc429a0">1.0.5</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97" title="45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97">1.0.4</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/dabcb1a978bf9b07e1bf688b9207189b1c9f079c" title="dabcb1a978bf9b07e1bf688b9207189b1c9f079c">1.0.3</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/8daf185eeaa1d380c2242d0b2e3256e87cb2c5df" title="8daf185eeaa1d380c2242d0b2e3256e87cb2c5df">1.0.2</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/867d91916a163c47147f6190fba651e1db7ee5af" title="867d91916a163c47147f6190fba651e1db7ee5af">1.0.1</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/6655be863e7da10855a3a28d6889cd6d8af84733" title="6655be863e7da10855a3a28d6889cd6d8af84733">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/soldtogether/zipball/581611495ee00f228154228e8a00187584aaf8de" title="581611495ee00f228154228e8a00187584aaf8de">dev-master</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/00684cb6bdba08e0e082d75b777179f99fb1fa75" title="00684cb6bdba08e0e082d75b777179f99fb1fa75">1.1.6</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/ae898ac2e48f54b376da9105bdde7bfb6ab26892" title="ae898ac2e48f54b376da9105bdde7bfb6ab26892">1.1.5</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/cbbf3a9948cd9b8568d959d1a342c771ac295d80" title="cbbf3a9948cd9b8568d959d1a342c771ac295d80">1.1.4</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/21e6bb2bd007c6d352d4c3124110f290086979cb" title="21e6bb2bd007c6d352d4c3124110f290086979cb">1.1.3</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/ef752940c85eae04fe055a59cfa6cbafca935add" title="ef752940c85eae04fe055a59cfa6cbafca935add">1.1.2</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/d901be45181bfbf5416beb0c3d64d5039abd0228" title="d901be45181bfbf5416beb0c3d64d5039abd0228">1.1.1</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/c6aa2f7a05b94710bb13b062594e9329839c17e0" title="c6aa2f7a05b94710bb13b062594e9329839c17e0">1.1.0</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/7769e60f31b746fd3f3f6cb9c6544aa05dc429a0" title="7769e60f31b746fd3f3f6cb9c6544aa05dc429a0">1.0.5</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97" title="45196705af58d97eb05c2f8e3d2b5e6cb3ffaa97">1.0.4</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/dabcb1a978bf9b07e1bf688b9207189b1c9f079c" title="dabcb1a978bf9b07e1bf688b9207189b1c9f079c">1.0.3</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/8daf185eeaa1d380c2242d0b2e3256e87cb2c5df" title="8daf185eeaa1d380c2242d0b2e3256e87cb2c5df">1.0.2</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/867d91916a163c47147f6190fba651e1db7ee5af" title="867d91916a163c47147f6190fba651e1db7ee5af">1.0.1</a>, <a href="https://api.github.com/repos/swissup/soldtogether/zipball/6655be863e7da10855a3a28d6889cd6d8af84733" title="6655be863e7da10855a3a28d6889cd6d8af84733">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1082,8 +1147,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/subscription-checker">swissup/subscription-checker</h3>
-                                                    <p>Client-side subscription validation</p>
+                        <h3 id="swissup/subscription-checker" class="package-title"><a href="#swissup/subscription-checker" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/subscription-checker</h3>
+                                                                            <p>Client-side subscription validation</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1096,8 +1161,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/subscription-checker/tree/1.0.1">https://github.com/swissup/subscription-checker/tree/1.0.1</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/subscription-checker/issues">https://github.com/swissup/subscription-checker/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1111,8 +1176,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/taxvat">swissup/taxvat</h3>
-                                                    <p>Magento 2 Checkout Tax VAT</p>
+                        <h3 id="swissup/taxvat" class="package-title"><a href="#swissup/taxvat" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/taxvat</h3>
+                                                                            <p>Magento 2 Checkout Tax VAT</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1122,15 +1187,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/taxvat/tree/1.0.0">https://github.com/swissup/taxvat/tree/1.0.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/taxvat/tree/master">https://github.com/swissup/taxvat/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/taxvat/issues">https://github.com/swissup/taxvat/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/taxvat/zipball/97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1" title="97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1">dev-master</a>, <a href="https://api.github.com/repos/swissup/taxvat/zipball/97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1" title="97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/taxvat/zipball/96fbe39f3daf1dbced59afad56bf46a5c13491cc" title="96fbe39f3daf1dbced59afad56bf46a5c13491cc">dev-master</a>, <a href="https://api.github.com/repos/swissup/taxvat/zipball/97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1" title="97a0dd1471bdb0d7ce97c5f06e30e9b83d0439f1">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1143,8 +1208,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/testimonials">swissup/testimonials</h3>
-                                                    <p>Testimonials extension from Swissup</p>
+                        <h3 id="swissup/testimonials" class="package-title"><a href="#swissup/testimonials" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/testimonials</h3>
+                                                                            <p>Testimonials extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1154,15 +1219,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/testimonials/tree/1.0.5">https://github.com/swissup/testimonials/tree/1.0.5</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/testimonials/tree/master">https://github.com/swissup/testimonials/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/testimonials/issues">https://github.com/swissup/testimonials/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/testimonials/zipball/b606bbc9b41ce1b576eb87393ef65888e0d2c89b" title="b606bbc9b41ce1b576eb87393ef65888e0d2c89b">dev-master</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/b606bbc9b41ce1b576eb87393ef65888e0d2c89b" title="b606bbc9b41ce1b576eb87393ef65888e0d2c89b">1.0.5</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/8c555c0d98e40bf599e5f3891ad76acf9d9b4206" title="8c555c0d98e40bf599e5f3891ad76acf9d9b4206">1.0.4</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/07f28fc13207188404d27a0846f81dfe156a2a62" title="07f28fc13207188404d27a0846f81dfe156a2a62">1.0.3</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/396084d1956a181e12870ea360b4347be648d0e3" title="396084d1956a181e12870ea360b4347be648d0e3">1.0.2</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/ab0d4e245d0e3ba5646e6e1f3b0861f55d761985" title="ab0d4e245d0e3ba5646e6e1f3b0861f55d761985">1.0.1</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/2a2440504edde112b9ef19cc915b5ae4d54f2e28" title="2a2440504edde112b9ef19cc915b5ae4d54f2e28">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/testimonials/zipball/21306c7359f6a67c3f0493a13daf45dbe09c2413" title="21306c7359f6a67c3f0493a13daf45dbe09c2413">dev-master</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/b606bbc9b41ce1b576eb87393ef65888e0d2c89b" title="b606bbc9b41ce1b576eb87393ef65888e0d2c89b">1.0.5</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/8c555c0d98e40bf599e5f3891ad76acf9d9b4206" title="8c555c0d98e40bf599e5f3891ad76acf9d9b4206">1.0.4</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/07f28fc13207188404d27a0846f81dfe156a2a62" title="07f28fc13207188404d27a0846f81dfe156a2a62">1.0.3</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/396084d1956a181e12870ea360b4347be648d0e3" title="396084d1956a181e12870ea360b4347be648d0e3">1.0.2</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/ab0d4e245d0e3ba5646e6e1f3b0861f55d761985" title="ab0d4e245d0e3ba5646e6e1f3b0861f55d761985">1.0.1</a>, <a href="https://api.github.com/repos/swissup/testimonials/zipball/2a2440504edde112b9ef19cc915b5ae4d54f2e28" title="2a2440504edde112b9ef19cc915b5ae4d54f2e28">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1175,8 +1240,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-editor">swissup/theme-editor</h3>
-                                                    <p>Theme styles editing extension from Swissup</p>
+                        <h3 id="swissup/theme-editor" class="package-title"><a href="#swissup/theme-editor" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-editor</h3>
+                                                                            <p>Theme styles editing extension from Swissup</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1186,15 +1251,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/swissup/theme-editor/tree/1.2.1">https://github.com/swissup/theme-editor/tree/1.2.1</a></li>
+                                                                            <li>Source: <a href="https://github.com/swissup/theme-editor/tree/master">https://github.com/swissup/theme-editor/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/theme-editor/issues">https://github.com/swissup/theme-editor/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/swissup/theme-editor/zipball/f608e89b33a772e279e02f178b540738264c0093" title="f608e89b33a772e279e02f178b540738264c0093">dev-master</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/f608e89b33a772e279e02f178b540738264c0093" title="f608e89b33a772e279e02f178b540738264c0093">1.2.1</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/2ad10b64f578ce47e481fb92428fb4fe602b421f" title="2ad10b64f578ce47e481fb92428fb4fe602b421f">1.2.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/c83d032e4e0481bdef7b953dfcf1f8b4a2038fee" title="c83d032e4e0481bdef7b953dfcf1f8b4a2038fee">1.1.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/00c5396993ea77d6025045f2dc5a1897a6e8ca64" title="00c5396993ea77d6025045f2dc5a1897a6e8ca64">1.0.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/d1c22654b17caa5e92dbb8fd320bf22da9732ba1" title="d1c22654b17caa5e92dbb8fd320bf22da9732ba1">0.6.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/ab831be42f994ae9c6fb080a3360fa09dcbaf7ce" title="ab831be42f994ae9c6fb080a3360fa09dcbaf7ce">0.5.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/49bc8b4fba2cf9b2061b891a26ed4aaae2d7c94b" title="49bc8b4fba2cf9b2061b891a26ed4aaae2d7c94b">0.1.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/swissup/theme-editor/zipball/d63d4054d98029408597e6e6670f2a176b6dc5ad" title="d63d4054d98029408597e6e6670f2a176b6dc5ad">dev-master</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/f608e89b33a772e279e02f178b540738264c0093" title="f608e89b33a772e279e02f178b540738264c0093">1.2.1</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/2ad10b64f578ce47e481fb92428fb4fe602b421f" title="2ad10b64f578ce47e481fb92428fb4fe602b421f">1.2.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/c83d032e4e0481bdef7b953dfcf1f8b4a2038fee" title="c83d032e4e0481bdef7b953dfcf1f8b4a2038fee">1.1.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/00c5396993ea77d6025045f2dc5a1897a6e8ca64" title="00c5396993ea77d6025045f2dc5a1897a6e8ca64">1.0.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/d1c22654b17caa5e92dbb8fd320bf22da9732ba1" title="d1c22654b17caa5e92dbb8fd320bf22da9732ba1">0.6.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/ab831be42f994ae9c6fb080a3360fa09dcbaf7ce" title="ab831be42f994ae9c6fb080a3360fa09dcbaf7ce">0.5.0</a>, <a href="https://api.github.com/repos/swissup/theme-editor/zipball/49bc8b4fba2cf9b2061b891a26ed4aaae2d7c94b" title="49bc8b4fba2cf9b2061b891a26ed4aaae2d7c94b">0.1.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1210,8 +1275,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-editor-argento-essence">swissup/theme-editor-argento-essence</h3>
-                                                    <p>Theme styles for Argento Essence theme</p>
+                        <h3 id="swissup/theme-editor-argento-essence" class="package-title"><a href="#swissup/theme-editor-argento-essence" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-editor-argento-essence</h3>
+                                                                            <p>Theme styles for Argento Essence theme</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1221,15 +1286,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/argento/theme-editor-argento-essence/tree/1.1.0">https://github.com/argento/theme-editor-argento-essence/tree/1.1.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/argento/theme-editor-argento-essence/tree/master">https://github.com/argento/theme-editor-argento-essence/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/argento/theme-editor-argento-essence/issues">https://github.com/argento/theme-editor-argento-essence/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7" title="aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7">dev-master</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7" title="aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7">1.1.0</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/7720263136c491ec1c78fc6ddaeedf1fc4960275" title="7720263136c491ec1c78fc6ddaeedf1fc4960275">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/48801ee84fe79408e875fa1815a757d6f6dca772" title="48801ee84fe79408e875fa1815a757d6f6dca772">dev-master</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7" title="aa736ed4f0a8bc0b7c3c6c4ac4ce1937609c53d7">1.1.0</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/7720263136c491ec1c78fc6ddaeedf1fc4960275" title="7720263136c491ec1c78fc6ddaeedf1fc4960275">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1242,8 +1307,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-editor-argento-flat">swissup/theme-editor-argento-flat</h3>
-                                                    <p>Theme styles for Argento Flat theme</p>
+                        <h3 id="swissup/theme-editor-argento-flat" class="package-title"><a href="#swissup/theme-editor-argento-flat" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-editor-argento-flat</h3>
+                                                                            <p>Theme styles for Argento Flat theme</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1253,15 +1318,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/argento/theme-editor-argento-flat/tree/1.0.0">https://github.com/argento/theme-editor-argento-flat/tree/1.0.0</a></li>
+                                                                            <li>Source: <a href="https://github.com/argento/theme-editor-argento-flat/tree/master">https://github.com/argento/theme-editor-argento-flat/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/argento/theme-editor-argento-flat/issues">https://github.com/argento/theme-editor-argento-flat/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/cbc4cc883a7bc5d2b21412901f0e34326b6664b1" title="cbc4cc883a7bc5d2b21412901f0e34326b6664b1">dev-master</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/cbc4cc883a7bc5d2b21412901f0e34326b6664b1" title="cbc4cc883a7bc5d2b21412901f0e34326b6664b1">1.0.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/31f671e131645e50511b3a92bf0625b5166621d7" title="31f671e131645e50511b3a92bf0625b5166621d7">dev-master</a>, <a href="https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/cbc4cc883a7bc5d2b21412901f0e34326b6664b1" title="cbc4cc883a7bc5d2b21412901f0e34326b6664b1">1.0.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -1274,8 +1339,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-editor-swissup-absolute">swissup/theme-editor-swissup-absolute</h3>
-                                                    <p>Theme styles for Swissup Absolute theme</p>
+                        <h3 id="swissup/theme-editor-swissup-absolute" class="package-title"><a href="#swissup/theme-editor-swissup-absolute" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-editor-swissup-absolute</h3>
+                                                                            <p>Theme styles for Swissup Absolute theme</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1288,8 +1353,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/theme-editor-swissup-absolute/tree/1.0.0">https://github.com/swissup/theme-editor-swissup-absolute/tree/1.0.0</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/theme-editor-swissup-absolute/issues">https://github.com/swissup/theme-editor-swissup-absolute/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1303,8 +1368,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-frontend-absolute">swissup/theme-frontend-absolute</h3>
-                                                    <p>Absolute Theme for Magento 2</p>
+                        <h3 id="swissup/theme-frontend-absolute" class="package-title"><a href="#swissup/theme-frontend-absolute" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-frontend-absolute</h3>
+                                                                            <p>Absolute Theme for Magento 2</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1317,8 +1382,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/swissup/theme-frontend-absolute/tree/master">https://github.com/swissup/theme-frontend-absolute/tree/master</a></li>
                                                                             <li>Issues: <a href="https://github.com/swissup/theme-frontend-absolute/issues">https://github.com/swissup/theme-frontend-absolute/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1335,8 +1400,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-frontend-argento-blank">swissup/theme-frontend-argento-blank</h3>
-                                                    <p>Basic theme for all Argento themes</p>
+                        <h3 id="swissup/theme-frontend-argento-blank" class="package-title"><a href="#swissup/theme-frontend-argento-blank" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-frontend-argento-blank</h3>
+                                                                            <p>Basic theme for all Argento themes</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1349,8 +1414,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/argento/theme-frontend-blank/tree/0.9.4">https://github.com/argento/theme-frontend-blank/tree/0.9.4</a></li>
                                                                             <li>Issues: <a href="https://github.com/argento/theme-frontend-blank/issues">https://github.com/argento/theme-frontend-blank/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1369,8 +1434,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-frontend-argento-essence">swissup/theme-frontend-argento-essence</h3>
-                                                    <p>Most advanced responsive theme for Magento</p>
+                        <h3 id="swissup/theme-frontend-argento-essence" class="package-title"><a href="#swissup/theme-frontend-argento-essence" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-frontend-argento-essence</h3>
+                                                                            <p>Most advanced responsive theme for Magento</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1383,8 +1448,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/argento/theme-frontend-essence/tree/0.9.3.1">https://github.com/argento/theme-frontend-essence/tree/0.9.3.1</a></li>
                                                                             <li>Issues: <a href="https://github.com/argento/theme-frontend-essence/issues">https://github.com/argento/theme-frontend-essence/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1401,8 +1466,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="swissup/theme-frontend-argento-flat">swissup/theme-frontend-argento-flat</h3>
-                                                    <p>Most advanced responsive theme for Magento</p>
+                        <h3 id="swissup/theme-frontend-argento-flat" class="package-title"><a href="#swissup/theme-frontend-argento-flat" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>swissup/theme-frontend-argento-flat</h3>
+                                                                            <p>Most advanced responsive theme for Magento</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -1415,8 +1480,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                             <li>Source: <a href="https://github.com/argento/theme-frontend-flat/tree/0.9.4">https://github.com/argento/theme-frontend-flat/tree/0.9.4</a></li>
                                                                             <li>Issues: <a href="https://github.com/argento/theme-frontend-flat/issues">https://github.com/argento/theme-frontend-flat/issues</a></li>
                                                                         </ul>
-                                </tr>
-                            </td>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -1432,10 +1497,11 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </tr>
                         </table>
                     </div>
-                            </div>
+                                </div>
+            </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-10-19T01:05:39-0700</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-11-14T10:51:39+0200</small></p>
         </div>
     </div>
 
@@ -1459,10 +1525,12 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
             var ms = 350; // milliseconds
             var needle = $(this).val().toLowerCase(), show;
             timer = setTimeout(function() {
+                $('#package-list').hide();
                 packages.each(function(){
                     show = $(this).text().toLowerCase().indexOf(needle) != -1;
                     $(this).parent().toggle(show);
                 });
+                $('#package-list').show();
             }, ms);
         }).focus();
         $('input#search').change(function(){
@@ -1484,7 +1552,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-10-19T01:05:39-0700').fromNow());
+            $lastUpdate.text(moment('2016-11-14T10:51:39+0200').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

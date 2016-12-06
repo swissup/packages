@@ -3622,19 +3622,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/delivery-date.git",
-                    "reference": "68fcc4d11ba847589402ec665d83100ae400f15e"
+                    "reference": "c20ec3b013ef4b4cc1d228a7b8d7c9c74f18e027"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/68fcc4d11ba847589402ec665d83100ae400f15e",
-                    "reference": "68fcc4d11ba847589402ec665d83100ae400f15e",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/c20ec3b013ef4b4cc1d228a7b8d7c9c74f18e027",
+                    "reference": "c20ec3b013ef4b4cc1d228a7b8d7c9c74f18e027",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-11-30 09:29:29",
+                "time": "2016-11-30 15:07:42",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -9160,19 +9160,19 @@
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             },
-            "dev-master": {
+            "1.1.7": {
                 "name": "swissup/sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.7",
+                "version_normalized": "1.1.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "581611495ee00f228154228e8a00187584aaf8de"
+                    "reference": "eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/581611495ee00f228154228e8a00187584aaf8de",
-                    "reference": "581611495ee00f228154228e8a00187584aaf8de",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a",
+                    "reference": "eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a",
                     "shasum": ""
                 },
                 "require": {
@@ -9180,7 +9180,7 @@
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-11-11 15:02:54",
+                "time": "2016-12-06 09:13:35",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -9194,7 +9194,45 @@
                     "OSL-3.0"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/master",
+                    "source": "https://github.com/swissup/soldtogether/tree/1.1.7",
+                    "issues": "https://github.com/swissup/soldtogether/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/soldtogether.git",
+                    "reference": "eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a",
+                    "reference": "eeb3a0fd12db6391b7a3d044dd9fce5d17b9745a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2016-12-06 09:13:35",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/soldtogether/tree/1.1.7",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }

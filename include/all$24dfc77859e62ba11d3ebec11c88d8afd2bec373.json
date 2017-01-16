@@ -1802,7 +1802,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -2876,32 +2876,31 @@
             }
         },
         "swissup/checkout-cart": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/checkout-cart",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-cart.git",
-                    "reference": "d8cf26ac363dff78b7f0ae5641e9d5119f060cef"
+                    "reference": "79009de9a9a3237265026895c7344e14a7820175"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/d8cf26ac363dff78b7f0ae5641e9d5119f060cef",
-                    "reference": "d8cf26ac363dff78b7f0ae5641e9d5119f060cef",
+                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/79009de9a9a3237265026895c7344e14a7820175",
+                    "reference": "79009de9a9a3237265026895c7344e14a7820175",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/checkout": "*"
                 },
-                "time": "2017-01-13 14:40:36",
+                "time": "2017-01-16 15:03:57",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
                         "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutcart/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutcart/changelog"
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/changelog"
                         }
                     }
                 },
@@ -2922,7 +2921,56 @@
                     "checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/checkout-cart/tree/master",
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.0.0",
+                    "issues": "https://github.com/swissup/checkout-cart/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/checkout-cart",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-cart.git",
+                    "reference": "79009de9a9a3237265026895c7344e14a7820175"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/79009de9a9a3237265026895c7344e14a7820175",
+                    "reference": "79009de9a9a3237265026895c7344e14a7820175",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2017-01-16 15:03:57",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 checkout cart",
+                "keywords": [
+                    "cart",
+                    "checkout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.0.0",
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             }
@@ -5362,7 +5410,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -7946,7 +7994,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -10181,7 +10229,7 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/theme-editor/tree/0.1.0",
+                    "source": "https://github.com/swissup/theme-editor/tree/master",
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             },
@@ -10596,7 +10644,7 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.0.0",
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             },
@@ -11263,7 +11311,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.3",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             },
@@ -11733,7 +11781,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.3",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },

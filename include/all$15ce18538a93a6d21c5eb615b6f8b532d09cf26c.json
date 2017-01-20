@@ -1802,7 +1802,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.8.5",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -2764,12 +2764,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "b9f6820468b2473a17deef957ce23f9d98d7d876"
+                    "reference": "942f2648033cc4fc8351884846ce789c189913e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/b9f6820468b2473a17deef957ce23f9d98d7d876",
-                    "reference": "b9f6820468b2473a17deef957ce23f9d98d7d876",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/942f2648033cc4fc8351884846ce789c189913e4",
+                    "reference": "942f2648033cc4fc8351884846ce789c189913e4",
                     "shasum": ""
                 },
                 "require": {
@@ -2777,7 +2777,7 @@
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2016-09-12 07:48:26",
+                "time": "2017-01-19 08:39:19",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2792,7 +2792,7 @@
                 ],
                 "description": "Attribute Pages extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.0.4",
+                    "source": "https://github.com/swissup/attributepages/tree/master",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }
@@ -3864,26 +3864,26 @@
             }
         },
         "swissup/delivery-date": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/delivery-date",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/delivery-date.git",
-                    "reference": "31902c86b39a55ea2f6879e88d4405f6f0f38687"
+                    "reference": "e87ec30158bb70c91cbfe6efefe918a7ae424f91"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/31902c86b39a55ea2f6879e88d4405f6f0f38687",
-                    "reference": "31902c86b39a55ea2f6879e88d4405f6f0f38687",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/e87ec30158bb70c91cbfe6efefe918a7ae424f91",
+                    "reference": "e87ec30158bb70c91cbfe6efefe918a7ae424f91",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/checkout": "*"
                 },
-                "time": "2016-12-30 09:04:57",
+                "time": "2017-01-19 15:36:41",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -3898,7 +3898,45 @@
                 ],
                 "description": "Magento 2 module gives your customers possibility to choose the delivery date",
                 "support": {
-                    "source": "https://github.com/swissup/delivery-date/tree/master",
+                    "source": "https://github.com/swissup/delivery-date/tree/1.0.0",
+                    "issues": "https://github.com/swissup/delivery-date/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/delivery-date",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/delivery-date.git",
+                    "reference": "e87ec30158bb70c91cbfe6efefe918a7ae424f91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/e87ec30158bb70c91cbfe6efefe918a7ae424f91",
+                    "reference": "e87ec30158bb70c91cbfe6efefe918a7ae424f91",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/checkout": "*"
+                },
+                "time": "2017-01-19 15:36:41",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module gives your customers possibility to choose the delivery date",
+                "support": {
+                    "source": "https://github.com/swissup/delivery-date/tree/1.0.0",
                     "issues": "https://github.com/swissup/delivery-date/issues"
                 }
             }
@@ -5410,7 +5448,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
+                    "source": "https://github.com/swissup/easytabs/tree/master",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -7323,19 +7361,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/maintenance.git",
-                    "reference": "ecd9f7d0a4db624f5881c82516d6e376c0c31b41"
+                    "reference": "b9af22c982d3fc72096636cca6efe4fcd8bdb3cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/maintenance/zipball/ecd9f7d0a4db624f5881c82516d6e376c0c31b41",
-                    "reference": "ecd9f7d0a4db624f5881c82516d6e376c0c31b41",
+                    "url": "https://api.github.com/repos/swissup/maintenance/zipball/b9af22c982d3fc72096636cca6efe4fcd8bdb3cb",
+                    "reference": "b9af22c982d3fc72096636cca6efe4fcd8bdb3cb",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2017-01-12 13:33:58",
+                "time": "2017-01-18 10:00:07",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7350,7 +7388,7 @@
                 ],
                 "description": "Maintenance store extension",
                 "support": {
-                    "source": "https://github.com/swissup/maintenance/tree/1.0.1",
+                    "source": "https://github.com/swissup/maintenance/tree/master",
                     "issues": "https://github.com/swissup/maintenance/issues"
                 }
             }
@@ -7994,7 +8032,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -10229,7 +10267,7 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/theme-editor/tree/master",
+                    "source": "https://github.com/swissup/theme-editor/tree/0.1.0",
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             },
@@ -10644,7 +10682,7 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.0.0",
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             },
@@ -11311,7 +11349,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             },
@@ -11781,7 +11819,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },

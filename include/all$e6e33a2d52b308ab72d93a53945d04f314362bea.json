@@ -1851,7 +1851,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master",
+                    "source": "https://github.com/argento/m2/tree/0.8.5",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -2555,25 +2555,25 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
-            "dev-master": {
+            "1.2.3": {
                 "name": "swissup/askit",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "0f3e8c2c659c34497897bdc64e12c7b9672063ef"
+                    "reference": "32043a2b56ce72131544c447844a8914fe2ea69f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/0f3e8c2c659c34497897bdc64e12c7b9672063ef",
-                    "reference": "0f3e8c2c659c34497897bdc64e12c7b9672063ef",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/32043a2b56ce72131544c447844a8914fe2ea69f",
+                    "reference": "32043a2b56ce72131544c447844a8914fe2ea69f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-01-13 15:02:13",
+                "time": "2017-01-23 08:59:10",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -2605,7 +2605,61 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/1.2.2",
+                    "source": "https://github.com/swissup/askit/tree/1.2.3",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/askit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "32043a2b56ce72131544c447844a8914fe2ea69f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/32043a2b56ce72131544c447844a8914fe2ea69f",
+                    "reference": "32043a2b56ce72131544c447844a8914fe2ea69f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-01-23 08:59:10",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, CmsPage questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.3",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }
@@ -5493,7 +5547,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
+                    "source": "https://github.com/swissup/easytabs/tree/master",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -8136,7 +8190,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -10371,7 +10425,7 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/theme-editor/tree/master",
+                    "source": "https://github.com/swissup/theme-editor/tree/0.1.0",
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             },
@@ -10786,7 +10840,7 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.0.0",
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             },
@@ -11453,7 +11507,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             },
@@ -11923,7 +11977,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.3",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/master",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },

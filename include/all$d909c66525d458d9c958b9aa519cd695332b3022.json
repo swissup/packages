@@ -4002,25 +4002,25 @@
                     "issues": "https://github.com/swissup/delivery-date/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/delivery-date",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/delivery-date.git",
-                    "reference": "bb647091f144491f504996f004ef402b11251285"
+                    "reference": "6a523a1046fde71d91dbb07b1c8e9e01f4af537e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/bb647091f144491f504996f004ef402b11251285",
-                    "reference": "bb647091f144491f504996f004ef402b11251285",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/6a523a1046fde71d91dbb07b1c8e9e01f4af537e",
+                    "reference": "6a523a1046fde71d91dbb07b1c8e9e01f4af537e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-01-20 07:53:55",
+                "time": "2017-01-26 14:39:37",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4035,7 +4035,44 @@
                 ],
                 "description": "Magento 2 module gives your customers possibility to choose the delivery date",
                 "support": {
-                    "source": "https://github.com/swissup/delivery-date/tree/1.0.0",
+                    "source": "https://github.com/swissup/delivery-date/tree/1.0.1",
+                    "issues": "https://github.com/swissup/delivery-date/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/delivery-date",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/delivery-date.git",
+                    "reference": "6a523a1046fde71d91dbb07b1c8e9e01f4af537e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/6a523a1046fde71d91dbb07b1c8e9e01f4af537e",
+                    "reference": "6a523a1046fde71d91dbb07b1c8e9e01f4af537e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2017-01-26 14:39:37",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module gives your customers possibility to choose the delivery date",
+                "support": {
+                    "source": "https://github.com/swissup/delivery-date/tree/1.0.1",
                     "issues": "https://github.com/swissup/delivery-date/issues"
                 }
             }
@@ -8391,19 +8428,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "a86c145e159de6bed2c66df6028cc965b4889654"
+                    "reference": "da1ead4c03c681bea8eb1dbd1c98c402604e7c61"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/a86c145e159de6bed2c66df6028cc965b4889654",
-                    "reference": "a86c145e159de6bed2c66df6028cc965b4889654",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/da1ead4c03c681bea8eb1dbd1c98c402604e7c61",
+                    "reference": "da1ead4c03c681bea8eb1dbd1c98c402604e7c61",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-12-06 13:39:40",
+                "time": "2017-01-23 14:36:43",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8418,7 +8455,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.15",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }

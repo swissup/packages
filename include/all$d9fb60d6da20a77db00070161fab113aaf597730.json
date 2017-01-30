@@ -1849,7 +1849,7 @@
                 ],
                 "description": "Argento for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.8.5",
+                    "source": "https://github.com/argento/m2/tree/master",
                     "issues": "https://github.com/argento/m2/issues"
                 }
             },
@@ -5468,26 +5468,25 @@
                     "issues": "https://github.com/swissup/easyflags/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/easyflags",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/easyflags.git",
-                    "reference": "9491705a7b07508efce52ec7759feb69bbd1b2b4"
+                    "reference": "062e04958e1063bc35bc25b7beb2899177a765e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/9491705a7b07508efce52ec7759feb69bbd1b2b4",
-                    "reference": "9491705a7b07508efce52ec7759feb69bbd1b2b4",
+                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/062e04958e1063bc35bc25b7beb2899177a765e9",
+                    "reference": "062e04958e1063bc35bc25b7beb2899177a765e9",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2016-11-11T15:47:13+00:00",
+                "time": "2017-01-30T08:51:19+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5500,9 +5499,46 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Module relaces default store switcher with flag images",
+                "description": "Module replaces default store switcher with flag images",
                 "support": {
-                    "source": "https://github.com/swissup/easyflags/tree/master",
+                    "source": "https://github.com/swissup/easyflags/tree/1.0.1",
+                    "issues": "https://github.com/swissup/easyflags/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easyflags",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easyflags.git",
+                    "reference": "062e04958e1063bc35bc25b7beb2899177a765e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easyflags/zipball/062e04958e1063bc35bc25b7beb2899177a765e9",
+                    "reference": "062e04958e1063bc35bc25b7beb2899177a765e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-01-30T08:51:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module replaces default store switcher with flag images",
+                "support": {
+                    "source": "https://github.com/swissup/easyflags/tree/1.0.1",
                     "issues": "https://github.com/swissup/easyflags/issues"
                 }
             }
@@ -5580,7 +5616,7 @@
                 ],
                 "description": "Easy Tabs extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.1",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
@@ -8221,7 +8257,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.4",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -10456,7 +10492,7 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/theme-editor/tree/0.1.0",
+                    "source": "https://github.com/swissup/theme-editor/tree/master",
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             },
@@ -10871,7 +10907,7 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.0.0",
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             },
@@ -11538,7 +11574,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.3",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             },
@@ -12008,7 +12044,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.3",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },

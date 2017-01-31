@@ -3212,6 +3212,45 @@
                 }
             }
         },
+        "swissup/command": {
+            "dev-master": {
+                "name": "swissup/command",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/command.git",
+                    "reference": "e8ac6e195d50559e1ab887fb6a58950abd1c03c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/command/zipball/e8ac6e195d50559e1ab887fb6a58950abd1c03c5",
+                    "reference": "e8ac6e195d50559e1ab887fb6a58950abd1c03c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-01-31T13:18:14+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Command\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module gives your possibility to run custom commands",
+                "support": {
+                    "source": "https://github.com/swissup/command/tree/master",
+                    "issues": "https://github.com/swissup/command/issues"
+                }
+            }
+        },
         "swissup/core": {
             "1.0.0": {
                 "name": "swissup/core",

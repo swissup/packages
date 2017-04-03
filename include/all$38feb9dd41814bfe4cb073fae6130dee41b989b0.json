@@ -7215,19 +7215,19 @@
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             },
-            "dev-master": {
+            "1.5.1": {
                 "name": "swissup/firecheckout",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "d2bc58f78367f83e9d80510f2cbf776678880611"
+                    "reference": "8fd2716db8f2ecf312081013c127b66f81f2d65e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/d2bc58f78367f83e9d80510f2cbf776678880611",
-                    "reference": "d2bc58f78367f83e9d80510f2cbf776678880611",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/8fd2716db8f2ecf312081013c127b66f81f2d65e",
+                    "reference": "8fd2716db8f2ecf312081013c127b66f81f2d65e",
                     "shasum": ""
                 },
                 "require": {
@@ -7241,7 +7241,7 @@
                     "swissup/orderattachment": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2017-03-31T13:34:43+00:00",
+                "time": "2017-04-03T13:56:23+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -7269,7 +7269,65 @@
                     "onestep checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.5.0",
+                    "source": "https://github.com/swissup/firecheckout/tree/1.5.1",
+                    "issues": "https://github.com/swissup/firecheckout/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/firecheckout",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/firecheckout.git",
+                    "reference": "8fd2716db8f2ecf312081013c127b66f81f2d65e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/8fd2716db8f2ecf312081013c127b66f81f2d65e",
+                    "reference": "8fd2716db8f2ecf312081013c127b66f81f2d65e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/address-autocomplete": "*",
+                    "swissup/address-field-manager": "*",
+                    "swissup/checkout": "*",
+                    "swissup/checkout-cart": "*",
+                    "swissup/checkout-success": "*",
+                    "swissup/delivery-date": "*",
+                    "swissup/geoip": "*",
+                    "swissup/orderattachment": "*",
+                    "swissup/taxvat": "*"
+                },
+                "time": "2017-04-03T13:56:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/firecheckout/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Firecheckout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Onestep checkout extension for Magento2",
+                "keywords": [
+                    "checkout",
+                    "firecheckout",
+                    "onestep checkout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout/tree/1.5.1",
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             }

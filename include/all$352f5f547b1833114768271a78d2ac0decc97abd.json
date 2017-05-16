@@ -2827,18 +2827,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "7c1475e79a1e4713c980ee91c7d9aae66d92971d"
+                    "reference": "e2c4b4f81a6ee30c8bf17f4840f7576971e35be2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/7c1475e79a1e4713c980ee91c7d9aae66d92971d",
-                    "reference": "7c1475e79a1e4713c980ee91c7d9aae66d92971d",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/e2c4b4f81a6ee30c8bf17f4840f7576971e35be2",
+                    "reference": "e2c4b4f81a6ee30c8bf17f4840f7576971e35be2",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-05-11T14:41:43+00:00",
+                "time": "2017-05-12T14:38:09+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8526,6 +8526,58 @@
                 "support": {
                     "source": "https://github.com/swissup/maintenance/tree/master",
                     "issues": "https://github.com/swissup/maintenance/issues"
+                }
+            }
+        },
+        "swissup/navigationpro": {
+            "dev-master": {
+                "name": "swissup/navigationpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/navigationpro.git",
+                    "reference": "f0251892f73b298747315b781ce2e93115669cf1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/f0251892f73b298747315b781ce2e93115669cf1",
+                    "reference": "f0251892f73b298747315b781ce2e93115669cf1",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-05-16T09:19:58+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/navigationpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Navigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2",
+                "keywords": [
+                    "megamenu",
+                    "menu",
+                    "navigation"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/navigationpro/tree/master",
+                    "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             }
         },

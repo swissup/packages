@@ -793,19 +793,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxlayerednavigation.git",
-                    "reference": "cbe6863e0e39190d9c9e1a2022eaa26fa804e1f4"
+                    "reference": "e085e2ff6c1d721135eae53a7bc031cf2798f0a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/cbe6863e0e39190d9c9e1a2022eaa26fa804e1f4",
-                    "reference": "cbe6863e0e39190d9c9e1a2022eaa26fa804e1f4",
+                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/e085e2ff6c1d721135eae53a7bc031cf2798f0a6",
+                    "reference": "e085e2ff6c1d721135eae53a7bc031cf2798f0a6",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2017-03-28T07:20:04+00:00",
+                "time": "2017-06-21T13:19:44+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4941,6 +4941,49 @@
                 }
             }
         },
+        "swissup/data-migration": {
+            "dev-master": {
+                "name": "swissup/data-migration",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/data-migration.git",
+                    "reference": "23168dfc345c933ebdb77b174dc036cb1cb0e432"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/23168dfc345c933ebdb77b174dc036cb1cb0e432",
+                    "reference": "23168dfc345c933ebdb77b174dc036cb1cb0e432",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/data-migration-tool": "*"
+                },
+                "time": "2017-06-21T13:43:53+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DataMigration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Data Migration for Swissup Labs modules",
+                "keywords": [
+                    "data migration",
+                    "migration from m1 to m2"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/data-migration/tree/master",
+                    "issues": "https://github.com/swissup/data-migration/issues"
+                }
+            }
+        },
         "swissup/delivery-date": {
             "1.0.0": {
                 "name": "swissup/delivery-date",
@@ -5060,18 +5103,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/delivery-date.git",
-                    "reference": "5de9a4cf52b4bf1f661de9e51904cb6824976fe4"
+                    "reference": "736e89eff050bf10e6756e1782c313719ff8a4db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/5de9a4cf52b4bf1f661de9e51904cb6824976fe4",
-                    "reference": "5de9a4cf52b4bf1f661de9e51904cb6824976fe4",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/736e89eff050bf10e6756e1782c313719ff8a4db",
+                    "reference": "736e89eff050bf10e6756e1782c313719ff8a4db",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-06-21T11:12:44+00:00",
+                "time": "2017-06-21T11:36:02+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -9507,18 +9550,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "4de3bc4a0ad4f72c3d0704c7ad34ad0c562bd6c3"
+                    "reference": "258d19c5578fd106678269faeca0cb7bec97a833"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/4de3bc4a0ad4f72c3d0704c7ad34ad0c562bd6c3",
-                    "reference": "4de3bc4a0ad4f72c3d0704c7ad34ad0c562bd6c3",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/258d19c5578fd106678269faeca0cb7bec97a833",
+                    "reference": "258d19c5578fd106678269faeca0cb7bec97a833",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-06-21T09:23:28+00:00",
+                "time": "2017-06-21T12:27:38+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

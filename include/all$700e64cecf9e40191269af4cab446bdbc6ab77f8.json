@@ -3075,6 +3075,60 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
+            "1.2.7": {
+                "name": "swissup/askit",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "955b89a972406c123558850394f0dc103b1ccba5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/955b89a972406c123558850394f0dc103b1ccba5",
+                    "reference": "955b89a972406c123558850394f0dc103b1ccba5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-06-21T07:51:18+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.7",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/askit",
                 "version": "dev-master",
@@ -3082,18 +3136,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "23b0576aaad6e691976e8749c4c81f4be03601c9"
+                    "reference": "955b89a972406c123558850394f0dc103b1ccba5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/23b0576aaad6e691976e8749c4c81f4be03601c9",
-                    "reference": "23b0576aaad6e691976e8749c4c81f4be03601c9",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/955b89a972406c123558850394f0dc103b1ccba5",
+                    "reference": "955b89a972406c123558850394f0dc103b1ccba5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-06-21T07:14:53+00:00",
+                "time": "2017-06-21T07:51:18+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -3323,45 +3377,6 @@
                 "description": "Attribute Pages extension from Swissup",
                 "support": {
                     "source": "https://github.com/swissup/attributepages/tree/1.0.4",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
-            "dev-master": {
-                "name": "swissup/attributepages",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "942f2648033cc4fc8351884846ce789c189913e4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/942f2648033cc4fc8351884846ce789c189913e4",
-                    "reference": "942f2648033cc4fc8351884846ce789c189913e4",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*",
-                    "swissup/slick-carousel": "*"
-                },
-                "time": "2017-01-19T08:39:19+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Attributepages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Attribute Pages extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/master",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }
@@ -6866,26 +6881,36 @@
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/easytabs",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/easytabs.git",
-                    "reference": "7adace208780a5ed5f02ba5858c086e6aa73c1d5"
+                    "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/7adace208780a5ed5f02ba5858c086e6aa73c1d5",
-                    "reference": "7adace208780a5ed5f02ba5858c086e6aa73c1d5",
+                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/b8db75141fea9a7294388e77f3b74ee362c7dbb7",
+                    "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-06-21T07:41:13+00:00",
+                "time": "2017-06-21T07:45:02+00:00",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -6898,8 +6923,67 @@
                     "OSL-3.0"
                 ],
                 "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.4",
+                    "issues": "https://github.com/swissup/easytabs/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easytabs",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easytabs.git",
+                    "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/b8db75141fea9a7294388e77f3b74ee362c7dbb7",
+                    "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-06-21T07:45:02+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easytabs/tree/1.0.4",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }

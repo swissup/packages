@@ -443,7 +443,7 @@
                 ],
                 "description": "Magento checkout address field manager",
                 "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/0.0.1",
+                    "source": "https://github.com/swissup/address-field-manager/tree/master",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             },
@@ -2621,6 +2621,60 @@
                     "source": "https://github.com/argento/m2/tree/0.9.6"
                 }
             },
+            "0.9.7": {
+                "name": "swissup/argento-m2",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/m2.git",
+                    "reference": "47a1d417a493716a6f70d72ff5e71a344f13598d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/47a1d417a493716a6f70d72ff5e71a344f13598d",
+                    "reference": "47a1d417a493716a6f70d72ff5e71a344f13598d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/ajaxpro": "1.2.1",
+                    "swissup/ajaxsearch": "1.2.3",
+                    "swissup/askit": "1.2.7",
+                    "swissup/attributepages": "1.0.5",
+                    "swissup/core": "1.4.7",
+                    "swissup/easy-slide": "1.1.2",
+                    "swissup/easybanner": "1.0.9",
+                    "swissup/easycatalogimg": "1.1.2",
+                    "swissup/easytabs": "1.0.4",
+                    "swissup/fblike": "1.0.6",
+                    "swissup/font-awesome": "1.2.1",
+                    "swissup/highlight": "1.1.1",
+                    "swissup/pro-labels": "1.0.17",
+                    "swissup/reviewreminder": "1.0.7",
+                    "swissup/rich-snippets": "1.0.5",
+                    "swissup/slick-carousel": "1.1.0",
+                    "swissup/sold-together": "1.1.8",
+                    "swissup/testimonials": "1.0.7",
+                    "swissup/theme-editor-argento-essence": "1.2.1",
+                    "swissup/theme-editor-argento-flat": "1.2.1",
+                    "swissup/theme-editor-argento-mall": "1.2.1",
+                    "swissup/theme-editor-argento-pure2": "1.2.1",
+                    "swissup/theme-frontend-argento-blank": "0.9.7",
+                    "swissup/theme-frontend-argento-essence": "0.9.7",
+                    "swissup/theme-frontend-argento-flat": "0.9.7",
+                    "swissup/theme-frontend-argento-mall": "0.9.7",
+                    "swissup/theme-frontend-argento-pure2": "0.9.7"
+                },
+                "time": "2017-06-23T07:07:02+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento metapackage for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/0.9.7"
+                }
+            },
             "dev-master": {
                 "name": "swissup/argento-m2",
                 "version": "dev-master",
@@ -2628,51 +2682,51 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/m2.git",
-                    "reference": "1b8e73bfc63b1a9ce69be959c22b197136bf3a71"
+                    "reference": "47a1d417a493716a6f70d72ff5e71a344f13598d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/m2/zipball/1b8e73bfc63b1a9ce69be959c22b197136bf3a71",
-                    "reference": "1b8e73bfc63b1a9ce69be959c22b197136bf3a71",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/47a1d417a493716a6f70d72ff5e71a344f13598d",
+                    "reference": "47a1d417a493716a6f70d72ff5e71a344f13598d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/ajaxpro": "1.2.1",
                     "swissup/ajaxsearch": "1.2.3",
-                    "swissup/askit": "1.2.6",
-                    "swissup/attributepages": "1.0.4",
-                    "swissup/core": "1.4.6",
-                    "swissup/easy-slide": "1.1.1",
-                    "swissup/easybanner": "1.0.8",
+                    "swissup/askit": "1.2.7",
+                    "swissup/attributepages": "1.0.5",
+                    "swissup/core": "1.4.7",
+                    "swissup/easy-slide": "1.1.2",
+                    "swissup/easybanner": "1.0.9",
                     "swissup/easycatalogimg": "1.1.2",
-                    "swissup/easytabs": "1.0.3",
+                    "swissup/easytabs": "1.0.4",
                     "swissup/fblike": "1.0.6",
                     "swissup/font-awesome": "1.2.1",
                     "swissup/highlight": "1.1.1",
-                    "swissup/pro-labels": "1.0.16",
-                    "swissup/reviewreminder": "1.0.6",
+                    "swissup/pro-labels": "1.0.17",
+                    "swissup/reviewreminder": "1.0.7",
                     "swissup/rich-snippets": "1.0.5",
                     "swissup/slick-carousel": "1.1.0",
-                    "swissup/sold-together": "1.1.7",
-                    "swissup/testimonials": "1.0.6",
+                    "swissup/sold-together": "1.1.8",
+                    "swissup/testimonials": "1.0.7",
                     "swissup/theme-editor-argento-essence": "1.2.1",
                     "swissup/theme-editor-argento-flat": "1.2.1",
                     "swissup/theme-editor-argento-mall": "1.2.1",
                     "swissup/theme-editor-argento-pure2": "1.2.1",
-                    "swissup/theme-frontend-argento-blank": "0.9.6",
-                    "swissup/theme-frontend-argento-essence": "0.9.6",
-                    "swissup/theme-frontend-argento-flat": "0.9.6",
-                    "swissup/theme-frontend-argento-mall": "0.9.6",
-                    "swissup/theme-frontend-argento-pure2": "0.9.6"
+                    "swissup/theme-frontend-argento-blank": "0.9.7",
+                    "swissup/theme-frontend-argento-essence": "0.9.7",
+                    "swissup/theme-frontend-argento-flat": "0.9.7",
+                    "swissup/theme-frontend-argento-mall": "0.9.7",
+                    "swissup/theme-frontend-argento-pure2": "0.9.7"
                 },
-                "time": "2017-05-31T14:08:11+00:00",
+                "time": "2017-06-23T07:07:02+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.9.6"
+                    "source": "https://github.com/argento/m2/tree/0.9.7"
                 }
             }
         },
@@ -4936,7 +4990,7 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/swissup/dailydeals/tree/0.0.1",
+                    "source": "https://github.com/swissup/dailydeals/tree/master",
                     "issues": "https://github.com/swissup/dailydeals/issues"
                 }
             }
@@ -4949,18 +5003,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/data-migration.git",
-                    "reference": "23168dfc345c933ebdb77b174dc036cb1cb0e432"
+                    "reference": "06d0179a33eb564a7ff6cec3e5d4ac92293397f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/23168dfc345c933ebdb77b174dc036cb1cb0e432",
-                    "reference": "23168dfc345c933ebdb77b174dc036cb1cb0e432",
+                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/06d0179a33eb564a7ff6cec3e5d4ac92293397f0",
+                    "reference": "06d0179a33eb564a7ff6cec3e5d4ac92293397f0",
                     "shasum": ""
                 },
                 "require": {
                     "magento/data-migration-tool": "*"
                 },
-                "time": "2017-06-21T13:43:53+00:00",
+                "time": "2017-06-21T14:56:41+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8384,12 +8438,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "acacaa4de483a35904961a8eb551bb77e1c15483"
+                    "reference": "15e8361091ff140d3c2b531b0603e2fd8da1df96"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/acacaa4de483a35904961a8eb551bb77e1c15483",
-                    "reference": "acacaa4de483a35904961a8eb551bb77e1c15483",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/15e8361091ff140d3c2b531b0603e2fd8da1df96",
+                    "reference": "15e8361091ff140d3c2b531b0603e2fd8da1df96",
                     "shasum": ""
                 },
                 "require": {
@@ -8404,7 +8458,7 @@
                     "swissup/orderattachment": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2017-06-21T08:08:12+00:00",
+                "time": "2017-06-21T14:03:51+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8434,7 +8488,7 @@
                     "onestep checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.6.1",
+                    "source": "https://github.com/swissup/firecheckout/tree/master",
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             }
@@ -9550,18 +9604,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "258d19c5578fd106678269faeca0cb7bec97a833"
+                    "reference": "13de96541e69b8ff11d5cd53dd75701cc02aa438"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/258d19c5578fd106678269faeca0cb7bec97a833",
-                    "reference": "258d19c5578fd106678269faeca0cb7bec97a833",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/13de96541e69b8ff11d5cd53dd75701cc02aa438",
+                    "reference": "13de96541e69b8ff11d5cd53dd75701cc02aa438",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-06-21T12:27:38+00:00",
+                "time": "2017-06-22T14:59:21+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14770,22 +14824,22 @@
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             },
-            "dev-master": {
+            "0.9.7": {
                 "name": "swissup/theme-frontend-argento-blank",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "2573bccb91ba5f919eb61b1db108c6a79c422ab9"
+                    "reference": "b8aa824e885d18f56cec10a1cd97ec2d6bd361f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/2573bccb91ba5f919eb61b1db108c6a79c422ab9",
-                    "reference": "2573bccb91ba5f919eb61b1db108c6a79c422ab9",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/b8aa824e885d18f56cec10a1cd97ec2d6bd361f5",
+                    "reference": "b8aa824e885d18f56cec10a1cd97ec2d6bd361f5",
                     "shasum": ""
                 },
-                "time": "2017-06-01T07:50:03+00:00",
+                "time": "2017-06-23T06:41:11+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -14805,7 +14859,46 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-blank/tree/master",
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.7",
+                    "issues": "https://github.com/argento/theme-frontend-blank/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-blank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-blank.git",
+                    "reference": "b8aa824e885d18f56cec10a1cd97ec2d6bd361f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/b8aa824e885d18f56cec10a1cd97ec2d6bd361f5",
+                    "reference": "b8aa824e885d18f56cec10a1cd97ec2d6bd361f5",
+                    "shasum": ""
+                },
+                "time": "2017-06-23T06:41:11+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Basic theme for all Argento themes",
+                "keywords": [
+                    "argento",
+                    "blank",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-blank/tree/0.9.7",
                     "issues": "https://github.com/argento/theme-frontend-blank/issues"
                 }
             }
@@ -15361,25 +15454,25 @@
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             },
-            "dev-master": {
+            "0.9.7": {
                 "name": "swissup/theme-frontend-argento-essence",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-essence.git",
-                    "reference": "04cb50760aaefdac589323b119c7909a30d507e2"
+                    "reference": "889a39539cfd0cf921effd4bc4c465a1e1e89e53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/04cb50760aaefdac589323b119c7909a30d507e2",
-                    "reference": "04cb50760aaefdac589323b119c7909a30d507e2",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/889a39539cfd0cf921effd4bc4c465a1e1e89e53",
+                    "reference": "889a39539cfd0cf921effd4bc4c465a1e1e89e53",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2017-05-29T08:35:14+00:00",
+                "time": "2017-06-23T06:38:36+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -15412,7 +15505,62 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.6",
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.7",
+                    "issues": "https://github.com/argento/theme-frontend-essence/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-essence",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-essence.git",
+                    "reference": "889a39539cfd0cf921effd4bc4c465a1e1e89e53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-essence/zipball/889a39539cfd0cf921effd4bc4c465a1e1e89e53",
+                    "reference": "889a39539cfd0cf921effd4bc4c465a1e1e89e53",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2017-06-23T06:38:36+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "essence",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-essence/tree/0.9.7",
                     "issues": "https://github.com/argento/theme-frontend-essence/issues"
                 }
             }
@@ -15640,25 +15788,25 @@
                     "issues": "https://github.com/argento/theme-frontend-flat/issues"
                 }
             },
-            "dev-master": {
+            "0.9.7": {
                 "name": "swissup/theme-frontend-argento-flat",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-flat.git",
-                    "reference": "21c434f6469465789be4c4f5aa6a4e20cd625f39"
+                    "reference": "f1f052b3578a43afa8ae72c2a94a4339dc9be503"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-flat/zipball/21c434f6469465789be4c4f5aa6a4e20cd625f39",
-                    "reference": "21c434f6469465789be4c4f5aa6a4e20cd625f39",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-flat/zipball/f1f052b3578a43afa8ae72c2a94a4339dc9be503",
+                    "reference": "f1f052b3578a43afa8ae72c2a94a4339dc9be503",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2017-05-29T08:37:33+00:00",
+                "time": "2017-06-23T06:39:07+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -15691,7 +15839,62 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-flat/tree/0.9.6",
+                    "source": "https://github.com/argento/theme-frontend-flat/tree/0.9.7",
+                    "issues": "https://github.com/argento/theme-frontend-flat/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-flat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-flat.git",
+                    "reference": "f1f052b3578a43afa8ae72c2a94a4339dc9be503"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-flat/zipball/f1f052b3578a43afa8ae72c2a94a4339dc9be503",
+                    "reference": "f1f052b3578a43afa8ae72c2a94a4339dc9be503",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2017-06-23T06:39:07+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "flat",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-flat/tree/0.9.7",
                     "issues": "https://github.com/argento/theme-frontend-flat/issues"
                 }
             }
@@ -15752,25 +15955,25 @@
                     "issues": "https://github.com/argento/theme-frontend-mall/issues"
                 }
             },
-            "dev-master": {
+            "0.9.7": {
                 "name": "swissup/theme-frontend-argento-mall",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-mall.git",
-                    "reference": "b8f99519b52f8b4a2a8fa448924d5b1e4cee2e99"
+                    "reference": "b593c083f603ed663711b8a48a0f0d562877dbe6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-mall/zipball/b8f99519b52f8b4a2a8fa448924d5b1e4cee2e99",
-                    "reference": "b8f99519b52f8b4a2a8fa448924d5b1e4cee2e99",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-mall/zipball/b593c083f603ed663711b8a48a0f0d562877dbe6",
+                    "reference": "b593c083f603ed663711b8a48a0f0d562877dbe6",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2017-05-31T11:35:32+00:00",
+                "time": "2017-06-23T07:05:56+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -15803,7 +16006,62 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-mall/tree/0.9.6",
+                    "source": "https://github.com/argento/theme-frontend-mall/tree/0.9.7",
+                    "issues": "https://github.com/argento/theme-frontend-mall/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-mall",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-mall.git",
+                    "reference": "b593c083f603ed663711b8a48a0f0d562877dbe6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-mall/zipball/b593c083f603ed663711b8a48a0f0d562877dbe6",
+                    "reference": "b593c083f603ed663711b8a48a0f0d562877dbe6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2017-06-23T07:05:56+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "mall",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-mall/tree/0.9.7",
                     "issues": "https://github.com/argento/theme-frontend-mall/issues"
                 }
             }
@@ -15919,25 +16177,25 @@
                     "issues": "https://github.com/argento/theme-frontend-pure2/issues"
                 }
             },
-            "dev-master": {
+            "0.9.7": {
                 "name": "swissup/theme-frontend-argento-pure2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-pure2.git",
-                    "reference": "00bea42fd1f8007c64f16ec0e4437a75c934eb36"
+                    "reference": "a49986b2afb28138c62f970588b8f43a8b0a206d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-pure2/zipball/00bea42fd1f8007c64f16ec0e4437a75c934eb36",
-                    "reference": "00bea42fd1f8007c64f16ec0e4437a75c934eb36",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-pure2/zipball/a49986b2afb28138c62f970588b8f43a8b0a206d",
+                    "reference": "a49986b2afb28138c62f970588b8f43a8b0a206d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2017-05-29T08:39:55+00:00",
+                "time": "2017-06-23T06:40:18+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -15970,7 +16228,62 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/argento/theme-frontend-pure2/tree/0.9.6",
+                    "source": "https://github.com/argento/theme-frontend-pure2/tree/0.9.7",
+                    "issues": "https://github.com/argento/theme-frontend-pure2/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-pure2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-frontend-pure2.git",
+                    "reference": "a49986b2afb28138c62f970588b8f43a8b0a206d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-pure2/zipball/a49986b2afb28138c62f970588b8f43a8b0a206d",
+                    "reference": "a49986b2afb28138c62f970588b8f43a8b0a206d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2017-06-23T06:40:18+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "pure2",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/argento/theme-frontend-pure2/tree/0.9.7",
                     "issues": "https://github.com/argento/theme-frontend-pure2/issues"
                 }
             }

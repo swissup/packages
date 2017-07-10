@@ -2650,7 +2650,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.6"
                 }
             },
             "0.9.7": {
@@ -3209,18 +3209,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "aa4188445ddccc7ba1148b0755fdbc1a828eb66f"
+                    "reference": "b9dca8c9e5974b86d3a5970f950315e8ed560425"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/aa4188445ddccc7ba1148b0755fdbc1a828eb66f",
-                    "reference": "aa4188445ddccc7ba1148b0755fdbc1a828eb66f",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/b9dca8c9e5974b86d3a5970f950315e8ed560425",
+                    "reference": "b9dca8c9e5974b86d3a5970f950315e8ed560425",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-07-04T07:52:11+00:00",
+                "time": "2017-07-06T07:38:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -5028,25 +5028,25 @@
             }
         },
         "swissup/data-migration": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/data-migration",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/data-migration.git",
-                    "reference": "06d0179a33eb564a7ff6cec3e5d4ac92293397f0"
+                    "reference": "50680ff9138dd383defa62ac727455a61a862cbc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/06d0179a33eb564a7ff6cec3e5d4ac92293397f0",
-                    "reference": "06d0179a33eb564a7ff6cec3e5d4ac92293397f0",
+                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/50680ff9138dd383defa62ac727455a61a862cbc",
+                    "reference": "50680ff9138dd383defa62ac727455a61a862cbc",
                     "shasum": ""
                 },
                 "require": {
                     "magento/data-migration-tool": "*"
                 },
-                "time": "2017-06-21T14:56:41+00:00",
+                "time": "2017-07-10T13:35:33+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5065,7 +5065,48 @@
                     "migration from m1 to m2"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/data-migration/tree/master",
+                    "source": "https://github.com/swissup/data-migration/tree/1.0.0",
+                    "issues": "https://github.com/swissup/data-migration/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/data-migration",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/data-migration.git",
+                    "reference": "50680ff9138dd383defa62ac727455a61a862cbc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/data-migration/zipball/50680ff9138dd383defa62ac727455a61a862cbc",
+                    "reference": "50680ff9138dd383defa62ac727455a61a862cbc",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/data-migration-tool": "*"
+                },
+                "time": "2017-07-10T13:35:33+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DataMigration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Data Migration for Swissup Labs modules",
+                "keywords": [
+                    "data migration",
+                    "migration from m1 to m2"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/data-migration/tree/1.0.0",
                     "issues": "https://github.com/swissup/data-migration/issues"
                 }
             }
@@ -11496,18 +11537,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-html-sitemap.git",
-                    "reference": "26ab0634732783897a73563fd747d4cfb6319864"
+                    "reference": "cd1eb33c33c58deb8ef7f288bad3c4a7cfb124c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-html-sitemap/zipball/26ab0634732783897a73563fd747d4cfb6319864",
-                    "reference": "26ab0634732783897a73563fd747d4cfb6319864",
+                    "url": "https://api.github.com/repos/swissup/seo-html-sitemap/zipball/cd1eb33c33c58deb8ef7f288bad3c4a7cfb124c1",
+                    "reference": "cd1eb33c33c58deb8ef7f288bad3c4a7cfb124c1",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/seo-core": "*"
                 },
-                "time": "2017-07-04T14:30:55+00:00",
+                "time": "2017-07-10T10:03:16+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -11731,18 +11772,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/slick-carousel.git",
-                    "reference": "fcc7877128747b692ff8f7d3b46c09e109932276"
+                    "reference": "4a3abbfe491a4571ce3679d2394a6a9f792194ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/slick-carousel/zipball/fcc7877128747b692ff8f7d3b46c09e109932276",
-                    "reference": "fcc7877128747b692ff8f7d3b46c09e109932276",
+                    "url": "https://api.github.com/repos/swissup/slick-carousel/zipball/4a3abbfe491a4571ce3679d2394a6a9f792194ec",
+                    "reference": "4a3abbfe491a4571ce3679d2394a6a9f792194ec",
                     "shasum": ""
                 },
                 "require": {
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2017-03-13T09:02:11+00:00",
+                "time": "2017-07-06T14:25:02+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -12346,19 +12387,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "48f51d234a2f80d0e2cd8829621085da4bcacbe7"
+                    "reference": "9a69f21bf02bc3391ebed4e41a4aeb35c8a632b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/48f51d234a2f80d0e2cd8829621085da4bcacbe7",
-                    "reference": "48f51d234a2f80d0e2cd8829621085da4bcacbe7",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/9a69f21bf02bc3391ebed4e41a4aeb35c8a632b8",
+                    "reference": "9a69f21bf02bc3391ebed4e41a4aeb35c8a632b8",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2017-06-29T11:48:57+00:00",
+                "time": "2017-07-06T15:45:55+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

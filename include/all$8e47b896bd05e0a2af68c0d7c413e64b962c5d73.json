@@ -2649,7 +2649,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.6"
                 }
             },
             "0.9.7": {
@@ -9614,6 +9614,45 @@
                 }
             }
         },
+        "swissup/hover-gallery": {
+            "dev-master": {
+                "name": "swissup/hover-gallery",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hover-gallery.git",
+                    "reference": "65f1f1e1153b986c5ae5d68903c5b17ac09d4d48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hover-gallery/zipball/65f1f1e1153b986c5ae5d68903c5b17ac09d4d48",
+                    "reference": "65f1f1e1153b986c5ae5d68903c5b17ac09d4d48",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-08-10T08:34:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HoverGallery\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product image hover gallery for Magento 2.x e-commerce",
+                "support": {
+                    "source": "https://github.com/swissup/hover-gallery/tree/master",
+                    "issues": "https://github.com/swissup/hover-gallery/issues"
+                }
+            }
+        },
         "swissup/maintenance": {
             "1.0.0": {
                 "name": "swissup/maintenance",
@@ -9737,18 +9776,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "d4294467a67fa0b0ae5d43ddbc875cf856abaedd"
+                    "reference": "f06b48928262407f1c0bcb09e776d5419f27f362"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/d4294467a67fa0b0ae5d43ddbc875cf856abaedd",
-                    "reference": "d4294467a67fa0b0ae5d43ddbc875cf856abaedd",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/f06b48928262407f1c0bcb09e776d5419f27f362",
+                    "reference": "f06b48928262407f1c0bcb09e776d5419f27f362",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-08-08T12:37:01+00:00",
+                "time": "2017-08-10T08:21:31+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

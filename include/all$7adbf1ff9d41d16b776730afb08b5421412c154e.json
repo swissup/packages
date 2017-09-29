@@ -476,7 +476,7 @@
                 ],
                 "description": "Magento checkout address field manager",
                 "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/master",
+                    "source": "https://github.com/swissup/address-field-manager/tree/0.0.1",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             },
@@ -2581,7 +2581,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.10"
                 }
             },
             "0.9.2": {
@@ -3055,7 +3055,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.10"
                 }
             }
         },
@@ -5652,7 +5652,7 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/swissup/dailydeals/tree/master",
+                    "source": "https://github.com/swissup/dailydeals/tree/0.0.1",
                     "issues": "https://github.com/swissup/dailydeals/issues"
                 }
             }
@@ -11375,18 +11375,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "e27f2ee8cb0e4b4ef974971818d06823593d1dca"
+                    "reference": "39b016b68eaa6be66f31efdec4edb301c44ef3dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/e27f2ee8cb0e4b4ef974971818d06823593d1dca",
-                    "reference": "e27f2ee8cb0e4b4ef974971818d06823593d1dca",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/39b016b68eaa6be66f31efdec4edb301c44ef3dc",
+                    "reference": "39b016b68eaa6be66f31efdec4edb301c44ef3dc",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-09-27T14:34:41+00:00",
+                "time": "2017-09-29T07:16:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -12478,18 +12478,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "2daa456e3b7f914d3ca469cbaa1d77c0e4e32bfa"
+                    "reference": "aaab014ffe4bec41d9e1770d045ebec8ee8c2daf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/2daa456e3b7f914d3ca469cbaa1d77c0e4e32bfa",
-                    "reference": "2daa456e3b7f914d3ca469cbaa1d77c0e4e32bfa",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/aaab014ffe4bec41d9e1770d045ebec8ee8c2daf",
+                    "reference": "aaab014ffe4bec41d9e1770d045ebec8ee8c2daf",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-08-21T11:03:26+00:00",
+                "time": "2017-09-28T15:05:44+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -12504,8 +12504,51 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.18",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            }
+        },
+        "swissup/quantity-switcher": {
+            "dev-master": {
+                "name": "swissup/quantity-switcher",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/quantity-switcher.git",
+                    "reference": "78e99b46c9403eb0618082d86205d6d7ed7b3f14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/quantity-switcher/zipball/78e99b46c9403eb0618082d86205d6d7ed7b3f14",
+                    "reference": "78e99b46c9403eb0618082d86205d6d7ed7b3f14",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-09-28T14:38:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\QuantitySwitcher\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Quantity Switcher extension for Magento 2.x e-commerce",
+                "keywords": [
+                    "quantity",
+                    "switcher"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/quantity-switcher/tree/master",
+                    "issues": "https://github.com/swissup/quantity-switcher/issues"
                 }
             }
         },

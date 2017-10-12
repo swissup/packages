@@ -693,18 +693,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "47c6c24e453327672b76cd9a56a9ecb6c6ef728b"
+                    "reference": "66ebbcc68f1b493c1491392f09fb1de8a3d492a8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/47c6c24e453327672b76cd9a56a9ecb6c6ef728b",
-                    "reference": "47c6c24e453327672b76cd9a56a9ecb6c6ef728b",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/66ebbcc68f1b493c1491392f09fb1de8a3d492a8",
+                    "reference": "66ebbcc68f1b493c1491392f09fb1de8a3d492a8",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-06-14T14:41:50+00:00",
+                "time": "2017-10-12T13:29:57+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -725,7 +725,7 @@
                     "fields manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/1.0.1",
+                    "source": "https://github.com/swissup/address-field-manager/tree/master",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             }
@@ -2833,7 +2833,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.9.6"
+                    "source": "https://github.com/argento/m2/tree/master"
                 }
             },
             "0.9.7": {
@@ -3499,25 +3499,25 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
-            "dev-master": {
+            "1.2.8": {
                 "name": "swissup/askit",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.8",
+                "version_normalized": "1.2.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "830ae2f540c70b637b35667f39248195994cbca1"
+                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/830ae2f540c70b637b35667f39248195994cbca1",
-                    "reference": "830ae2f540c70b637b35667f39248195994cbca1",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/cbb7104d43915016acb790564f319eb18bef4e58",
+                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-10-11T14:43:45+00:00",
+                "time": "2017-10-12T12:53:04+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -3549,7 +3549,61 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/master",
+                    "source": "https://github.com/swissup/askit/tree/1.2.8",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/askit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/cbb7104d43915016acb790564f319eb18bef4e58",
+                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-10-12T12:53:04+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.8",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }
@@ -5652,7 +5706,7 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/swissup/dailydeals/tree/master",
+                    "source": "https://github.com/swissup/dailydeals/tree/0.0.1",
                     "issues": "https://github.com/swissup/dailydeals/issues"
                 }
             }
@@ -9974,12 +10028,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "15265896fd053aa8f4dd520976bd403b76c63e3c"
+                    "reference": "88d3126483cb8b0efdb377822e26ce79e6bc9700"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/15265896fd053aa8f4dd520976bd403b76c63e3c",
-                    "reference": "15265896fd053aa8f4dd520976bd403b76c63e3c",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/88d3126483cb8b0efdb377822e26ce79e6bc9700",
+                    "reference": "88d3126483cb8b0efdb377822e26ce79e6bc9700",
                     "shasum": ""
                 },
                 "require": {
@@ -9994,7 +10048,7 @@
                     "swissup/orderattachment": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2017-10-11T08:08:05+00:00",
+                "time": "2017-10-12T07:30:35+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11104,7 +11158,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
+                    "source": "https://github.com/swissup/hover-gallery/tree/master",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             },
@@ -11141,7 +11195,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
+                    "source": "https://github.com/swissup/hover-gallery/tree/master",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             }
@@ -12927,18 +12981,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/reviewreminder.git",
-                    "reference": "d1e7f664c3e021afd3779136d154884481a0b685"
+                    "reference": "89ed22ccd9486cee8df7212133393f1ca42d9011"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/reviewreminder/zipball/d1e7f664c3e021afd3779136d154884481a0b685",
-                    "reference": "d1e7f664c3e021afd3779136d154884481a0b685",
+                    "url": "https://api.github.com/repos/swissup/reviewreminder/zipball/89ed22ccd9486cee8df7212133393f1ca42d9011",
+                    "reference": "89ed22ccd9486cee8df7212133393f1ca42d9011",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-09-28T12:28:40+00:00",
+                "time": "2017-10-04T12:05:20+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -12953,7 +13007,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },

@@ -3793,25 +3793,25 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
-            "dev-master": {
+            "1.2.9": {
                 "name": "swissup/askit",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.9",
+                "version_normalized": "1.2.9.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58"
+                    "reference": "8146c43aa78c9828394e848a85a26405d07fe741"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/cbb7104d43915016acb790564f319eb18bef4e58",
-                    "reference": "cbb7104d43915016acb790564f319eb18bef4e58",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/8146c43aa78c9828394e848a85a26405d07fe741",
+                    "reference": "8146c43aa78c9828394e848a85a26405d07fe741",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-10-12T12:53:04+00:00",
+                "time": "2017-11-02T09:31:05+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -3843,7 +3843,61 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/1.2.8",
+                    "source": "https://github.com/swissup/askit/tree/1.2.9",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/askit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "8146c43aa78c9828394e848a85a26405d07fe741"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/8146c43aa78c9828394e848a85a26405d07fe741",
+                    "reference": "8146c43aa78c9828394e848a85a26405d07fe741",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-11-02T09:31:05+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.9",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }
@@ -11664,18 +11718,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/instaframe.git",
-                    "reference": "42094c2560fb58d45703f9a9d66f194582e61125"
+                    "reference": "23b6ca70bbccdc44eb8788fada7a6f5373d7cc4b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/instaframe/zipball/42094c2560fb58d45703f9a9d66f194582e61125",
-                    "reference": "42094c2560fb58d45703f9a9d66f194582e61125",
+                    "url": "https://api.github.com/repos/swissup/instaframe/zipball/23b6ca70bbccdc44eb8788fada7a6f5373d7cc4b",
+                    "reference": "23b6ca70bbccdc44eb8788fada7a6f5373d7cc4b",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-09-15T06:44:29+00:00",
+                "time": "2017-11-01T15:55:42+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11683,7 +11737,7 @@
                             "marketplace": "https://marketplace.magento.com/swissup-instaframe.html",
                             "store": "https://swissuplabs.com/",
                             "docs": "http://docs.swissuplabs.com/m2/extensions/instaframe/",
-                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/instaframe/changelog/"
                         }
                     }
                 },
@@ -11705,7 +11759,7 @@
                     "social"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/instaframe/tree/0.9.0",
+                    "source": "https://github.com/swissup/instaframe/tree/master",
                     "issues": "https://github.com/swissup/instaframe/issues"
                 }
             }
@@ -15139,19 +15193,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "7839867e6faca92423e7a4969066a53f890725f4"
+                    "reference": "15d7134cd32891d8bd7a4df57a606b6d8408bb2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/7839867e6faca92423e7a4969066a53f890725f4",
-                    "reference": "7839867e6faca92423e7a4969066a53f890725f4",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/15d7134cd32891d8bd7a4df57a606b6d8408bb2b",
+                    "reference": "15d7134cd32891d8bd7a4df57a606b6d8408bb2b",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2017-10-25T15:13:08+00:00",
+                "time": "2017-10-31T15:36:22+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

@@ -3014,7 +3014,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.6"
                 }
             },
             "0.9.7": {
@@ -11616,7 +11616,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/master",
+                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             },
@@ -11653,7 +11653,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/master",
+                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             }
@@ -11772,18 +11772,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/lightboxpro.git",
-                    "reference": "4f4524c3b157775d028846e99ea518203996a613"
+                    "reference": "e6468a618ffd5c63300209bca063f674f67754bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4f4524c3b157775d028846e99ea518203996a613",
-                    "reference": "4f4524c3b157775d028846e99ea518203996a613",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/e6468a618ffd5c63300209bca063f674f67754bd",
+                    "reference": "e6468a618ffd5c63300209bca063f674f67754bd",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-11-07T14:16:49+00:00",
+                "time": "2017-11-07T15:30:54+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -13554,7 +13554,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/master",
+                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },
@@ -13891,7 +13891,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/master",
+                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             }
@@ -14233,6 +14233,57 @@
                 "support": {
                     "source": "https://github.com/swissup/seo-html-sitemap/tree/master",
                     "issues": "https://github.com/swissup/seo-html-sitemap/issues"
+                }
+            }
+        },
+        "swissup/seo-urls": {
+            "dev-master": {
+                "name": "swissup/seo-urls",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-urls.git",
+                    "reference": "e913a5f0e2d6a98bed9b063cb1e53741b4343c71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/e913a5f0e2d6a98bed9b063cb1e53741b4343c71",
+                    "reference": "e913a5f0e2d6a98bed9b063cb1e53741b4343c71",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-11-07T15:27:14+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better ursl",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-urls/tree/master",
+                    "issues": "https://github.com/swissup/seo-urls/issues"
                 }
             }
         },

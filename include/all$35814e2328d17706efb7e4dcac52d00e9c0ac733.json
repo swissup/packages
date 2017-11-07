@@ -3014,7 +3014,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/0.9.6"
+                    "source": "https://github.com/argento/m2/tree/master"
                 }
             },
             "0.9.7": {
@@ -11616,7 +11616,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
+                    "source": "https://github.com/swissup/hover-gallery/tree/master",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             },
@@ -11653,7 +11653,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
+                    "source": "https://github.com/swissup/hover-gallery/tree/master",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             }
@@ -11761,6 +11761,58 @@
                 "support": {
                     "source": "https://github.com/swissup/instaframe/tree/master",
                     "issues": "https://github.com/swissup/instaframe/issues"
+                }
+            }
+        },
+        "swissup/lightboxpro": {
+            "dev-master": {
+                "name": "swissup/lightboxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/lightboxpro.git",
+                    "reference": "4f4524c3b157775d028846e99ea518203996a613"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4f4524c3b157775d028846e99ea518203996a613",
+                    "reference": "4f4524c3b157775d028846e99ea518203996a613",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-11-07T14:16:49+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Lightboxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Lightbox Pro module for Magento 2",
+                "keywords": [
+                    "lightbox",
+                    "product image",
+                    "zoom"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/lightboxpro/tree/master",
+                    "issues": "https://github.com/swissup/lightboxpro/issues"
                 }
             }
         },
@@ -13502,7 +13554,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },
@@ -13839,7 +13891,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
+                    "source": "https://github.com/swissup/reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             }
@@ -15283,18 +15335,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscribe-at-checkout.git",
-                    "reference": "f1df26e61b84b55b0508bc324df1f5743e4234b9"
+                    "reference": "a6914ecddf609bc9423b165a6c74c6f00e45ca43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscribe-at-checkout/zipball/f1df26e61b84b55b0508bc324df1f5743e4234b9",
-                    "reference": "f1df26e61b84b55b0508bc324df1f5743e4234b9",
+                    "url": "https://api.github.com/repos/swissup/subscribe-at-checkout/zipball/a6914ecddf609bc9423b165a6c74c6f00e45ca43",
+                    "reference": "a6914ecddf609bc9423b165a6c74c6f00e45ca43",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-10-20T09:17:12+00:00",
+                "time": "2017-11-02T13:26:42+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15322,7 +15374,7 @@
                     "subscription"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/subscribe-at-checkout/tree/1.0.0",
+                    "source": "https://github.com/swissup/subscribe-at-checkout/tree/master",
                     "issues": "https://github.com/swissup/subscribe-at-checkout/issues"
                 }
             }

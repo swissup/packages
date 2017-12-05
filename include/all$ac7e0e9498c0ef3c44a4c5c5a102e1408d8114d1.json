@@ -961,18 +961,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxlayerednavigation.git",
-                    "reference": "d6309227c08eeb1677d48c1379e764c8e3e198c5"
+                    "reference": "32e696a29555e7ae285581b7c2c9b72680ec9037"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/d6309227c08eeb1677d48c1379e764c8e3e198c5",
-                    "reference": "d6309227c08eeb1677d48c1379e764c8e3e198c5",
+                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/32e696a29555e7ae285581b7c2c9b72680ec9037",
+                    "reference": "32e696a29555e7ae285581b7c2c9b72680ec9037",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-12-01T13:55:06+00:00",
+                "time": "2017-12-05T15:42:58+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7961,18 +7961,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "10a3a981129bdc379b1df07bfebb7f790530ff37"
+                    "reference": "5471e1ef4d056f367971949785593427108d01f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/10a3a981129bdc379b1df07bfebb7f790530ff37",
-                    "reference": "10a3a981129bdc379b1df07bfebb7f790530ff37",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/5471e1ef4d056f367971949785593427108d01f4",
+                    "reference": "5471e1ef4d056f367971949785593427108d01f4",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-12-04T15:20:27+00:00",
+                "time": "2017-12-05T15:31:27+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8005,7 +8005,7 @@
                     "lightbox"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/easybanner/tree/1.1.0",
+                    "source": "https://github.com/swissup/easybanner/tree/master",
                     "issues": "https://github.com/swissup/easybanner/issues"
                 }
             }
@@ -12345,25 +12345,25 @@
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "swissup/navigationpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "a5e91af77023590332db8a90bc05fb16efe51f64"
+                    "reference": "4fa8505009680e88daf8047ed271978491b299f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/a5e91af77023590332db8a90bc05fb16efe51f64",
-                    "reference": "a5e91af77023590332db8a90bc05fb16efe51f64",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/4fa8505009680e88daf8047ed271978491b299f8",
+                    "reference": "4fa8505009680e88daf8047ed271978491b299f8",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-12-04T13:03:29+00:00",
+                "time": "2017-12-05T15:55:40+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -12391,7 +12391,57 @@
                     "navigation"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/master",
+                    "source": "https://github.com/swissup/navigationpro/tree/1.1.0",
+                    "issues": "https://github.com/swissup/navigationpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/navigationpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/navigationpro.git",
+                    "reference": "4fa8505009680e88daf8047ed271978491b299f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/4fa8505009680e88daf8047ed271978491b299f8",
+                    "reference": "4fa8505009680e88daf8047ed271978491b299f8",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-12-05T15:55:40+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/navigationpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Navigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2",
+                "keywords": [
+                    "megamenu",
+                    "menu",
+                    "navigation"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/navigationpro/tree/1.1.0",
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             }

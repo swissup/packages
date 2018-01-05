@@ -915,18 +915,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "f44b19afca6fa2fc5aa75f8570848997372f64d9"
+                    "reference": "e9e56478844d5a98adceb10947012a8bf19bde01"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/f44b19afca6fa2fc5aa75f8570848997372f64d9",
-                    "reference": "f44b19afca6fa2fc5aa75f8570848997372f64d9",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/e9e56478844d5a98adceb10947012a8bf19bde01",
+                    "reference": "e9e56478844d5a98adceb10947012a8bf19bde01",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-01-05T09:41:15+00:00",
+                "time": "2018-01-05T10:01:34+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -12490,18 +12490,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/highlight.git",
-                    "reference": "30ed863495fc9d7c030940e5b08304bc523b279d"
+                    "reference": "502a1d0f1a993a81e963e57623ce54ae23d3e734"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/highlight/zipball/30ed863495fc9d7c030940e5b08304bc523b279d",
-                    "reference": "30ed863495fc9d7c030940e5b08304bc523b279d",
+                    "url": "https://api.github.com/repos/swissup/highlight/zipball/502a1d0f1a993a81e963e57623ce54ae23d3e734",
+                    "reference": "502a1d0f1a993a81e963e57623ce54ae23d3e734",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-09-22T13:58:35+00:00",
+                "time": "2018-01-05T10:01:32+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -12532,7 +12532,7 @@
                     "widgets"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/1.1.2",
+                    "source": "https://github.com/swissup/highlight/tree/master",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             }
@@ -15498,6 +15498,58 @@
                 }
             }
         },
+        "swissup/seo-pager": {
+            "dev-master": {
+                "name": "swissup/seo-pager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-pager.git",
+                    "reference": "49cd9b211961911921979852161489b2de813d61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-pager/zipball/49cd9b211961911921979852161489b2de813d61",
+                    "reference": "49cd9b211961911921979852161489b2de813d61",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-01-05T10:19:43+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoPager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 pagination",
+                "keywords": [
+                    "better pagination",
+                    "seo pagination"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-pager/tree/master",
+                    "issues": "https://github.com/swissup/seo-pager/issues"
+                }
+            }
+        },
         "swissup/seo-suite": {
             "0.8.0": {
                 "name": "swissup/seo-suite",
@@ -15621,26 +15673,26 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:swissup/seo-pager.git",
-                    "reference": "958a93543ca34acdc1259b0d009f7a8baad582a0"
+                    "url": "git@github.com:swissup/seo-urls.git",
+                    "reference": "fdf1597cd75424fc48d29f66c5b398f0661021d7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-pager/zipball/958a93543ca34acdc1259b0d009f7a8baad582a0",
-                    "reference": "958a93543ca34acdc1259b0d009f7a8baad582a0",
+                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/fdf1597cd75424fc48d29f66c5b398f0661021d7",
+                    "reference": "fdf1597cd75424fc48d29f66c5b398f0661021d7",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-01-05T09:50:25+00:00",
+                "time": "2018-01-04T09:55:44+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
                         "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
                         }
                     }
                 },
@@ -15649,20 +15701,20 @@
                         "registration.php"
                     ],
                     "psr-4": {
-                        "Swissup\\SeoPager\\": ""
+                        "Swissup\\SeoUrls\\": ""
                     }
                 },
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Improved Magento 2 pagination",
+                "description": "Improved Magento 2 urls",
                 "keywords": [
-                    "better pagination",
-                    "seo pagination"
+                    "better ursl",
+                    "seo urls"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-pager/tree/master",
-                    "issues": "https://github.com/swissup/seo-pager/issues"
+                    "source": "https://github.com/swissup/seo-urls/tree/master",
+                    "issues": "https://github.com/swissup/seo-urls/issues"
                 }
             }
         },

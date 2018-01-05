@@ -907,6 +907,49 @@
                     "source": "https://github.com/swissup/address-field-manager/tree/1.1.1",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
+            },
+            "dev-create_address_attributes": {
+                "name": "swissup/address-field-manager",
+                "version": "dev-create_address_attributes",
+                "version_normalized": "dev-create_address_attributes",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-field-manager.git",
+                    "reference": "f44b19afca6fa2fc5aa75f8570848997372f64d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/f44b19afca6fa2fc5aa75f8570848997372f64d9",
+                    "reference": "f44b19afca6fa2fc5aa75f8570848997372f64d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2018-01-05T09:41:15+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressFieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Address field manager for Magento 2",
+                "keywords": [
+                    "address attributes",
+                    "address fields",
+                    "attribute manager",
+                    "fields manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/address-field-manager/tree/create_address_attributes",
+                    "issues": "https://github.com/swissup/address-field-manager/issues"
+                }
             }
         },
         "swissup/ajaxlayerednavigation": {
@@ -1047,18 +1090,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxlayerednavigation.git",
-                    "reference": "843e4e4d58b0cb6459e337cdf802aeb699d867fd"
+                    "reference": "b1e0742ce882958c16a707fe924fef3e7d2ef956"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/843e4e4d58b0cb6459e337cdf802aeb699d867fd",
-                    "reference": "843e4e4d58b0cb6459e337cdf802aeb699d867fd",
+                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/b1e0742ce882958c16a707fe924fef3e7d2ef956",
+                    "reference": "b1e0742ce882958c16a707fe924fef3e7d2ef956",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-02T10:05:37+00:00",
+                "time": "2018-01-04T15:36:33+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1079,7 +1122,7 @@
                     "seo layered navigation"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/ajaxlayerednavigation/tree/1.1.0",
+                    "source": "https://github.com/swissup/ajaxlayerednavigation/tree/master",
                     "issues": "https://github.com/swissup/ajaxlayerednavigation/issues"
                 }
             }
@@ -1385,7 +1428,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -1396,19 +1439,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "3213d6867b4c1867bdaec32385a4a90688375a52"
+                    "reference": "871c4646adc671816c77a4762093e7d7061116ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/3213d6867b4c1867bdaec32385a4a90688375a52",
-                    "reference": "3213d6867b4c1867bdaec32385a4a90688375a52",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/871c4646adc671816c77a4762093e7d7061116ec",
+                    "reference": "871c4646adc671816c77a4762093e7d7061116ec",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2017-11-29T16:02:24+00:00",
+                "time": "2018-01-04T09:23:46+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1923,18 +1966,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "92e79f7e3234fd358d1ea58893fd1c74ac9bd5b8"
+                    "reference": "9e54509797858b61244f4def078a4186cff76101"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/92e79f7e3234fd358d1ea58893fd1c74ac9bd5b8",
-                    "reference": "92e79f7e3234fd358d1ea58893fd1c74ac9bd5b8",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/9e54509797858b61244f4def078a4186cff76101",
+                    "reference": "9e54509797858b61244f4def078a4186cff76101",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-12-15T13:41:38+00:00",
+                "time": "2018-01-02T13:47:35+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -1963,7 +2006,7 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/1.2.6",
+                    "source": "https://github.com/swissup/ajaxsearch/tree/master",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             }
@@ -5133,18 +5176,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-fields.git",
-                    "reference": "c164b2624bd46f606ffdc3f9608d92bafa92a69e"
+                    "reference": "3ab23c058c175496da6cd3e7fe5e7af58e73b6c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout-fields/zipball/c164b2624bd46f606ffdc3f9608d92bafa92a69e",
-                    "reference": "c164b2624bd46f606ffdc3f9608d92bafa92a69e",
+                    "url": "https://api.github.com/repos/swissup/checkout-fields/zipball/3ab23c058c175496da6cd3e7fe5e7af58e73b6c5",
+                    "reference": "3ab23c058c175496da6cd3e7fe5e7af58e73b6c5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-12-29T12:50:40+00:00",
+                "time": "2018-01-03T15:48:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8402,18 +8445,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "12c722cd44df5b326739858dacc1d12c94648952"
+                    "reference": "119f44f5140cf84a4f760be6a041e79a8f94b26b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/12c722cd44df5b326739858dacc1d12c94648952",
-                    "reference": "12c722cd44df5b326739858dacc1d12c94648952",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/119f44f5140cf84a4f760be6a041e79a8f94b26b",
+                    "reference": "119f44f5140cf84a4f760be6a041e79a8f94b26b",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-12-29T13:17:01+00:00",
+                "time": "2018-01-05T09:02:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15578,26 +15621,26 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:swissup/seo-urls.git",
-                    "reference": "841ee61f77e2aa34eef579b3648af80ee192e52a"
+                    "url": "git@github.com:swissup/seo-pager.git",
+                    "reference": "958a93543ca34acdc1259b0d009f7a8baad582a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/841ee61f77e2aa34eef579b3648af80ee192e52a",
-                    "reference": "841ee61f77e2aa34eef579b3648af80ee192e52a",
+                    "url": "https://api.github.com/repos/swissup/seo-pager/zipball/958a93543ca34acdc1259b0d009f7a8baad582a0",
+                    "reference": "958a93543ca34acdc1259b0d009f7a8baad582a0",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2017-12-29T09:35:36+00:00",
+                "time": "2018-01-05T09:50:25+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
                         "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
                         }
                     }
                 },
@@ -15606,20 +15649,20 @@
                         "registration.php"
                     ],
                     "psr-4": {
-                        "Swissup\\SeoUrls\\": ""
+                        "Swissup\\SeoPager\\": ""
                     }
                 },
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Improved Magento 2 urls",
+                "description": "Improved Magento 2 pagination",
                 "keywords": [
-                    "better ursl",
-                    "seo urls"
+                    "better pagination",
+                    "seo pagination"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-urls/tree/master",
-                    "issues": "https://github.com/swissup/seo-urls/issues"
+                    "source": "https://github.com/swissup/seo-pager/tree/master",
+                    "issues": "https://github.com/swissup/seo-pager/issues"
                 }
             }
         },
@@ -18617,7 +18660,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
@@ -18654,7 +18697,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             }

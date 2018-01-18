@@ -1471,7 +1471,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -7266,7 +7266,7 @@
                 "description": "Docker infrastructure definitions for Magento 2",
                 "homepage": "https://github.com/arvatoSCM/dockerize-magento2",
                 "support": {
-                    "source": "https://github.com/swissup/dockerize-magento2/tree/develop"
+                    "source": "https://github.com/swissup/dockerize-magento2/tree/master"
                 }
             },
             "dev-develop": {
@@ -8894,18 +8894,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "0bc6e7812e940850d70b15afc73dec55ffd15a9e"
+                    "reference": "2009501d0da6ac0c6eddb5839097db4f92136187"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/0bc6e7812e940850d70b15afc73dec55ffd15a9e",
-                    "reference": "0bc6e7812e940850d70b15afc73dec55ffd15a9e",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/2009501d0da6ac0c6eddb5839097db4f92136187",
+                    "reference": "2009501d0da6ac0c6eddb5839097db4f92136187",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-18T10:59:32+00:00",
+                "time": "2018-01-18T14:22:25+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -10526,25 +10526,25 @@
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/fblike",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/fblike.git",
-                    "reference": "ae5ce8c264d9e78894ac8a70c178f5dcd59e9636"
+                    "reference": "c95ecb093a716427c341ef454c31a9b15cd71552"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/fblike/zipball/ae5ce8c264d9e78894ac8a70c178f5dcd59e9636",
-                    "reference": "ae5ce8c264d9e78894ac8a70c178f5dcd59e9636",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/c95ecb093a716427c341ef454c31a9b15cd71552",
+                    "reference": "c95ecb093a716427c341ef454c31a9b15cd71552",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-09T13:12:18+00:00",
+                "time": "2018-01-18T14:18:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -10559,7 +10559,44 @@
                 ],
                 "description": "Facebook Like Button for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/master",
+                    "source": "https://github.com/swissup/fblike/tree/1.1.1",
+                    "issues": "https://github.com/swissup/fblike/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/fblike",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/fblike.git",
+                    "reference": "c95ecb093a716427c341ef454c31a9b15cd71552"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/c95ecb093a716427c341ef454c31a9b15cd71552",
+                    "reference": "c95ecb093a716427c341ef454c31a9b15cd71552",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-01-18T14:18:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Facebook Like Button for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/fblike/tree/1.1.1",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             }
@@ -19213,7 +19250,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
@@ -19250,7 +19287,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             }

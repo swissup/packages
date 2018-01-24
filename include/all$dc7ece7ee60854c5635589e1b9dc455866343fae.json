@@ -915,18 +915,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "f5c75afc4776613615be6793131727fadfe3f08a"
+                    "reference": "62091c50d86e4a6c8709220da34ce58bad481589"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/f5c75afc4776613615be6793131727fadfe3f08a",
-                    "reference": "f5c75afc4776613615be6793131727fadfe3f08a",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/62091c50d86e4a6c8709220da34ce58bad481589",
+                    "reference": "62091c50d86e4a6c8709220da34ce58bad481589",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-01-15T12:48:47+00:00",
+                "time": "2018-01-24T09:40:43+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2047,18 +2047,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "9e54509797858b61244f4def078a4186cff76101"
+                    "reference": "c24e75cf370c875711472fc2f9fada365dccf8cb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/9e54509797858b61244f4def078a4186cff76101",
-                    "reference": "9e54509797858b61244f4def078a4186cff76101",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/c24e75cf370c875711472fc2f9fada365dccf8cb",
+                    "reference": "c24e75cf370c875711472fc2f9fada365dccf8cb",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-02T13:47:35+00:00",
+                "time": "2018-01-23T16:07:03+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -3941,6 +3941,60 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
+            "1.2.12": {
+                "name": "swissup/askit",
+                "version": "1.2.12",
+                "version_normalized": "1.2.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "6c42975badbfdceca2e77a9f60451b9bacf16145"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/6c42975badbfdceca2e77a9f60451b9bacf16145",
+                    "reference": "6c42975badbfdceca2e77a9f60451b9bacf16145",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-01-24T09:37:43+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.12",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
             "1.2.2": {
                 "name": "swissup/askit",
                 "version": "1.2.2",
@@ -4326,18 +4380,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "669b55cd32a8a677fafb4f63d51ba247ca3eb6d2"
+                    "reference": "6c42975badbfdceca2e77a9f60451b9bacf16145"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/669b55cd32a8a677fafb4f63d51ba247ca3eb6d2",
-                    "reference": "669b55cd32a8a677fafb4f63d51ba247ca3eb6d2",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/6c42975badbfdceca2e77a9f60451b9bacf16145",
+                    "reference": "6c42975badbfdceca2e77a9f60451b9bacf16145",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-09T15:43:47+00:00",
+                "time": "2018-01-24T09:37:43+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -4369,7 +4423,7 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/master",
+                    "source": "https://github.com/swissup/askit/tree/1.2.12",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }
@@ -8894,18 +8948,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "2009501d0da6ac0c6eddb5839097db4f92136187"
+                    "reference": "34c96c978d6026bbca1ee4cb8297a28a39965243"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/2009501d0da6ac0c6eddb5839097db4f92136187",
-                    "reference": "2009501d0da6ac0c6eddb5839097db4f92136187",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/34c96c978d6026bbca1ee4cb8297a28a39965243",
+                    "reference": "34c96c978d6026bbca1ee4cb8297a28a39965243",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-18T14:22:25+00:00",
+                "time": "2018-01-24T09:18:13+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11882,12 +11936,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "e71b06da877b38dbb79d53887edd5a0a8b1316a0"
+                    "reference": "eb282efaef00b81ec457a1906cdddf01c844fd44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/e71b06da877b38dbb79d53887edd5a0a8b1316a0",
-                    "reference": "e71b06da877b38dbb79d53887edd5a0a8b1316a0",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/eb282efaef00b81ec457a1906cdddf01c844fd44",
+                    "reference": "eb282efaef00b81ec457a1906cdddf01c844fd44",
                     "shasum": ""
                 },
                 "require": {
@@ -11903,7 +11957,7 @@
                     "swissup/subscribe-at-checkout": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2017-12-26T09:43:25+00:00",
+                "time": "2018-01-19T10:19:34+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11933,7 +11987,7 @@
                     "onestep checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.8.0",
+                    "source": "https://github.com/swissup/firecheckout/tree/master",
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             }
@@ -12976,18 +13030,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/highlight.git",
-                    "reference": "502a1d0f1a993a81e963e57623ce54ae23d3e734"
+                    "reference": "c98f0f686e2be82217856e352c533da0ae433a08"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/highlight/zipball/502a1d0f1a993a81e963e57623ce54ae23d3e734",
-                    "reference": "502a1d0f1a993a81e963e57623ce54ae23d3e734",
+                    "url": "https://api.github.com/repos/swissup/highlight/zipball/c98f0f686e2be82217856e352c533da0ae433a08",
+                    "reference": "c98f0f686e2be82217856e352c533da0ae433a08",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-05T10:01:32+00:00",
+                "time": "2018-01-19T13:28:08+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15845,18 +15899,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/richsnippets.git",
-                    "reference": "96776d3cd40f2ec957d54ee942ec5c7aec5106f1"
+                    "reference": "f5aa78be24c342032344e4fd19ae314badfa580a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/richsnippets/zipball/96776d3cd40f2ec957d54ee942ec5c7aec5106f1",
-                    "reference": "96776d3cd40f2ec957d54ee942ec5c7aec5106f1",
+                    "url": "https://api.github.com/repos/swissup/richsnippets/zipball/f5aa78be24c342032344e4fd19ae314badfa580a",
+                    "reference": "f5aa78be24c342032344e4fd19ae314badfa580a",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-01-02T09:22:24+00:00",
+                "time": "2018-01-23T16:03:23+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -16044,19 +16098,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-pager.git",
-                    "reference": "767332423f008b26f049e018791805f9b6415ce2"
+                    "reference": "0eb25127114725c75f80daaacb596e62c7ab2dee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-pager/zipball/767332423f008b26f049e018791805f9b6415ce2",
-                    "reference": "767332423f008b26f049e018791805f9b6415ce2",
+                    "url": "https://api.github.com/repos/swissup/seo-pager/zipball/0eb25127114725c75f80daaacb596e62c7ab2dee",
+                    "reference": "0eb25127114725c75f80daaacb596e62c7ab2dee",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-01-18T08:33:59+00:00",
+                "time": "2018-01-19T15:51:44+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

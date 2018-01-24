@@ -1513,26 +1513,26 @@
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/ajaxpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "97b110ab53b72617d56d6ba641d4ec8b689c3181"
+                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/97b110ab53b72617d56d6ba641d4ec8b689c3181",
-                    "reference": "97b110ab53b72617d56d6ba641d4ec8b689c3181",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
+                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2018-01-17T10:32:47+00:00",
+                "time": "2018-01-24T14:14:30+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1547,7 +1547,45 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.5",
+                    "issues": "https://github.com/swissup/ajaxpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxpro.git",
+                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
+                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/suggestpage": "*"
+                },
+                "time": "2018-01-24T14:14:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
+                "support": {
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.5",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
@@ -2040,25 +2078,25 @@
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             },
-            "dev-master": {
+            "1.2.7": {
                 "name": "swissup/ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "c24e75cf370c875711472fc2f9fada365dccf8cb"
+                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/c24e75cf370c875711472fc2f9fada365dccf8cb",
-                    "reference": "c24e75cf370c875711472fc2f9fada365dccf8cb",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6a4de18c327a65fb1597c875c091066abe141bc1",
+                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-23T16:07:03+00:00",
+                "time": "2018-01-24T14:17:23+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -2087,7 +2125,58 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/master",
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.2.7",
+                    "issues": "https://github.com/swissup/ajaxsearch/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxsearch.git",
+                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6a4de18c327a65fb1597c875c091066abe141bc1",
+                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-01-24T14:17:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-ajaxsearch.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.2.7",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             }
@@ -8948,18 +9037,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "34c96c978d6026bbca1ee4cb8297a28a39965243"
+                    "reference": "429931423196d5c3ffda8611a4c5465ce6a58479"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/34c96c978d6026bbca1ee4cb8297a28a39965243",
-                    "reference": "34c96c978d6026bbca1ee4cb8297a28a39965243",
+                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/429931423196d5c3ffda8611a4c5465ce6a58479",
+                    "reference": "429931423196d5c3ffda8611a4c5465ce6a58479",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-01-24T09:18:13+00:00",
+                "time": "2018-01-24T14:20:37+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

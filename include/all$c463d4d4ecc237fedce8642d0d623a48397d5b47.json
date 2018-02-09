@@ -3501,7 +3501,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/0.9.6"
                 }
             },
             "0.9.7": {
@@ -13426,26 +13426,26 @@
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "swissup/highlight",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/highlight.git",
-                    "reference": "9db986eab50e93ecf961f82688a80b7b58ce192d"
+                    "reference": "2795d33b2d8e36b8e1e91641e06b4649ed32564f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/highlight/zipball/9db986eab50e93ecf961f82688a80b7b58ce192d",
-                    "reference": "9db986eab50e93ecf961f82688a80b7b58ce192d",
+                    "url": "https://api.github.com/repos/swissup/highlight/zipball/2795d33b2d8e36b8e1e91641e06b4649ed32564f",
+                    "reference": "2795d33b2d8e36b8e1e91641e06b4649ed32564f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2018-02-09T13:09:55+00:00",
+                "time": "2018-02-09T14:57:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -13481,7 +13481,66 @@
                     "products carousel"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/highlight/tree/master",
+                    "source": "https://github.com/swissup/highlight/tree/1.2.0",
+                    "issues": "https://github.com/swissup/highlight/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/highlight",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/highlight.git",
+                    "reference": "2795d33b2d8e36b8e1e91641e06b4649ed32564f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/highlight/zipball/2795d33b2d8e36b8e1e91641e06b4649ed32564f",
+                    "reference": "2795d33b2d8e36b8e1e91641e06b4649ed32564f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2018-02-09T14:57:47+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-highlight.html",
+                            "store": "https://swissuplabs.com/magento-extensions/magento-custom-product-list-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/highlight/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/highlight/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Highlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product listing widgets, ajax carousel with flexible filters",
+                "keywords": [
+                    "bestsellers",
+                    "featured products",
+                    "highlight",
+                    "new products",
+                    "onsale products",
+                    "popular products",
+                    "product listing",
+                    "products carousel"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/highlight/tree/1.2.0",
                     "issues": "https://github.com/swissup/highlight/issues"
                 }
             }
@@ -13520,7 +13579,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/master",
+                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             },
@@ -13557,7 +13616,7 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/hover-gallery/tree/master",
+                    "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
                 }
             }
@@ -15123,7 +15182,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -15426,7 +15485,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -15738,7 +15797,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/master",
+                    "source": "https://github.com/swissup/reviewreminder/tree/1.0.10",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },
@@ -16810,7 +16869,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.0",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -16842,7 +16901,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.0",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -17239,22 +17298,22 @@
                     "issues": "https://github.com/swissup/slick-carousel/issues"
                 }
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "swissup/slick-carousel",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/slick-carousel.git",
-                    "reference": "7fddc0d20ccf06451316f9cb20ed0b8ede1b22be"
+                    "reference": "514e3c5a3072f6f7fe0257623f3970a159e58d74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/slick-carousel/zipball/7fddc0d20ccf06451316f9cb20ed0b8ede1b22be",
-                    "reference": "7fddc0d20ccf06451316f9cb20ed0b8ede1b22be",
+                    "url": "https://api.github.com/repos/swissup/slick-carousel/zipball/514e3c5a3072f6f7fe0257623f3970a159e58d74",
+                    "reference": "514e3c5a3072f6f7fe0257623f3970a159e58d74",
                     "shasum": ""
                 },
-                "time": "2018-02-08T13:17:17+00:00",
+                "time": "2018-02-09T14:56:49+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -17282,7 +17341,54 @@
                     "slider"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/slick-carousel/tree/master",
+                    "source": "https://github.com/swissup/slick-carousel/tree/1.1.2",
+                    "issues": "https://github.com/swissup/slick-carousel/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/slick-carousel",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/slick-carousel.git",
+                    "reference": "514e3c5a3072f6f7fe0257623f3970a159e58d74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/slick-carousel/zipball/514e3c5a3072f6f7fe0257623f3970a159e58d74",
+                    "reference": "514e3c5a3072f6f7fe0257623f3970a159e58d74",
+                    "shasum": ""
+                },
+                "time": "2018-02-09T14:56:49+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SlickCarousel\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "the last carousel you'll ever need for magento2",
+                "keywords": [
+                    "carousel",
+                    "slick carousel",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/slick-carousel/tree/1.1.2",
                     "issues": "https://github.com/swissup/slick-carousel/issues"
                 }
             }
@@ -20065,7 +20171,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
@@ -20102,7 +20208,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             }

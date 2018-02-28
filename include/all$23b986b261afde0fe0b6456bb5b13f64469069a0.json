@@ -6776,22 +6776,22 @@
                     "issues": "https://github.com/swissup/core/issues"
                 }
             },
-            "dev-master": {
+            "1.5.0": {
                 "name": "swissup/core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "4d54594fba3a296088c6210f68f715052764681f"
+                    "reference": "e2bcc8bfd1b908d7490824e2dedeb97b34d20816"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/4d54594fba3a296088c6210f68f715052764681f",
-                    "reference": "4d54594fba3a296088c6210f68f715052764681f",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/e2bcc8bfd1b908d7490824e2dedeb97b34d20816",
+                    "reference": "e2bcc8bfd1b908d7490824e2dedeb97b34d20816",
                     "shasum": ""
                 },
-                "time": "2018-02-27T13:48:02+00:00",
+                "time": "2018-02-28T12:39:00+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6814,7 +6814,49 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/master",
+                    "source": "https://github.com/swissup/core/tree/1.5.0",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/core.git",
+                    "reference": "e2bcc8bfd1b908d7490824e2dedeb97b34d20816"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/e2bcc8bfd1b908d7490824e2dedeb97b34d20816",
+                    "reference": "e2bcc8bfd1b908d7490824e2dedeb97b34d20816",
+                    "shasum": ""
+                },
+                "time": "2018-02-28T12:39:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "keywords": [
+                    "core",
+                    "installer",
+                    "module manager",
+                    "notifier",
+                    "popup messenger",
+                    "swissup services"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.5.0",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -25054,18 +25096,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-stripes.git",
-                    "reference": "a3462494620ef40d3e375bfbd42e44452a267112"
+                    "reference": "dfda842db9c31f2941507e4da5e9495618223e3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/a3462494620ef40d3e375bfbd42e44452a267112",
-                    "reference": "a3462494620ef40d3e375bfbd42e44452a267112",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/dfda842db9c31f2941507e4da5e9495618223e3e",
+                    "reference": "dfda842db9c31f2941507e4da5e9495618223e3e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2018-02-27T13:01:22+00:00",
+                "time": "2018-02-28T10:00:50+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

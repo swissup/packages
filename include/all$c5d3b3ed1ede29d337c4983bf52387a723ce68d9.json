@@ -1694,19 +1694,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d"
+                    "reference": "a77cddd9f8ca2126cc4da84021535ed7f111521e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
-                    "reference": "b076829cfe51a70c04fedfd80e2b1d1b4b2cfe1d",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/a77cddd9f8ca2126cc4da84021535ed7f111521e",
+                    "reference": "a77cddd9f8ca2126cc4da84021535ed7f111521e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2018-01-24T14:14:30+00:00",
+                "time": "2018-03-13T13:59:12+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1721,7 +1721,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.5",
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
@@ -5445,25 +5445,25 @@
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             },
-            "dev-master": {
+            "1.1.3": {
                 "name": "swissup/checkout-cart",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-cart.git",
-                    "reference": "00fe97a6cbc14c3e59152ffd238c56abf645b8c1"
+                    "reference": "64e6d727875aae71be14f0b92d4078da25e4ef6e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/00fe97a6cbc14c3e59152ffd238c56abf645b8c1",
-                    "reference": "00fe97a6cbc14c3e59152ffd238c56abf645b8c1",
+                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/64e6d727875aae71be14f0b92d4078da25e4ef6e",
+                    "reference": "64e6d727875aae71be14f0b92d4078da25e4ef6e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-12-26T09:44:12+00:00",
+                "time": "2018-03-13T15:17:19+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -5490,7 +5490,56 @@
                     "checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/checkout-cart/tree/1.1.2",
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.1.3",
+                    "issues": "https://github.com/swissup/checkout-cart/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/checkout-cart",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-cart.git",
+                    "reference": "64e6d727875aae71be14f0b92d4078da25e4ef6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/64e6d727875aae71be14f0b92d4078da25e4ef6e",
+                    "reference": "64e6d727875aae71be14f0b92d4078da25e4ef6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2018-03-13T15:17:19+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 checkout cart",
+                "keywords": [
+                    "cart",
+                    "checkout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.1.3",
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             }
@@ -12507,12 +12556,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "f2cb817c095eebdf4734660f4b3745383ead7d06"
+                    "reference": "b7160705b0eb47fc4086f0eb26719ef4c123ee3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/f2cb817c095eebdf4734660f4b3745383ead7d06",
-                    "reference": "f2cb817c095eebdf4734660f4b3745383ead7d06",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/b7160705b0eb47fc4086f0eb26719ef4c123ee3e",
+                    "reference": "b7160705b0eb47fc4086f0eb26719ef4c123ee3e",
                     "shasum": ""
                 },
                 "require": {
@@ -12528,7 +12577,7 @@
                     "swissup/subscribe-at-checkout": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2018-03-13T12:58:10+00:00",
+                "time": "2018-03-13T14:58:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -12569,12 +12618,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "f2cb817c095eebdf4734660f4b3745383ead7d06"
+                    "reference": "b7160705b0eb47fc4086f0eb26719ef4c123ee3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/f2cb817c095eebdf4734660f4b3745383ead7d06",
-                    "reference": "f2cb817c095eebdf4734660f4b3745383ead7d06",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/b7160705b0eb47fc4086f0eb26719ef4c123ee3e",
+                    "reference": "b7160705b0eb47fc4086f0eb26719ef4c123ee3e",
                     "shasum": ""
                 },
                 "require": {
@@ -12590,7 +12639,7 @@
                     "swissup/subscribe-at-checkout": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2018-03-13T12:58:10+00:00",
+                "time": "2018-03-13T14:58:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -25337,18 +25386,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-stripes.git",
-                    "reference": "565c7696cfee78377c6f5c2159855dbdc943bbfe"
+                    "reference": "95c25698dcc2bb3331a38763c102bc0b163aaaeb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/565c7696cfee78377c6f5c2159855dbdc943bbfe",
-                    "reference": "565c7696cfee78377c6f5c2159855dbdc943bbfe",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/95c25698dcc2bb3331a38763c102bc0b163aaaeb",
+                    "reference": "95c25698dcc2bb3331a38763c102bc0b163aaaeb",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2018-03-13T09:58:10+00:00",
+                "time": "2018-03-13T14:39:02+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

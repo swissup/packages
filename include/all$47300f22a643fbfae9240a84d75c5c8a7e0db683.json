@@ -490,25 +490,25 @@
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.0.6": {
                 "name": "swissup/address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-autocomplete.git",
-                    "reference": "64bdaa8a7468622cf2b97f854ca2ee3b997f9cc6"
+                    "reference": "7287ad813420ee127943a0b991e23a2b45baf293"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/64bdaa8a7468622cf2b97f854ca2ee3b997f9cc6",
-                    "reference": "64bdaa8a7468622cf2b97f854ca2ee3b997f9cc6",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/7287ad813420ee127943a0b991e23a2b45baf293",
+                    "reference": "7287ad813420ee127943a0b991e23a2b45baf293",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-03-20T12:41:43+00:00",
+                "time": "2018-03-27T09:08:02+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -536,7 +536,57 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.6",
+                    "issues": "https://github.com/swissup/address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-autocomplete.git",
+                    "reference": "7287ad813420ee127943a0b991e23a2b45baf293"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/7287ad813420ee127943a0b991e23a2b45baf293",
+                    "reference": "7287ad813420ee127943a0b991e23a2b45baf293",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2018-03-27T09:08:02+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.6",
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             }
@@ -965,18 +1015,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "dc1eb471e4da3be782c60c576d9c0233e4059089"
+                    "reference": "e5c73b03e416d1ab38588167062e7463ffdcb6e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/dc1eb471e4da3be782c60c576d9c0233e4059089",
-                    "reference": "dc1eb471e4da3be782c60c576d9c0233e4059089",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/e5c73b03e416d1ab38588167062e7463ffdcb6e0",
+                    "reference": "e5c73b03e416d1ab38588167062e7463ffdcb6e0",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-02-02T15:30:57+00:00",
+                "time": "2018-03-27T09:05:52+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -997,7 +1047,7 @@
                     "fields manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/1.2.0",
+                    "source": "https://github.com/swissup/address-field-manager/tree/master",
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             },
@@ -2323,18 +2373,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "168d8fce5548fd52f2a23add250c1fd7dcd452e3"
+                    "reference": "2801f2e99a7989ae0e17abb0f111c8e0224aaac0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/168d8fce5548fd52f2a23add250c1fd7dcd452e3",
-                    "reference": "168d8fce5548fd52f2a23add250c1fd7dcd452e3",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/2801f2e99a7989ae0e17abb0f111c8e0224aaac0",
+                    "reference": "2801f2e99a7989ae0e17abb0f111c8e0224aaac0",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-26T08:57:26+00:00",
+                "time": "2018-03-26T12:27:19+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14778,18 +14828,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "04191a9f2cd74fbd7158ded60271c4f3aff4419c"
+                    "reference": "99ffcc07fcc2944b8796f8e3e7fe34060b5ab2ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/04191a9f2cd74fbd7158ded60271c4f3aff4419c",
-                    "reference": "04191a9f2cd74fbd7158ded60271c4f3aff4419c",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/99ffcc07fcc2944b8796f8e3e7fe34060b5ab2ee",
+                    "reference": "99ffcc07fcc2944b8796f8e3e7fe34060b5ab2ee",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/core": "*"
+                    "swissup/core": "*",
+                    "swissup/rtl": "*"
                 },
-                "time": "2018-03-22T09:29:26+00:00",
+                "time": "2018-03-27T08:59:18+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -21694,18 +21745,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-editor-argento-stripes.git",
-                    "reference": "0e9c8393930efcd49dd8a52d66834fda93863100"
+                    "reference": "e1eeb08d969199d5e67ce72280e5a83515f7b45b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-stripes/zipball/0e9c8393930efcd49dd8a52d66834fda93863100",
-                    "reference": "0e9c8393930efcd49dd8a52d66834fda93863100",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-stripes/zipball/e1eeb08d969199d5e67ce72280e5a83515f7b45b",
+                    "reference": "e1eeb08d969199d5e67ce72280e5a83515f7b45b",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2018-03-23T15:36:44+00:00",
+                "time": "2018-03-26T13:12:56+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -22845,15 +22896,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-blank.git",
-                    "reference": "1feacde00fd3c1d9a481945bfc734b5f31edf580"
+                    "reference": "672ad0759c290d299313133f7311812e34485b9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/1feacde00fd3c1d9a481945bfc734b5f31edf580",
-                    "reference": "1feacde00fd3c1d9a481945bfc734b5f31edf580",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-blank/zipball/672ad0759c290d299313133f7311812e34485b9a",
+                    "reference": "672ad0759c290d299313133f7311812e34485b9a",
                     "shasum": ""
                 },
-                "time": "2018-03-23T09:51:03+00:00",
+                "time": "2018-03-26T13:36:29+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -25703,18 +25754,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-stripes.git",
-                    "reference": "0915ef0f695c85e4ce1c5bf1aa9a16ff578601dd"
+                    "reference": "ba07b008822a5e8b84df81a90dc27e439f85fe1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/0915ef0f695c85e4ce1c5bf1aa9a16ff578601dd",
-                    "reference": "0915ef0f695c85e4ce1c5bf1aa9a16ff578601dd",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/ba07b008822a5e8b84df81a90dc27e439f85fe1e",
+                    "reference": "ba07b008822a5e8b84df81a90dc27e439f85fe1e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2018-03-26T08:10:54+00:00",
+                "time": "2018-03-26T14:14:01+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

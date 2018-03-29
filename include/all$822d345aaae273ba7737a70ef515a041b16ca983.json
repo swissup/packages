@@ -1737,26 +1737,26 @@
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
-            "dev-master": {
+            "1.2.6": {
                 "name": "swissup/ajaxpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "6f7c9eac8a7fd97f55e3ab91a230ab578ff281be"
+                    "reference": "1e0e012c9e9ceafd273b448afb8269543705a166"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/6f7c9eac8a7fd97f55e3ab91a230ab578ff281be",
-                    "reference": "6f7c9eac8a7fd97f55e3ab91a230ab578ff281be",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/1e0e012c9e9ceafd273b448afb8269543705a166",
+                    "reference": "1e0e012c9e9ceafd273b448afb8269543705a166",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2018-03-14T10:27:30+00:00",
+                "time": "2018-03-29T08:33:11+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -1771,7 +1771,45 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.6",
+                    "issues": "https://github.com/swissup/ajaxpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxpro.git",
+                    "reference": "1e0e012c9e9ceafd273b448afb8269543705a166"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/1e0e012c9e9ceafd273b448afb8269543705a166",
+                    "reference": "1e0e012c9e9ceafd273b448afb8269543705a166",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/suggestpage": "*"
+                },
+                "time": "2018-03-29T08:33:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
+                "support": {
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.6",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
@@ -2424,18 +2462,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "56e5c3f4643d8a95e10f9e5e075e25898f106f71"
+                    "reference": "91d8e8e162bb7d54cfcf63d27ceecff097958f0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/56e5c3f4643d8a95e10f9e5e075e25898f106f71",
-                    "reference": "56e5c3f4643d8a95e10f9e5e075e25898f106f71",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/91d8e8e162bb7d54cfcf63d27ceecff097958f0e",
+                    "reference": "91d8e8e162bb7d54cfcf63d27ceecff097958f0e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-28T13:01:15+00:00",
+                "time": "2018-03-29T08:39:54+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -4046,18 +4084,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/m2.git",
-                    "reference": "1ca7da6725d872f472a119f2f6f9a6d8469718fa"
+                    "reference": "9c8ab60f021e1ef1b9d0a75e3b4a3599d801893c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/m2/zipball/1ca7da6725d872f472a119f2f6f9a6d8469718fa",
-                    "reference": "1ca7da6725d872f472a119f2f6f9a6d8469718fa",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/9c8ab60f021e1ef1b9d0a75e3b4a3599d801893c",
+                    "reference": "9c8ab60f021e1ef1b9d0a75e3b4a3599d801893c",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/ajaxpro": "1.2.3",
+                    "swissup/ajaxpro": "1.2.6",
                     "swissup/ajaxsearch": "1.2.6",
-                    "swissup/askit": "1.2.11",
+                    "swissup/askit": "1.2.14",
                     "swissup/attributepages": "1.0.6",
                     "swissup/core": "1.4.9",
                     "swissup/easy-slide": "1.1.4",
@@ -4068,19 +4106,20 @@
                     "swissup/font-awesome": "1.2.1",
                     "swissup/highlight": "1.1.2",
                     "swissup/hover-gallery": "1.0.0",
-                    "swissup/lightboxpro": "1.0.0",
+                    "swissup/lightboxpro": "1.0.1",
                     "swissup/navigationpro": "1.1.0",
-                    "swissup/pro-labels": "1.0.20",
+                    "swissup/pro-labels": "1.0.22",
                     "swissup/reviewreminder": "1.0.10",
                     "swissup/seo-suite": "0.8.0",
                     "swissup/slick-carousel": "1.1.1",
-                    "swissup/sold-together": "1.2.3",
+                    "swissup/sold-together": "1.2.5",
                     "swissup/testimonials": "1.0.9",
-                    "swissup/theme-editor-argento-essence": "1.2.4",
-                    "swissup/theme-editor-argento-flat": "1.2.4",
-                    "swissup/theme-editor-argento-luxury": "1.2.4",
-                    "swissup/theme-editor-argento-mall": "1.2.4",
-                    "swissup/theme-editor-argento-pure2": "1.2.4",
+                    "swissup/theme-editor-argento-essence": "1.2.5",
+                    "swissup/theme-editor-argento-flat": "1.2.5",
+                    "swissup/theme-editor-argento-luxury": "1.2.5",
+                    "swissup/theme-editor-argento-mall": "1.2.5",
+                    "swissup/theme-editor-argento-pure2": "1.2.5",
+                    "swissup/theme-editor-argento-stripes": "1.2.5",
                     "swissup/theme-frontend-argento-blank": "1.1.0",
                     "swissup/theme-frontend-argento-essence": "1.1.0",
                     "swissup/theme-frontend-argento-flat": "1.1.0",
@@ -4088,14 +4127,14 @@
                     "swissup/theme-frontend-argento-mall": "1.1.0",
                     "swissup/theme-frontend-argento-pure2": "1.1.0"
                 },
-                "time": "2017-12-15T15:01:23+00:00",
+                "time": "2018-03-29T08:48:13+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/1.1.0"
+                    "source": "https://github.com/argento/m2/tree/master"
                 }
             }
         },
@@ -4428,6 +4467,60 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/askit/tree/1.2.12",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
+            "1.2.14": {
+                "name": "swissup/askit",
+                "version": "1.2.14",
+                "version_normalized": "1.2.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "bd63934de324723128671f691a6452e13a1bad84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/bd63934de324723128671f691a6452e13a1bad84",
+                    "reference": "bd63934de324723128671f691a6452e13a1bad84",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-03-29T08:30:43+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.14",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
@@ -4816,18 +4909,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "e5011b68757d0809865bb51ed9dfb0868b90b239"
+                    "reference": "bd63934de324723128671f691a6452e13a1bad84"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/e5011b68757d0809865bb51ed9dfb0868b90b239",
-                    "reference": "e5011b68757d0809865bb51ed9dfb0868b90b239",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/bd63934de324723128671f691a6452e13a1bad84",
+                    "reference": "bd63934de324723128671f691a6452e13a1bad84",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-09T09:45:42+00:00",
+                "time": "2018-03-29T08:30:43+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -4859,7 +4952,7 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/master",
+                    "source": "https://github.com/swissup/askit/tree/1.2.14",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }
@@ -14513,25 +14606,25 @@
                     "issues": "https://github.com/swissup/lightboxpro/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/lightboxpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/lightboxpro.git",
-                    "reference": "6f28aea60b7c57db58fc3367df7535c026923a2a"
+                    "reference": "4b6b2d1c97059a862f3175ffc5919c47a6089537"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/6f28aea60b7c57db58fc3367df7535c026923a2a",
-                    "reference": "6f28aea60b7c57db58fc3367df7535c026923a2a",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4b6b2d1c97059a862f3175ffc5919c47a6089537",
+                    "reference": "4b6b2d1c97059a862f3175ffc5919c47a6089537",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-02-19T22:33:44+00:00",
+                "time": "2018-03-29T08:20:50+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14559,7 +14652,57 @@
                     "zoom"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/lightboxpro/tree/master",
+                    "source": "https://github.com/swissup/lightboxpro/tree/1.0.1",
+                    "issues": "https://github.com/swissup/lightboxpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/lightboxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/lightboxpro.git",
+                    "reference": "4b6b2d1c97059a862f3175ffc5919c47a6089537"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4b6b2d1c97059a862f3175ffc5919c47a6089537",
+                    "reference": "4b6b2d1c97059a862f3175ffc5919c47a6089537",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-03-29T08:20:50+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Lightboxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Lightbox Pro module for Magento 2",
+                "keywords": [
+                    "lightbox",
+                    "product image",
+                    "zoom"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/lightboxpro/tree/1.0.1",
                     "issues": "https://github.com/swissup/lightboxpro/issues"
                 }
             }
@@ -16027,6 +16170,43 @@
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
+            "1.0.22": {
+                "name": "swissup/pro-labels",
+                "version": "1.0.22",
+                "version_normalized": "1.0.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/prolabels.git",
+                    "reference": "4670473c4d444444f63d5ddf9e809ec3fc7c1cb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/4670473c4d444444f63d5ddf9e809ec3fc7c1cb9",
+                    "reference": "4670473c4d444444f63d5ddf9e809ec3fc7c1cb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-03-29T08:41:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.22",
+                    "issues": "https://github.com/swissup/prolabels/issues"
+                }
+            },
             "1.0.3": {
                 "name": "swissup/pro-labels",
                 "version": "1.0.3",
@@ -16300,18 +16480,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/prolabels.git",
-                    "reference": "744624aee91d59cc449bfc8e68f940b7d3b06755"
+                    "reference": "4670473c4d444444f63d5ddf9e809ec3fc7c1cb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/744624aee91d59cc449bfc8e68f940b7d3b06755",
-                    "reference": "744624aee91d59cc449bfc8e68f940b7d3b06755",
+                    "url": "https://api.github.com/repos/swissup/prolabels/zipball/4670473c4d444444f63d5ddf9e809ec3fc7c1cb9",
+                    "reference": "4670473c4d444444f63d5ddf9e809ec3fc7c1cb9",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-28T07:24:45+00:00",
+                "time": "2018-03-29T08:41:39+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -16326,7 +16506,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.22",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             }
@@ -17312,25 +17492,25 @@
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/rich-snippets",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/richsnippets.git",
-                    "reference": "e956cd750e317ce4ead50be2525eb8a0dc2b0f3c"
+                    "reference": "3a0093598496173347ec086836b779b0a4edd26d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/richsnippets/zipball/e956cd750e317ce4ead50be2525eb8a0dc2b0f3c",
-                    "reference": "e956cd750e317ce4ead50be2525eb8a0dc2b0f3c",
+                    "url": "https://api.github.com/repos/swissup/richsnippets/zipball/3a0093598496173347ec086836b779b0a4edd26d",
+                    "reference": "3a0093598496173347ec086836b779b0a4edd26d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-03-02T13:25:31+00:00",
+                "time": "2018-03-29T08:28:05+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -17345,7 +17525,44 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/richsnippets/tree/master",
+                    "source": "https://github.com/swissup/richsnippets/tree/1.1.1",
+                    "issues": "https://github.com/swissup/richsnippets/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/rich-snippets",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/richsnippets.git",
+                    "reference": "3a0093598496173347ec086836b779b0a4edd26d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/richsnippets/zipball/3a0093598496173347ec086836b779b0a4edd26d",
+                    "reference": "3a0093598496173347ec086836b779b0a4edd26d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-03-29T08:28:05+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/richsnippets/tree/1.1.1",
                     "issues": "https://github.com/swissup/richsnippets/issues"
                 }
             }
@@ -17798,12 +18015,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-suite.git",
-                    "reference": "4f3784d20b3e821ac8759eac76ae562ea8b1ef68"
+                    "reference": "f3cc51234796dee16b8796117e6aa4bb73e8caea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/4f3784d20b3e821ac8759eac76ae562ea8b1ef68",
-                    "reference": "4f3784d20b3e821ac8759eac76ae562ea8b1ef68",
+                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/f3cc51234796dee16b8796117e6aa4bb73e8caea",
+                    "reference": "f3cc51234796dee16b8796117e6aa4bb73e8caea",
                     "shasum": ""
                 },
                 "require": {
@@ -17813,14 +18030,14 @@
                     "swissup/seo-pager": "*",
                     "swissup/seo-urls": "*"
                 },
-                "time": "2018-02-13T12:15:23+00:00",
+                "time": "2018-03-29T08:51:10+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.0",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -17926,26 +18143,26 @@
                     "issues": "https://github.com/swissup/seo-urls/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/seo-urls",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-urls.git",
-                    "reference": "d619927f79ba38baea90ffc16b8a9fa35784c992"
+                    "reference": "fd3bd143de6378d8b5e9d5a81e536556af27d96f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/d619927f79ba38baea90ffc16b8a9fa35784c992",
-                    "reference": "d619927f79ba38baea90ffc16b8a9fa35784c992",
+                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/fd3bd143de6378d8b5e9d5a81e536556af27d96f",
+                    "reference": "fd3bd143de6378d8b5e9d5a81e536556af27d96f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-02-22T18:43:18+00:00",
+                "time": "2018-03-29T08:25:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -17972,7 +18189,57 @@
                     "seo urls"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-urls/tree/master",
+                    "source": "https://github.com/swissup/seo-urls/tree/1.1.1",
+                    "issues": "https://github.com/swissup/seo-urls/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/seo-urls",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-urls.git",
+                    "reference": "fd3bd143de6378d8b5e9d5a81e536556af27d96f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-urls/zipball/fd3bd143de6378d8b5e9d5a81e536556af27d96f",
+                    "reference": "fd3bd143de6378d8b5e9d5a81e536556af27d96f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-03-29T08:25:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better ursl",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-urls/tree/1.1.1",
                     "issues": "https://github.com/swissup/seo-urls/issues"
                 }
             }
@@ -19102,26 +19369,26 @@
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "318e4eb4cc4761aa8be7d70de7ea2d68a345ab40"
+                    "reference": "7be08e5677797b36a924822fead1a08034708833"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/318e4eb4cc4761aa8be7d70de7ea2d68a345ab40",
-                    "reference": "318e4eb4cc4761aa8be7d70de7ea2d68a345ab40",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/7be08e5677797b36a924822fead1a08034708833",
+                    "reference": "7be08e5677797b36a924822fead1a08034708833",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2018-03-27T14:28:17+00:00",
+                "time": "2018-03-29T08:37:41+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -19136,7 +19403,45 @@
                 ],
                 "description": "Sold Together for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/master",
+                    "source": "https://github.com/swissup/soldtogether/tree/1.2.5",
+                    "issues": "https://github.com/swissup/soldtogether/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/soldtogether.git",
+                    "reference": "7be08e5677797b36a924822fead1a08034708833"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/7be08e5677797b36a924822fead1a08034708833",
+                    "reference": "7be08e5677797b36a924822fead1a08034708833",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2018-03-29T08:37:41+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Sold Together for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/soldtogether/tree/1.2.5",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }
@@ -20759,22 +21064,22 @@
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             },
-            "dev-master": {
+            "1.4.2": {
                 "name": "swissup/theme-editor",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-editor.git",
-                    "reference": "a57fb4a7cf7dfd702cf010975df07bcc8e747427"
+                    "reference": "f24073946995057bd423cbbe080347d01d20641d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-editor/zipball/a57fb4a7cf7dfd702cf010975df07bcc8e747427",
-                    "reference": "a57fb4a7cf7dfd702cf010975df07bcc8e747427",
+                    "url": "https://api.github.com/repos/swissup/theme-editor/zipball/f24073946995057bd423cbbe080347d01d20641d",
+                    "reference": "f24073946995057bd423cbbe080347d01d20641d",
                     "shasum": ""
                 },
-                "time": "2018-03-23T15:13:19+00:00",
+                "time": "2018-03-29T08:14:34+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20789,7 +21094,41 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/theme-editor/tree/master",
+                    "source": "https://github.com/swissup/theme-editor/tree/1.4.2",
+                    "issues": "https://github.com/swissup/theme-editor/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-editor.git",
+                    "reference": "f24073946995057bd423cbbe080347d01d20641d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-editor/zipball/f24073946995057bd423cbbe080347d01d20641d",
+                    "reference": "f24073946995057bd423cbbe080347d01d20641d",
+                    "shasum": ""
+                },
+                "time": "2018-03-29T08:14:34+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles editing extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/theme-editor/tree/1.4.2",
                     "issues": "https://github.com/swissup/theme-editor/issues"
                 }
             }
@@ -21094,25 +21433,25 @@
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/theme-editor-argento-essence",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/argento/theme-editor-argento-essence.git",
-                    "reference": "415a509a3e9d15a2be8bc40d833de001dda5a2c5"
+                    "reference": "7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/415a509a3e9d15a2be8bc40d833de001dda5a2c5",
-                    "reference": "415a509a3e9d15a2be8bc40d833de001dda5a2c5",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5",
+                    "reference": "7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2017-12-15T13:13:17+00:00",
+                "time": "2018-03-29T08:06:03+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21127,7 +21466,44 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-essence",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/theme-editor-argento-essence.git",
+                    "reference": "7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-essence/zipball/7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5",
+                    "reference": "7d1bd0cfbe180d0cef8021c7e8d62d90bdcedfe5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:06:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoEssence\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Essence theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             }
@@ -21356,25 +21732,25 @@
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/theme-editor-argento-flat",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/argento/theme-editor-argento-flat.git",
-                    "reference": "3ff3e75f9a734b93a7ba911d0b6ae516c63f9e5f"
+                    "reference": "9e3eed5a7856d46f56b2545a2a2b635a958d84eb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/3ff3e75f9a734b93a7ba911d0b6ae516c63f9e5f",
-                    "reference": "3ff3e75f9a734b93a7ba911d0b6ae516c63f9e5f",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/9e3eed5a7856d46f56b2545a2a2b635a958d84eb",
+                    "reference": "9e3eed5a7856d46f56b2545a2a2b635a958d84eb",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2017-12-15T13:15:15+00:00",
+                "time": "2018-03-29T08:06:54+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21389,7 +21765,44 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-flat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/argento/theme-editor-argento-flat.git",
+                    "reference": "9e3eed5a7856d46f56b2545a2a2b635a958d84eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-flat/zipball/9e3eed5a7856d46f56b2545a2a2b635a958d84eb",
+                    "reference": "9e3eed5a7856d46f56b2545a2a2b635a958d84eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:06:54+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoFlat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Flat theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-flat/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-flat/issues"
                 }
             }
@@ -21506,25 +21919,25 @@
                     "issues": "https://github.com/argento/theme-editor-argento-luxury/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/theme-editor-argento-luxury",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-editor-argento-luxury.git",
-                    "reference": "0da922518d5e5e50cbf9eb3ec1d212ddaa04c11e"
+                    "reference": "681d0f754a669d9f9d9699885413382445e2fcf9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-luxury/zipball/0da922518d5e5e50cbf9eb3ec1d212ddaa04c11e",
-                    "reference": "0da922518d5e5e50cbf9eb3ec1d212ddaa04c11e",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-luxury/zipball/681d0f754a669d9f9d9699885413382445e2fcf9",
+                    "reference": "681d0f754a669d9f9d9699885413382445e2fcf9",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2018-03-23T15:08:00+00:00",
+                "time": "2018-03-29T08:02:27+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21539,7 +21952,44 @@
                 ],
                 "description": "Theme styles for Argento Luxury theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-luxury/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-luxury/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-luxury/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-luxury",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-editor-argento-luxury.git",
+                    "reference": "681d0f754a669d9f9d9699885413382445e2fcf9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-luxury/zipball/681d0f754a669d9f9d9699885413382445e2fcf9",
+                    "reference": "681d0f754a669d9f9d9699885413382445e2fcf9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:02:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoLuxury\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Luxury theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-luxury/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-luxury/issues"
                 }
             }
@@ -21693,25 +22143,25 @@
                     "issues": "https://github.com/argento/theme-editor-argento-mall/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/theme-editor-argento-mall",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-editor-argento-mall.git",
-                    "reference": "aff5668a82ac1ee7ac39a6bef66e6ce72eeeeb02"
+                    "reference": "b1f00e91b6d577a7801e770193f24bbf2ae6b49a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-mall/zipball/aff5668a82ac1ee7ac39a6bef66e6ce72eeeeb02",
-                    "reference": "aff5668a82ac1ee7ac39a6bef66e6ce72eeeeb02",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-mall/zipball/b1f00e91b6d577a7801e770193f24bbf2ae6b49a",
+                    "reference": "b1f00e91b6d577a7801e770193f24bbf2ae6b49a",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2017-12-15T13:19:01+00:00",
+                "time": "2018-03-29T08:08:01+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21726,7 +22176,44 @@
                 ],
                 "description": "Theme styles for Argento Mall theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-mall/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-mall/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-mall/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-mall",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-editor-argento-mall.git",
+                    "reference": "b1f00e91b6d577a7801e770193f24bbf2ae6b49a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-mall/zipball/b1f00e91b6d577a7801e770193f24bbf2ae6b49a",
+                    "reference": "b1f00e91b6d577a7801e770193f24bbf2ae6b49a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:08:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoMall\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Mall theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-mall/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-mall/issues"
                 }
             }
@@ -21917,25 +22404,25 @@
                     "issues": "https://github.com/argento/theme-editor-argento-pure2/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "swissup/theme-editor-argento-pure2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/argento/theme-editor-argento-pure2.git",
-                    "reference": "71b07616d4ac20d1a5b0b2a210afba4dcf3b0eae"
+                    "reference": "27417a19fb18ea8604ed5afae0ae67eb83db9dc9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-pure2/zipball/71b07616d4ac20d1a5b0b2a210afba4dcf3b0eae",
-                    "reference": "71b07616d4ac20d1a5b0b2a210afba4dcf3b0eae",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-pure2/zipball/27417a19fb18ea8604ed5afae0ae67eb83db9dc9",
+                    "reference": "27417a19fb18ea8604ed5afae0ae67eb83db9dc9",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2017-12-15T13:17:31+00:00",
+                "time": "2018-03-29T08:10:57+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21950,31 +22437,68 @@
                 ],
                 "description": "Theme styles for Argento Pure2 theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-pure2/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-pure2/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-pure2/issues"
                 }
-            }
-        },
-        "swissup/theme-editor-argento-stripes": {
+            },
             "dev-master": {
-                "name": "swissup/theme-editor-argento-stripes",
+                "name": "swissup/theme-editor-argento-pure2",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:argento/theme-editor-argento-stripes.git",
-                    "reference": "70a2a02abd55c2cd88e242314d2343a5867b0936"
+                    "url": "https://github.com/argento/theme-editor-argento-pure2.git",
+                    "reference": "27417a19fb18ea8604ed5afae0ae67eb83db9dc9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-editor-argento-stripes/zipball/70a2a02abd55c2cd88e242314d2343a5867b0936",
-                    "reference": "70a2a02abd55c2cd88e242314d2343a5867b0936",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-pure2/zipball/27417a19fb18ea8604ed5afae0ae67eb83db9dc9",
+                    "reference": "27417a19fb18ea8604ed5afae0ae67eb83db9dc9",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-editor": "*"
                 },
-                "time": "2018-03-28T12:19:27+00:00",
+                "time": "2018-03-29T08:10:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoPure2\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Pure2 theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-pure2/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-pure2/issues"
+                }
+            }
+        },
+        "swissup/theme-editor-argento-stripes": {
+            "1.2.5": {
+                "name": "swissup/theme-editor-argento-stripes",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-editor-argento-stripes.git",
+                    "reference": "95e8461dd46e7417cdf628d71c6c3acc8fac51ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-stripes/zipball/95e8461dd46e7417cdf628d71c6c3acc8fac51ed",
+                    "reference": "95e8461dd46e7417cdf628d71c6c3acc8fac51ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:12:29+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21989,7 +22513,44 @@
                 ],
                 "description": "Theme styles for Argento Stripes theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-stripes/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-stripes/tree/1.2.5",
+                    "issues": "https://github.com/argento/theme-editor-argento-stripes/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-editor-argento-stripes",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/theme-editor-argento-stripes.git",
+                    "reference": "95e8461dd46e7417cdf628d71c6c3acc8fac51ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/theme-editor-argento-stripes/zipball/95e8461dd46e7417cdf628d71c6c3acc8fac51ed",
+                    "reference": "95e8461dd46e7417cdf628d71c6c3acc8fac51ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-editor": "*"
+                },
+                "time": "2018-03-29T08:12:29+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoStripes\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Stripes theme",
+                "support": {
+                    "source": "https://github.com/argento/theme-editor-argento-stripes/tree/1.2.5",
                     "issues": "https://github.com/argento/theme-editor-argento-stripes/issues"
                 }
             }
@@ -25972,18 +26533,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-stripes.git",
-                    "reference": "e2657a0edf76556fdf4ca5c07cd47383a4e808b7"
+                    "reference": "d934335c0a3649342f513e2fdf08312ca396fae4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/e2657a0edf76556fdf4ca5c07cd47383a4e808b7",
-                    "reference": "e2657a0edf76556fdf4ca5c07cd47383a4e808b7",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/d934335c0a3649342f513e2fdf08312ca396fae4",
+                    "reference": "d934335c0a3649342f513e2fdf08312ca396fae4",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2018-03-29T07:54:10+00:00",
+                "time": "2018-03-29T08:49:13+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

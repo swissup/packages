@@ -2462,18 +2462,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "bea2b3121f6145087890afae0b5a7028c83d5ed2"
+                    "reference": "eb336f65974a1c3d6e38a51f066741fee2371294"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/bea2b3121f6145087890afae0b5a7028c83d5ed2",
-                    "reference": "bea2b3121f6145087890afae0b5a7028c83d5ed2",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/eb336f65974a1c3d6e38a51f066741fee2371294",
+                    "reference": "eb336f65974a1c3d6e38a51f066741fee2371294",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-29T08:54:43+00:00",
+                "time": "2018-03-29T11:19:10+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -20299,6 +20299,57 @@
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
+            "1.0.10": {
+                "name": "swissup/testimonials",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/testimonials.git",
+                    "reference": "637fc94b73b6f13309497db7ee146ddbbd8b8474"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/637fc94b73b6f13309497db7ee146ddbbd8b8474",
+                    "reference": "637fc94b73b6f13309497db7ee146ddbbd8b8474",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-03-29T11:10:13+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/testimonials-for-magento-2.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/testimonials/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/testimonials/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "keywords": [
+                    "reviews",
+                    "testimonials"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.10",
+                    "issues": "https://github.com/swissup/testimonials/issues"
+                }
+            },
             "1.0.2": {
                 "name": "swissup/testimonials",
                 "version": "1.0.2",
@@ -20676,18 +20727,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/testimonials.git",
-                    "reference": "961fe41343af597df638ebd4b8ef32f773e1d932"
+                    "reference": "637fc94b73b6f13309497db7ee146ddbbd8b8474"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/961fe41343af597df638ebd4b8ef32f773e1d932",
-                    "reference": "961fe41343af597df638ebd4b8ef32f773e1d932",
+                    "url": "https://api.github.com/repos/swissup/testimonials/zipball/637fc94b73b6f13309497db7ee146ddbbd8b8474",
+                    "reference": "637fc94b73b6f13309497db7ee146ddbbd8b8474",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-03-06T09:08:54+00:00",
+                "time": "2018-03-29T11:10:13+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -20716,7 +20767,7 @@
                     "testimonials"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/master",
+                    "source": "https://github.com/swissup/testimonials/tree/1.0.10",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             }

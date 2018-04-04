@@ -1657,7 +1657,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -2299,57 +2299,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/ajaxsearch/tree/1.2.6",
-                    "issues": "https://github.com/swissup/ajaxsearch/issues"
-                }
-            },
-            "1.2.7": {
-                "name": "swissup/ajaxsearch",
-                "version": "1.2.7",
-                "version_normalized": "1.2.7.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6a4de18c327a65fb1597c875c091066abe141bc1",
-                    "reference": "6a4de18c327a65fb1597c875c091066abe141bc1",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2018-01-24T14:17:23+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "marketplace": "https://marketplace.magento.com/swissup-ajaxsearch.html",
-                            "store": "https://swissuplabs.com/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
-                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Ajaxsearch\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Advanced ajax search",
-                "keywords": [
-                    "ajaxsearch",
-                    "search"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/1.2.7",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             },
@@ -9855,61 +9804,6 @@
                     "issues": "https://github.com/swissup/easybanner/issues"
                 }
             },
-            "1.2.0": {
-                "name": "swissup/easybanner",
-                "version": "1.2.0",
-                "version_normalized": "1.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easybanner.git",
-                    "reference": "42f29890bf2e8d770db5d17927912288a416b5ef"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easybanner/zipball/42f29890bf2e8d770db5d17927912288a416b5ef",
-                    "reference": "42f29890bf2e8d770db5d17927912288a416b5ef",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2018-01-30T08:53:31+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-banners-and-custom-blocks-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easybanners/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easybanners/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Easybanner\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento banners and blocks",
-                "keywords": [
-                    "advertising",
-                    "awesomebar",
-                    "banner",
-                    "block",
-                    "easybanner",
-                    "lightbox"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easybanner/tree/1.2.0",
-                    "issues": "https://github.com/swissup/easybanner/issues"
-                }
-            },
             "1.2.1": {
                 "name": "swissup/easybanner",
                 "version": "1.2.1",
@@ -15246,59 +15140,6 @@
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             },
-            "1.4.0": {
-                "name": "swissup/navigationpro",
-                "version": "1.4.0",
-                "version_normalized": "1.4.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "b00a877399d0df61bbb1f4c43cd8d51534219c49"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/b00a877399d0df61bbb1f4c43cd8d51534219c49",
-                    "reference": "b00a877399d0df61bbb1f4c43cd8d51534219c49",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*",
-                    "swissup/rtl": "*"
-                },
-                "time": "2018-03-28T11:29:30+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/navigationpro/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Navigationpro\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create beautiful menus for Magento 2",
-                "keywords": [
-                    "amazon menu",
-                    "megamenu",
-                    "menu",
-                    "navigation",
-                    "sidebar menu"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/1.4.0",
-                    "issues": "https://github.com/swissup/navigationpro/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/navigationpro",
                 "version": "dev-master",
@@ -16283,7 +16124,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -18154,7 +17995,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -18187,8 +18028,59 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
+                }
+            }
+        },
+        "swissup/seo-templates": {
+            "dev-master": {
+                "name": "swissup/seo-templates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-templates.git",
+                    "reference": "d4e4ffa81859e45d561aec57a18e33b73e61bce8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-templates/zipball/d4e4ffa81859e45d561aec57a18e33b73e61bce8",
+                    "reference": "d4e4ffa81859e45d561aec57a18e33b73e61bce8",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-04-04T07:27:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             }
         },
@@ -21630,7 +21522,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

@@ -1700,7 +1700,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -13324,6 +13324,45 @@
                 }
             }
         },
+        "swissup/firecheckout-integrations": {
+            "dev-master": {
+                "name": "swissup/firecheckout-integrations",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/firecheckout-integrations.git",
+                    "reference": "4b32ef051ebc8c5867dc85c99bfd098a511723df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout-integrations/zipball/4b32ef051ebc8c5867dc85c99bfd098a511723df",
+                    "reference": "4b32ef051ebc8c5867dc85c99bfd098a511723df",
+                    "shasum": ""
+                },
+                "time": "2018-04-06T08:06:53+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FirecheckoutIntegrations\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Code for third-party modules that requires additional logic at firecheckout page",
+                "keywords": [
+                    "firecheckout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "issues": "https://github.com/swissup/firecheckout-integrations/issues"
+                }
+            }
+        },
         "swissup/font-awesome": {
             "0.1.0": {
                 "name": "swissup/font-awesome",
@@ -16326,7 +16365,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -16826,6 +16865,44 @@
                 "description": "Recaptcha for M2",
                 "support": {
                     "source": "https://github.com/swissup/recaptcha/tree/1.0.0",
+                    "issues": "https://github.com/swissup/recaptcha/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/recaptcha.git",
+                    "reference": "a929d1374a1b17257a3bdd3ba88e1b50fc51eb4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/recaptcha/zipball/a929d1374a1b17257a3bdd3ba88e1b50fc51eb4b",
+                    "reference": "a929d1374a1b17257a3bdd3ba88e1b50fc51eb4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/recaptcha": "1.1.*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-10-18T07:38:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/recaptcha/tree/master",
                     "issues": "https://github.com/swissup/recaptcha/issues"
                 }
             }
@@ -18159,7 +18236,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -18192,7 +18269,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -21686,7 +21763,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

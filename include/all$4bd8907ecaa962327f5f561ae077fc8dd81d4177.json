@@ -13358,12 +13358,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "065ec8070ded4172359c0aa7058c703e9b6d551e"
+                    "reference": "c00f6f7e3cce6493799ce3e5e06bbee4555ec32f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/065ec8070ded4172359c0aa7058c703e9b6d551e",
-                    "reference": "065ec8070ded4172359c0aa7058c703e9b6d551e",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/c00f6f7e3cce6493799ce3e5e06bbee4555ec32f",
+                    "reference": "c00f6f7e3cce6493799ce3e5e06bbee4555ec32f",
                     "shasum": ""
                 },
                 "require": {
@@ -13379,7 +13379,7 @@
                     "swissup/subscribe-at-checkout": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2018-04-12T15:26:36+00:00",
+                "time": "2018-04-13T09:13:53+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -13422,15 +13422,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout-integrations.git",
-                    "reference": "a78070388f5e1fd9fdc55febe9ba55e25b02f966"
+                    "reference": "f37727be73a4ee4b2b1a2f9cb7348b8a7793b7bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout-integrations/zipball/a78070388f5e1fd9fdc55febe9ba55e25b02f966",
-                    "reference": "a78070388f5e1fd9fdc55febe9ba55e25b02f966",
+                    "url": "https://api.github.com/repos/swissup/firecheckout-integrations/zipball/f37727be73a4ee4b2b1a2f9cb7348b8a7793b7bb",
+                    "reference": "f37727be73a4ee4b2b1a2f9cb7348b8a7793b7bb",
                     "shasum": ""
                 },
-                "time": "2018-04-12T15:27:09+00:00",
+                "time": "2018-04-13T07:26:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -15856,26 +15856,34 @@
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/orderattachment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/orderattachment.git",
-                    "reference": "f5cee985e5d393077633ef3c401b21c55dc790d9"
+                    "reference": "fafe06fde86777e6ae3122be7058f1acf2d121e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/f5cee985e5d393077633ef3c401b21c55dc790d9",
-                    "reference": "f5cee985e5d393077633ef3c401b21c55dc790d9",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/fafe06fde86777e6ae3122be7058f1acf2d121e5",
+                    "reference": "fafe06fde86777e6ae3122be7058f1acf2d121e5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2017-10-04T14:38:12+00:00",
+                "time": "2018-04-13T09:09:06+00:00",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/order-attachments/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -15889,7 +15897,52 @@
                 ],
                 "description": "Order Attachment Magento 2 extension",
                 "support": {
-                    "source": "https://github.com/swissup/orderattachment/tree/1.1.0",
+                    "source": "https://github.com/swissup/orderattachment/tree/1.1.1",
+                    "issues": "https://github.com/swissup/orderattachment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/orderattachment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/orderattachment.git",
+                    "reference": "fafe06fde86777e6ae3122be7058f1acf2d121e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/orderattachment/zipball/fafe06fde86777e6ae3122be7058f1acf2d121e5",
+                    "reference": "fafe06fde86777e6ae3122be7058f1acf2d121e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2018-04-13T09:09:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/order-attachments/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Order Attachment Magento 2 extension",
+                "support": {
+                    "source": "https://github.com/swissup/orderattachment/tree/1.1.1",
                     "issues": "https://github.com/swissup/orderattachment/issues"
                 }
             }

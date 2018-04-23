@@ -1700,7 +1700,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -7401,22 +7401,22 @@
                     "issues": "https://github.com/swissup/core/issues"
                 }
             },
-            "dev-master": {
+            "1.6.1": {
                 "name": "swissup/core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "b27b1234e45e371470cf78272d2c64313d395356"
+                    "reference": "022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/b27b1234e45e371470cf78272d2c64313d395356",
-                    "reference": "b27b1234e45e371470cf78272d2c64313d395356",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9",
+                    "reference": "022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9",
                     "shasum": ""
                 },
-                "time": "2018-04-23T11:20:23+00:00",
+                "time": "2018-04-23T11:46:08+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7439,7 +7439,49 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/master",
+                    "source": "https://github.com/swissup/core/tree/1.6.1",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/core.git",
+                    "reference": "022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9",
+                    "reference": "022f2ef5b1c5d897fda8cd0b23b8487a6ba3a2e9",
+                    "shasum": ""
+                },
+                "time": "2018-04-23T11:46:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "keywords": [
+                    "core",
+                    "installer",
+                    "module manager",
+                    "notifier",
+                    "popup messenger",
+                    "swissup services"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.6.1",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -16541,7 +16583,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -18412,7 +18454,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -18445,7 +18487,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -20132,25 +20174,25 @@
                     "issues": "https://github.com/swissup/subscription-checker/issues"
                 }
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "swissup/subscription-checker",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscription-checker.git",
-                    "reference": "a32d512241ef4f0206fb9b8ac98e7adc719d7e22"
+                    "reference": "cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/a32d512241ef4f0206fb9b8ac98e7adc719d7e22",
-                    "reference": "a32d512241ef4f0206fb9b8ac98e7adc719d7e22",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec",
+                    "reference": "cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-04-23T11:39:18+00:00",
+                "time": "2018-04-23T11:47:31+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20165,7 +20207,44 @@
                 ],
                 "description": "Client-side subscription validation",
                 "support": {
-                    "source": "https://github.com/swissup/subscription-checker/tree/master",
+                    "source": "https://github.com/swissup/subscription-checker/tree/1.1.0",
+                    "issues": "https://github.com/swissup/subscription-checker/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/subscription-checker",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/subscription-checker.git",
+                    "reference": "cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec",
+                    "reference": "cf753f705f4c4b5c67dafb417b2e5adb7aa3ebec",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-04-23T11:47:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SubscriptionChecker\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Client-side subscription validation",
+                "support": {
+                    "source": "https://github.com/swissup/subscription-checker/tree/1.1.0",
                     "issues": "https://github.com/swissup/subscription-checker/issues"
                 }
             }
@@ -21978,7 +22057,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

@@ -7408,15 +7408,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/core.git",
-                    "reference": "d95fc7c90342274052bba3576533c194a2b80039"
+                    "reference": "b27b1234e45e371470cf78272d2c64313d395356"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/core/zipball/d95fc7c90342274052bba3576533c194a2b80039",
-                    "reference": "d95fc7c90342274052bba3576533c194a2b80039",
+                    "url": "https://api.github.com/repos/swissup/core/zipball/b27b1234e45e371470cf78272d2c64313d395356",
+                    "reference": "b27b1234e45e371470cf78272d2c64313d395356",
                     "shasum": ""
                 },
-                "time": "2018-03-16T08:11:40+00:00",
+                "time": "2018-04-23T11:20:23+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7439,7 +7439,7 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/1.6.0",
+                    "source": "https://github.com/swissup/core/tree/master",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -8031,18 +8031,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/delivery-date.git",
-                    "reference": "6677529f84a6cc9c97c6cb3999227c73c1375c83"
+                    "reference": "59ee985f07be9f6831a68bb0e959eec317cac0c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/6677529f84a6cc9c97c6cb3999227c73c1375c83",
-                    "reference": "6677529f84a6cc9c97c6cb3999227c73c1375c83",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/59ee985f07be9f6831a68bb0e959eec317cac0c3",
+                    "reference": "59ee985f07be9f6831a68bb0e959eec317cac0c3",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-03-13T12:27:28+00:00",
+                "time": "2018-04-23T11:23:27+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8057,7 +8057,7 @@
                 ],
                 "description": "Magento 2 module gives your customers possibility to choose the delivery date",
                 "support": {
-                    "source": "https://github.com/swissup/delivery-date/tree/1.1.2",
+                    "source": "https://github.com/swissup/delivery-date/tree/master",
                     "issues": "https://github.com/swissup/delivery-date/issues"
                 }
             }
@@ -20139,18 +20139,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscription-checker.git",
-                    "reference": "4944bd8f2db311db4fd5d2feb391de7158dee070"
+                    "reference": "a32d512241ef4f0206fb9b8ac98e7adc719d7e22"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/4944bd8f2db311db4fd5d2feb391de7158dee070",
-                    "reference": "4944bd8f2db311db4fd5d2feb391de7158dee070",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/a32d512241ef4f0206fb9b8ac98e7adc719d7e22",
+                    "reference": "a32d512241ef4f0206fb9b8ac98e7adc719d7e22",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2017-02-01T14:37:19+00:00",
+                "time": "2018-04-23T11:39:18+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21141,6 +21141,45 @@
                 "support": {
                     "source": "https://github.com/swissup/testimonials/tree/1.0.10",
                     "issues": "https://github.com/swissup/testimonials/issues"
+                }
+            }
+        },
+        "swissup/tfa": {
+            "dev-master": {
+                "name": "swissup/tfa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/tfa.git",
+                    "reference": "0b1d69c873bdede4d3ff9ae3b655f3543088ff4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/0b1d69c873bdede4d3ff9ae3b655f3543088ff4f",
+                    "reference": "0b1d69c873bdede4d3ff9ae3b655f3543088ff4f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-04-23T08:47:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Tfa\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Two Factor Authentication Extension for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/tfa/tree/master",
+                    "issues": "https://github.com/swissup/tfa/issues"
                 }
             }
         },

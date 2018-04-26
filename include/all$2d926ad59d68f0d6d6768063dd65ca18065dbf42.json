@@ -13854,19 +13854,19 @@
             }
         },
         "swissup/firecheckout-metapackage": {
-            "dev-master": {
+            "1.10.0": {
                 "name": "swissup/firecheckout-metapackage",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.10.0",
+                "version_normalized": "1.10.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout-metapackage.git",
-                    "reference": "6762b87f0b481cc1784362a760998075e7a4e152"
+                    "reference": "0197af510e08449fb7a5b7a10fdd478d357b404a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout-metapackage/zipball/6762b87f0b481cc1784362a760998075e7a4e152",
-                    "reference": "6762b87f0b481cc1784362a760998075e7a4e152",
+                    "url": "https://api.github.com/repos/swissup/firecheckout-metapackage/zipball/0197af510e08449fb7a5b7a10fdd478d357b404a",
+                    "reference": "0197af510e08449fb7a5b7a10fdd478d357b404a",
                     "shasum": ""
                 },
                 "require": {
@@ -13882,16 +13882,59 @@
                     "swissup/geoip": "*",
                     "swissup/orderattachment": "*",
                     "swissup/subscribe-at-checkout": "*",
+                    "swissup/subscription-checker": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2018-04-26T10:46:50+00:00",
+                "time": "2018-04-26T12:25:43+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "All-in-one checkout extensions for Magento2",
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-metapackage/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-metapackage/tree/1.10.0",
+                    "issues": "https://github.com/swissup/firecheckout-metapackage/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/firecheckout-metapackage",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/firecheckout-metapackage.git",
+                    "reference": "0197af510e08449fb7a5b7a10fdd478d357b404a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout-metapackage/zipball/0197af510e08449fb7a5b7a10fdd478d357b404a",
+                    "reference": "0197af510e08449fb7a5b7a10fdd478d357b404a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/address-autocomplete": "*",
+                    "swissup/address-field-manager": "*",
+                    "swissup/checkout-cart": "*",
+                    "swissup/checkout-fields": "*",
+                    "swissup/checkout-success": "*",
+                    "swissup/customer-field-manager": "*",
+                    "swissup/delivery-date": "*",
+                    "swissup/firecheckout": "*",
+                    "swissup/firecheckout-integrations": "*",
+                    "swissup/geoip": "*",
+                    "swissup/orderattachment": "*",
+                    "swissup/subscribe-at-checkout": "*",
+                    "swissup/subscription-checker": "*",
+                    "swissup/taxvat": "*"
+                },
+                "time": "2018-04-26T12:25:43+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "All-in-one checkout extensions for Magento2",
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout-metapackage/tree/1.10.0",
                     "issues": "https://github.com/swissup/firecheckout-metapackage/issues"
                 }
             }

@@ -540,25 +540,25 @@
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.0.7": {
                 "name": "swissup/address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/address-autocomplete.git",
-                    "reference": "42163c240bd92c1569844d18d7aba8ad360e8fd6"
+                    "reference": "44259c8f1173e4e720be182df3b7c12fc83702c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/42163c240bd92c1569844d18d7aba8ad360e8fd6",
-                    "reference": "42163c240bd92c1569844d18d7aba8ad360e8fd6",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/44259c8f1173e4e720be182df3b7c12fc83702c5",
+                    "reference": "44259c8f1173e4e720be182df3b7c12fc83702c5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-04-25T15:06:42+00:00",
+                "time": "2018-04-26T10:36:27+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -586,7 +586,57 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.7",
+                    "issues": "https://github.com/swissup/address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-autocomplete.git",
+                    "reference": "44259c8f1173e4e720be182df3b7c12fc83702c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-autocomplete/zipball/44259c8f1173e4e720be182df3b7c12fc83702c5",
+                    "reference": "44259c8f1173e4e720be182df3b7c12fc83702c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/checkout": "*"
+                },
+                "time": "2018-04-26T10:36:27+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/address-autocomplete/tree/1.0.7",
                     "issues": "https://github.com/swissup/address-autocomplete/issues"
                 }
             }
@@ -13758,12 +13808,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout-metapackage.git",
-                    "reference": "c75c3a1eb19e2b470298334952db191aed6ae8a3"
+                    "reference": "6762b87f0b481cc1784362a760998075e7a4e152"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout-metapackage/zipball/c75c3a1eb19e2b470298334952db191aed6ae8a3",
-                    "reference": "c75c3a1eb19e2b470298334952db191aed6ae8a3",
+                    "url": "https://api.github.com/repos/swissup/firecheckout-metapackage/zipball/6762b87f0b481cc1784362a760998075e7a4e152",
+                    "reference": "6762b87f0b481cc1784362a760998075e7a4e152",
                     "shasum": ""
                 },
                 "require": {
@@ -13772,6 +13822,7 @@
                     "swissup/checkout-cart": "*",
                     "swissup/checkout-fields": "*",
                     "swissup/checkout-success": "*",
+                    "swissup/customer-field-manager": "*",
                     "swissup/delivery-date": "*",
                     "swissup/firecheckout": "*",
                     "swissup/firecheckout-integrations": "*",
@@ -13780,7 +13831,7 @@
                     "swissup/subscribe-at-checkout": "*",
                     "swissup/taxvat": "*"
                 },
-                "time": "2018-04-23T06:43:13+00:00",
+                "time": "2018-04-26T10:46:50+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"

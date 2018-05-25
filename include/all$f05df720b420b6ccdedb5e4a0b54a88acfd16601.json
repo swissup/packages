@@ -22568,6 +22568,45 @@
             }
         },
         "swissup/tfa": {
+            "0.1.0": {
+                "name": "swissup/tfa",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/tfa.git",
+                    "reference": "df370979dfcc4054456e14752806f269be29b973"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/df370979dfcc4054456e14752806f269be29b973",
+                    "reference": "df370979dfcc4054456e14752806f269be29b973",
+                    "shasum": ""
+                },
+                "require": {
+                    "bacon/bacon-qr-code": "~1.0.0",
+                    "pragmarx/google2fa": "~3.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2018-05-25T14:27:22+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Tfa\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Two Factor Authentication Extension for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/tfa/tree/0.1.0",
+                    "issues": "https://github.com/swissup/tfa/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/tfa",
                 "version": "dev-master",
@@ -22575,18 +22614,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/tfa.git",
-                    "reference": "0b1d69c873bdede4d3ff9ae3b655f3543088ff4f"
+                    "reference": "fac75f0a0ddf47022df1058d22077ebb5b967539"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/tfa/zipball/0b1d69c873bdede4d3ff9ae3b655f3543088ff4f",
-                    "reference": "0b1d69c873bdede4d3ff9ae3b655f3543088ff4f",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/fac75f0a0ddf47022df1058d22077ebb5b967539",
+                    "reference": "fac75f0a0ddf47022df1058d22077ebb5b967539",
                     "shasum": ""
                 },
                 "require": {
+                    "bacon/bacon-qr-code": "~1.0.0",
+                    "pragmarx/google2fa": "~3.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2018-04-23T08:47:26+00:00",
+                "time": "2018-05-25T14:36:37+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

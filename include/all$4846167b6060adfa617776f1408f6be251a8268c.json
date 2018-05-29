@@ -1836,7 +1836,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
+                    "source": "https://github.com/swissup/ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -2777,25 +2777,25 @@
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxsearch.git",
-                    "reference": "3cd88bc94309df170c1af1aea282e9e57f446097"
+                    "reference": "6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/3cd88bc94309df170c1af1aea282e9e57f446097",
-                    "reference": "3cd88bc94309df170c1af1aea282e9e57f446097",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0",
+                    "reference": "6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-05-17T12:29:54+00:00",
+                "time": "2018-05-29T13:32:58+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -2824,7 +2824,58 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/master",
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.3.1",
+                    "issues": "https://github.com/swissup/ajaxsearch/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxsearch.git",
+                    "reference": "6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxsearch/zipball/6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0",
+                    "reference": "6d90e004cbd3e31f83b6ab6f5ca2b6ea91ed98a0",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-05-29T13:32:58+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-ajaxsearch.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.3.1",
                     "issues": "https://github.com/swissup/ajaxsearch/issues"
                 }
             }
@@ -17794,7 +17845,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
+                    "source": "https://github.com/swissup/prolabels/tree/master",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -19702,7 +19753,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -19735,7 +19786,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
+                    "source": "https://github.com/swissup/seo-suite/tree/master",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -21298,19 +21349,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/soldtogether.git",
-                    "reference": "5c835a452892c3ac3430aef61eb0757968aff29b"
+                    "reference": "a02a76cdbf52735f3a8473817c21ab66fcad5386"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/5c835a452892c3ac3430aef61eb0757968aff29b",
-                    "reference": "5c835a452892c3ac3430aef61eb0757968aff29b",
+                    "url": "https://api.github.com/repos/swissup/soldtogether/zipball/a02a76cdbf52735f3a8473817c21ab66fcad5386",
+                    "reference": "a02a76cdbf52735f3a8473817c21ab66fcad5386",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2018-05-10T06:49:04+00:00",
+                "time": "2018-05-29T12:05:29+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21325,7 +21376,7 @@
                 ],
                 "description": "Sold Together for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/soldtogether/tree/1.2.6",
+                    "source": "https://github.com/swissup/soldtogether/tree/master",
                     "issues": "https://github.com/swissup/soldtogether/issues"
                 }
             }
@@ -22653,12 +22704,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/tfa.git",
-                    "reference": "fac75f0a0ddf47022df1058d22077ebb5b967539"
+                    "reference": "237ce4043d455762f0f6058cdd685a260a1725f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/tfa/zipball/fac75f0a0ddf47022df1058d22077ebb5b967539",
-                    "reference": "fac75f0a0ddf47022df1058d22077ebb5b967539",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/237ce4043d455762f0f6058cdd685a260a1725f5",
+                    "reference": "237ce4043d455762f0f6058cdd685a260a1725f5",
                     "shasum": ""
                 },
                 "require": {
@@ -22666,7 +22717,7 @@
                     "pragmarx/google2fa": "~3.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2018-05-25T14:36:37+00:00",
+                "time": "2018-05-29T11:22:08+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -23481,7 +23532,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
@@ -29323,18 +29374,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/theme-frontend-stripes.git",
-                    "reference": "6fb0019314eceb4242e11b3fcc1bf01f27941194"
+                    "reference": "14580c7832e589fc8817638b1fcef9ae349e2170"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/6fb0019314eceb4242e11b3fcc1bf01f27941194",
-                    "reference": "6fb0019314eceb4242e11b3fcc1bf01f27941194",
+                    "url": "https://api.github.com/repos/argento/theme-frontend-stripes/zipball/14580c7832e589fc8817638b1fcef9ae349e2170",
+                    "reference": "14580c7832e589fc8817638b1fcef9ae349e2170",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2018-05-21T13:07:10+00:00",
+                "time": "2018-05-29T09:05:34+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

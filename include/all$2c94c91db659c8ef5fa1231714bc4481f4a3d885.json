@@ -19827,6 +19827,55 @@
             }
         },
         "swissup/seo-templates": {
+            "1.0.0": {
+                "name": "swissup/seo-templates",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-templates.git",
+                    "reference": "aabe371c13197de3643eb54d5e472cb8a24745b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-templates/zipball/aabe371c13197de3643eb54d5e472cb8a24745b6",
+                    "reference": "aabe371c13197de3643eb54d5e472cb8a24745b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-05-24T14:40:38+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "issues": "https://github.com/swissup/seo-templates/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/seo-templates",
                 "version": "dev-master",

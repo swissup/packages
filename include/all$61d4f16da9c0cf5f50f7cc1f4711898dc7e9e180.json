@@ -886,49 +886,6 @@
                     "issues": "https://github.com/swissup/address-field-manager/issues"
                 }
             },
-            "1.0.2": {
-                "name": "swissup/address-field-manager",
-                "version": "1.0.2",
-                "version_normalized": "1.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/address-field-manager.git",
-                    "reference": "41ef59a80b73430ed36d792dfd1861e534e6c628"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/41ef59a80b73430ed36d792dfd1861e534e6c628",
-                    "reference": "41ef59a80b73430ed36d792dfd1861e534e6c628",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/checkout": "*"
-                },
-                "time": "2017-10-20T11:40:36+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\AddressFieldManager\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Address field manager for Magento 2",
-                "keywords": [
-                    "address attributes",
-                    "address fields",
-                    "attribute manager",
-                    "fields manager"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/address-field-manager/tree/1.0.2",
-                    "issues": "https://github.com/swissup/address-field-manager/issues"
-                }
-            },
             "1.1.0": {
                 "name": "swissup/address-field-manager",
                 "version": "1.1.0",
@@ -1836,7 +1793,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -14344,7 +14301,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             },
@@ -14381,7 +14338,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             }
@@ -17284,6 +17241,46 @@
                 }
             }
         },
+        "swissup/pagespeed": {
+            "dev-master": {
+                "name": "swissup/pagespeed",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pagespeed.git",
+                    "reference": "9053e43b262390c5665eeebe9f65f6d9bb3a3183"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/9053e43b262390c5665eeebe9f65f6d9bb3a3183",
+                    "reference": "9053e43b262390c5665eeebe9f65f6d9bb3a3183",
+                    "shasum": ""
+                },
+                "time": "2018-06-05T09:03:10+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/pagespeed/tree/master",
+                    "issues": "https://github.com/swissup/pagespeed/issues"
+                }
+            }
+        },
         "swissup/pro-labels": {
             "1.0.0": {
                 "name": "swissup/pro-labels",
@@ -17845,7 +17842,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -19821,7 +19818,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -19906,7 +19903,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "source": "https://github.com/swissup/seo-templates/tree/1.0.0",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             },
@@ -23749,7 +23746,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

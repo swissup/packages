@@ -1836,7 +1836,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -2045,19 +2045,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "1879e38e6db3cd794ffc18db04ed48251702aded"
+                    "reference": "023a0288b9e407ed3892e1d8438f090f262d3010"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/1879e38e6db3cd794ffc18db04ed48251702aded",
-                    "reference": "1879e38e6db3cd794ffc18db04ed48251702aded",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/023a0288b9e407ed3892e1d8438f090f262d3010",
+                    "reference": "023a0288b9e407ed3892e1d8438f090f262d3010",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2018-06-18T14:22:29+00:00",
+                "time": "2018-06-19T07:33:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14344,7 +14344,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             },
@@ -14381,7 +14381,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             }
@@ -14853,18 +14853,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/gdpr.git",
-                    "reference": "fc3bef493a2e24c09ad6410c728a9bd26b7dfdda"
+                    "reference": "d5ff5a692e39a347795b84b434a0e6df91060d5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/gdpr/zipball/fc3bef493a2e24c09ad6410c728a9bd26b7dfdda",
-                    "reference": "fc3bef493a2e24c09ad6410c728a9bd26b7dfdda",
+                    "url": "https://api.github.com/repos/swissup/gdpr/zipball/d5ff5a692e39a347795b84b434a0e6df91060d5d",
+                    "reference": "d5ff5a692e39a347795b84b434a0e6df91060d5d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-06-18T14:34:30+00:00",
+                "time": "2018-06-19T12:05:29+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -15917,6 +15917,56 @@
                 "support": {
                     "source": "https://github.com/swissup/hover-gallery/tree/1.0.0",
                     "issues": "https://github.com/swissup/hover-gallery/issues"
+                }
+            }
+        },
+        "swissup/hreflang": {
+            "dev-master": {
+                "name": "swissup/hreflang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hreflang.git",
+                    "reference": "467b75002197449dae28ba1a7ec05abdc7d94fde"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/467b75002197449dae28ba1a7ec05abdc7d94fde",
+                    "reference": "467b75002197449dae28ba1a7ec05abdc7d94fde",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-06-19T11:35:20+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/hreflang/tree/master",
+                    "issues": "https://github.com/swissup/hreflang/issues"
                 }
             }
         },
@@ -17892,7 +17942,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -19868,7 +19918,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -19953,7 +20003,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "source": "https://github.com/swissup/seo-templates/tree/1.0.0",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             },
@@ -23796,7 +23846,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

@@ -1836,7 +1836,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -14853,18 +14853,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/gdpr.git",
-                    "reference": "764032b319d11f47522ae8d4a9a040a8b9942714"
+                    "reference": "235e6947247867a9dbbf1f01f701ed0e3f0dabaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/gdpr/zipball/764032b319d11f47522ae8d4a9a040a8b9942714",
-                    "reference": "764032b319d11f47522ae8d4a9a040a8b9942714",
+                    "url": "https://api.github.com/repos/swissup/gdpr/zipball/235e6947247867a9dbbf1f01f701ed0e3f0dabaf",
+                    "reference": "235e6947247867a9dbbf1f01f701ed0e3f0dabaf",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-06-19T14:50:48+00:00",
+                "time": "2018-06-20T07:14:20+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -14884,6 +14884,50 @@
                 "support": {
                     "source": "https://github.com/swissup/gdpr/tree/master",
                     "issues": "https://github.com/swissup/gdpr/issues"
+                }
+            }
+        },
+        "swissup/gdpr-testimonials": {
+            "dev-master": {
+                "name": "swissup/gdpr-testimonials",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/gdpr-testimonials.git",
+                    "reference": "d973679be60b363396a75f3da73fb8131b3d99c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/gdpr-testimonials/zipball/d973679be60b363396a75f3da73fb8131b3d99c4",
+                    "reference": "d973679be60b363396a75f3da73fb8131b3d99c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/gdpr": "*",
+                    "swissup/testimonials": "*"
+                },
+                "time": "2018-06-20T13:01:33+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\GdprTestimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance for testimonials module",
+                "keywords": [
+                    "gdpr",
+                    "testimonials"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/gdpr-testimonials/tree/master",
+                    "issues": "https://github.com/swissup/gdpr-testimonials/issues"
                 }
             }
         },
@@ -17942,7 +17986,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/prolabels/tree/master",
+                    "source": "https://github.com/swissup/prolabels/tree/1.0.21",
                     "issues": "https://github.com/swissup/prolabels/issues"
                 }
             },
@@ -19918,7 +19962,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -23846,7 +23890,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },

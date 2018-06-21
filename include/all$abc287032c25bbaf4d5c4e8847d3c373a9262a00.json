@@ -23582,19 +23582,19 @@
                     "issues": "https://github.com/swissup/tfa/issues"
                 }
             },
-            "dev-master": {
+            "0.1.1": {
                 "name": "swissup/tfa",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/tfa.git",
-                    "reference": "237ce4043d455762f0f6058cdd685a260a1725f5"
+                    "reference": "08450ce6f6b4bda11df02cb4161ee8bba8c90d3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/tfa/zipball/237ce4043d455762f0f6058cdd685a260a1725f5",
-                    "reference": "237ce4043d455762f0f6058cdd685a260a1725f5",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/08450ce6f6b4bda11df02cb4161ee8bba8c90d3e",
+                    "reference": "08450ce6f6b4bda11df02cb4161ee8bba8c90d3e",
                     "shasum": ""
                 },
                 "require": {
@@ -23602,7 +23602,7 @@
                     "pragmarx/google2fa": "~3.0.0",
                     "swissup/core": "*"
                 },
-                "time": "2018-05-29T11:22:08+00:00",
+                "time": "2018-06-21T11:15:27+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -23617,7 +23617,46 @@
                 ],
                 "description": "Two Factor Authentication Extension for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/tfa/tree/master",
+                    "source": "https://github.com/swissup/tfa/tree/0.1.1",
+                    "issues": "https://github.com/swissup/tfa/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/tfa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/tfa.git",
+                    "reference": "08450ce6f6b4bda11df02cb4161ee8bba8c90d3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/tfa/zipball/08450ce6f6b4bda11df02cb4161ee8bba8c90d3e",
+                    "reference": "08450ce6f6b4bda11df02cb4161ee8bba8c90d3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "bacon/bacon-qr-code": "~1.0.0",
+                    "pragmarx/google2fa": "~3.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2018-06-21T11:15:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Tfa\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Two Factor Authentication Extension for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/tfa/tree/0.1.1",
                     "issues": "https://github.com/swissup/tfa/issues"
                 }
             }

@@ -3091,18 +3091,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/amp.git",
-                    "reference": "97b7abd2bfadecbc6980c46b3da0b8af37b2e709"
+                    "reference": "b0086b352d1669f2d3708a8787ceeedb72f0f44a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/97b7abd2bfadecbc6980c46b3da0b8af37b2e709",
-                    "reference": "97b7abd2bfadecbc6980c46b3da0b8af37b2e709",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/b0086b352d1669f2d3708a8787ceeedb72f0f44a",
+                    "reference": "b0086b352d1669f2d3708a8787ceeedb72f0f44a",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-07-04T07:01:48+00:00",
+                "time": "2018-07-06T07:01:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -16637,31 +16637,31 @@
             }
         },
         "swissup/hreflang": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/hreflang",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hreflang.git",
-                    "reference": "4b4653a8482156341566b21fc60ba94373fce655"
+                    "reference": "d416932eb1edd3fceddd4761b42a23e743982630"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/4b4653a8482156341566b21fc60ba94373fce655",
-                    "reference": "4b4653a8482156341566b21fc60ba94373fce655",
+                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/d416932eb1edd3fceddd4761b42a23e743982630",
+                    "reference": "d416932eb1edd3fceddd4761b42a23e743982630",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-07-05T14:54:29+00:00",
+                "time": "2018-07-06T07:47:08+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
                         "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-hreflang/"
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
                         }
                     }
                 },
@@ -16681,7 +16681,55 @@
                     "hreflang tag"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/hreflang/tree/master",
+                    "source": "https://github.com/swissup/hreflang/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hreflang/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/hreflang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hreflang.git",
+                    "reference": "d416932eb1edd3fceddd4761b42a23e743982630"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/d416932eb1edd3fceddd4761b42a23e743982630",
+                    "reference": "d416932eb1edd3fceddd4761b42a23e743982630",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-07-06T07:47:08+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/hreflang/tree/1.0.0",
                     "issues": "https://github.com/swissup/hreflang/issues"
                 }
             }
@@ -20301,25 +20349,25 @@
                     "issues": "https://github.com/swissup/seo-core/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/seo-core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-core.git",
-                    "reference": "f70ff1999e87fbb4f6caaf3fecbcfba1b8b17246"
+                    "reference": "8fe53a10a558ac25d9f647dfbe28f8a8371fc269"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-core/zipball/f70ff1999e87fbb4f6caaf3fecbcfba1b8b17246",
-                    "reference": "f70ff1999e87fbb4f6caaf3fecbcfba1b8b17246",
+                    "url": "https://api.github.com/repos/swissup/seo-core/zipball/8fe53a10a558ac25d9f647dfbe28f8a8371fc269",
+                    "reference": "8fe53a10a558ac25d9f647dfbe28f8a8371fc269",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-07-04T08:39:26+00:00",
+                "time": "2018-07-06T07:58:39+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20334,7 +20382,44 @@
                 ],
                 "description": "SEO core module. It adds swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/seo-core/tree/master",
+                    "source": "https://github.com/swissup/seo-core/tree/1.0.2",
+                    "issues": "https://github.com/swissup/seo-core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/seo-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-core.git",
+                    "reference": "8fe53a10a558ac25d9f647dfbe28f8a8371fc269"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-core/zipball/8fe53a10a558ac25d9f647dfbe28f8a8371fc269",
+                    "reference": "8fe53a10a558ac25d9f647dfbe28f8a8371fc269",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-07-06T07:58:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCore\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO core module. It adds swissup menu and config sections.",
+                "support": {
+                    "source": "https://github.com/swissup/seo-core/tree/1.0.2",
                     "issues": "https://github.com/swissup/seo-core/issues"
                 }
             }

@@ -5469,6 +5469,60 @@
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             },
+            "1.2.17": {
+                "name": "swissup/askit",
+                "version": "1.2.17",
+                "version_normalized": "1.2.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/askit.git",
+                    "reference": "fd714fe459829bdd7fd9425d730423ba45c0071c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/fd714fe459829bdd7fd9425d730423ba45c0071c",
+                    "reference": "fd714fe459829bdd7fd9425d730423ba45c0071c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-08-03T08:19:55+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/askit/tree/1.2.17",
+                    "issues": "https://github.com/swissup/askit/issues"
+                }
+            },
             "1.2.2": {
                 "name": "swissup/askit",
                 "version": "1.2.2",
@@ -5854,18 +5908,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/askit.git",
-                    "reference": "00e71645dfb9d503e9a340f8e7bba8657bb7df47"
+                    "reference": "fd714fe459829bdd7fd9425d730423ba45c0071c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/askit/zipball/00e71645dfb9d503e9a340f8e7bba8657bb7df47",
-                    "reference": "00e71645dfb9d503e9a340f8e7bba8657bb7df47",
+                    "url": "https://api.github.com/repos/swissup/askit/zipball/fd714fe459829bdd7fd9425d730423ba45c0071c",
+                    "reference": "fd714fe459829bdd7fd9425d730423ba45c0071c",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-07-02T10:57:12+00:00",
+                "time": "2018-08-03T08:19:55+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -5897,7 +5951,7 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/askit/tree/master",
+                    "source": "https://github.com/swissup/askit/tree/1.2.17",
                     "issues": "https://github.com/swissup/askit/issues"
                 }
             }

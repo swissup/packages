@@ -4909,19 +4909,19 @@
                     "source": "https://github.com/argento/m2/tree/1.4.0"
                 }
             },
-            "dev-master": {
+            "1.5.0": {
                 "name": "swissup/argento-m2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:argento/m2.git",
-                    "reference": "3db7b7ce147dd7f308fad40bd8cffb28928fb8f6"
+                    "reference": "ce2ee767262a441953ba84503f93e55446c8fb98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/argento/m2/zipball/3db7b7ce147dd7f308fad40bd8cffb28928fb8f6",
-                    "reference": "3db7b7ce147dd7f308fad40bd8cffb28928fb8f6",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/ce2ee767262a441953ba84503f93e55446c8fb98",
+                    "reference": "ce2ee767262a441953ba84503f93e55446c8fb98",
                     "shasum": ""
                 },
                 "require": {
@@ -4929,6 +4929,7 @@
                     "swissup/ajaxsearch": "*",
                     "swissup/askit": "*",
                     "swissup/attributepages": "*",
+                    "swissup/compare": "*",
                     "swissup/core": "*",
                     "swissup/easy-slide": "*",
                     "swissup/easybanner": "*",
@@ -4964,14 +4965,80 @@
                     "swissup/theme-frontend-argento-pure2": "*",
                     "swissup/theme-frontend-argento-stripes": "*"
                 },
-                "time": "2018-06-21T08:25:00+00:00",
+                "time": "2018-08-03T11:24:51+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/1.4.0"
+                    "source": "https://github.com/argento/m2/tree/1.5.0"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/argento-m2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:argento/m2.git",
+                    "reference": "ce2ee767262a441953ba84503f93e55446c8fb98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/argento/m2/zipball/ce2ee767262a441953ba84503f93e55446c8fb98",
+                    "reference": "ce2ee767262a441953ba84503f93e55446c8fb98",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/ajaxpro": "*",
+                    "swissup/ajaxsearch": "*",
+                    "swissup/askit": "*",
+                    "swissup/attributepages": "*",
+                    "swissup/compare": "*",
+                    "swissup/core": "*",
+                    "swissup/easy-slide": "*",
+                    "swissup/easybanner": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/easytabs": "*",
+                    "swissup/fblike": "*",
+                    "swissup/featured-attributes": "*",
+                    "swissup/font-awesome": "*",
+                    "swissup/gdpr": "*",
+                    "swissup/gdpr-askit": "*",
+                    "swissup/gdpr-testimonials": "*",
+                    "swissup/highlight": "*",
+                    "swissup/hover-gallery": "*",
+                    "swissup/lightboxpro": "*",
+                    "swissup/navigationpro": "*",
+                    "swissup/pro-labels": "*",
+                    "swissup/reviewreminder": "*",
+                    "swissup/seo-suite": "*",
+                    "swissup/slick-carousel": "*",
+                    "swissup/sold-together": "*",
+                    "swissup/testimonials": "*",
+                    "swissup/theme-editor-argento-essence": "*",
+                    "swissup/theme-editor-argento-flat": "*",
+                    "swissup/theme-editor-argento-luxury": "*",
+                    "swissup/theme-editor-argento-mall": "*",
+                    "swissup/theme-editor-argento-pure2": "*",
+                    "swissup/theme-editor-argento-stripes": "*",
+                    "swissup/theme-frontend-argento-blank": "*",
+                    "swissup/theme-frontend-argento-essence": "*",
+                    "swissup/theme-frontend-argento-flat": "*",
+                    "swissup/theme-frontend-argento-luxury": "*",
+                    "swissup/theme-frontend-argento-mall": "*",
+                    "swissup/theme-frontend-argento-pure2": "*",
+                    "swissup/theme-frontend-argento-stripes": "*"
+                },
+                "time": "2018-08-03T11:24:51+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento metapackage for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/argento/m2/tree/1.5.0"
                 }
             }
         },

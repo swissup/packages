@@ -3230,12 +3230,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/amp.git",
-                    "reference": "5d8729cb93008dbba8f1b795bf0007e3bd7440aa"
+                    "reference": "f38ce41744a0c7b76f4b7b8f11b99018fbad9534"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/5d8729cb93008dbba8f1b795bf0007e3bd7440aa",
-                    "reference": "5d8729cb93008dbba8f1b795bf0007e3bd7440aa",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/f38ce41744a0c7b76f4b7b8f11b99018fbad9534",
+                    "reference": "f38ce41744a0c7b76f4b7b8f11b99018fbad9534",
                     "shasum": ""
                 },
                 "require": {
@@ -3244,7 +3244,7 @@
                     "swissup/core": "*",
                     "swissup/rtl": "*"
                 },
-                "time": "2018-08-02T13:46:04+00:00",
+                "time": "2018-08-06T14:09:13+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -9137,45 +9137,6 @@
                 "support": {
                     "source": "https://github.com/swissup/countdowntimer/tree/master",
                     "issues": "https://github.com/swissup/countdowntimer/issues"
-                }
-            }
-        },
-        "swissup/cross-links": {
-            "dev-master": {
-                "name": "swissup/cross-links",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/seo-cross-links.git",
-                    "reference": "9caf1d9cd0cec0c9fbead3e34ce000ad006c522a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-cross-links/zipball/9caf1d9cd0cec0c9fbead3e34ce000ad006c522a",
-                    "reference": "9caf1d9cd0cec0c9fbead3e34ce000ad006c522a",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2018-08-06T13:17:52+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CrossLinks\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "N/A",
-                "support": {
-                    "source": "https://github.com/swissup/seo-cross-links/tree/master",
-                    "issues": "https://github.com/swissup/seo-cross-links/issues"
                 }
             }
         },
@@ -19377,12 +19338,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pagespeed.git",
-                    "reference": "55f5beae6af8c98faa444031ee7b3046f0fc0231"
+                    "reference": "808bd75efd1f45a798b211c74dc759078a715e8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/55f5beae6af8c98faa444031ee7b3046f0fc0231",
-                    "reference": "55f5beae6af8c98faa444031ee7b3046f0fc0231",
+                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/808bd75efd1f45a798b211c74dc759078a715e8f",
+                    "reference": "808bd75efd1f45a798b211c74dc759078a715e8f",
                     "shasum": ""
                 },
                 "require": {
@@ -19391,7 +19352,7 @@
                     "spatie/image-optimizer": "^1.1",
                     "swissup/core": "*"
                 },
-                "time": "2018-08-06T12:12:06+00:00",
+                "time": "2018-08-06T14:04:34+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21823,6 +21784,45 @@
                 "support": {
                     "source": "https://github.com/swissup/seo-core/tree/1.0.3",
                     "issues": "https://github.com/swissup/seo-core/issues"
+                }
+            }
+        },
+        "swissup/seo-cross-links": {
+            "dev-master": {
+                "name": "swissup/seo-cross-links",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-cross-links.git",
+                    "reference": "8aeba33d1ab218e98826ec91d302182b116012d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-cross-links/zipball/8aeba33d1ab218e98826ec91d302182b116012d6",
+                    "reference": "8aeba33d1ab218e98826ec91d302182b116012d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-08-06T14:25:29+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCrossLinks\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/seo-cross-links/tree/master",
+                    "issues": "https://github.com/swissup/seo-cross-links/issues"
                 }
             }
         },

@@ -2266,26 +2266,26 @@
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
-            "dev-master": {
+            "1.3.2": {
                 "name": "swissup/ajaxpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxpro.git",
-                    "reference": "7037aaff50d570833977b49d42ff00e3d0b1d29c"
+                    "reference": "c835e049e5c8eac65e34c50c00f6f371ebc58d37"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/7037aaff50d570833977b49d42ff00e3d0b1d29c",
-                    "reference": "7037aaff50d570833977b49d42ff00e3d0b1d29c",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/c835e049e5c8eac65e34c50c00f6f371ebc58d37",
+                    "reference": "c835e049e5c8eac65e34c50c00f6f371ebc58d37",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/suggestpage": "*"
                 },
-                "time": "2018-08-07T13:12:50+00:00",
+                "time": "2018-08-08T10:36:21+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -2308,7 +2308,53 @@
                 ],
                 "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.3.2",
+                    "issues": "https://github.com/swissup/ajaxpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/ajaxpro.git",
+                    "reference": "c835e049e5c8eac65e34c50c00f6f371ebc58d37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/ajaxpro/zipball/c835e049e5c8eac65e34c50c00f6f371ebc58d37",
+                    "reference": "c835e049e5c8eac65e34c50c00f6f371ebc58d37",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/suggestpage": "*"
+                },
+                "time": "2018-08-08T10:36:21+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions",
+                "support": {
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.3.2",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             }
@@ -3230,12 +3276,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/amp.git",
-                    "reference": "b99c80a31c7f4cb7c9093d8f7c8e454fceb449f0"
+                    "reference": "bcb490fd110b2bf33aaacf673a1cf2e57f1860e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/b99c80a31c7f4cb7c9093d8f7c8e454fceb449f0",
-                    "reference": "b99c80a31c7f4cb7c9093d8f7c8e454fceb449f0",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/bcb490fd110b2bf33aaacf673a1cf2e57f1860e4",
+                    "reference": "bcb490fd110b2bf33aaacf673a1cf2e57f1860e4",
                     "shasum": ""
                 },
                 "require": {
@@ -3244,7 +3290,7 @@
                     "swissup/core": "*",
                     "swissup/rtl": "*"
                 },
-                "time": "2018-08-07T14:51:28+00:00",
+                "time": "2018-08-08T08:06:44+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6620,18 +6666,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout.git",
-                    "reference": "9015fe3aed540d29eefe2e9971a6b3178cf7b709"
+                    "reference": "69ecf4235e14b12c1f1358f64eb5944cbe0cd7ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/checkout/zipball/9015fe3aed540d29eefe2e9971a6b3178cf7b709",
-                    "reference": "9015fe3aed540d29eefe2e9971a6b3178cf7b709",
+                    "url": "https://api.github.com/repos/swissup/checkout/zipball/69ecf4235e14b12c1f1358f64eb5944cbe0cd7ac",
+                    "reference": "69ecf4235e14b12c1f1358f64eb5944cbe0cd7ac",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-07-24T08:59:23+00:00",
+                "time": "2018-08-08T08:52:02+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6646,7 +6692,7 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/checkout/tree/1.0.0",
+                    "source": "https://github.com/swissup/checkout/tree/master",
                     "issues": "https://github.com/swissup/checkout/issues"
                 }
             }
@@ -15667,18 +15713,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "5b70db5720b6d20dcbad612ea988c432125fbf34"
+                    "reference": "cae650a81f029c8f7f2cb9a00855d332c76d6e58"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/5b70db5720b6d20dcbad612ea988c432125fbf34",
-                    "reference": "5b70db5720b6d20dcbad612ea988c432125fbf34",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/cae650a81f029c8f7f2cb9a00855d332c76d6e58",
+                    "reference": "cae650a81f029c8f7f2cb9a00855d332c76d6e58",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/checkout": "*"
                 },
-                "time": "2018-08-06T06:52:02+00:00",
+                "time": "2018-08-08T09:25:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

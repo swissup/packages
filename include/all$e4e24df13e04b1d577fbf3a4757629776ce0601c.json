@@ -3276,12 +3276,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/amp.git",
-                    "reference": "00aa4c754cbabe43edb04058e8dc80855ea7d64a"
+                    "reference": "ba8d4a0200c9f42264da918c149c94f7d64a1f89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/00aa4c754cbabe43edb04058e8dc80855ea7d64a",
-                    "reference": "00aa4c754cbabe43edb04058e8dc80855ea7d64a",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/ba8d4a0200c9f42264da918c149c94f7d64a1f89",
+                    "reference": "ba8d4a0200c9f42264da918c149c94f7d64a1f89",
                     "shasum": ""
                 },
                 "require": {
@@ -3293,7 +3293,7 @@
                     "swissup/easycatalogimg": "*",
                     "swissup/rtl": "*"
                 },
-                "time": "2018-08-14T14:56:28+00:00",
+                "time": "2018-08-15T07:22:28+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15725,18 +15725,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "47752a351976b079a3f8284fa94a31972598af7a"
+                    "reference": "dca320f2cd608086c2475b948f9095bce673b6c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/47752a351976b079a3f8284fa94a31972598af7a",
-                    "reference": "47752a351976b079a3f8284fa94a31972598af7a",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/dca320f2cd608086c2475b948f9095bce673b6c1",
+                    "reference": "dca320f2cd608086c2475b948f9095bce673b6c1",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/checkout": "*"
+                    "swissup/checkout": "*",
+                    "swissup/tippyjs": "*"
                 },
-                "time": "2018-08-14T10:57:50+00:00",
+                "time": "2018-08-15T08:54:05+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -33440,6 +33441,40 @@
             }
         },
         "swissup/tippyjs": {
+            "1.0.0": {
+                "name": "swissup/tippyjs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/tippyjs.git",
+                    "reference": "b3bafb784d344deb547666b549c1b9083d54d6bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/tippyjs/zipball/b3bafb784d344deb547666b549c1b9083d54d6bc",
+                    "reference": "b3bafb784d344deb547666b549c1b9083d54d6bc",
+                    "shasum": ""
+                },
+                "time": "2018-08-06T06:47:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Tippyjs\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Highly customizable vanilla JS tooltip/popover library for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/tippyjs/tree/master",
+                    "issues": "https://github.com/swissup/tippyjs/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/tippyjs",
                 "version": "dev-master",

@@ -3269,19 +3269,19 @@
             }
         },
         "swissup/amp": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/amp",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/amp.git",
-                    "reference": "dda781e7e559c67fe183532cb9c2d85663a0f184"
+                    "reference": "06457c268e34dce5028c765424bcb419a0c6a96d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/dda781e7e559c67fe183532cb9c2d85663a0f184",
-                    "reference": "dda781e7e559c67fe183532cb9c2d85663a0f184",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/06457c268e34dce5028c765424bcb419a0c6a96d",
+                    "reference": "06457c268e34dce5028c765424bcb419a0c6a96d",
                     "shasum": ""
                 },
                 "require": {
@@ -3293,7 +3293,7 @@
                     "swissup/easycatalogimg": "*",
                     "swissup/rtl": "*"
                 },
-                "time": "2018-08-17T14:30:02+00:00",
+                "time": "2018-08-20T08:43:00+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -3317,7 +3317,59 @@
                 ],
                 "description": "Accelerated Mobile Pages for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/amp/tree/master",
+                    "source": "https://github.com/swissup/amp/tree/1.0.0",
+                    "issues": "https://github.com/swissup/amp/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/amp",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/amp.git",
+                    "reference": "06457c268e34dce5028c765424bcb419a0c6a96d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/amp/zipball/06457c268e34dce5028c765424bcb419a0c6a96d",
+                    "reference": "06457c268e34dce5028c765424bcb419a0c6a96d",
+                    "shasum": ""
+                },
+                "require": {
+                    "leafo/scssphp": "0.7.6",
+                    "marc1706/fast-image-size": "1.*",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "swissup/core": "*",
+                    "swissup/easy-slide": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/rtl": "*"
+                },
+                "time": "2018-08-20T08:43:00+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/",
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Amp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Accelerated Mobile Pages for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/amp/tree/1.0.0",
                     "issues": "https://github.com/swissup/amp/issues"
                 }
             }
@@ -13508,19 +13560,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/email.git",
-                    "reference": "8d4eece57cc39076a0496d5d8736adfc9fc4ef60"
+                    "reference": "b33242bdb096ac475e792451ddcc3e9ad2458412"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/8d4eece57cc39076a0496d5d8736adfc9fc4ef60",
-                    "reference": "8d4eece57cc39076a0496d5d8736adfc9fc4ef60",
+                    "url": "https://api.github.com/repos/swissup/email/zipball/b33242bdb096ac475e792451ddcc3e9ad2458412",
+                    "reference": "b33242bdb096ac475e792451ddcc3e9ad2458412",
                     "shasum": ""
                 },
                 "require": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "slm/mail": "~1.5"
                 },
-                "time": "2018-08-17T12:34:13+00:00",
+                "time": "2018-08-20T08:18:28+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

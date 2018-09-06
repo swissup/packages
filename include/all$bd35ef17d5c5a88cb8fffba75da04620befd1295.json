@@ -22677,19 +22677,19 @@
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/seo-suite",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-suite.git",
-                    "reference": "2a020c868e8e5ee9a0ba43748580116b5dbe7d6d"
+                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/2a020c868e8e5ee9a0ba43748580116b5dbe7d6d",
-                    "reference": "2a020c868e8e5ee9a0ba43748580116b5dbe7d6d",
+                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
+                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
                     "shasum": ""
                 },
                 "require": {
@@ -22702,14 +22702,50 @@
                     "swissup/seo-urls": "*",
                     "swissup/seo-xml-sitemap": "*"
                 },
-                "time": "2018-08-01T11:55:44+00:00",
+                "time": "2018-09-06T10:33:40+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/1.0.0",
+                    "source": "https://github.com/swissup/seo-suite/tree/1.0.1",
+                    "issues": "https://github.com/swissup/seo-suite/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/seo-suite",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-suite.git",
+                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
+                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/hreflang": "*",
+                    "swissup/rich-snippets": "*",
+                    "swissup/seo-core": "*",
+                    "swissup/seo-html-sitemap": "*",
+                    "swissup/seo-pager": "*",
+                    "swissup/seo-templates": "*",
+                    "swissup/seo-urls": "*",
+                    "swissup/seo-xml-sitemap": "*"
+                },
+                "time": "2018-09-06T10:33:40+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO Suite metapackage for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/swissup/seo-suite/tree/1.0.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -22858,6 +22894,54 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/seo-templates/tree/1.0.2",
+                    "issues": "https://github.com/swissup/seo-templates/issues"
+                }
+            },
+            "1.0.3": {
+                "name": "swissup/seo-templates",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-templates.git",
+                    "reference": "2f99bb2c62f5b9efc31defab07172cbeb360ae54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-templates/zipball/2f99bb2c62f5b9efc31defab07172cbeb360ae54",
+                    "reference": "2f99bb2c62f5b9efc31defab07172cbeb360ae54",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-09-06T10:25:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-templates/tree/master",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             },

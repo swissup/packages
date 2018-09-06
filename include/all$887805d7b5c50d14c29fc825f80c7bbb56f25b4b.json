@@ -6213,6 +6213,59 @@
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             },
+            "1.0.10": {
+                "name": "swissup/attributepages",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/attributepages.git",
+                    "reference": "63319b0180248e37b7e10b0ab6acc136d272fae4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/63319b0180248e37b7e10b0ab6acc136d272fae4",
+                    "reference": "63319b0180248e37b7e10b0ab6acc136d272fae4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/slick-carousel": "*"
+                },
+                "time": "2018-09-06T11:14:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/attributes-and-brands-pages-for-magento-2.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/attributepages/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/attributepages/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Attributepages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Attribute Pages extension from Swissup",
+                "keywords": [
+                    "attribute page",
+                    "attributepages",
+                    "brand page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.10",
+                    "issues": "https://github.com/swissup/attributepages/issues"
+                }
+            },
             "1.0.2": {
                 "name": "swissup/attributepages",
                 "version": "1.0.2",
@@ -6602,19 +6655,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "e2c9c85ec3a117b1a4a37ec0a28c71f591c6a183"
+                    "reference": "63319b0180248e37b7e10b0ab6acc136d272fae4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/e2c9c85ec3a117b1a4a37ec0a28c71f591c6a183",
-                    "reference": "e2c9c85ec3a117b1a4a37ec0a28c71f591c6a183",
+                    "url": "https://api.github.com/repos/swissup/attributepages/zipball/63319b0180248e37b7e10b0ab6acc136d272fae4",
+                    "reference": "63319b0180248e37b7e10b0ab6acc136d272fae4",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/slick-carousel": "*"
                 },
-                "time": "2018-09-06T09:01:48+00:00",
+                "time": "2018-09-06T11:14:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -6644,7 +6697,7 @@
                     "brand page"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/master",
+                    "source": "https://github.com/swissup/attributepages/tree/1.0.10",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }

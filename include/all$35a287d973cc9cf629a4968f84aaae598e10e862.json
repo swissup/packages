@@ -18919,18 +18919,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/lightboxpro.git",
-                    "reference": "71ac4ddeb1eba5381c669bec484ed8d6b5041977"
+                    "reference": "4178005182858d7dc3b71e96ba87b0f85199d189"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/71ac4ddeb1eba5381c669bec484ed8d6b5041977",
-                    "reference": "71ac4ddeb1eba5381c669bec484ed8d6b5041977",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4178005182858d7dc3b71e96ba87b0f85199d189",
+                    "reference": "4178005182858d7dc3b71e96ba87b0f85199d189",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-07T13:38:16+00:00",
+                "time": "2018-09-10T13:30:59+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -20174,19 +20174,19 @@
                     "issues": "https://github.com/swissup/pagespeed/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/pagespeed",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pagespeed.git",
-                    "reference": "c8f56d63ecf58d5738d17b873d0fb8082f098b9d"
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/c8f56d63ecf58d5738d17b873d0fb8082f098b9d",
-                    "reference": "c8f56d63ecf58d5738d17b873d0fb8082f098b9d",
+                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/3fb4291a179a0ebb6a890c829890d96e4954bbc6",
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6",
                     "shasum": ""
                 },
                 "require": {
@@ -20195,7 +20195,7 @@
                     "spatie/image-optimizer": "^1.1",
                     "swissup/core": "*"
                 },
-                "time": "2018-08-30T12:57:54+00:00",
+                "time": "2018-09-10T14:27:04+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20214,7 +20214,51 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/pagespeed/tree/master",
+                    "source": "https://github.com/swissup/pagespeed/tree/1.0.1",
+                    "issues": "https://github.com/swissup/pagespeed/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pagespeed",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pagespeed.git",
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/3fb4291a179a0ebb6a890c829890d96e4954bbc6",
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "1.*",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/core": "*"
+                },
+                "time": "2018-09-10T14:27:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/pagespeed/tree/1.0.1",
                     "issues": "https://github.com/swissup/pagespeed/issues"
                 }
             }
@@ -21205,18 +21249,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pro-labels.git",
-                    "reference": "312f0f1da0689a973622942e6e289b68e5aa94fe"
+                    "reference": "327c8b43b5cbc13167f90fae9125914abf442153"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/312f0f1da0689a973622942e6e289b68e5aa94fe",
-                    "reference": "312f0f1da0689a973622942e6e289b68e5aa94fe",
+                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/327c8b43b5cbc13167f90fae9125914abf442153",
+                    "reference": "327c8b43b5cbc13167f90fae9125914abf442153",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-07T14:34:52+00:00",
+                "time": "2018-09-10T14:18:48+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -25804,18 +25848,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscription-checker.git",
-                    "reference": "b7c9ce2a18d33a714ec19a47a713aeefea0491a6"
+                    "reference": "f09016eeae234a7faa9b56308290cbd2bb97f41d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/b7c9ce2a18d33a714ec19a47a713aeefea0491a6",
-                    "reference": "b7c9ce2a18d33a714ec19a47a713aeefea0491a6",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/f09016eeae234a7faa9b56308290cbd2bb97f41d",
+                    "reference": "f09016eeae234a7faa9b56308290cbd2bb97f41d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-04T12:45:35+00:00",
+                "time": "2018-09-10T14:16:51+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

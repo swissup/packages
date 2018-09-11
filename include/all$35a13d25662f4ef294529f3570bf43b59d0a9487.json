@@ -1972,7 +1972,7 @@
                 ],
                 "description": "Magento2 module Streamline add to cart function and remove interruptions from the shopping process",
                 "support": {
-                    "source": "https://github.com/swissup/ajaxpro/tree/master",
+                    "source": "https://github.com/swissup/ajaxpro/tree/1.2.3",
                     "issues": "https://github.com/swissup/ajaxpro/issues"
                 }
             },
@@ -5149,7 +5149,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/1.6.0"
                 }
             },
             "dev-master": {
@@ -5216,7 +5216,7 @@
                 ],
                 "description": "Argento metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/argento/m2/tree/master"
+                    "source": "https://github.com/argento/m2/tree/1.6.0"
                 }
             }
         },
@@ -16375,7 +16375,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             },
@@ -16412,7 +16412,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/firecheckout-integrations/tree/1.0.0",
                     "issues": "https://github.com/swissup/firecheckout-integrations/issues"
                 }
             }
@@ -16956,33 +16956,35 @@
                     "source": "https://github.com/swissup/font-awesome/tree/1.2.1",
                     "issues": "https://github.com/swissup/font-awesome/issues"
                 }
-            },
-            "dev-fontawesome5": {
-                "name": "swissup/font-awesome",
-                "version": "dev-fontawesome5",
-                "version_normalized": "dev-fontawesome5",
+            }
+        },
+        "swissup/font-awesome-5": {
+            "dev-master": {
+                "name": "swissup/font-awesome-5",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/font-awesome.git",
-                    "reference": "9bc5a5cdc58d76029c9592e42db4647e8780693c"
+                    "url": "https://github.com/swissup/font-awesome-5.git",
+                    "reference": "89664eb9f5e2e345e39a42aa993ca16e0fe49b80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/font-awesome/zipball/9bc5a5cdc58d76029c9592e42db4647e8780693c",
-                    "reference": "9bc5a5cdc58d76029c9592e42db4647e8780693c",
+                    "url": "https://api.github.com/repos/swissup/font-awesome-5/zipball/89664eb9f5e2e345e39a42aa993ca16e0fe49b80",
+                    "reference": "89664eb9f5e2e345e39a42aa993ca16e0fe49b80",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-02-12T08:20:33+00:00",
+                "time": "2018-09-11T09:12:19+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
                         "registration.php"
                     ],
                     "psr-4": {
-                        "Swissup\\FontAwesome\\": ""
+                        "Swissup\\FontAwesome5\\": ""
                     }
                 },
                 "license": [
@@ -16997,8 +16999,8 @@
                     "icons"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/font-awesome/tree/fontawesome5",
-                    "issues": "https://github.com/swissup/font-awesome/issues"
+                    "source": "https://github.com/swissup/font-awesome-5/tree/master",
+                    "issues": "https://github.com/swissup/font-awesome-5/issues"
                 }
             }
         },
@@ -18965,18 +18967,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/lightboxpro.git",
-                    "reference": "4178005182858d7dc3b71e96ba87b0f85199d189"
+                    "reference": "1b74d3bd5fc9a337fcee37c6026cd6ee95a387c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/4178005182858d7dc3b71e96ba87b0f85199d189",
-                    "reference": "4178005182858d7dc3b71e96ba87b0f85199d189",
+                    "url": "https://api.github.com/repos/swissup/lightboxpro/zipball/1b74d3bd5fc9a337fcee37c6026cd6ee95a387c1",
+                    "reference": "1b74d3bd5fc9a337fcee37c6026cd6ee95a387c1",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-10T13:30:59+00:00",
+                "time": "2018-09-11T08:26:39+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -19705,19 +19707,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "35253365130da2153f48a41f2704d5064a00e7b0"
+                    "reference": "547fb3d062e510579983dd68ec5bd5a9cbed55af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/35253365130da2153f48a41f2704d5064a00e7b0",
-                    "reference": "35253365130da2153f48a41f2704d5064a00e7b0",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/547fb3d062e510579983dd68ec5bd5a9cbed55af",
+                    "reference": "547fb3d062e510579983dd68ec5bd5a9cbed55af",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/rtl": "*"
                 },
-                "time": "2018-07-31T12:02:18+00:00",
+                "time": "2018-09-11T07:15:04+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -19748,7 +19750,7 @@
                     "sidebar menu"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/1.6.0",
+                    "source": "https://github.com/swissup/navigationpro/tree/master",
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             }
@@ -20981,7 +20983,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/pro-labels/tree/master",
+                    "source": "https://github.com/swissup/pro-labels/tree/1.0.24",
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },
@@ -21284,7 +21286,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/pro-labels/tree/master",
+                    "source": "https://github.com/swissup/pro-labels/tree/1.0.24",
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },
@@ -23271,7 +23273,7 @@
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/master",
+                    "source": "https://github.com/swissup/seo-suite/tree/0.9.1",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
@@ -23430,7 +23432,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "source": "https://github.com/swissup/seo-templates/tree/1.0.0",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             },
@@ -23575,7 +23577,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "source": "https://github.com/swissup/seo-templates/tree/1.0.3",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             },
@@ -23623,7 +23625,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-templates/tree/master",
+                    "source": "https://github.com/swissup/seo-templates/tree/1.0.3",
                     "issues": "https://github.com/swissup/seo-templates/issues"
                 }
             }
@@ -25894,18 +25896,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscription-checker.git",
-                    "reference": "f09016eeae234a7faa9b56308290cbd2bb97f41d"
+                    "reference": "d7efa3da2e15607f05e3c755337b78b159a88367"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/f09016eeae234a7faa9b56308290cbd2bb97f41d",
-                    "reference": "f09016eeae234a7faa9b56308290cbd2bb97f41d",
+                    "url": "https://api.github.com/repos/swissup/subscription-checker/zipball/d7efa3da2e15607f05e3c755337b78b159a88367",
+                    "reference": "d7efa3da2e15607f05e3c755337b78b159a88367",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-10T14:16:51+00:00",
+                "time": "2018-09-11T07:05:54+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -27948,7 +27950,7 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/argento/theme-editor-argento-essence/tree/1.2.4",
                     "issues": "https://github.com/argento/theme-editor-argento-essence/issues"
                 }
             },
@@ -35254,7 +35256,7 @@
                 ],
                 "description": "Highly customizable vanilla JS tooltip/popover library for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/tippyjs/tree/master",
+                    "source": "https://github.com/swissup/tippyjs/tree/1.0.0",
                     "issues": "https://github.com/swissup/tippyjs/issues"
                 }
             },
@@ -35288,7 +35290,7 @@
                 ],
                 "description": "Highly customizable vanilla JS tooltip/popover library for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/tippyjs/tree/master",
+                    "source": "https://github.com/swissup/tippyjs/tree/1.0.0",
                     "issues": "https://github.com/swissup/tippyjs/issues"
                 }
             }

@@ -21895,25 +21895,25 @@
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "swissup/pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pro-labels.git",
-                    "reference": "9a9102d8a6e4bda89b760f90c39055e259b94306"
+                    "reference": "e1a85f38bf725aa39a18776d615ba3f365a5373d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/9a9102d8a6e4bda89b760f90c39055e259b94306",
-                    "reference": "9a9102d8a6e4bda89b760f90c39055e259b94306",
+                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/e1a85f38bf725aa39a18776d615ba3f365a5373d",
+                    "reference": "e1a85f38bf725aa39a18776d615ba3f365a5373d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-18T14:42:07+00:00",
+                "time": "2018-09-21T12:46:31+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21928,7 +21928,44 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/pro-labels/tree/master",
+                    "source": "https://github.com/swissup/pro-labels/tree/1.1.0",
+                    "issues": "https://github.com/swissup/pro-labels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pro-labels.git",
+                    "reference": "e1a85f38bf725aa39a18776d615ba3f365a5373d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/e1a85f38bf725aa39a18776d615ba3f365a5373d",
+                    "reference": "e1a85f38bf725aa39a18776d615ba3f365a5373d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-09-21T12:46:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/pro-labels/tree/1.1.0",
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },

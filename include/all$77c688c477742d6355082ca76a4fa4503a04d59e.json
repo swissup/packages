@@ -1753,18 +1753,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/ajaxlayerednavigation.git",
-                    "reference": "725f96e7895c6ac58e5de318816d606cf2ef6678"
+                    "reference": "51aaad87b3152a3a013c845ff7ee03ee688c1bd5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/725f96e7895c6ac58e5de318816d606cf2ef6678",
-                    "reference": "725f96e7895c6ac58e5de318816d606cf2ef6678",
+                    "url": "https://api.github.com/repos/swissup/ajaxlayerednavigation/zipball/51aaad87b3152a3a013c845ff7ee03ee688c1bd5",
+                    "reference": "51aaad87b3152a3a013c845ff7ee03ee688c1bd5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-18T13:23:43+00:00",
+                "time": "2018-09-21T13:56:57+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -14141,25 +14141,25 @@
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
-            "dev-master": {
+            "1.3.4": {
                 "name": "swissup/easytabs",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.4",
+                "version_normalized": "1.3.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/easytabs.git",
-                    "reference": "c7ee2db6c95120d7c37ad6f214a8a83bb7818c95"
+                    "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/c7ee2db6c95120d7c37ad6f214a8a83bb7818c95",
-                    "reference": "c7ee2db6c95120d7c37ad6f214a8a83bb7818c95",
+                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/a2acbb72eee639689aed2d8693b15b0ff81e4569",
+                    "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-20T14:46:25+00:00",
+                "time": "2018-09-21T13:55:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14190,7 +14190,60 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.3.4",
+                    "issues": "https://github.com/swissup/easytabs/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easytabs",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/easytabs.git",
+                    "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/a2acbb72eee639689aed2d8693b15b0ff81e4569",
+                    "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-09-21T13:55:36+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easytabs/tree/1.3.4",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -14822,25 +14875,25 @@
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             },
-            "dev-master": {
+            "1.1.4": {
                 "name": "swissup/fblike",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/fblike.git",
-                    "reference": "9b0d91950bcbefbf85272fd9a1ff1e9cbb8b0f3b"
+                    "reference": "3b582a50650a10e5fa21bbd3ded255fb43732996"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/fblike/zipball/9b0d91950bcbefbf85272fd9a1ff1e9cbb8b0f3b",
-                    "reference": "9b0d91950bcbefbf85272fd9a1ff1e9cbb8b0f3b",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/3b582a50650a10e5fa21bbd3ded255fb43732996",
+                    "reference": "3b582a50650a10e5fa21bbd3ded255fb43732996",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*"
                 },
-                "time": "2018-09-13T14:19:33+00:00",
+                "time": "2018-09-21T14:02:07+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -14855,7 +14908,44 @@
                 ],
                 "description": "Facebook Like Button for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/fblike/tree/master",
+                    "source": "https://github.com/swissup/fblike/tree/1.1.4",
+                    "issues": "https://github.com/swissup/fblike/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/fblike",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/fblike.git",
+                    "reference": "3b582a50650a10e5fa21bbd3ded255fb43732996"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/fblike/zipball/3b582a50650a10e5fa21bbd3ded255fb43732996",
+                    "reference": "3b582a50650a10e5fa21bbd3ded255fb43732996",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-09-21T14:02:07+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Facebook Like Button for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/fblike/tree/1.1.4",
                     "issues": "https://github.com/swissup/fblike/issues"
                 }
             }
@@ -16744,12 +16834,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "dbe66a6601144dd89c805ff620f21ef97fab0c2d"
+                    "reference": "c1e768268f65fbd4201eb73af9cb9042feea765f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/dbe66a6601144dd89c805ff620f21ef97fab0c2d",
-                    "reference": "dbe66a6601144dd89c805ff620f21ef97fab0c2d",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/c1e768268f65fbd4201eb73af9cb9042feea765f",
+                    "reference": "c1e768268f65fbd4201eb73af9cb9042feea765f",
                     "shasum": ""
                 },
                 "require": {
@@ -16757,7 +16847,7 @@
                     "swissup/stickyfill": "*",
                     "swissup/tippyjs": "*"
                 },
-                "time": "2018-09-21T09:06:29+00:00",
+                "time": "2018-09-21T13:46:54+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -16788,7 +16878,7 @@
                     "onestep checkout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.13.1",
+                    "source": "https://github.com/swissup/firecheckout/tree/master",
                     "issues": "https://github.com/swissup/firecheckout/issues"
                 }
             }
@@ -19192,26 +19282,26 @@
                     "issues": "https://github.com/swissup/hreflang/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/hreflang",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hreflang.git",
-                    "reference": "45db980ca5a9a389946028c50a81fad9bb4cc7a8"
+                    "reference": "2b1e79e18df209d0cee66ab51a689b7ae075aeb3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/45db980ca5a9a389946028c50a81fad9bb4cc7a8",
-                    "reference": "45db980ca5a9a389946028c50a81fad9bb4cc7a8",
+                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/2b1e79e18df209d0cee66ab51a689b7ae075aeb3",
+                    "reference": "2b1e79e18df209d0cee66ab51a689b7ae075aeb3",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-09-20T09:18:57+00:00",
+                "time": "2018-09-21T14:10:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -19236,7 +19326,55 @@
                     "hreflang tag"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/hreflang/tree/master",
+                    "source": "https://github.com/swissup/hreflang/tree/1.1.1",
+                    "issues": "https://github.com/swissup/hreflang/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/hreflang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hreflang.git",
+                    "reference": "2b1e79e18df209d0cee66ab51a689b7ae075aeb3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hreflang/zipball/2b1e79e18df209d0cee66ab51a689b7ae075aeb3",
+                    "reference": "2b1e79e18df209d0cee66ab51a689b7ae075aeb3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-09-21T14:10:36+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/hreflang/tree/1.1.1",
                     "issues": "https://github.com/swissup/hreflang/issues"
                 }
             }
@@ -24028,19 +24166,19 @@
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/seo-suite",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-suite.git",
-                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9"
+                    "reference": "13ef40d40f5663854ecefe64507efa22246c2adb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
-                    "reference": "068f70867ec23842bd4e24ed63d18b0b39a8b5f9",
+                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/13ef40d40f5663854ecefe64507efa22246c2adb",
+                    "reference": "13ef40d40f5663854ecefe64507efa22246c2adb",
                     "shasum": ""
                 },
                 "require": {
@@ -24053,14 +24191,50 @@
                     "swissup/seo-urls": "*",
                     "swissup/seo-xml-sitemap": "*"
                 },
-                "time": "2018-09-06T10:33:40+00:00",
+                "time": "2018-09-21T14:12:15+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "SEO Suite metapackage for Magento 2.x",
                 "support": {
-                    "source": "https://github.com/swissup/seo-suite/tree/1.0.1",
+                    "source": "https://github.com/swissup/seo-suite/tree/1.0.2",
+                    "issues": "https://github.com/swissup/seo-suite/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/seo-suite",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-suite.git",
+                    "reference": "13ef40d40f5663854ecefe64507efa22246c2adb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-suite/zipball/13ef40d40f5663854ecefe64507efa22246c2adb",
+                    "reference": "13ef40d40f5663854ecefe64507efa22246c2adb",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/hreflang": "*",
+                    "swissup/rich-snippets": "*",
+                    "swissup/seo-core": "*",
+                    "swissup/seo-html-sitemap": "*",
+                    "swissup/seo-pager": "*",
+                    "swissup/seo-templates": "*",
+                    "swissup/seo-urls": "*",
+                    "swissup/seo-xml-sitemap": "*"
+                },
+                "time": "2018-09-21T14:12:15+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO Suite metapackage for Magento 2.x",
+                "support": {
+                    "source": "https://github.com/swissup/seo-suite/tree/1.0.2",
                     "issues": "https://github.com/swissup/seo-suite/issues"
                 }
             }
@@ -24810,26 +24984,26 @@
                     "issues": "https://github.com/swissup/seo-xml-sitemap/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/seo-xml-sitemap",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/seo-xml-sitemap.git",
-                    "reference": "d8de44f4be83fd1df0b6fc957f9cc224d24c3a81"
+                    "reference": "c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/seo-xml-sitemap/zipball/d8de44f4be83fd1df0b6fc957f9cc224d24c3a81",
-                    "reference": "d8de44f4be83fd1df0b6fc957f9cc224d24c3a81",
+                    "url": "https://api.github.com/repos/swissup/seo-xml-sitemap/zipball/c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864",
+                    "reference": "c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/core": "*",
                     "swissup/seo-core": "*"
                 },
-                "time": "2018-09-19T07:11:46+00:00",
+                "time": "2018-09-21T14:05:35+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -24854,7 +25028,55 @@
                     "xml sitemap"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/seo-xml-sitemap/tree/master",
+                    "source": "https://github.com/swissup/seo-xml-sitemap/tree/1.0.1",
+                    "issues": "https://github.com/swissup/seo-xml-sitemap/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/seo-xml-sitemap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/seo-xml-sitemap.git",
+                    "reference": "c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/seo-xml-sitemap/zipball/c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864",
+                    "reference": "c4a1dc9a9f0b97f406f3eafe9eb6b0f8d8524864",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*",
+                    "swissup/seo-core": "*"
+                },
+                "time": "2018-09-21T14:05:35+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-xml-sitemap/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoXmlSitemap\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced XML Sitemap for Magento 2",
+                "keywords": [
+                    "xml sitemap"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/seo-xml-sitemap/tree/1.0.1",
                     "issues": "https://github.com/swissup/seo-xml-sitemap/issues"
                 }
             }

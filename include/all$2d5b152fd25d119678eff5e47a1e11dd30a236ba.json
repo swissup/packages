@@ -5690,177 +5690,6 @@
             }
         },
         "swissup/email": {
-            "0.1.0": {
-                "name": "swissup/email",
-                "version": "0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/email.git",
-                    "reference": "842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a",
-                    "reference": "842abbb7de76d7ce93c6297f9c2f57ca2b2ae21a",
-                    "shasum": ""
-                },
-                "require": {
-                    "aws/aws-sdk-php-zf2": ">=1.0.1",
-                    "php": "~5.5.0|~5.6.0",
-                    "slm/mail": "~1.5"
-                },
-                "time": "2016-02-11T10:27:42+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Email\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento2 for email providers integrations (smtp, mandrill, amazon ses)",
-                "support": {
-                    "source": "https://github.com/swissup/email/tree/0.1.0",
-                    "issues": "https://github.com/swissup/email/issues"
-                }
-            },
-            "0.1.1": {
-                "name": "swissup/email",
-                "version": "0.1.1",
-                "version_normalized": "0.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/email.git",
-                    "reference": "3a144ad9e3de6eff8f351747a8f0dda47f2995bb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/3a144ad9e3de6eff8f351747a8f0dda47f2995bb",
-                    "reference": "3a144ad9e3de6eff8f351747a8f0dda47f2995bb",
-                    "shasum": ""
-                },
-                "require": {
-                    "aws/aws-sdk-php-zf2": ">=1.0.1",
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "slm/mail": "~1.5"
-                },
-                "time": "2016-10-19T07:59:51+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Email\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento2 for email providers integrations (smtp, mandrill, amazon ses)",
-                "support": {
-                    "source": "https://github.com/swissup/email/tree/0.1.1",
-                    "issues": "https://github.com/swissup/email/issues"
-                }
-            },
-            "0.1.2": {
-                "name": "swissup/email",
-                "version": "0.1.2",
-                "version_normalized": "0.1.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/email.git",
-                    "reference": "48e1b060d5464a7088d252e1551fd8a8fcfaec70"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/48e1b060d5464a7088d252e1551fd8a8fcfaec70",
-                    "reference": "48e1b060d5464a7088d252e1551fd8a8fcfaec70",
-                    "shasum": ""
-                },
-                "require": {
-                    "aws/aws-sdk-php-zf2": ">=1.0.1",
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "slm/mail": "~1.5"
-                },
-                "time": "2016-11-01T15:33:37+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Email\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
-                "keywords": [
-                    "amazon ses",
-                    "email",
-                    "gmail",
-                    "mandrill",
-                    "sendmail",
-                    "smtp"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/email/tree/0.1.2",
-                    "issues": "https://github.com/swissup/email/issues"
-                }
-            },
-            "0.1.6": {
-                "name": "swissup/email",
-                "version": "0.1.6",
-                "version_normalized": "0.1.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/email.git",
-                    "reference": "5eeda27b2a31591549fd8c96114038a509d49958"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/5eeda27b2a31591549fd8c96114038a509d49958",
-                    "reference": "5eeda27b2a31591549fd8c96114038a509d49958",
-                    "shasum": ""
-                },
-                "require": {
-                    "aws/aws-sdk-php-zf2": ">=1.0.1",
-                    "slm/mail": "~1.5"
-                },
-                "time": "2018-09-10T14:56:06+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Email\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
-                "keywords": [
-                    "amazon ses",
-                    "email",
-                    "gmail",
-                    "mandrill",
-                    "sendmail",
-                    "smtp"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/email/tree/0.1.6",
-                    "issues": "https://github.com/swissup/email/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/email",
                 "version": "dev-master",
@@ -5868,28 +5697,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/email.git",
-                    "reference": "5eeda27b2a31591549fd8c96114038a509d49958"
+                    "reference": "053774c72cfb68122ba9255e57520607e3f7ac6f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/email/zipball/5eeda27b2a31591549fd8c96114038a509d49958",
-                    "reference": "5eeda27b2a31591549fd8c96114038a509d49958",
+                    "url": "https://api.github.com/repos/swissup/email/zipball/053774c72cfb68122ba9255e57520607e3f7ac6f",
+                    "reference": "053774c72cfb68122ba9255e57520607e3f7ac6f",
                     "shasum": ""
                 },
                 "require": {
-                    "aws/aws-sdk-php-zf2": ">=1.0.1",
-                    "slm/mail": "~1.5"
+                    "swissup/module-email": "^0.2.0"
                 },
-                "time": "2018-09-10T14:56:06+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Email\\": ""
-                    }
-                },
+                "time": "2018-09-26T11:44:07+00:00",
+                "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
@@ -5903,8 +5723,7 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/email/tree/0.1.6",
-                    "issues": "https://github.com/swissup/email/issues"
+                    "source": "https://github.com/swissup/email/tree/master"
                 }
             }
         },
@@ -17359,12 +17178,12 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "e507e54131159ca3bff499c0d068975d6e4fc775"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/e507e54131159ca3bff499c0d068975d6e4fc775",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/e507e54131159ca3bff499c0d068975d6e4fc775",
                     "reference": "e507e54131159ca3bff499c0d068975d6e4fc775",
                     "shasum": ""
                 },
@@ -17397,12 +17216,12 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "60a925a3888f63cdd394552035efcd9246d2dec5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/60a925a3888f63cdd394552035efcd9246d2dec5",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/60a925a3888f63cdd394552035efcd9246d2dec5",
                     "reference": "60a925a3888f63cdd394552035efcd9246d2dec5",
                     "shasum": ""
                 },
@@ -17435,12 +17254,12 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "cd74a5d76776534d288b650c6b948e6bffa21cc6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/cd74a5d76776534d288b650c6b948e6bffa21cc6",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/cd74a5d76776534d288b650c6b948e6bffa21cc6",
                     "reference": "cd74a5d76776534d288b650c6b948e6bffa21cc6",
                     "shasum": ""
                 },
@@ -17473,12 +17292,12 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "ab1f21c9a3cb4255003cf9daa64eaa9a28837073"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/ab1f21c9a3cb4255003cf9daa64eaa9a28837073",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/ab1f21c9a3cb4255003cf9daa64eaa9a28837073",
                     "reference": "ab1f21c9a3cb4255003cf9daa64eaa9a28837073",
                     "shasum": ""
                 },
@@ -17510,12 +17329,12 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/b8db75141fea9a7294388e77f3b74ee362c7dbb7",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/b8db75141fea9a7294388e77f3b74ee362c7dbb7",
                     "reference": "b8db75141fea9a7294388e77f3b74ee362c7dbb7",
                     "shasum": ""
                 },
@@ -17563,12 +17382,12 @@
                 "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "119c6e32bf498e6445b69cd3175303f1a7ac5258"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/119c6e32bf498e6445b69cd3175303f1a7ac5258",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/119c6e32bf498e6445b69cd3175303f1a7ac5258",
                     "reference": "119c6e32bf498e6445b69cd3175303f1a7ac5258",
                     "shasum": ""
                 },
@@ -17616,12 +17435,12 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "881460a4fd2a1b1ff098c5266c7c7828877857ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/881460a4fd2a1b1ff098c5266c7c7828877857ca",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/881460a4fd2a1b1ff098c5266c7c7828877857ca",
                     "reference": "881460a4fd2a1b1ff098c5266c7c7828877857ca",
                     "shasum": ""
                 },
@@ -17669,12 +17488,12 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "9bdb6b4be90212826a7d2371bf77d796baed8a28"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/9bdb6b4be90212826a7d2371bf77d796baed8a28",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/9bdb6b4be90212826a7d2371bf77d796baed8a28",
                     "reference": "9bdb6b4be90212826a7d2371bf77d796baed8a28",
                     "shasum": ""
                 },
@@ -17722,12 +17541,12 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "5de14bcc2580f0e95350f2ed96b4dcbc3de1d35e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/5de14bcc2580f0e95350f2ed96b4dcbc3de1d35e",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/5de14bcc2580f0e95350f2ed96b4dcbc3de1d35e",
                     "reference": "5de14bcc2580f0e95350f2ed96b4dcbc3de1d35e",
                     "shasum": ""
                 },
@@ -17775,12 +17594,12 @@
                 "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "0530eb8de98afaf42c298621f9bf81b419f93cf3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/0530eb8de98afaf42c298621f9bf81b419f93cf3",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/0530eb8de98afaf42c298621f9bf81b419f93cf3",
                     "reference": "0530eb8de98afaf42c298621f9bf81b419f93cf3",
                     "shasum": ""
                 },
@@ -17828,12 +17647,12 @@
                 "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "03013e03c60f8b709528ed88a5e73da138e76b40"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/03013e03c60f8b709528ed88a5e73da138e76b40",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/03013e03c60f8b709528ed88a5e73da138e76b40",
                     "reference": "03013e03c60f8b709528ed88a5e73da138e76b40",
                     "shasum": ""
                 },
@@ -17881,12 +17700,12 @@
                 "version_normalized": "1.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "bbf63da10190f10c78c5eb0c419fbe8eec02df10"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/bbf63da10190f10c78c5eb0c419fbe8eec02df10",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/bbf63da10190f10c78c5eb0c419fbe8eec02df10",
                     "reference": "bbf63da10190f10c78c5eb0c419fbe8eec02df10",
                     "shasum": ""
                 },
@@ -17934,12 +17753,12 @@
                 "version_normalized": "1.3.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/a2acbb72eee639689aed2d8693b15b0ff81e4569",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/a2acbb72eee639689aed2d8693b15b0ff81e4569",
                     "reference": "a2acbb72eee639689aed2d8693b15b0ff81e4569",
                     "shasum": ""
                 },
@@ -17987,12 +17806,12 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
                     "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
                     "shasum": ""
                 },
@@ -18040,12 +17859,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/easytabs.git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
                     "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easytabs/zipball/3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
                     "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
                     "shasum": ""
                 },
@@ -21748,6 +21567,184 @@
                 "support": {
                     "source": "https://github.com/swissup/module-orderattachment/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
+                }
+            }
+        },
+        "swissup/module-pagespeed": {
+            "1.0.0": {
+                "name": "swissup/module-pagespeed",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "fbabd6fe66c97d54b42e49c186e36418f8fa21cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/fbabd6fe66c97d54b42e49c186e36418f8fa21cf",
+                    "reference": "fbabd6fe66c97d54b42e49c186e36418f8fa21cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "1.*",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/core": "*"
+                },
+                "time": "2018-08-08T11:22:13+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/pagespeed/tree/1.0.0",
+                    "issues": "https://github.com/swissup/pagespeed/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "swissup/module-pagespeed",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/3fb4291a179a0ebb6a890c829890d96e4954bbc6",
+                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "1.*",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/core": "*"
+                },
+                "time": "2018-09-10T14:27:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/pagespeed/tree/1.0.1",
+                    "issues": "https://github.com/swissup/pagespeed/issues"
+                }
+            },
+            "1.1.0": {
+                "name": "swissup/module-pagespeed",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "db77decfab4364d242fd525d395e016a9936f748"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/db77decfab4364d242fd525d395e016a9936f748",
+                    "reference": "db77decfab4364d242fd525d395e016a9936f748",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "1.*",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2018-09-26T11:56:25+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-pagespeed/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-pagespeed",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "db77decfab4364d242fd525d395e016a9936f748"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/db77decfab4364d242fd525d395e016a9936f748",
+                    "reference": "db77decfab4364d242fd525d395e016a9936f748",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "1.*",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2018-09-26T11:56:25+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }
         },
@@ -26227,140 +26224,6 @@
                 "support": {
                     "source": "https://github.com/swissup/navigationpro/tree/1.7.0",
                     "issues": "https://github.com/swissup/navigationpro/issues"
-                }
-            }
-        },
-        "swissup/pagespeed": {
-            "1.0.0": {
-                "name": "swissup/pagespeed",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/pagespeed.git",
-                    "reference": "fbabd6fe66c97d54b42e49c186e36418f8fa21cf"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/fbabd6fe66c97d54b42e49c186e36418f8fa21cf",
-                    "reference": "fbabd6fe66c97d54b42e49c186e36418f8fa21cf",
-                    "shasum": ""
-                },
-                "require": {
-                    "marc1706/fast-image-size": "1.*",
-                    "mrclay/minify": "~3.0.0",
-                    "spatie/image-optimizer": "^1.1",
-                    "swissup/core": "*"
-                },
-                "time": "2018-08-08T11:22:13+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Pagespeed\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Pagespeed module",
-                "keywords": [
-                    "minify",
-                    "pagespeed"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/pagespeed/tree/1.0.0",
-                    "issues": "https://github.com/swissup/pagespeed/issues"
-                }
-            },
-            "1.0.1": {
-                "name": "swissup/pagespeed",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/pagespeed.git",
-                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/3fb4291a179a0ebb6a890c829890d96e4954bbc6",
-                    "reference": "3fb4291a179a0ebb6a890c829890d96e4954bbc6",
-                    "shasum": ""
-                },
-                "require": {
-                    "marc1706/fast-image-size": "1.*",
-                    "mrclay/minify": "~3.0.0",
-                    "spatie/image-optimizer": "^1.1",
-                    "swissup/core": "*"
-                },
-                "time": "2018-09-10T14:27:04+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Pagespeed\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Pagespeed module",
-                "keywords": [
-                    "minify",
-                    "pagespeed"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/pagespeed/tree/1.0.1",
-                    "issues": "https://github.com/swissup/pagespeed/issues"
-                }
-            },
-            "dev-master": {
-                "name": "swissup/pagespeed",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/pagespeed.git",
-                    "reference": "b66b91af2b219fee748a0f6f1b61ac0c795e22f0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/b66b91af2b219fee748a0f6f1b61ac0c795e22f0",
-                    "reference": "b66b91af2b219fee748a0f6f1b61ac0c795e22f0",
-                    "shasum": ""
-                },
-                "require": {
-                    "marc1706/fast-image-size": "1.*",
-                    "mrclay/minify": "~3.0.0",
-                    "spatie/image-optimizer": "^1.1",
-                    "swissup/core": "*"
-                },
-                "time": "2018-09-17T12:28:29+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Pagespeed\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Pagespeed module",
-                "keywords": [
-                    "minify",
-                    "pagespeed"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/pagespeed/tree/master",
-                    "issues": "https://github.com/swissup/pagespeed/issues"
                 }
             }
         },

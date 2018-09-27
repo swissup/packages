@@ -366,112 +366,6 @@
                 }
             }
         },
-        "swissup/amp": {
-            "1.0.0": {
-                "name": "swissup/amp",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/amp.git",
-                    "reference": "bf546eddeafbd684f6c39d64bff5858f489655e1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/bf546eddeafbd684f6c39d64bff5858f489655e1",
-                    "reference": "bf546eddeafbd684f6c39d64bff5858f489655e1",
-                    "shasum": ""
-                },
-                "require": {
-                    "leafo/scssphp": "0.7.6",
-                    "marc1706/fast-image-size": "1.*",
-                    "mobiledetect/mobiledetectlib": "^2.8",
-                    "swissup/core": "*",
-                    "swissup/easy-slide": "*",
-                    "swissup/easycatalogimg": "*",
-                    "swissup/rtl": "*"
-                },
-                "time": "2018-08-28T12:41:44+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/",
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Amp\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Accelerated Mobile Pages for Magento 2",
-                "support": {
-                    "source": "https://github.com/swissup/amp/tree/1.0.0",
-                    "issues": "https://github.com/swissup/amp/issues"
-                }
-            },
-            "dev-master": {
-                "name": "swissup/amp",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/amp.git",
-                    "reference": "4a406c53bbaf0021f5a7726f0f8309d10b0b9e11"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/amp/zipball/4a406c53bbaf0021f5a7726f0f8309d10b0b9e11",
-                    "reference": "4a406c53bbaf0021f5a7726f0f8309d10b0b9e11",
-                    "shasum": ""
-                },
-                "require": {
-                    "leafo/scssphp": "0.7.6",
-                    "marc1706/fast-image-size": "1.*",
-                    "mobiledetect/mobiledetectlib": "^2.8",
-                    "swissup/core": "*",
-                    "swissup/easy-slide": "*",
-                    "swissup/easycatalogimg": "*",
-                    "swissup/rtl": "*"
-                },
-                "time": "2018-09-12T11:08:43+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/",
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Amp\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Accelerated Mobile Pages for Magento 2",
-                "support": {
-                    "source": "https://github.com/swissup/amp/tree/master",
-                    "issues": "https://github.com/swissup/amp/issues"
-                }
-            }
-        },
         "swissup/argento-m2": {
             "0.1.0": {
                 "name": "swissup/argento-m2",
@@ -3737,696 +3631,6 @@
                 "homepage": "https://github.com/arvatoSCM/dockerize-magento2",
                 "support": {
                     "source": "https://github.com/swissup/dockerize-magento2/tree/feature/lets-encrypt"
-                }
-            }
-        },
-        "swissup/easy-slide": {
-            "1.0.0": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/051b5f73414a030c73893dac4a1a537568119f9a",
-                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-03-14T15:02:53+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.0",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.1": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/d938e17f3661337dffd6e40d0c33d3ebf682762d",
-                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-03-24T08:07:26+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.1",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.2": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.2",
-                "version_normalized": "1.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/35ad2898a1424b6d0d324bbca098ff033d7cef0a",
-                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-03-24T09:13:13+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.2",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.3": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.3",
-                "version_normalized": "1.0.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "4357d919e8eeb68624b650b9053c0cdfada3f124"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/4357d919e8eeb68624b650b9053c0cdfada3f124",
-                    "reference": "4357d919e8eeb68624b650b9053c0cdfada3f124",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-03-31T11:50:31+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.3",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.4": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.4",
-                "version_normalized": "1.0.4.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "16b6807fe6991121adabe9ca0f998f5ac3b53ce3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/16b6807fe6991121adabe9ca0f998f5ac3b53ce3",
-                    "reference": "16b6807fe6991121adabe9ca0f998f5ac3b53ce3",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-04-01T12:06:33+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "N/A",
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.4",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.5": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.5",
-                "version_normalized": "1.0.5.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "ea10d77ada82af58289f04c483c3dbdde7e8878e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/ea10d77ada82af58289f04c483c3dbdde7e8878e",
-                    "reference": "ea10d77ada82af58289f04c483c3dbdde7e8878e",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-04-01T14:33:51+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "N/A",
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.5",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.6": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.6",
-                "version_normalized": "1.0.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "08338a2294436a2697b6c6b022304585dc26659a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/08338a2294436a2697b6c6b022304585dc26659a",
-                    "reference": "08338a2294436a2697b6c6b022304585dc26659a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-05-24T10:46:21+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.6",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.7": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.7",
-                "version_normalized": "1.0.7.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "076a073ca7e0cad01d1c5f9c2dd87c750fc63f01"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/076a073ca7e0cad01d1c5f9c2dd87c750fc63f01",
-                    "reference": "076a073ca7e0cad01d1c5f9c2dd87c750fc63f01",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-05-30T12:26:25+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.7",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.0.8": {
-                "name": "swissup/easy-slide",
-                "version": "1.0.8",
-                "version_normalized": "1.0.8.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "a522af27d0f10a7057a0853c2c89a00f2b5aebdb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/a522af27d0f10a7057a0853c2c89a00f2b5aebdb",
-                    "reference": "a522af27d0f10a7057a0853c2c89a00f2b5aebdb",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-07-08T12:33:12+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.0.8",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.0": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.0",
-                "version_normalized": "1.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "1baa5baff5e8602019b90672b16442144b8c0a29"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/1baa5baff5e8602019b90672b16442144b8c0a29",
-                    "reference": "1baa5baff5e8602019b90672b16442144b8c0a29",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "swissup/core": "*"
-                },
-                "time": "2016-09-30T08:09:17+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.0",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.1": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.1",
-                "version_normalized": "1.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "1094a784c3c9a39d161011bb4bb3df125ddf4b32"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/1094a784c3c9a39d161011bb4bb3df125ddf4b32",
-                    "reference": "1094a784c3c9a39d161011bb4bb3df125ddf4b32",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2017-03-10T16:02:57+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.1",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.2": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.2",
-                "version_normalized": "1.1.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "375e44e2efa228709be737ba7400fc1ce9205c2a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/375e44e2efa228709be737ba7400fc1ce9205c2a",
-                    "reference": "375e44e2efa228709be737ba7400fc1ce9205c2a",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2017-06-21T07:25:24+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.2",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.3": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.3",
-                "version_normalized": "1.1.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c",
-                    "reference": "79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2017-08-21T11:26:18+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.3",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.4": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.4",
-                "version_normalized": "1.1.4.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "1061918ba0fc713a32eef7be21abe6a75155ded6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/1061918ba0fc713a32eef7be21abe6a75155ded6",
-                    "reference": "1061918ba0fc713a32eef7be21abe6a75155ded6",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2017-09-22T13:39:19+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.4",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "1.1.5": {
-                "name": "swissup/easy-slide",
-                "version": "1.1.5",
-                "version_normalized": "1.1.5.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
-                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2018-08-20T09:07:38+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.5",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
-                }
-            },
-            "dev-master": {
-                "name": "swissup/easy-slide",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/easy-slide.git",
-                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/easy-slide/zipball/bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
-                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/core": "*"
-                },
-                "time": "2018-08-20T09:07:38+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\EasySlide\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create and manage Magento sliders",
-                "keywords": [
-                    "easyslide",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/easy-slide/tree/1.1.5",
-                    "issues": "https://github.com/swissup/easy-slide/issues"
                 }
             }
         },
@@ -12054,6 +11258,164 @@
                 }
             }
         },
+        "swissup/module-amp": {
+            "1.0.0": {
+                "name": "swissup/module-amp",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-amp.git",
+                    "reference": "bf546eddeafbd684f6c39d64bff5858f489655e1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/bf546eddeafbd684f6c39d64bff5858f489655e1",
+                    "reference": "bf546eddeafbd684f6c39d64bff5858f489655e1",
+                    "shasum": ""
+                },
+                "require": {
+                    "leafo/scssphp": "0.7.6",
+                    "marc1706/fast-image-size": "1.*",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "swissup/core": "*",
+                    "swissup/easy-slide": "*",
+                    "swissup/easycatalogimg": "*",
+                    "swissup/rtl": "*"
+                },
+                "time": "2018-08-28T12:41:44+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/",
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Amp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Accelerated Mobile Pages for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/amp/tree/1.0.0",
+                    "issues": "https://github.com/swissup/amp/issues"
+                }
+            },
+            "1.1.0": {
+                "name": "swissup/module-amp",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-amp.git",
+                    "reference": "4ee208c803d12d02d490d3b318acee0901a7117b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/4ee208c803d12d02d490d3b318acee0901a7117b",
+                    "reference": "4ee208c803d12d02d490d3b318acee0901a7117b",
+                    "shasum": ""
+                },
+                "require": {
+                    "leafo/scssphp": "0.7.6",
+                    "marc1706/fast-image-size": "1.*",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "swissup/module-core": "^1.7.0",
+                    "swissup/module-easy-slide": "^1.2.0",
+                    "swissup/module-easycatalogimg": "^1.4.0",
+                    "swissup/module-rtl": "^1.1.0"
+                },
+                "time": "2018-09-27T07:09:20+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/",
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Amp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Accelerated Mobile Pages for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-amp/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-amp/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-amp",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-amp.git",
+                    "reference": "4ee208c803d12d02d490d3b318acee0901a7117b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/4ee208c803d12d02d490d3b318acee0901a7117b",
+                    "reference": "4ee208c803d12d02d490d3b318acee0901a7117b",
+                    "shasum": ""
+                },
+                "require": {
+                    "leafo/scssphp": "0.7.6",
+                    "marc1706/fast-image-size": "1.*",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "swissup/module-core": "^1.7.0",
+                    "swissup/module-easy-slide": "^1.2.0",
+                    "swissup/module-easycatalogimg": "^1.4.0",
+                    "swissup/module-rtl": "^1.1.0"
+                },
+                "time": "2018-09-27T07:09:20+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/",
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Amp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Accelerated Mobile Pages for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-amp/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-amp/issues"
+                }
+            }
+        },
         "swissup/module-askit": {
             "1.0.0": {
                 "name": "swissup/module-askit",
@@ -16518,6 +15880,747 @@
                 "support": {
                     "source": "https://github.com/swissup/module-delivery-date/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-delivery-date/issues"
+                }
+            }
+        },
+        "swissup/module-easy-slide": {
+            "1.0.0": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/051b5f73414a030c73893dac4a1a537568119f9a",
+                    "reference": "051b5f73414a030c73893dac4a1a537568119f9a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-14T15:02:53+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.0",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/d938e17f3661337dffd6e40d0c33d3ebf682762d",
+                    "reference": "d938e17f3661337dffd6e40d0c33d3ebf682762d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-24T08:07:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.1",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.2": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "reference": "35ad2898a1424b6d0d324bbca098ff033d7cef0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-24T09:13:13+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.2",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.3": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "4357d919e8eeb68624b650b9053c0cdfada3f124"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/4357d919e8eeb68624b650b9053c0cdfada3f124",
+                    "reference": "4357d919e8eeb68624b650b9053c0cdfada3f124",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-03-31T11:50:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.3",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.4": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "16b6807fe6991121adabe9ca0f998f5ac3b53ce3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/16b6807fe6991121adabe9ca0f998f5ac3b53ce3",
+                    "reference": "16b6807fe6991121adabe9ca0f998f5ac3b53ce3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-01T12:06:33+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.4",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.5": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "ea10d77ada82af58289f04c483c3dbdde7e8878e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/ea10d77ada82af58289f04c483c3dbdde7e8878e",
+                    "reference": "ea10d77ada82af58289f04c483c3dbdde7e8878e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-04-01T14:33:51+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.5",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.6": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "08338a2294436a2697b6c6b022304585dc26659a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/08338a2294436a2697b6c6b022304585dc26659a",
+                    "reference": "08338a2294436a2697b6c6b022304585dc26659a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-24T10:46:21+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.6",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.7": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "076a073ca7e0cad01d1c5f9c2dd87c750fc63f01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/076a073ca7e0cad01d1c5f9c2dd87c750fc63f01",
+                    "reference": "076a073ca7e0cad01d1c5f9c2dd87c750fc63f01",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-05-30T12:26:25+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.7",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.0.8": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "a522af27d0f10a7057a0853c2c89a00f2b5aebdb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/a522af27d0f10a7057a0853c2c89a00f2b5aebdb",
+                    "reference": "a522af27d0f10a7057a0853c2c89a00f2b5aebdb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-07-08T12:33:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.0.8",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.0": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "1baa5baff5e8602019b90672b16442144b8c0a29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/1baa5baff5e8602019b90672b16442144b8c0a29",
+                    "reference": "1baa5baff5e8602019b90672b16442144b8c0a29",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "swissup/core": "*"
+                },
+                "time": "2016-09-30T08:09:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.0",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.1": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "1094a784c3c9a39d161011bb4bb3df125ddf4b32"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/1094a784c3c9a39d161011bb4bb3df125ddf4b32",
+                    "reference": "1094a784c3c9a39d161011bb4bb3df125ddf4b32",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-03-10T16:02:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.1",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.2": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "375e44e2efa228709be737ba7400fc1ce9205c2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/375e44e2efa228709be737ba7400fc1ce9205c2a",
+                    "reference": "375e44e2efa228709be737ba7400fc1ce9205c2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-06-21T07:25:24+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.2",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.3": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c",
+                    "reference": "79be966b2534a5fc3e384d6a8eed9f3bc4a97b5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-08-21T11:26:18+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.3",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.4": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "1061918ba0fc713a32eef7be21abe6a75155ded6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/1061918ba0fc713a32eef7be21abe6a75155ded6",
+                    "reference": "1061918ba0fc713a32eef7be21abe6a75155ded6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2017-09-22T13:39:19+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.4",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.1.5": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
+                    "reference": "bf22ef0dd5ee255b064d12b6cb0bd2aea640ed43",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/core": "*"
+                },
+                "time": "2018-08-20T09:07:38+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/easy-slide/tree/1.1.5",
+                    "issues": "https://github.com/swissup/easy-slide/issues"
+                }
+            },
+            "1.2.0": {
+                "name": "swissup/module-easy-slide",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "86f346228b76098cc7d38275225c3f40bccb030c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/86f346228b76098cc7d38275225c3f40bccb030c",
+                    "reference": "86f346228b76098cc7d38275225c3f40bccb030c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2018-09-27T07:01:21+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easy-slide/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-easy-slide/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easy-slide",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "86f346228b76098cc7d38275225c3f40bccb030c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/86f346228b76098cc7d38275225c3f40bccb030c",
+                    "reference": "86f346228b76098cc7d38275225c3f40bccb030c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2018-09-27T07:01:21+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easy-slide/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-easy-slide/issues"
                 }
             }
         },

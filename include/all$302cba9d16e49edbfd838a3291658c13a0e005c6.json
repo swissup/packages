@@ -20527,26 +20527,26 @@
                     "issues": "https://github.com/swissup/module-geoip/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-geoip",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-geoip.git",
-                    "reference": "f9548b81b31e52e661569d2492c2baccda370596"
+                    "reference": "4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/f9548b81b31e52e661569d2492c2baccda370596",
-                    "reference": "f9548b81b31e52e661569d2492c2baccda370596",
+                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2",
+                    "reference": "4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2",
                     "shasum": ""
                 },
                 "require": {
                     "geoip2/geoip2": "~2.0",
                     "swissup/module-checkout": "^1.2.0"
                 },
-                "time": "2018-09-26T14:24:28+00:00",
+                "time": "2018-09-28T10:53:59+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -20576,7 +20576,60 @@
                     "postcode"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-geoip/tree/master",
+                    "source": "https://github.com/swissup/module-geoip/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-geoip/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-geoip",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-geoip.git",
+                    "reference": "4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2",
+                    "reference": "4d587408ba4cfdbc7c85536d6ef3f37ddef6b3c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0",
+                    "swissup/module-checkout": "^1.2.0"
+                },
+                "time": "2018-09-28T10:53:59+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "address detection",
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-geoip/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-geoip/issues"
                 }
             }

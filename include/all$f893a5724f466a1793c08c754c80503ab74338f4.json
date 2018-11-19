@@ -19719,12 +19719,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout.git",
-                    "reference": "fb5cfde3499883330260b22ca5002f85fd358c6f"
+                    "reference": "fe5c0c6804f5fa1e96073c15144ef1c449e1622a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-firecheckout/zipball/fb5cfde3499883330260b22ca5002f85fd358c6f",
-                    "reference": "fb5cfde3499883330260b22ca5002f85fd358c6f",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout/zipball/fe5c0c6804f5fa1e96073c15144ef1c449e1622a",
+                    "reference": "fe5c0c6804f5fa1e96073c15144ef1c449e1622a",
                     "shasum": ""
                 },
                 "require": {
@@ -19733,7 +19733,7 @@
                     "swissup/module-stickyfill": "^1.1.0",
                     "swissup/module-tippyjs": "^1.1.0"
                 },
-                "time": "2018-11-16T16:14:38+00:00",
+                "time": "2018-11-19T08:13:44+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -29632,6 +29632,44 @@
             }
         },
         "swissup/module-social-login": {
+            "1.0.0": {
+                "name": "swissup/module-social-login",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-social-login.git",
+                    "reference": "fe8100723c34781b4ef2f482438e91aa11cc2dce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/fe8100723c34781b4ef2f482438e91aa11cc2dce",
+                    "reference": "fe8100723c34781b4ef2f482438e91aa11cc2dce",
+                    "shasum": ""
+                },
+                "require": {
+                    "hybridauth/hybridauth": "^3.0@dev",
+                    "swissup/module-social-core": "^1.0"
+                },
+                "time": "2018-11-16T14:33:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SocialLogin\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Login or register in Magento store using social account",
+                "support": {
+                    "source": "https://github.com/swissup/module-social-login/tree/master",
+                    "issues": "https://github.com/swissup/module-social-login/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-social-login",
                 "version": "dev-master",

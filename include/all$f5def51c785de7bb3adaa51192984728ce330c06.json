@@ -3305,6 +3305,56 @@
                 }
             }
         },
+        "swissup/helpdesk": {
+            "1.0.0": {
+                "name": "swissup/helpdesk",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "require": {
+                    "swissup/module-helpdesk": "^1.0.0"
+                },
+                "time": "2018-11-27T11:46:04+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "desk",
+                    "help",
+                    "helpdesk",
+                    "ticket"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/helpdesk/tree/1.0.0",
+                    "issues": "https://github.com/swissup/helpdesk/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/helpdesk",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-helpdesk": "^1.0.0"
+                },
+                "time": "2018-11-27T11:46:04+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "desk",
+                    "help",
+                    "helpdesk",
+                    "ticket"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/helpdesk/tree/1.0.0",
+                    "issues": "https://github.com/swissup/helpdesk/issues"
+                }
+            }
+        },
         "swissup/highlight": {
             "1.4.0": {
                 "name": "swissup/highlight",
@@ -21208,19 +21258,19 @@
             }
         },
         "swissup/module-helpdesk": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/module-helpdesk",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "21091228294cd4dc8617b74cff26aaab9ab9195e"
+                    "reference": "679f77cdc715337c9da6bf0c25df49c78fd34eb2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/21091228294cd4dc8617b74cff26aaab9ab9195e",
-                    "reference": "21091228294cd4dc8617b74cff26aaab9ab9195e",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/679f77cdc715337c9da6bf0c25df49c78fd34eb2",
+                    "reference": "679f77cdc715337c9da6bf0c25df49c78fd34eb2",
                     "shasum": ""
                 },
                 "require": {
@@ -21228,7 +21278,7 @@
                     "league/html-to-markdown": "^4.8",
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2018-11-26T16:05:53+00:00",
+                "time": "2018-11-27T11:42:52+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -21246,7 +21296,49 @@
                     "helpdesk"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-helpdesk/tree/master",
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.0.0",
+                    "issues": "https://github.com/swissup/module-helpdesk/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-helpdesk",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "679f77cdc715337c9da6bf0c25df49c78fd34eb2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/679f77cdc715337c9da6bf0c25df49c78fd34eb2",
+                    "reference": "679f77cdc715337c9da6bf0c25df49c78fd34eb2",
+                    "shasum": ""
+                },
+                "require": {
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2018-11-27T11:42:52+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-helpdesk/issues"
                 }
             }
@@ -27365,18 +27457,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-cross-links.git",
-                    "reference": "1e12190a3f8f7322ab08e1ebe6d0c9e9c57e983e"
+                    "reference": "d2d4933784164478e33b00b579922c5e4822f277"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-cross-links/zipball/1e12190a3f8f7322ab08e1ebe6d0c9e9c57e983e",
-                    "reference": "1e12190a3f8f7322ab08e1ebe6d0c9e9c57e983e",
+                    "url": "https://api.github.com/repos/swissup/module-seo-cross-links/zipball/d2d4933784164478e33b00b579922c5e4822f277",
+                    "reference": "d2d4933784164478e33b00b579922c5e4822f277",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.7.0"
                 },
-                "time": "2018-11-23T15:54:24+00:00",
+                "time": "2018-11-27T11:42:32+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

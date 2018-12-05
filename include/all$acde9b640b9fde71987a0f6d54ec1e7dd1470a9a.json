@@ -10574,25 +10574,25 @@
                     "issues": "https://github.com/swissup/module-checkout-fields/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-checkout-fields",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-fields.git",
-                    "reference": "7ead645c332af783c41708063d5c696adde38137"
+                    "reference": "951913490bdab333ee6e1f669fc327312c00b130"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-fields/zipball/7ead645c332af783c41708063d5c696adde38137",
-                    "reference": "7ead645c332af783c41708063d5c696adde38137",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-fields/zipball/951913490bdab333ee6e1f669fc327312c00b130",
+                    "reference": "951913490bdab333ee6e1f669fc327312c00b130",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.2.0"
                 },
-                "time": "2018-12-04T10:17:12+00:00",
+                "time": "2018-12-05T15:08:16+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -10620,29 +10620,29 @@
                     "order comment"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-fields/tree/1.2.0",
+                    "source": "https://github.com/swissup/module-checkout-fields/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-checkout-fields/issues"
                 }
             },
-            "dev-dev": {
+            "dev-master": {
                 "name": "swissup/module-checkout-fields",
-                "version": "dev-dev",
-                "version_normalized": "dev-dev",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-fields.git",
-                    "reference": "8edebb6778d302152b4801667943277f98301992"
+                    "reference": "951913490bdab333ee6e1f669fc327312c00b130"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-fields/zipball/8edebb6778d302152b4801667943277f98301992",
-                    "reference": "8edebb6778d302152b4801667943277f98301992",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-fields/zipball/951913490bdab333ee6e1f669fc327312c00b130",
+                    "reference": "951913490bdab333ee6e1f669fc327312c00b130",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/checkout": "*"
+                    "swissup/module-checkout": "^1.2.0"
                 },
-                "time": "2017-06-13T14:40:05+00:00",
+                "time": "2018-12-05T15:08:16+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -10663,13 +10663,14 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Magento 2 Checkout Fields",
+                "description": "Custom checkout fields",
                 "keywords": [
-                    "checkout",
-                    "fields"
+                    "checkout fields",
+                    "checkout questions",
+                    "order comment"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-fields/tree/dev",
+                    "source": "https://github.com/swissup/module-checkout-fields/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-checkout-fields/issues"
                 }
             }
@@ -37236,6 +37237,24 @@
                     "issues": "https://github.com/swissup/checkout-fields/issues"
                 }
             },
+            "1.2.1": {
+                "name": "swissup/product-checkout-fields",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "require": {
+                    "swissup/module-checkout-fields": "^1.1.0"
+                },
+                "time": "2018-12-05T15:09:23+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom checkout fields",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-fields/tree/1.2.1",
+                    "issues": "https://github.com/swissup/checkout-fields/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/product-checkout-fields",
                 "version": "dev-master",
@@ -37243,14 +37262,14 @@
                 "require": {
                     "swissup/module-checkout-fields": "^1.1.0"
                 },
-                "time": "2018-12-04T13:14:31+00:00",
+                "time": "2018-12-05T15:09:23+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Custom checkout fields",
                 "support": {
-                    "source": "https://github.com/swissup/checkout-fields/tree/1.2.0",
+                    "source": "https://github.com/swissup/checkout-fields/tree/1.2.1",
                     "issues": "https://github.com/swissup/checkout-fields/issues"
                 }
             }

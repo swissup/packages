@@ -20932,22 +20932,22 @@
                     "issues": "https://github.com/swissup/module-firecheckout-integrations/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-firecheckout-integrations",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout-integrations.git",
-                    "reference": "615030aa7f5e6ed57cbb7821f56c9ee96c0454a9"
+                    "reference": "ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/615030aa7f5e6ed57cbb7821f56c9ee96c0454a9",
-                    "reference": "615030aa7f5e6ed57cbb7821f56c9ee96c0454a9",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db",
+                    "reference": "ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db",
                     "shasum": ""
                 },
-                "time": "2018-12-24T09:44:42+00:00",
+                "time": "2018-12-26T08:02:16+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20965,7 +20965,44 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/master",
+                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-firecheckout-integrations/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-firecheckout-integrations",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-firecheckout-integrations.git",
+                    "reference": "ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db",
+                    "reference": "ee903fa3da9f5b0f95c24bb87fe0f95175a0e2db",
+                    "shasum": ""
+                },
+                "time": "2018-12-26T08:02:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FirecheckoutIntegrations\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Code for third-party modules that requires additional logic at firecheckout page",
+                "keywords": [
+                    "firecheckout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-firecheckout-integrations/issues"
                 }
             }

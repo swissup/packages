@@ -2976,14 +2976,14 @@
                     "source": "https://github.com/swissup/email/tree/0.2.1"
                 }
             },
-            "dev-master": {
+            "0.2.3": {
                 "name": "swissup/email",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
                 "require": {
                     "swissup/module-email": "^0.2.0"
                 },
-                "time": "2018-11-28T13:21:33+00:00",
+                "time": "2018-12-27T08:14:20+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
@@ -2998,7 +2998,32 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/email/tree/master"
+                    "source": "https://github.com/swissup/email/tree/0.2.3"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/email",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-email": "^0.2.0"
+                },
+                "time": "2018-12-27T08:14:20+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+                "keywords": [
+                    "amazon ses",
+                    "email",
+                    "gmail",
+                    "mandrill",
+                    "sendmail",
+                    "smtp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/email/tree/0.2.3"
                 }
             }
         },

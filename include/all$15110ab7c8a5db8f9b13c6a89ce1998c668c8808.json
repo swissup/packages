@@ -17941,25 +17941,25 @@
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             },
-            "dev-master": {
+            "1.4.1": {
                 "name": "swissup/module-easytabs",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7"
+                    "reference": "2d66e434fe2964cec582137bdd9075a840436bab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
-                    "reference": "3cc9ad654149626ff3c32c650dc5fd7e3613c5b7",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/2d66e434fe2964cec582137bdd9075a840436bab",
+                    "reference": "2d66e434fe2964cec582137bdd9075a840436bab",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2018-09-26T11:15:23+00:00",
+                "time": "2019-01-04T13:04:01+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -17990,7 +17990,60 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/1.4.0",
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.4.1",
+                    "issues": "https://github.com/swissup/module-easytabs/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easytabs",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
+                    "reference": "2d66e434fe2964cec582137bdd9075a840436bab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/2d66e434fe2964cec582137bdd9075a840436bab",
+                    "reference": "2d66e434fe2964cec582137bdd9075a840436bab",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-01-04T13:04:01+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.4.1",
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             }

@@ -7448,25 +7448,25 @@
                     "issues": "https://github.com/swissup/module-ajaxsearch/issues"
                 }
             },
-            "dev-master": {
+            "1.4.2": {
                 "name": "swissup/module-ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxsearch.git",
-                    "reference": "45e385d563d7708fb56945e19952f65ac159eff8"
+                    "reference": "b7930471a09974d152140d22adfc5f3f99a9ce26"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/45e385d563d7708fb56945e19952f65ac159eff8",
-                    "reference": "45e385d563d7708fb56945e19952f65ac159eff8",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/b7930471a09974d152140d22adfc5f3f99a9ce26",
+                    "reference": "b7930471a09974d152140d22adfc5f3f99a9ce26",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2019-01-02T08:40:18+00:00",
+                "time": "2019-01-04T09:46:34+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -7495,7 +7495,58 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxsearch/tree/master",
+                    "source": "https://github.com/swissup/module-ajaxsearch/tree/1.4.2",
+                    "issues": "https://github.com/swissup/module-ajaxsearch/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxsearch.git",
+                    "reference": "b7930471a09974d152140d22adfc5f3f99a9ce26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/b7930471a09974d152140d22adfc5f3f99a9ce26",
+                    "reference": "b7930471a09974d152140d22adfc5f3f99a9ce26",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-01-04T09:46:34+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-ajaxsearch.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-ajaxsearch/tree/1.4.2",
                     "issues": "https://github.com/swissup/module-ajaxsearch/issues"
                 }
             }

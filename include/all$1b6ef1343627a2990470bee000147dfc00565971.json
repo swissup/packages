@@ -9553,26 +9553,26 @@
                     "issues": "https://github.com/swissup/module-attributepages/issues"
                 }
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "swissup/module-attributepages",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-attributepages.git",
-                    "reference": "b8d198f50d96c231ea7c3d43ffca7815c1df60c3"
+                    "reference": "bb57bf51355d7255ca8122fd7be3233dff8f53c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-attributepages/zipball/b8d198f50d96c231ea7c3d43ffca7815c1df60c3",
-                    "reference": "b8d198f50d96c231ea7c3d43ffca7815c1df60c3",
+                    "url": "https://api.github.com/repos/swissup/module-attributepages/zipball/bb57bf51355d7255ca8122fd7be3233dff8f53c5",
+                    "reference": "bb57bf51355d7255ca8122fd7be3233dff8f53c5",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0",
                     "swissup/module-slick-carousel": "^1.2.0"
                 },
-                "time": "2018-12-20T15:09:58+00:00",
+                "time": "2019-01-04T09:44:37+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -9602,7 +9602,60 @@
                     "brand page"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-attributepages/tree/master",
+                    "source": "https://github.com/swissup/module-attributepages/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-attributepages/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-attributepages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-attributepages.git",
+                    "reference": "bb57bf51355d7255ca8122fd7be3233dff8f53c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-attributepages/zipball/bb57bf51355d7255ca8122fd7be3233dff8f53c5",
+                    "reference": "bb57bf51355d7255ca8122fd7be3233dff8f53c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0",
+                    "swissup/module-slick-carousel": "^1.2.0"
+                },
+                "time": "2019-01-04T09:44:37+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/attributes-and-brands-pages-for-magento-2.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/attributepages/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/attributepages/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Attributepages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Attribute Pages extension from Swissup",
+                "keywords": [
+                    "attribute page",
+                    "attributepages",
+                    "brand page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-attributepages/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-attributepages/issues"
                 }
             }

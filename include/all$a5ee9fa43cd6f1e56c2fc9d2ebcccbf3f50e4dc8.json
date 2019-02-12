@@ -17922,25 +17922,25 @@
                     "issues": "https://github.com/swissup/module-easyflags/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-easyflags",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easyflags.git",
-                    "reference": "69b6f253c5bfe49a674564f0ffb100b6a8070db9"
+                    "reference": "bc817ba9f768a958598c5a0b9f058a8bd16dfab6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easyflags/zipball/69b6f253c5bfe49a674564f0ffb100b6a8070db9",
-                    "reference": "69b6f253c5bfe49a674564f0ffb100b6a8070db9",
+                    "url": "https://api.github.com/repos/swissup/module-easyflags/zipball/bc817ba9f768a958598c5a0b9f058a8bd16dfab6",
+                    "reference": "bc817ba9f768a958598c5a0b9f058a8bd16dfab6",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.8.0"
                 },
-                "time": "2019-02-04T15:54:55+00:00",
+                "time": "2019-02-12T10:14:05+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -17955,7 +17955,44 @@
                 ],
                 "description": "Module replaces default store switcher with flag images",
                 "support": {
-                    "source": "https://github.com/swissup/module-easyflags/tree/master",
+                    "source": "https://github.com/swissup/module-easyflags/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-easyflags/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easyflags",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easyflags.git",
+                    "reference": "bc817ba9f768a958598c5a0b9f058a8bd16dfab6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easyflags/zipball/bc817ba9f768a958598c5a0b9f058a8bd16dfab6",
+                    "reference": "bc817ba9f768a958598c5a0b9f058a8bd16dfab6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.0"
+                },
+                "time": "2019-02-12T10:14:05+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module replaces default store switcher with flag images",
+                "support": {
+                    "source": "https://github.com/swissup/module-easyflags/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-easyflags/issues"
                 }
             }

@@ -14037,22 +14037,22 @@
                     "issues": "https://github.com/swissup/module-core/issues"
                 }
             },
-            "dev-master": {
+            "1.8.3": {
                 "name": "swissup/module-core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.8.3",
+                "version_normalized": "1.8.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-core.git",
-                    "reference": "0de5d75b4388b0b85df68a30c7e45aa26d226e3a"
+                    "reference": "0fe4d62df916d8f575aaedc74d9e58a8eabfdc43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-core/zipball/0de5d75b4388b0b85df68a30c7e45aa26d226e3a",
-                    "reference": "0de5d75b4388b0b85df68a30c7e45aa26d226e3a",
+                    "url": "https://api.github.com/repos/swissup/module-core/zipball/0fe4d62df916d8f575aaedc74d9e58a8eabfdc43",
+                    "reference": "0fe4d62df916d8f575aaedc74d9e58a8eabfdc43",
                     "shasum": ""
                 },
-                "time": "2019-03-05T15:23:17+00:00",
+                "time": "2019-03-06T08:23:23+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -14075,7 +14075,49 @@
                     "swissup services"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-core/tree/master",
+                    "source": "https://github.com/swissup/module-core/tree/1.8.3",
+                    "issues": "https://github.com/swissup/module-core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-core.git",
+                    "reference": "0fe4d62df916d8f575aaedc74d9e58a8eabfdc43"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-core/zipball/0fe4d62df916d8f575aaedc74d9e58a8eabfdc43",
+                    "reference": "0fe4d62df916d8f575aaedc74d9e58a8eabfdc43",
+                    "shasum": ""
+                },
+                "time": "2019-03-06T08:23:23+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "keywords": [
+                    "core",
+                    "installer",
+                    "module manager",
+                    "notifier",
+                    "popup messenger",
+                    "swissup services"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-core/tree/1.8.3",
                     "issues": "https://github.com/swissup/module-core/issues"
                 }
             }

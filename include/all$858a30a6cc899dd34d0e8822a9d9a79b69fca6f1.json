@@ -23093,63 +23093,6 @@
                     "source": "https://github.com/swissup/module-firecheckout/tree/1.18.0",
                     "issues": "https://github.com/swissup/module-firecheckout/issues"
                 }
-            },
-            "dev-feature-rtl": {
-                "name": "swissup/module-firecheckout",
-                "version": "dev-feature-rtl",
-                "version_normalized": "dev-feature-rtl",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-firecheckout.git",
-                    "reference": "a4684b51fc9001e0bb818c67c6b0040ee57d40dd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-firecheckout/zipball/a4684b51fc9001e0bb818c67c6b0040ee57d40dd",
-                    "reference": "a4684b51fc9001e0bb818c67c6b0040ee57d40dd",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-checkout": "^1.2.0",
-                    "swissup/module-firecheckout-integrations": "^1.1.0",
-                    "swissup/module-rtl": "^1.3.0",
-                    "swissup/module-stickyfill": "^1.1.0",
-                    "swissup/module-tippyjs": "^1.1.0"
-                },
-                "time": "2019-03-20T08:43:19+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "identity_key": "https://www.firecheckout.net/license/customer/identity/",
-                            "store": "https://www.firecheckout.net/order",
-                            "download": "https://www.firecheckout.net/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/firecheckout/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Firecheckout\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Onestep checkout extension for Magento2",
-                "keywords": [
-                    "checkout",
-                    "firecheckout",
-                    "onestep checkout"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-firecheckout/tree/feature-rtl",
-                    "issues": "https://github.com/swissup/module-firecheckout/issues"
-                }
             }
         },
         "swissup/module-firecheckout-integrations": {

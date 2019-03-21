@@ -28535,25 +28535,25 @@
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/module-orderattachment",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-orderattachment.git",
-                    "reference": "741d2dcc62f41c797b2386c2fd14c24cfcd7c12c"
+                    "reference": "35dec4f931588606e1f4d8d8de9ccfbef81d5e54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/741d2dcc62f41c797b2386c2fd14c24cfcd7c12c",
-                    "reference": "741d2dcc62f41c797b2386c2fd14c24cfcd7c12c",
+                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/35dec4f931588606e1f4d8d8de9ccfbef81d5e54",
+                    "reference": "35dec4f931588606e1f4d8d8de9ccfbef81d5e54",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.2.0"
                 },
-                "time": "2019-03-20T10:01:13+00:00",
+                "time": "2019-03-21T09:00:30+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -28576,7 +28576,52 @@
                 ],
                 "description": "Order Attachment Magento 2 extension",
                 "support": {
-                    "source": "https://github.com/swissup/module-orderattachment/tree/master",
+                    "source": "https://github.com/swissup/module-orderattachment/tree/1.3.1",
+                    "issues": "https://github.com/swissup/module-orderattachment/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-orderattachment",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-orderattachment.git",
+                    "reference": "35dec4f931588606e1f4d8d8de9ccfbef81d5e54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/35dec4f931588606e1f4d8d8de9ccfbef81d5e54",
+                    "reference": "35dec4f931588606e1f4d8d8de9ccfbef81d5e54",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.2.0"
+                },
+                "time": "2019-03-21T09:00:30+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/order-attachments/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Order Attachment Magento 2 extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-orderattachment/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             }

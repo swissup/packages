@@ -15643,25 +15643,25 @@
                     "issues": "https://github.com/swissup/module-delivery-date/issues"
                 }
             },
-            "dev-master": {
+            "1.4.1": {
                 "name": "swissup/module-delivery-date",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delivery-date.git",
-                    "reference": "41b623ebe71c5bc2d7d180dcecfda6e182d4d2f4"
+                    "reference": "2c5ae62bbe0fb304756084aa1e9f012519067e2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/41b623ebe71c5bc2d7d180dcecfda6e182d4d2f4",
-                    "reference": "41b623ebe71c5bc2d7d180dcecfda6e182d4d2f4",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/2c5ae62bbe0fb304756084aa1e9f012519067e2c",
+                    "reference": "2c5ae62bbe0fb304756084aa1e9f012519067e2c",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.2.0"
                 },
-                "time": "2019-03-12T11:13:54+00:00",
+                "time": "2019-03-21T09:00:25+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15684,7 +15684,52 @@
                 ],
                 "description": "Choose delivery date directly at the checkout page",
                 "support": {
-                    "source": "https://github.com/swissup/module-delivery-date/tree/master",
+                    "source": "https://github.com/swissup/module-delivery-date/tree/1.4.1",
+                    "issues": "https://github.com/swissup/module-delivery-date/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-delivery-date",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "2c5ae62bbe0fb304756084aa1e9f012519067e2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/2c5ae62bbe0fb304756084aa1e9f012519067e2c",
+                    "reference": "2c5ae62bbe0fb304756084aa1e9f012519067e2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.2.0"
+                },
+                "time": "2019-03-21T09:00:25+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-delivery-date/tree/1.4.1",
                     "issues": "https://github.com/swissup/module-delivery-date/issues"
                 }
             }

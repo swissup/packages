@@ -26432,25 +26432,25 @@
                     "issues": "https://github.com/swissup/module-hreflang/issues"
                 }
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "swissup/module-hreflang",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-hreflang.git",
-                    "reference": "6e5c8f24eef9cb81c372244473b80596d71757b7"
+                    "reference": "832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/6e5c8f24eef9cb81c372244473b80596d71757b7",
-                    "reference": "6e5c8f24eef9cb81c372244473b80596d71757b7",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462",
+                    "reference": "832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.1.0"
                 },
-                "time": "2019-03-07T12:20:06+00:00",
+                "time": "2019-03-26T13:53:56+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -26475,7 +26475,54 @@
                     "hreflang tag"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-hreflang/tree/master",
+                    "source": "https://github.com/swissup/module-hreflang/tree/1.2.2",
+                    "issues": "https://github.com/swissup/module-hreflang/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-hreflang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-hreflang.git",
+                    "reference": "832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462",
+                    "reference": "832fc0d4b4a1c1dec395ee15e8a276b2c4ef1462",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.1.0"
+                },
+                "time": "2019-03-26T13:53:56+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-hreflang/tree/1.2.2",
                     "issues": "https://github.com/swissup/module-hreflang/issues"
                 }
             }

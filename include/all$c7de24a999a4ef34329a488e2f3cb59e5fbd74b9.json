@@ -26360,25 +26360,25 @@
                     "issues": "https://github.com/swissup/module-hover-gallery/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-hover-gallery",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-hover-gallery.git",
-                    "reference": "78f3b67ed85a9a0d3d590584991aaef41ac4eda4"
+                    "reference": "0c4a1634d4f1090f9bbec9e66a15fe57fac2764e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-hover-gallery/zipball/78f3b67ed85a9a0d3d590584991aaef41ac4eda4",
-                    "reference": "78f3b67ed85a9a0d3d590584991aaef41ac4eda4",
+                    "url": "https://api.github.com/repos/swissup/module-hover-gallery/zipball/0c4a1634d4f1090f9bbec9e66a15fe57fac2764e",
+                    "reference": "0c4a1634d4f1090f9bbec9e66a15fe57fac2764e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2019-03-12T08:04:52+00:00",
+                "time": "2019-03-29T08:28:42+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -26393,7 +26393,44 @@
                 ],
                 "description": "Product image hover gallery for Magento 2.x e-commerce",
                 "support": {
-                    "source": "https://github.com/swissup/module-hover-gallery/tree/master",
+                    "source": "https://github.com/swissup/module-hover-gallery/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-hover-gallery/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-hover-gallery",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-hover-gallery.git",
+                    "reference": "0c4a1634d4f1090f9bbec9e66a15fe57fac2764e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-hover-gallery/zipball/0c4a1634d4f1090f9bbec9e66a15fe57fac2764e",
+                    "reference": "0c4a1634d4f1090f9bbec9e66a15fe57fac2764e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-03-29T08:28:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HoverGallery\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product image hover gallery for Magento 2.x e-commerce",
+                "support": {
+                    "source": "https://github.com/swissup/module-hover-gallery/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-hover-gallery/issues"
                 }
             }

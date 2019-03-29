@@ -27438,25 +27438,25 @@
                     "issues": "https://github.com/swissup/module-lightboxpro/issues"
                 }
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "swissup/module-lightboxpro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-lightboxpro.git",
-                    "reference": "30571058642de5e97e665cd8aeb554b20f908834"
+                    "reference": "9ac4a23c36de9a954fb4803aac68239e71ff5eac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/30571058642de5e97e665cd8aeb554b20f908834",
-                    "reference": "30571058642de5e97e665cd8aeb554b20f908834",
+                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/9ac4a23c36de9a954fb4803aac68239e71ff5eac",
+                    "reference": "9ac4a23c36de9a954fb4803aac68239e71ff5eac",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2019-03-07T07:48:36+00:00",
+                "time": "2019-03-29T08:34:14+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -27484,7 +27484,57 @@
                     "zoom"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-lightboxpro/tree/master",
+                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.2.2",
+                    "issues": "https://github.com/swissup/module-lightboxpro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-lightboxpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-lightboxpro.git",
+                    "reference": "9ac4a23c36de9a954fb4803aac68239e71ff5eac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/9ac4a23c36de9a954fb4803aac68239e71ff5eac",
+                    "reference": "9ac4a23c36de9a954fb4803aac68239e71ff5eac",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-03-29T08:34:14+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/lightboxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Lightboxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Lightbox Pro module for Magento 2",
+                "keywords": [
+                    "lightbox",
+                    "product image",
+                    "zoom"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.2.2",
                     "issues": "https://github.com/swissup/module-lightboxpro/issues"
                 }
             }

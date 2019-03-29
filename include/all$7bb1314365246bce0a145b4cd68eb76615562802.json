@@ -28112,6 +28112,43 @@
                     "source": "https://github.com/swissup/module-maintenance/tree/1.1.0",
                     "issues": "https://github.com/swissup/module-maintenance/issues"
                 }
+            },
+            "dev-development": {
+                "name": "swissup/module-maintenance",
+                "version": "dev-development",
+                "version_normalized": "dev-development",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-maintenance.git",
+                    "reference": "c4c87d8319bad363d79c3d774937ada8023fb588"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/c4c87d8319bad363d79c3d774937ada8023fb588",
+                    "reference": "c4c87d8319bad363d79c3d774937ada8023fb588",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-03-29T16:04:14+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Maintenance\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Maintenance store extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-maintenance/tree/development",
+                    "issues": "https://github.com/swissup/module-maintenance/issues"
+                }
             }
         },
         "swissup/module-navigationpro": {
@@ -29915,12 +29952,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "9b417ccfad79cbb48e89f86a2c76332c54f5220f"
+                    "reference": "5e2fd024ab76355d47a02c2c79ab0de6087df81c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/9b417ccfad79cbb48e89f86a2c76332c54f5220f",
-                    "reference": "9b417ccfad79cbb48e89f86a2c76332c54f5220f",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/5e2fd024ab76355d47a02c2c79ab0de6087df81c",
+                    "reference": "5e2fd024ab76355d47a02c2c79ab0de6087df81c",
                     "shasum": ""
                 },
                 "require": {
@@ -29931,7 +29968,7 @@
                     "swissup/module-core": "^1.7.0",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2019-03-18T13:24:20+00:00",
+                "time": "2019-03-29T10:23:28+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -29950,7 +29987,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/1.2.1",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/master",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }
@@ -43032,7 +43069,7 @@
                 "require": {
                     "swissup/module-pagespeed": "^1.1.0"
                 },
-                "time": "2019-03-18T13:25:29+00:00",
+                "time": "2019-03-29T10:23:45+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
@@ -43043,7 +43080,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/pagespeed/tree/1.2.1"
+                    "source": "https://github.com/swissup/pagespeed/tree/master"
                 }
             }
         },

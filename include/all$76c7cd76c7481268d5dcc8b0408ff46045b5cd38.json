@@ -33327,25 +33327,25 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
-            "dev-master": {
+            "1.4.1": {
                 "name": "swissup/module-rich-snippets",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "c7a1a73289fb2d4f3fb91afe9afa2f6f5de6cb0e"
+                    "reference": "1c968ed93ec5c525efb440d687d938e52b21345f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/c7a1a73289fb2d4f3fb91afe9afa2f6f5de6cb0e",
-                    "reference": "c7a1a73289fb2d4f3fb91afe9afa2f6f5de6cb0e",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/1c968ed93ec5c525efb440d687d938e52b21345f",
+                    "reference": "1c968ed93ec5c525efb440d687d938e52b21345f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.1.0"
                 },
-                "time": "2019-04-09T13:43:26+00:00",
+                "time": "2019-04-18T11:37:36+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -33360,7 +33360,44 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.1",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-rich-snippets",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "1c968ed93ec5c525efb440d687d938e52b21345f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/1c968ed93ec5c525efb440d687d938e52b21345f",
+                    "reference": "1c968ed93ec5c525efb440d687d938e52b21345f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.1.0"
+                },
+                "time": "2019-04-18T11:37:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.1",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }

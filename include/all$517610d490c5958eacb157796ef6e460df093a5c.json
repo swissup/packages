@@ -32987,19 +32987,19 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/module-pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "1759bebb3e228d16086fd5b8b173b8b39aca596f"
+                    "reference": "c9361610a1bbc75df62530b96dc2eb80d912ef6d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/1759bebb3e228d16086fd5b8b173b8b39aca596f",
-                    "reference": "1759bebb3e228d16086fd5b8b173b8b39aca596f",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/c9361610a1bbc75df62530b96dc2eb80d912ef6d",
+                    "reference": "c9361610a1bbc75df62530b96dc2eb80d912ef6d",
                     "shasum": ""
                 },
                 "require": {
@@ -33008,7 +33008,7 @@
                 "suggest": {
                     "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
                 },
-                "time": "2019-05-06T12:33:09+00:00",
+                "time": "2019-05-15T11:30:09+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -33023,7 +33023,47 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/master",
+                    "source": "https://github.com/swissup/module-pro-labels/tree/1.3.1",
+                    "issues": "https://github.com/swissup/module-pro-labels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "c9361610a1bbc75df62530b96dc2eb80d912ef6d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/c9361610a1bbc75df62530b96dc2eb80d912ef6d",
+                    "reference": "c9361610a1bbc75df62530b96dc2eb80d912ef6d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.0"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2019-05-15T11:30:09+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             }

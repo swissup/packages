@@ -39902,19 +39902,19 @@
                     "issues": "https://github.com/swissup/module-sold-together/issues"
                 }
             },
-            "dev-master": {
+            "1.6.0": {
                 "name": "swissup/module-sold-together",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-sold-together.git",
-                    "reference": "f92a7e67485de1d2b3646f7d0362308d5973141c"
+                    "reference": "37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/f92a7e67485de1d2b3646f7d0362308d5973141c",
-                    "reference": "f92a7e67485de1d2b3646f7d0362308d5973141c",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb",
+                    "reference": "37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb",
                     "shasum": ""
                 },
                 "require": {
@@ -39922,7 +39922,7 @@
                     "swissup/module-rtl": "^1.1.0",
                     "swissup/module-slick-carousel": "^1.2.0"
                 },
-                "time": "2019-05-22T14:00:24+00:00",
+                "time": "2019-05-23T12:56:12+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -39937,7 +39937,46 @@
                 ],
                 "description": "Sold Together for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-sold-together/tree/master",
+                    "source": "https://github.com/swissup/module-sold-together/tree/1.6.0",
+                    "issues": "https://github.com/swissup/module-sold-together/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-sold-together",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together.git",
+                    "reference": "37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb",
+                    "reference": "37d5fd4a0ead20cb2d5c86e572822e46fa2ceabb",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0",
+                    "swissup/module-rtl": "^1.1.0",
+                    "swissup/module-slick-carousel": "^1.2.0"
+                },
+                "time": "2019-05-23T12:56:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Sold Together for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-sold-together/tree/1.6.0",
                     "issues": "https://github.com/swissup/module-sold-together/issues"
                 }
             }

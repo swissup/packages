@@ -36380,25 +36380,25 @@
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "swissup/module-seo-pager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-pager.git",
-                    "reference": "06ccea25ce31bdf041d5336d172229a94f68af1e"
+                    "reference": "7401dd3c750ec5f53730a6e01156fcf73a1f321d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/06ccea25ce31bdf041d5336d172229a94f68af1e",
-                    "reference": "06ccea25ce31bdf041d5336d172229a94f68af1e",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/7401dd3c750ec5f53730a6e01156fcf73a1f321d",
+                    "reference": "7401dd3c750ec5f53730a6e01156fcf73a1f321d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.1.0"
                 },
-                "time": "2019-05-21T13:48:45+00:00",
+                "time": "2019-05-23T14:00:25+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -36425,7 +36425,56 @@
                     "seo pagination"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-pager/tree/master",
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-seo-pager/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-pager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-pager.git",
+                    "reference": "7401dd3c750ec5f53730a6e01156fcf73a1f321d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/7401dd3c750ec5f53730a6e01156fcf73a1f321d",
+                    "reference": "7401dd3c750ec5f53730a6e01156fcf73a1f321d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.1.0"
+                },
+                "time": "2019-05-23T14:00:25+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoPager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 pagination",
+                "keywords": [
+                    "better pagination",
+                    "seo pagination"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             }

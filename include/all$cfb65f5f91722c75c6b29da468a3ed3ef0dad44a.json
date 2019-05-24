@@ -11720,25 +11720,25 @@
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             },
-            "dev-master": {
+            "1.4.3": {
                 "name": "swissup/module-askit",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "f00f3f9c58796c0bf138f4ee47c86208e61a73ee"
+                    "reference": "be20e110ffbbe8f5277269ac419a1f59b44bc1b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/f00f3f9c58796c0bf138f4ee47c86208e61a73ee",
-                    "reference": "f00f3f9c58796c0bf138f4ee47c86208e61a73ee",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/be20e110ffbbe8f5277269ac419a1f59b44bc1b7",
+                    "reference": "be20e110ffbbe8f5277269ac419a1f59b44bc1b7",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.7.0"
                 },
-                "time": "2019-05-21T12:36:20+00:00",
+                "time": "2019-05-24T13:31:37+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11770,7 +11770,61 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-askit/tree/master",
+                    "source": "https://github.com/swissup/module-askit/tree/1.4.3",
+                    "issues": "https://github.com/swissup/module-askit/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-askit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "be20e110ffbbe8f5277269ac419a1f59b44bc1b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/be20e110ffbbe8f5277269ac419a1f59b44bc1b7",
+                    "reference": "be20e110ffbbe8f5277269ac419a1f59b44bc1b7",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.7.0"
+                },
+                "time": "2019-05-24T13:31:37+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-askit/tree/1.4.3",
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             }

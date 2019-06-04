@@ -30945,25 +30945,25 @@
                     "issues": "https://github.com/swissup/module-maintenance/issues"
                 }
             },
-            "dev-master": {
+            "2.0.1": {
                 "name": "swissup/module-maintenance",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-maintenance.git",
-                    "reference": "49b9a828ab284298175ad986fbe55bea6d2f19e6"
+                    "reference": "59d5122a9d8dc8ebe8d24fca5375ffc148250caf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/49b9a828ab284298175ad986fbe55bea6d2f19e6",
-                    "reference": "49b9a828ab284298175ad986fbe55bea6d2f19e6",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/59d5122a9d8dc8ebe8d24fca5375ffc148250caf",
+                    "reference": "59d5122a9d8dc8ebe8d24fca5375ffc148250caf",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0"
+                    "swissup/module-core": "^1.8.5"
                 },
-                "time": "2019-05-21T08:05:08+00:00",
+                "time": "2019-06-04T11:59:51+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -30978,7 +30978,44 @@
                 ],
                 "description": "Maintenance store extension",
                 "support": {
-                    "source": "https://github.com/swissup/module-maintenance/tree/master",
+                    "source": "https://github.com/swissup/module-maintenance/tree/2.0.1",
+                    "issues": "https://github.com/swissup/module-maintenance/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-maintenance",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-maintenance.git",
+                    "reference": "59d5122a9d8dc8ebe8d24fca5375ffc148250caf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/59d5122a9d8dc8ebe8d24fca5375ffc148250caf",
+                    "reference": "59d5122a9d8dc8ebe8d24fca5375ffc148250caf",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.5"
+                },
+                "time": "2019-06-04T11:59:51+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Maintenance\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Maintenance store extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-maintenance/tree/2.0.1",
                     "issues": "https://github.com/swissup/module-maintenance/issues"
                 }
             }

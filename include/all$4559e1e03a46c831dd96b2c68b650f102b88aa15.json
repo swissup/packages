@@ -23596,25 +23596,25 @@
                     "issues": "https://github.com/swissup/module-fblike/issues"
                 }
             },
-            "dev-master": {
+            "1.3.2": {
                 "name": "swissup/module-fblike",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-fblike.git",
-                    "reference": "5fa2e69c750e07659e77135be7743bb37663eefb"
+                    "reference": "bb6bd00c2addd23a9be96aff2ac6f87afc7758ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/5fa2e69c750e07659e77135be7743bb37663eefb",
-                    "reference": "5fa2e69c750e07659e77135be7743bb37663eefb",
+                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/bb6bd00c2addd23a9be96aff2ac6f87afc7758ed",
+                    "reference": "bb6bd00c2addd23a9be96aff2ac6f87afc7758ed",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0"
+                    "swissup/module-core": "^1.8.5"
                 },
-                "time": "2019-05-07T12:48:13+00:00",
+                "time": "2019-06-07T08:01:03+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -23629,7 +23629,44 @@
                 ],
                 "description": "Facebook Like Button for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-fblike/tree/master",
+                    "source": "https://github.com/swissup/module-fblike/tree/1.3.2",
+                    "issues": "https://github.com/swissup/module-fblike/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-fblike",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-fblike.git",
+                    "reference": "bb6bd00c2addd23a9be96aff2ac6f87afc7758ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/bb6bd00c2addd23a9be96aff2ac6f87afc7758ed",
+                    "reference": "bb6bd00c2addd23a9be96aff2ac6f87afc7758ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.5"
+                },
+                "time": "2019-06-07T08:01:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Facebook Like Button for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-fblike/tree/1.3.2",
                     "issues": "https://github.com/swissup/module-fblike/issues"
                 }
             }

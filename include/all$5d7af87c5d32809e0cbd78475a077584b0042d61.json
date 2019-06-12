@@ -37539,22 +37539,22 @@
                     "issues": "https://github.com/swissup/module-rtl/issues"
                 }
             },
-            "dev-master": {
+            "1.3.2": {
                 "name": "swissup/module-rtl",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-rtl.git",
-                    "reference": "8cc30d90ca44ff61ced6c5be3e6368b8296a7f5a"
+                    "reference": "6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/8cc30d90ca44ff61ced6c5be3e6368b8296a7f5a",
-                    "reference": "8cc30d90ca44ff61ced6c5be3e6368b8296a7f5a",
+                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84",
+                    "reference": "6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84",
                     "shasum": ""
                 },
-                "time": "2019-03-27T08:12:19+00:00",
+                "time": "2019-06-12T09:22:57+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -37572,7 +37572,44 @@
                     "rtl"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-rtl/tree/1.3.1",
+                    "source": "https://github.com/swissup/module-rtl/tree/1.3.2",
+                    "issues": "https://github.com/swissup/module-rtl/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-rtl",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-rtl.git",
+                    "reference": "6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84",
+                    "reference": "6a9eb31d1bb5fd9490b0eafb5fef8cf6397d5a84",
+                    "shasum": ""
+                },
+                "time": "2019-06-12T09:22:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Rtl\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Magento2 RTL detection",
+                "keywords": [
+                    "rtl"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-rtl/tree/1.3.2",
                     "issues": "https://github.com/swissup/module-rtl/issues"
                 }
             }

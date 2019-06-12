@@ -39696,25 +39696,25 @@
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },
-            "dev-master": {
+            "1.5.3": {
                 "name": "swissup/module-seo-urls",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-urls.git",
-                    "reference": "f49a3224096ee810fda404b3cf109e6feef87da4"
+                    "reference": "02e832c88cabc04cdfc60fa554da189cd898fa42"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/f49a3224096ee810fda404b3cf109e6feef87da4",
-                    "reference": "f49a3224096ee810fda404b3cf109e6feef87da4",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/02e832c88cabc04cdfc60fa554da189cd898fa42",
+                    "reference": "02e832c88cabc04cdfc60fa554da189cd898fa42",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.1.0"
+                    "swissup/module-seo-core": "^1.1.1"
                 },
-                "time": "2019-06-06T08:31:47+00:00",
+                "time": "2019-06-12T07:36:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -39741,7 +39741,56 @@
                     "seo urls"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-urls/tree/master",
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.3",
+                    "issues": "https://github.com/swissup/module-seo-urls/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-urls",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-urls.git",
+                    "reference": "02e832c88cabc04cdfc60fa554da189cd898fa42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/02e832c88cabc04cdfc60fa554da189cd898fa42",
+                    "reference": "02e832c88cabc04cdfc60fa554da189cd898fa42",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.1.1"
+                },
+                "time": "2019-06-12T07:36:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better ursl",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.3",
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },

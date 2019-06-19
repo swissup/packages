@@ -11313,12 +11313,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-amp.git",
-                    "reference": "58ddfc0fc4b9947437148029da9e15573724dc47"
+                    "reference": "d28dcfd846caf139b9529921824678a9a3008b05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/58ddfc0fc4b9947437148029da9e15573724dc47",
-                    "reference": "58ddfc0fc4b9947437148029da9e15573724dc47",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/d28dcfd846caf139b9529921824678a9a3008b05",
+                    "reference": "d28dcfd846caf139b9529921824678a9a3008b05",
                     "shasum": ""
                 },
                 "require": {
@@ -11330,7 +11330,7 @@
                     "swissup/module-easycatalogimg": "^1.4.3",
                     "swissup/module-rtl": "^1.3.1"
                 },
-                "time": "2019-06-12T08:07:05+00:00",
+                "time": "2019-06-18T11:37:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11354,7 +11354,7 @@
                 ],
                 "description": "Accelerated Mobile Pages for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-amp/tree/1.3.3",
+                    "source": "https://github.com/swissup/module-amp/tree/master",
                     "issues": "https://github.com/swissup/module-amp/issues"
                 }
             }
@@ -18665,18 +18665,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delivery-date.git",
-                    "reference": "548f7a57f110fd1ed12f800bf48633de07580d82"
+                    "reference": "06b28475a3858166047583dd22a6ded8dafe865d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/548f7a57f110fd1ed12f800bf48633de07580d82",
-                    "reference": "548f7a57f110fd1ed12f800bf48633de07580d82",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/06b28475a3858166047583dd22a6ded8dafe865d",
+                    "reference": "06b28475a3858166047583dd22a6ded8dafe865d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.3.1"
                 },
-                "time": "2019-06-04T09:12:13+00:00",
+                "time": "2019-06-19T12:41:38+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -18699,7 +18699,7 @@
                 ],
                 "description": "Choose delivery date directly at the checkout page",
                 "support": {
-                    "source": "https://github.com/swissup/module-delivery-date/tree/1.4.2",
+                    "source": "https://github.com/swissup/module-delivery-date/tree/master",
                     "issues": "https://github.com/swissup/module-delivery-date/issues"
                 }
             }
@@ -23574,18 +23574,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-email-editor.git",
-                    "reference": "43ff0385d9d15783c05c508bc4041aa29c0a51cb"
+                    "reference": "7372c3cdacd1f98313bf6b8aa17f8e1b8a188196"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/43ff0385d9d15783c05c508bc4041aa29c0a51cb",
-                    "reference": "43ff0385d9d15783c05c508bc4041aa29c0a51cb",
+                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/7372c3cdacd1f98313bf6b8aa17f8e1b8a188196",
+                    "reference": "7372c3cdacd1f98313bf6b8aa17f8e1b8a188196",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.8.4"
                 },
-                "time": "2019-06-12T13:13:44+00:00",
+                "time": "2019-06-18T14:16:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -55989,6 +55989,63 @@
                 }
             }
         },
+        "swissup/theme-frontend-argento-force": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-force",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argento-force.git",
+                    "reference": "a2c3f71e0cead1e810cfd2a1a9c09e2e220bd0e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-force/zipball/a2c3f71e0cead1e810cfd2a1a9c09e2e220bd0e2",
+                    "reference": "a2c3f71e0cead1e810cfd2a1a9c09e2e220bd0e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2019-06-19T13:10:58+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "force",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argento-force/tree/master",
+                    "issues": "https://github.com/swissup/theme-frontend-argento-force/issues"
+                }
+            }
+        },
         "swissup/theme-frontend-argento-luxury": {
             "0.9.10": {
                 "name": "swissup/theme-frontend-argento-luxury",
@@ -60403,18 +60460,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-stripes.git",
-                    "reference": "0ebb957456380e53f0d061085986d00ebb05925a"
+                    "reference": "054522de3ebb3cca1c256c1bd78251a456567d03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-stripes/zipball/0ebb957456380e53f0d061085986d00ebb05925a",
-                    "reference": "0ebb957456380e53f0d061085986d00ebb05925a",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-stripes/zipball/054522de3ebb3cca1c256c1bd78251a456567d03",
+                    "reference": "054522de3ebb3cca1c256c1bd78251a456567d03",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2019-06-12T12:06:40+00:00",
+                "time": "2019-06-19T07:58:07+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -60447,7 +60504,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-stripes/tree/1.11.0",
+                    "source": "https://github.com/swissup/theme-frontend-argento-stripes/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argento-stripes/issues"
                 }
             },

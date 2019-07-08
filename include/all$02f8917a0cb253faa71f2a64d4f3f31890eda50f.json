@@ -29741,19 +29741,19 @@
                     "issues": "https://github.com/swissup/module-helpdesk/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-helpdesk",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "210215efe71642ef616e52e9dd087a51e252435c"
+                    "reference": "2407847a77e8dd48a1d50ffd9f8eb979800a3ca8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/210215efe71642ef616e52e9dd087a51e252435c",
-                    "reference": "210215efe71642ef616e52e9dd087a51e252435c",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/2407847a77e8dd48a1d50ffd9f8eb979800a3ca8",
+                    "reference": "2407847a77e8dd48a1d50ffd9f8eb979800a3ca8",
                     "shasum": ""
                 },
                 "require": {
@@ -29762,7 +29762,7 @@
                     "swissup/module-core": "^1.8.5",
                     "zendframework/zend-mail": "^2.9.0"
                 },
-                "time": "2019-07-01T14:30:47+00:00",
+                "time": "2019-07-08T14:05:09+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -29780,7 +29780,50 @@
                     "helpdesk"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-helpdesk/tree/master",
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-helpdesk/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-helpdesk",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "2407847a77e8dd48a1d50ffd9f8eb979800a3ca8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/2407847a77e8dd48a1d50ffd9f8eb979800a3ca8",
+                    "reference": "2407847a77e8dd48a1d50ffd9f8eb979800a3ca8",
+                    "shasum": ""
+                },
+                "require": {
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "swissup/module-core": "^1.8.5",
+                    "zendframework/zend-mail": "^2.9.0"
+                },
+                "time": "2019-07-08T14:05:09+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-helpdesk/issues"
                 }
             }

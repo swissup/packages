@@ -20228,25 +20228,25 @@
                     "issues": "https://github.com/swissup/module-easy-slide/issues"
                 }
             },
-            "dev-master": {
+            "1.4.0": {
                 "name": "swissup/module-easy-slide",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easy-slide.git",
-                    "reference": "853b0a6542c4e9a95e404d1236eef0d9fc662c11"
+                    "reference": "bca166ccaf72c865150112ab1d2ccf24465bcd23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/853b0a6542c4e9a95e404d1236eef0d9fc662c11",
-                    "reference": "853b0a6542c4e9a95e404d1236eef0d9fc662c11",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/bca166ccaf72c865150112ab1d2ccf24465bcd23",
+                    "reference": "bca166ccaf72c865150112ab1d2ccf24465bcd23",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0"
+                    "swissup/module-core": "^1.8.6"
                 },
-                "time": "2019-08-02T11:20:24+00:00",
+                "time": "2019-08-19T13:49:14+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -20275,7 +20275,58 @@
                     "slider"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easy-slide/tree/master",
+                    "source": "https://github.com/swissup/module-easy-slide/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-easy-slide/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easy-slide",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easy-slide.git",
+                    "reference": "bca166ccaf72c865150112ab1d2ccf24465bcd23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easy-slide/zipball/bca166ccaf72c865150112ab1d2ccf24465bcd23",
+                    "reference": "bca166ccaf72c865150112ab1d2ccf24465bcd23",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.6"
+                },
+                "time": "2019-08-19T13:49:14+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-slider-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easyslider/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easyslider/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create and manage Magento sliders",
+                "keywords": [
+                    "easyslide",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easy-slide/tree/1.4.0",
                     "issues": "https://github.com/swissup/module-easy-slide/issues"
                 }
             }

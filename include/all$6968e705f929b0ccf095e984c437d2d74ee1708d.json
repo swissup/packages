@@ -8806,19 +8806,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
-                    "reference": "f8be881f23e982afe3621a3cead7e9cd7a240511"
+                    "reference": "0d2ff2a96f3930e1c946d66d82927d4630389253"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/f8be881f23e982afe3621a3cead7e9cd7a240511",
-                    "reference": "f8be881f23e982afe3621a3cead7e9cd7a240511",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/0d2ff2a96f3930e1c946d66d82927d4630389253",
+                    "reference": "0d2ff2a96f3930e1c946d66d82927d4630389253",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.8.5",
                     "swissup/module-rtl": "^1.3.2"
                 },
-                "time": "2019-07-23T14:10:44+00:00",
+                "time": "2019-08-30T13:27:16+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8839,7 +8839,7 @@
                     "seo layered navigation"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/1.3.7",
+                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/master",
                     "issues": "https://github.com/swissup/module-ajaxlayerednavigation/issues"
                 }
             }
@@ -14673,8 +14673,8 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout/tree/0.0.1",
-                    "issues": "https://github.com/swissup/module-checkout/issues"
+                    "source": "https://github.com/swissup/checkout/tree/0.0.1",
+                    "issues": "https://github.com/swissup/checkout/issues"
                 }
             },
             "1.0.0": {
@@ -14710,8 +14710,8 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout/tree/1.0.0",
-                    "issues": "https://github.com/swissup/module-checkout/issues"
+                    "source": "https://github.com/swissup/checkout/tree/1.0.0",
+                    "issues": "https://github.com/swissup/checkout/issues"
                 }
             },
             "1.1.0": {
@@ -14747,8 +14747,8 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout/tree/1.1.0",
-                    "issues": "https://github.com/swissup/module-checkout/issues"
+                    "source": "https://github.com/swissup/checkout/tree/1.1.0",
+                    "issues": "https://github.com/swissup/checkout/issues"
                 }
             },
             "1.2.0": {
@@ -28281,6 +28281,63 @@
                     "source": "https://github.com/swissup/module-firecheckout/tree/master",
                     "issues": "https://github.com/swissup/module-firecheckout/issues"
                 }
+            },
+            "dev-feature-jsbuild": {
+                "name": "swissup/module-firecheckout",
+                "version": "dev-feature-jsbuild",
+                "version_normalized": "dev-feature-jsbuild",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-firecheckout.git",
+                    "reference": "ba52059bdc6c30c21c04500e1280b5e426e52ff3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout/zipball/ba52059bdc6c30c21c04500e1280b5e426e52ff3",
+                    "reference": "ba52059bdc6c30c21c04500e1280b5e426e52ff3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.3.1",
+                    "swissup/module-firecheckout-integrations": "^1.3.1",
+                    "swissup/module-rtl": "^1.3.1",
+                    "swissup/module-stickyfill": "^1.2.0",
+                    "swissup/module-tippyjs": "^1.1.0"
+                },
+                "time": "2019-08-30T13:46:27+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "identity_key": "https://www.firecheckout.net/license/customer/identity/",
+                            "store": "https://www.firecheckout.net/order",
+                            "download": "https://www.firecheckout.net/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/firecheckout/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Firecheckout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Onestep checkout extension for Magento2",
+                "keywords": [
+                    "checkout",
+                    "firecheckout",
+                    "onestep checkout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-firecheckout/tree/feature-jsbuild",
+                    "issues": "https://github.com/swissup/module-firecheckout/issues"
+                }
             }
         },
         "swissup/module-firecheckout-integrations": {
@@ -31882,12 +31939,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-highlight.git",
-                    "reference": "e281f22ea654f555ed9be2ea173ad6aedbb3ee6a"
+                    "reference": "d79101af458d2d7e2ec5db09008e143b8f0883d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/e281f22ea654f555ed9be2ea173ad6aedbb3ee6a",
-                    "reference": "e281f22ea654f555ed9be2ea173ad6aedbb3ee6a",
+                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/d79101af458d2d7e2ec5db09008e143b8f0883d3",
+                    "reference": "d79101af458d2d7e2ec5db09008e143b8f0883d3",
                     "shasum": ""
                 },
                 "require": {
@@ -31895,7 +31952,7 @@
                     "swissup/module-rtl": "^1.1.0",
                     "swissup/module-slick-carousel": "^1.2.0"
                 },
-                "time": "2019-05-02T09:05:46+00:00",
+                "time": "2019-08-30T07:58:24+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -31931,7 +31988,7 @@
                     "products carousel"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-highlight/tree/1.5.3",
+                    "source": "https://github.com/swissup/module-highlight/tree/master",
                     "issues": "https://github.com/swissup/module-highlight/issues"
                 }
             }
@@ -36232,12 +36289,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pdf-invoice.git",
-                    "reference": "2606ed349e7916fba4350958784ae097e99eb23c"
+                    "reference": "1fb25b9d8ef159a1191b24631fe608ad476f9c8b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pdf-invoice/zipball/2606ed349e7916fba4350958784ae097e99eb23c",
-                    "reference": "2606ed349e7916fba4350958784ae097e99eb23c",
+                    "url": "https://api.github.com/repos/swissup/module-pdf-invoice/zipball/1fb25b9d8ef159a1191b24631fe608ad476f9c8b",
+                    "reference": "1fb25b9d8ef159a1191b24631fe608ad476f9c8b",
                     "shasum": ""
                 },
                 "require": {
@@ -36245,7 +36302,7 @@
                     "mpdf/qrcode": "^1.0.0",
                     "swissup/module-core": "^1.8.5"
                 },
-                "time": "2019-08-28T08:30:51+00:00",
+                "time": "2019-08-30T08:53:10+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

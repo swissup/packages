@@ -36282,27 +36282,27 @@
                     "issues": "https://github.com/swissup/module-pdf-invoice/issues"
                 }
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "swissup/module-pdf-invoice",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pdf-invoice.git",
-                    "reference": "1fb25b9d8ef159a1191b24631fe608ad476f9c8b"
+                    "reference": "d0c805d8948a4fa07fadad5bb2667d58d5d2a86f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pdf-invoice/zipball/1fb25b9d8ef159a1191b24631fe608ad476f9c8b",
-                    "reference": "1fb25b9d8ef159a1191b24631fe608ad476f9c8b",
+                    "url": "https://api.github.com/repos/swissup/module-pdf-invoice/zipball/d0c805d8948a4fa07fadad5bb2667d58d5d2a86f",
+                    "reference": "d0c805d8948a4fa07fadad5bb2667d58d5d2a86f",
                     "shasum": ""
                 },
                 "require": {
                     "mpdf/mpdf": "^8.0.0",
                     "mpdf/qrcode": "^1.0.0",
-                    "swissup/module-core": "^1.8.5"
+                    "swissup/module-core": "^1.8.6"
                 },
-                "time": "2019-08-30T08:53:10+00:00",
+                "time": "2019-09-02T11:46:32+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -36317,7 +36317,46 @@
                 ],
                 "description": "Create nice sales pdf documents with html and css",
                 "support": {
-                    "source": "https://github.com/swissup/module-pdf-invoice/tree/master",
+                    "source": "https://github.com/swissup/module-pdf-invoice/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-pdf-invoice/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-pdf-invoice",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pdf-invoice.git",
+                    "reference": "d0c805d8948a4fa07fadad5bb2667d58d5d2a86f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pdf-invoice/zipball/d0c805d8948a4fa07fadad5bb2667d58d5d2a86f",
+                    "reference": "d0c805d8948a4fa07fadad5bb2667d58d5d2a86f",
+                    "shasum": ""
+                },
+                "require": {
+                    "mpdf/mpdf": "^8.0.0",
+                    "mpdf/qrcode": "^1.0.0",
+                    "swissup/module-core": "^1.8.6"
+                },
+                "time": "2019-09-02T11:46:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\PdfInvoice\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create nice sales pdf documents with html and css",
+                "support": {
+                    "source": "https://github.com/swissup/module-pdf-invoice/tree/1.1.0",
                     "issues": "https://github.com/swissup/module-pdf-invoice/issues"
                 }
             }

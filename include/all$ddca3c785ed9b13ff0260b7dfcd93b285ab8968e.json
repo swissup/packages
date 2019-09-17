@@ -3808,6 +3808,32 @@
                 }
             }
         },
+        "swissup/cache-warmer": {
+            "dev-master": {
+                "name": "swissup/cache-warmer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-cache-warmer": "^0.1.0"
+                },
+                "time": "2019-09-17T08:30:41+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Cache warmer",
+                "keywords": [
+                    "cache",
+                    "cron",
+                    "full page",
+                    "warmer"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/cache-warmer/tree/master",
+                    "issues": "https://github.com/swissup/cache-warmer/issues"
+                }
+            }
+        },
         "swissup/compare": {
             "1.1.0": {
                 "name": "swissup/compare",
@@ -15100,6 +15126,52 @@
                 "support": {
                     "source": "https://github.com/swissup/module-attributepages/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-attributepages/issues"
+                }
+            }
+        },
+        "swissup/module-cache-warmer": {
+            "dev-master": {
+                "name": "swissup/module-cache-warmer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-cache-warmer.git",
+                    "reference": "5da0e8ed650de6679ca3e688b3b907481a76fd26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/5da0e8ed650de6679ca3e688b3b907481a76fd26",
+                    "reference": "5da0e8ed650de6679ca3e688b3b907481a76fd26",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.6"
+                },
+                "time": "2019-09-17T08:42:55+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CacheWarmer\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Cache Warmer module",
+                "keywords": [
+                    "cache",
+                    "cron",
+                    "full page",
+                    "pagespeed",
+                    "warmer"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-cache-warmer/tree/master",
+                    "issues": "https://github.com/swissup/module-cache-warmer/issues"
                 }
             }
         },
@@ -59326,18 +59398,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-essence.git",
-                    "reference": "7a46626957d21edb7249060240c8add0b922e7ae"
+                    "reference": "aea29126208acf4026733c9b5f6bba85d6361493"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-essence/zipball/7a46626957d21edb7249060240c8add0b922e7ae",
-                    "reference": "7a46626957d21edb7249060240c8add0b922e7ae",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-essence/zipball/aea29126208acf4026733c9b5f6bba85d6361493",
+                    "reference": "aea29126208acf4026733c9b5f6bba85d6361493",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2019-09-13T06:47:53+00:00",
+                "time": "2019-09-17T07:09:18+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -59370,7 +59442,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-essence/tree/1.13.2",
+                    "source": "https://github.com/swissup/theme-frontend-argento-essence/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argento-essence/issues"
                 }
             }
@@ -62579,18 +62651,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-luxury.git",
-                    "reference": "fbb7418a322bac9226c14047eee75061036ee211"
+                    "reference": "5aed232b3e41c09cb0b016a87c27b198ebd68730"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-luxury/zipball/fbb7418a322bac9226c14047eee75061036ee211",
-                    "reference": "fbb7418a322bac9226c14047eee75061036ee211",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-luxury/zipball/5aed232b3e41c09cb0b016a87c27b198ebd68730",
+                    "reference": "5aed232b3e41c09cb0b016a87c27b198ebd68730",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2019-09-13T15:10:08+00:00",
+                "time": "2019-09-17T06:48:06+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -66545,18 +66617,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-stripes.git",
-                    "reference": "3710d248998fe26b98dbede1f03688f05f6fb5eb"
+                    "reference": "3f5d64a83dec54548660b72f0343486c7a5227bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-stripes/zipball/3710d248998fe26b98dbede1f03688f05f6fb5eb",
-                    "reference": "3710d248998fe26b98dbede1f03688f05f6fb5eb",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-stripes/zipball/3f5d64a83dec54548660b72f0343486c7a5227bb",
+                    "reference": "3f5d64a83dec54548660b72f0343486c7a5227bb",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2019-09-13T06:43:23+00:00",
+                "time": "2019-09-17T06:45:42+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -66589,7 +66661,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-stripes/tree/1.13.2",
+                    "source": "https://github.com/swissup/theme-frontend-argento-stripes/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argento-stripes/issues"
                 }
             },

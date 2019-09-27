@@ -42321,25 +42321,28 @@
                     "issues": "https://github.com/swissup/module-seo-core/issues"
                 }
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "swissup/module-seo-core",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-core.git",
-                    "reference": "466f0a5362a0359af226ac2f1bbdf45148516327"
+                    "reference": "9069c7c68503542348042d190a784c822929cb5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-core/zipball/466f0a5362a0359af226ac2f1bbdf45148516327",
-                    "reference": "466f0a5362a0359af226ac2f1bbdf45148516327",
+                    "url": "https://api.github.com/repos/swissup/module-seo-core/zipball/9069c7c68503542348042d190a784c822929cb5d",
+                    "reference": "9069c7c68503542348042d190a784c822929cb5d",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0"
+                    "swissup/module-core": "^1.8.6"
                 },
-                "time": "2019-09-20T14:26:17+00:00",
+                "suggest": {
+                    "cocur/slugify": "Converts a string to a slug. Works perfectly with SEO URLs and SEO Images. Transliterate string with latinic characters."
+                },
+                "time": "2019-09-27T13:59:42+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -42354,7 +42357,47 @@
                 ],
                 "description": "SEO core module. It adds swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-core/tree/master",
+                    "source": "https://github.com/swissup/module-seo-core/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-seo-core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-core.git",
+                    "reference": "9069c7c68503542348042d190a784c822929cb5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-core/zipball/9069c7c68503542348042d190a784c822929cb5d",
+                    "reference": "9069c7c68503542348042d190a784c822929cb5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.6"
+                },
+                "suggest": {
+                    "cocur/slugify": "Converts a string to a slug. Works perfectly with SEO URLs and SEO Images. Transliterate string with latinic characters."
+                },
+                "time": "2019-09-27T13:59:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCore\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO core module. It adds swissup menu and config sections.",
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-core/tree/1.2.0",
                     "issues": "https://github.com/swissup/module-seo-core/issues"
                 }
             }

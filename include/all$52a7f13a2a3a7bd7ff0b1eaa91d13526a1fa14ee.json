@@ -43546,25 +43546,25 @@
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-seo-pager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-pager.git",
-                    "reference": "715399f83b6055463f59a668d1adaf8f30a9124c"
+                    "reference": "5c007ab27135ebf2efc2a991743f57c6c78a8523"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/715399f83b6055463f59a668d1adaf8f30a9124c",
-                    "reference": "715399f83b6055463f59a668d1adaf8f30a9124c",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/5c007ab27135ebf2efc2a991743f57c6c78a8523",
+                    "reference": "5c007ab27135ebf2efc2a991743f57c6c78a8523",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.1.0"
+                    "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-10-04T14:34:16+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -43591,7 +43591,56 @@
                     "seo pagination"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-pager/tree/master",
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-seo-pager/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-pager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-pager.git",
+                    "reference": "5c007ab27135ebf2efc2a991743f57c6c78a8523"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/5c007ab27135ebf2efc2a991743f57c6c78a8523",
+                    "reference": "5c007ab27135ebf2efc2a991743f57c6c78a8523",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.1"
+                },
+                "time": "2019-10-04T14:34:16+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoPager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 pagination",
+                "keywords": [
+                    "better pagination",
+                    "seo pagination"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             }

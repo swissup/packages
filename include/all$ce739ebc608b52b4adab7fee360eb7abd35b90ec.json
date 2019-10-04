@@ -35504,6 +35504,47 @@
                 }
             }
         },
+        "swissup/module-marketplace": {
+            "dev-master": {
+                "name": "swissup/module-marketplace",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-marketplace.git",
+                    "reference": "bec029803ad16dd1978dc02a1ffb7ad99bf7156b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/bec029803ad16dd1978dc02a1ffb7ad99bf7156b",
+                    "reference": "bec029803ad16dd1978dc02a1ffb7ad99bf7156b",
+                    "shasum": ""
+                },
+                "time": "2019-10-04T14:36:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Marketplace\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "One-Click modules and themes downloader",
+                "keywords": [
+                    "magento-marketplace",
+                    "marketplace",
+                    "packagist"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-marketplace/tree/master",
+                    "issues": "https://github.com/swissup/module-marketplace/issues"
+                }
+            }
+        },
         "swissup/module-navigationpro": {
             "1.0.0": {
                 "name": "swissup/module-navigationpro",

@@ -8055,25 +8055,25 @@
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "swissup/module-address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-address-autocomplete.git",
-                    "reference": "31441c2dba1a64ce79aea05eacadaf3aa4220620"
+                    "reference": "030bf0824707b2410c4e3dfbbbea7cf0448d37b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/31441c2dba1a64ce79aea05eacadaf3aa4220620",
-                    "reference": "31441c2dba1a64ce79aea05eacadaf3aa4220620",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/030bf0824707b2410c4e3dfbbbea7cf0448d37b5",
+                    "reference": "030bf0824707b2410c4e3dfbbbea7cf0448d37b5",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.2.0"
+                    "swissup/module-checkout": "^1.3.2"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-10-16T13:18:05+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -8101,7 +8101,57 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.2.2",
+                    "issues": "https://github.com/swissup/module-address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-autocomplete.git",
+                    "reference": "030bf0824707b2410c4e3dfbbbea7cf0448d37b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/030bf0824707b2410c4e3dfbbbea7cf0448d37b5",
+                    "reference": "030bf0824707b2410c4e3dfbbbea7cf0448d37b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.3.2"
+                },
+                "time": "2019-10-16T13:18:05+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.2.2",
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             }

@@ -36571,6 +36571,61 @@
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             },
+            "1.13.1": {
+                "name": "swissup/module-navigationpro",
+                "version": "1.13.1",
+                "version_normalized": "1.13.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-navigationpro.git",
+                    "reference": "39e417eeffea9d9acc2350e479721425b101ee4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/39e417eeffea9d9acc2350e479721425b101ee4b",
+                    "reference": "39e417eeffea9d9acc2350e479721425b101ee4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.7",
+                    "swissup/module-rtl": "^1.3.3",
+                    "swissup/module-stickyfill": "^1.2.0"
+                },
+                "time": "2019-10-16T07:24:57+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/navigationpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Navigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2",
+                "keywords": [
+                    "amazon menu",
+                    "megamenu",
+                    "menu",
+                    "navigation",
+                    "rtl menu",
+                    "sidebar menu"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-navigationpro/tree/1.13.1",
+                    "issues": "https://github.com/swissup/module-navigationpro/issues"
+                }
+            },
             "1.2.0": {
                 "name": "swissup/module-navigationpro",
                 "version": "1.2.0",
@@ -37383,12 +37438,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "605de0601a121e73072771120c0ce81eeb93c56b"
+                    "reference": "39e417eeffea9d9acc2350e479721425b101ee4b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/605de0601a121e73072771120c0ce81eeb93c56b",
-                    "reference": "605de0601a121e73072771120c0ce81eeb93c56b",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/39e417eeffea9d9acc2350e479721425b101ee4b",
+                    "reference": "39e417eeffea9d9acc2350e479721425b101ee4b",
                     "shasum": ""
                 },
                 "require": {
@@ -37396,7 +37451,7 @@
                     "swissup/module-rtl": "^1.3.3",
                     "swissup/module-stickyfill": "^1.2.0"
                 },
-                "time": "2019-10-10T09:14:54+00:00",
+                "time": "2019-10-16T07:24:57+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -37427,7 +37482,7 @@
                     "sidebar menu"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-navigationpro/tree/master",
+                    "source": "https://github.com/swissup/module-navigationpro/tree/1.13.1",
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             }

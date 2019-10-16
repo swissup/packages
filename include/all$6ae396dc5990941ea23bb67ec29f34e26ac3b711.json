@@ -52638,25 +52638,25 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-flat/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/module-theme-editor-argento-flat",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor-argento-flat.git",
-                    "reference": "74abc8556f9db8b5fcf463b4e06a84ec0f7e3745"
+                    "reference": "c49c701bad220c9ea2ed41c5a4939f9c1efd451d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-flat/zipball/74abc8556f9db8b5fcf463b4e06a84ec0f7e3745",
-                    "reference": "74abc8556f9db8b5fcf463b4e06a84ec0f7e3745",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-flat/zipball/c49c701bad220c9ea2ed41c5a4939f9c1efd451d",
+                    "reference": "c49c701bad220c9ea2ed41c5a4939f9c1efd451d",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-theme-editor": "^1.5.0"
+                    "swissup/module-theme-editor": "^1.6.1"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-10-16T07:24:31+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -52671,7 +52671,44 @@
                 ],
                 "description": "Theme styles for Argento Flat theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-flat/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-flat/tree/1.3.1",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-flat/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argento-flat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-theme-editor-argento-flat.git",
+                    "reference": "c49c701bad220c9ea2ed41c5a4939f9c1efd451d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-flat/zipball/c49c701bad220c9ea2ed41c5a4939f9c1efd451d",
+                    "reference": "c49c701bad220c9ea2ed41c5a4939f9c1efd451d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.6.1"
+                },
+                "time": "2019-10-16T07:24:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoFlat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Flat theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-flat/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-flat/issues"
                 }
             }

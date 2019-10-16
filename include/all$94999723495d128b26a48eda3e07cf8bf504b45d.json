@@ -52788,25 +52788,25 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-force/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/module-theme-editor-argento-force",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-theme-editor-argento-force.git",
-                    "reference": "49a478e637d47319cf951fb6fdfcfccae31b4ba0"
+                    "reference": "28121f6eca37413b12c182b4395a44c4f9a83a2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-force/zipball/49a478e637d47319cf951fb6fdfcfccae31b4ba0",
-                    "reference": "49a478e637d47319cf951fb6fdfcfccae31b4ba0",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-force/zipball/28121f6eca37413b12c182b4395a44c4f9a83a2c",
+                    "reference": "28121f6eca37413b12c182b4395a44c4f9a83a2c",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-theme-editor": "^1.6.1"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-10-16T07:24:33+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -52821,7 +52821,44 @@
                 ],
                 "description": "Theme styles for Argento Force theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-force/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-force/tree/1.0.2",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-force/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argento-force",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-force.git",
+                    "reference": "28121f6eca37413b12c182b4395a44c4f9a83a2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-force/zipball/28121f6eca37413b12c182b4395a44c4f9a83a2c",
+                    "reference": "28121f6eca37413b12c182b4395a44c4f9a83a2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.6.1"
+                },
+                "time": "2019-10-16T07:24:33+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoForce\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Force theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-force/tree/1.0.2",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-force/issues"
                 }
             }

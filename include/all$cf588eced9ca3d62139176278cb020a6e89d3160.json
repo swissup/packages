@@ -41468,25 +41468,25 @@
                     "issues": "https://github.com/swissup/module-reviewreminder/issues"
                 }
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "swissup/module-reviewreminder",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-reviewreminder.git",
-                    "reference": "cc60d82a356c134bebeb8c2ccc73c4c781336790"
+                    "reference": "898ebe7e5cd7dc65199f40b784f73cf538094174"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/cc60d82a356c134bebeb8c2ccc73c4c781336790",
-                    "reference": "cc60d82a356c134bebeb8c2ccc73c4c781336790",
+                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/898ebe7e5cd7dc65199f40b784f73cf538094174",
+                    "reference": "898ebe7e5cd7dc65199f40b784f73cf538094174",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.8.5"
+                    "swissup/module-core": "^1.8.7"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-10-16T07:24:18+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -41501,7 +41501,44 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/module-reviewreminder/tree/master",
+                    "source": "https://github.com/swissup/module-reviewreminder/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-reviewreminder/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-reviewreminder",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-reviewreminder.git",
+                    "reference": "898ebe7e5cd7dc65199f40b784f73cf538094174"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/898ebe7e5cd7dc65199f40b784f73cf538094174",
+                    "reference": "898ebe7e5cd7dc65199f40b784f73cf538094174",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.7"
+                },
+                "time": "2019-10-16T07:24:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Reviewreminder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Review Reminder extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/module-reviewreminder/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-reviewreminder/issues"
                 }
             }

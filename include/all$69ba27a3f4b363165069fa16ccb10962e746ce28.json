@@ -27616,19 +27616,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "b820b52caa16a213a888e4377b00483a9fcc95f8"
+                    "reference": "1f794576466e4ae004a7d229c439f6cff3452f23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/b820b52caa16a213a888e4377b00483a9fcc95f8",
-                    "reference": "b820b52caa16a213a888e4377b00483a9fcc95f8",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/1f794576466e4ae004a7d229c439f6cff3452f23",
+                    "reference": "1f794576466e4ae004a7d229c439f6cff3452f23",
                     "shasum": ""
                 },
                 "require": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "slm/mail": "~1.5"
                 },
-                "time": "2019-06-07T13:59:27+00:00",
+                "time": "2019-10-24T14:55:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -27651,7 +27651,7 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email/tree/0.2.5",
+                    "source": "https://github.com/swissup/module-email/tree/master",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             }
@@ -37250,6 +37250,48 @@
                     "source": "https://github.com/swissup/module-marketplace/tree/master",
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
+            },
+            "dev-develop": {
+                "name": "swissup/module-marketplace",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-marketplace.git",
+                    "reference": "1359997697d245a1a3fdff745e650b3680351edc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/1359997697d245a1a3fdff745e650b3680351edc",
+                    "reference": "1359997697d245a1a3fdff745e650b3680351edc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.7"
+                },
+                "time": "2019-10-24T13:54:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Marketplace\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "One-Click modules and themes downloader",
+                "keywords": [
+                    "magento-marketplace",
+                    "marketplace",
+                    "packagist"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-marketplace/tree/develop",
+                    "issues": "https://github.com/swissup/module-marketplace/issues"
+                }
             }
         },
         "swissup/module-navigationpro": {
@@ -43830,18 +43872,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "f1e206a8272276c5e83c3e0412b016cf9995741f"
+                    "reference": "bf671d048dfef32ad6d1f45973f5f4438deebb65"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/f1e206a8272276c5e83c3e0412b016cf9995741f",
-                    "reference": "f1e206a8272276c5e83c3e0412b016cf9995741f",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/bf671d048dfef32ad6d1f45973f5f4438deebb65",
+                    "reference": "bf671d048dfef32ad6d1f45973f5f4438deebb65",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2019-10-04T14:35:34+00:00",
+                "time": "2019-10-24T13:59:59+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -43856,7 +43898,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.4",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }

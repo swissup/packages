@@ -27609,26 +27609,26 @@
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             },
-            "dev-master": {
+            "0.3.0": {
                 "name": "swissup/module-email",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "1f794576466e4ae004a7d229c439f6cff3452f23"
+                    "reference": "fac14152124b159bf4d93c801b4bfb845c51c06e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/1f794576466e4ae004a7d229c439f6cff3452f23",
-                    "reference": "1f794576466e4ae004a7d229c439f6cff3452f23",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/fac14152124b159bf4d93c801b4bfb845c51c06e",
+                    "reference": "fac14152124b159bf4d93c801b4bfb845c51c06e",
                     "shasum": ""
                 },
                 "require": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "slm/mail": "~1.5"
                 },
-                "time": "2019-10-24T14:55:24+00:00",
+                "time": "2019-10-25T06:44:07+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -27651,7 +27651,53 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email/tree/master",
+                    "source": "https://github.com/swissup/module-email/tree/0.3.0",
+                    "issues": "https://github.com/swissup/module-email/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-email",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-email.git",
+                    "reference": "fac14152124b159bf4d93c801b4bfb845c51c06e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/fac14152124b159bf4d93c801b4bfb845c51c06e",
+                    "reference": "fac14152124b159bf4d93c801b4bfb845c51c06e",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php-zf2": ">=1.0.1",
+                    "slm/mail": "~1.5"
+                },
+                "time": "2019-10-25T06:44:07+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Email\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+                "keywords": [
+                    "amazon ses",
+                    "email",
+                    "gmail",
+                    "mandrill",
+                    "sendmail",
+                    "smtp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email/tree/0.3.0",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             }

@@ -4826,15 +4826,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/dockerize-magento2.git",
-                    "reference": "3c467ae8502b3ed8badb4eb2d3825478c5751939"
+                    "reference": "6ead7dcef0486d935b82252ab3ad5b176fde76ea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/dockerize-magento2/zipball/3c467ae8502b3ed8badb4eb2d3825478c5751939",
-                    "reference": "3c467ae8502b3ed8badb4eb2d3825478c5751939",
+                    "url": "https://api.github.com/repos/swissup/dockerize-magento2/zipball/6ead7dcef0486d935b82252ab3ad5b176fde76ea",
+                    "reference": "6ead7dcef0486d935b82252ab3ad5b176fde76ea",
                     "shasum": ""
                 },
-                "time": "2019-10-18T13:06:58+00:00",
+                "time": "2019-10-28T19:29:20+00:00",
                 "type": "magento2-component",
                 "extra": {
                     "map": [
@@ -27818,18 +27818,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-email-editor.git",
-                    "reference": "dfa0c2c5cfcf716502561683ef76f8ba3abd281e"
+                    "reference": "a3e12c566d5e59a33b4af718948caae6ca2fd264"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/dfa0c2c5cfcf716502561683ef76f8ba3abd281e",
-                    "reference": "dfa0c2c5cfcf716502561683ef76f8ba3abd281e",
+                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/a3e12c566d5e59a33b4af718948caae6ca2fd264",
+                    "reference": "a3e12c566d5e59a33b4af718948caae6ca2fd264",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.8.4"
                 },
-                "time": "2019-10-23T15:02:30+00:00",
+                "time": "2019-10-28T12:04:17+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -27850,6 +27850,48 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/module-email-editor/tree/master",
+                    "issues": "https://github.com/swissup/module-email-editor/issues"
+                }
+            },
+            "dev-trix-editor": {
+                "name": "swissup/module-email-editor",
+                "version": "dev-trix-editor",
+                "version_normalized": "dev-trix-editor",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-editor.git",
+                    "reference": "fd32a8d55b06f623c5d61d1e9423f583cd168a9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/fd32a8d55b06f623c5d61d1e9423f583cd168a9b",
+                    "reference": "fd32a8d55b06f623c5d61d1e9423f583cd168a9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.4"
+                },
+                "time": "2019-10-28T11:31:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy email templates editor for Magento 2",
+                "keywords": [
+                    "email editor",
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-editor/tree/trix-editor",
                     "issues": "https://github.com/swissup/module-email-editor/issues"
                 }
             }
@@ -34138,12 +34180,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "6aad1f830d918e5aeb878b37e8db53ffb74a7285"
+                    "reference": "e70b50643038be15de3fbda0ed2c3fe81fe7751a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/6aad1f830d918e5aeb878b37e8db53ffb74a7285",
-                    "reference": "6aad1f830d918e5aeb878b37e8db53ffb74a7285",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/e70b50643038be15de3fbda0ed2c3fe81fe7751a",
+                    "reference": "e70b50643038be15de3fbda0ed2c3fe81fe7751a",
                     "shasum": ""
                 },
                 "require": {
@@ -34152,7 +34194,7 @@
                     "swissup/module-core": "^1.9.0",
                     "zendframework/zend-mail": "^2.9.0"
                 },
-                "time": "2019-10-25T07:12:06+00:00",
+                "time": "2019-10-28T15:50:18+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -34170,7 +34212,7 @@
                     "helpdesk"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-helpdesk/tree/1.1.3",
+                    "source": "https://github.com/swissup/module-helpdesk/tree/master",
                     "issues": "https://github.com/swissup/module-helpdesk/issues"
                 }
             }
@@ -40217,12 +40259,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "f2a92b9c22210ff418748c1216b97991891594d6"
+                    "reference": "d345826eb5dac376f0d0607feab65db41e039785"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/f2a92b9c22210ff418748c1216b97991891594d6",
-                    "reference": "f2a92b9c22210ff418748c1216b97991891594d6",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/d345826eb5dac376f0d0607feab65db41e039785",
+                    "reference": "d345826eb5dac376f0d0607feab65db41e039785",
                     "shasum": ""
                 },
                 "require": {
@@ -40233,7 +40275,7 @@
                     "swissup/module-core": "^1.8.6",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2019-10-25T12:05:09+00:00",
+                "time": "2019-10-28T13:11:27+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

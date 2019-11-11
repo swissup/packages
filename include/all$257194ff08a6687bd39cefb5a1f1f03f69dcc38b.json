@@ -54009,22 +54009,22 @@
                     "issues": "https://github.com/swissup/module-theme-editor/issues"
                 }
             },
-            "dev-master": {
+            "1.6.3": {
                 "name": "swissup/module-theme-editor",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor.git",
-                    "reference": "8a70b7a615f984020ef75a54be5aab89933b77fa"
+                    "reference": "a462c137629aa2fe1a22b5043d3ea42b41650a0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/8a70b7a615f984020ef75a54be5aab89933b77fa",
-                    "reference": "8a70b7a615f984020ef75a54be5aab89933b77fa",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/a462c137629aa2fe1a22b5043d3ea42b41650a0f",
+                    "reference": "a462c137629aa2fe1a22b5043d3ea42b41650a0f",
                     "shasum": ""
                 },
-                "time": "2019-11-08T16:04:48+00:00",
+                "time": "2019-11-11T07:20:11+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -54039,7 +54039,41 @@
                 ],
                 "description": "Theme styles editing extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor/tree/1.6.3",
+                    "issues": "https://github.com/swissup/module-theme-editor/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-theme-editor.git",
+                    "reference": "a462c137629aa2fe1a22b5043d3ea42b41650a0f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/a462c137629aa2fe1a22b5043d3ea42b41650a0f",
+                    "reference": "a462c137629aa2fe1a22b5043d3ea42b41650a0f",
+                    "shasum": ""
+                },
+                "time": "2019-11-11T07:20:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles editing extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor/tree/1.6.3",
                     "issues": "https://github.com/swissup/module-theme-editor/issues"
                 }
             }

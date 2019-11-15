@@ -13145,26 +13145,26 @@
                     "issues": "https://github.com/swissup/module-akismet/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-akismet",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-akismet.git",
-                    "reference": "31790d03d1b7b6a9d96b92e0da119a689e728982"
+                    "reference": "dd553c3d2b8e82d816f5ad565b4425f4ed2233ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/31790d03d1b7b6a9d96b92e0da119a689e728982",
-                    "reference": "31790d03d1b7b6a9d96b92e0da119a689e728982",
+                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/dd553c3d2b8e82d816f5ad565b4425f4ed2233ff",
+                    "reference": "dd553c3d2b8e82d816f5ad565b4425f4ed2233ff",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0",
+                    "swissup/module-core": "^1.9.0",
                     "zendframework/zendservice-akismet": "^2.0.2"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2019-11-15T08:23:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -13179,7 +13179,45 @@
                 ],
                 "description": "Akismet integration",
                 "support": {
-                    "source": "https://github.com/swissup/module-akismet/tree/master",
+                    "source": "https://github.com/swissup/module-akismet/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-akismet/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-akismet",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-akismet.git",
+                    "reference": "dd553c3d2b8e82d816f5ad565b4425f4ed2233ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/dd553c3d2b8e82d816f5ad565b4425f4ed2233ff",
+                    "reference": "dd553c3d2b8e82d816f5ad565b4425f4ed2233ff",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.9.0",
+                    "zendframework/zendservice-akismet": "^2.0.2"
+                },
+                "time": "2019-11-15T08:23:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Akismet\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Akismet integration",
+                "support": {
+                    "source": "https://github.com/swissup/module-akismet/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-akismet/issues"
                 }
             }

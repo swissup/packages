@@ -57459,25 +57459,25 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-pure2/issues"
                 }
             },
-            "dev-master": {
+            "1.4.0": {
                 "name": "swissup/module-theme-editor-argento-pure2",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor-argento-pure2.git",
-                    "reference": "0778fe485bcb1c73988b25f82386727d687e2593"
+                    "reference": "1d6ac1f6f3c40853ef7d310a69b29394560041b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-pure2/zipball/0778fe485bcb1c73988b25f82386727d687e2593",
-                    "reference": "0778fe485bcb1c73988b25f82386727d687e2593",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-pure2/zipball/1d6ac1f6f3c40853ef7d310a69b29394560041b2",
+                    "reference": "1d6ac1f6f3c40853ef7d310a69b29394560041b2",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-theme-editor": "^1.6.1"
+                    "swissup/module-theme-editor": "^1.6.3"
                 },
-                "time": "2019-11-13T07:47:52+00:00",
+                "time": "2019-12-06T08:19:15+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -57492,7 +57492,44 @@
                 ],
                 "description": "Theme styles for Argento Pure2 theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-pure2/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-pure2/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-pure2/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argento-pure2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-theme-editor-argento-pure2.git",
+                    "reference": "1d6ac1f6f3c40853ef7d310a69b29394560041b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-pure2/zipball/1d6ac1f6f3c40853ef7d310a69b29394560041b2",
+                    "reference": "1d6ac1f6f3c40853ef7d310a69b29394560041b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.6.3"
+                },
+                "time": "2019-12-06T08:19:15+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoPure2\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Pure2 theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-pure2/tree/1.4.0",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-pure2/issues"
                 }
             }

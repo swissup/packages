@@ -57720,25 +57720,25 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-stripes/issues"
                 }
             },
-            "dev-master": {
+            "1.4.0": {
                 "name": "swissup/module-theme-editor-argento-stripes",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-theme-editor-argento-stripes.git",
-                    "reference": "1dbd55e19cfaed206abad82cb2ae1acd9229a834"
+                    "reference": "f9c4159452c0299142e3c8a3fe0d72a850de4814"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-stripes/zipball/1dbd55e19cfaed206abad82cb2ae1acd9229a834",
-                    "reference": "1dbd55e19cfaed206abad82cb2ae1acd9229a834",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-stripes/zipball/f9c4159452c0299142e3c8a3fe0d72a850de4814",
+                    "reference": "f9c4159452c0299142e3c8a3fe0d72a850de4814",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-theme-editor": "^1.5.0"
+                    "swissup/module-theme-editor": "^1.6.3"
                 },
-                "time": "2019-11-13T07:48:09+00:00",
+                "time": "2019-12-06T08:19:18+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -57753,7 +57753,44 @@
                 ],
                 "description": "Theme styles for Argento Stripes theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-stripes/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-stripes/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-stripes/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argento-stripes",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-stripes.git",
+                    "reference": "f9c4159452c0299142e3c8a3fe0d72a850de4814"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-stripes/zipball/f9c4159452c0299142e3c8a3fe0d72a850de4814",
+                    "reference": "f9c4159452c0299142e3c8a3fe0d72a850de4814",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.6.3"
+                },
+                "time": "2019-12-06T08:19:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoStripes\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Stripes theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-stripes/tree/1.4.0",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-stripes/issues"
                 }
             }

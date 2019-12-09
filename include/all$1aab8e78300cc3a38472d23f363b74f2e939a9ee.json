@@ -7956,18 +7956,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-abandoned-cart.git",
-                    "reference": "af1b832d154da636973295fdbe9e491141fdea51"
+                    "reference": "b74e269be2acf7ed68099b26b6e15764e57bb12f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-abandoned-cart/zipball/af1b832d154da636973295fdbe9e491141fdea51",
-                    "reference": "af1b832d154da636973295fdbe9e491141fdea51",
+                    "url": "https://api.github.com/repos/swissup/module-abandoned-cart/zipball/b74e269be2acf7ed68099b26b6e15764e57bb12f",
+                    "reference": "b74e269be2acf7ed68099b26b6e15764e57bb12f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.9.0"
                 },
-                "time": "2019-12-02T08:58:37+00:00",
+                "time": "2019-12-09T08:51:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -29009,6 +29009,49 @@
                 }
             }
         },
+        "swissup/module-email-templates": {
+            "dev-master": {
+                "name": "swissup/module-email-templates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-templates.git",
+                    "reference": "4956c6d19e6d8b5a6bae0511cb036b297a30675d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-templates/zipball/4956c6d19e6d8b5a6bae0511cb036b297a30675d",
+                    "reference": "4956c6d19e6d8b5a6bae0511cb036b297a30675d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.4"
+                },
+                "time": "2019-12-09T14:51:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-templates/tree/master",
+                    "issues": "https://github.com/swissup/module-email-templates/issues"
+                }
+            }
+        },
         "swissup/module-fblike": {
             "1.0.0": {
                 "name": "swissup/module-fblike",
@@ -40307,12 +40350,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "11899da4fe84c57989b2723fdff82fccca697645"
+                    "reference": "9a1c87afdb40534bf98074f8f0295cded9dba36e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/11899da4fe84c57989b2723fdff82fccca697645",
-                    "reference": "11899da4fe84c57989b2723fdff82fccca697645",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/9a1c87afdb40534bf98074f8f0295cded9dba36e",
+                    "reference": "9a1c87afdb40534bf98074f8f0295cded9dba36e",
                     "shasum": ""
                 },
                 "require": {
@@ -40320,7 +40363,7 @@
                     "swissup/module-rtl": "^1.3.3",
                     "swissup/module-stickyfill": "^1.2.0"
                 },
-                "time": "2019-12-06T08:27:56+00:00",
+                "time": "2019-12-09T14:44:16+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -40351,7 +40394,7 @@
                     "sidebar menu"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-navigationpro/tree/1.13.3",
+                    "source": "https://github.com/swissup/module-navigationpro/tree/master",
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             }

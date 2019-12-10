@@ -52454,22 +52454,22 @@
                     "issues": "https://github.com/swissup/module-stickyfill/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-stickyfill",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-stickyfill.git",
-                    "reference": "a7a3abcc210c290e3172dbbe1a2fa180946eaf89"
+                    "reference": "7efc3fd15b52f84a7156e491e5bc900cd1ca277f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-stickyfill/zipball/a7a3abcc210c290e3172dbbe1a2fa180946eaf89",
-                    "reference": "a7a3abcc210c290e3172dbbe1a2fa180946eaf89",
+                    "url": "https://api.github.com/repos/swissup/module-stickyfill/zipball/7efc3fd15b52f84a7156e491e5bc900cd1ca277f",
+                    "reference": "7efc3fd15b52f84a7156e491e5bc900cd1ca277f",
                     "shasum": ""
                 },
-                "time": "2019-01-04T09:31:40+00:00",
+                "time": "2019-12-10T10:50:30+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -52484,7 +52484,41 @@
                 ],
                 "description": "The most accurate sticky polyfill out in the wild for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-stickyfill/tree/1.2.0",
+                    "source": "https://github.com/swissup/module-stickyfill/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-stickyfill/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-stickyfill",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-stickyfill.git",
+                    "reference": "7efc3fd15b52f84a7156e491e5bc900cd1ca277f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-stickyfill/zipball/7efc3fd15b52f84a7156e491e5bc900cd1ca277f",
+                    "reference": "7efc3fd15b52f84a7156e491e5bc900cd1ca277f",
+                    "shasum": ""
+                },
+                "time": "2019-12-10T10:50:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Stickyfill\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "The most accurate sticky polyfill out in the wild for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-stickyfill/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-stickyfill/issues"
                 }
             }

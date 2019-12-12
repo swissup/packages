@@ -48783,25 +48783,25 @@
                     "issues": "https://github.com/swissup/module-seo-templates/issues"
                 }
             },
-            "dev-master": {
+            "1.5.4": {
                 "name": "swissup/module-seo-templates",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.4",
+                "version_normalized": "1.5.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-templates.git",
-                    "reference": "469891bf18856a77e6a8f5d859b8c8d8e5d624e8"
+                    "reference": "f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/469891bf18856a77e6a8f5d859b8c8d8e5d624e8",
-                    "reference": "469891bf18856a77e6a8f5d859b8c8d8e5d624e8",
+                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7",
+                    "reference": "f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2019-11-18T14:45:41+00:00",
+                "time": "2019-12-12T14:27:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -48827,7 +48827,55 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-templates/tree/1.5.3",
+                    "source": "https://github.com/swissup/module-seo-templates/tree/1.5.4",
+                    "issues": "https://github.com/swissup/module-seo-templates/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-templates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-templates.git",
+                    "reference": "f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7",
+                    "reference": "f8a92e4b8a816c8abc2e4f764e062ce75cb71ed7",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.1"
+                },
+                "time": "2019-12-12T14:27:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-templates/tree/1.5.4",
                     "issues": "https://github.com/swissup/module-seo-templates/issues"
                 }
             }

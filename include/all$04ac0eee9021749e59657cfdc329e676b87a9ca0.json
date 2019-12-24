@@ -50080,25 +50080,25 @@
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },
-            "dev-master": {
+            "1.5.8": {
                 "name": "swissup/module-seo-urls",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.8",
+                "version_normalized": "1.5.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-urls.git",
-                    "reference": "eb701349776fa801f9a30a496e30916303361641"
+                    "reference": "a56be1f2eaeb680b439daafe36b2d92da44060d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/eb701349776fa801f9a30a496e30916303361641",
-                    "reference": "eb701349776fa801f9a30a496e30916303361641",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/a56be1f2eaeb680b439daafe36b2d92da44060d4",
+                    "reference": "a56be1f2eaeb680b439daafe36b2d92da44060d4",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2019-10-16T07:25:05+00:00",
+                "time": "2019-12-24T09:47:23+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -50125,7 +50125,56 @@
                     "seo urls"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.7",
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.8",
+                    "issues": "https://github.com/swissup/module-seo-urls/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-urls",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-urls.git",
+                    "reference": "a56be1f2eaeb680b439daafe36b2d92da44060d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/a56be1f2eaeb680b439daafe36b2d92da44060d4",
+                    "reference": "a56be1f2eaeb680b439daafe36b2d92da44060d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.1"
+                },
+                "time": "2019-12-24T09:47:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better ursl",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.8",
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },

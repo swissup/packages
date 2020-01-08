@@ -22397,25 +22397,25 @@
                     "issues": "https://github.com/swissup/module-delete-orders/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "swissup/module-delete-orders",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delete-orders.git",
-                    "reference": "53db6db85cd807c95ff73d7291f6eea245e88d8e"
+                    "reference": "315884f97b9add1822207d4b345e5159b6ea3134"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/53db6db85cd807c95ff73d7291f6eea245e88d8e",
-                    "reference": "53db6db85cd807c95ff73d7291f6eea245e88d8e",
+                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/315884f97b9add1822207d4b345e5159b6ea3134",
+                    "reference": "315884f97b9add1822207d4b345e5159b6ea3134",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.7.0"
+                    "swissup/module-core": "^1.10.0"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2020-01-08T15:31:03+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -22430,7 +22430,44 @@
                 ],
                 "description": "Delete checked orders from your store",
                 "support": {
-                    "source": "https://github.com/swissup/module-delete-orders/tree/master",
+                    "source": "https://github.com/swissup/module-delete-orders/tree/1.0.3",
+                    "issues": "https://github.com/swissup/module-delete-orders/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-delete-orders",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delete-orders.git",
+                    "reference": "315884f97b9add1822207d4b345e5159b6ea3134"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/315884f97b9add1822207d4b345e5159b6ea3134",
+                    "reference": "315884f97b9add1822207d4b345e5159b6ea3134",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.0"
+                },
+                "time": "2020-01-08T15:31:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeleteOrders\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Delete checked orders from your store",
+                "support": {
+                    "source": "https://github.com/swissup/module-delete-orders/tree/1.0.3",
                     "issues": "https://github.com/swissup/module-delete-orders/issues"
                 }
             }

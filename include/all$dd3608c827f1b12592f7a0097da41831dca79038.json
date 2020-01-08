@@ -38522,6 +38522,58 @@
                     "issues": "https://github.com/swissup/module-instaframe/issues"
                 }
             },
+            "0.10.2": {
+                "name": "swissup/module-instaframe",
+                "version": "0.10.2",
+                "version_normalized": "0.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-instaframe.git",
+                    "reference": "4837107648c0aeb2a004de1f7710686577b8fa5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-instaframe/zipball/4837107648c0aeb2a004de1f7710686577b8fa5c",
+                    "reference": "4837107648c0aeb2a004de1f7710686577b8fa5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.0"
+                },
+                "time": "2020-01-08T15:31:20+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-instaframe.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/instaframe/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/instaframe/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Instaframe\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Instagram feed widget",
+                "keywords": [
+                    "feed",
+                    "instagram",
+                    "social"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-instaframe/tree/0.10.2",
+                    "issues": "https://github.com/swissup/module-instaframe/issues"
+                }
+            },
             "0.9.0": {
                 "name": "swissup/module-instaframe",
                 "version": "0.9.0",
@@ -38581,18 +38633,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-instaframe.git",
-                    "reference": "a677fc1847771865c58dea0378e65b6388baf295"
+                    "reference": "4837107648c0aeb2a004de1f7710686577b8fa5c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-instaframe/zipball/a677fc1847771865c58dea0378e65b6388baf295",
-                    "reference": "a677fc1847771865c58dea0378e65b6388baf295",
+                    "url": "https://api.github.com/repos/swissup/module-instaframe/zipball/4837107648c0aeb2a004de1f7710686577b8fa5c",
+                    "reference": "4837107648c0aeb2a004de1f7710686577b8fa5c",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.8.6"
+                    "swissup/module-core": "^1.10.0"
                 },
-                "time": "2019-10-10T09:14:54+00:00",
+                "time": "2020-01-08T15:31:20+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -38622,7 +38674,7 @@
                     "social"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-instaframe/tree/master",
+                    "source": "https://github.com/swissup/module-instaframe/tree/0.10.2",
                     "issues": "https://github.com/swissup/module-instaframe/issues"
                 }
             }

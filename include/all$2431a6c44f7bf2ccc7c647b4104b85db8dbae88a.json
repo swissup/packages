@@ -19484,26 +19484,26 @@
                     "issues": "https://github.com/swissup/module-checkout-success/issues"
                 }
             },
-            "dev-master": {
+            "1.4.0": {
                 "name": "swissup/module-checkout-success",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-success.git",
-                    "reference": "42fb4a410df65c5d00c5827bf36c8b27055a3514"
+                    "reference": "20e1430aebd2f670709a09e5c94aaa2e83d0e91d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/42fb4a410df65c5d00c5827bf36c8b27055a3514",
-                    "reference": "42fb4a410df65c5d00c5827bf36c8b27055a3514",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/20e1430aebd2f670709a09e5c94aaa2e83d0e91d",
+                    "reference": "20e1430aebd2f670709a09e5c94aaa2e83d0e91d",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.2",
-                    "swissup/module-codemirror": "^1.0.0"
+                    "swissup/module-checkout": "^1.3.3",
+                    "swissup/module-codemirror": "^1.1.0"
                 },
-                "time": "2019-12-26T15:08:49+00:00",
+                "time": "2020-01-08T15:27:24+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -19530,7 +19530,57 @@
                     "success page"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-success/tree/master",
+                    "source": "https://github.com/swissup/module-checkout-success/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-checkout-success/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-checkout-success",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-success.git",
+                    "reference": "20e1430aebd2f670709a09e5c94aaa2e83d0e91d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/20e1430aebd2f670709a09e5c94aaa2e83d0e91d",
+                    "reference": "20e1430aebd2f670709a09e5c94aaa2e83d0e91d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.3.3",
+                    "swissup/module-codemirror": "^1.1.0"
+                },
+                "time": "2020-01-08T15:27:24+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSuccess\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Beautiful checkout success page for Magento2",
+                "keywords": [
+                    "checkout",
+                    "success page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-success/tree/1.4.0",
                     "issues": "https://github.com/swissup/module-checkout-success/issues"
                 }
             }

@@ -51864,26 +51864,26 @@
                     "issues": "https://github.com/swissup/module-social-login/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-social-login",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-social-login.git",
-                    "reference": "b4370cd2ed6c6688716f9b9bfc3ef1694dcc6855"
+                    "reference": "66b67bc147bddd0387a28ede8c9b58b6677e192b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/b4370cd2ed6c6688716f9b9bfc3ef1694dcc6855",
-                    "reference": "b4370cd2ed6c6688716f9b9bfc3ef1694dcc6855",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/66b67bc147bddd0387a28ede8c9b58b6677e192b",
+                    "reference": "66b67bc147bddd0387a28ede8c9b58b6677e192b",
                     "shasum": ""
                 },
                 "require": {
                     "hybridauth/hybridauth": "^3.0",
                     "swissup/module-social-core": "^1.0.0"
                 },
-                "time": "2019-10-02T12:06:43+00:00",
+                "time": "2020-01-08T15:31:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -51898,7 +51898,45 @@
                 ],
                 "description": "Login or register in Magento store using social account",
                 "support": {
-                    "source": "https://github.com/swissup/module-social-login/tree/master",
+                    "source": "https://github.com/swissup/module-social-login/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-social-login/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-social-login",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-social-login.git",
+                    "reference": "66b67bc147bddd0387a28ede8c9b58b6677e192b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/66b67bc147bddd0387a28ede8c9b58b6677e192b",
+                    "reference": "66b67bc147bddd0387a28ede8c9b58b6677e192b",
+                    "shasum": ""
+                },
+                "require": {
+                    "hybridauth/hybridauth": "^3.0",
+                    "swissup/module-social-core": "^1.0.0"
+                },
+                "time": "2020-01-08T15:31:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SocialLogin\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Login or register in Magento store using social account",
+                "support": {
+                    "source": "https://github.com/swissup/module-social-login/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-social-login/issues"
                 }
             }

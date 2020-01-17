@@ -43643,19 +43643,19 @@
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             },
-            "dev-master": {
+            "1.3.9": {
                 "name": "swissup/module-pagespeed",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.9",
+                "version_normalized": "1.3.9.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "3f7a0f92cbc9d13c0dd9ac848ed463f6afac03ad"
+                    "reference": "9f5811c51fee2ea6e287abe3b5c0458c68417d81"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/3f7a0f92cbc9d13c0dd9ac848ed463f6afac03ad",
-                    "reference": "3f7a0f92cbc9d13c0dd9ac848ed463f6afac03ad",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/9f5811c51fee2ea6e287abe3b5c0458c68417d81",
+                    "reference": "9f5811c51fee2ea6e287abe3b5c0458c68417d81",
                     "shasum": ""
                 },
                 "require": {
@@ -43666,7 +43666,7 @@
                     "swissup/module-core": "^1.10.0",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-01-16T12:47:38+00:00",
+                "time": "2020-01-17T07:27:36+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -43685,7 +43685,53 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/1.3.8",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.3.9",
+                    "issues": "https://github.com/swissup/module-pagespeed/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-pagespeed",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "9f5811c51fee2ea6e287abe3b5c0458c68417d81"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/9f5811c51fee2ea6e287abe3b5c0458c68417d81",
+                    "reference": "9f5811c51fee2ea6e287abe3b5c0458c68417d81",
+                    "shasum": ""
+                },
+                "require": {
+                    "marc1706/fast-image-size": "^1.1.4",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "mrclay/minify": "~3.0.0",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/module-core": "^1.10.0",
+                    "zendframework/zend-dom": "^2.7.1"
+                },
+                "time": "2020-01-17T07:27:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.3.9",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }

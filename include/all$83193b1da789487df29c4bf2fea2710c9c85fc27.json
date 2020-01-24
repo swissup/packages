@@ -6432,6 +6432,30 @@
                 }
             }
         },
+        "swissup/email-templates": {
+            "dev-master": {
+                "name": "swissup/email-templates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-pagespeed": "^1.0.0"
+                },
+                "time": "2020-01-24T07:54:11+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2 (metapackage)",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/email-templates/tree/master",
+                    "issues": "https://github.com/swissup/email-templates/issues"
+                }
+            }
+        },
         "swissup/fblike": {
             "1.2.0": {
                 "name": "swissup/fblike",
@@ -43937,12 +43961,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "a014ef06384c417d5fc5e6b59e30d9d7759c5412"
+                    "reference": "230f2072a997d58df0c0595a3d44693d33edb2e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/a014ef06384c417d5fc5e6b59e30d9d7759c5412",
-                    "reference": "a014ef06384c417d5fc5e6b59e30d9d7759c5412",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/230f2072a997d58df0c0595a3d44693d33edb2e8",
+                    "reference": "230f2072a997d58df0c0595a3d44693d33edb2e8",
                     "shasum": ""
                 },
                 "require": {
@@ -43964,7 +43988,7 @@
                     "swissup/module-core": "^1.10.0",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-01-23T14:28:04+00:00",
+                "time": "2020-01-24T08:00:53+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

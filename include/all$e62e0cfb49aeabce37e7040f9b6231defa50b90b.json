@@ -20713,22 +20713,22 @@
                     "issues": "https://github.com/swissup/module-codemirror/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-codemirror",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-codemirror.git",
-                    "reference": "3004827b834dc875ec4140c2efe9f00c004fb9f6"
+                    "reference": "e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/3004827b834dc875ec4140c2efe9f00c004fb9f6",
-                    "reference": "3004827b834dc875ec4140c2efe9f00c004fb9f6",
+                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e",
+                    "reference": "e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e",
                     "shasum": ""
                 },
-                "time": "2020-01-24T15:37:41+00:00",
+                "time": "2020-01-31T14:30:34+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -20743,7 +20743,41 @@
                 ],
                 "description": "Versatile text editor implemented in JavaScript for the browser. ",
                 "support": {
-                    "source": "https://github.com/swissup/module-codemirror/tree/master",
+                    "source": "https://github.com/swissup/module-codemirror/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-codemirror/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-codemirror",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-codemirror.git",
+                    "reference": "e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e",
+                    "reference": "e0ae2c7bf2f9baeb64c10cac17d6c018d2b9863e",
+                    "shasum": ""
+                },
+                "time": "2020-01-31T14:30:34+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Codemirror\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Versatile text editor implemented in JavaScript for the browser. ",
+                "support": {
+                    "source": "https://github.com/swissup/module-codemirror/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-codemirror/issues"
                 }
             }
@@ -46418,47 +46452,6 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
-            "1.5.0": {
-                "name": "swissup/module-pro-labels",
-                "version": "1.5.0",
-                "version_normalized": "1.5.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/db2401c49d863d66756e123cff03f6a5311cd148",
-                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-codemirror": "^1.1.0",
-                    "swissup/module-core": "^1.10.1"
-                },
-                "suggest": {
-                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
-                },
-                "time": "2020-01-31T14:30:31+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\ProLabels\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Product labels and badges",
-                "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/1.5.0",
-                    "issues": "https://github.com/swissup/module-pro-labels/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-pro-labels",
                 "version": "dev-master",
@@ -46466,22 +46459,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148"
+                    "reference": "b21af7f9cf552bec4c256709130a2143e3420727"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/db2401c49d863d66756e123cff03f6a5311cd148",
-                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/b21af7f9cf552bec4c256709130a2143e3420727",
+                    "reference": "b21af7f9cf552bec4c256709130a2143e3420727",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.0",
-                    "swissup/module-core": "^1.10.1"
+                    "swissup/module-core": "^1.10.0"
                 },
                 "suggest": {
                     "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
                 },
-                "time": "2020-01-31T14:30:31+00:00",
+                "time": "2020-01-24T12:29:54+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -46496,7 +46489,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/1.5.0",
+                    "source": "https://github.com/swissup/module-pro-labels/tree/master",
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             }

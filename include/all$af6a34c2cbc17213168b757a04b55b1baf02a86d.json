@@ -6291,24 +6291,6 @@
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
-            "1.8.5": {
-                "name": "swissup/easytabs",
-                "version": "1.8.5",
-                "version_normalized": "1.8.5.0",
-                "require": {
-                    "swissup/module-easytabs": "^1.8.4"
-                },
-                "time": "2020-01-31T14:32:27+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Custom tabs for product and CMS pages",
-                "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.8.5",
-                    "issues": "https://github.com/swissup/easytabs/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/easytabs",
                 "version": "dev-master",
@@ -6316,14 +6298,14 @@
                 "require": {
                     "swissup/module-easytabs": "^1.8.4"
                 },
-                "time": "2020-01-31T14:32:27+00:00",
+                "time": "2020-01-16T15:28:21+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Custom tabs for product and CMS pages",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.8.5",
+                    "source": "https://github.com/swissup/easytabs/tree/1.8.4",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -73423,25 +73405,25 @@
                     "issues": "https://github.com/swissup/theme-frontend-argento-force/issues"
                 }
             },
-            "dev-master": {
+            "1.15.1": {
                 "name": "swissup/theme-frontend-argento-force",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.15.1",
+                "version_normalized": "1.15.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-force.git",
-                    "reference": "b995f0051dcaa281318ad39dfd4233a095718087"
+                    "reference": "3b67bc7d286314c1b4717f3d097efa4f0ac97cdc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-force/zipball/b995f0051dcaa281318ad39dfd4233a095718087",
-                    "reference": "b995f0051dcaa281318ad39dfd4233a095718087",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-force/zipball/3b67bc7d286314c1b4717f3d097efa4f0ac97cdc",
+                    "reference": "3b67bc7d286314c1b4717f3d097efa4f0ac97cdc",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2020-01-29T09:58:23+00:00",
+                "time": "2020-01-31T14:33:12+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -73474,7 +73456,62 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-force/tree/master",
+                    "source": "https://github.com/swissup/theme-frontend-argento-force/tree/1.15.1",
+                    "issues": "https://github.com/swissup/theme-frontend-argento-force/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-force",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argento-force.git",
+                    "reference": "3b67bc7d286314c1b4717f3d097efa4f0ac97cdc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-force/zipball/3b67bc7d286314c1b4717f3d097efa4f0ac97cdc",
+                    "reference": "3b67bc7d286314c1b4717f3d097efa4f0ac97cdc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2020-01-31T14:33:12+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "force",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argento-force/tree/1.15.1",
                     "issues": "https://github.com/swissup/theme-frontend-argento-force/issues"
                 }
             }

@@ -30016,59 +30016,6 @@
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             },
-            "1.8.5": {
-                "name": "swissup/module-easytabs",
-                "version": "1.8.5",
-                "version_normalized": "1.8.5.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "907d04aeba8b0f1f8a5a595198f6aa995af33244"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/907d04aeba8b0f1f8a5a595198f6aa995af33244",
-                    "reference": "907d04aeba8b0f1f8a5a595198f6aa995af33244",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.1"
-                },
-                "time": "2020-01-31T14:30:27+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Easytabs\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Easy Tabs extension from Swissup",
-                "keywords": [
-                    "easytabs",
-                    "homepage tabs",
-                    "product tabs",
-                    "tabs"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.5",
-                    "issues": "https://github.com/swissup/module-easytabs/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-easytabs",
                 "version": "dev-master",
@@ -30076,18 +30023,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "907d04aeba8b0f1f8a5a595198f6aa995af33244"
+                    "reference": "3f2fe642fb55eb30c1fca3d37062721e5a749e8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/907d04aeba8b0f1f8a5a595198f6aa995af33244",
-                    "reference": "907d04aeba8b0f1f8a5a595198f6aa995af33244",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/3f2fe642fb55eb30c1fca3d37062721e5a749e8e",
+                    "reference": "3f2fe642fb55eb30c1fca3d37062721e5a749e8e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.1"
+                    "swissup/module-core": "^1.10.0"
                 },
-                "time": "2020-01-31T14:30:27+00:00",
+                "time": "2020-01-23T12:13:13+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -30118,7 +30065,7 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.5",
+                    "source": "https://github.com/swissup/module-easytabs/tree/master",
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             }
@@ -46471,29 +46418,29 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
-            "dev-master": {
+            "1.5.0": {
                 "name": "swissup/module-pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "b21af7f9cf552bec4c256709130a2143e3420727"
+                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/b21af7f9cf552bec4c256709130a2143e3420727",
-                    "reference": "b21af7f9cf552bec4c256709130a2143e3420727",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/db2401c49d863d66756e123cff03f6a5311cd148",
+                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.0",
-                    "swissup/module-core": "^1.10.0"
+                    "swissup/module-core": "^1.10.1"
                 },
                 "suggest": {
                     "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
                 },
-                "time": "2020-01-24T12:29:54+00:00",
+                "time": "2020-01-31T14:30:31+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -46508,7 +46455,48 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/master",
+                    "source": "https://github.com/swissup/module-pro-labels/tree/1.5.0",
+                    "issues": "https://github.com/swissup/module-pro-labels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/db2401c49d863d66756e123cff03f6a5311cd148",
+                    "reference": "db2401c49d863d66756e123cff03f6a5311cd148",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.0",
+                    "swissup/module-core": "^1.10.1"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2020-01-31T14:30:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels/tree/1.5.0",
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             }

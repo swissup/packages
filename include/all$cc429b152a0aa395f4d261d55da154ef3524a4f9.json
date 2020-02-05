@@ -23315,22 +23315,22 @@
                     "issues": "https://github.com/swissup/module-countdowntimer/issues"
                 }
             },
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/module-countdowntimer",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-countdowntimer.git",
-                    "reference": "9871fe74d538824a0669162276729f96a7f6934e"
+                    "reference": "b797ef0874821c6df24aeb852650434458c7eb3b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-countdowntimer/zipball/9871fe74d538824a0669162276729f96a7f6934e",
-                    "reference": "9871fe74d538824a0669162276729f96a7f6934e",
+                    "url": "https://api.github.com/repos/swissup/module-countdowntimer/zipball/b797ef0874821c6df24aeb852650434458c7eb3b",
+                    "reference": "b797ef0874821c6df24aeb852650434458c7eb3b",
                     "shasum": ""
                 },
-                "time": "2019-09-12T11:05:08+00:00",
+                "time": "2020-02-05T16:03:28+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -23345,7 +23345,41 @@
                 ],
                 "description": "Countdown timer widgets",
                 "support": {
-                    "source": "https://github.com/swissup/module-countdowntimer/tree/0.10.1",
+                    "source": "https://github.com/swissup/module-countdowntimer/tree/1.0.0",
+                    "issues": "https://github.com/swissup/module-countdowntimer/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-countdowntimer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-countdowntimer.git",
+                    "reference": "b797ef0874821c6df24aeb852650434458c7eb3b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-countdowntimer/zipball/b797ef0874821c6df24aeb852650434458c7eb3b",
+                    "reference": "b797ef0874821c6df24aeb852650434458c7eb3b",
+                    "shasum": ""
+                },
+                "time": "2020-02-05T16:03:28+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Countdowntimer\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Countdown timer widgets",
+                "support": {
+                    "source": "https://github.com/swissup/module-countdowntimer/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-countdowntimer/issues"
                 }
             }

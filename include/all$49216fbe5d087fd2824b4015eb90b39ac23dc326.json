@@ -29143,25 +29143,25 @@
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             },
-            "dev-master": {
+            "1.4.7": {
                 "name": "swissup/module-easycatalogimg",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.7",
+                "version_normalized": "1.4.7.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easycatalogimg.git",
-                    "reference": "31f1c06b1e8fa34a5408bd3b3550bd16914fbc1e"
+                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/31f1c06b1e8fa34a5408bd3b3550bd16914fbc1e",
-                    "reference": "31f1c06b1e8fa34a5408bd3b3550bd16914fbc1e",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/3f3465f8a2f025b951b97549d9ffcc56cf459800",
+                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.8.7"
+                    "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-12T15:52:37+00:00",
+                "time": "2020-02-17T09:31:08+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -29200,7 +29200,68 @@
                     "subcategory listing"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easycatalogimg/tree/master",
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.4.7",
+                    "issues": "https://github.com/swissup/module-easycatalogimg/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easycatalogimg",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easycatalogimg.git",
+                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/3f3465f8a2f025b951b97549d9ffcc56cf459800",
+                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.1"
+                },
+                "time": "2020-02-17T09:31:08+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-easy-catalog-images.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easycatalogimages.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easycatalogimg\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Catalog Images extension from Swissup",
+                "keywords": [
+                    "category thumbnail",
+                    "easycatalogimages",
+                    "subcategory listing"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.4.7",
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             }
@@ -68523,39 +68584,21 @@
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
-            "1.2.7": {
-                "name": "swissup/testimonials",
-                "version": "1.2.7",
-                "version_normalized": "1.2.7.0",
-                "require": {
-                    "swissup/module-testimonials": "^1.2.6"
-                },
-                "time": "2020-02-17T09:28:12+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Customer's testimonials at your store",
-                "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/1.2.7",
-                    "issues": "https://github.com/swissup/testimonials/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/testimonials",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-testimonials": "^1.2.6"
+                    "swissup/module-testimonials": "^1.2.5"
                 },
-                "time": "2020-02-17T09:28:12+00:00",
+                "time": "2019-10-16T07:26:42+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Customer's testimonials at your store",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/1.2.7",
+                    "source": "https://github.com/swissup/testimonials/tree/1.2.6",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             }

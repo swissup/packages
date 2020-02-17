@@ -45353,54 +45353,6 @@
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             },
-            "1.4.1": {
-                "name": "swissup/module-orderattachment",
-                "version": "1.4.1",
-                "version_normalized": "1.4.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-orderattachment.git",
-                    "reference": "737e47ddc5e80dce4956abf2b7378c39916b36bc"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/737e47ddc5e80dce4956abf2b7378c39916b36bc",
-                    "reference": "737e47ddc5e80dce4956abf2b7378c39916b36bc",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-checkout": "^1.3.3"
-                },
-                "time": "2020-02-17T10:59:55+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-orderattachment.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/order-attachments/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Orderattachment\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Order Attachment Magento 2 extension",
-                "support": {
-                    "source": "https://github.com/swissup/module-orderattachment/tree/1.4.1",
-                    "issues": "https://github.com/swissup/module-orderattachment/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-orderattachment",
                 "version": "dev-master",
@@ -45408,18 +45360,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-orderattachment.git",
-                    "reference": "737e47ddc5e80dce4956abf2b7378c39916b36bc"
+                    "reference": "e0a3da9bcfc63379e9aa4f6695fdba298d263755"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/737e47ddc5e80dce4956abf2b7378c39916b36bc",
-                    "reference": "737e47ddc5e80dce4956abf2b7378c39916b36bc",
+                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/e0a3da9bcfc63379e9aa4f6695fdba298d263755",
+                    "reference": "e0a3da9bcfc63379e9aa4f6695fdba298d263755",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.3.3"
                 },
-                "time": "2020-02-17T10:59:55+00:00",
+                "time": "2020-02-12T16:08:22+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -45445,7 +45397,7 @@
                 ],
                 "description": "Order Attachment Magento 2 extension",
                 "support": {
-                    "source": "https://github.com/swissup/module-orderattachment/tree/1.4.1",
+                    "source": "https://github.com/swissup/module-orderattachment/tree/master",
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             }
@@ -50906,25 +50858,25 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
-            "dev-master": {
+            "1.4.7": {
                 "name": "swissup/module-rich-snippets",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.7",
+                "version_normalized": "1.4.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "29c0a2e0d49c7989cd717764ea28c03c7a11f017"
+                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/29c0a2e0d49c7989cd717764ea28c03c7a11f017",
-                    "reference": "29c0a2e0d49c7989cd717764ea28c03c7a11f017",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d1ca62a745a8db7966f09a111f6300f99681df79",
+                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2020-02-12T16:08:22+00:00",
+                "time": "2020-02-17T10:59:58+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -50950,7 +50902,55 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.7",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-rich-snippets",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d1ca62a745a8db7966f09a111f6300f99681df79",
+                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.1"
+                },
+                "time": "2020-02-17T10:59:58+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.7",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }

@@ -4978,6 +4978,24 @@
                     "issues": "https://github.com/swissup/core/issues"
                 }
             },
+            "1.10.2": {
+                "name": "swissup/core",
+                "version": "1.10.2",
+                "version_normalized": "1.10.2.0",
+                "require": {
+                    "swissup/module-core": "^1.10.1"
+                },
+                "time": "2020-02-17T09:24:39+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+                "support": {
+                    "source": "https://github.com/swissup/core/tree/1.10.2",
+                    "issues": "https://github.com/swissup/core/issues"
+                }
+            },
             "1.7.0": {
                 "name": "swissup/core",
                 "version": "1.7.0",
@@ -5165,14 +5183,14 @@
                 "require": {
                     "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-01-31T14:31:28+00:00",
+                "time": "2020-02-17T09:24:39+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Swissup core module. It's purpose is to add menu and config placeholders",
                 "support": {
-                    "source": "https://github.com/swissup/core/tree/1.10.1",
+                    "source": "https://github.com/swissup/core/tree/1.10.2",
                     "issues": "https://github.com/swissup/core/issues"
                 }
             }
@@ -55673,53 +55691,6 @@
                     "issues": "https://github.com/swissup/module-slick-carousel/issues"
                 }
             },
-            "1.3.3": {
-                "name": "swissup/module-slick-carousel",
-                "version": "1.3.3",
-                "version_normalized": "1.3.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/module-slick-carousel.git",
-                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/6c411cff95092239c793c06b7068b44d1615b9cd",
-                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd",
-                    "shasum": ""
-                },
-                "time": "2020-02-17T09:24:18+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\SlickCarousel\\": ""
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "the last carousel you'll ever need for magento2",
-                "keywords": [
-                    "carousel",
-                    "slick carousel",
-                    "slider"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-slick-carousel/tree/1.3.3",
-                    "issues": "https://github.com/swissup/module-slick-carousel/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-slick-carousel",
                 "version": "dev-master",
@@ -55727,15 +55698,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-slick-carousel.git",
-                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd"
+                    "reference": "d11be9f087676d112b481e66117550ae00bbebd9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/6c411cff95092239c793c06b7068b44d1615b9cd",
-                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd",
+                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/d11be9f087676d112b481e66117550ae00bbebd9",
+                    "reference": "d11be9f087676d112b481e66117550ae00bbebd9",
                     "shasum": ""
                 },
-                "time": "2020-02-17T09:24:18+00:00",
+                "time": "2020-02-14T12:58:56+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -55763,7 +55734,7 @@
                     "slider"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-slick-carousel/tree/1.3.3",
+                    "source": "https://github.com/swissup/module-slick-carousel/tree/master",
                     "issues": "https://github.com/swissup/module-slick-carousel/issues"
                 }
             }

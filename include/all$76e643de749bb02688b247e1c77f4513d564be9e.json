@@ -7955,60 +7955,32 @@
                     "source": "https://github.com/swissup/firecheckout/tree/1.21.1"
                 }
             },
-            "1.21.2": {
-                "name": "swissup/firecheckout",
-                "version": "1.21.2",
-                "version_normalized": "1.21.2.0",
-                "require": {
-                    "swissup/module-address-autocomplete": "^1.3.1",
-                    "swissup/module-address-field-manager": "^1.5.2",
-                    "swissup/module-checkout-cart": "^1.4.2",
-                    "swissup/module-checkout-fields": "^1.4.0",
-                    "swissup/module-checkout-success": "^1.4.1",
-                    "swissup/module-customer-field-manager": "^1.2.1",
-                    "swissup/module-delivery-date": "^1.5.0",
-                    "swissup/module-firecheckout": "^1.21.2",
-                    "swissup/module-geoip": "^1.4.1",
-                    "swissup/module-orderattachment": "^1.4.1",
-                    "swissup/module-subscribe-at-checkout": "^1.3.0",
-                    "swissup/module-taxvat": "^1.3.1"
-                },
-                "time": "2020-02-17T15:13:25+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "All-in-one checkout extensions for Magento2",
-                "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.21.2"
-                }
-            },
             "dev-master": {
                 "name": "swissup/firecheckout",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-address-autocomplete": "^1.3.1",
-                    "swissup/module-address-field-manager": "^1.5.2",
+                    "swissup/module-address-autocomplete": "^1.3.0",
+                    "swissup/module-address-field-manager": "^1.5.0",
                     "swissup/module-checkout-cart": "^1.4.2",
                     "swissup/module-checkout-fields": "^1.4.0",
-                    "swissup/module-checkout-success": "^1.4.1",
-                    "swissup/module-customer-field-manager": "^1.2.1",
+                    "swissup/module-checkout-success": "^1.4.0",
+                    "swissup/module-customer-field-manager": "^1.2.0",
                     "swissup/module-delivery-date": "^1.5.0",
-                    "swissup/module-firecheckout": "^1.21.2",
-                    "swissup/module-geoip": "^1.4.1",
-                    "swissup/module-orderattachment": "^1.4.1",
+                    "swissup/module-firecheckout": "^1.21.1",
+                    "swissup/module-geoip": "^1.4.0",
+                    "swissup/module-orderattachment": "^1.4.0",
                     "swissup/module-subscribe-at-checkout": "^1.3.0",
-                    "swissup/module-taxvat": "^1.3.1"
+                    "swissup/module-taxvat": "^1.3.0"
                 },
-                "time": "2020-02-17T15:13:25+00:00",
+                "time": "2020-01-09T09:16:38+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "All-in-one checkout extensions for Magento2",
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.21.2"
+                    "source": "https://github.com/swissup/firecheckout/tree/1.21.1"
                 }
             }
         },
@@ -44442,19 +44414,19 @@
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "swissup/module-marketplace",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-marketplace.git",
-                    "reference": "22a5c370487df0d512c6f2511fd8834a0c1d26ae"
+                    "reference": "40e753e29682c84c745223f9bfc7ea2f965679d5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/22a5c370487df0d512c6f2511fd8834a0c1d26ae",
-                    "reference": "22a5c370487df0d512c6f2511fd8834a0c1d26ae",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/40e753e29682c84c745223f9bfc7ea2f965679d5",
+                    "reference": "40e753e29682c84c745223f9bfc7ea2f965679d5",
                     "shasum": ""
                 },
                 "require": {
@@ -44470,7 +44442,7 @@
                     "psr/log": "*",
                     "symfony/console": "*"
                 },
-                "time": "2020-02-17T12:47:33+00:00",
+                "time": "2020-02-17T15:18:01+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -44492,7 +44464,61 @@
                     "theme manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-marketplace/tree/1.1.0",
+                    "source": "https://github.com/swissup/module-marketplace/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-marketplace/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-marketplace",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-marketplace.git",
+                    "reference": "40e753e29682c84c745223f9bfc7ea2f965679d5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/40e753e29682c84c745223f9bfc7ea2f965679d5",
+                    "reference": "40e753e29682c84c745223f9bfc7ea2f965679d5",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/composer": "*",
+                    "magento/framework": "^102.0",
+                    "magento/module-backend": "^101.0",
+                    "magento/module-catalog": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-deploy": "^100.0",
+                    "magento/module-theme": "*",
+                    "magento/module-ui": "^101.0",
+                    "monolog/monolog": "*",
+                    "psr/log": "*",
+                    "symfony/console": "*"
+                },
+                "time": "2020-02-17T15:18:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Marketplace\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "One-Click modules and themes downloader/installer",
+                "keywords": [
+                    "installer",
+                    "magento marketplace",
+                    "marketplace",
+                    "module manager",
+                    "theme manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-marketplace/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             }

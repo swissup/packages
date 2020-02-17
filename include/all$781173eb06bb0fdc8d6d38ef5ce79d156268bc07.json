@@ -36985,57 +36985,6 @@
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             },
-            "1.2.3": {
-                "name": "swissup/module-gdpr",
-                "version": "1.2.3",
-                "version_normalized": "1.2.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/b1ef3fc568661ebf7df9554ad443841e928e599d",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-02-17T09:23:51+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-gdpr.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/gdpr/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/gdpr/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Gdpr\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "GDPR compliance made easy",
-                "keywords": [
-                    "gdpr"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/1.2.3",
-                    "issues": "https://github.com/swissup/module-gdpr/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-gdpr",
                 "version": "dev-master",
@@ -37043,18 +36992,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d"
+                    "reference": "90c3852d99f68f75646c957494d3e6e8631c915c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/b1ef3fc568661ebf7df9554ad443841e928e599d",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/90c3852d99f68f75646c957494d3e6e8631c915c",
+                    "reference": "90c3852d99f68f75646c957494d3e6e8631c915c",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.2"
+                    "swissup/module-core": "^1.10.0"
                 },
-                "time": "2020-02-17T09:23:51+00:00",
+                "time": "2020-02-14T15:32:46+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -37083,7 +37032,7 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/1.2.3",
+                    "source": "https://github.com/swissup/module-gdpr/tree/master",
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             }
@@ -55724,22 +55673,22 @@
                     "issues": "https://github.com/swissup/module-slick-carousel/issues"
                 }
             },
-            "dev-master": {
+            "1.3.3": {
                 "name": "swissup/module-slick-carousel",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-slick-carousel.git",
-                    "reference": "d11be9f087676d112b481e66117550ae00bbebd9"
+                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/d11be9f087676d112b481e66117550ae00bbebd9",
-                    "reference": "d11be9f087676d112b481e66117550ae00bbebd9",
+                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/6c411cff95092239c793c06b7068b44d1615b9cd",
+                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd",
                     "shasum": ""
                 },
-                "time": "2020-02-14T12:58:56+00:00",
+                "time": "2020-02-17T09:24:18+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -55767,7 +55716,54 @@
                     "slider"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-slick-carousel/tree/master",
+                    "source": "https://github.com/swissup/module-slick-carousel/tree/1.3.3",
+                    "issues": "https://github.com/swissup/module-slick-carousel/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-slick-carousel",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-slick-carousel.git",
+                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-slick-carousel/zipball/6c411cff95092239c793c06b7068b44d1615b9cd",
+                    "reference": "6c411cff95092239c793c06b7068b44d1615b9cd",
+                    "shasum": ""
+                },
+                "time": "2020-02-17T09:24:18+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SlickCarousel\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "the last carousel you'll ever need for magento2",
+                "keywords": [
+                    "carousel",
+                    "slick carousel",
+                    "slider"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-slick-carousel/tree/1.3.3",
                     "issues": "https://github.com/swissup/module-slick-carousel/issues"
                 }
             }

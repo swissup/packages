@@ -24333,66 +24333,6 @@
                     "issues": "https://github.com/swissup/module-customer-field-manager/issues"
                 }
             },
-            "1.2.1": {
-                "name": "swissup/module-customer-field-manager",
-                "version": "1.2.1",
-                "version_normalized": "1.2.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-customer-field-manager.git",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-field-manager": "^1.2.0"
-                },
-                "time": "2020-02-17T10:59:39+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/customer-field-manager/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/customer-field-manager/changelog"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-customer-field-manager.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/customer-field-manager/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/customer-field-manager/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CustomerFieldManager\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Customer Field manager for Magento 2",
-                "keywords": [
-                    "attribute manager",
-                    "customer attributes",
-                    "customer fields",
-                    "fields manager"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-customer-field-manager/tree/1.2.1",
-                    "issues": "https://github.com/swissup/module-customer-field-manager/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-customer-field-manager",
                 "version": "dev-master",
@@ -24400,18 +24340,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-customer-field-manager.git",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2"
+                    "reference": "3949a68124306fafacfd7c82a45144019e978b80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
+                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/3949a68124306fafacfd7c82a45144019e978b80",
+                    "reference": "3949a68124306fafacfd7c82a45144019e978b80",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-field-manager": "^1.2.0"
                 },
-                "time": "2020-02-17T10:59:39+00:00",
+                "time": "2020-02-12T16:08:22+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -24449,7 +24389,7 @@
                     "fields manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-customer-field-manager/tree/1.2.1",
+                    "source": "https://github.com/swissup/module-customer-field-manager/tree/master",
                     "issues": "https://github.com/swissup/module-customer-field-manager/issues"
                 }
             }
@@ -24728,25 +24668,25 @@
                     "issues": "https://github.com/swissup/module-delete-orders/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/module-delete-orders",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delete-orders.git",
-                    "reference": "52ef9dcc5f8ec0778e56c05bcf65c468e4a9f704"
+                    "reference": "a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/52ef9dcc5f8ec0778e56c05bcf65c468e4a9f704",
-                    "reference": "52ef9dcc5f8ec0778e56c05bcf65c468e4a9f704",
+                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373",
+                    "reference": "a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.0"
+                    "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-12T16:08:22+00:00",
+                "time": "2020-02-17T10:59:41+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -24772,7 +24712,55 @@
                 ],
                 "description": "Delete checked orders from your store",
                 "support": {
-                    "source": "https://github.com/swissup/module-delete-orders/tree/master",
+                    "source": "https://github.com/swissup/module-delete-orders/tree/1.0.4",
+                    "issues": "https://github.com/swissup/module-delete-orders/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-delete-orders",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delete-orders.git",
+                    "reference": "a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373",
+                    "reference": "a9cc9d02ff06b60a94b32c3b59fc8d0e837d5373",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.1"
+                },
+                "time": "2020-02-17T10:59:41+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-delete-orders.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/delete-orders/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/delete-orders/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeleteOrders\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Delete checked orders from your store",
+                "support": {
+                    "source": "https://github.com/swissup/module-delete-orders/tree/1.0.4",
                     "issues": "https://github.com/swissup/module-delete-orders/issues"
                 }
             }

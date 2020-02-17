@@ -50858,54 +50858,6 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
-            "1.4.7": {
-                "name": "swissup/module-rich-snippets",
-                "version": "1.4.7",
-                "version_normalized": "1.4.7.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d1ca62a745a8db7966f09a111f6300f99681df79",
-                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-seo-core": "^1.2.1"
-                },
-                "time": "2020-02-17T10:59:58+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\RichSnippets\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Structured data markup for Google's crawlers",
-                "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.7",
-                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-rich-snippets",
                 "version": "dev-master",
@@ -50913,18 +50865,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79"
+                    "reference": "29c0a2e0d49c7989cd717764ea28c03c7a11f017"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d1ca62a745a8db7966f09a111f6300f99681df79",
-                    "reference": "d1ca62a745a8db7966f09a111f6300f99681df79",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/29c0a2e0d49c7989cd717764ea28c03c7a11f017",
+                    "reference": "29c0a2e0d49c7989cd717764ea28c03c7a11f017",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2020-02-17T10:59:58+00:00",
+                "time": "2020-02-12T16:08:22+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -50950,7 +50902,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.7",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }
@@ -56409,26 +56361,26 @@
                     "issues": "https://github.com/swissup/module-social-login/issues"
                 }
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "swissup/module-social-login",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-social-login.git",
-                    "reference": "f07c23b26a521297f15b4c7d48ee9860b0442de1"
+                    "reference": "714a594abc9aaa900e972bff4c9c926cf40ab377"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/f07c23b26a521297f15b4c7d48ee9860b0442de1",
-                    "reference": "f07c23b26a521297f15b4c7d48ee9860b0442de1",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/714a594abc9aaa900e972bff4c9c926cf40ab377",
+                    "reference": "714a594abc9aaa900e972bff4c9c926cf40ab377",
                     "shasum": ""
                 },
                 "require": {
                     "hybridauth/hybridauth": "^3.0",
-                    "swissup/module-social-core": "^1.0.0"
+                    "swissup/module-social-core": "^1.0.1"
                 },
-                "time": "2020-02-12T16:08:22+00:00",
+                "time": "2020-02-17T11:00:01+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -56454,7 +56406,56 @@
                 ],
                 "description": "Login or register in Magento store using social account",
                 "support": {
-                    "source": "https://github.com/swissup/module-social-login/tree/master",
+                    "source": "https://github.com/swissup/module-social-login/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-social-login/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-social-login",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-social-login.git",
+                    "reference": "714a594abc9aaa900e972bff4c9c926cf40ab377"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/714a594abc9aaa900e972bff4c9c926cf40ab377",
+                    "reference": "714a594abc9aaa900e972bff4c9c926cf40ab377",
+                    "shasum": ""
+                },
+                "require": {
+                    "hybridauth/hybridauth": "^3.0",
+                    "swissup/module-social-core": "^1.0.1"
+                },
+                "time": "2020-02-17T11:00:01+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-social-login.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/social-login/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/social-login/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SocialLogin\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Login or register in Magento store using social account",
+                "support": {
+                    "source": "https://github.com/swissup/module-social-login/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-social-login/issues"
                 }
             }

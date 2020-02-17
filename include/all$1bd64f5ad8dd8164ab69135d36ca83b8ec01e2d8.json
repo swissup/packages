@@ -38518,68 +38518,6 @@
                     "issues": "https://github.com/swissup/module-geoip/issues"
                 }
             },
-            "1.4.1": {
-                "name": "swissup/module-geoip",
-                "version": "1.4.1",
-                "version_normalized": "1.4.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-geoip.git",
-                    "reference": "baea9ca7956df422ffb45e1f74b952e9aa4856b0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/baea9ca7956df422ffb45e1f74b952e9aa4856b0",
-                    "reference": "baea9ca7956df422ffb45e1f74b952e9aa4856b0",
-                    "shasum": ""
-                },
-                "require": {
-                    "geoip2/geoip2": "~2.0",
-                    "swissup/module-checkout": "^1.3.3"
-                },
-                "time": "2020-02-17T10:59:49+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-geoip.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/geoip/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Geoip\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento 2 module for geo location detecting by ip",
-                "keywords": [
-                    "address detection",
-                    "city",
-                    "country",
-                    "geoip",
-                    "postcode"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-geoip/tree/1.4.1",
-                    "issues": "https://github.com/swissup/module-geoip/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-geoip",
                 "version": "dev-master",
@@ -38587,19 +38525,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-geoip.git",
-                    "reference": "baea9ca7956df422ffb45e1f74b952e9aa4856b0"
+                    "reference": "3e3213e301b0557e855cdb7cf42ecc9e5caf532d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/baea9ca7956df422ffb45e1f74b952e9aa4856b0",
-                    "reference": "baea9ca7956df422ffb45e1f74b952e9aa4856b0",
+                    "url": "https://api.github.com/repos/swissup/module-geoip/zipball/3e3213e301b0557e855cdb7cf42ecc9e5caf532d",
+                    "reference": "3e3213e301b0557e855cdb7cf42ecc9e5caf532d",
                     "shasum": ""
                 },
                 "require": {
                     "geoip2/geoip2": "~2.0",
                     "swissup/module-checkout": "^1.3.3"
                 },
-                "time": "2020-02-17T10:59:49+00:00",
+                "time": "2020-02-12T16:08:22+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -38638,7 +38576,7 @@
                     "postcode"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-geoip/tree/1.4.1",
+                    "source": "https://github.com/swissup/module-geoip/tree/master",
                     "issues": "https://github.com/swissup/module-geoip/issues"
                 }
             }
@@ -42938,26 +42876,26 @@
                     "issues": "https://github.com/swissup/module-maintenance/issues"
                 }
             },
-            "dev-master": {
+            "2.1.1": {
                 "name": "swissup/module-maintenance",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-maintenance.git",
-                    "reference": "8405b3f3cd3c02ee0e9cbefddf910b7d0a896ea9"
+                    "reference": "fc6e2e402bac06e21ae7c802620360a6c8fbbfc5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/8405b3f3cd3c02ee0e9cbefddf910b7d0a896ea9",
-                    "reference": "8405b3f3cd3c02ee0e9cbefddf910b7d0a896ea9",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/fc6e2e402bac06e21ae7c802620360a6c8fbbfc5",
+                    "reference": "fc6e2e402bac06e21ae7c802620360a6c8fbbfc5",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-codemirror": "^1.0.0",
-                    "swissup/module-core": "^1.9.0"
+                    "swissup/module-codemirror": "^1.1.1",
+                    "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-12T16:08:22+00:00",
+                "time": "2020-02-17T10:59:52+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -42983,7 +42921,56 @@
                 ],
                 "description": "Maintenance store extension",
                 "support": {
-                    "source": "https://github.com/swissup/module-maintenance/tree/master",
+                    "source": "https://github.com/swissup/module-maintenance/tree/2.1.1",
+                    "issues": "https://github.com/swissup/module-maintenance/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-maintenance",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-maintenance.git",
+                    "reference": "fc6e2e402bac06e21ae7c802620360a6c8fbbfc5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/fc6e2e402bac06e21ae7c802620360a6c8fbbfc5",
+                    "reference": "fc6e2e402bac06e21ae7c802620360a6c8fbbfc5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.1",
+                    "swissup/module-core": "^1.10.1"
+                },
+                "time": "2020-02-17T10:59:52+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-maintenance.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/maintenance/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/maintenance/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Maintenance\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Maintenance store extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-maintenance/tree/2.1.1",
                     "issues": "https://github.com/swissup/module-maintenance/issues"
                 }
             }

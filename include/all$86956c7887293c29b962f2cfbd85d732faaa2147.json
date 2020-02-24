@@ -14041,12 +14041,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "191ad5de5e26ed69450cb2f0b46efd678e12b5b4"
+                    "reference": "e7b6135cdda619f10a3c855e0322d244a9a472d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/191ad5de5e26ed69450cb2f0b46efd678e12b5b4",
-                    "reference": "191ad5de5e26ed69450cb2f0b46efd678e12b5b4",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/e7b6135cdda619f10a3c855e0322d244a9a472d2",
+                    "reference": "e7b6135cdda619f10a3c855e0322d244a9a472d2",
                     "shasum": ""
                 },
                 "require": {
@@ -14060,7 +14060,7 @@
                     "swissup/module-core": "^1.10.1",
                     "swissup/module-suggestpage": "^1.2.4"
                 },
-                "time": "2020-02-17T11:00:13+00:00",
+                "time": "2020-02-24T12:20:04+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -14092,7 +14092,7 @@
                 ],
                 "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions",
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxpro/tree/1.4.17",
+                    "source": "https://github.com/swissup/module-ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/module-ajaxpro/issues"
                 }
             }
@@ -18923,12 +18923,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "fb35a0a375f0f7131b44630d4374b58bbb62f4b9"
+                    "reference": "7e514f1f5bc953e841b836c8fff15a03a09e141a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/fb35a0a375f0f7131b44630d4374b58bbb62f4b9",
-                    "reference": "fb35a0a375f0f7131b44630d4374b58bbb62f4b9",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/7e514f1f5bc953e841b836c8fff15a03a09e141a",
+                    "reference": "7e514f1f5bc953e841b836c8fff15a03a09e141a",
                     "shasum": ""
                 },
                 "require": {
@@ -18943,7 +18943,7 @@
                     "psr/log": "^1.1",
                     "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-20T10:07:33+00:00",
+                "time": "2020-02-24T09:07:10+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -18985,6 +18985,78 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/module-askit/tree/master",
+                    "issues": "https://github.com/swissup/module-askit/issues"
+                }
+            },
+            "dev-ajax-widgets": {
+                "name": "swissup/module-askit",
+                "version": "dev-ajax-widgets",
+                "version_normalized": "dev-ajax-widgets",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "6e5d1143ae3c9bbabf60b98c6dd45d32a6f9df75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/6e5d1143ae3c9bbabf60b98c6dd45d32a6f9df75",
+                    "reference": "6e5d1143ae3c9bbabf60b98c6dd45d32a6f9df75",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^101.0|^102.0",
+                    "magento/module-backend": "^100.2|^101.0",
+                    "magento/module-captcha": "^100.2|^100.3",
+                    "magento/module-cms": "^102.0|^103.0",
+                    "magento/module-customer": "^101.0|^102.0",
+                    "magento/module-store": "^100.2|^101.0",
+                    "magento/module-url-rewrite": "^101.0|^101.1",
+                    "magento/module-widget": "^101.0|^101.1",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.10.1"
+                },
+                "time": "2020-02-24T13:54:27+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-askit.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/askit/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-askit/tree/ajax-widgets",
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             }
@@ -45009,12 +45081,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-marketplace.git",
-                    "reference": "643cb5a4d8ef178f44bcb262fe8050c35fb2d99b"
+                    "reference": "8c3329258a0c96a025aed16a97641d128b7a0e63"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/643cb5a4d8ef178f44bcb262fe8050c35fb2d99b",
-                    "reference": "643cb5a4d8ef178f44bcb262fe8050c35fb2d99b",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/8c3329258a0c96a025aed16a97641d128b7a0e63",
+                    "reference": "8c3329258a0c96a025aed16a97641d128b7a0e63",
                     "shasum": ""
                 },
                 "require": {
@@ -45030,7 +45102,7 @@
                     "psr/log": "*",
                     "symfony/console": "*"
                 },
-                "time": "2020-02-24T09:54:09+00:00",
+                "time": "2020-02-24T14:02:18+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -45052,7 +45124,7 @@
                     "theme manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-marketplace/tree/1.2.0",
+                    "source": "https://github.com/swissup/module-marketplace/tree/master",
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             }
@@ -46753,12 +46825,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "140f6da7ea8f4efe2afa6faa1c81da4226237b08"
+                    "reference": "365298c2fd470cef3b2817e3150afc220d467ba4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/140f6da7ea8f4efe2afa6faa1c81da4226237b08",
-                    "reference": "140f6da7ea8f4efe2afa6faa1c81da4226237b08",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/365298c2fd470cef3b2817e3150afc220d467ba4",
+                    "reference": "365298c2fd470cef3b2817e3150afc220d467ba4",
                     "shasum": ""
                 },
                 "require": {
@@ -46766,7 +46838,7 @@
                     "swissup/module-rtl": "^1.3.3",
                     "swissup/module-stickyfill": "^1.2.1"
                 },
-                "time": "2020-02-21T09:11:03+00:00",
+                "time": "2020-02-24T13:29:23+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -74810,18 +74882,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-blank.git",
-                    "reference": "574fc933103ea02731fc4ff2c5145d03c8fc1b84"
+                    "reference": "d88a0c9bb5e9ebf9e352a1a7ecc3f684487cbfff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-blank/zipball/574fc933103ea02731fc4ff2c5145d03c8fc1b84",
-                    "reference": "574fc933103ea02731fc4ff2c5145d03c8fc1b84",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-blank/zipball/d88a0c9bb5e9ebf9e352a1a7ecc3f684487cbfff",
+                    "reference": "d88a0c9bb5e9ebf9e352a1a7ecc3f684487cbfff",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-02-19T15:39:48+00:00",
+                "time": "2020-02-24T12:43:52+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "marketplace": {

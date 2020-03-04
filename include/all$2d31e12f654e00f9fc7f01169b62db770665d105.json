@@ -7260,14 +7260,14 @@
                     "source": "https://github.com/swissup/email/tree/0.3.2"
                 }
             },
-            "dev-master": {
+            "0.3.3": {
                 "name": "swissup/email",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.3.3",
+                "version_normalized": "0.3.3.0",
                 "require": {
-                    "swissup/module-email": "^0.3.2"
+                    "swissup/module-email": "^0.3.3"
                 },
-                "time": "2020-02-03T09:41:51+00:00",
+                "time": "2020-03-03T09:21:51+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
@@ -7282,7 +7282,32 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/email/tree/0.3.2"
+                    "source": "https://github.com/swissup/email/tree/0.3.3"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/email",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-email": "^0.3.3"
+                },
+                "time": "2020-03-03T09:21:51+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+                "keywords": [
+                    "amazon ses",
+                    "email",
+                    "gmail",
+                    "mandrill",
+                    "sendmail",
+                    "smtp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/email/tree/0.3.3"
                 }
             }
         },
@@ -19285,12 +19310,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "e979b7c38968cd9bca7767496bd503496bb84374"
+                    "reference": "2d69f558104b580009d15ebb1bc8ee81a4a3cc59"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/e979b7c38968cd9bca7767496bd503496bb84374",
-                    "reference": "e979b7c38968cd9bca7767496bd503496bb84374",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/2d69f558104b580009d15ebb1bc8ee81a4a3cc59",
+                    "reference": "2d69f558104b580009d15ebb1bc8ee81a4a3cc59",
                     "shasum": ""
                 },
                 "require": {
@@ -19305,7 +19330,7 @@
                     "psr/log": "^1.1",
                     "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-28T14:53:36+00:00",
+                "time": "2020-03-03T13:54:24+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -26004,25 +26029,25 @@
                     "issues": "https://github.com/swissup/module-customer-field-manager/issues"
                 }
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "swissup/module-customer-field-manager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-customer-field-manager.git",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2"
+                    "reference": "113e55e6d64878ea9519dc9690259abd2c153592"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
-                    "reference": "eec7ad6f82902aebf146dcc7bca1a1f28d7b6eb2",
+                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/113e55e6d64878ea9519dc9690259abd2c153592",
+                    "reference": "113e55e6d64878ea9519dc9690259abd2c153592",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-field-manager": "^1.2.0"
+                    "swissup/module-field-manager": "^1.2.1"
                 },
-                "time": "2020-02-17T10:59:39+00:00",
+                "time": "2020-03-04T09:07:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -26060,7 +26085,67 @@
                     "fields manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-customer-field-manager/tree/1.2.1",
+                    "source": "https://github.com/swissup/module-customer-field-manager/tree/1.2.2",
+                    "issues": "https://github.com/swissup/module-customer-field-manager/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-customer-field-manager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-customer-field-manager.git",
+                    "reference": "113e55e6d64878ea9519dc9690259abd2c153592"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-customer-field-manager/zipball/113e55e6d64878ea9519dc9690259abd2c153592",
+                    "reference": "113e55e6d64878ea9519dc9690259abd2c153592",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-field-manager": "^1.2.1"
+                },
+                "time": "2020-03-04T09:07:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/customer-field-manager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/customer-field-manager/changelog"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-customer-field-manager.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/customer-field-manager/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/customer-field-manager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CustomerFieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Customer Field manager for Magento 2",
+                "keywords": [
+                    "attribute manager",
+                    "customer attributes",
+                    "customer fields",
+                    "fields manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-customer-field-manager/tree/1.2.2",
                     "issues": "https://github.com/swissup/module-customer-field-manager/issues"
                 }
             }
@@ -33924,26 +34009,26 @@
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             },
-            "dev-master": {
+            "0.3.3": {
                 "name": "swissup/module-email",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.3.3",
+                "version_normalized": "0.3.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "99f3b0cd13e330ec6d40f5d5d4e1cb33d662898d"
+                    "reference": "2cc009e41b4ffdf80861e2d9494866b68e7631f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/99f3b0cd13e330ec6d40f5d5d4e1cb33d662898d",
-                    "reference": "99f3b0cd13e330ec6d40f5d5d4e1cb33d662898d",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/2cc009e41b4ffdf80861e2d9494866b68e7631f1",
+                    "reference": "2cc009e41b4ffdf80861e2d9494866b68e7631f1",
                     "shasum": ""
                 },
                 "require": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "slm/mail": "~1.5"
                 },
-                "time": "2020-02-12T16:09:06+00:00",
+                "time": "2020-03-03T09:19:53+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -33977,7 +34062,64 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email/tree/master",
+                    "source": "https://github.com/swissup/module-email/tree/0.3.3",
+                    "issues": "https://github.com/swissup/module-email/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-email",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-email.git",
+                    "reference": "2cc009e41b4ffdf80861e2d9494866b68e7631f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/2cc009e41b4ffdf80861e2d9494866b68e7631f1",
+                    "reference": "2cc009e41b4ffdf80861e2d9494866b68e7631f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php-zf2": ">=1.0.1",
+                    "slm/mail": "~1.5"
+                },
+                "time": "2020-03-03T09:19:53+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-email.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/email/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/email/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Email\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+                "keywords": [
+                    "amazon ses",
+                    "email",
+                    "gmail",
+                    "mandrill",
+                    "sendmail",
+                    "smtp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email/tree/0.3.3",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             }
@@ -49611,12 +49753,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "959da8e64bf8ccbe4faf4bfbd65f1b8b1d4d6326"
+                    "reference": "165eadd859082b6c6663320646d948aed9900504"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/959da8e64bf8ccbe4faf4bfbd65f1b8b1d4d6326",
-                    "reference": "959da8e64bf8ccbe4faf4bfbd65f1b8b1d4d6326",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/165eadd859082b6c6663320646d948aed9900504",
+                    "reference": "165eadd859082b6c6663320646d948aed9900504",
                     "shasum": ""
                 },
                 "require": {
@@ -49638,7 +49780,7 @@
                     "swissup/module-core": "^1.10.1",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-02-17T11:00:23+00:00",
+                "time": "2020-03-03T15:12:48+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -49668,7 +49810,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/1.3.15",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/master",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }
@@ -52605,19 +52747,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-recaptcha.git",
-                    "reference": "d03a25e18fcaa924926bb7ec5b796d8ead3f1d0a"
+                    "reference": "400039d5cdced704d172f277892471b30b483b1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/d03a25e18fcaa924926bb7ec5b796d8ead3f1d0a",
-                    "reference": "d03a25e18fcaa924926bb7ec5b796d8ead3f1d0a",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/400039d5cdced704d172f277892471b30b483b1d",
+                    "reference": "400039d5cdced704d172f277892471b30b483b1d",
                     "shasum": ""
                 },
                 "require": {
                     "google/recaptcha": "^1.2",
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-03-02T12:28:40+00:00",
+                "time": "2020-03-03T08:53:05+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -52643,7 +52785,7 @@
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/module-recaptcha/tree/1.3.2",
+                    "source": "https://github.com/swissup/module-recaptcha/tree/master",
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             }

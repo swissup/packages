@@ -53011,26 +53011,26 @@
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             },
-            "dev-master": {
+            "1.3.3": {
                 "name": "swissup/module-recaptcha",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-recaptcha.git",
-                    "reference": "400039d5cdced704d172f277892471b30b483b1d"
+                    "reference": "20c951fa81aaca25c3483121121c589629b934f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/400039d5cdced704d172f277892471b30b483b1d",
-                    "reference": "400039d5cdced704d172f277892471b30b483b1d",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/20c951fa81aaca25c3483121121c589629b934f5",
+                    "reference": "20c951fa81aaca25c3483121121c589629b934f5",
                     "shasum": ""
                 },
                 "require": {
                     "google/recaptcha": "^1.2",
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-03-03T08:53:05+00:00",
+                "time": "2020-03-06T15:16:03+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -53056,7 +53056,56 @@
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/module-recaptcha/tree/master",
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.3.3",
+                    "issues": "https://github.com/swissup/module-recaptcha/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-recaptcha.git",
+                    "reference": "20c951fa81aaca25c3483121121c589629b934f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/20c951fa81aaca25c3483121121c589629b934f5",
+                    "reference": "20c951fa81aaca25c3483121121c589629b934f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/recaptcha": "^1.2",
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-03-06T15:16:03+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-recaptcha.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/recaptcha/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/recaptcha/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.3.3",
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             }

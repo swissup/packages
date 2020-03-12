@@ -62268,22 +62268,22 @@
                     "issues": "https://github.com/swissup/module-stickybits/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/module-stickybits",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-stickybits.git",
-                    "reference": "23ec1ce395c7c24b0d9c70d9c639b12a5afb5d69"
+                    "reference": "9d3ef1373157e1f795a59e2697fa274bb9630cde"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-stickybits/zipball/23ec1ce395c7c24b0d9c70d9c639b12a5afb5d69",
-                    "reference": "23ec1ce395c7c24b0d9c70d9c639b12a5afb5d69",
+                    "url": "https://api.github.com/repos/swissup/module-stickybits/zipball/9d3ef1373157e1f795a59e2697fa274bb9630cde",
+                    "reference": "9d3ef1373157e1f795a59e2697fa274bb9630cde",
                     "shasum": ""
                 },
-                "time": "2019-01-04T09:32:53+00:00",
+                "time": "2020-03-12T09:05:02+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -62298,7 +62298,41 @@
                 ],
                 "description": "Stickybits is a lightweight alternative to `position: sticky` polyfills",
                 "support": {
-                    "source": "https://github.com/swissup/module-stickybits/tree/1.0.0",
+                    "source": "https://github.com/swissup/module-stickybits/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-stickybits/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-stickybits",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-stickybits.git",
+                    "reference": "9d3ef1373157e1f795a59e2697fa274bb9630cde"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-stickybits/zipball/9d3ef1373157e1f795a59e2697fa274bb9630cde",
+                    "reference": "9d3ef1373157e1f795a59e2697fa274bb9630cde",
+                    "shasum": ""
+                },
+                "time": "2020-03-12T09:05:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Stickybits\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Stickybits is a lightweight alternative to `position: sticky` polyfills",
+                "support": {
+                    "source": "https://github.com/swissup/module-stickybits/tree/1.0.1",
                     "issues": "https://github.com/swissup/module-stickybits/issues"
                 }
             }

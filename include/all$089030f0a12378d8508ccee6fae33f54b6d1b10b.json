@@ -43212,12 +43212,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-highlight.git",
-                    "reference": "de6c1f5a29ace1b061304e23323e2596268f4fde"
+                    "reference": "c4dad835be78f81c35651db6333c1162c9b1c689"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/de6c1f5a29ace1b061304e23323e2596268f4fde",
-                    "reference": "de6c1f5a29ace1b061304e23323e2596268f4fde",
+                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/c4dad835be78f81c35651db6333c1162c9b1c689",
+                    "reference": "c4dad835be78f81c35651db6333c1162c9b1c689",
                     "shasum": ""
                 },
                 "require": {
@@ -43225,7 +43225,7 @@
                     "swissup/module-rtl": "^1.3.3",
                     "swissup/module-slick-carousel": "^1.3.3"
                 },
-                "time": "2020-02-18T15:26:28+00:00",
+                "time": "2020-03-13T15:32:53+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -48968,6 +48968,44 @@
                     "source": "https://github.com/swissup/module-pagebuilder/tree/master",
                     "issues": "https://github.com/swissup/module-pagebuilder/issues"
                 }
+            },
+            "dev-develop": {
+                "name": "swissup/module-pagebuilder",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagebuilder.git",
+                    "reference": "50ee04a82ee3376b471227f68b8655c7d76c7842"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagebuilder/zipball/50ee04a82ee3376b471227f68b8655c7d76c7842",
+                    "reference": "50ee04a82ee3376b471227f68b8655c7d76c7842",
+                    "shasum": ""
+                },
+                "time": "2020-03-13T15:58:23+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagebuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Page Builder for Magento Storefront",
+                "keywords": [
+                    "content editor",
+                    "pagebuilder"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagebuilder/tree/develop",
+                    "issues": "https://github.com/swissup/module-pagebuilder/issues"
+                }
             }
         },
         "swissup/module-pagespeed": {
@@ -50188,12 +50226,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "68f1aca03267b3ce31bb261693fedb247f41b2a3"
+                    "reference": "6ad8d39b4da20bbc1e50e2486abd2e62cfb2b06b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/68f1aca03267b3ce31bb261693fedb247f41b2a3",
-                    "reference": "68f1aca03267b3ce31bb261693fedb247f41b2a3",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/6ad8d39b4da20bbc1e50e2486abd2e62cfb2b06b",
+                    "reference": "6ad8d39b4da20bbc1e50e2486abd2e62cfb2b06b",
                     "shasum": ""
                 },
                 "require": {
@@ -50215,7 +50253,7 @@
                     "swissup/module-core": "^1.10.1",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-03-12T13:47:37+00:00",
+                "time": "2020-03-13T10:11:24+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -83455,18 +83493,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-luxury.git",
-                    "reference": "c07995e2bcdeca22cdeada30a3821243c2c4cd32"
+                    "reference": "cd8e57223c3b8ab4c1eaf9e6ae0c5f540020a1d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-luxury/zipball/c07995e2bcdeca22cdeada30a3821243c2c4cd32",
-                    "reference": "c07995e2bcdeca22cdeada30a3821243c2c4cd32",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-luxury/zipball/cd8e57223c3b8ab4c1eaf9e6ae0c5f540020a1d4",
+                    "reference": "cd8e57223c3b8ab4c1eaf9e6ae0c5f540020a1d4",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2020-02-17T11:11:29+00:00",
+                "time": "2020-03-13T14:24:42+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -83508,7 +83546,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-luxury/tree/1.15.2",
+                    "source": "https://github.com/swissup/theme-frontend-argento-luxury/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argento-luxury/issues"
                 }
             }

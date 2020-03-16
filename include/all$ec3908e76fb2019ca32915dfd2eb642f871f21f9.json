@@ -56881,25 +56881,25 @@
                     "issues": "https://github.com/swissup/module-seo-images/issues"
                 }
             },
-            "dev-master": {
+            "1.2.1": {
                 "name": "swissup/module-seo-images",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-images.git",
-                    "reference": "3d43e6c85f63bcbe480ba49786b08338460a7380"
+                    "reference": "8491db59c1deecebd71c614512879024bc5cf039"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/3d43e6c85f63bcbe480ba49786b08338460a7380",
-                    "reference": "3d43e6c85f63bcbe480ba49786b08338460a7380",
+                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/8491db59c1deecebd71c614512879024bc5cf039",
+                    "reference": "8491db59c1deecebd71c614512879024bc5cf039",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-03-13T14:59:56+00:00",
+                "time": "2020-03-16T07:55:12+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -56917,7 +56917,47 @@
                     "nice product image"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-images/tree/1.2.0",
+                    "source": "https://github.com/swissup/module-seo-images/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-seo-images/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-images",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-images.git",
+                    "reference": "8491db59c1deecebd71c614512879024bc5cf039"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/8491db59c1deecebd71c614512879024bc5cf039",
+                    "reference": "8491db59c1deecebd71c614512879024bc5cf039",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.2"
+                },
+                "time": "2020-03-16T07:55:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoImages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Use pretty names for product images",
+                "keywords": [
+                    "nice product image"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-images/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-seo-images/issues"
                 }
             }

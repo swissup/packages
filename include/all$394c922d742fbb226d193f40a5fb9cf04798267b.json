@@ -7134,14 +7134,14 @@
                 "require": {
                     "swissup/module-easytabs": "^1.8.4"
                 },
-                "time": "2020-01-31T14:32:27+00:00",
+                "time": "2020-03-20T14:02:02+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Custom tabs for product and CMS pages",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/1.8.5",
+                    "source": "https://github.com/swissup/easytabs/tree/master",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -40555,26 +40555,26 @@
                     "issues": "https://github.com/swissup/module-gdpr-askit/issues"
                 }
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "swissup/module-gdpr-askit",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-gdpr-askit.git",
-                    "reference": "ffd68be3741e9c12f51f8835061074a506935115"
+                    "reference": "9eae2fd787c17d123fb87a151e35f33fe4a64b74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr-askit/zipball/ffd68be3741e9c12f51f8835061074a506935115",
-                    "reference": "ffd68be3741e9c12f51f8835061074a506935115",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr-askit/zipball/9eae2fd787c17d123fb87a151e35f33fe4a64b74",
+                    "reference": "9eae2fd787c17d123fb87a151e35f33fe4a64b74",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-askit": "^1.6.2",
-                    "swissup/module-gdpr": "^1.2.0"
+                    "swissup/module-askit": "^1.6.5",
+                    "swissup/module-gdpr": "^1.2.3"
                 },
-                "time": "2020-03-10T15:43:41+00:00",
+                "time": "2020-03-20T13:58:30+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -40593,7 +40593,49 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr-askit/tree/master",
+                    "source": "https://github.com/swissup/module-gdpr-askit/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-gdpr-askit/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-gdpr-askit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-gdpr-askit.git",
+                    "reference": "9eae2fd787c17d123fb87a151e35f33fe4a64b74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr-askit/zipball/9eae2fd787c17d123fb87a151e35f33fe4a64b74",
+                    "reference": "9eae2fd787c17d123fb87a151e35f33fe4a64b74",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-askit": "^1.6.5",
+                    "swissup/module-gdpr": "^1.2.3"
+                },
+                "time": "2020-03-20T13:58:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\GdprAskit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance for AskIt module",
+                "keywords": [
+                    "askit",
+                    "gdpr"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-gdpr-askit/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-gdpr-askit/issues"
                 }
             }
@@ -53968,26 +54010,26 @@
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             },
-            "dev-master": {
+            "1.3.5": {
                 "name": "swissup/module-recaptcha",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.5",
+                "version_normalized": "1.3.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-recaptcha.git",
-                    "reference": "13b58d7423f8ee3dd2c867b44ca7814baebc0a6e"
+                    "reference": "dc1e05cf50292c76cce3de5d5ffe06d357bb7949"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/13b58d7423f8ee3dd2c867b44ca7814baebc0a6e",
-                    "reference": "13b58d7423f8ee3dd2c867b44ca7814baebc0a6e",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/dc1e05cf50292c76cce3de5d5ffe06d357bb7949",
+                    "reference": "dc1e05cf50292c76cce3de5d5ffe06d357bb7949",
                     "shasum": ""
                 },
                 "require": {
                     "google/recaptcha": "^1.2",
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-03-16T08:17:07+00:00",
+                "time": "2020-03-20T13:57:34+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -54013,7 +54055,56 @@
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/module-recaptcha/tree/master",
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.3.5",
+                    "issues": "https://github.com/swissup/module-recaptcha/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-recaptcha.git",
+                    "reference": "dc1e05cf50292c76cce3de5d5ffe06d357bb7949"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/dc1e05cf50292c76cce3de5d5ffe06d357bb7949",
+                    "reference": "dc1e05cf50292c76cce3de5d5ffe06d357bb7949",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/recaptcha": "^1.2",
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-03-20T13:57:34+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-recaptcha.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/recaptcha/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/recaptcha/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.3.5",
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             }
@@ -73273,21 +73364,39 @@
                     "issues": "https://github.com/swissup/recaptcha/issues"
                 }
             },
-            "dev-master": {
+            "1.3.5": {
                 "name": "swissup/recaptcha",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.5",
+                "version_normalized": "1.3.5.0",
                 "require": {
-                    "swissup/module-recaptcha": "^1.3.3"
+                    "swissup/module-recaptcha": "^1.3.4"
                 },
-                "time": "2020-03-11T12:06:16+00:00",
+                "time": "2020-03-20T13:59:33+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/recaptcha/tree/1.3.4",
+                    "source": "https://github.com/swissup/recaptcha/tree/1.3.5",
+                    "issues": "https://github.com/swissup/recaptcha/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-recaptcha": "^1.3.4"
+                },
+                "time": "2020-03-20T13:59:33+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/recaptcha/tree/1.3.5",
                     "issues": "https://github.com/swissup/recaptcha/issues"
                 }
             }

@@ -7127,21 +7127,39 @@
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             },
-            "dev-master": {
+            "1.8.9": {
                 "name": "swissup/easytabs",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.8.9",
+                "version_normalized": "1.8.9.0",
                 "require": {
-                    "swissup/module-easytabs": "^1.8.4"
+                    "swissup/module-easytabs": "^1.8.9"
                 },
-                "time": "2020-03-20T14:02:02+00:00",
+                "time": "2020-03-26T08:17:05+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Custom tabs for product and CMS pages",
                 "support": {
-                    "source": "https://github.com/swissup/easytabs/tree/master",
+                    "source": "https://github.com/swissup/easytabs/tree/1.8.9",
+                    "issues": "https://github.com/swissup/easytabs/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/easytabs",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-easytabs": "^1.8.9"
+                },
+                "time": "2020-03-26T08:17:05+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom tabs for product and CMS pages",
+                "support": {
+                    "source": "https://github.com/swissup/easytabs/tree/1.8.9",
                     "issues": "https://github.com/swissup/easytabs/issues"
                 }
             }
@@ -34041,25 +34059,25 @@
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             },
-            "dev-master": {
+            "1.8.9": {
                 "name": "swissup/module-easytabs",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.8.9",
+                "version_normalized": "1.8.9.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "4c7554b82f81fc82490356e1946f4c575c8e677a"
+                    "reference": "230529a072714b94c2dcf2ca08370fc479df04be"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/4c7554b82f81fc82490356e1946f4c575c8e677a",
-                    "reference": "4c7554b82f81fc82490356e1946f4c575c8e677a",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/230529a072714b94c2dcf2ca08370fc479df04be",
+                    "reference": "230529a072714b94c2dcf2ca08370fc479df04be",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-03-20T13:57:12+00:00",
+                "time": "2020-03-26T08:15:06+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -34099,7 +34117,69 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.8",
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.9",
+                    "issues": "https://github.com/swissup/module-easytabs/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easytabs",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
+                    "reference": "230529a072714b94c2dcf2ca08370fc479df04be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/230529a072714b94c2dcf2ca08370fc479df04be",
+                    "reference": "230529a072714b94c2dcf2ca08370fc479df04be",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-03-26T08:15:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.9",
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             }
@@ -67518,18 +67598,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor.git",
-                    "reference": "45758235bc4f7b2714a04a85267edfb6cff3c673"
+                    "reference": "826afc8137eed22354b4271c1453a6c041ffc861"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/45758235bc4f7b2714a04a85267edfb6cff3c673",
-                    "reference": "45758235bc4f7b2714a04a85267edfb6cff3c673",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/826afc8137eed22354b4271c1453a6c041ffc861",
+                    "reference": "826afc8137eed22354b4271c1453a6c041ffc861",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.1"
                 },
-                "time": "2020-03-25T15:52:49+00:00",
+                "time": "2020-03-26T08:21:41+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -86027,6 +86107,70 @@
                     "issues": "https://github.com/swissup/theme-frontend-argento-mall/issues"
                 }
             },
+            "1.16.0": {
+                "name": "swissup/theme-frontend-argento-mall",
+                "version": "1.16.0",
+                "version_normalized": "1.16.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argento-mall.git",
+                    "reference": "2f25e5f9e05c65c5f5d484c2d6592a2079bcf164"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-mall/zipball/2f25e5f9e05c65c5f5d484c2d6592a2079bcf164",
+                    "reference": "2f25e5f9e05c65c5f5d484c2d6592a2079bcf164",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2020-03-26T08:31:10+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "http://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "http://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "http://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/theme-frontend-argento-mall.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "https://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "mall",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argento-mall/tree/1.16.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argento-mall/issues"
+                }
+            },
             "1.2.0": {
                 "name": "swissup/theme-frontend-argento-mall",
                 "version": "1.2.0",
@@ -86639,18 +86783,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-mall.git",
-                    "reference": "49c25259a5ce0c1432e54f8574004b5e137b7ac6"
+                    "reference": "2f25e5f9e05c65c5f5d484c2d6592a2079bcf164"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-mall/zipball/49c25259a5ce0c1432e54f8574004b5e137b7ac6",
-                    "reference": "49c25259a5ce0c1432e54f8574004b5e137b7ac6",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-mall/zipball/2f25e5f9e05c65c5f5d484c2d6592a2079bcf164",
+                    "reference": "2f25e5f9e05c65c5f5d484c2d6592a2079bcf164",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2020-02-17T11:10:49+00:00",
+                "time": "2020-03-26T08:31:10+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -86692,7 +86836,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argento-mall/tree/1.15.2",
+                    "source": "https://github.com/swissup/theme-frontend-argento-mall/tree/1.16.0",
                     "issues": "https://github.com/swissup/theme-frontend-argento-mall/issues"
                 }
             }

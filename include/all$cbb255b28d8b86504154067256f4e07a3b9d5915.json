@@ -12731,6 +12731,61 @@
                     "issues": "https://github.com/swissup/module-ajaxlayerednavigation/issues"
                 }
             },
+            "1.3.18": {
+                "name": "swissup/module-ajaxlayerednavigation",
+                "version": "1.3.18",
+                "version_normalized": "1.3.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
+                    "reference": "8bca78490609398117574f072a851c30b536bb8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/8bca78490609398117574f072a851c30b536bb8f",
+                    "reference": "8bca78490609398117574f072a851c30b536bb8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-rtl": "^1.3.3"
+                },
+                "time": "2020-03-27T11:28:56+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxlayerednavigation.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxlayerednavigation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced catalog filters with ajax and seo support",
+                "keywords": [
+                    "ajaxlayerednavigation",
+                    "filters",
+                    "layered navigation",
+                    "seo layered navigation"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/1.3.18",
+                    "issues": "https://github.com/swissup/module-ajaxlayerednavigation/issues"
+                }
+            },
             "1.3.2": {
                 "name": "swissup/module-ajaxlayerednavigation",
                 "version": "1.3.2",
@@ -13090,19 +13145,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
-                    "reference": "fe63a386eac2d8f640a17014c7281371af6f5df5"
+                    "reference": "8bca78490609398117574f072a851c30b536bb8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/fe63a386eac2d8f640a17014c7281371af6f5df5",
-                    "reference": "fe63a386eac2d8f640a17014c7281371af6f5df5",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/8bca78490609398117574f072a851c30b536bb8f",
+                    "reference": "8bca78490609398117574f072a851c30b536bb8f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-03-26T13:11:20+00:00",
+                "time": "2020-03-27T11:28:56+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -13134,7 +13189,7 @@
                     "seo layered navigation"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/master",
+                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/1.3.18",
                     "issues": "https://github.com/swissup/module-ajaxlayerednavigation/issues"
                 }
             }

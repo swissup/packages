@@ -41357,6 +41357,58 @@
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             },
+            "1.3.0": {
+                "name": "swissup/module-gdpr",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-gdpr.git",
+                    "reference": "39d388fa4776465f0da8eeaae8523bfe8b0d2006"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/39d388fa4776465f0da8eeaae8523bfe8b0d2006",
+                    "reference": "39d388fa4776465f0da8eeaae8523bfe8b0d2006",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-rtl": "^1.3.3"
+                },
+                "time": "2020-04-17T14:25:40+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-gdpr.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/gdpr/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/gdpr/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Gdpr\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance made easy",
+                "keywords": [
+                    "gdpr"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-gdpr/tree/1.3.0",
+                    "issues": "https://github.com/swissup/module-gdpr/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-gdpr",
                 "version": "dev-master",
@@ -41364,70 +41416,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d"
+                    "reference": "39d388fa4776465f0da8eeaae8523bfe8b0d2006"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/b1ef3fc568661ebf7df9554ad443841e928e599d",
-                    "reference": "b1ef3fc568661ebf7df9554ad443841e928e599d",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-02-17T09:23:51+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-gdpr.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/gdpr/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/gdpr/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Gdpr\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "GDPR compliance made easy",
-                "keywords": [
-                    "gdpr"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/1.2.3",
-                    "issues": "https://github.com/swissup/module-gdpr/issues"
-                }
-            },
-            "dev-feature-cookie": {
-                "name": "swissup/module-gdpr",
-                "version": "dev-feature-cookie",
-                "version_normalized": "dev-feature-cookie",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "ba162f8589e611f2ccff92fb43619487932cdce1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/ba162f8589e611f2ccff92fb43619487932cdce1",
-                    "reference": "ba162f8589e611f2ccff92fb43619487932cdce1",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/39d388fa4776465f0da8eeaae8523bfe8b0d2006",
+                    "reference": "39d388fa4776465f0da8eeaae8523bfe8b0d2006",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-04-14T15:11:10+00:00",
+                "time": "2020-04-17T14:25:40+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -41456,7 +41457,7 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/feature-cookie",
+                    "source": "https://github.com/swissup/module-gdpr/tree/1.3.0",
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             }
@@ -51996,12 +51997,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "9921913edb8dd189955265a6eca975e3c876ad8f"
+                    "reference": "c701ac33b4887d551911175d05b95e5f6899de24"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/9921913edb8dd189955265a6eca975e3c876ad8f",
-                    "reference": "9921913edb8dd189955265a6eca975e3c876ad8f",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/c701ac33b4887d551911175d05b95e5f6899de24",
+                    "reference": "c701ac33b4887d551911175d05b95e5f6899de24",
                     "shasum": ""
                 },
                 "require": {
@@ -52023,7 +52024,7 @@
                     "swissup/module-core": "^1.10.2",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-04-14T09:22:28+00:00",
+                "time": "2020-04-17T10:47:13+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -68645,18 +68646,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor.git",
-                    "reference": "ccaf88cfce2c682f9eadcb4288b09507f612e5c7"
+                    "reference": "88ab045b29fb851d557648acb68377c8e82cd96d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/ccaf88cfce2c682f9eadcb4288b09507f612e5c7",
-                    "reference": "ccaf88cfce2c682f9eadcb4288b09507f612e5c7",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/88ab045b29fb851d557648acb68377c8e82cd96d",
+                    "reference": "88ab045b29fb851d557648acb68377c8e82cd96d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.1"
                 },
-                "time": "2020-04-14T14:50:15+00:00",
+                "time": "2020-04-17T08:57:20+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -70955,18 +70956,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor-argento-pure2.git",
-                    "reference": "53a35102c34496b6ca6aabbd0e13770e41dcc5b4"
+                    "reference": "7f533cbf80a0f77f339d3c04cced7e8fbea338df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-pure2/zipball/53a35102c34496b6ca6aabbd0e13770e41dcc5b4",
-                    "reference": "53a35102c34496b6ca6aabbd0e13770e41dcc5b4",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-pure2/zipball/7f533cbf80a0f77f339d3c04cced7e8fbea338df",
+                    "reference": "7f533cbf80a0f77f339d3c04cced7e8fbea338df",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-theme-editor": "^1.7.3"
                 },
-                "time": "2020-04-14T14:47:46+00:00",
+                "time": "2020-04-17T08:58:04+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -79169,18 +79170,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-blank.git",
-                    "reference": "b6207ef0d94cb2ff74c7e5583b755c99cb4cc646"
+                    "reference": "4b8d57997d901af3d22eaaea5667dbde3a93efe0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-blank/zipball/b6207ef0d94cb2ff74c7e5583b755c99cb4cc646",
-                    "reference": "b6207ef0d94cb2ff74c7e5583b755c99cb4cc646",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-blank/zipball/4b8d57997d901af3d22eaaea5667dbde3a93efe0",
+                    "reference": "4b8d57997d901af3d22eaaea5667dbde3a93efe0",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-04-08T09:06:10+00:00",
+                "time": "2020-04-16T09:01:19+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "marketplace": {

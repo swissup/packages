@@ -48353,19 +48353,19 @@
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             },
-            "dev-master": {
+            "1.3.0": {
                 "name": "swissup/module-marketplace",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-marketplace.git",
-                    "reference": "b844b94f07bc1de1a6858d7a363ebd0d3b26fb3a"
+                    "reference": "889fa659dc50670fa42ccacc7d9e244340c1ce54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/b844b94f07bc1de1a6858d7a363ebd0d3b26fb3a",
-                    "reference": "b844b94f07bc1de1a6858d7a363ebd0d3b26fb3a",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/889fa659dc50670fa42ccacc7d9e244340c1ce54",
+                    "reference": "889fa659dc50670fa42ccacc7d9e244340c1ce54",
                     "shasum": ""
                 },
                 "require": {
@@ -48381,7 +48381,61 @@
                     "psr/log": "*",
                     "symfony/console": "*"
                 },
-                "time": "2020-04-22T19:30:43+00:00",
+                "time": "2020-04-22T19:35:22+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Marketplace\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "One-Click modules and themes downloader/installer",
+                "keywords": [
+                    "installer",
+                    "magento marketplace",
+                    "marketplace",
+                    "module manager",
+                    "theme manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-marketplace/tree/1.3.0",
+                    "issues": "https://github.com/swissup/module-marketplace/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-marketplace",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-marketplace.git",
+                    "reference": "889fa659dc50670fa42ccacc7d9e244340c1ce54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/889fa659dc50670fa42ccacc7d9e244340c1ce54",
+                    "reference": "889fa659dc50670fa42ccacc7d9e244340c1ce54",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/composer": "*",
+                    "magento/framework": "^102.0",
+                    "magento/module-backend": "^101.0",
+                    "magento/module-catalog": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-deploy": "^100.0",
+                    "magento/module-theme": "*",
+                    "magento/module-ui": "^101.0",
+                    "monolog/monolog": "*",
+                    "psr/log": "*",
+                    "symfony/console": "*"
+                },
+                "time": "2020-04-22T19:35:22+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

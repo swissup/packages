@@ -24774,22 +24774,22 @@
                     "issues": "https://github.com/swissup/module-codemirror/issues"
                 }
             },
-            "dev-master": {
+            "1.1.3": {
                 "name": "swissup/module-codemirror",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-codemirror.git",
-                    "reference": "4d4731383f07244c34f90eec446fa0a9468d8aef"
+                    "reference": "522670a8801de54a9c0214cbc2a894499366db85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/4d4731383f07244c34f90eec446fa0a9468d8aef",
-                    "reference": "4d4731383f07244c34f90eec446fa0a9468d8aef",
+                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/522670a8801de54a9c0214cbc2a894499366db85",
+                    "reference": "522670a8801de54a9c0214cbc2a894499366db85",
                     "shasum": ""
                 },
-                "time": "2020-04-07T08:33:37+00:00",
+                "time": "2020-04-22T07:15:01+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -24804,7 +24804,41 @@
                 ],
                 "description": "Versatile text editor implemented in JavaScript for the browser. ",
                 "support": {
-                    "source": "https://github.com/swissup/module-codemirror/tree/1.1.2",
+                    "source": "https://github.com/swissup/module-codemirror/tree/1.1.3",
+                    "issues": "https://github.com/swissup/module-codemirror/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-codemirror",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-codemirror.git",
+                    "reference": "522670a8801de54a9c0214cbc2a894499366db85"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-codemirror/zipball/522670a8801de54a9c0214cbc2a894499366db85",
+                    "reference": "522670a8801de54a9c0214cbc2a894499366db85",
+                    "shasum": ""
+                },
+                "time": "2020-04-22T07:15:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Codemirror\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Versatile text editor implemented in JavaScript for the browser. ",
+                "support": {
+                    "source": "https://github.com/swissup/module-codemirror/tree/1.1.3",
                     "issues": "https://github.com/swissup/module-codemirror/issues"
                 }
             }

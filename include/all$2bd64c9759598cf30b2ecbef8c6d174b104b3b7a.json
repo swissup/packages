@@ -48407,19 +48407,19 @@
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/module-marketplace",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-marketplace.git",
-                    "reference": "132fcf9f91a91ad44444864d51a53293f3cee54f"
+                    "reference": "90f8d6d74b30827b08cccd53edc50508aa05001b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/132fcf9f91a91ad44444864d51a53293f3cee54f",
-                    "reference": "132fcf9f91a91ad44444864d51a53293f3cee54f",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/90f8d6d74b30827b08cccd53edc50508aa05001b",
+                    "reference": "90f8d6d74b30827b08cccd53edc50508aa05001b",
                     "shasum": ""
                 },
                 "require": {
@@ -48435,7 +48435,7 @@
                     "psr/log": "*",
                     "symfony/console": "*"
                 },
-                "time": "2020-04-22T19:42:32+00:00",
+                "time": "2020-04-23T09:22:01+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -48457,7 +48457,61 @@
                     "theme manager"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-marketplace/tree/master",
+                    "source": "https://github.com/swissup/module-marketplace/tree/1.3.1",
+                    "issues": "https://github.com/swissup/module-marketplace/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-marketplace",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-marketplace.git",
+                    "reference": "90f8d6d74b30827b08cccd53edc50508aa05001b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/90f8d6d74b30827b08cccd53edc50508aa05001b",
+                    "reference": "90f8d6d74b30827b08cccd53edc50508aa05001b",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/composer": "*",
+                    "magento/framework": "^102.0",
+                    "magento/module-backend": "^101.0",
+                    "magento/module-catalog": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-deploy": "^100.0",
+                    "magento/module-theme": "*",
+                    "magento/module-ui": "^101.0",
+                    "monolog/monolog": "*",
+                    "psr/log": "*",
+                    "symfony/console": "*"
+                },
+                "time": "2020-04-23T09:22:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Marketplace\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "One-Click modules and themes downloader/installer",
+                "keywords": [
+                    "installer",
+                    "magento marketplace",
+                    "marketplace",
+                    "module manager",
+                    "theme manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-marketplace/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-marketplace/issues"
                 }
             }

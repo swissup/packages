@@ -15278,12 +15278,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "71d77bd1b2e77ef0971a0301980e236716306443"
+                    "reference": "274f1c9b6b763831e3f2f511349498c31573c1bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/71d77bd1b2e77ef0971a0301980e236716306443",
-                    "reference": "71d77bd1b2e77ef0971a0301980e236716306443",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/274f1c9b6b763831e3f2f511349498c31573c1bc",
+                    "reference": "274f1c9b6b763831e3f2f511349498c31573c1bc",
                     "shasum": ""
                 },
                 "require": {
@@ -15297,7 +15297,7 @@
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-suggestpage": "^1.2.4"
                 },
-                "time": "2020-04-22T08:40:47+00:00",
+                "time": "2020-04-24T05:53:35+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -23689,6 +23689,42 @@
                 }
             }
         },
+        "swissup/module-checkout-registration": {
+            "dev-master": {
+                "name": "swissup/module-checkout-registration",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-registration.git",
+                    "reference": "0a5cd9b7920d027814f4c8808b8b74ed329cf2b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/0a5cd9b7920d027814f4c8808b8b74ed329cf2b2",
+                    "reference": "0a5cd9b7920d027814f4c8808b8b74ed329cf2b2",
+                    "shasum": ""
+                },
+                "time": "2020-04-24T08:45:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutRegistration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Customer registration modes at checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-registration/tree/master",
+                    "issues": "https://github.com/swissup/module-checkout-registration/issues"
+                }
+            }
+        },
         "swissup/module-checkout-success": {
             "1.0.0": {
                 "name": "swissup/module-checkout-success",
@@ -31749,18 +31785,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "dabf699e0f3aadbe4d948b11dfe8ccf9e8d67a0f"
+                    "reference": "5421f27ebb33da17a48572bca18ab1e083c52cb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/dabf699e0f3aadbe4d948b11dfe8ccf9e8d67a0f",
-                    "reference": "dabf699e0f3aadbe4d948b11dfe8ccf9e8d67a0f",
+                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/5421f27ebb33da17a48572bca18ab1e083c52cb1",
+                    "reference": "5421f27ebb33da17a48572bca18ab1e083c52cb1",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-23T21:14:10+00:00",
+                "time": "2020-04-24T05:26:35+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -32885,18 +32921,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easycatalogimg.git",
-                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800"
+                    "reference": "d7c1a2a03a3d63d12c5153ca5ff887c56b268670"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/3f3465f8a2f025b951b97549d9ffcc56cf459800",
-                    "reference": "3f3465f8a2f025b951b97549d9ffcc56cf459800",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/d7c1a2a03a3d63d12c5153ca5ff887c56b268670",
+                    "reference": "d7c1a2a03a3d63d12c5153ca5ff887c56b268670",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-17T09:31:08+00:00",
+                "time": "2020-04-24T05:33:58+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -32935,7 +32971,7 @@
                     "subcategory listing"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.4.7",
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/master",
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             }
@@ -35137,18 +35173,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "4cad538c6f0361cfba660a6352fef88bc77ff71d"
+                    "reference": "bd1d3c5e261caae9754f0c9f5146ade28129cd44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/4cad538c6f0361cfba660a6352fef88bc77ff71d",
-                    "reference": "4cad538c6f0361cfba660a6352fef88bc77ff71d",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/bd1d3c5e261caae9754f0c9f5146ade28129cd44",
+                    "reference": "bd1d3c5e261caae9754f0c9f5146ade28129cd44",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-22T09:19:11+00:00",
+                "time": "2020-04-24T05:39:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -36951,18 +36987,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-fblike.git",
-                    "reference": "35bb11c7b7ffbd11a708757ca129029db81031fa"
+                    "reference": "ae54331fa37ddf89e2e8400f3cc913308c970cf8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/35bb11c7b7ffbd11a708757ca129029db81031fa",
-                    "reference": "35bb11c7b7ffbd11a708757ca129029db81031fa",
+                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/ae54331fa37ddf89e2e8400f3cc913308c970cf8",
+                    "reference": "ae54331fa37ddf89e2e8400f3cc913308c970cf8",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-02-17T10:59:47+00:00",
+                "time": "2020-04-24T05:43:40+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -36987,7 +37023,7 @@
                 ],
                 "description": "Facebook Like Button for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-fblike/tree/1.3.4",
+                    "source": "https://github.com/swissup/module-fblike/tree/master",
                     "issues": "https://github.com/swissup/module-fblike/issues"
                 }
             }
@@ -52486,12 +52522,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "0c2f9fedb745d3b3710d29c6d3e5255bf1272782"
+                    "reference": "35ebeb3b406955ca4cf79939ffdbe9ed7d49b1e3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/0c2f9fedb745d3b3710d29c6d3e5255bf1272782",
-                    "reference": "0c2f9fedb745d3b3710d29c6d3e5255bf1272782",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/35ebeb3b406955ca4cf79939ffdbe9ed7d49b1e3",
+                    "reference": "35ebeb3b406955ca4cf79939ffdbe9ed7d49b1e3",
                     "shasum": ""
                 },
                 "require": {
@@ -52513,7 +52549,7 @@
                     "swissup/module-core": "^1.10.2",
                     "zendframework/zend-dom": "^2.7.1"
                 },
-                "time": "2020-04-22T17:28:56+00:00",
+                "time": "2020-04-24T08:30:44+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -70105,18 +70141,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor-argento-flat.git",
-                    "reference": "3e4efffb2ec90d386e6580dbcb498fd03fa55bf8"
+                    "reference": "9351f4bb5fe76fff63335ea4b53ac7e3550fd503"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-flat/zipball/3e4efffb2ec90d386e6580dbcb498fd03fa55bf8",
-                    "reference": "3e4efffb2ec90d386e6580dbcb498fd03fa55bf8",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-flat/zipball/9351f4bb5fe76fff63335ea4b53ac7e3550fd503",
+                    "reference": "9351f4bb5fe76fff63335ea4b53ac7e3550fd503",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-theme-editor": "^1.6.3"
                 },
-                "time": "2020-03-31T13:27:05+00:00",
+                "time": "2020-04-24T08:32:14+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -84053,18 +84089,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-flat.git",
-                    "reference": "0cb10a5036a618e238d238f5a70002a50b0a1d25"
+                    "reference": "09cee33981928b0845b4dc08d1ed98f7b948763f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-flat/zipball/0cb10a5036a618e238d238f5a70002a50b0a1d25",
-                    "reference": "0cb10a5036a618e238d238f5a70002a50b0a1d25",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-flat/zipball/09cee33981928b0845b4dc08d1ed98f7b948763f",
+                    "reference": "09cee33981928b0845b4dc08d1ed98f7b948763f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2020-04-03T12:01:02+00:00",
+                "time": "2020-04-24T08:30:11+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {
@@ -90274,18 +90310,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-pure2.git",
-                    "reference": "d0e94a03e05b81df5f143192743686e30c46ba0e"
+                    "reference": "3d30da5d411bbfc3cea0d4265b49178c197e7aaa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-pure2/zipball/d0e94a03e05b81df5f143192743686e30c46ba0e",
-                    "reference": "d0e94a03e05b81df5f143192743686e30c46ba0e",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-pure2/zipball/3d30da5d411bbfc3cea0d4265b49178c197e7aaa",
+                    "reference": "3d30da5d411bbfc3cea0d4265b49178c197e7aaa",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2020-04-23T10:56:19+00:00",
+                "time": "2020-04-24T08:06:00+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "swissup": {

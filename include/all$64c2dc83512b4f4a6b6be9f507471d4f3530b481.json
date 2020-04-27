@@ -41826,26 +41826,26 @@
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/module-gdpr",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "fcbc3ae28d38919349092aff12754346a1bf1a62"
+                    "reference": "a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/fcbc3ae28d38919349092aff12754346a1bf1a62",
-                    "reference": "fcbc3ae28d38919349092aff12754346a1bf1a62",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319",
+                    "reference": "a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-04-23T15:18:32+00:00",
+                "time": "2020-04-27T13:37:15+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -41874,7 +41874,59 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/master",
+                    "source": "https://github.com/swissup/module-gdpr/tree/1.3.1",
+                    "issues": "https://github.com/swissup/module-gdpr/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-gdpr",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-gdpr.git",
+                    "reference": "a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319",
+                    "reference": "a4b15c27a2ddc0c0c35d2550edf0e3e82cb78319",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-rtl": "^1.3.3"
+                },
+                "time": "2020-04-27T13:37:15+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-gdpr.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/gdpr/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/gdpr/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Gdpr\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance made easy",
+                "keywords": [
+                    "gdpr"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-gdpr/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             }

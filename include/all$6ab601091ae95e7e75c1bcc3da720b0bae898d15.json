@@ -11154,25 +11154,25 @@
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.3.2": {
                 "name": "swissup/module-address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-address-autocomplete.git",
-                    "reference": "68dbb8ebfe98f35d5dc331534e653d1ef170fc65"
+                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/68dbb8ebfe98f35d5dc331534e653d1ef170fc65",
-                    "reference": "68dbb8ebfe98f35d5dc331534e653d1ef170fc65",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
+                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.3"
+                    "swissup/module-checkout": "^1.3.4"
                 },
-                "time": "2020-04-29T13:36:38+00:00",
+                "time": "2020-05-04T12:29:07+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11209,7 +11209,66 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.2",
+                    "issues": "https://github.com/swissup/module-address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-autocomplete.git",
+                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
+                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.3.4"
+                },
+                "time": "2020-05-04T12:29:07+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-address-autocomplete.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.2",
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             }
@@ -32160,70 +32219,6 @@
                     "issues": "https://github.com/swissup/module-easybanner/issues"
                 }
             },
-            "1.5.6": {
-                "name": "swissup/module-easybanner",
-                "version": "1.5.6",
-                "version_normalized": "1.5.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/13a55d84f231af7704604c9f359dd7f543ff5173",
-                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-05-04T12:29:04+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-banners-and-custom-blocks-extension.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easybanners/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easybanners/changelog/"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-easybanner.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/easybanner/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easybanner/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Easybanner\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento banners and blocks",
-                "keywords": [
-                    "advertising",
-                    "awesomebar",
-                    "banner",
-                    "block",
-                    "easybanner",
-                    "lightbox"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-easybanner/tree/1.5.6",
-                    "issues": "https://github.com/swissup/module-easybanner/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-easybanner",
                 "version": "dev-master",
@@ -32231,18 +32226,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173"
+                    "reference": "dc9a5613a1220afb758a1e8b67ea00912fb6b77d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/13a55d84f231af7704604c9f359dd7f543ff5173",
-                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173",
+                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/dc9a5613a1220afb758a1e8b67ea00912fb6b77d",
+                    "reference": "dc9a5613a1220afb758a1e8b67ea00912fb6b77d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-05-04T12:29:04+00:00",
+                "time": "2020-04-29T13:32:36+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -32284,7 +32279,7 @@
                     "lightbox"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easybanner/tree/1.5.6",
+                    "source": "https://github.com/swissup/module-easybanner/tree/master",
                     "issues": "https://github.com/swissup/module-easybanner/issues"
                 }
             }

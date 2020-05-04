@@ -10058,6 +10058,31 @@
                 }
             }
         },
+        "swissup/knowledge-base": {
+            "dev-master": {
+                "name": "swissup/knowledge-base",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-knowledge-base": "^0.1.0"
+                },
+                "time": "2020-05-04T12:25:55+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Knowledge Base (FAQ)",
+                "keywords": [
+                    "article",
+                    "faq",
+                    "knowledge"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/knowledge-base/tree/master",
+                    "issues": "https://github.com/swissup/knowledge-base/issues"
+                }
+            }
+        },
         "swissup/lightboxpro": {
             "1.2.0": {
                 "name": "swissup/lightboxpro",
@@ -15588,12 +15613,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "af799297ab3814dcdaa60bdcf579e17e3552152a"
+                    "reference": "9e9ff998ba54fedbc41447cb34e32053c59e2320"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/af799297ab3814dcdaa60bdcf579e17e3552152a",
-                    "reference": "af799297ab3814dcdaa60bdcf579e17e3552152a",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/9e9ff998ba54fedbc41447cb34e32053c59e2320",
+                    "reference": "9e9ff998ba54fedbc41447cb34e32053c59e2320",
                     "shasum": ""
                 },
                 "require": {
@@ -15607,7 +15632,7 @@
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-suggestpage": "^1.2.4"
                 },
-                "time": "2020-04-30T07:49:19+00:00",
+                "time": "2020-05-04T12:40:14+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -15639,7 +15664,7 @@
                 ],
                 "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions",
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxpro/tree/1.5.0",
+                    "source": "https://github.com/swissup/module-ajaxpro/tree/master",
                     "issues": "https://github.com/swissup/module-ajaxpro/issues"
                 }
             }
@@ -17589,12 +17614,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxsearch.git",
-                    "reference": "408606034a38db6684f95208aebdf20895c04210"
+                    "reference": "54f2ab426ff0ea0e60c43a51fa5e7960991c7eff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/408606034a38db6684f95208aebdf20895c04210",
-                    "reference": "408606034a38db6684f95208aebdf20895c04210",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/54f2ab426ff0ea0e60c43a51fa5e7960991c7eff",
+                    "reference": "54f2ab426ff0ea0e60c43a51fa5e7960991c7eff",
                     "shasum": ""
                 },
                 "require": {
@@ -17607,7 +17632,7 @@
                     "swissup/module-core": "^1.10.2",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-04-30T07:47:40+00:00",
+                "time": "2020-05-04T12:39:46+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -17645,7 +17670,7 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-ajaxsearch/tree/1.9.0",
+                    "source": "https://github.com/swissup/module-ajaxsearch/tree/master",
                     "issues": "https://github.com/swissup/module-ajaxsearch/issues"
                 }
             }
@@ -23409,19 +23434,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-cart.git",
-                    "reference": "ee9a7806dc0445fc3f7c694b14b932c0c21e38ac"
+                    "reference": "8dc121e6b6ccfed6adaea334a66c22e9a033dc9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/ee9a7806dc0445fc3f7c694b14b932c0c21e38ac",
-                    "reference": "ee9a7806dc0445fc3f7c694b14b932c0c21e38ac",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/8dc121e6b6ccfed6adaea334a66c22e9a033dc9a",
+                    "reference": "8dc121e6b6ccfed6adaea334a66c22e9a033dc9a",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.3.4",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-05-04T07:08:22+00:00",
+                "time": "2020-05-04T12:39:12+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -23448,7 +23473,7 @@
                     "shopping cart"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-cart/tree/1.5.1",
+                    "source": "https://github.com/swissup/module-checkout-cart/tree/master",
                     "issues": "https://github.com/swissup/module-checkout-cart/issues"
                 }
             }
@@ -25196,19 +25221,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-success.git",
-                    "reference": "0bbb530b3f53a9dfa56df4b9ffedd37db75cd77b"
+                    "reference": "036989a913b8c81b5876070f536f15f2dbea593f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/0bbb530b3f53a9dfa56df4b9ffedd37db75cd77b",
-                    "reference": "0bbb530b3f53a9dfa56df4b9ffedd37db75cd77b",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/036989a913b8c81b5876070f536f15f2dbea593f",
+                    "reference": "036989a913b8c81b5876070f536f15f2dbea593f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.3.4",
                     "swissup/module-codemirror": "^1.1.1"
                 },
-                "time": "2020-03-19T13:53:41+00:00",
+                "time": "2020-05-04T12:38:33+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -25244,7 +25269,7 @@
                     "success page"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-success/tree/1.4.3",
+                    "source": "https://github.com/swissup/module-checkout-success/tree/master",
                     "issues": "https://github.com/swissup/module-checkout-success/issues"
                 }
             }
@@ -47800,6 +47825,50 @@
                 "support": {
                     "source": "https://github.com/swissup/module-item-to-cart/tree/master",
                     "issues": "https://github.com/swissup/module-item-to-cart/issues"
+                }
+            }
+        },
+        "swissup/module-knowledge-base": {
+            "dev-master": {
+                "name": "swissup/module-knowledge-base",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-knowledge-base.git",
+                    "reference": "e5f5195aaf10340fdf547fc3956d2df7cd6989f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-knowledge-base/zipball/e5f5195aaf10340fdf547fc3956d2df7cd6989f5",
+                    "reference": "e5f5195aaf10340fdf547fc3956d2df7cd6989f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.0"
+                },
+                "time": "2020-05-04T12:03:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\KnowledgeBase\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Knowledge Base (FAQ) module",
+                "keywords": [
+                    "article",
+                    "faq",
+                    "knowledge"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-knowledge-base/tree/master",
+                    "issues": "https://github.com/swissup/module-knowledge-base/issues"
                 }
             }
         },

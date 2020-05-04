@@ -11154,65 +11154,6 @@
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             },
-            "1.3.2": {
-                "name": "swissup/module-address-autocomplete",
-                "version": "1.3.2",
-                "version_normalized": "1.3.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-address-autocomplete.git",
-                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
-                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-checkout": "^1.3.4"
-                },
-                "time": "2020-05-04T12:29:07+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-address-autocomplete.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\AddressAutocomplete\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Magento 2 module for address autocompleting",
-                "keywords": [
-                    "address",
-                    "autocomplete",
-                    "google"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.2",
-                    "issues": "https://github.com/swissup/module-address-autocomplete/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-address-autocomplete",
                 "version": "dev-master",
@@ -11220,18 +11161,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-address-autocomplete.git",
-                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba"
+                    "reference": "68dbb8ebfe98f35d5dc331534e653d1ef170fc65"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
-                    "reference": "1dcb26fb942bc7c2e0cdd5150e6d48fb7b902bba",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/68dbb8ebfe98f35d5dc331534e653d1ef170fc65",
+                    "reference": "68dbb8ebfe98f35d5dc331534e653d1ef170fc65",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.4"
+                    "swissup/module-checkout": "^1.3.3"
                 },
-                "time": "2020-05-04T12:29:07+00:00",
+                "time": "2020-04-29T13:36:38+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11268,7 +11209,7 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.2",
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/master",
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             }
@@ -18424,6 +18365,67 @@
                     "issues": "https://github.com/swissup/module-amp/issues"
                 }
             },
+            "1.3.14": {
+                "name": "swissup/module-amp",
+                "version": "1.3.14",
+                "version_normalized": "1.3.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-amp.git",
+                    "reference": "a09fd7213417e6168a2282402f06094598851ef7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/a09fd7213417e6168a2282402f06094598851ef7",
+                    "reference": "a09fd7213417e6168a2282402f06094598851ef7",
+                    "shasum": ""
+                },
+                "require": {
+                    "leafo/scssphp": "0.7.6",
+                    "marc1706/fast-image-size": "1.*",
+                    "mobiledetect/mobiledetectlib": "^2.8",
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-easy-slide": "^1.5.4",
+                    "swissup/module-easycatalogimg": "^1.4.7",
+                    "swissup/module-rtl": "^1.3.3"
+                },
+                "time": "2020-05-04T12:29:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/",
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-amp.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/amp/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/amp/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Amp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Accelerated Mobile Pages for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-amp/tree/1.3.14",
+                    "issues": "https://github.com/swissup/module-amp/issues"
+                }
+            },
             "1.3.2": {
                 "name": "swissup/module-amp",
                 "version": "1.3.2",
@@ -18847,12 +18849,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-amp.git",
-                    "reference": "c82684363f4d4da50bf32c5ab12ac49a154f5f6f"
+                    "reference": "a09fd7213417e6168a2282402f06094598851ef7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/c82684363f4d4da50bf32c5ab12ac49a154f5f6f",
-                    "reference": "c82684363f4d4da50bf32c5ab12ac49a154f5f6f",
+                    "url": "https://api.github.com/repos/swissup/module-amp/zipball/a09fd7213417e6168a2282402f06094598851ef7",
+                    "reference": "a09fd7213417e6168a2282402f06094598851ef7",
                     "shasum": ""
                 },
                 "require": {
@@ -18864,7 +18866,7 @@
                     "swissup/module-easycatalogimg": "^1.4.7",
                     "swissup/module-rtl": "^1.3.3"
                 },
-                "time": "2020-04-29T15:50:07+00:00",
+                "time": "2020-05-04T12:29:10+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -18897,7 +18899,7 @@
                 ],
                 "description": "Accelerated Mobile Pages for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-amp/tree/master",
+                    "source": "https://github.com/swissup/module-amp/tree/1.3.14",
                     "issues": "https://github.com/swissup/module-amp/issues"
                 }
             }

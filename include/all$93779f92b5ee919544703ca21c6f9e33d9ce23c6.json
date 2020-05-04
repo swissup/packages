@@ -32160,25 +32160,25 @@
                     "issues": "https://github.com/swissup/module-easybanner/issues"
                 }
             },
-            "dev-master": {
+            "1.5.6": {
                 "name": "swissup/module-easybanner",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.6",
+                "version_normalized": "1.5.6.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "dc9a5613a1220afb758a1e8b67ea00912fb6b77d"
+                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/dc9a5613a1220afb758a1e8b67ea00912fb6b77d",
-                    "reference": "dc9a5613a1220afb758a1e8b67ea00912fb6b77d",
+                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/13a55d84f231af7704604c9f359dd7f543ff5173",
+                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-29T13:32:36+00:00",
+                "time": "2020-05-04T12:29:04+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -32220,7 +32220,71 @@
                     "lightbox"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easybanner/tree/master",
+                    "source": "https://github.com/swissup/module-easybanner/tree/1.5.6",
+                    "issues": "https://github.com/swissup/module-easybanner/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-easybanner",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easybanner.git",
+                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/13a55d84f231af7704604c9f359dd7f543ff5173",
+                    "reference": "13a55d84f231af7704604c9f359dd7f543ff5173",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-05-04T12:29:04+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-banners-and-custom-blocks-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easybanners/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easybanners/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easybanner.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easybanner/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easybanner/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easybanner\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento banners and blocks",
+                "keywords": [
+                    "advertising",
+                    "awesomebar",
+                    "banner",
+                    "block",
+                    "easybanner",
+                    "lightbox"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easybanner/tree/1.5.6",
                     "issues": "https://github.com/swissup/module-easybanner/issues"
                 }
             }
@@ -41706,50 +41770,6 @@
                     "issues": "https://github.com/swissup/module-font-awesome-5/issues"
                 }
             },
-            "1.1.1": {
-                "name": "swissup/module-font-awesome-5",
-                "version": "1.1.1",
-                "version_normalized": "1.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/module-font-awesome-5.git",
-                    "reference": "73172e21e1dcbf6379a9f57f31d2ae898450cb7e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-font-awesome-5/zipball/73172e21e1dcbf6379a9f57f31d2ae898450cb7e",
-                    "reference": "73172e21e1dcbf6379a9f57f31d2ae898450cb7e",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-05-04T12:29:01+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\FontAwesome5\\": ""
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "FontAwesome5 for Magento2",
-                "keywords": [
-                    "font",
-                    "font awesome",
-                    "font-awesome",
-                    "fontawesome",
-                    "icons"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-font-awesome-5/tree/1.1.1",
-                    "issues": "https://github.com/swissup/module-font-awesome-5/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-font-awesome-5",
                 "version": "dev-master",
@@ -41757,18 +41777,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-font-awesome-5.git",
-                    "reference": "73172e21e1dcbf6379a9f57f31d2ae898450cb7e"
+                    "reference": "8ccc0f86f42da0d53b6b30947a32792c9cb74e57"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-font-awesome-5/zipball/73172e21e1dcbf6379a9f57f31d2ae898450cb7e",
-                    "reference": "73172e21e1dcbf6379a9f57f31d2ae898450cb7e",
+                    "url": "https://api.github.com/repos/swissup/module-font-awesome-5/zipball/8ccc0f86f42da0d53b6b30947a32792c9cb74e57",
+                    "reference": "8ccc0f86f42da0d53b6b30947a32792c9cb74e57",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.2"
+                    "swissup/module-core": "^1.7.0"
                 },
-                "time": "2020-05-04T12:29:01+00:00",
+                "time": "2020-04-29T10:53:59+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -41790,7 +41810,7 @@
                     "icons"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-font-awesome-5/tree/1.1.1",
+                    "source": "https://github.com/swissup/module-font-awesome-5/tree/master",
                     "issues": "https://github.com/swissup/module-font-awesome-5/issues"
                 }
             }

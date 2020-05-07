@@ -59045,54 +59045,6 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
-            "1.4.9": {
-                "name": "swissup/module-rich-snippets",
-                "version": "1.4.9",
-                "version_normalized": "1.4.9.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "85fb5cd0bec501c5de186ba616085e4c27abb785"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/85fb5cd0bec501c5de186ba616085e4c27abb785",
-                    "reference": "85fb5cd0bec501c5de186ba616085e4c27abb785",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-seo-core": "^1.2.2"
-                },
-                "time": "2020-05-07T08:42:27+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\RichSnippets\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Structured data markup for Google's crawlers",
-                "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.9",
-                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-rich-snippets",
                 "version": "dev-master",
@@ -59100,18 +59052,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "85fb5cd0bec501c5de186ba616085e4c27abb785"
+                    "reference": "89d457036d9205dbea419c2f0fe207c7748d46a1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/85fb5cd0bec501c5de186ba616085e4c27abb785",
-                    "reference": "85fb5cd0bec501c5de186ba616085e4c27abb785",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/89d457036d9205dbea419c2f0fe207c7748d46a1",
+                    "reference": "89d457036d9205dbea419c2f0fe207c7748d46a1",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.2.2"
+                    "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2020-05-07T08:42:27+00:00",
+                "time": "2020-04-29T15:53:49+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -59137,7 +59089,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.4.9",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }
@@ -60677,25 +60629,25 @@
                     "issues": "https://github.com/swissup/module-seo-html-sitemap/issues"
                 }
             },
-            "dev-master": {
+            "1.1.5": {
                 "name": "swissup/module-seo-html-sitemap",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-html-sitemap.git",
-                    "reference": "c038157d6408c4d58ea56c86dfdbd582b6b26195"
+                    "reference": "ac10dacc03f7fcc08588a7570734f3020af75002"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-html-sitemap/zipball/c038157d6408c4d58ea56c86dfdbd582b6b26195",
-                    "reference": "c038157d6408c4d58ea56c86dfdbd582b6b26195",
+                    "url": "https://api.github.com/repos/swissup/module-seo-html-sitemap/zipball/ac10dacc03f7fcc08588a7570734f3020af75002",
+                    "reference": "ac10dacc03f7fcc08588a7570734f3020af75002",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.2.1"
+                    "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-04-29T16:03:58+00:00",
+                "time": "2020-05-07T08:42:30+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -60714,7 +60666,48 @@
                     "sitemap"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-html-sitemap/tree/master",
+                    "source": "https://github.com/swissup/module-seo-html-sitemap/tree/1.1.5",
+                    "issues": "https://github.com/swissup/module-seo-html-sitemap/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-html-sitemap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-html-sitemap.git",
+                    "reference": "ac10dacc03f7fcc08588a7570734f3020af75002"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-html-sitemap/zipball/ac10dacc03f7fcc08588a7570734f3020af75002",
+                    "reference": "ac10dacc03f7fcc08588a7570734f3020af75002",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.2"
+                },
+                "time": "2020-05-07T08:42:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoHtmlSitemap\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced HTML Sitemap for Magento 2.x e-commerce ",
+                "keywords": [
+                    "seo",
+                    "sitemap"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-html-sitemap/tree/1.1.5",
                     "issues": "https://github.com/swissup/module-seo-html-sitemap/issues"
                 }
             }

@@ -71231,25 +71231,25 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-essence/issues"
                 }
             },
-            "dev-master": {
+            "1.5.0": {
                 "name": "swissup/module-theme-editor-argento-essence",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-theme-editor-argento-essence.git",
-                    "reference": "ab8cbe68e42a885a66a396ad638fb05b6b4c43f9"
+                    "reference": "28e3c530a1aec63b4e547c6f09c8188567c38d20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-essence/zipball/ab8cbe68e42a885a66a396ad638fb05b6b4c43f9",
-                    "reference": "ab8cbe68e42a885a66a396ad638fb05b6b4c43f9",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-essence/zipball/28e3c530a1aec63b4e547c6f09c8188567c38d20",
+                    "reference": "28e3c530a1aec63b4e547c6f09c8188567c38d20",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-theme-editor": "^1.7.0"
+                    "swissup/module-theme-editor": "^1.8.0"
                 },
-                "time": "2020-05-07T07:11:50+00:00",
+                "time": "2020-05-07T08:20:19+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -71264,7 +71264,44 @@
                 ],
                 "description": "Theme styles for Argento Essence theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-essence/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-essence/tree/1.5.0",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-essence/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argento-essence",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-theme-editor-argento-essence.git",
+                    "reference": "28e3c530a1aec63b4e547c6f09c8188567c38d20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-essence/zipball/28e3c530a1aec63b4e547c6f09c8188567c38d20",
+                    "reference": "28e3c530a1aec63b4e547c6f09c8188567c38d20",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.8.0"
+                },
+                "time": "2020-05-07T08:20:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoEssence\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Essence theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-essence/tree/1.5.0",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-essence/issues"
                 }
             }

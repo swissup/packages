@@ -69765,26 +69765,26 @@
                     "issues": "https://github.com/swissup/module-testimonials/issues"
                 }
             },
-            "dev-master": {
+            "1.2.8": {
                 "name": "swissup/module-testimonials",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.8",
+                "version_normalized": "1.2.8.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-testimonials.git",
-                    "reference": "685cfe746187cfe64e10230c9efa874874fda66a"
+                    "reference": "df84891304e18a4afe419d48b0fdfe6610273d49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-testimonials/zipball/685cfe746187cfe64e10230c9efa874874fda66a",
-                    "reference": "685cfe746187cfe64e10230c9efa874874fda66a",
+                    "url": "https://api.github.com/repos/swissup/module-testimonials/zipball/df84891304e18a4afe419d48b0fdfe6610273d49",
+                    "reference": "df84891304e18a4afe419d48b0fdfe6610273d49",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.1",
-                    "swissup/module-slick-carousel": "^1.3.2"
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-slick-carousel": "^1.3.3"
                 },
-                "time": "2020-05-04T21:23:02+00:00",
+                "time": "2020-05-07T09:04:06+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -69814,7 +69814,60 @@
                     "testimonials"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-testimonials/tree/master",
+                    "source": "https://github.com/swissup/module-testimonials/tree/1.2.8",
+                    "issues": "https://github.com/swissup/module-testimonials/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-testimonials",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-testimonials.git",
+                    "reference": "df84891304e18a4afe419d48b0fdfe6610273d49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-testimonials/zipball/df84891304e18a4afe419d48b0fdfe6610273d49",
+                    "reference": "df84891304e18a4afe419d48b0fdfe6610273d49",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2",
+                    "swissup/module-slick-carousel": "^1.3.3"
+                },
+                "time": "2020-05-07T09:04:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-testimonials.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/testimonials/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/testimonials/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "keywords": [
+                    "reviews",
+                    "testimonials"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-testimonials/tree/1.2.8",
                     "issues": "https://github.com/swissup/module-testimonials/issues"
                 }
             }
@@ -77230,24 +77283,6 @@
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             },
-            "1.1.6": {
-                "name": "swissup/reviewreminder",
-                "version": "1.1.6",
-                "version_normalized": "1.1.6.0",
-                "require": {
-                    "swissup/module-reviewreminder": "^1.1.5"
-                },
-                "time": "2020-05-07T09:03:38+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Send email reminder to write a review for the purchased product",
-                "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.1.6",
-                    "issues": "https://github.com/swissup/reviewreminder/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/reviewreminder",
                 "version": "dev-master",
@@ -77255,14 +77290,14 @@
                 "require": {
                     "swissup/module-reviewreminder": "^1.1.5"
                 },
-                "time": "2020-05-07T09:03:38+00:00",
+                "time": "2020-02-18T12:23:31+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Send email reminder to write a review for the purchased product",
                 "support": {
-                    "source": "https://github.com/swissup/reviewreminder/tree/1.1.6",
+                    "source": "https://github.com/swissup/reviewreminder/tree/1.1.5",
                     "issues": "https://github.com/swissup/reviewreminder/issues"
                 }
             }

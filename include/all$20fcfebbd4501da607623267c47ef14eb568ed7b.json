@@ -33832,67 +33832,6 @@
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             },
-            "1.4.8": {
-                "name": "swissup/module-easycatalogimg",
-                "version": "1.4.8",
-                "version_normalized": "1.4.8.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/swissup/module-easycatalogimg.git",
-                    "reference": "bf9fe813091538d71af72412350f32db5bc98e38"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/bf9fe813091538d71af72412350f32db5bc98e38",
-                    "reference": "bf9fe813091538d71af72412350f32db5bc98e38",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-05-07T08:30:36+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "store": "https://swissuplabs.com/magento-2-easy-catalog-images.html",
-                            "download": "https://swissuplabs.com/subscription/customer/products/",
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-easycatalogimages.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Easycatalogimg\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Easy Catalog Images extension from Swissup",
-                "keywords": [
-                    "category thumbnail",
-                    "easycatalogimages",
-                    "subcategory listing"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.4.8",
-                    "issues": "https://github.com/swissup/module-easycatalogimg/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-easycatalogimg",
                 "version": "dev-master",
@@ -33900,18 +33839,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easycatalogimg.git",
-                    "reference": "bf9fe813091538d71af72412350f32db5bc98e38"
+                    "reference": "858a00b6bd2d1d5c7d6ef61a64e17552ff5f4cf7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/bf9fe813091538d71af72412350f32db5bc98e38",
-                    "reference": "bf9fe813091538d71af72412350f32db5bc98e38",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/858a00b6bd2d1d5c7d6ef61a64e17552ff5f4cf7",
+                    "reference": "858a00b6bd2d1d5c7d6ef61a64e17552ff5f4cf7",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.2"
+                    "swissup/module-core": "^1.10.1"
                 },
-                "time": "2020-05-07T08:30:36+00:00",
+                "time": "2020-04-27T15:57:10+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -33950,7 +33889,7 @@
                     "subcategory listing"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.4.8",
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/master",
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             }
@@ -35685,6 +35624,68 @@
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             },
+            "1.8.10": {
+                "name": "swissup/module-easytabs",
+                "version": "1.8.10",
+                "version_normalized": "1.8.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
+                    "reference": "929623c3be4de4a3584d66fc5380d0ebbc801bc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/929623c3be4de4a3584d66fc5380d0ebbc801bc9",
+                    "reference": "929623c3be4de4a3584d66fc5380d0ebbc801bc9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-05-07T08:32:08+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.10",
+                    "issues": "https://github.com/swissup/module-easytabs/issues"
+                }
+            },
             "1.8.2": {
                 "name": "swissup/module-easytabs",
                 "version": "1.8.2",
@@ -36152,18 +36153,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "360e75810bd5c94e9e271d48aea2d9852c40dcc0"
+                    "reference": "929623c3be4de4a3584d66fc5380d0ebbc801bc9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/360e75810bd5c94e9e271d48aea2d9852c40dcc0",
-                    "reference": "360e75810bd5c94e9e271d48aea2d9852c40dcc0",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/929623c3be4de4a3584d66fc5380d0ebbc801bc9",
+                    "reference": "929623c3be4de4a3584d66fc5380d0ebbc801bc9",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-27T16:02:58+00:00",
+                "time": "2020-05-07T08:32:08+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -36203,7 +36204,7 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/master",
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.8.10",
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             }

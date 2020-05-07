@@ -47667,25 +47667,25 @@
                     "issues": "https://github.com/swissup/module-hreflang/issues"
                 }
             },
-            "dev-master": {
+            "1.4.0": {
                 "name": "swissup/module-hreflang",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-hreflang.git",
-                    "reference": "2b12652576e52d08a9617623cb87bd4cc97607ef"
+                    "reference": "6d1f3b8168df71fa918c3746091d517a9ea19e5f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/2b12652576e52d08a9617623cb87bd4cc97607ef",
-                    "reference": "2b12652576e52d08a9617623cb87bd4cc97607ef",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/6d1f3b8168df71fa918c3746091d517a9ea19e5f",
+                    "reference": "6d1f3b8168df71fa918c3746091d517a9ea19e5f",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-05-05T11:01:04+00:00",
+                "time": "2020-05-07T08:40:29+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -47710,7 +47710,54 @@
                     "hreflang tag"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-hreflang/tree/master",
+                    "source": "https://github.com/swissup/module-hreflang/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-hreflang/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-hreflang",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-hreflang.git",
+                    "reference": "6d1f3b8168df71fa918c3746091d517a9ea19e5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/6d1f3b8168df71fa918c3746091d517a9ea19e5f",
+                    "reference": "6d1f3b8168df71fa918c3746091d517a9ea19e5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.2"
+                },
+                "time": "2020-05-07T08:40:29+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-hreflang/tree/1.4.0",
                     "issues": "https://github.com/swissup/module-hreflang/issues"
                 }
             }
@@ -63274,6 +63321,55 @@
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },
+            "1.5.11": {
+                "name": "swissup/module-seo-urls",
+                "version": "1.5.11",
+                "version_normalized": "1.5.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-urls.git",
+                    "reference": "0c85995243820ef825c777e6149a5678de54c405"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/0c85995243820ef825c777e6149a5678de54c405",
+                    "reference": "0c85995243820ef825c777e6149a5678de54c405",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.2"
+                },
+                "time": "2020-05-07T08:40:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better ursl",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.11",
+                    "issues": "https://github.com/swissup/module-seo-urls/issues"
+                }
+            },
             "1.5.2": {
                 "name": "swissup/module-seo-urls",
                 "version": "1.5.2",
@@ -63673,18 +63769,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-urls.git",
-                    "reference": "7fa67501144176d99adabe4ed0cc60a4bee2e642"
+                    "reference": "0c85995243820ef825c777e6149a5678de54c405"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/7fa67501144176d99adabe4ed0cc60a4bee2e642",
-                    "reference": "7fa67501144176d99adabe4ed0cc60a4bee2e642",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/0c85995243820ef825c777e6149a5678de54c405",
+                    "reference": "0c85995243820ef825c777e6149a5678de54c405",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-05-04T20:32:48+00:00",
+                "time": "2020-05-07T08:40:23+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -63711,7 +63807,7 @@
                     "seo urls"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-urls/tree/master",
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.11",
                     "issues": "https://github.com/swissup/module-seo-urls/issues"
                 }
             },
@@ -64144,53 +64240,6 @@
                     "issues": "https://github.com/swissup/module-seo-xml-sitemap/issues"
                 }
             },
-            "1.1.6": {
-                "name": "swissup/module-seo-xml-sitemap",
-                "version": "1.1.6",
-                "version_normalized": "1.1.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-seo-xml-sitemap.git",
-                    "reference": "6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-xml-sitemap/zipball/6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590",
-                    "reference": "6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-seo-core": "^1.2.2"
-                },
-                "time": "2020-05-07T08:40:26+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-xml-sitemap/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\SeoXmlSitemap\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Advanced XML Sitemap for Magento 2",
-                "keywords": [
-                    "xml sitemap"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-seo-xml-sitemap/tree/1.1.6",
-                    "issues": "https://github.com/swissup/module-seo-xml-sitemap/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-seo-xml-sitemap",
                 "version": "dev-master",
@@ -64198,18 +64247,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-xml-sitemap.git",
-                    "reference": "6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590"
+                    "reference": "ccc98b590d5dd222764e77df1a0fc8d5a9f71085"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-xml-sitemap/zipball/6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590",
-                    "reference": "6f64c1cb0bdbacd5abd7f5ccf0fbf1761c3f7590",
+                    "url": "https://api.github.com/repos/swissup/module-seo-xml-sitemap/zipball/ccc98b590d5dd222764e77df1a0fc8d5a9f71085",
+                    "reference": "ccc98b590d5dd222764e77df1a0fc8d5a9f71085",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.2.2"
+                    "swissup/module-seo-core": "^1.2.1"
                 },
-                "time": "2020-05-07T08:40:26+00:00",
+                "time": "2020-05-04T20:51:49+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -64234,7 +64283,7 @@
                     "xml sitemap"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-xml-sitemap/tree/1.1.6",
+                    "source": "https://github.com/swissup/module-seo-xml-sitemap/tree/master",
                     "issues": "https://github.com/swissup/module-seo-xml-sitemap/issues"
                 }
             }

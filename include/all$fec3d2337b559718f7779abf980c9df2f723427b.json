@@ -62481,54 +62481,6 @@
                     "issues": "https://github.com/swissup/module-seo-templates/issues"
                 }
             },
-            "1.5.8": {
-                "name": "swissup/module-seo-templates",
-                "version": "1.5.8",
-                "version_normalized": "1.5.8.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-seo-templates.git",
-                    "reference": "4c97453c7cfc11ade9c29cf39e6215d094b1dc15"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/4c97453c7cfc11ade9c29cf39e6215d094b1dc15",
-                    "reference": "4c97453c7cfc11ade9c29cf39e6215d094b1dc15",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-seo-core": "^1.2.2"
-                },
-                "time": "2020-05-07T08:43:18+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\SeoTemplates\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Generate product and category metadata for Magento 2.x",
-                "keywords": [
-                    "autogenerate metadata"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-seo-templates/tree/1.5.8",
-                    "issues": "https://github.com/swissup/module-seo-templates/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-seo-templates",
                 "version": "dev-master",
@@ -62536,18 +62488,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-templates.git",
-                    "reference": "4c97453c7cfc11ade9c29cf39e6215d094b1dc15"
+                    "reference": "24398fb5b364fa8d17b78c0b5c11ab7cc506842d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/4c97453c7cfc11ade9c29cf39e6215d094b1dc15",
-                    "reference": "4c97453c7cfc11ade9c29cf39e6215d094b1dc15",
+                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/24398fb5b364fa8d17b78c0b5c11ab7cc506842d",
+                    "reference": "24398fb5b364fa8d17b78c0b5c11ab7cc506842d",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-05-07T08:43:18+00:00",
+                "time": "2020-04-29T16:21:31+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -62573,7 +62525,7 @@
                     "autogenerate metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-templates/tree/1.5.8",
+                    "source": "https://github.com/swissup/module-seo-templates/tree/master",
                     "issues": "https://github.com/swissup/module-seo-templates/issues"
                 }
             }
@@ -77446,6 +77398,24 @@
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             },
+            "1.4.9": {
+                "name": "swissup/rich-snippets",
+                "version": "1.4.9",
+                "version_normalized": "1.4.9.0",
+                "require": {
+                    "swissup/module-rich-snippets": "^1.4.8"
+                },
+                "time": "2020-05-07T08:44:25+00:00",
+                "type": "metapackage",
+                "license": [
+                    "MIT"
+                ],
+                "description": "Implement this structured data markup in Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.4.9",
+                    "issues": "https://github.com/swissup/rich-snippets/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/rich-snippets",
                 "version": "dev-master",
@@ -77453,14 +77423,14 @@
                 "require": {
                     "swissup/module-rich-snippets": "^1.4.8"
                 },
-                "time": "2020-02-20T09:02:46+00:00",
+                "time": "2020-05-07T08:44:25+00:00",
                 "type": "metapackage",
                 "license": [
                     "MIT"
                 ],
                 "description": "Implement this structured data markup in Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/rich-snippets/tree/1.4.8",
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.4.9",
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             }

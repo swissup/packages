@@ -61032,46 +61032,6 @@
                     "issues": "https://github.com/swissup/module-seo-images/issues"
                 }
             },
-            "1.3.2": {
-                "name": "swissup/module-seo-images",
-                "version": "1.3.2",
-                "version_normalized": "1.3.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-seo-images.git",
-                    "reference": "9e49006f945c881fcfced27b6b8dd894da711f4d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/9e49006f945c881fcfced27b6b8dd894da711f4d",
-                    "reference": "9e49006f945c881fcfced27b6b8dd894da711f4d",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-seo-core": "^1.2.2"
-                },
-                "time": "2020-05-07T08:37:48+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\SeoImages\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Use pretty names for product images",
-                "keywords": [
-                    "nice product image"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-seo-images/tree/1.3.2",
-                    "issues": "https://github.com/swissup/module-seo-images/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-seo-images",
                 "version": "dev-master",
@@ -61079,18 +61039,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-images.git",
-                    "reference": "9e49006f945c881fcfced27b6b8dd894da711f4d"
+                    "reference": "b43ae1519bd44938571695deedcf74b78b626280"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/9e49006f945c881fcfced27b6b8dd894da711f4d",
-                    "reference": "9e49006f945c881fcfced27b6b8dd894da711f4d",
+                    "url": "https://api.github.com/repos/swissup/module-seo-images/zipball/b43ae1519bd44938571695deedcf74b78b626280",
+                    "reference": "b43ae1519bd44938571695deedcf74b78b626280",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-05-07T08:37:48+00:00",
+                "time": "2020-05-05T16:43:11+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -61108,7 +61068,7 @@
                     "nice product image"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-images/tree/1.3.2",
+                    "source": "https://github.com/swissup/module-seo-images/tree/master",
                     "issues": "https://github.com/swissup/module-seo-images/issues"
                 }
             }
@@ -61508,25 +61468,25 @@
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             },
-            "dev-master": {
+            "1.2.4": {
                 "name": "swissup/module-seo-pager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-pager.git",
-                    "reference": "496c9818fe9747549e3fce860cf6e75cbcf96cf6"
+                    "reference": "cc3a5e7a62c20c4d09f2177fa491729cfa186677"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/496c9818fe9747549e3fce860cf6e75cbcf96cf6",
-                    "reference": "496c9818fe9747549e3fce860cf6e75cbcf96cf6",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/cc3a5e7a62c20c4d09f2177fa491729cfa186677",
+                    "reference": "cc3a5e7a62c20c4d09f2177fa491729cfa186677",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-seo-core": "^1.2.1"
+                    "swissup/module-seo-core": "^1.2.2"
                 },
-                "time": "2020-05-05T16:53:08+00:00",
+                "time": "2020-05-07T08:37:51+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -61553,7 +61513,56 @@
                     "seo pagination"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-seo-pager/tree/master",
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.4",
+                    "issues": "https://github.com/swissup/module-seo-pager/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-seo-pager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-pager.git",
+                    "reference": "cc3a5e7a62c20c4d09f2177fa491729cfa186677"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/cc3a5e7a62c20c4d09f2177fa491729cfa186677",
+                    "reference": "cc3a5e7a62c20c4d09f2177fa491729cfa186677",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.2.2"
+                },
+                "time": "2020-05-07T08:37:51+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoPager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 pagination",
+                "keywords": [
+                    "better pagination",
+                    "seo pagination"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.4",
                     "issues": "https://github.com/swissup/module-seo-pager/issues"
                 }
             }

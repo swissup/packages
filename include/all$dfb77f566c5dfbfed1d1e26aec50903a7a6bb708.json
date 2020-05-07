@@ -59422,22 +59422,22 @@
                     "issues": "https://github.com/swissup/module-rtl/issues"
                 }
             },
-            "dev-master": {
+            "1.3.4": {
                 "name": "swissup/module-rtl",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.4",
+                "version_normalized": "1.3.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-rtl.git",
-                    "reference": "ed976e70b08a44c533f65259f323fac4009681e7"
+                    "reference": "d9c19917cc43ad796192cbf8190419a5e09d3a40"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/ed976e70b08a44c533f65259f323fac4009681e7",
-                    "reference": "ed976e70b08a44c533f65259f323fac4009681e7",
+                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/d9c19917cc43ad796192cbf8190419a5e09d3a40",
+                    "reference": "d9c19917cc43ad796192cbf8190419a5e09d3a40",
                     "shasum": ""
                 },
-                "time": "2020-04-10T09:19:19+00:00",
+                "time": "2020-05-07T09:07:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -59455,7 +59455,44 @@
                     "rtl"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-rtl/tree/master",
+                    "source": "https://github.com/swissup/module-rtl/tree/1.3.4",
+                    "issues": "https://github.com/swissup/module-rtl/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-rtl",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-rtl.git",
+                    "reference": "d9c19917cc43ad796192cbf8190419a5e09d3a40"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rtl/zipball/d9c19917cc43ad796192cbf8190419a5e09d3a40",
+                    "reference": "d9c19917cc43ad796192cbf8190419a5e09d3a40",
+                    "shasum": ""
+                },
+                "time": "2020-05-07T09:07:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Rtl\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Magento2 RTL detection",
+                "keywords": [
+                    "rtl"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-rtl/tree/1.3.4",
                     "issues": "https://github.com/swissup/module-rtl/issues"
                 }
             }
@@ -79088,39 +79125,21 @@
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             },
-            "1.2.8": {
-                "name": "swissup/testimonials",
-                "version": "1.2.8",
-                "version_normalized": "1.2.8.0",
-                "require": {
-                    "swissup/module-testimonials": "^1.2.8"
-                },
-                "time": "2020-05-07T09:06:07+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Customer's testimonials at your store",
-                "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/1.2.8",
-                    "issues": "https://github.com/swissup/testimonials/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/testimonials",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-testimonials": "^1.2.8"
+                    "swissup/module-testimonials": "^1.2.6"
                 },
-                "time": "2020-05-07T09:06:07+00:00",
+                "time": "2020-02-17T09:28:12+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Customer's testimonials at your store",
                 "support": {
-                    "source": "https://github.com/swissup/testimonials/tree/1.2.8",
+                    "source": "https://github.com/swissup/testimonials/tree/1.2.7",
                     "issues": "https://github.com/swissup/testimonials/issues"
                 }
             }

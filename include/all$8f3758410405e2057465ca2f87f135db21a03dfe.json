@@ -5529,39 +5529,21 @@
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             },
-            "1.2.4": {
-                "name": "swissup/attributepages",
-                "version": "1.2.4",
-                "version_normalized": "1.2.4.0",
-                "require": {
-                    "swissup/module-attributepages": "^1.2.4"
-                },
-                "time": "2020-05-07T08:21:06+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create attribute-based pages like Brands Page, Authors Page and others.",
-                "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.2.4",
-                    "issues": "https://github.com/swissup/attributepages/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/attributepages",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-attributepages": "^1.2.4"
+                    "swissup/module-attributepages": "^1.2.2"
                 },
-                "time": "2020-05-07T08:21:06+00:00",
+                "time": "2020-02-17T11:02:03+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Create attribute-based pages like Brands Page, Authors Page and others.",
                 "support": {
-                    "source": "https://github.com/swissup/attributepages/tree/1.2.4",
+                    "source": "https://github.com/swissup/attributepages/tree/1.2.3",
                     "issues": "https://github.com/swissup/attributepages/issues"
                 }
             }
@@ -37082,25 +37064,25 @@
                     "issues": "https://github.com/swissup/module-email-templates/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "swissup/module-email-templates",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-email-templates.git",
-                    "reference": "98d8f2e607506b2ffcb100953b737764f3577811"
+                    "reference": "0bef2863d14ac7e92f4928a75cf5c38834580e8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email-templates/zipball/98d8f2e607506b2ffcb100953b737764f3577811",
-                    "reference": "98d8f2e607506b2ffcb100953b737764f3577811",
+                    "url": "https://api.github.com/repos/swissup/module-email-templates/zipball/0bef2863d14ac7e92f4928a75cf5c38834580e8e",
+                    "reference": "0bef2863d14ac7e92f4928a75cf5c38834580e8e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.10.0"
+                    "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-02T09:31:40+00:00",
+                "time": "2020-05-07T08:22:43+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -37119,7 +37101,48 @@
                     "transactional email"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email-templates/tree/master",
+                    "source": "https://github.com/swissup/module-email-templates/tree/1.0.2",
+                    "issues": "https://github.com/swissup/module-email-templates/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-email-templates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-templates.git",
+                    "reference": "0bef2863d14ac7e92f4928a75cf5c38834580e8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-templates/zipball/0bef2863d14ac7e92f4928a75cf5c38834580e8e",
+                    "reference": "0bef2863d14ac7e92f4928a75cf5c38834580e8e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-05-07T08:22:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-templates/tree/1.0.2",
                     "issues": "https://github.com/swissup/module-email-templates/issues"
                 }
             }

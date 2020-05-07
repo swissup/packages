@@ -1748,14 +1748,14 @@
                     "source": "https://github.com/swissup/ajaxsearch/tree/1.9.0"
                 }
             },
-            "dev-master": {
+            "1.9.1": {
                 "name": "swissup/ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
                 "require": {
-                    "swissup/module-ajaxsearch": "^1.9.0"
+                    "swissup/module-ajaxsearch": "^1.9.1"
                 },
-                "time": "2020-04-30T07:49:40+00:00",
+                "time": "2020-05-07T08:11:42+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
@@ -1766,7 +1766,28 @@
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/ajaxsearch/tree/1.9.0"
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.9.1"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-ajaxsearch": "^1.9.1"
+                },
+                "time": "2020-05-07T08:11:42+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/ajaxsearch/tree/1.9.1"
                 }
             }
         },
@@ -72577,43 +72598,6 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argento-mall/issues"
                 }
             },
-            "1.5.0": {
-                "name": "swissup/module-theme-editor-argento-mall",
-                "version": "1.5.0",
-                "version_normalized": "1.5.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-theme-editor-argento-mall.git",
-                    "reference": "3a270d98ca803694947f0d7283e20982be5417d5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-mall/zipball/3a270d98ca803694947f0d7283e20982be5417d5",
-                    "reference": "3a270d98ca803694947f0d7283e20982be5417d5",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-theme-editor": "^1.8.0"
-                },
-                "time": "2020-05-07T08:11:39+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\ThemeEditorArgentoMall\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Theme styles for Argento Mall theme",
-                "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-mall/tree/1.5.0",
-                    "issues": "https://github.com/swissup/module-theme-editor-argento-mall/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-theme-editor-argento-mall",
                 "version": "dev-master",
@@ -72621,18 +72605,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-theme-editor-argento-mall.git",
-                    "reference": "3a270d98ca803694947f0d7283e20982be5417d5"
+                    "reference": "f5c0dcae45d1ca7c34b5a3e385a7532651dd3541"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-mall/zipball/3a270d98ca803694947f0d7283e20982be5417d5",
-                    "reference": "3a270d98ca803694947f0d7283e20982be5417d5",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-mall/zipball/f5c0dcae45d1ca7c34b5a3e385a7532651dd3541",
+                    "reference": "f5c0dcae45d1ca7c34b5a3e385a7532651dd3541",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-theme-editor": "^1.8.0"
+                    "swissup/module-theme-editor": "^1.6.3"
                 },
-                "time": "2020-05-07T08:11:39+00:00",
+                "time": "2020-05-07T07:47:33+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -72647,7 +72631,7 @@
                 ],
                 "description": "Theme styles for Argento Mall theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argento-mall/tree/1.5.0",
+                    "source": "https://github.com/swissup/module-theme-editor-argento-mall/tree/master",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-mall/issues"
                 }
             }

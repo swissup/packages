@@ -58155,54 +58155,6 @@
                     "issues": "https://github.com/swissup/module-reviewreminder/issues"
                 }
             },
-            "1.1.6": {
-                "name": "swissup/module-reviewreminder",
-                "version": "1.1.6",
-                "version_normalized": "1.1.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-reviewreminder.git",
-                    "reference": "eb85ca6598917fb1c452b92efbef4d5561b2cc13"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/eb85ca6598917fb1c452b92efbef4d5561b2cc13",
-                    "reference": "eb85ca6598917fb1c452b92efbef4d5561b2cc13",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-core": "^1.10.2"
-                },
-                "time": "2020-05-07T09:01:39+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-review-reminder.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/module-reviewreminder/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/module-reviewreminder/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Reviewreminder\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Review Reminder extension from Swissup",
-                "support": {
-                    "source": "https://github.com/swissup/module-reviewreminder/tree/1.1.6",
-                    "issues": "https://github.com/swissup/module-reviewreminder/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-reviewreminder",
                 "version": "dev-master",
@@ -58210,18 +58162,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-reviewreminder.git",
-                    "reference": "eb85ca6598917fb1c452b92efbef4d5561b2cc13"
+                    "reference": "f97857e969c8f4d11d51278d8f4926ecf6645d88"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/eb85ca6598917fb1c452b92efbef4d5561b2cc13",
-                    "reference": "eb85ca6598917fb1c452b92efbef4d5561b2cc13",
+                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/f97857e969c8f4d11d51278d8f4926ecf6645d88",
+                    "reference": "f97857e969c8f4d11d51278d8f4926ecf6645d88",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-05-07T09:01:39+00:00",
+                "time": "2020-04-29T15:27:55+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -58247,7 +58199,7 @@
                 ],
                 "description": "Review Reminder extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/module-reviewreminder/tree/1.1.6",
+                    "source": "https://github.com/swissup/module-reviewreminder/tree/master",
                     "issues": "https://github.com/swissup/module-reviewreminder/issues"
                 }
             }
@@ -75292,21 +75244,39 @@
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },
-            "dev-master": {
+            "1.5.3": {
                 "name": "swissup/pro-labels",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
                 "require": {
-                    "swissup/module-pro-labels": "^1.5.2"
+                    "swissup/module-pro-labels": "^1.5.3"
                 },
-                "time": "2020-03-19T13:18:20+00:00",
+                "time": "2020-05-07T09:01:46+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/pro-labels/tree/1.5.2",
+                    "source": "https://github.com/swissup/pro-labels/tree/1.5.3",
+                    "issues": "https://github.com/swissup/pro-labels/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/pro-labels",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-pro-labels": "^1.5.3"
+                },
+                "time": "2020-05-07T09:01:46+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/pro-labels/tree/1.5.3",
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             }

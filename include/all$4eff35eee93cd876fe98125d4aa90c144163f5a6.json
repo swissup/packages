@@ -23902,26 +23902,26 @@
                     "issues": "https://github.com/swissup/module-checkout-cart/issues"
                 }
             },
-            "dev-master": {
+            "1.5.2": {
                 "name": "swissup/module-checkout-cart",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.2",
+                "version_normalized": "1.5.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-cart.git",
-                    "reference": "8dc121e6b6ccfed6adaea334a66c22e9a033dc9a"
+                    "reference": "c6827a730a03d4d066ef9fcf040debb4342482cf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/8dc121e6b6ccfed6adaea334a66c22e9a033dc9a",
-                    "reference": "8dc121e6b6ccfed6adaea334a66c22e9a033dc9a",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/c6827a730a03d4d066ef9fcf040debb4342482cf",
+                    "reference": "c6827a730a03d4d066ef9fcf040debb4342482cf",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.3.4",
-                    "swissup/module-rtl": "^1.3.3"
+                    "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2020-05-04T12:39:12+00:00",
+                "time": "2020-05-08T13:18:09+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -23948,7 +23948,57 @@
                     "shopping cart"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-cart/tree/master",
+                    "source": "https://github.com/swissup/module-checkout-cart/tree/1.5.2",
+                    "issues": "https://github.com/swissup/module-checkout-cart/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-checkout-cart",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-cart.git",
+                    "reference": "c6827a730a03d4d066ef9fcf040debb4342482cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/c6827a730a03d4d066ef9fcf040debb4342482cf",
+                    "reference": "c6827a730a03d4d066ef9fcf040debb4342482cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.3.4",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2020-05-08T13:18:09+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Editable and configurable shopping cart at the checkout page",
+                "keywords": [
+                    "checkout cart",
+                    "shopping cart"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-cart/tree/1.5.2",
                     "issues": "https://github.com/swissup/module-checkout-cart/issues"
                 }
             }
@@ -48863,18 +48913,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-knowledge-base.git",
-                    "reference": "c240489a3968ef01f8312b90af93969955a88b46"
+                    "reference": "1ea95b5a3e3cc1aa072b633c40c388f4eedd61b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-knowledge-base/zipball/c240489a3968ef01f8312b90af93969955a88b46",
-                    "reference": "c240489a3968ef01f8312b90af93969955a88b46",
+                    "url": "https://api.github.com/repos/swissup/module-knowledge-base/zipball/1ea95b5a3e3cc1aa072b633c40c388f4eedd61b7",
+                    "reference": "1ea95b5a3e3cc1aa072b633c40c388f4eedd61b7",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.10.0"
                 },
-                "time": "2020-05-06T15:29:36+00:00",
+                "time": "2020-05-08T11:58:22+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -52622,12 +52672,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "fd0eba210a42d955d56ff70aff525e74c71da9be"
+                    "reference": "7d5f4715cc5aa214334392b26c49624f0fc27cfe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/fd0eba210a42d955d56ff70aff525e74c71da9be",
-                    "reference": "fd0eba210a42d955d56ff70aff525e74c71da9be",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/7d5f4715cc5aa214334392b26c49624f0fc27cfe",
+                    "reference": "7d5f4715cc5aa214334392b26c49624f0fc27cfe",
                     "shasum": ""
                 },
                 "require": {
@@ -52635,7 +52685,7 @@
                     "swissup/module-rtl": "^1.3.3",
                     "swissup/module-stickyfill": "^1.2.1"
                 },
-                "time": "2020-05-04T10:43:29+00:00",
+                "time": "2020-05-07T13:48:26+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -52675,7 +52725,7 @@
                     "sidebar menu"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-navigationpro/tree/1.14.3",
+                    "source": "https://github.com/swissup/module-navigationpro/tree/master",
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             }
@@ -77293,6 +77343,24 @@
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             },
+            "1.5.2": {
+                "name": "swissup/product-checkout-cart",
+                "version": "1.5.2",
+                "version_normalized": "1.5.2.0",
+                "require": {
+                    "swissup/module-checkout-cart": "^1.5.1"
+                },
+                "time": "2020-05-08T13:20:12+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Editable and configurable shopping cart at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.2",
+                    "issues": "https://github.com/swissup/checkout-cart/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/product-checkout-cart",
                 "version": "dev-master",
@@ -77300,14 +77368,14 @@
                 "require": {
                     "swissup/module-checkout-cart": "^1.5.1"
                 },
-                "time": "2020-05-04T07:10:22+00:00",
+                "time": "2020-05-08T13:20:12+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Editable and configurable shopping cart at the checkout page",
                 "support": {
-                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.1",
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.2",
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             }
@@ -77693,21 +77761,39 @@
                     "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             },
-            "dev-master": {
+            "1.4.4": {
                 "name": "swissup/product-checkout-success",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
                 "require": {
-                    "swissup/module-checkout-success": "^1.4.3"
+                    "swissup/module-checkout-success": "^1.4.4"
                 },
-                "time": "2020-03-19T13:55:39+00:00",
+                "time": "2020-05-08T13:20:09+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Beautiful checkout success page for Magento2",
                 "support": {
-                    "source": "https://github.com/swissup/checkout-success/tree/1.4.3",
+                    "source": "https://github.com/swissup/checkout-success/tree/1.4.4",
+                    "issues": "https://github.com/swissup/checkout-success/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/product-checkout-success",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "require": {
+                    "swissup/module-checkout-success": "^1.4.4"
+                },
+                "time": "2020-05-08T13:20:09+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Beautiful checkout success page for Magento2",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-success/tree/1.4.4",
                     "issues": "https://github.com/swissup/checkout-success/issues"
                 }
             }

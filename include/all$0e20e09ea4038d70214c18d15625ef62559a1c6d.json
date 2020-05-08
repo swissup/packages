@@ -77293,24 +77293,6 @@
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             },
-            "1.5.2": {
-                "name": "swissup/product-checkout-cart",
-                "version": "1.5.2",
-                "version_normalized": "1.5.2.0",
-                "require": {
-                    "swissup/module-checkout-cart": "^1.5.1"
-                },
-                "time": "2020-05-08T13:20:12+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Editable and configurable shopping cart at the checkout page",
-                "support": {
-                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.2",
-                    "issues": "https://github.com/swissup/checkout-cart/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/product-checkout-cart",
                 "version": "dev-master",
@@ -77318,14 +77300,14 @@
                 "require": {
                     "swissup/module-checkout-cart": "^1.5.1"
                 },
-                "time": "2020-05-08T13:20:12+00:00",
+                "time": "2020-05-04T07:10:22+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Editable and configurable shopping cart at the checkout page",
                 "support": {
-                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.2",
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.1",
                     "issues": "https://github.com/swissup/checkout-cart/issues"
                 }
             }
@@ -81695,22 +81677,22 @@
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             },
-            "dev-master": {
+            "1.3.5": {
                 "name": "swissup/theme-frontend-absolute",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.5",
+                "version_normalized": "1.3.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/theme-frontend-absolute.git",
-                    "reference": "aad3093efe7d6c73c9e44e493cbe0621e5e2d41d"
+                    "reference": "6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/aad3093efe7d6c73c9e44e493cbe0621e5e2d41d",
-                    "reference": "aad3093efe7d6c73c9e44e493cbe0621e5e2d41d",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5",
+                    "reference": "6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5",
                     "shasum": ""
                 },
-                "time": "2020-04-29T07:25:37+00:00",
+                "time": "2020-05-08T13:20:35+00:00",
                 "type": "magento2-theme",
                 "extra": {
                     "marketplace": {
@@ -81741,7 +81723,57 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/master",
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.3.5",
+                    "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-absolute",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/theme-frontend-absolute.git",
+                    "reference": "6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-absolute/zipball/6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5",
+                    "reference": "6cc02e5599382d6bf066ca7e4d2d08d73df2ccf5",
+                    "shasum": ""
+                },
+                "time": "2020-05-08T13:20:35+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/theme-frontend-absolute.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/themes/absolute/",
+                            "changelog": "https://docs.swissuplabs.com/m2/themes/absolute/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Absolute Theme for Magento 2",
+                "keywords": [
+                    "absolute",
+                    "free theme",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-absolute/tree/1.3.5",
                     "issues": "https://github.com/swissup/theme-frontend-absolute/issues"
                 }
             }

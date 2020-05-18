@@ -21539,12 +21539,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "9c66022089d471b0daed17da8ea24d64193282b8"
+                    "reference": "97fdd905280080847eebf155ae0002521f672428"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/9c66022089d471b0daed17da8ea24d64193282b8",
-                    "reference": "9c66022089d471b0daed17da8ea24d64193282b8",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/97fdd905280080847eebf155ae0002521f672428",
+                    "reference": "97fdd905280080847eebf155ae0002521f672428",
                     "shasum": ""
                 },
                 "require": {
@@ -21559,7 +21559,7 @@
                     "psr/log": "^1.1",
                     "swissup/module-core": "^1.10.2"
                 },
-                "time": "2020-04-30T08:26:27+00:00",
+                "time": "2020-05-18T10:31:22+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -21600,7 +21600,7 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-askit/tree/1.7.5",
+                    "source": "https://github.com/swissup/module-askit/tree/master",
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             },
@@ -21673,6 +21673,78 @@
                 ],
                 "support": {
                     "source": "https://github.com/swissup/module-askit/tree/ajax-widgets",
+                    "issues": "https://github.com/swissup/module-askit/issues"
+                }
+            },
+            "dev-bulk-assign": {
+                "name": "swissup/module-askit",
+                "version": "dev-bulk-assign",
+                "version_normalized": "dev-bulk-assign",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "28d5d2960639f8b996ce00774a5d4850ac9cb567"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/28d5d2960639f8b996ce00774a5d4850ac9cb567",
+                    "reference": "28d5d2960639f8b996ce00774a5d4850ac9cb567",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^101.0|^102.0",
+                    "magento/module-backend": "^100.2|^101.0",
+                    "magento/module-captcha": "^100.2|^100.3",
+                    "magento/module-cms": "^102.0|^103.0",
+                    "magento/module-customer": "^101.0|^102.0",
+                    "magento/module-store": "^100.2|^101.0",
+                    "magento/module-url-rewrite": "^101.0|^101.1",
+                    "magento/module-widget": "^101.0|^101.1",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.10.2"
+                },
+                "time": "2020-05-18T10:39:48+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-askit.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/askit/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-askit/tree/bulk-assign",
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             }
@@ -89480,6 +89552,72 @@
                 "support": {
                     "source": "https://github.com/swissup/theme-frontend-argento-force/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argento-force/issues"
+                }
+            }
+        },
+        "swissup/theme-frontend-argento-home": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-argento-home",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argento-home.git",
+                    "reference": "1d4e4c7f6e5b80cbb04f2c84297e812160b3f066"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-home/zipball/1d4e4c7f6e5b80cbb04f2c84297e812160b3f066",
+                    "reference": "1d4e4c7f6e5b80cbb04f2c84297e812160b3f066",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2020-05-18T13:45:51+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "https://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "https://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "https://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/theme-frontend-argento-home.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "https://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "home",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argento-home/tree/master",
+                    "issues": "https://github.com/swissup/theme-frontend-argento-home/issues"
                 }
             }
         },

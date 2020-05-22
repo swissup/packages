@@ -11749,25 +11749,25 @@
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             },
-            "dev-master": {
+            "1.3.3": {
                 "name": "swissup/module-address-autocomplete",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-address-autocomplete.git",
-                    "reference": "67df53b08c61bd78c0ebd1e5769d858d5874e3aa"
+                    "reference": "e50955ff2d3d9386bb19d38d7e37b9480c8f292c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/67df53b08c61bd78c0ebd1e5769d858d5874e3aa",
-                    "reference": "67df53b08c61bd78c0ebd1e5769d858d5874e3aa",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/e50955ff2d3d9386bb19d38d7e37b9480c8f292c",
+                    "reference": "e50955ff2d3d9386bb19d38d7e37b9480c8f292c",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.4"
+                    "swissup/module-checkout": "^1.4.0"
                 },
-                "time": "2020-05-15T14:47:44+00:00",
+                "time": "2020-05-22T09:30:47+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -11804,7 +11804,66 @@
                     "google"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-address-autocomplete/tree/master",
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.3",
+                    "issues": "https://github.com/swissup/module-address-autocomplete/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-address-autocomplete",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-autocomplete.git",
+                    "reference": "e50955ff2d3d9386bb19d38d7e37b9480c8f292c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-address-autocomplete/zipball/e50955ff2d3d9386bb19d38d7e37b9480c8f292c",
+                    "reference": "e50955ff2d3d9386bb19d38d7e37b9480c8f292c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.4.0"
+                },
+                "time": "2020-05-22T09:30:47+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-address-autocomplete.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/address-autocomplete/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressAutocomplete\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for address autocompleting",
+                "keywords": [
+                    "address",
+                    "autocomplete",
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-address-autocomplete/tree/1.3.3",
                     "issues": "https://github.com/swissup/module-address-autocomplete/issues"
                 }
             }
@@ -76554,24 +76613,6 @@
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             },
-            "1.14.4": {
-                "name": "swissup/navigationpro",
-                "version": "1.14.4",
-                "version_normalized": "1.14.4.0",
-                "require": {
-                    "swissup/module-navigationpro": "^1.14.4"
-                },
-                "time": "2020-05-22T09:29:39+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Create beautiful menus for Magento 2",
-                "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/1.14.4",
-                    "issues": "https://github.com/swissup/navigationpro/issues"
-                }
-            },
             "1.8.0": {
                 "name": "swissup/navigationpro",
                 "version": "1.8.0",
@@ -76685,16 +76726,16 @@
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-navigationpro": "^1.14.4"
+                    "swissup/module-navigationpro": "^1.14.3"
                 },
-                "time": "2020-05-22T09:29:39+00:00",
+                "time": "2020-05-04T10:45:31+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Create beautiful menus for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/1.14.4",
+                    "source": "https://github.com/swissup/navigationpro/tree/1.14.3",
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             }

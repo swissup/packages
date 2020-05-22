@@ -25009,19 +25009,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-registration.git",
-                    "reference": "4ea2273956fbe67c5cacc17b563dba87d50338d5"
+                    "reference": "2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/4ea2273956fbe67c5cacc17b563dba87d50338d5",
-                    "reference": "4ea2273956fbe67c5cacc17b563dba87d50338d5",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10",
+                    "reference": "2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.4"
+                    "swissup/module-checkout": "^1.4.0"
                 },
-                "time": "2020-05-22T07:23:49+00:00",
+                "time": "2020-05-22T09:53:16+00:00",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -25046,19 +25054,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-registration.git",
-                    "reference": "4ea2273956fbe67c5cacc17b563dba87d50338d5"
+                    "reference": "2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/4ea2273956fbe67c5cacc17b563dba87d50338d5",
-                    "reference": "4ea2273956fbe67c5cacc17b563dba87d50338d5",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10",
+                    "reference": "2c847ff8e6987e64c8a36f071cb4f4c5ee34ec10",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.3.4"
+                    "swissup/module-checkout": "^1.4.0"
                 },
-                "time": "2020-05-22T07:23:49+00:00",
+                "time": "2020-05-22T09:53:16+00:00",
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -79690,39 +79706,21 @@
                     "issues": "https://github.com/swissup/recaptcha/issues"
                 }
             },
-            "1.3.8": {
-                "name": "swissup/recaptcha",
-                "version": "1.3.8",
-                "version_normalized": "1.3.8.0",
-                "require": {
-                    "swissup/module-recaptcha": "^1.3.8"
-                },
-                "time": "2020-05-22T09:52:07+00:00",
-                "type": "metapackage",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Recaptcha for M2",
-                "support": {
-                    "source": "https://github.com/swissup/recaptcha/tree/1.3.8",
-                    "issues": "https://github.com/swissup/recaptcha/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/recaptcha",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "require": {
-                    "swissup/module-recaptcha": "^1.3.8"
+                    "swissup/module-recaptcha": "^1.3.7"
                 },
-                "time": "2020-05-22T09:52:07+00:00",
+                "time": "2020-05-15T11:07:26+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/recaptcha/tree/1.3.8",
+                    "source": "https://github.com/swissup/recaptcha/tree/1.3.7",
                     "issues": "https://github.com/swissup/recaptcha/issues"
                 }
             }

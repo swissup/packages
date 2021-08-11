@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "swissup/module-item-to-cart": [
+            {
+                "name": "swissup/module-item-to-cart",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-item-to-cart.git",
+                    "reference": "f3f2b55a4bfe11936cc308ab1eae440d7e95dbe1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-item-to-cart/zipball/f3f2b55a4bfe11936cc308ab1eae440d7e95dbe1",
+                    "reference": "f3f2b55a4bfe11936cc308ab1eae440d7e95dbe1",
+                    "shasum": ""
+                },
+                "time": "2019-11-25T09:00:36+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ItemToCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Automatically add product to cart",
+                "support": {
+                    "source": "https://github.com/swissup/module-item-to-cart/tree/master",
+                    "issues": "https://github.com/swissup/module-item-to-cart/issues"
+                }
+            }
+        ]
+    }
+}

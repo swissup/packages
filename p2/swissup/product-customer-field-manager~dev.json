@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-customer-field-manager": [
+            {
+                "name": "swissup/product-customer-field-manager",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/customer-field-manager.git",
+                    "reference": "835f8d144ddfd6a2f62ceb0d5306ba40e137e345"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/customer-field-manager/zipball/835f8d144ddfd6a2f62ceb0d5306ba40e137e345",
+                    "reference": "835f8d144ddfd6a2f62ceb0d5306ba40e137e345",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-customer-field-manager": "^1.2.8"
+                },
+                "time": "2020-11-10T14:42:07+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Customer Field manager for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/customer-field-manager/tree/1.2.8",
+                    "issues": "https://github.com/swissup/customer-field-manager/issues"
+                }
+            }
+        ]
+    }
+}

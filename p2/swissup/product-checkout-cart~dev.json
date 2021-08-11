@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-checkout-cart": [
+            {
+                "name": "swissup/product-checkout-cart",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-cart.git",
+                    "reference": "67b5ef1ecf7f3a9a6616b6acaa0261457eb54229"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-cart/zipball/67b5ef1ecf7f3a9a6616b6acaa0261457eb54229",
+                    "reference": "67b5ef1ecf7f3a9a6616b6acaa0261457eb54229",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout-cart": "^1.5.7"
+                },
+                "time": "2021-04-23T14:49:39+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Editable and configurable shopping cart at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-cart/tree/1.5.7",
+                    "issues": "https://github.com/swissup/checkout-cart/issues"
+                }
+            }
+        ]
+    }
+}

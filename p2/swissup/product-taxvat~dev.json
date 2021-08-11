@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-taxvat": [
+            {
+                "name": "swissup/product-taxvat",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/taxvat.git",
+                    "reference": "c91774083e8e0899de3681fa7dcf39cd15809c72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/taxvat/zipball/c91774083e8e0899de3681fa7dcf39cd15809c72",
+                    "reference": "c91774083e8e0899de3681fa7dcf39cd15809c72",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-taxvat": "^1.4.1"
+                },
+                "time": "2021-01-13T11:10:02+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 Checkout Tax VAT",
+                "support": {
+                    "source": "https://github.com/swissup/taxvat/tree/1.4.1",
+                    "issues": "https://github.com/swissup/taxvat/issues"
+                }
+            }
+        ]
+    }
+}

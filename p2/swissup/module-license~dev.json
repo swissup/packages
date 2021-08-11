@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "swissup/module-license": [
+            {
+                "name": "swissup/module-license",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-license.git",
+                    "reference": "d83dd3962cadf61640dcedef2b66e1f760688400"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-license/zipball/d83dd3962cadf61640dcedef2b66e1f760688400",
+                    "reference": "d83dd3962cadf61640dcedef2b66e1f760688400",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.4"
+                },
+                "time": "2021-07-16T08:01:57+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\License\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "License checker for argentotheme.com, swissuplabs.com and firecheckout.net",
+                "support": {
+                    "source": "https://github.com/swissup/module-license/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-license/issues"
+                }
+            }
+        ]
+    }
+}

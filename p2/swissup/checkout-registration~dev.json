@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/checkout-registration": [
+            {
+                "name": "swissup/checkout-registration",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-registration.git",
+                    "reference": "0bc8bacae71ddb7eb02747b4428beadd215b94d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-registration/zipball/0bc8bacae71ddb7eb02747b4428beadd215b94d2",
+                    "reference": "0bc8bacae71ddb7eb02747b4428beadd215b94d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout-registration": "^1.1.4"
+                },
+                "time": "2021-06-11T06:04:59+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Configurable customer registration at checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-registration/tree/1.1.4",
+                    "issues": "https://github.com/swissup/checkout-registration/issues"
+                }
+            }
+        ]
+    }
+}

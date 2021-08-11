@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "swissup/module-checkout-registration": [
+            {
+                "name": "swissup/module-checkout-registration",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-registration.git",
+                    "reference": "1516af1415449ff4fd2113b74ecba702819e8659"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/1516af1415449ff4fd2113b74ecba702819e8659",
+                    "reference": "1516af1415449ff4fd2113b74ecba702819e8659",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.1"
+                },
+                "time": "2021-06-11T06:02:56+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutRegistration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Configurable customer registration at checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-registration/tree/1.1.4",
+                    "issues": "https://github.com/swissup/module-checkout-registration/issues"
+                }
+            }
+        ]
+    }
+}

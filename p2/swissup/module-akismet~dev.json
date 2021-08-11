@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "swissup/module-akismet": [
+            {
+                "name": "swissup/module-akismet",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-akismet.git",
+                    "reference": "4b3d173d7dfc95f570a7c148c932674b05ddfe08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/4b3d173d7dfc95f570a7c148c932674b05ddfe08",
+                    "reference": "4b3d173d7dfc95f570a7c148c932674b05ddfe08",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-http": "^2.6.0",
+                    "laminas/laminas-uri": "^2.5.1",
+                    "swissup/module-core": "^1.12.4"
+                },
+                "time": "2021-08-11T13:33:40+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-akismet.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/akismet/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/akismet/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Akismet\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Akismet integration",
+                "support": {
+                    "source": "https://github.com/swissup/module-akismet/tree/1.2.5",
+                    "issues": "https://github.com/swissup/module-akismet/issues"
+                }
+            }
+        ]
+    }
+}

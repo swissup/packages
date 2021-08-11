@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "swissup/module-askit-sample-data": [
+            {
+                "name": "swissup/module-askit-sample-data",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit-sample-data.git",
+                    "reference": "7ebcdec08bd0f7ddd0d61f2acc5f50c7d58a8620"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-askit-sample-data/zipball/7ebcdec08bd0f7ddd0d61f2acc5f50c7d58a8620",
+                    "reference": "7ebcdec08bd0f7ddd0d61f2acc5f50c7d58a8620",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-sample-data": "^100.2.0",
+                    "swissup/module-askit": "^1.4.0"
+                },
+                "time": "2019-05-07T15:01:50+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AskitSampleData\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/module-askit-sample-data/tree/master",
+                    "issues": "https://github.com/swissup/module-askit-sample-data/issues"
+                }
+            }
+        ]
+    }
+}

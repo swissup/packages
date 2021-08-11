@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-checkout-fields": [
+            {
+                "name": "swissup/product-checkout-fields",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-fields.git",
+                    "reference": "573d6a35ce37a690a5e6cdeccb0d00910ae40f72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-fields/zipball/573d6a35ce37a690a5e6cdeccb0d00910ae40f72",
+                    "reference": "573d6a35ce37a690a5e6cdeccb0d00910ae40f72",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout-fields": "^1.5.7"
+                },
+                "time": "2021-07-08T08:01:50+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom checkout fields",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-fields/tree/1.5.7",
+                    "issues": "https://github.com/swissup/checkout-fields/issues"
+                }
+            }
+        ]
+    }
+}

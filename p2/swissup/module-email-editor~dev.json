@@ -1,0 +1,91 @@
+{
+    "packages": {
+        "swissup/module-email-editor": [
+            {
+                "name": "swissup/module-email-editor",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-editor.git",
+                    "reference": "9a1ae7cffeadd4c90e6650eaba18d720640bcc13"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/9a1ae7cffeadd4c90e6650eaba18d720640bcc13",
+                    "reference": "9a1ae7cffeadd4c90e6650eaba18d720640bcc13",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.4"
+                },
+                "time": "2019-12-09T15:09:27+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy email templates editor for Magento 2",
+                "keywords": [
+                    "email editor",
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-editor/tree/master",
+                    "issues": "https://github.com/swissup/module-email-editor/issues"
+                }
+            },
+            {
+                "name": "swissup/module-email-editor",
+                "version": "dev-trix-editor",
+                "version_normalized": "dev-trix-editor",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-editor.git",
+                    "reference": "fd32a8d55b06f623c5d61d1e9423f583cd168a9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-editor/zipball/fd32a8d55b06f623c5d61d1e9423f583cd168a9b",
+                    "reference": "fd32a8d55b06f623c5d61d1e9423f583cd168a9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.8.4"
+                },
+                "time": "2019-10-28T11:31:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy email templates editor for Magento 2",
+                "keywords": [
+                    "email editor",
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-editor/tree/trix-editor",
+                    "issues": "https://github.com/swissup/module-email-editor/issues"
+                }
+            }
+        ]
+    }
+}

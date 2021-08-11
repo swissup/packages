@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "swissup/module-firecheckout-integrations": [
+            {
+                "name": "swissup/module-firecheckout-integrations",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-firecheckout-integrations.git",
+                    "reference": "b9399e3a88c8cdc628fa29dd9a302afb5e425da7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/b9399e3a88c8cdc628fa29dd9a302afb5e425da7",
+                    "reference": "b9399e3a88c8cdc628fa29dd9a302afb5e425da7",
+                    "shasum": ""
+                },
+                "time": "2021-06-11T06:03:01+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FirecheckoutIntegrations\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Code for third-party modules that requires additional logic at firecheckout page",
+                "keywords": [
+                    "firecheckout"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/1.4.2",
+                    "issues": "https://github.com/swissup/module-firecheckout-integrations/issues"
+                }
+            }
+        ]
+    }
+}

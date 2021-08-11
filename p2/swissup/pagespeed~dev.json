@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "swissup/pagespeed": [
+            {
+                "name": "swissup/pagespeed",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pagespeed.git",
+                    "reference": "ca225c58e89ef5f143161f182d7da417b5939b01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pagespeed/zipball/ca225c58e89ef5f143161f182d7da417b5939b01",
+                    "reference": "ca225c58e89ef5f143161f182d7da417b5939b01",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-pagespeed": "^1.4.25"
+                },
+                "time": "2021-07-28T12:59:51+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed extension",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/pagespeed/tree/1.4.25"
+                }
+            }
+        ]
+    }
+}

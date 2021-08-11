@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-delivery-date": [
+            {
+                "name": "swissup/product-delivery-date",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/delivery-date.git",
+                    "reference": "2e34689c6906312c31b90da7637776a733fd825e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/delivery-date/zipball/2e34689c6906312c31b90da7637776a733fd825e",
+                    "reference": "2e34689c6906312c31b90da7637776a733fd825e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-delivery-date": "^1.6.1"
+                },
+                "time": "2021-01-26T15:40:38+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/delivery-date/tree/1.6.1",
+                    "issues": "https://github.com/swissup/delivery-date/issues"
+                }
+            }
+        ]
+    }
+}

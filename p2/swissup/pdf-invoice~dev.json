@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/pdf-invoice": [
+            {
+                "name": "swissup/pdf-invoice",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pdf-invoice.git",
+                    "reference": "919aa0c90824f6300aa480aa659d670d289e6cea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pdf-invoice/zipball/919aa0c90824f6300aa480aa659d670d289e6cea",
+                    "reference": "919aa0c90824f6300aa480aa659d670d289e6cea",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-pdf-invoice": "^1.3.3"
+                },
+                "time": "2021-02-10T16:11:49+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create nice sales pdf documents with html and css",
+                "support": {
+                    "source": "https://github.com/swissup/pdf-invoice/tree/1.3.3",
+                    "issues": "https://github.com/swissup/pdf-invoice/issues"
+                }
+            }
+        ]
+    }
+}

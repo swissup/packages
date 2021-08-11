@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "swissup/module-custom-layout": [
+            {
+                "name": "swissup/module-custom-layout",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-custom-layout.git",
+                    "reference": "4d6bd7255c5474e62cde14ae4903d47adf47076e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-custom-layout/zipball/4d6bd7255c5474e62cde14ae4903d47adf47076e",
+                    "reference": "4d6bd7255c5474e62cde14ae4903d47adf47076e",
+                    "shasum": ""
+                },
+                "time": "2020-03-25T09:23:55+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CustomLayout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy change layout of your store",
+                "support": {
+                    "source": "https://github.com/swissup/module-custom-layout/tree/master",
+                    "issues": "https://github.com/swissup/module-custom-layout/issues"
+                }
+            }
+        ]
+    }
+}

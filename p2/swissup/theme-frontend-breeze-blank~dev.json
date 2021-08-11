@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "swissup/theme-frontend-breeze-blank": [
+            {
+                "name": "swissup/theme-frontend-breeze-blank",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-breeze-blank.git",
+                    "reference": "3d6568afd8802fe0fbba5a9abdb37541d082d5ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-breeze-blank/zipball/3d6568afd8802fe0fbba5a9abdb37541d082d5ef",
+                    "reference": "3d6568afd8802fe0fbba5a9abdb37541d082d5ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze": "*"
+                },
+                "time": "2021-08-11T07:04:24+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Blank theme for all Breeze based themes",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-breeze-blank/tree/master",
+                    "issues": "https://github.com/swissup/theme-frontend-breeze-blank/issues"
+                }
+            }
+        ]
+    }
+}

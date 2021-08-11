@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "swissup/module-subscribe-at-checkout": [
+            {
+                "name": "swissup/module-subscribe-at-checkout",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-subscribe-at-checkout.git",
+                    "reference": "aeb0882453b2f31ea13e7695a19883c520b6b568"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-subscribe-at-checkout/zipball/aeb0882453b2f31ea13e7695a19883c520b6b568",
+                    "reference": "aeb0882453b2f31ea13e7695a19883c520b6b568",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.1"
+                },
+                "time": "2021-06-11T06:02:58+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/subscribe-at-checkout/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/subscribe-at-checkout/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SubscribeAtCheckout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Subscribe to newsletter directly from checkout page",
+                "keywords": [
+                    "newsletter",
+                    "subscribe",
+                    "subscription"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-subscribe-at-checkout/tree/1.3.4",
+                    "issues": "https://github.com/swissup/module-subscribe-at-checkout/issues"
+                }
+            }
+        ]
+    }
+}

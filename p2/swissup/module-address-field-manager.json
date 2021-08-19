@@ -1505,6 +1505,60 @@
                     "source": "https://github.com/swissup/module-address-field-manager/tree/1.6.3",
                     "issues": "https://github.com/swissup/module-address-field-manager/issues"
                 }
+            },
+            {
+                "name": "swissup/module-address-field-manager",
+                "version": "1.6.4",
+                "version_normalized": "1.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-field-manager.git",
+                    "reference": "0295d81226e84b0c8d9d7c42a345fb2c8eb811d7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-address-field-manager/zipball/0295d81226e84b0c8d9d7c42a345fb2c8eb811d7",
+                    "reference": "0295d81226e84b0c8d9d7c42a345fb2c8eb811d7",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-field-manager": "^1.2.11"
+                },
+                "time": "2021-08-19T12:03:49+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-address-field-manager.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/address-field-manager/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/address-field-manager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressFieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Address field manager for Magento 2",
+                "keywords": [
+                    "address attributes",
+                    "address fields",
+                    "attribute manager",
+                    "fields manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-address-field-manager/tree/1.6.4",
+                    "issues": "https://github.com/swissup/module-address-field-manager/issues"
+                }
             }
         ]
     }

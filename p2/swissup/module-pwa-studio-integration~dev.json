@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "swissup/module-pwa-studio-integration": [
+            {
+                "name": "swissup/module-pwa-studio-integration",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pwa-studio-integration.git",
+                    "reference": "2d737b3a95960e7dbe4d1b68f18294665fe4ec90"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pwa-studio-integration/zipball/2d737b3a95960e7dbe4d1b68f18294665fe4ec90",
+                    "reference": "2d737b3a95960e7dbe4d1b68f18294665fe4ec90",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.10.0"
+                },
+                "time": "2021-09-28T14:30:45+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\PwaStudioIntegration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Add custom graphql api and fixes",
+                "keywords": [
+                    "graphql",
+                    "pwa-studio"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pwa-studio-integration/tree/master",
+                    "issues": "https://github.com/swissup/module-pwa-studio-integration/issues"
+                }
+            }
+        ]
+    }
+}

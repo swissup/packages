@@ -407,6 +407,43 @@
                     "source": "https://github.com/swissup/module-abandoned-cart/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-abandoned-cart/issues"
                 }
+            },
+            {
+                "name": "swissup/module-abandoned-cart",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-abandoned-cart.git",
+                    "reference": "e5c7dbbe11e043f2b0fcf89ff2f7447da8848e65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-abandoned-cart/zipball/e5c7dbbe11e043f2b0fcf89ff2f7447da8848e65",
+                    "reference": "e5c7dbbe11e043f2b0fcf89ff2f7447da8848e65",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.6"
+                },
+                "time": "2021-10-19T07:32:15+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AbandonedCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage abandoned carts and send reminder emails",
+                "support": {
+                    "source": "https://github.com/swissup/module-abandoned-cart/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-abandoned-cart/issues"
+                }
             }
         ]
     }

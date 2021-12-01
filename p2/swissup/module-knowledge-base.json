@@ -255,6 +255,48 @@
             },
             {
                 "name": "swissup/module-knowledge-base",
+                "version": "1.0.14",
+                "version_normalized": "1.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-knowledge-base.git",
+                    "reference": "cfb345156524f576355a012570c3a91e86bd7013"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-knowledge-base/zipball/cfb345156524f576355a012570c3a91e86bd7013",
+                    "reference": "cfb345156524f576355a012570c3a91e86bd7013",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.7"
+                },
+                "time": "2021-12-01T12:52:56+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\KnowledgeBase\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Knowledge Base (FAQ) module",
+                "keywords": [
+                    "article",
+                    "faq",
+                    "knowledge"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-knowledge-base/tree/1.0.14",
+                    "issues": "https://github.com/swissup/module-knowledge-base/issues"
+                }
+            },
+            {
+                "name": "swissup/module-knowledge-base",
                 "version": "1.0.2",
                 "version_normalized": "1.0.2.0",
                 "source": {

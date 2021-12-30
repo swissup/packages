@@ -249,6 +249,47 @@
             },
             {
                 "name": "swissup/module-seo-html-sitemap",
+                "version": "1.1.12",
+                "version_normalized": "1.1.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-html-sitemap.git",
+                    "reference": "222b97ccc81e2371d17594608b735ba718c96f3b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-html-sitemap/zipball/222b97ccc81e2371d17594608b735ba718c96f3b",
+                    "reference": "222b97ccc81e2371d17594608b735ba718c96f3b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.5"
+                },
+                "time": "2021-12-30T14:29:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoHtmlSitemap\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced HTML Sitemap for Magento 2.x e-commerce ",
+                "keywords": [
+                    "seo",
+                    "sitemap"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-html-sitemap/tree/1.1.12",
+                    "issues": "https://github.com/swissup/module-seo-html-sitemap/issues"
+                }
+            },
+            {
+                "name": "swissup/module-seo-html-sitemap",
                 "version": "1.1.2",
                 "version_normalized": "1.1.2.0",
                 "source": {

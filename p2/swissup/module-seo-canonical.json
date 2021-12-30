@@ -705,6 +705,53 @@
                     "source": "https://github.com/swissup/module-seo-canonical/tree/1.11.3",
                     "issues": "https://github.com/swissup/module-seo-canonical/issues"
                 }
+            },
+            {
+                "name": "swissup/module-seo-canonical",
+                "version": "1.11.4",
+                "version_normalized": "1.11.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-canonical.git",
+                    "reference": "63bef868717ca1afafe550ad9c1a13fcdf87adaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-canonical/zipball/63bef868717ca1afafe550ad9c1a13fcdf87adaa",
+                    "reference": "63bef868717ca1afafe550ad9c1a13fcdf87adaa",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.5"
+                },
+                "time": "2021-12-30T14:23:07+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-canonical/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCanonical\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage canonical URLs at your Magento 2 store",
+                "keywords": [
+                    "canonical"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-canonical/tree/1.11.4",
+                    "issues": "https://github.com/swissup/module-seo-canonical/issues"
+                }
             }
         ]
     }

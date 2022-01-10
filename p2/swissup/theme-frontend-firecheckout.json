@@ -216,6 +216,60 @@
                     "source": "https://github.com/swissup/theme-frontend-firecheckout/tree/1.1.2",
                     "issues": "https://github.com/swissup/theme-frontend-firecheckout/issues"
                 }
+            },
+            {
+                "name": "swissup/theme-frontend-firecheckout",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-firecheckout.git",
+                    "reference": "ca1655058b8092835aa709fb03702b46bd071262"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-firecheckout/zipball/ca1655058b8092835aa709fb03702b46bd071262",
+                    "reference": "ca1655058b8092835aa709fb03702b46bd071262",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2022-01-10T14:25:30+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    },
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "store": "https://www.firecheckout.net/",
+                            "download": "https://www.firecheckout.net/subscription/customer/products/",
+                            "identity_key": "https://www.firecheckout.net/license/customer/activation/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Firecheckout new theme design",
+                "keywords": [
+                    "firecheckout",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-firecheckout/tree/1.1.3",
+                    "issues": "https://github.com/swissup/theme-frontend-firecheckout/issues"
+                }
             }
         ]
     }

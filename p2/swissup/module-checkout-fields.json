@@ -1494,6 +1494,56 @@
                     "source": "https://github.com/swissup/module-checkout-fields/tree/1.5.8",
                     "issues": "https://github.com/swissup/module-checkout-fields/issues"
                 }
+            },
+            {
+                "name": "swissup/module-checkout-fields",
+                "version": "1.5.9",
+                "version_normalized": "1.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-fields.git",
+                    "reference": "ce523fb9c160cd5deedf4418e7f3d4dcbccd8a5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-fields/zipball/ce523fb9c160cd5deedf4418e7f3d4dcbccd8a5c",
+                    "reference": "ce523fb9c160cd5deedf4418e7f3d4dcbccd8a5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.1"
+                },
+                "time": "2022-01-12T13:40:52+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-fields/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-fields/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutFields\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom checkout fields",
+                "keywords": [
+                    "checkout fields",
+                    "checkout questions",
+                    "order comment"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-fields/tree/1.5.9",
+                    "issues": "https://github.com/swissup/module-checkout-fields/issues"
+                }
             }
         ]
     }

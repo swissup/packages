@@ -1956,6 +1956,46 @@
             },
             {
                 "name": "swissup/firecheckout",
+                "version": "1.28.10",
+                "version_normalized": "1.28.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/firecheckout.git",
+                    "reference": "c3f0626bfc328d17cde3dfcfc45f057a600b218c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/c3f0626bfc328d17cde3dfcfc45f057a600b218c",
+                    "reference": "c3f0626bfc328d17cde3dfcfc45f057a600b218c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-address-autocomplete": "^1.6.4",
+                    "swissup/module-address-field-manager": "^1.6.5",
+                    "swissup/module-checkout-cart": "^1.5.7",
+                    "swissup/module-checkout-fields": "^1.6.1",
+                    "swissup/module-checkout-registration": "^1.1.7",
+                    "swissup/module-checkout-success": "^1.4.13",
+                    "swissup/module-customer-field-manager": "^1.2.8",
+                    "swissup/module-delivery-date": "^1.7.1",
+                    "swissup/module-firecheckout": "^1.28.9",
+                    "swissup/module-geoip": "^1.5.1",
+                    "swissup/module-orderattachment": "^1.4.14",
+                    "swissup/module-subscribe-at-checkout": "^1.3.5",
+                    "swissup/module-taxvat": "^1.4.1"
+                },
+                "time": "2022-03-25T10:01:17+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "All-in-one checkout extensions for Magento2",
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout/tree/1.28.10"
+                }
+            },
+            {
+                "name": "swissup/firecheckout",
                 "version": "1.28.2",
                 "version_normalized": "1.28.2.0",
                 "source": {

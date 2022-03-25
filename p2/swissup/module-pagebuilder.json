@@ -356,6 +356,60 @@
                     "source": "https://github.com/swissup/module-pagebuilder/tree/1.1.1",
                     "issues": "https://github.com/swissup/module-pagebuilder/issues"
                 }
+            },
+            {
+                "name": "swissup/module-pagebuilder",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagebuilder.git",
+                    "reference": "d7c8ed226f2142460674e6de2981ad49c2ef5519"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagebuilder/zipball/d7c8ed226f2142460674e6de2981ad49c2ef5519",
+                    "reference": "d7c8ed226f2142460674e6de2981ad49c2ef5519",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.6",
+                    "swissup/module-core": "^1.12.7",
+                    "swissup/module-tippyjs": "^6.0.0"
+                },
+                "time": "2022-03-25T09:59:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-pagebuilder.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagebuilder/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagebuilder/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagebuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Page Builder for Magento Storefront",
+                "keywords": [
+                    "content editor",
+                    "pagebuilder"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagebuilder/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-pagebuilder/issues"
+                }
             }
         ]
     }

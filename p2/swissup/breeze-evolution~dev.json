@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "swissup/breeze-evolution": [
+            {
+                "name": "swissup/breeze-evolution",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/breeze-evolution.git",
+                    "reference": "ee792b3ae04cdafc213d891bd12b245faf0f9694"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/breeze-evolution/zipball/ee792b3ae04cdafc213d891bd12b245faf0f9694",
+                    "reference": "ee792b3ae04cdafc213d891bd12b245faf0f9694",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze": "^1.11.0",
+                    "swissup/module-breeze-integrations": "^1.1.2",
+                    "swissup/theme-frontend-breeze-blank": "^1.0.0",
+                    "swissup/theme-frontend-breeze-evolution": "^1.0.0"
+                },
+                "time": "2022-03-25T11:02:45+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Evolution Theme",
+                "support": {
+                    "source": "https://github.com/swissup/breeze-evolution/tree/master",
+                    "issues": "https://github.com/swissup/breeze-evolution/issues"
+                }
+            }
+        ]
+    }
+}

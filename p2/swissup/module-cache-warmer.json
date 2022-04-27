@@ -503,6 +503,56 @@
             },
             {
                 "name": "swissup/module-cache-warmer",
+                "version": "1.0.17",
+                "version_normalized": "1.0.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-cache-warmer.git",
+                    "reference": "264ad54ddd5ffbcce16f7de8bbf0f28b9194eaab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/264ad54ddd5ffbcce16f7de8bbf0f28b9194eaab",
+                    "reference": "264ad54ddd5ffbcce16f7de8bbf0f28b9194eaab",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2|^7.3",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-page-cache": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.12.9"
+                },
+                "time": "2022-04-27T12:39:49+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CacheWarmer\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Cache Warmer module",
+                "keywords": [
+                    "cache",
+                    "cron",
+                    "full page",
+                    "pagespeed",
+                    "warmer"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-cache-warmer/tree/1.0.17",
+                    "issues": "https://github.com/swissup/module-cache-warmer/issues"
+                }
+            },
+            {
+                "name": "swissup/module-cache-warmer",
                 "version": "1.0.2",
                 "version_normalized": "1.0.2.0",
                 "source": {

@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "swissup/module-upward-connector": [
+            {
+                "name": "swissup/module-upward-connector",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-upward-connector.git",
+                    "reference": "8ed47092eaecd80a4775e0810a11d9adcfc8d191"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-upward-connector/zipball/8ed47092eaecd80a4775e0810a11d9adcfc8d191",
+                    "reference": "8ed47092eaecd80a4775e0810a11d9adcfc8d191",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-catalog-url-rewrite-graph-ql": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-config": "*",
+                    "magento/module-store": "*",
+                    "magento/module-upward-connector": "*",
+                    "magento/module-url-rewrite": "*",
+                    "magento/module-url-rewrite-graph-ql": "*",
+                    "magento/upward": "*",
+                    "php": "~7.4.0||~8.1.0",
+                    "yireo/magento2-disable-service-worker-in-admin": "^0.0.2"
+                },
+                "time": "2022-05-12T14:20:13+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\UpwardConnector\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "Magento module used for routing all frontend requests through UPWARD-PHP. Wrapper for magento/module-upward-connector",
+                "support": {
+                    "source": "https://github.com/swissup/module-upward-connector/tree/master",
+                    "issues": "https://github.com/swissup/module-upward-connector/issues"
+                }
+            }
+        ]
+    }
+}

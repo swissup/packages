@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "swissup/theme-frontend-pwa-argento-home": [
+            {
+                "name": "swissup/theme-frontend-pwa-argento-home",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-pwa-argento-home.git",
+                    "reference": "f0b9fdd01fa325a5bed80cb1b40dab6aff69f3e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-pwa-argento-home/zipball/f0b9fdd01fa325a5bed80cb1b40dab6aff69f3e3",
+                    "reference": "f0b9fdd01fa325a5bed80cb1b40dab6aff69f3e3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-upward-connector": "*",
+                    "swissup/theme-frontend-argento-home": "*"
+                },
+                "time": "2022-06-02T13:35:33+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Pwa argento home theme for Magento",
+                "keywords": [
+                    "argento",
+                    "home",
+                    "pwa",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-pwa-argento-home/tree/master",
+                    "issues": "https://github.com/swissup/theme-frontend-pwa-argento-home/issues"
+                }
+            }
+        ]
+    }
+}

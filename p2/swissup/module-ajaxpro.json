@@ -4203,6 +4203,68 @@
                     "source": "https://github.com/swissup/module-ajaxpro/tree/1.6.6",
                     "issues": "https://github.com/swissup/module-ajaxpro/issues"
                 }
+            },
+            {
+                "name": "swissup/module-ajaxpro",
+                "version": "1.6.7",
+                "version_normalized": "1.6.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "f30db7e7dff0b956393d837108784984935a1f4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxpro/zipball/f30db7e7dff0b956393d837108784984935a1f4c",
+                    "reference": "f30db7e7dff0b956393d837108784984935a1f4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=100.1",
+                    "magento/module-catalog": ">=101.1",
+                    "magento/module-checkout": ">=100.1",
+                    "magento/module-customer": ">=100.1",
+                    "magento/module-store": ">=100.1",
+                    "magento/module-tax": ">=100.1",
+                    "swissup/module-core": "^1.12.9",
+                    "swissup/module-suggestpage": "^1.2.9"
+                },
+                "time": "2022-06-23T08:00:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions",
+                "support": {
+                    "source": "https://github.com/swissup/module-ajaxpro/tree/1.6.7",
+                    "issues": "https://github.com/swissup/module-ajaxpro/issues"
+                }
             }
         ]
     }

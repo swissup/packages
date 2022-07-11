@@ -2,6 +2,11 @@
     "name": "swissup/magento-packages",
     "homepage": "https://docs.swissuplabs.com/packages/",
     "repositories": [
+        { "type": "vcs", "url": "git@github.com:breezefront/breeze.git" },              { "type": "vcs", "url": "git@github.com:breezefront/module-breeze.git" },
+                                                                                        { "type": "vcs", "url": "git@github.com:breezefront/module-breeze-integrations.git" },
+        { "type": "vcs", "url": "git@github.com:breezefront/breeze-blank.git" },        { "type": "vcs", "url": "git@github.com:breezefront/theme-frontend-breeze-blank.git" },
+        { "type": "vcs", "url": "git@github.com:breezefront/breeze-evolution.git" },    { "type": "vcs", "url": "git@github.com:breezefront/theme-frontend-breeze-evolution.git" },
+
         { "type": "vcs", "url": "git@github.com:swissup/argento-breeze.git" },
         { "type": "vcs", "url": "git@github.com:swissup/argento-m2.git" },
         { "type": "vcs", "url": "git@github.com:swissup/abandoned-cart.git" },          { "type": "vcs", "url": "git@github.com:swissup/module-abandoned-cart.git" },
@@ -16,8 +21,6 @@
         { "type": "vcs", "url": "git@github.com:swissup/amp.git" },                     { "type": "vcs", "url": "git@github.com:swissup/module-amp.git" },
         { "type": "vcs", "url": "git@github.com:swissup/askit.git" },                   { "type": "vcs", "url": "git@github.com:swissup/module-askit.git" },                           { "type": "vcs", "url": "git@github.com:swissup/module-askit-sample-data.git" },
         { "type": "vcs", "url": "git@github.com:swissup/attributepages.git" },          { "type": "vcs", "url": "git@github.com:swissup/module-attributepages.git" },
-        { "type": "vcs", "url": "git@github.com:swissup/breeze.git" },                  { "type": "vcs", "url": "git@github.com:swissup/module-breeze.git" },
-                                                                                        { "type": "vcs", "url": "git@github.com:swissup/module-breeze-integrations.git" },
         { "type": "vcs", "url": "git@github.com:swissup/cache-warmer.git" },            { "type": "vcs", "url": "git@github.com:swissup/module-cache-warmer.git" },
         { "type": "vcs", "url": "git@github.com:swissup/checkout.git" },                { "type": "vcs", "url": "git@github.com:swissup/module-checkout.git" },
         { "type": "vcs", "url": "git@github.com:swissup/checkout-cart.git" },           { "type": "vcs", "url": "git@github.com:swissup/module-checkout-cart.git" },
@@ -67,7 +70,7 @@
         { "type": "vcs", "url": "git@github.com:swissup/pagebuilder.git" },             { "type": "vcs", "url": "git@github.com:swissup/module-pagebuilder.git" },
         { "type": "vcs", "url": "git@github.com:swissup/pagespeed.git" },               { "type": "vcs", "url": "git@github.com:swissup/module-pagespeed.git" },
         { "type": "vcs", "url": "git@github.com:swissup/pdf-invoice.git" },             { "type": "vcs", "url": "git@github.com:swissup/module-pdf-invoice.git" },
-        { "type": "vcs", "url": "git@github.com:swissup/pro-labels.git" },              { "type": "vcs", "url": "git@github.com:swissup/module-pro-labels.git" },                                                                                        
+        { "type": "vcs", "url": "git@github.com:swissup/pro-labels.git" },              { "type": "vcs", "url": "git@github.com:swissup/module-pro-labels.git" },
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/module-quantity-switcher.git" },
         { "type": "vcs", "url": "git@github.com:swissup/recaptcha.git" },               { "type": "vcs", "url": "git@github.com:swissup/module-recaptcha.git" },
         { "type": "vcs", "url": "git@github.com:swissup/reviewreminder.git" },          { "type": "vcs", "url": "git@github.com:swissup/module-reviewreminder.git" },
@@ -119,8 +122,6 @@
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-argento-home.git" },
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-argentobreeze-blank.git" },
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git" },
-        { "type": "vcs", "url": "git@github.com:swissup/breeze-blank.git" },            { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-breeze-blank.git" },
-        { "type": "vcs", "url": "git@github.com:swissup/breeze-evolution.git" },        { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-breeze-evolution.git" },                                                                                        
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-firecheckout.git" },
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/theme-frontend-pwa-argento-home.git" },
                                                                                         { "type": "vcs", "url": "git@github.com:swissup/module-item-to-cart.git" }

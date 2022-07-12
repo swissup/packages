@@ -1092,6 +1092,65 @@
             },
             {
                 "name": "swissup/module-checkout-success",
+                "version": "1.4.16",
+                "version_normalized": "1.4.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-success.git",
+                    "reference": "020408390dc0feaa004cabc796c43de5e089475e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/020408390dc0feaa004cabc796c43de5e089475e",
+                    "reference": "020408390dc0feaa004cabc796c43de5e089475e",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.1",
+                    "swissup/module-codemirror": "^1.1.7"
+                },
+                "time": "2022-07-12T06:48:44+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/changelog"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-checkout-success.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-success/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-success/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSuccess\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Beautiful checkout success page for Magento2",
+                "keywords": [
+                    "checkout",
+                    "success page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-success/tree/1.4.16",
+                    "issues": "https://github.com/swissup/module-checkout-success/issues"
+                }
+            },
+            {
+                "name": "swissup/module-checkout-success",
                 "version": "1.4.2",
                 "version_normalized": "1.4.2.0",
                 "source": {

@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze.git",
-                    "reference": "11aa5755c697c34910ee4e5ad851cb0c5fda5b94"
+                    "reference": "bd657ab00921ba1e16e07d41c62dab9f9caa63d8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/11aa5755c697c34910ee4e5ad851cb0c5fda5b94",
-                    "reference": "11aa5755c697c34910ee4e5ad851cb0c5fda5b94",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/bd657ab00921ba1e16e07d41c62dab9f9caa63d8",
+                    "reference": "bd657ab00921ba1e16e07d41c62dab9f9caa63d8",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2022-07-12T13:48:28+00:00",
+                "time": "2022-07-13T15:13:38+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -36,6 +36,43 @@
                 "description": "Performant Magento Frontend",
                 "support": {
                     "source": "https://github.com/breezefront/module-breeze/tree/master",
+                    "issues": "https://github.com/breezefront/module-breeze/issues"
+                }
+            },
+            {
+                "name": "swissup/module-breeze",
+                "version": "dev-slider-add-remove-slide",
+                "version_normalized": "dev-slider-add-remove-slide",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze.git",
+                    "reference": "b3d8c93b08b00232c6fae13083d300b713880c65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/b3d8c93b08b00232c6fae13083d300b713880c65",
+                    "reference": "b3d8c93b08b00232c6fae13083d300b713880c65",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2022-07-13T19:04:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Breeze\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Performant Magento Frontend",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze/tree/slider-add-remove-slide",
                     "issues": "https://github.com/breezefront/module-breeze/issues"
                 }
             }

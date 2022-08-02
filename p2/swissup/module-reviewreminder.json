@@ -623,6 +623,54 @@
             },
             {
                 "name": "swissup/module-reviewreminder",
+                "version": "1.1.12",
+                "version_normalized": "1.1.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-reviewreminder.git",
+                    "reference": "f1a1797f96af5036e65a862b436e06b813c4fdd3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-reviewreminder/zipball/f1a1797f96af5036e65a862b436e06b813c4fdd3",
+                    "reference": "f1a1797f96af5036e65a862b436e06b813c4fdd3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.10"
+                },
+                "time": "2022-08-02T08:36:47+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-review-reminder.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/module-reviewreminder/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/module-reviewreminder/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Reviewreminder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Review Reminder extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/module-reviewreminder/tree/1.1.12",
+                    "issues": "https://github.com/swissup/module-reviewreminder/issues"
+                }
+            },
+            {
+                "name": "swissup/module-reviewreminder",
                 "version": "1.1.2",
                 "version_normalized": "1.1.2.0",
                 "source": {

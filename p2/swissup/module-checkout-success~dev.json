@@ -3,83 +3,24 @@
         "swissup/module-checkout-success": [
             {
                 "name": "swissup/module-checkout-success",
-                "version": "dev-layout-editor",
-                "version_normalized": "dev-layout-editor",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-checkout-success.git",
-                    "reference": "656933aef71b02970f348f993e5778fe3cb0280d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/656933aef71b02970f348f993e5778fe3cb0280d",
-                    "reference": "656933aef71b02970f348f993e5778fe3cb0280d",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-checkout": "^1.5.1",
-                    "swissup/module-codemirror": "^1.1.7"
-                },
-                "time": "2022-08-03T14:59:38+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/",
-                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkoutsuccess/changelog"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-checkout-success.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-success/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-success/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CheckoutSuccess\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Beautiful checkout success page for Magento2",
-                "keywords": [
-                    "checkout",
-                    "success page"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-checkout-success/tree/layout-editor",
-                    "issues": "https://github.com/swissup/module-checkout-success/issues"
-                }
-            },
-            {
-                "name": "swissup/module-checkout-success",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-success.git",
-                    "reference": "3f66765cc102f9c2e3ff727f1be073b42de45750"
+                    "reference": "ea7bc13989237a6e0a5b49fb1123e90b91774dfd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/3f66765cc102f9c2e3ff727f1be073b42de45750",
-                    "reference": "3f66765cc102f9c2e3ff727f1be073b42de45750",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-success/zipball/ea7bc13989237a6e0a5b49fb1123e90b91774dfd",
+                    "reference": "ea7bc13989237a6e0a5b49fb1123e90b91774dfd",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.1",
                     "swissup/module-codemirror": "^1.1.7"
                 },
-                "time": "2022-07-22T13:42:05+00:00",
+                "time": "2022-08-04T14:09:45+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

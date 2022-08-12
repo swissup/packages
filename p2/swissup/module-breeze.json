@@ -1109,6 +1109,43 @@
             },
             {
                 "name": "swissup/module-breeze",
+                "version": "1.13.7",
+                "version_normalized": "1.13.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/breezefront/module-breeze.git",
+                    "reference": "218ad1d193a3a0f807a205d60201f5974eae0170"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/218ad1d193a3a0f807a205d60201f5974eae0170",
+                    "reference": "218ad1d193a3a0f807a205d60201f5974eae0170",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2022-08-12T11:51:46+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Breeze\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Performant Magento Frontend",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze/tree/1.13.7",
+                    "issues": "https://github.com/breezefront/module-breeze/issues"
+                }
+            },
+            {
+                "name": "swissup/module-breeze",
                 "version": "1.2.0",
                 "version_normalized": "1.2.0.0",
                 "source": {

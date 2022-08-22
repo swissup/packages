@@ -1805,6 +1805,59 @@
             },
             {
                 "name": "swissup/module-helpdesk",
+                "version": "1.2.28",
+                "version_normalized": "1.2.28.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "7a935fe032de4f6a26471167bd2be2576563da05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/7a935fe032de4f6a26471167bd2be2576563da05",
+                    "reference": "7a935fe032de4f6a26471167bd2be2576563da05",
+                    "shasum": ""
+                },
+                "require": {
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "swissup/module-core": "^1.12.11"
+                },
+                "time": "2022-08-22T14:49:31+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.2.28",
+                    "issues": "https://github.com/swissup/module-helpdesk/issues"
+                }
+            },
+            {
+                "name": "swissup/module-helpdesk",
                 "version": "1.2.3",
                 "version_normalized": "1.2.3.0",
                 "source": {

@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/address-validation": [
+            {
+                "name": "swissup/address-validation",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-validation.git",
+                    "reference": "ffbb23e9406dbe59bb34730fcc7513573a699d76"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-validation/zipball/ffbb23e9406dbe59bb34730fcc7513573a699d76",
+                    "reference": "ffbb23e9406dbe59bb34730fcc7513573a699d76",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-address-validation": "^1.0.0"
+                },
+                "time": "2022-08-30T13:31:03+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Shipping address validation and verification at checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/address-validation/tree/master",
+                    "issues": "https://github.com/swissup/address-validation/issues"
+                }
+            }
+        ]
+    }
+}

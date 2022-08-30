@@ -49,6 +49,55 @@
                     "source": "https://github.com/swissup/module-address-validation/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-address-validation/issues"
                 }
+            },
+            {
+                "name": "swissup/module-address-validation",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-validation.git",
+                    "reference": "40d9170ffc5f967b40b564cd304eb29b27339279"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-address-validation/zipball/40d9170ffc5f967b40b564cd304eb29b27339279",
+                    "reference": "40d9170ffc5f967b40b564cd304eb29b27339279",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2022-08-30T14:03:35+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-validation/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-validation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressValidation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Shipping address validation and verification at checkout page",
+                "keywords": [
+                    "address",
+                    "validation"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-address-validation/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-address-validation/issues"
+                }
             }
         ]
     }

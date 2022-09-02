@@ -8,20 +8,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-akismet.git",
-                    "reference": "6db7a5fe8c1c7e2e06a33d87b835ba7b268b52fa"
+                    "reference": "d0b9ec523afff8dea07ff7054d7a004978fa61b6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/6db7a5fe8c1c7e2e06a33d87b835ba7b268b52fa",
-                    "reference": "6db7a5fe8c1c7e2e06a33d87b835ba7b268b52fa",
+                    "url": "https://api.github.com/repos/swissup/module-akismet/zipball/d0b9ec523afff8dea07ff7054d7a004978fa61b6",
+                    "reference": "d0b9ec523afff8dea07ff7054d7a004978fa61b6",
                     "shasum": ""
                 },
                 "require": {
+                    "ext-pcre": "*",
                     "laminas/laminas-http": "^2.6.0",
                     "laminas/laminas-uri": "^2.5.1",
-                    "swissup/module-core": "^1.12.9"
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "swissup/module-core": "^1.12.11"
                 },
-                "time": "2022-07-06T14:29:09+00:00",
+                "time": "2022-09-02T08:45:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -48,7 +53,7 @@
                 ],
                 "description": "Akismet integration",
                 "support": {
-                    "source": "https://github.com/swissup/module-akismet/tree/1.2.7",
+                    "source": "https://github.com/swissup/module-akismet/tree/1.2.8",
                     "issues": "https://github.com/swissup/module-akismet/issues"
                 }
             }

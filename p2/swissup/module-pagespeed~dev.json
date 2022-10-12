@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "b1fbb37cae4a7d0198eac5064931371e5c19c768"
+                    "reference": "13f54dfcf8bb44c5db030bf32b6ee6ebadcda046"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/b1fbb37cae4a7d0198eac5064931371e5c19c768",
-                    "reference": "b1fbb37cae4a7d0198eac5064931371e5c19c768",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/13f54dfcf8bb44c5db030bf32b6ee6ebadcda046",
+                    "reference": "13f54dfcf8bb44c5db030bf32b6ee6ebadcda046",
                     "shasum": ""
                 },
                 "require": {
@@ -24,19 +24,23 @@
                     "magento/framework": ">=101.0",
                     "magento/module-backend": ">=100.2",
                     "magento/module-catalog": ">=102.0",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-config": ">=101.1",
                     "magento/module-customer": ">=101.0",
                     "magento/module-deploy": ">=100.2",
                     "magento/module-store": ">=100.2",
                     "magento/module-theme": ">=100.2",
+                    "magento/zendframework1": ">=1.14",
                     "mobiledetect/mobiledetectlib": "^2.8",
                     "mrclay/minify": "~3.0.0",
                     "psr/log": "^1.0",
                     "spatie/image-optimizer": "^1.1",
                     "swissup/module-codemirror": "^1.1.12",
                     "swissup/module-core": "^1.12.11",
-                    "swissup/module-image": "^1.0.0"
+                    "swissup/module-image": "^1.0.0",
+                    "symfony/process": ">=4.1"
                 },
-                "time": "2022-10-11T16:33:41+00:00",
+                "time": "2022-10-12T11:43:57+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -74,7 +78,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/master",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.5.14",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }

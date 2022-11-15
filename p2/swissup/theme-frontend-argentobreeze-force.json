@@ -1,5 +1,40 @@
 {
     "packages": {
-        "swissup/theme-frontend-argentobreeze-force": []
+        "swissup/theme-frontend-argentobreeze-force": [
+            {
+                "name": "swissup/theme-frontend-argentobreeze-force",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
+                    "reference": "587f1e7c53e8334a0aeb458d2e37201dbe3a0f4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/587f1e7c53e8334a0aeb458d2e37201dbe3a0f4d",
+                    "reference": "587f1e7c53e8334a0aeb458d2e37201dbe3a0f4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.0.0"
+                },
+                "time": "2022-11-15T11:45:54+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Force Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/2.0.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
+                }
+            }
+        ]
     }
 }

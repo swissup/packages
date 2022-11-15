@@ -392,6 +392,43 @@
                     "source": "https://github.com/breezefront/module-breeze-integrations/tree/1.2.6",
                     "issues": "https://github.com/breezefront/module-breeze-integrations/issues"
                 }
+            },
+            {
+                "name": "swissup/module-breeze-integrations",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/breezefront/module-breeze-integrations.git",
+                    "reference": "3ea693ff9ce7925ab62c8194d2d5412f847c3fa8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-integrations/zipball/3ea693ff9ce7925ab62c8194d2d5412f847c3fa8",
+                    "reference": "3ea693ff9ce7925ab62c8194d2d5412f847c3fa8",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze": "^2.0.0"
+                },
+                "time": "2022-11-15T12:11:23+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeIntegrations\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Third-party modules integrations with Breeze Frontend",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-integrations/tree/1.2.7",
+                    "issues": "https://github.com/breezefront/module-breeze-integrations/issues"
+                }
             }
         ]
     }

@@ -2118,6 +2118,55 @@
             },
             {
                 "name": "swissup/module-seo-urls",
+                "version": "1.5.37",
+                "version_normalized": "1.5.37.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-urls.git",
+                    "reference": "a668d91a04336d958a593135a5ae0d972cd5147b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-urls/zipball/a668d91a04336d958a593135a5ae0d972cd5147b",
+                    "reference": "a668d91a04336d958a593135a5ae0d972cd5147b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.7"
+                },
+                "time": "2022-11-29T14:34:58+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-urls/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-urls/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoUrls\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 urls",
+                "keywords": [
+                    "better urls",
+                    "seo urls"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-urls/tree/1.5.37",
+                    "issues": "https://github.com/swissup/module-seo-urls/issues"
+                }
+            },
+            {
+                "name": "swissup/module-seo-urls",
                 "version": "1.5.4",
                 "version_normalized": "1.5.4.0",
                 "source": {

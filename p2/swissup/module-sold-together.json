@@ -2920,6 +2920,56 @@
             },
             {
                 "name": "swissup/module-sold-together",
+                "version": "1.8.10",
+                "version_normalized": "1.8.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together.git",
+                    "reference": "a37b2329abdb49c8a56edd653c8b954912dc2c98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/a37b2329abdb49c8a56edd653c8b954912dc2c98",
+                    "reference": "a37b2329abdb49c8a56edd653c8b954912dc2c98",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.12",
+                    "swissup/module-rtl": "^1.3.4",
+                    "swissup/module-swiper": "^1.0.0"
+                },
+                "time": "2022-12-05T17:41:53+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-sold-together.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/module-sold-together/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/module-sold-together/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Sold Together for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-sold-together/tree/1.8.10",
+                    "issues": "https://github.com/swissup/module-sold-together/issues"
+                }
+            },
+            {
+                "name": "swissup/module-sold-together",
                 "version": "1.8.2",
                 "version_normalized": "1.8.2.0",
                 "source": {

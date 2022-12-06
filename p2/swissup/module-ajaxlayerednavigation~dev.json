@@ -3,17 +3,17 @@
         "swissup/module-ajaxlayerednavigation": [
             {
                 "name": "swissup/module-ajaxlayerednavigation",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
-                    "reference": "3de5c8561179a8b43f5d35c1417fbbd9cc442c11"
+                    "reference": "c771d40ab596d3b5db75c1c3e57c2262369a15db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/3de5c8561179a8b43f5d35c1417fbbd9cc442c11",
-                    "reference": "3de5c8561179a8b43f5d35c1417fbbd9cc442c11",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/c771d40ab596d3b5db75c1c3e57c2262369a15db",
+                    "reference": "c771d40ab596d3b5db75c1c3e57c2262369a15db",
                     "shasum": ""
                 },
                 "require": {
@@ -36,7 +36,78 @@
                     "swissup/module-core": "^1.12.11",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2022-12-05T11:46:09+00:00",
+                "time": "2022-12-06T15:16:54+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxlayerednavigation.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxlayerednavigation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced catalog filters with ajax and seo support",
+                "keywords": [
+                    "ajaxlayerednavigation",
+                    "filters",
+                    "layered navigation",
+                    "seo layered navigation"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-ajaxlayerednavigation/tree/develop",
+                    "issues": "https://github.com/swissup/module-ajaxlayerednavigation/issues"
+                }
+            },
+            {
+                "name": "swissup/module-ajaxlayerednavigation",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
+                    "reference": "839bbdd71a8175e62423ce6a4c9c16b160043499"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxlayerednavigation/zipball/839bbdd71a8175e62423ce6a4c9c16b160043499",
+                    "reference": "839bbdd71a8175e62423ce6a4c9c16b160043499",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-catalog-inventory": ">=100.3",
+                    "magento/module-catalog-url-rewrite": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-eav": ">=102.0",
+                    "magento/module-layered-navigation": ">=100.3",
+                    "magento/module-review": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.12.11",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2022-11-23T11:53:47+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

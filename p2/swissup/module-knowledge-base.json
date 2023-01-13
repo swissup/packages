@@ -1023,6 +1023,59 @@
             },
             {
                 "name": "swissup/module-knowledge-base",
+                "version": "1.1.15",
+                "version_normalized": "1.1.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-knowledge-base.git",
+                    "reference": "7e1a0a902f34c7b1f4b5edcac3b4c01ecf905db7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-knowledge-base/zipball/7e1a0a902f34c7b1f4b5edcac3b4c01ecf905db7",
+                    "reference": "7e1a0a902f34c7b1f4b5edcac3b4c01ecf905db7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-sitemap": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.12.13"
+                },
+                "time": "2023-01-13T14:28:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\KnowledgeBase\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Knowledge Base (FAQ) module",
+                "keywords": [
+                    "article",
+                    "faq",
+                    "knowledge"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-knowledge-base/tree/1.1.15",
+                    "issues": "https://github.com/swissup/module-knowledge-base/issues"
+                }
+            },
+            {
+                "name": "swissup/module-knowledge-base",
                 "version": "1.1.2",
                 "version_normalized": "1.1.2.0",
                 "source": {

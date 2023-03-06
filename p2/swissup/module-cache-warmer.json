@@ -969,6 +969,64 @@
             },
             {
                 "name": "swissup/module-cache-warmer",
+                "version": "1.0.25",
+                "version_normalized": "1.0.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-cache-warmer.git",
+                    "reference": "ca805f520425ae9293fcd502d9656a05b91ad8f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/ca805f520425ae9293fcd502d9656a05b91ad8f1",
+                    "reference": "ca805f520425ae9293fcd502d9656a05b91ad8f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2|^7.3",
+                    "guzzlehttp/promises": "^1.5",
+                    "laminas/laminas-uri": "^2.9",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-page-cache": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-url-rewrite": ">=101.1",
+                    "psr/http-message": "^1.0",
+                    "psr/log": "^1.1",
+                    "swissup/module-core": "^1.12.13"
+                },
+                "time": "2023-03-06T10:34:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CacheWarmer\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Cache Warmer module",
+                "keywords": [
+                    "cache",
+                    "cron",
+                    "full page",
+                    "pagespeed",
+                    "warmer"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-cache-warmer/tree/1.0.25",
+                    "issues": "https://github.com/swissup/module-cache-warmer/issues"
+                }
+            },
+            {
+                "name": "swissup/module-cache-warmer",
                 "version": "1.0.3",
                 "version_normalized": "1.0.3.0",
                 "source": {

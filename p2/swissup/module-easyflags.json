@@ -693,6 +693,54 @@
                     "source": "https://github.com/swissup/module-easyflags/tree/1.4.2",
                     "issues": "https://github.com/swissup/module-easyflags/issues"
                 }
+            },
+            {
+                "name": "swissup/module-easyflags",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easyflags.git",
+                    "reference": "5a00654e4c648347865d9ae33b88c9393bbcabf1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easyflags/zipball/5a00654e4c648347865d9ae33b88c9393bbcabf1",
+                    "reference": "5a00654e4c648347865d9ae33b88c9393bbcabf1",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.14"
+                },
+                "time": "2023-03-17T09:51:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easyflags.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easyflags/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easyflags/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easyflags\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module replaces default store switcher with flag images",
+                "support": {
+                    "source": "https://github.com/swissup/module-easyflags/tree/1.4.3",
+                    "issues": "https://github.com/swissup/module-easyflags/issues"
+                }
             }
         ]
     }

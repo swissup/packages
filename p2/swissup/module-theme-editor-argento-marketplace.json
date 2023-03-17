@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "swissup/module-theme-editor-argento-marketplace": [
+            {
+                "name": "swissup/module-theme-editor-argento-marketplace",
+                "version": "1.7.2",
+                "version_normalized": "1.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-marketplace.git",
+                    "reference": "823d898d6ecf06d25f49af47656267fb93132961"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-marketplace/zipball/823d898d6ecf06d25f49af47656267fb93132961",
+                    "reference": "823d898d6ecf06d25f49af47656267fb93132961",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.9.10"
+                },
+                "time": "2021-11-19T14:15:44+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoMarketplace\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Marketplace theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-marketplace/tree/1.7.2",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-marketplace/issues"
+                }
+            }
+        ]
+    }
+}

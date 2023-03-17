@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "swissup/module-delivery-date": [
+            {
+                "name": "swissup/module-delivery-date",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "7d643dbfe2d28d837d35935d7aa802adfdf99f60"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/7d643dbfe2d28d837d35935d7aa802adfdf99f60",
+                    "reference": "7d643dbfe2d28d837d35935d7aa802adfdf99f60",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2022-11-16T14:39:19+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-delivery-date/tree/1.7.6",
+                    "issues": "https://github.com/swissup/module-delivery-date/issues"
+                }
+            }
+        ]
+    }
+}

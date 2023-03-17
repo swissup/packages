@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "swissup/module-checkout-cart": [
+            {
+                "name": "swissup/module-checkout-cart",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-cart.git",
+                    "reference": "a02e3f916dabe169ff1ee942016ed84a364806dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-cart/zipball/a02e3f916dabe169ff1ee942016ed84a364806dc",
+                    "reference": "a02e3f916dabe169ff1ee942016ed84a364806dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.1",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2022-02-01T08:14:03+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-cart/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Editable and configurable shopping cart at the checkout page",
+                "keywords": [
+                    "checkout cart",
+                    "shopping cart"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-cart/tree/master",
+                    "issues": "https://github.com/swissup/module-checkout-cart/issues"
+                }
+            }
+        ]
+    }
+}

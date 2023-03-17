@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-checkout-success": [
+            {
+                "name": "swissup/product-checkout-success",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-success.git",
+                    "reference": "de0892de6b2370ef857022d9a8a232fbb20b76ae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/checkout-success/zipball/de0892de6b2370ef857022d9a8a232fbb20b76ae",
+                    "reference": "de0892de6b2370ef857022d9a8a232fbb20b76ae",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout-success": "^2.0.4"
+                },
+                "time": "2023-03-13T11:30:56+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Beautiful checkout success page for Magento2",
+                "support": {
+                    "source": "https://github.com/swissup/checkout-success/tree/2.0.5",
+                    "issues": "https://github.com/swissup/checkout-success/issues"
+                }
+            }
+        ]
+    }
+}

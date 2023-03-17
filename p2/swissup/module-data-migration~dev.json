@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "swissup/module-data-migration": [
+            {
+                "name": "swissup/module-data-migration",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-data-migration.git",
+                    "reference": "ca820987f1fe1478ffa4abfaa9e0197be4307f6c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-data-migration/zipball/ca820987f1fe1478ffa4abfaa9e0197be4307f6c",
+                    "reference": "ca820987f1fe1478ffa4abfaa9e0197be4307f6c",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/data-migration-tool": "*"
+                },
+                "time": "2022-04-15T13:51:25+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DataMigration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Data Migration for Swissup Labs modules",
+                "keywords": [
+                    "data migration",
+                    "migration from m1 to m2"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-data-migration/tree/1.1.1",
+                    "issues": "https://github.com/swissup/module-data-migration/issues"
+                }
+            }
+        ]
+    }
+}

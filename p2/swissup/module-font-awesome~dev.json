@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "swissup/module-font-awesome": [
+            {
+                "name": "swissup/module-font-awesome",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-font-awesome.git",
+                    "reference": "1695ae9afb27f7941bf7bd2ce02e44da51c9f42c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-font-awesome/zipball/1695ae9afb27f7941bf7bd2ce02e44da51c9f42c",
+                    "reference": "1695ae9afb27f7941bf7bd2ce02e44da51c9f42c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.9"
+                },
+                "time": "2022-06-17T14:10:53+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FontAwesome\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "FontAwesome for Magento2",
+                "keywords": [
+                    "font",
+                    "font awesome",
+                    "font-awesome",
+                    "fontawesome",
+                    "icons"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-font-awesome/tree/1.4.3",
+                    "issues": "https://github.com/swissup/module-font-awesome/issues"
+                }
+            }
+        ]
+    }
+}

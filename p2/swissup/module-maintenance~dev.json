@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "swissup/module-maintenance": [
+            {
+                "name": "swissup/module-maintenance",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-maintenance.git",
+                    "reference": "0227c698684c42170c0876da24fb09bdcd78f5b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-maintenance/zipball/0227c698684c42170c0876da24fb09bdcd78f5b8",
+                    "reference": "0227c698684c42170c0876da24fb09bdcd78f5b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.1",
+                    "swissup/module-core": "^1.10.5"
+                },
+                "time": "2020-11-09T09:07:16+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-maintenance.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/maintenance/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/maintenance/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Maintenance\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Maintenance store extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-maintenance/tree/2.1.2",
+                    "issues": "https://github.com/swissup/module-maintenance/issues"
+                }
+            }
+        ]
+    }
+}

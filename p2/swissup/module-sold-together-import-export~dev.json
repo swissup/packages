@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "swissup/module-sold-together-import-export": [
+            {
+                "name": "swissup/module-sold-together-import-export",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together-import-export.git",
+                    "reference": "63ce8f27206cfcf664cd7c24c59d17160ee6b5dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together-import-export/zipball/63ce8f27206cfcf664cd7c24c59d17160ee6b5dc",
+                    "reference": "63ce8f27206cfcf664cd7c24c59d17160ee6b5dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-sold-together": "^1.9.1"
+                },
+                "time": "2023-03-13T11:42:21+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogetherImportExport\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage Sold Together relations with Magento Import/Export",
+                "support": {
+                    "source": "https://github.com/swissup/module-sold-together-import-export/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-sold-together-import-export/issues"
+                }
+            }
+        ]
+    }
+}

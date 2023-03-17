@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "swissup/module-breeze-magefan-blog": [
+            {
+                "name": "swissup/module-breeze-magefan-blog",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/breezefront/module-breeze-magefan-blog.git",
+                    "reference": "976fe09cb62f6a6c43e13f1ef7f873c701a74675"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-magefan-blog/zipball/976fe09cb62f6a6c43e13f1ef7f873c701a74675",
+                    "reference": "976fe09cb62f6a6c43e13f1ef7f873c701a74675",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze": "^2.0.0"
+                },
+                "time": "2022-11-15T12:11:21+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeMagefanBlog\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magefan's Blog integration with Breeze Frontend",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-magefan-blog/tree/1.0.2",
+                    "issues": "https://github.com/breezefront/module-breeze-magefan-blog/issues"
+                }
+            }
+        ]
+    }
+}

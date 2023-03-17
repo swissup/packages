@@ -1,0 +1,82 @@
+{
+    "packages": {
+        "swissup/module-helpdesk-sample-data": [
+            {
+                "name": "swissup/module-helpdesk-sample-data",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk-sample-data.git",
+                    "reference": "87953d7221d7c386d92a10c8298ccfaa35d05ac8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk-sample-data/zipball/87953d7221d7c386d92a10c8298ccfaa35d05ac8",
+                    "reference": "87953d7221d7c386d92a10c8298ccfaa35d05ac8",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-sample-data": "^100.2.0",
+                    "swissup/module-helpdesk": "^1.0.0"
+                },
+                "time": "2019-01-22T10:04:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HelpdeskSampleData\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk-sample-data/tree/master",
+                    "issues": "https://github.com/swissup/module-helpdesk-sample-data/issues"
+                }
+            },
+            {
+                "name": "swissup/module-helpdesk-sample-data",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk-sample-data.git",
+                    "reference": "bef6eff19e0505ec2eaa530d5d726bcba65fd796"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk-sample-data/zipball/bef6eff19e0505ec2eaa530d5d726bcba65fd796",
+                    "reference": "bef6eff19e0505ec2eaa530d5d726bcba65fd796",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-sample-data": "^100.2.0",
+                    "swissup/module-helpdesk": "^1.2.15"
+                },
+                "time": "2021-08-27T13:50:46+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HelpdeskSampleData\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk-sample-data/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-helpdesk-sample-data/issues"
+                }
+            }
+        ]
+    }
+}

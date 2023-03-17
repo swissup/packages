@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/reviewreminder": [
+            {
+                "name": "swissup/reviewreminder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/reviewreminder.git",
+                    "reference": "78c27e883620fb32ecee88c33a9adc69a92e8a20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/reviewreminder/zipball/78c27e883620fb32ecee88c33a9adc69a92e8a20",
+                    "reference": "78c27e883620fb32ecee88c33a9adc69a92e8a20",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-reviewreminder": "^1.1.12"
+                },
+                "time": "2022-10-20T08:21:58+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Send email reminder to write a review for the purchased product",
+                "support": {
+                    "source": "https://github.com/swissup/reviewreminder/tree/1.1.13",
+                    "issues": "https://github.com/swissup/reviewreminder/issues"
+                }
+            }
+        ]
+    }
+}

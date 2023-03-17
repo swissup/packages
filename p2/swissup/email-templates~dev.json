@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "swissup/email-templates": [
+            {
+                "name": "swissup/email-templates",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/email-templates.git",
+                    "reference": "fad672e1e2746a78386d21572f3cec39bffa844b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/email-templates/zipball/fad672e1e2746a78386d21572f3cec39bffa844b",
+                    "reference": "fad672e1e2746a78386d21572f3cec39bffa844b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-email-templates": "^1.1.4"
+                },
+                "time": "2023-03-13T11:44:10+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2 (metapackage)",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/email-templates/tree/1.1.5",
+                    "issues": "https://github.com/swissup/email-templates/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "swissup/module-pro-labels": [
+            {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "5c322029f06be0434742e3a93ef37f985a014be2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/5c322029f06be0434742e3a93ef37f985a014be2",
+                    "reference": "5c322029f06be0434742e3a93ef37f985a014be2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.14"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2023-03-15T10:13:50+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-prolabels.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/prolabels/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels/tree/master",
+                    "issues": "https://github.com/swissup/module-pro-labels/issues"
+                }
+            }
+        ]
+    }
+}

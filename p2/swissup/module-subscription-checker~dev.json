@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "swissup/module-subscription-checker": [
+            {
+                "name": "swissup/module-subscription-checker",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-subscription-checker.git",
+                    "reference": "76577e5b4be375ff977c9a6d7544e4b7519cc5b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-subscription-checker/zipball/76577e5b4be375ff977c9a6d7544e4b7519cc5b4",
+                    "reference": "76577e5b4be375ff977c9a6d7544e4b7519cc5b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.11.1"
+                },
+                "time": "2020-11-27T15:39:02+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SubscriptionChecker\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Client-side subscription validation",
+                "support": {
+                    "source": "https://github.com/swissup/module-subscription-checker/tree/1.2.2",
+                    "issues": "https://github.com/swissup/module-subscription-checker/issues"
+                }
+            }
+        ]
+    }
+}

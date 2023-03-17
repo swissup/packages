@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "swissup/module-attributepages": [
+            {
+                "name": "swissup/module-attributepages",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-attributepages.git",
+                    "reference": "efae7a3547dd35b0af5651b7329662bcff80eb97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-attributepages/zipball/efae7a3547dd35b0af5651b7329662bcff80eb97",
+                    "reference": "efae7a3547dd35b0af5651b7329662bcff80eb97",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.9",
+                    "swissup/module-swiper": "^1.0.1"
+                },
+                "time": "2022-06-22T13:40:14+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/attributes-and-brands-pages-for-magento-2.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/attributepages/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/attributepages/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-attributepages.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/attributepages/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/attributepages/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Attributepages\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Attribute Pages extension from Swissup",
+                "keywords": [
+                    "attribute page",
+                    "attributepages",
+                    "brand page"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-attributepages/tree/1.5.2",
+                    "issues": "https://github.com/swissup/module-attributepages/issues"
+                }
+            }
+        ]
+    }
+}

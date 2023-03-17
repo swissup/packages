@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "swissup/theme-frontend-breeze-blank": [
+            {
+                "name": "swissup/theme-frontend-breeze-blank",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/breezefront/theme-frontend-breeze-blank.git",
+                    "reference": "2192e0f739e6ad122d105c0e25396759448b4a53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-blank/zipball/2192e0f739e6ad122d105c0e25396759448b4a53",
+                    "reference": "2192e0f739e6ad122d105c0e25396759448b4a53",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze": "^2.4.0",
+                    "swissup/module-rtl": "*"
+                },
+                "time": "2023-03-13T11:41:51+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Clean, lightning-fast breeze-powered theme.",
+                "support": {
+                    "source": "https://github.com/breezefront/theme-frontend-breeze-blank/tree/2.3.3",
+                    "issues": "https://github.com/breezefront/theme-frontend-breeze-blank/issues"
+                }
+            }
+        ]
+    }
+}

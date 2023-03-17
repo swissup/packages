@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "swissup/product-address-field-manager": [
+            {
+                "name": "swissup/product-address-field-manager",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/address-field-manager.git",
+                    "reference": "91342c4f27f8fd32a8c79d8cbd5964f48b55bd63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/address-field-manager/zipball/91342c4f27f8fd32a8c79d8cbd5964f48b55bd63",
+                    "reference": "91342c4f27f8fd32a8c79d8cbd5964f48b55bd63",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-address-field-manager": "^1.6.9"
+                },
+                "time": "2022-10-27T14:44:40+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Address field manager for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/address-field-manager/tree/1.6.10",
+                    "issues": "https://github.com/swissup/address-field-manager/issues"
+                }
+            }
+        ]
+    }
+}

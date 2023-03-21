@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "0cc85f6b5642a30461ed44e9205ad01c122181b6"
+                    "reference": "46f4e56dbe2c87c27a1034aa5b6740ea076b4f10"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/0cc85f6b5642a30461ed44e9205ad01c122181b6",
-                    "reference": "0cc85f6b5642a30461ed44e9205ad01c122181b6",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/46f4e56dbe2c87c27a1034aa5b6740ea076b4f10",
+                    "reference": "46f4e56dbe2c87c27a1034aa5b6740ea076b4f10",
                     "shasum": ""
                 },
                 "require": {
@@ -21,17 +21,16 @@
                     "ext-pcre": "*",
                     "ext-xml": "*",
                     "guzzlehttp/guzzle": "^6.3|^7.3",
-                    "laminas/laminas-dom": "^2.7.2",
+                    "guzzlehttp/psr7": "^2.3",
+                    "laminas/laminas-http": "^2.15",
                     "magento/framework": ">=101.0",
                     "magento/module-backend": ">=100.2",
                     "magento/module-catalog": ">=102.0",
-                    "magento/module-cms": ">=103.0",
                     "magento/module-config": ">=101.1",
                     "magento/module-customer": ">=101.0",
                     "magento/module-deploy": ">=100.2",
                     "magento/module-store": ">=100.2",
                     "magento/module-theme": ">=100.2",
-                    "magento/zendframework1": ">=1.14",
                     "mobiledetect/mobiledetectlib": "^2.8",
                     "mrclay/minify": "~3.0.0",
                     "psr/log": "^1.0",
@@ -41,7 +40,7 @@
                     "swissup/module-image": "^1.0.0",
                     "symfony/process": ">=4.1"
                 },
-                "time": "2023-03-20T14:59:36+00:00",
+                "time": "2023-03-21T13:06:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

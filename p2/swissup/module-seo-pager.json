@@ -348,6 +348,55 @@
             },
             {
                 "name": "swissup/module-seo-pager",
+                "version": "1.2.11",
+                "version_normalized": "1.2.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-pager.git",
+                    "reference": "414b48f46ce372e63e235d2142faabb6875b3a63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-pager/zipball/414b48f46ce372e63e235d2142faabb6875b3a63",
+                    "reference": "414b48f46ce372e63e235d2142faabb6875b3a63",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.7"
+                },
+                "time": "2023-03-31T08:05:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-pager/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-pager/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoPager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Improved Magento 2 pagination",
+                "keywords": [
+                    "better pagination",
+                    "seo pagination"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-pager/tree/1.2.11",
+                    "issues": "https://github.com/swissup/module-seo-pager/issues"
+                }
+            },
+            {
+                "name": "swissup/module-seo-pager",
                 "version": "1.2.2",
                 "version_normalized": "1.2.2.0",
                 "source": {

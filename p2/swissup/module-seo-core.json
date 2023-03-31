@@ -782,6 +782,46 @@
                     "source": "https://github.com/swissup/module-seo-core/tree/1.3.7",
                     "issues": "https://github.com/swissup/module-seo-core/issues"
                 }
+            },
+            {
+                "name": "swissup/module-seo-core",
+                "version": "1.3.8",
+                "version_normalized": "1.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-core.git",
+                    "reference": "bf115841e902ddcc2694da3b84b0d76eb111c872"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-core/zipball/bf115841e902ddcc2694da3b84b0d76eb111c872",
+                    "reference": "bf115841e902ddcc2694da3b84b0d76eb111c872",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.14"
+                },
+                "suggest": {
+                    "cocur/slugify": "Converts a string to a slug. Works perfectly with SEO URLs and SEO Images. Transliterate string with latinic characters."
+                },
+                "time": "2023-03-31T08:03:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCore\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO core module. It adds swissup menu and config sections.",
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-core/tree/1.3.8",
+                    "issues": "https://github.com/swissup/module-seo-core/issues"
+                }
             }
         ]
     }

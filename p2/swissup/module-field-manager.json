@@ -648,6 +648,49 @@
             },
             {
                 "name": "swissup/module-field-manager",
+                "version": "1.2.16",
+                "version_normalized": "1.2.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-field-manager.git",
+                    "reference": "7998b15a7ba0be4d138533194e8a2c2130822586"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-field-manager/zipball/7998b15a7ba0be4d138533194e8a2c2130822586",
+                    "reference": "7998b15a7ba0be4d138533194e8a2c2130822586",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.14"
+                },
+                "time": "2023-04-12T11:56:23+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Field manager for Magento 2",
+                "keywords": [
+                    "attribute manager",
+                    "customer attributes",
+                    "customer fields",
+                    "fields manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-field-manager/tree/1.2.16",
+                    "issues": "https://github.com/swissup/module-field-manager/issues"
+                }
+            },
+            {
+                "name": "swissup/module-field-manager",
                 "version": "1.2.2",
                 "version_normalized": "1.2.2.0",
                 "source": {

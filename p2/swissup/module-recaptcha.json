@@ -1526,6 +1526,55 @@
             },
             {
                 "name": "swissup/module-recaptcha",
+                "version": "1.4.10",
+                "version_normalized": "1.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-recaptcha.git",
+                    "reference": "0fc88737b2de599580c4c2cdb6cbc1e344741bbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/0fc88737b2de599580c4c2cdb6cbc1e344741bbf",
+                    "reference": "0fc88737b2de599580c4c2cdb6cbc1e344741bbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/recaptcha": "^1.2",
+                    "swissup/module-core": "^1.12.16"
+                },
+                "time": "2023-07-06T14:45:00+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-recaptcha.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/recaptcha/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/recaptcha/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.4.10",
+                    "issues": "https://github.com/swissup/module-recaptcha/issues"
+                }
+            },
+            {
+                "name": "swissup/module-recaptcha",
                 "version": "1.4.2",
                 "version_normalized": "1.4.2.0",
                 "source": {

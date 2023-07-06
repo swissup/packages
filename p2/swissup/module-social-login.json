@@ -463,6 +463,56 @@
                     "source": "https://github.com/swissup/module-social-login/tree/1.1.8",
                     "issues": "https://github.com/swissup/module-social-login/issues"
                 }
+            },
+            {
+                "name": "swissup/module-social-login",
+                "version": "1.1.9",
+                "version_normalized": "1.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-social-login.git",
+                    "reference": "efe5cb81c420e3635c9d369f822edc618a9fdadf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-social-login/zipball/efe5cb81c420e3635c9d369f822edc618a9fdadf",
+                    "reference": "efe5cb81c420e3635c9d369f822edc618a9fdadf",
+                    "shasum": ""
+                },
+                "require": {
+                    "hybridauth/hybridauth": "^3.0",
+                    "swissup/module-rtl": "^1.3.4",
+                    "swissup/module-social-core": "^1.0.2"
+                },
+                "time": "2023-07-06T11:52:53+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-social-login.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/social-login/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/social-login/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SocialLogin\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Login or register in Magento store using social account",
+                "support": {
+                    "source": "https://github.com/swissup/module-social-login/tree/1.1.9",
+                    "issues": "https://github.com/swissup/module-social-login/issues"
+                }
             }
         ]
     }

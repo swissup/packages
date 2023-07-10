@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "swissup/module-hreflang-import-export": [
+            {
+                "name": "swissup/module-hreflang-import-export",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-hreflang-import-export.git",
+                    "reference": "1efd848acd2282c7d47bf392369918004e366479"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang-import-export/zipball/1efd848acd2282c7d47bf392369918004e366479",
+                    "reference": "1efd848acd2282c7d47bf392369918004e366479",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-import-export": ">=100.0",
+                    "swissup/module-hreflang": "^1.6.0"
+                },
+                "time": "2023-07-10T11:35:34+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HreflangImportExport\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage hreflang links with Magento Import/Export",
+                "support": {
+                    "source": "https://github.com/swissup/module-hreflang-import-export/tree/master",
+                    "issues": "https://github.com/swissup/module-hreflang-import-export/issues"
+                }
+            }
+        ]
+    }
+}

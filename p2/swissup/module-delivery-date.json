@@ -1818,6 +1818,51 @@
                     "source": "https://github.com/swissup/module-delivery-date/tree/1.7.8",
                     "issues": "https://github.com/swissup/module-delivery-date/issues"
                 }
+            },
+            {
+                "name": "swissup/module-delivery-date",
+                "version": "1.7.9",
+                "version_normalized": "1.7.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "4c2b5fcd5e3733eda73db7303608696e77475920"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/4c2b5fcd5e3733eda73db7303608696e77475920",
+                    "reference": "4c2b5fcd5e3733eda73db7303608696e77475920",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2023-07-27T11:53:02+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-delivery-date/tree/1.7.9",
+                    "issues": "https://github.com/swissup/module-delivery-date/issues"
+                }
             }
         ]
     }

@@ -1204,6 +1204,49 @@
                     "source": "https://github.com/swissup/module-field-manager/tree/1.3.1",
                     "issues": "https://github.com/swissup/module-field-manager/issues"
                 }
+            },
+            {
+                "name": "swissup/module-field-manager",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-field-manager.git",
+                    "reference": "ff16ac1d82acef8c5b2fb1f51d44cc1577fede89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-field-manager/zipball/ff16ac1d82acef8c5b2fb1f51d44cc1577fede89",
+                    "reference": "ff16ac1d82acef8c5b2fb1f51d44cc1577fede89",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.18"
+                },
+                "time": "2023-08-08T10:42:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FieldManager\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Field manager for Magento 2",
+                "keywords": [
+                    "attribute manager",
+                    "customer attributes",
+                    "customer fields",
+                    "fields manager"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-field-manager/tree/1.3.2",
+                    "issues": "https://github.com/swissup/module-field-manager/issues"
+                }
             }
         ]
     }

@@ -1977,6 +1977,53 @@
                     "source": "https://github.com/swissup/module-hreflang/tree/1.6.3",
                     "issues": "https://github.com/swissup/module-hreflang/issues"
                 }
+            },
+            {
+                "name": "swissup/module-hreflang",
+                "version": "1.6.4",
+                "version_normalized": "1.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-hreflang.git",
+                    "reference": "805055b866df9b262504d00047279153dfcb5d75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-hreflang/zipball/805055b866df9b262504d00047279153dfcb5d75",
+                    "reference": "805055b866df9b262504d00047279153dfcb5d75",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.9"
+                },
+                "time": "2023-09-06T14:34:44+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/hreflang/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Hreflang\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Help Google to understand translated content in Magento 2.x",
+                "keywords": [
+                    "hreflang tag"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-hreflang/tree/1.6.4",
+                    "issues": "https://github.com/swissup/module-hreflang/issues"
+                }
             }
         ]
     }

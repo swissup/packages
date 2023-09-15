@@ -481,6 +481,43 @@
                     "source": "https://github.com/swissup/module-theme-editor-argento-mall/tree/1.7.2",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-mall/issues"
                 }
+            },
+            {
+                "name": "swissup/module-theme-editor-argento-mall",
+                "version": "1.7.3",
+                "version_normalized": "1.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-mall.git",
+                    "reference": "cbe32963057dbdd623f5174134bc73947e5eecf7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-mall/zipball/cbe32963057dbdd623f5174134bc73947e5eecf7",
+                    "reference": "cbe32963057dbdd623f5174134bc73947e5eecf7",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.8"
+                },
+                "time": "2023-09-15T10:14:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoMall\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Mall theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-mall/tree/1.7.3",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-mall/issues"
+                }
             }
         ]
     }

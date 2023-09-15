@@ -111,6 +111,43 @@
                     "source": "https://github.com/swissup/module-theme-editor-argento-home/tree/1.2.2",
                     "issues": "https://github.com/swissup/module-theme-editor-argento-home/issues"
                 }
+            },
+            {
+                "name": "swissup/module-theme-editor-argento-home",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-home.git",
+                    "reference": "f85e637cadb39f0107d64e7fe4b3f283bac9cb88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-home/zipball/f85e637cadb39f0107d64e7fe4b3f283bac9cb88",
+                    "reference": "f85e637cadb39f0107d64e7fe4b3f283bac9cb88",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.8"
+                },
+                "time": "2023-09-15T10:13:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoHome\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Home theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-home/tree/1.2.3",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-home/issues"
+                }
             }
         ]
     }

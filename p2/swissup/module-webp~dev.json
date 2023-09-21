@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "swissup/module-webp": [
+            {
+                "name": "swissup/module-webp",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-webp.git",
+                    "reference": "fcb5213d7a94665f07728eff8273a807378f91c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-webp/zipball/fcb5213d7a94665f07728eff8273a807378f91c4",
+                    "reference": "fcb5213d7a94665f07728eff8273a807378f91c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-catalog": ">=103.0",
+                    "rosell-dk/webp-convert": "^2.9",
+                    "swissup/module-core": "^1.12.13"
+                },
+                "time": "2023-09-21T11:31:33+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Webp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module for convert images to webp format",
+                "keywords": [
+                    "image",
+                    "optimization",
+                    "webp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-webp/tree/master",
+                    "issues": "https://github.com/swissup/module-webp/issues"
+                }
+            }
+        ]
+    }
+}

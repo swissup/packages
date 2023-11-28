@@ -1,5 +1,40 @@
 {
     "packages": {
-        "swissup/theme-frontend-argentobreeze-chic": []
+        "swissup/theme-frontend-argentobreeze-chic": [
+            {
+                "name": "swissup/theme-frontend-argentobreeze-chic",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-chic.git",
+                    "reference": "09ae335102d55b5de7367eebb1acb90620b53702"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-chic/zipball/09ae335102d55b5de7367eebb1acb90620b53702",
+                    "reference": "09ae335102d55b5de7367eebb1acb90620b53702",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.0.2"
+                },
+                "time": "2023-11-27T08:59:51+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Chic Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-chic/tree/2.0.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-chic/issues"
+                }
+            }
+        ]
     }
 }

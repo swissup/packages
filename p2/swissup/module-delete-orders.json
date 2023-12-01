@@ -628,6 +628,54 @@
                     "source": "https://github.com/swissup/module-delete-orders/tree/1.3.2",
                     "issues": "https://github.com/swissup/module-delete-orders/issues"
                 }
+            },
+            {
+                "name": "swissup/module-delete-orders",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delete-orders.git",
+                    "reference": "521a07c0be274e6a8735a21c07cb10e654693119"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delete-orders/zipball/521a07c0be274e6a8735a21c07cb10e654693119",
+                    "reference": "521a07c0be274e6a8735a21c07cb10e654693119",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.18"
+                },
+                "time": "2023-12-01T15:19:04+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-delete-orders.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/delete-orders/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/delete-orders/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeleteOrders\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Delete checked orders from your store",
+                "support": {
+                    "source": "https://github.com/swissup/module-delete-orders/tree/1.3.3",
+                    "issues": "https://github.com/swissup/module-delete-orders/issues"
+                }
             }
         ]
     }

@@ -432,6 +432,60 @@
                 "support": {
                     "source": "https://github.com/swissup/dockerize-magento2/tree/1.4.1"
                 }
+            },
+            {
+                "name": "swissup/dockerize-magento2",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/dockerize-magento2.git",
+                    "reference": "d9400d92c45ba24d5d1718466617a19545eb71d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/dockerize-magento2/zipball/d9400d92c45ba24d5d1718466617a19545eb71d6",
+                    "reference": "d9400d92c45ba24d5d1718466617a19545eb71d6",
+                    "shasum": ""
+                },
+                "time": "2023-07-26T14:17:41+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "docker-compose.yml",
+                            "docker-compose.yml"
+                        ],
+                        [
+                            "config",
+                            "config"
+                        ],
+                        [
+                            ".env",
+                            ".env"
+                        ],
+                        [
+                            "bin/dockerizer",
+                            "vendor/bin/dockerizer"
+                        ]
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Andreas Koch",
+                        "email": "andy@ak7.io",
+                        "homepage": "https://github.com/andreaskoch",
+                        "role": "Author"
+                    }
+                ],
+                "description": "Docker infrastructure definitions for Magento 2",
+                "homepage": "https://github.com/arvatoSCM/dockerize-magento2",
+                "support": {
+                    "source": "https://github.com/swissup/dockerize-magento2/tree/1.4.2"
+                }
             }
         ]
     }

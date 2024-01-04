@@ -3,6 +3,43 @@
         "swissup/module-breeze": [
             {
                 "name": "swissup/module-breeze",
+                "version": "dev-breeze-dynamic-js",
+                "version_normalized": "dev-breeze-dynamic-js",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/breezefront/module-breeze.git",
+                    "reference": "aefe0afef7aa1a939b90f9a750fbd2da8f8bb605"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/aefe0afef7aa1a939b90f9a750fbd2da8f8bb605",
+                    "reference": "aefe0afef7aa1a939b90f9a750fbd2da8f8bb605",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2024-01-04T17:05:37+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Breeze\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Performant Magento Frontend",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze/tree/breeze-dynamic-js",
+                    "issues": "https://github.com/breezefront/module-breeze/issues"
+                }
+            },
+            {
+                "name": "swissup/module-breeze",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

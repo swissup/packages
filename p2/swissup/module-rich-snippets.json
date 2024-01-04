@@ -2348,6 +2348,54 @@
                     "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.2",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
+            },
+            {
+                "name": "swissup/module-rich-snippets",
+                "version": "1.7.3",
+                "version_normalized": "1.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "c9f3187f4c4463050942acfe7a3e2aca4b5b143f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/c9f3187f4c4463050942acfe7a3e2aca4b5b143f",
+                    "reference": "c9f3187f4c4463050942acfe7a3e2aca4b5b143f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.9"
+                },
+                "time": "2024-01-04T08:40:01+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.3",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
             }
         ]
     }

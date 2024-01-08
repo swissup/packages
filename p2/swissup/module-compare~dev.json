@@ -3,23 +3,73 @@
         "swissup/module-compare": [
             {
                 "name": "swissup/module-compare",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-breeze-dynamic-js",
+                "version_normalized": "dev-breeze-dynamic-js",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-compare.git",
-                    "reference": "1ec6f5ce33e62e2995396436cd55948974393854"
+                    "reference": "cc049607a554704b96314bbcf040a34c05bf8991"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/1ec6f5ce33e62e2995396436cd55948974393854",
-                    "reference": "1ec6f5ce33e62e2995396436cd55948974393854",
+                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/cc049607a554704b96314bbcf040a34c05bf8991",
+                    "reference": "cc049607a554704b96314bbcf040a34c05bf8991",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.16"
                 },
-                "time": "2023-06-08T08:38:12+00:00",
+                "time": "2024-01-08T12:12:29+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-compare.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/compare/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/compare/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Compare\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Compare page design",
+                "keywords": [
+                    "compare"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-compare/tree/breeze-dynamic-js",
+                    "issues": "https://github.com/swissup/module-compare/issues"
+                }
+            },
+            {
+                "name": "swissup/module-compare",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-compare.git",
+                    "reference": "7399395bd5333f3acc16aeab2de358bdef22a266"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/7399395bd5333f3acc16aeab2de358bdef22a266",
+                    "reference": "7399395bd5333f3acc16aeab2de358bdef22a266",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.16"
+                },
+                "time": "2024-01-08T12:08:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -48,7 +98,7 @@
                     "compare"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-compare/tree/1.2.1",
+                    "source": "https://github.com/swissup/module-compare/tree/master",
                     "issues": "https://github.com/swissup/module-compare/issues"
                 }
             }

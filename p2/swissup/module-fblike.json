@@ -901,6 +901,53 @@
                     "source": "https://github.com/swissup/module-fblike/tree/1.3.8",
                     "issues": "https://github.com/swissup/module-fblike/issues"
                 }
+            },
+            {
+                "name": "swissup/module-fblike",
+                "version": "1.3.9",
+                "version_normalized": "1.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-fblike.git",
+                    "reference": "b56e824a888e0ecdcba16ac4f696687cea9d8a87"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-fblike/zipball/b56e824a888e0ecdcba16ac4f696687cea9d8a87",
+                    "reference": "b56e824a888e0ecdcba16ac4f696687cea9d8a87",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.18"
+                },
+                "time": "2024-01-29T14:03:12+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-fblike.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/facebooklikebutton/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Fblike\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Facebook Like Button for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/module-fblike/tree/1.3.9",
+                    "issues": "https://github.com/swissup/module-fblike/issues"
+                }
             }
         ]
     }

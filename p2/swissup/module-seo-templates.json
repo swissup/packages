@@ -2114,6 +2114,54 @@
                     "source": "https://github.com/swissup/module-seo-templates/tree/1.7.5",
                     "issues": "https://github.com/swissup/module-seo-templates/issues"
                 }
+            },
+            {
+                "name": "swissup/module-seo-templates",
+                "version": "1.7.6",
+                "version_normalized": "1.7.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-templates.git",
+                    "reference": "378d2b259751b8e694dc2615cb71d89e408cc36d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-templates/zipball/378d2b259751b8e694dc2615cb71d89e408cc36d",
+                    "reference": "378d2b259751b8e694dc2615cb71d89e408cc36d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.9"
+                },
+                "time": "2024-01-31T13:28:27+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-templates/tree/1.7.6",
+                    "issues": "https://github.com/swissup/module-seo-templates/issues"
+                }
             }
         ]
     }

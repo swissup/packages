@@ -1,5 +1,43 @@
 {
     "packages": {
-        "swissup/module-theme-editor-argento-chic": []
+        "swissup/module-theme-editor-argento-chic": [
+            {
+                "name": "swissup/module-theme-editor-argento-chic",
+                "version": "1.7.4",
+                "version_normalized": "1.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argento-chic.git",
+                    "reference": "5edefbf5240e3427b63c92c784d49525e1412e0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argento-chic/zipball/5edefbf5240e3427b63c92c784d49525e1412e0c",
+                    "reference": "5edefbf5240e3427b63c92c784d49525e1412e0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.9"
+                },
+                "time": "2024-02-22T10:16:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentoChic\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Chic theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argento-chic/tree/1.7.4",
+                    "issues": "https://github.com/swissup/module-theme-editor-argento-chic/issues"
+                }
+            }
+        ]
     }
 }

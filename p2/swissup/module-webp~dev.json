@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-webp.git",
-                    "reference": "96d6706f332bb4bacedbae0126fc9742cfd7c1ce"
+                    "reference": "2d2792c38e471d997ff236b77f26c9b516055e63"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-webp/zipball/96d6706f332bb4bacedbae0126fc9742cfd7c1ce",
-                    "reference": "96d6706f332bb4bacedbae0126fc9742cfd7c1ce",
+                    "url": "https://api.github.com/repos/swissup/module-webp/zipball/2d2792c38e471d997ff236b77f26c9b516055e63",
+                    "reference": "2d2792c38e471d997ff236b77f26c9b516055e63",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,10 @@
                     "rosell-dk/webp-convert": "^2.9",
                     "swissup/module-core": "^1.12.18"
                 },
-                "time": "2024-03-19T10:11:18+00:00",
+                "suggest": {
+                    "magestyapps/module-web-images": "This extension for Magento 2 allows uploading SVG and WebP images (composer require magestyapps/module-web-images)"
+                },
+                "time": "2024-03-19T15:05:39+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -43,7 +46,7 @@
                     "webp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-webp/tree/1.0.1",
+                    "source": "https://github.com/swissup/module-webp/tree/master",
                     "issues": "https://github.com/swissup/module-webp/issues"
                 }
             }

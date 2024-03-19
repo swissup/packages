@@ -45,6 +45,51 @@
                     "source": "https://github.com/swissup/module-webp/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-webp/issues"
                 }
+            },
+            {
+                "name": "swissup/module-webp",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-webp.git",
+                    "reference": "96d6706f332bb4bacedbae0126fc9742cfd7c1ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-webp/zipball/96d6706f332bb4bacedbae0126fc9742cfd7c1ce",
+                    "reference": "96d6706f332bb4bacedbae0126fc9742cfd7c1ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-catalog": ">=103.0",
+                    "rosell-dk/webp-convert": "^2.9",
+                    "swissup/module-core": "^1.12.18"
+                },
+                "time": "2024-03-19T10:11:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Webp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module for convert images to webp format",
+                "keywords": [
+                    "image",
+                    "optimization",
+                    "webp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-webp/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-webp/issues"
+                }
             }
         ]
     }

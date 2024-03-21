@@ -90,6 +90,54 @@
                     "source": "https://github.com/swissup/module-webp/tree/1.0.1",
                     "issues": "https://github.com/swissup/module-webp/issues"
                 }
+            },
+            {
+                "name": "swissup/module-webp",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-webp.git",
+                    "reference": "aa868690f5fcb2024f457b8ed8e5744d6c8aadec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-webp/zipball/aa868690f5fcb2024f457b8ed8e5744d6c8aadec",
+                    "reference": "aa868690f5fcb2024f457b8ed8e5744d6c8aadec",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-catalog": ">=103.0",
+                    "rosell-dk/webp-convert": "^2.9",
+                    "swissup/module-core": "^1.12.18"
+                },
+                "suggest": {
+                    "magestyapps/module-web-images": "This extension for Magento 2 allows uploading SVG and WebP images (composer require magestyapps/module-web-images)"
+                },
+                "time": "2024-03-21T15:41:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Webp\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 module for convert images to webp format",
+                "keywords": [
+                    "image",
+                    "optimization",
+                    "webp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-webp/tree/1.0.2",
+                    "issues": "https://github.com/swissup/module-webp/issues"
+                }
             }
         ]
     }

@@ -2903,6 +2903,74 @@
             },
             {
                 "name": "swissup/module-helpdesk",
+                "version": "1.2.43",
+                "version_normalized": "1.2.43.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "0ef559773c31f0d09bedf4e9b2e35dfd1d411bf7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-helpdesk/zipball/0ef559773c31f0d09bedf4e9b2e35dfd1d411bf7",
+                    "reference": "0ef559773c31f0d09bedf4e9b2e35dfd1d411bf7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "magento/framework": ">=102.0.5",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-email": ">=101.0",
+                    "magento/module-media-storage": ">=100.3",
+                    "magento/module-sales": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.18"
+                },
+                "time": "2024-03-26T14:31:54+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-helpdesk/tree/1.2.43",
+                    "issues": "https://github.com/swissup/module-helpdesk/issues"
+                }
+            },
+            {
+                "name": "swissup/module-helpdesk",
                 "version": "1.2.5",
                 "version_normalized": "1.2.5.0",
                 "source": {

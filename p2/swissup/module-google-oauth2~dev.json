@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "swissup/module-google-oauth2": [
+            {
+                "name": "swissup/module-google-oauth2",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-google-oauth2.git",
+                    "reference": "86dd7e5d9737530f4460363d1667fda6f0ba551d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-google-oauth2/zipball/86dd7e5d9737530f4460363d1667fda6f0ba551d",
+                    "reference": "86dd7e5d9737530f4460363d1667fda6f0ba551d",
+                    "shasum": ""
+                },
+                "require": {
+                    "league/oauth2-google": "^4.0",
+                    "magento/framework": "^102.0|^103.0",
+                    "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
+                    "swissup/module-core": "^1.12.19"
+                },
+                "time": "2024-06-19T13:38:24+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\GoogleOAuth\\": ""
+                    }
+                },
+                "description": "Magento 2 module to provide OAuth 2.0 support for Google API Services",
+                "support": {
+                    "source": "https://github.com/swissup/module-google-oauth2/tree/master",
+                    "issues": "https://github.com/swissup/module-google-oauth2/issues"
+                }
+            }
+        ]
+    }
+}

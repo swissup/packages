@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "d8b224d883f5949af5eaa691b0f85abe59ba616d"
+                    "reference": "b87dcd74b2767e8579e2cb48338d228884f60ff9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/d8b224d883f5949af5eaa691b0f85abe59ba616d",
-                    "reference": "d8b224d883f5949af5eaa691b0f85abe59ba616d",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/b87dcd74b2767e8579e2cb48338d228884f60ff9",
+                    "reference": "b87dcd74b2767e8579e2cb48338d228884f60ff9",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "magento/module-store": "^101.0",
                     "magento/module-ui": "^101.1",
                     "psr/log": "*",
-                    "swissup/module-oauth2-client": "*"
+                    "swissup/module-oauth2-client": "^1.0.0"
                 },
                 "require-dev": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
@@ -36,7 +36,7 @@
                     "aws/aws-sdk-php-zf2": "If you need to use Amazon SES (composer require aws/aws-sdk-php-zf2:>=1.0.1)",
                     "slm/mail": "If you need to use Mandrill or Amazon SES (composer require slm/mail:~1.5)"
                 },
-                "time": "2024-06-25T12:59:41+00:00",
+                "time": "2024-07-11T13:19:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -71,7 +71,7 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email/tree/master",
+                    "source": "https://github.com/swissup/module-email/tree/0.6.2",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             }

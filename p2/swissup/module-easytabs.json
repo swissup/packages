@@ -1128,6 +1128,68 @@
             },
             {
                 "name": "swissup/module-easytabs",
+                "version": "1.12.11",
+                "version_normalized": "1.12.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easytabs.git",
+                    "reference": "4e72cc5fde48c215be7e1fa79c22f2434fa9784a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/4e72cc5fde48c215be7e1fa79c22f2434fa9784a",
+                    "reference": "4e72cc5fde48c215be7e1fa79c22f2434fa9784a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.20"
+                },
+                "time": "2024-07-12T08:29:09+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easytabs/tree/1.12.11",
+                    "issues": "https://github.com/swissup/module-easytabs/issues"
+                }
+            },
+            {
+                "name": "swissup/module-easytabs",
                 "version": "1.12.2",
                 "version_normalized": "1.12.2.0",
                 "source": {

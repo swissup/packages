@@ -1,5 +1,43 @@
 {
     "packages": {
-        "swissup/module-theme-editor-argentobreeze-chic": []
+        "swissup/module-theme-editor-argentobreeze-chic": [
+            {
+                "name": "swissup/module-theme-editor-argentobreeze-chic",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argentobreeze-chic.git",
+                    "reference": "a7e50148c7473590e1e6fba3567e25b08534dd79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argentobreeze-chic/zipball/a7e50148c7473590e1e6fba3567e25b08534dd79",
+                    "reference": "a7e50148c7473590e1e6fba3567e25b08534dd79",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.10"
+                },
+                "time": "2024-07-18T08:09:29+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentobreezeChic\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Breeze Chic theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argentobreeze-chic/tree/1.0.0",
+                    "issues": "https://github.com/swissup/module-theme-editor-argentobreeze-chic/issues"
+                }
+            }
+        ]
     }
 }

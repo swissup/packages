@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "swissup/module-speculation-rules": [
+            {
+                "name": "swissup/module-speculation-rules",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-speculation-rules.git",
+                    "reference": "580c9a66746d97babbdf36f6881b28619fe2b04f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-speculation-rules/zipball/580c9a66746d97babbdf36f6881b28619fe2b04f",
+                    "reference": "580c9a66746d97babbdf36f6881b28619fe2b04f",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^102.0|^103.0",
+                    "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
+                    "swissup/module-core": "^1.12.19"
+                },
+                "time": "2024-07-24T14:08:01+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/speculation-rules/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/speculation-rules/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SpeculationRules\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Swissup Speculation Rules Module",
+                "support": {
+                    "source": "https://github.com/swissup/module-speculation-rules/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-speculation-rules/issues"
+                }
+            }
+        ]
+    }
+}

@@ -37,6 +37,43 @@
                     "source": "https://github.com/swissup/module-sold-together-custom-options/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-sold-together-custom-options/issues"
                 }
+            },
+            {
+                "name": "swissup/module-sold-together-custom-options",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together-custom-options.git",
+                    "reference": "8dccce526a7309aa29d455ab7d0b0071b5bf4dea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together-custom-options/zipball/8dccce526a7309aa29d455ab7d0b0071b5bf4dea",
+                    "reference": "8dccce526a7309aa29d455ab7d0b0071b5bf4dea",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-sold-together": "^1.10.1"
+                },
+                "time": "2024-08-30T13:10:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogetherCustomOptions\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Add product custom options to sold together blocks on storefront",
+                "support": {
+                    "source": "https://github.com/swissup/module-sold-together-custom-options/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-sold-together-custom-options/issues"
+                }
             }
         ]
     }

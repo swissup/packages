@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "swissup/module-checkout-security": [
+            {
+                "name": "swissup/module-checkout-security",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-security.git",
+                    "reference": "3449089321f3ff4aeda2e0d5a7ea7ea9286df132"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-security/zipball/3449089321f3ff4aeda2e0d5a7ea7ea9286df132",
+                    "reference": "3449089321f3ff4aeda2e0d5a7ea7ea9286df132",
+                    "shasum": ""
+                },
+                "time": "2024-09-06T11:53:54+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutSecurity\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento module to block unwanted requests",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-security/tree/master",
+                    "issues": "https://github.com/swissup/module-checkout-security/issues"
+                }
+            }
+        ]
+    }
+}

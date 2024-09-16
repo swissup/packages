@@ -37,6 +37,43 @@
                     "source": "https://github.com/swissup/module-bot-protection/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-bot-protection/issues"
                 }
+            },
+            {
+                "name": "swissup/module-bot-protection",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-bot-protection.git",
+                    "reference": "c7131224e0a7bf90a6edb5b9a56864d7c73e5472"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-bot-protection/zipball/c7131224e0a7bf90a6edb5b9a56864d7c73e5472",
+                    "reference": "c7131224e0a7bf90a6edb5b9a56864d7c73e5472",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.20"
+                },
+                "time": "2024-09-16T13:59:13+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BotProtection\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento module to block unwanted requests",
+                "support": {
+                    "source": "https://github.com/swissup/module-bot-protection/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-bot-protection/issues"
+                }
             }
         ]
     }

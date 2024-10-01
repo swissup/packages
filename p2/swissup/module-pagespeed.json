@@ -8713,6 +8713,86 @@
             },
             {
                 "name": "swissup/module-pagespeed",
+                "version": "1.8.12",
+                "version_normalized": "1.8.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "c48a126eb713a5deaf6f8202ddde2e84138b064d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/c48a126eb713a5deaf6f8202ddde2e84138b064d",
+                    "reference": "c48a126eb713a5deaf6f8202ddde2e84138b064d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "laminas/laminas-dom": "^2.7",
+                    "laminas/laminas-http": "^2.6",
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-catalog": ">=104.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-customer": ">=103.0",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-store": ">=101.1",
+                    "magento/module-theme": ">=101.1",
+                    "mobiledetect/mobiledetectlib": "^2.8|^3.74|^4.8",
+                    "mrclay/minify": "~3.0.0",
+                    "psr/log": "*",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-core": "^1.12.20",
+                    "swissup/module-image": "^1.0.0",
+                    "swissup/module-image-optimizer": "^1.0.4",
+                    "swissup/module-speculation-rules": "^1.0.3",
+                    "symfony/process": ">=4.1"
+                },
+                "time": "2024-10-01T14:04:19+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/",
+                            "store": "https://swissuplabs.com/page-speed-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-pagespeed.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-pagespeed/tree/1.8.12",
+                    "issues": "https://github.com/swissup/module-pagespeed/issues"
+                }
+            },
+            {
+                "name": "swissup/module-pagespeed",
                 "version": "1.8.2",
                 "version_normalized": "1.8.2.0",
                 "source": {

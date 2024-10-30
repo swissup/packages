@@ -218633,6 +218633,60 @@
                     "issues": "https://github.com/swissup/module-taxvat/issues"
                 }
             },
+            "1.4.7": {
+                "name": "swissup/module-taxvat",
+                "version": "1.4.7",
+                "version_normalized": "1.4.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-taxvat.git",
+                    "reference": "51ad8402a4be019c5b0fe2af285d9f20f82b8400"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-taxvat/zipball/51ad8402a4be019c5b0fe2af285d9f20f82b8400",
+                    "reference": "51ad8402a4be019c5b0fe2af285d9f20f82b8400",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2024-10-30T07:41:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/taxvat/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/taxvat/changelog"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-taxvat.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/taxvat/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/taxvat/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Taxvat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 Checkout Tax VAT",
+                "support": {
+                    "source": "https://github.com/swissup/module-taxvat/tree/1.4.7",
+                    "issues": "https://github.com/swissup/module-taxvat/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-taxvat",
                 "version": "dev-master",
@@ -218640,18 +218694,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-taxvat.git",
-                    "reference": "2daade3a3920c64898db38e7c67df433bc979674"
+                    "reference": "51ad8402a4be019c5b0fe2af285d9f20f82b8400"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-taxvat/zipball/2daade3a3920c64898db38e7c67df433bc979674",
-                    "reference": "2daade3a3920c64898db38e7c67df433bc979674",
+                    "url": "https://api.github.com/repos/swissup/module-taxvat/zipball/51ad8402a4be019c5b0fe2af285d9f20f82b8400",
+                    "reference": "51ad8402a4be019c5b0fe2af285d9f20f82b8400",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.2"
                 },
-                "time": "2024-10-29T09:04:06+00:00",
+                "time": "2024-10-30T07:41:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -218684,7 +218738,7 @@
                 ],
                 "description": "Magento 2 Checkout Tax VAT",
                 "support": {
-                    "source": "https://github.com/swissup/module-taxvat/tree/master",
+                    "source": "https://github.com/swissup/module-taxvat/tree/1.4.7",
                     "issues": "https://github.com/swissup/module-taxvat/issues"
                 }
             }

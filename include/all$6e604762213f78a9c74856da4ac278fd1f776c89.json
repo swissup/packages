@@ -216576,6 +216576,40 @@
             }
         },
         "swissup/module-stripe-enhancements": {
+            "1.0.0": {
+                "name": "swissup/module-stripe-enhancements",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-stripe-enhancements.git",
+                    "reference": "9c3004bf710a98263e71c9ce00cdfd7a56768607"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-stripe-enhancements/zipball/9c3004bf710a98263e71c9ce00cdfd7a56768607",
+                    "reference": "9c3004bf710a98263e71c9ce00cdfd7a56768607",
+                    "shasum": ""
+                },
+                "time": "2024-08-01T12:47:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\StripeEnhancements\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "StripePayment module enhancements",
+                "support": {
+                    "source": "https://github.com/swissup/module-stripe-enhancements/tree/1.0.0",
+                    "issues": "https://github.com/swissup/module-stripe-enhancements/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-stripe-enhancements",
                 "version": "dev-master",
@@ -216607,7 +216641,7 @@
                 ],
                 "description": "StripePayment module enhancements",
                 "support": {
-                    "source": "https://github.com/swissup/module-stripe-enhancements/tree/master",
+                    "source": "https://github.com/swissup/module-stripe-enhancements/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-stripe-enhancements/issues"
                 }
             }

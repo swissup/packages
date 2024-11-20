@@ -432,6 +432,54 @@
                     "source": "https://github.com/swissup/module-featured-attributes/tree/1.1.7",
                     "issues": "https://github.com/swissup/module-featured-attributes/issues"
                 }
+            },
+            {
+                "name": "swissup/module-featured-attributes",
+                "version": "1.1.8",
+                "version_normalized": "1.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-featured-attributes.git",
+                    "reference": "e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-featured-attributes/zipball/e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a",
+                    "reference": "e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.20"
+                },
+                "time": "2024-11-20T15:02:43+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "download": "https://github.com/swissup/featured-attributes"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FeaturedAttributes\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Featured attributes extension from Swissup",
+                "keywords": [
+                    "attributes on category page",
+                    "featured attributes"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-featured-attributes/tree/1.1.8",
+                    "issues": "https://github.com/swissup/module-featured-attributes/issues"
+                }
             }
         ]
     }

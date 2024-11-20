@@ -120788,6 +120788,67 @@
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             },
+            "1.5.9": {
+                "name": "swissup/module-easycatalogimg",
+                "version": "1.5.9",
+                "version_normalized": "1.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-easycatalogimg.git",
+                    "reference": "2b3734a1b3cc60a5bf001c978104b56f3b8ee773"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/2b3734a1b3cc60a5bf001c978104b56f3b8ee773",
+                    "reference": "2b3734a1b3cc60a5bf001c978104b56f3b8ee773",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.20"
+                },
+                "time": "2024-11-20T15:02:37+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/magento-2-easy-catalog-images.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easycatalogimages.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easycatalogimg\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Catalog Images extension from Swissup",
+                "keywords": [
+                    "category thumbnail",
+                    "easycatalogimages",
+                    "subcategory listing"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.5.9",
+                    "issues": "https://github.com/swissup/module-easycatalogimg/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-easycatalogimg",
                 "version": "dev-master",
@@ -120795,18 +120856,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easycatalogimg.git",
-                    "reference": "129aca322300e9ebc92accbeae89e68a6121e505"
+                    "reference": "2b3734a1b3cc60a5bf001c978104b56f3b8ee773"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/129aca322300e9ebc92accbeae89e68a6121e505",
-                    "reference": "129aca322300e9ebc92accbeae89e68a6121e505",
+                    "url": "https://api.github.com/repos/swissup/module-easycatalogimg/zipball/2b3734a1b3cc60a5bf001c978104b56f3b8ee773",
+                    "reference": "2b3734a1b3cc60a5bf001c978104b56f3b8ee773",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.20"
                 },
-                "time": "2024-11-11T10:34:31+00:00",
+                "time": "2024-11-20T15:02:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -120846,7 +120907,7 @@
                     "subcategory listing"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easycatalogimg/tree/master",
+                    "source": "https://github.com/swissup/module-easycatalogimg/tree/1.5.9",
                     "issues": "https://github.com/swissup/module-easycatalogimg/issues"
                 }
             }

@@ -3,6 +3,40 @@
         "swissup/module-core": [
             {
                 "name": "swissup/module-core",
+                "version": "dev-feature/clear-cache-button",
+                "version_normalized": "dev-feature/clear-cache-button",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-core.git",
+                    "reference": "6fdf6071951a09bcddab134c320983f9dd587ce2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-core/zipball/6fdf6071951a09bcddab134c320983f9dd587ce2",
+                    "reference": "6fdf6071951a09bcddab134c320983f9dd587ce2",
+                    "shasum": ""
+                },
+                "time": "2024-12-02T14:52:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries",
+                "support": {
+                    "source": "https://github.com/swissup/module-core/tree/feature/clear-cache-button",
+                    "issues": "https://github.com/swissup/module-core/issues"
+                }
+            },
+            {
+                "name": "swissup/module-core",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

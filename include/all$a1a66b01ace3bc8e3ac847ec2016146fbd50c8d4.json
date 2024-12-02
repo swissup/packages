@@ -105677,6 +105677,40 @@
                     "issues": "https://github.com/swissup/module-core/issues"
                 }
             },
+            "dev-feature/clear-cache-button": {
+                "name": "swissup/module-core",
+                "version": "dev-feature/clear-cache-button",
+                "version_normalized": "dev-feature/clear-cache-button",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-core.git",
+                    "reference": "6fdf6071951a09bcddab134c320983f9dd587ce2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-core/zipball/6fdf6071951a09bcddab134c320983f9dd587ce2",
+                    "reference": "6fdf6071951a09bcddab134c320983f9dd587ce2",
+                    "shasum": ""
+                },
+                "time": "2024-12-02T14:52:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries",
+                "support": {
+                    "source": "https://github.com/swissup/module-core/tree/feature/clear-cache-button",
+                    "issues": "https://github.com/swissup/module-core/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-core",
                 "version": "dev-master",
@@ -147419,12 +147453,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "0d1ce583beb267e1b74d151d4b5bb77332e8ea96"
+                    "reference": "b144e483937d0e6e60f3ab39662b4dcc32a37d99"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/0d1ce583beb267e1b74d151d4b5bb77332e8ea96",
-                    "reference": "0d1ce583beb267e1b74d151d4b5bb77332e8ea96",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/b144e483937d0e6e60f3ab39662b4dcc32a37d99",
+                    "reference": "b144e483937d0e6e60f3ab39662b4dcc32a37d99",
                     "shasum": ""
                 },
                 "require": {
@@ -147432,7 +147466,7 @@
                     "swissup/module-core": "^1.12.20",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2024-10-25T12:46:42+00:00",
+                "time": "2024-12-02T12:01:01+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -147462,7 +147496,7 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/1.7.8",
+                    "source": "https://github.com/swissup/module-gdpr/tree/master",
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             }
@@ -185693,12 +185727,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "cbd0aa24eb95d46fdc6483f55c5395283be78c6e"
+                    "reference": "03dbd3eba35cd59293a2f974f755bc0cf157d2c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/cbd0aa24eb95d46fdc6483f55c5395283be78c6e",
-                    "reference": "cbd0aa24eb95d46fdc6483f55c5395283be78c6e",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/03dbd3eba35cd59293a2f974f755bc0cf157d2c9",
+                    "reference": "03dbd3eba35cd59293a2f974f755bc0cf157d2c9",
                     "shasum": ""
                 },
                 "require": {
@@ -185725,7 +185759,7 @@
                     "swissup/module-speculation-rules": "^1.0.3",
                     "symfony/process": ">=4.1"
                 },
-                "time": "2024-11-29T22:29:18+00:00",
+                "time": "2024-12-02T08:50:38+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -274296,18 +274330,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-flat.git",
-                    "reference": "8d6af185353cf74cc6670c25bd2c593f9ff3dd60"
+                    "reference": "d8eb5ae08c24bd0fc25783c2b3dfc5bf59d3b073"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-flat/zipball/8d6af185353cf74cc6670c25bd2c593f9ff3dd60",
-                    "reference": "8d6af185353cf74cc6670c25bd2c593f9ff3dd60",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argento-flat/zipball/d8eb5ae08c24bd0fc25783c2b3dfc5bf59d3b073",
+                    "reference": "d8eb5ae08c24bd0fc25783c2b3dfc5bf59d3b073",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2024-11-29T13:05:47+00:00",
+                "time": "2024-12-02T11:33:28+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "extra": {

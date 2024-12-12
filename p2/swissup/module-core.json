@@ -916,6 +916,40 @@
             },
             {
                 "name": "swissup/module-core",
+                "version": "1.12.21",
+                "version_normalized": "1.12.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-core.git",
+                    "reference": "74757c6c924c715de1de441ee3ac6d47336a25aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-core/zipball/74757c6c924c715de1de441ee3ac6d47336a25aa",
+                    "reference": "74757c6c924c715de1de441ee3ac6d47336a25aa",
+                    "shasum": ""
+                },
+                "time": "2024-12-12T09:03:20+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries",
+                "support": {
+                    "source": "https://github.com/swissup/module-core/tree/1.12.21",
+                    "issues": "https://github.com/swissup/module-core/issues"
+                }
+            },
+            {
+                "name": "swissup/module-core",
                 "version": "1.12.3",
                 "version_normalized": "1.12.3.0",
                 "source": {

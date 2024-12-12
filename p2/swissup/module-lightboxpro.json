@@ -1289,6 +1289,59 @@
                     "source": "https://github.com/swissup/module-lightboxpro/tree/1.3.6",
                     "issues": "https://github.com/swissup/module-lightboxpro/issues"
                 }
+            },
+            {
+                "name": "swissup/module-lightboxpro",
+                "version": "1.3.7",
+                "version_normalized": "1.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-lightboxpro.git",
+                    "reference": "197ef57d315c3cfae2b01462671b6001bab7d5a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/197ef57d315c3cfae2b01462671b6001bab7d5a8",
+                    "reference": "197ef57d315c3cfae2b01462671b6001bab7d5a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.21"
+                },
+                "time": "2024-12-12T09:05:01+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-lightboxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/lightboxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/lightboxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Lightboxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Lightbox Pro module for Magento 2",
+                "keywords": [
+                    "lightbox",
+                    "product image",
+                    "zoom"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.3.7",
+                    "issues": "https://github.com/swissup/module-lightboxpro/issues"
+                }
             }
         ]
     }

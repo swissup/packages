@@ -95361,6 +95361,64 @@
                     "issues": "https://github.com/swissup/module-cache-warmer/issues"
                 }
             },
+            "1.0.32": {
+                "name": "swissup/module-cache-warmer",
+                "version": "1.0.32",
+                "version_normalized": "1.0.32.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-cache-warmer.git",
+                    "reference": "c303cf0444451177fa96f7d259a236fed8878d9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/c303cf0444451177fa96f7d259a236fed8878d9c",
+                    "reference": "c303cf0444451177fa96f7d259a236fed8878d9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2|^7.3",
+                    "guzzlehttp/promises": "^1.5|^2.0",
+                    "laminas/laminas-uri": "^2.9",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-page-cache": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-url-rewrite": ">=101.1",
+                    "psr/http-message": "*",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.21"
+                },
+                "time": "2024-12-13T11:59:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CacheWarmer\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Cache Warmer module",
+                "keywords": [
+                    "cache",
+                    "cron",
+                    "full page",
+                    "pagespeed",
+                    "warmer"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-cache-warmer/tree/1.0.32",
+                    "issues": "https://github.com/swissup/module-cache-warmer/issues"
+                }
+            },
             "1.0.4": {
                 "name": "swissup/module-cache-warmer",
                 "version": "1.0.4",
@@ -95668,12 +95726,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-cache-warmer.git",
-                    "reference": "ea9e7eded80c24c79f204efeffd5914193210b15"
+                    "reference": "c303cf0444451177fa96f7d259a236fed8878d9c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/ea9e7eded80c24c79f204efeffd5914193210b15",
-                    "reference": "ea9e7eded80c24c79f204efeffd5914193210b15",
+                    "url": "https://api.github.com/repos/swissup/module-cache-warmer/zipball/c303cf0444451177fa96f7d259a236fed8878d9c",
+                    "reference": "c303cf0444451177fa96f7d259a236fed8878d9c",
                     "shasum": ""
                 },
                 "require": {
@@ -95691,9 +95749,9 @@
                     "magento/module-url-rewrite": ">=101.1",
                     "psr/http-message": "*",
                     "psr/log": "*",
-                    "swissup/module-core": "^1.12.20"
+                    "swissup/module-core": "^1.12.21"
                 },
-                "time": "2024-12-10T09:31:48+00:00",
+                "time": "2024-12-13T11:59:30+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -95716,7 +95774,7 @@
                     "warmer"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-cache-warmer/tree/master",
+                    "source": "https://github.com/swissup/module-cache-warmer/tree/1.0.32",
                     "issues": "https://github.com/swissup/module-cache-warmer/issues"
                 }
             }

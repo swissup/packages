@@ -148746,12 +148746,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "cd10dfe40f469d6a0720c8752845806e0542382a"
+                    "reference": "d491bcf44431a7b0402664ec00d4ae21998ed7c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/cd10dfe40f469d6a0720c8752845806e0542382a",
-                    "reference": "cd10dfe40f469d6a0720c8752845806e0542382a",
+                    "url": "https://api.github.com/repos/swissup/module-gdpr/zipball/d491bcf44431a7b0402664ec00d4ae21998ed7c3",
+                    "reference": "d491bcf44431a7b0402664ec00d4ae21998ed7c3",
                     "shasum": ""
                 },
                 "require": {
@@ -148759,7 +148759,7 @@
                     "swissup/module-core": "^1.12.20",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2024-12-12T09:02:18+00:00",
+                "time": "2025-01-17T13:30:31+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -148789,7 +148789,7 @@
                     "gdpr"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-gdpr/tree/1.7.9",
+                    "source": "https://github.com/swissup/module-gdpr/tree/master",
                     "issues": "https://github.com/swissup/module-gdpr/issues"
                 }
             }
@@ -301816,6 +301816,43 @@
                 "support": {
                     "source": "https://github.com/swissup/theme-frontend-argentobreeze-blank/tree/2.1.3",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-blank/issues"
+                }
+            }
+        },
+        "swissup/theme-frontend-argentobreeze-business": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-argentobreeze-business",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
+                    "reference": "01bfea98aee45596dbff3554d0cb7af40272c3d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/01bfea98aee45596dbff3554d0cb7af40272c3d2",
+                    "reference": "01bfea98aee45596dbff3554d0cb7af40272c3d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.1.3"
+                },
+                "time": "2025-01-17T13:52:46+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Business Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-business/tree/master",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-business/issues"
                 }
             }
         },

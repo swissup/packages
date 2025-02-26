@@ -195265,6 +195265,48 @@
                     "issues": "https://github.com/swissup/module-quantity-switcher/issues"
                 }
             },
+            "1.1.24": {
+                "name": "swissup/module-quantity-switcher",
+                "version": "1.1.24",
+                "version_normalized": "1.1.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-quantity-switcher.git",
+                    "reference": "45bd331953a83aa9f613c1a16e406244a3194461"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-quantity-switcher/zipball/45bd331953a83aa9f613c1a16e406244a3194461",
+                    "reference": "45bd331953a83aa9f613c1a16e406244a3194461",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.21",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2025-02-26T13:09:28+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\QuantitySwitcher\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Quantity Switcher extension for Magento 2.x e-commerce",
+                "keywords": [
+                    "quantity",
+                    "switcher"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-quantity-switcher/tree/1.1.24",
+                    "issues": "https://github.com/swissup/module-quantity-switcher/issues"
+                }
+            },
             "1.1.3": {
                 "name": "swissup/module-quantity-switcher",
                 "version": "1.1.3",
@@ -195564,19 +195606,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-quantity-switcher.git",
-                    "reference": "6bb754c2d131de332bc9e86863ebc20c45262f63"
+                    "reference": "45bd331953a83aa9f613c1a16e406244a3194461"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-quantity-switcher/zipball/6bb754c2d131de332bc9e86863ebc20c45262f63",
-                    "reference": "6bb754c2d131de332bc9e86863ebc20c45262f63",
+                    "url": "https://api.github.com/repos/swissup/module-quantity-switcher/zipball/45bd331953a83aa9f613c1a16e406244a3194461",
+                    "reference": "45bd331953a83aa9f613c1a16e406244a3194461",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.20",
+                    "swissup/module-core": "^1.12.21",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2024-11-28T13:00:06+00:00",
+                "time": "2025-02-26T13:09:28+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -195596,7 +195638,7 @@
                     "switcher"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-quantity-switcher/tree/1.1.23",
+                    "source": "https://github.com/swissup/module-quantity-switcher/tree/1.1.24",
                     "issues": "https://github.com/swissup/module-quantity-switcher/issues"
                 }
             }

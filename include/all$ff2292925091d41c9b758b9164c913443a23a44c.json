@@ -189339,19 +189339,19 @@
                     "issues": "https://github.com/swissup/module-partytown/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/module-partytown",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-partytown.git",
-                    "reference": "0567559dd468b9c874e26590224e9397f6de567b"
+                    "reference": "a7e784a32f7a462143437cbd341493b89c082d75"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-partytown/zipball/0567559dd468b9c874e26590224e9397f6de567b",
-                    "reference": "0567559dd468b9c874e26590224e9397f6de567b",
+                    "url": "https://api.github.com/repos/swissup/module-partytown/zipball/a7e784a32f7a462143437cbd341493b89c082d75",
+                    "reference": "a7e784a32f7a462143437cbd341493b89c082d75",
                     "shasum": ""
                 },
                 "require": {
@@ -189359,9 +189359,50 @@
                     "magento/module-config": "^101.0.0",
                     "magento/module-store": "^101.0.0",
                     "swissup/module-core": "^1.12.21",
-                    "swissup/module-pagespeed": "^1.10.0"
+                    "swissup/module-pagespeed": "^1.11.0"
                 },
-                "time": "2025-03-05T13:06:34+00:00",
+                "time": "2025-03-06T15:13:50+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Partytown\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for Partytown integration",
+                "support": {
+                    "source": "https://github.com/swissup/module-partytown/tree/1.0.1",
+                    "issues": "https://github.com/swissup/module-partytown/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-partytown",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-partytown.git",
+                    "reference": "a7e784a32f7a462143437cbd341493b89c082d75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-partytown/zipball/a7e784a32f7a462143437cbd341493b89c082d75",
+                    "reference": "a7e784a32f7a462143437cbd341493b89c082d75",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^103.0.0",
+                    "magento/module-config": "^101.0.0",
+                    "magento/module-store": "^101.0.0",
+                    "swissup/module-core": "^1.12.21",
+                    "swissup/module-pagespeed": "^1.11.0"
+                },
+                "time": "2025-03-06T15:13:50+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -189377,7 +189418,7 @@
                 ],
                 "description": "Magento 2 module for Partytown integration",
                 "support": {
-                    "source": "https://github.com/swissup/module-partytown/tree/master",
+                    "source": "https://github.com/swissup/module-partytown/tree/1.0.1",
                     "issues": "https://github.com/swissup/module-partytown/issues"
                 }
             }

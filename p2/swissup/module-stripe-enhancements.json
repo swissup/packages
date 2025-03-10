@@ -136,6 +136,40 @@
                     "source": "https://github.com/swissup/module-stripe-enhancements/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-stripe-enhancements/issues"
                 }
+            },
+            {
+                "name": "swissup/module-stripe-enhancements",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-stripe-enhancements.git",
+                    "reference": "bba36c06f24e11edc3b384667c814d71f66baee6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-stripe-enhancements/zipball/bba36c06f24e11edc3b384667c814d71f66baee6",
+                    "reference": "bba36c06f24e11edc3b384667c814d71f66baee6",
+                    "shasum": ""
+                },
+                "time": "2025-03-10T07:50:40+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\StripeEnhancements\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "StripePayment module enhancements",
+                "support": {
+                    "source": "https://github.com/swissup/module-stripe-enhancements/tree/1.1.3",
+                    "issues": "https://github.com/swissup/module-stripe-enhancements/issues"
+                }
             }
         ]
     }

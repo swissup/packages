@@ -82,6 +82,47 @@
                     "source": "https://github.com/swissup/module-partytown/tree/1.0.1",
                     "issues": "https://github.com/swissup/module-partytown/issues"
                 }
+            },
+            {
+                "name": "swissup/module-partytown",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-partytown.git",
+                    "reference": "89990eb9a9adfd59d620bda12db4f653f9bad4c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-partytown/zipball/89990eb9a9adfd59d620bda12db4f653f9bad4c6",
+                    "reference": "89990eb9a9adfd59d620bda12db4f653f9bad4c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^103.0.0",
+                    "magento/module-config": "^101.0.0",
+                    "magento/module-store": "^101.0.0",
+                    "swissup/module-core": "^1.12.21",
+                    "swissup/module-pagespeed": "^1.11.0"
+                },
+                "time": "2025-03-11T12:04:28+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Partytown\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for Partytown integration",
+                "support": {
+                    "source": "https://github.com/swissup/module-partytown/tree/1.0.2",
+                    "issues": "https://github.com/swissup/module-partytown/issues"
+                }
             }
         ]
     }

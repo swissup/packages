@@ -236372,6 +236372,43 @@
                     "issues": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/issues"
                 }
             },
+            "1.1.0": {
+                "name": "swissup/module-theme-editor-argentobreeze-stripes",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argentobreeze-stripes.git",
+                    "reference": "709cfcaa50addbf0da32802018c35823880f26ac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argentobreeze-stripes/zipball/709cfcaa50addbf0da32802018c35823880f26ac",
+                    "reference": "709cfcaa50addbf0da32802018c35823880f26ac",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.12"
+                },
+                "time": "2025-03-31T14:27:37+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentobreezeStripes\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles for Argento Breeze Stripes theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/tree/1.1.0",
+                    "issues": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-theme-editor-argentobreeze-stripes",
                 "version": "dev-master",
@@ -236379,18 +236416,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-theme-editor-argentobreeze-stripes.git",
-                    "reference": "abd6d2d68e1882f0632eaf1477d8a1468ad278d9"
+                    "reference": "709cfcaa50addbf0da32802018c35823880f26ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argentobreeze-stripes/zipball/abd6d2d68e1882f0632eaf1477d8a1468ad278d9",
-                    "reference": "abd6d2d68e1882f0632eaf1477d8a1468ad278d9",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argentobreeze-stripes/zipball/709cfcaa50addbf0da32802018c35823880f26ac",
+                    "reference": "709cfcaa50addbf0da32802018c35823880f26ac",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-theme-editor": "^1.10.12"
                 },
-                "time": "2025-03-27T15:59:29+00:00",
+                "time": "2025-03-31T14:27:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -236406,7 +236443,7 @@
                 ],
                 "description": "Theme styles for Argento Breeze Stripes theme",
                 "support": {
-                    "source": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/tree/master",
+                    "source": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/tree/1.1.0",
                     "issues": "https://github.com/swissup/module-theme-editor-argentobreeze-stripes/issues"
                 }
             }

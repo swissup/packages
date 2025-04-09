@@ -102535,6 +102535,51 @@
                     "issues": "https://github.com/swissup/module-checkout-registration/issues"
                 }
             },
+            "1.2.1": {
+                "name": "swissup/module-checkout-registration",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-registration.git",
+                    "reference": "a93a93255da21170eb53866a0151250617afc397"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/a93a93255da21170eb53866a0151250617afc397",
+                    "reference": "a93a93255da21170eb53866a0151250617afc397",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2025-04-09T11:49:42+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutRegistration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Configurable customer registration at checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-registration/tree/1.2.1",
+                    "issues": "https://github.com/swissup/module-checkout-registration/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-checkout-registration",
                 "version": "dev-master",
@@ -102542,18 +102587,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-registration.git",
-                    "reference": "6ccde3bf5eafbabb0623f2660a4b0b6dec6f85d1"
+                    "reference": "a93a93255da21170eb53866a0151250617afc397"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/6ccde3bf5eafbabb0623f2660a4b0b6dec6f85d1",
-                    "reference": "6ccde3bf5eafbabb0623f2660a4b0b6dec6f85d1",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-registration/zipball/a93a93255da21170eb53866a0151250617afc397",
+                    "reference": "a93a93255da21170eb53866a0151250617afc397",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.2"
                 },
-                "time": "2025-04-01T13:38:51+00:00",
+                "time": "2025-04-09T11:49:42+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -102577,7 +102622,7 @@
                 ],
                 "description": "Configurable customer registration at checkout page",
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout-registration/tree/master",
+                    "source": "https://github.com/swissup/module-checkout-registration/tree/1.2.1",
                     "issues": "https://github.com/swissup/module-checkout-registration/issues"
                 }
             }

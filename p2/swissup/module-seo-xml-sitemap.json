@@ -475,6 +475,53 @@
             },
             {
                 "name": "swissup/module-seo-xml-sitemap",
+                "version": "1.1.16",
+                "version_normalized": "1.1.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-xml-sitemap.git",
+                    "reference": "6d09a341700cbe7929065aca91949f160d78486f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-xml-sitemap/zipball/6d09a341700cbe7929065aca91949f160d78486f",
+                    "reference": "6d09a341700cbe7929065aca91949f160d78486f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.9"
+                },
+                "time": "2025-04-09T11:49:30+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-xml-sitemap/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoXmlSitemap\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced XML Sitemap for Magento 2",
+                "keywords": [
+                    "xml sitemap"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-xml-sitemap/tree/1.1.16",
+                    "issues": "https://github.com/swissup/module-seo-xml-sitemap/issues"
+                }
+            },
+            {
+                "name": "swissup/module-seo-xml-sitemap",
                 "version": "1.1.2",
                 "version_normalized": "1.1.2.0",
                 "source": {

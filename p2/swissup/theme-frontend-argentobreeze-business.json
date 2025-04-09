@@ -1,5 +1,40 @@
 {
     "packages": {
-        "swissup/theme-frontend-argentobreeze-business": []
+        "swissup/theme-frontend-argentobreeze-business": [
+            {
+                "name": "swissup/theme-frontend-argentobreeze-business",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
+                    "reference": "316f4a3ce67019bd4e293f420ba1b3314a8324cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/316f4a3ce67019bd4e293f420ba1b3314a8324cb",
+                    "reference": "316f4a3ce67019bd4e293f420ba1b3314a8324cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.0"
+                },
+                "time": "2025-04-09T12:59:43+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Business Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-business/tree/2.6.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-business/issues"
+                }
+            }
+        ]
     }
 }

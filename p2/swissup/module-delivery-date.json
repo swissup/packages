@@ -1551,6 +1551,51 @@
             },
             {
                 "name": "swissup/module-delivery-date",
+                "version": "1.7.11",
+                "version_normalized": "1.7.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "86b0fdce28038070d25c90453f0ac90686fe992b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-delivery-date/zipball/86b0fdce28038070d25c90453f0ac90686fe992b",
+                    "reference": "86b0fdce28038070d25c90453f0ac90686fe992b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2025-04-09T11:49:45+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page",
+                "support": {
+                    "source": "https://github.com/swissup/module-delivery-date/tree/1.7.11",
+                    "issues": "https://github.com/swissup/module-delivery-date/issues"
+                }
+            },
+            {
+                "name": "swissup/module-delivery-date",
                 "version": "1.7.2",
                 "version_normalized": "1.7.2.0",
                 "source": {

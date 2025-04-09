@@ -176196,6 +176196,70 @@
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             },
+            "1.17.27": {
+                "name": "swissup/module-navigationpro",
+                "version": "1.17.27",
+                "version_normalized": "1.17.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-navigationpro.git",
+                    "reference": "318aa6e17b56dade058fdfddfeabed7b439c24fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/318aa6e17b56dade058fdfddfeabed7b439c24fd",
+                    "reference": "318aa6e17b56dade058fdfddfeabed7b439c24fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.22",
+                    "swissup/module-rtl": "^1.3.4",
+                    "swissup/module-stickyfill": "^1.2.2"
+                },
+                "time": "2025-04-09T11:49:55+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/navigationpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-navigationpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/navigationpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/navigationpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Navigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2",
+                "keywords": [
+                    "amazon menu",
+                    "megamenu",
+                    "menu",
+                    "navigation",
+                    "rtl menu",
+                    "sidebar menu"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-navigationpro/tree/1.17.27",
+                    "issues": "https://github.com/swissup/module-navigationpro/issues"
+                }
+            },
             "1.17.3": {
                 "name": "swissup/module-navigationpro",
                 "version": "1.17.3",
@@ -177467,20 +177531,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "b1b8e9af72e903c00b8f1662c0e8f5a6bf6dfffe"
+                    "reference": "318aa6e17b56dade058fdfddfeabed7b439c24fd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/b1b8e9af72e903c00b8f1662c0e8f5a6bf6dfffe",
-                    "reference": "b1b8e9af72e903c00b8f1662c0e8f5a6bf6dfffe",
+                    "url": "https://api.github.com/repos/swissup/module-navigationpro/zipball/318aa6e17b56dade058fdfddfeabed7b439c24fd",
+                    "reference": "318aa6e17b56dade058fdfddfeabed7b439c24fd",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.21",
+                    "swissup/module-core": "^1.12.22",
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-stickyfill": "^1.2.2"
                 },
-                "time": "2025-04-03T11:30:40+00:00",
+                "time": "2025-04-09T11:49:55+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -177521,7 +177585,7 @@
                     "sidebar menu"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-navigationpro/tree/master",
+                    "source": "https://github.com/swissup/module-navigationpro/tree/1.17.27",
                     "issues": "https://github.com/swissup/module-navigationpro/issues"
                 }
             }

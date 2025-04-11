@@ -239670,6 +239670,46 @@
                 }
             }
         },
+        "swissup/module-theme-editor-argentobreeze-business": {
+            "dev-master": {
+                "name": "swissup/module-theme-editor-argentobreeze-business",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor-argentobreeze-business.git",
+                    "reference": "7acfd56592c01985bca2ee73701fd48871f3abdc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor-argentobreeze-business/zipball/7acfd56592c01985bca2ee73701fd48871f3abdc",
+                    "reference": "7acfd56592c01985bca2ee73701fd48871f3abdc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-theme-editor": "^1.10.12"
+                },
+                "time": "2025-04-11T13:58:35+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditorArgentobreezeBusiness\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme editor for ArgentoBreeze Business theme",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor-argentobreeze-business/tree/master",
+                    "issues": "https://github.com/swissup/module-theme-editor-argentobreeze-business/issues"
+                }
+            }
+        },
         "swissup/module-theme-editor-argentobreeze-chic": {
             "1.0.0": {
                 "name": "swissup/module-theme-editor-argentobreeze-chic",

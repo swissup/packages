@@ -558,6 +558,43 @@
             },
             {
                 "name": "swissup/module-seo-cross-links",
+                "version": "1.1.16",
+                "version_normalized": "1.1.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-cross-links.git",
+                    "reference": "29b1b353902a538ff477197596d27d7f93fd5fa9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-seo-cross-links/zipball/29b1b353902a538ff477197596d27d7f93fd5fa9",
+                    "reference": "29b1b353902a538ff477197596d27d7f93fd5fa9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2025-04-22T11:26:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoCrossLinks\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "SEO crosslinks increase the SEO value of your store",
+                "support": {
+                    "source": "https://github.com/swissup/module-seo-cross-links/tree/1.1.16",
+                    "issues": "https://github.com/swissup/module-seo-cross-links/issues"
+                }
+            },
+            {
+                "name": "swissup/module-seo-cross-links",
                 "version": "1.1.2",
                 "version_normalized": "1.1.2.0",
                 "source": {

@@ -758,6 +758,44 @@
             },
             {
                 "name": "swissup/module-theme-editor",
+                "version": "1.11.1",
+                "version_normalized": "1.11.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-theme-editor.git",
+                    "reference": "a60f3a8b984159f88cb6cae8c97cc34aebbf5cd9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/a60f3a8b984159f88cb6cae8c97cc34aebbf5cd9",
+                    "reference": "a60f3a8b984159f88cb6cae8c97cc34aebbf5cd9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.22"
+                },
+                "time": "2025-04-28T12:58:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles editing extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/module-theme-editor/tree/1.11.1",
+                    "issues": "https://github.com/swissup/module-theme-editor/issues"
+                }
+            },
+            {
+                "name": "swissup/module-theme-editor",
                 "version": "1.2.0",
                 "version_normalized": "1.2.0.0",
                 "source": {

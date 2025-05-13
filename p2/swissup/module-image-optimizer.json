@@ -153,6 +153,57 @@
             },
             {
                 "name": "swissup/module-image-optimizer",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-image-optimizer.git",
+                    "reference": "c8dbb3000f2218e949e7a29c1f6988a39eabe17c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-image-optimizer/zipball/c8dbb3000f2218e949e7a29c1f6988a39eabe17c",
+                    "reference": "c8dbb3000f2218e949e7a29c1f6988a39eabe17c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "guzzlehttp/guzzle": "^6.3|^7.3",
+                    "guzzlehttp/psr7": "^1.4|^2.3",
+                    "magento/framework": ">=103.0",
+                    "magento/module-catalog": ">=104.0",
+                    "magento/module-store": ">=101.1",
+                    "psr/log": "*",
+                    "spatie/image-optimizer": "^1.1",
+                    "swissup/module-core": "^1.12.22",
+                    "swissup/module-image": "^1.0.0",
+                    "symfony/process": ">=4.1"
+                },
+                "time": "2025-05-13T11:17:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ImageOptimizer\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Swissup Image Optimizer module",
+                "keywords": [
+                    "image",
+                    "optimization"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-image-optimizer/tree/1.0.11",
+                    "issues": "https://github.com/swissup/module-image-optimizer/issues"
+                }
+            },
+            {
+                "name": "swissup/module-image-optimizer",
                 "version": "1.0.2",
                 "version_normalized": "1.0.2.0",
                 "source": {

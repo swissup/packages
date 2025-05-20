@@ -304,6 +304,44 @@
                     "source": "https://github.com/swissup/module-pro-labels-configurable-product/tree/1.0.7",
                     "issues": "https://github.com/swissup/module-pro-labels-configurable-product/issues"
                 }
+            },
+            {
+                "name": "swissup/module-pro-labels-configurable-product",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels-configurable-product.git",
+                    "reference": "d54d3b44e32191637cdf8451c97638f0bf71a487"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels-configurable-product/zipball/d54d3b44e32191637cdf8451c97638f0bf71a487",
+                    "reference": "d54d3b44e32191637cdf8451c97638f0bf71a487",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-configurable-product": ">=100.0",
+                    "swissup/module-pro-labels": "^1.7.19"
+                },
+                "time": "2025-05-20T04:46:54+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabelsConfigurableProduct\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges. Advanced behavior for configurable product",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels-configurable-product/tree/1.0.8",
+                    "issues": "https://github.com/swissup/module-pro-labels-configurable-product/issues"
+                }
             }
         ]
     }

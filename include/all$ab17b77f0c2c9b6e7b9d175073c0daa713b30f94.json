@@ -99826,6 +99826,44 @@
                     "issues": "https://github.com/swissup/module-chat-gpt-assistant/issues"
                 }
             },
+            "1.1.4": {
+                "name": "swissup/module-chat-gpt-assistant",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
+                    "reference": "e859985add58af0394f7151d74ce9de7da17ae2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-chat-gpt-assistant/zipball/e859985add58af0394f7151d74ce9de7da17ae2a",
+                    "reference": "e859985add58af0394f7151d74ce9de7da17ae2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "orhanerday/open-ai": "^4.7.1",
+                    "swissup/module-core": "^1.12.22"
+                },
+                "time": "2025-06-02T08:36:20+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ChatGptAssistant\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT",
+                "support": {
+                    "source": "https://github.com/swissup/module-chat-gpt-assistant/tree/1.1.4",
+                    "issues": "https://github.com/swissup/module-chat-gpt-assistant/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-chat-gpt-assistant",
                 "version": "dev-master",
@@ -99833,19 +99871,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
-                    "reference": "f4e6011ed7f7de199fa6fdcac1f92b048c5b25b6"
+                    "reference": "e859985add58af0394f7151d74ce9de7da17ae2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-chat-gpt-assistant/zipball/f4e6011ed7f7de199fa6fdcac1f92b048c5b25b6",
-                    "reference": "f4e6011ed7f7de199fa6fdcac1f92b048c5b25b6",
+                    "url": "https://api.github.com/repos/swissup/module-chat-gpt-assistant/zipball/e859985add58af0394f7151d74ce9de7da17ae2a",
+                    "reference": "e859985add58af0394f7151d74ce9de7da17ae2a",
                     "shasum": ""
                 },
                 "require": {
                     "orhanerday/open-ai": "^4.7.1",
                     "swissup/module-core": "^1.12.22"
                 },
-                "time": "2025-04-09T11:49:42+00:00",
+                "time": "2025-06-02T08:36:20+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -99861,7 +99899,7 @@
                 ],
                 "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT",
                 "support": {
-                    "source": "https://github.com/swissup/module-chat-gpt-assistant/tree/1.1.3",
+                    "source": "https://github.com/swissup/module-chat-gpt-assistant/tree/1.1.4",
                     "issues": "https://github.com/swissup/module-chat-gpt-assistant/issues"
                 }
             }

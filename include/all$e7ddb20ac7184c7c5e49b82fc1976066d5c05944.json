@@ -160430,6 +160430,66 @@
                     "issues": "https://github.com/swissup/module-highlight/issues"
                 }
             },
+            "1.11.6": {
+                "name": "swissup/module-highlight",
+                "version": "1.11.6",
+                "version_normalized": "1.11.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-highlight.git",
+                    "reference": "2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a",
+                    "reference": "2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.22",
+                    "swissup/module-rtl": "^1.3.8",
+                    "swissup/module-swiper": "^1.0.0"
+                },
+                "time": "2025-06-05T08:59:18+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-highlight.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/highlight/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/highlight/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Highlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product listing widgets, ajax carousel with flexible filters",
+                "keywords": [
+                    "bestsellers",
+                    "featured products",
+                    "highlight",
+                    "new products",
+                    "onsale products",
+                    "popular products",
+                    "product listing",
+                    "products carousel"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-highlight/tree/1.11.6",
+                    "issues": "https://github.com/swissup/module-highlight/issues"
+                }
+            },
             "1.2.0": {
                 "name": "swissup/module-highlight",
                 "version": "1.2.0",
@@ -164815,12 +164875,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-highlight.git",
-                    "reference": "1703ddffb881ebcb2325ef367e290e2650f4904d"
+                    "reference": "2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/1703ddffb881ebcb2325ef367e290e2650f4904d",
-                    "reference": "1703ddffb881ebcb2325ef367e290e2650f4904d",
+                    "url": "https://api.github.com/repos/swissup/module-highlight/zipball/2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a",
+                    "reference": "2b50c4b3ff702ecb0a53ab953bbdabf16bf3077a",
                     "shasum": ""
                 },
                 "require": {
@@ -164828,7 +164888,7 @@
                     "swissup/module-rtl": "^1.3.8",
                     "swissup/module-swiper": "^1.0.0"
                 },
-                "time": "2025-05-15T10:00:40+00:00",
+                "time": "2025-06-05T08:59:18+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -164865,7 +164925,7 @@
                     "products carousel"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-highlight/tree/1.11.5",
+                    "source": "https://github.com/swissup/module-highlight/tree/1.11.6",
                     "issues": "https://github.com/swissup/module-highlight/issues"
                 }
             }

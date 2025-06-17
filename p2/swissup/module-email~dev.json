@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "0531d7658f959276d411be06ae222c9578c95438"
+                    "reference": "a653c6fb1120aabd81a23be78de3cde155d8de60"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/0531d7658f959276d411be06ae222c9578c95438",
-                    "reference": "0531d7658f959276d411be06ae222c9578c95438",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/a653c6fb1120aabd81a23be78de3cde155d8de60",
+                    "reference": "a653c6fb1120aabd81a23be78de3cde155d8de60",
                     "shasum": ""
                 },
                 "require": {
@@ -27,8 +27,9 @@
                     "magento/module-ui": "^101.1",
                     "psr/log": "*",
                     "swissup/module-oauth2-client": "^1.0.3",
-                    "symfony/mailer": "^6.4",
-                    "symfony/mime": "^6.4"
+                    "symfony/google-mailer": "^6.4|^7.0",
+                    "symfony/mailer": "^6.4|^7.0",
+                    "symfony/mime": "^6.4|^7.0"
                 },
                 "require-dev": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
@@ -38,7 +39,7 @@
                     "aws/aws-sdk-php-zf2": "If you need to use Amazon SES (composer require aws/aws-sdk-php-zf2:>=1.0.1)",
                     "slm/mail": "If you need to use Mandrill or Amazon SES (composer require slm/mail:~1.5)"
                 },
-                "time": "2025-06-13T09:35:55+00:00",
+                "time": "2025-06-17T09:21:57+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

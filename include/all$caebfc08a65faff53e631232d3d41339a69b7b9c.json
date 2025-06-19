@@ -184146,6 +184146,55 @@
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             },
+            "1.5.3": {
+                "name": "swissup/module-orderattachment",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-orderattachment.git",
+                    "reference": "1daa10677f3176e5c9ef6dd9d6fdf03a12185abf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/1daa10677f3176e5c9ef6dd9d6fdf03a12185abf",
+                    "reference": "1daa10677f3176e5c9ef6dd9d6fdf03a12185abf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4.0",
+                    "swissup/module-checkout": "^1.5.2"
+                },
+                "time": "2025-06-19T08:10:30+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-orderattachment.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/order-attachments/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Order Attachment Magento 2 extension",
+                "support": {
+                    "source": "https://github.com/swissup/module-orderattachment/tree/1.5.3",
+                    "issues": "https://github.com/swissup/module-orderattachment/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-orderattachment",
                 "version": "dev-master",
@@ -184153,19 +184202,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-orderattachment.git",
-                    "reference": "0c0bd64dd7f6896513738225a2955fb517bd969d"
+                    "reference": "1daa10677f3176e5c9ef6dd9d6fdf03a12185abf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/0c0bd64dd7f6896513738225a2955fb517bd969d",
-                    "reference": "0c0bd64dd7f6896513738225a2955fb517bd969d",
+                    "url": "https://api.github.com/repos/swissup/module-orderattachment/zipball/1daa10677f3176e5c9ef6dd9d6fdf03a12185abf",
+                    "reference": "1daa10677f3176e5c9ef6dd9d6fdf03a12185abf",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.4.0",
                     "swissup/module-checkout": "^1.5.2"
                 },
-                "time": "2025-04-09T11:49:27+00:00",
+                "time": "2025-06-19T08:10:30+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -184192,7 +184241,7 @@
                 ],
                 "description": "Order Attachment Magento 2 extension",
                 "support": {
-                    "source": "https://github.com/swissup/module-orderattachment/tree/1.5.2",
+                    "source": "https://github.com/swissup/module-orderattachment/tree/1.5.3",
                     "issues": "https://github.com/swissup/module-orderattachment/issues"
                 }
             }

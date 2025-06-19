@@ -8,17 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-email.git",
-                    "reference": "a653c6fb1120aabd81a23be78de3cde155d8de60"
+                    "reference": "15d32cfd8da762f4071d1ae068b20cff1ad6b0e3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/a653c6fb1120aabd81a23be78de3cde155d8de60",
-                    "reference": "a653c6fb1120aabd81a23be78de3cde155d8de60",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/15d32cfd8da762f4071d1ae068b20cff1ad6b0e3",
+                    "reference": "15d32cfd8da762f4071d1ae068b20cff1ad6b0e3",
                     "shasum": ""
                 },
                 "require": {
-                    "laminas/laminas-mail": "^2.9.0",
-                    "laminas/laminas-mime": "^2.5.0",
                     "magento/framework": "^102.0.5|^103.0",
                     "magento/module-backend": "^101.0|^102.0",
                     "magento/module-config": "^101.1",
@@ -29,17 +27,14 @@
                     "swissup/module-oauth2-client": "^1.0.3",
                     "symfony/google-mailer": "^6.4|^7.0",
                     "symfony/mailer": "^6.4|^7.0",
-                    "symfony/mime": "^6.4|^7.0"
+                    "symfony/mime": "^6.4|^7.0",
+                    "zbateson/mail-mime-parser": "^3.0"
                 },
                 "require-dev": {
                     "aws/aws-sdk-php-zf2": ">=1.0.1",
                     "slm/mail": "~1.5"
                 },
-                "suggest": {
-                    "aws/aws-sdk-php-zf2": "If you need to use Amazon SES (composer require aws/aws-sdk-php-zf2:>=1.0.1)",
-                    "slm/mail": "If you need to use Mandrill or Amazon SES (composer require slm/mail:~1.5)"
-                },
-                "time": "2025-06-17T09:21:57+00:00",
+                "time": "2025-06-19T11:58:32+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -74,7 +69,7 @@
                     "smtp"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-email/tree/master",
+                    "source": "https://github.com/swissup/module-email/tree/0.7.1",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
             }

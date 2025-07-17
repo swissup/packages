@@ -180,6 +180,51 @@
                     "source": "https://github.com/swissup/hyva-pro-labels/tree/1.0.2",
                     "issues": "https://github.com/swissup/hyva-pro-labels/issues"
                 }
+            },
+            {
+                "name": "hyva-themes/magento2-swissup-pro-labels",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-pro-labels.git",
+                    "reference": "9beddcfe51eda7a60044c14cc4848a3fb07f8852"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-pro-labels/zipball/9beddcfe51eda7a60044c14cc4848a3fb07f8852",
+                    "reference": "9beddcfe51eda7a60044c14cc4848a3fb07f8852",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-pro-labels": "^1.7.22"
+                },
+                "time": "2025-07-17T20:07:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupProLabels\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_ProLabels",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-pro-labels/tree/1.0.3",
+                    "issues": "https://github.com/swissup/hyva-pro-labels/issues"
+                }
             }
         ]
     }

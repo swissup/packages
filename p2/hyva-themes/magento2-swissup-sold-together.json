@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "hyva-themes/magento2-swissup-sold-together": [
+            {
+                "name": "hyva-themes/magento2-swissup-sold-together",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "ae701694a84cc1166939bcaf1cda78f5f7321768"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/ae701694a84cc1166939bcaf1cda78f5f7321768",
+                    "reference": "ae701694a84cc1166939bcaf1cda78f5f7321768",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.10.4"
+                },
+                "time": "2025-05-08T20:04:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/0.0.1",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
+            }
+        ]
+    }
+}

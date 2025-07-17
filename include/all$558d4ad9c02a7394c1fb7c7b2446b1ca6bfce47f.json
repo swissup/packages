@@ -1,5 +1,98 @@
 {
     "packages": {
+        "hyva-themes/magento2-swissup-sold-together": {
+            "0.0.1": {
+                "name": "hyva-themes/magento2-swissup-sold-together",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "ae701694a84cc1166939bcaf1cda78f5f7321768"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/ae701694a84cc1166939bcaf1cda78f5f7321768",
+                    "reference": "ae701694a84cc1166939bcaf1cda78f5f7321768",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.10.4"
+                },
+                "time": "2025-05-08T20:04:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/0.0.1",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
+            },
+            "dev-master": {
+                "name": "hyva-themes/magento2-swissup-sold-together",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "4edab07c68330fc67479a31df3d7385903e5f2ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/4edab07c68330fc67479a31df3d7385903e5f2ee",
+                    "reference": "4edab07c68330fc67479a31df3d7385903e5f2ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.10.4"
+                },
+                "time": "2025-07-16T20:47:04+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/master",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
+            }
+        },
         "swissup/abandoned-cart": {
             "1.0.0": {
                 "name": "swissup/abandoned-cart",
@@ -197131,12 +197224,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "a514dc5f22985ef840e4d37ec4ec3fae9e6dd0d7"
+                    "reference": "6dc724ae6f59a1805b6c0e28faee5c6c9d10fc9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/a514dc5f22985ef840e4d37ec4ec3fae9e6dd0d7",
-                    "reference": "a514dc5f22985ef840e4d37ec4ec3fae9e6dd0d7",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/6dc724ae6f59a1805b6c0e28faee5c6c9d10fc9f",
+                    "reference": "6dc724ae6f59a1805b6c0e28faee5c6c9d10fc9f",
                     "shasum": ""
                 },
                 "require": {
@@ -197162,7 +197255,7 @@
                     "swissup/module-speculation-rules": "^1.0.3",
                     "symfony/process": ">=4.1"
                 },
-                "time": "2025-05-26T12:12:30+00:00",
+                "time": "2025-07-17T14:49:59+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -197200,7 +197293,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/1.11.6",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/master",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }

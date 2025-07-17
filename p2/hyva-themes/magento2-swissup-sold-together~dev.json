@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "hyva-themes/magento2-swissup-sold-together": [
+            {
+                "name": "hyva-themes/magento2-swissup-sold-together",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "4edab07c68330fc67479a31df3d7385903e5f2ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/4edab07c68330fc67479a31df3d7385903e5f2ee",
+                    "reference": "4edab07c68330fc67479a31df3d7385903e5f2ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.10.4"
+                },
+                "time": "2025-07-16T20:47:04+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/master",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
+            }
+        ]
+    }
+}

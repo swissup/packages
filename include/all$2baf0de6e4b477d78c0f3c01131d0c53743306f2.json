@@ -504,19 +504,19 @@
                     "issues": "https://github.com/swissup/hyva-sold-together/issues"
                 }
             },
-            "dev-master": {
+            "1.0.0": {
                 "name": "hyva-themes/magento2-swissup-sold-together",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-sold-together.git",
-                    "reference": "8219ae6a64f432efa6e2030eb647822d8392fc04"
+                    "reference": "36d9cfac0495aef24648193027d4312f65271218"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/8219ae6a64f432efa6e2030eb647822d8392fc04",
-                    "reference": "8219ae6a64f432efa6e2030eb647822d8392fc04",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/36d9cfac0495aef24648193027d4312f65271218",
+                    "reference": "36d9cfac0495aef24648193027d4312f65271218",
                     "shasum": ""
                 },
                 "require": {
@@ -524,7 +524,52 @@
                     "magento/framework": "*",
                     "swissup/module-sold-together": "^1.10.6"
                 },
-                "time": "2025-07-17T19:45:00+00:00",
+                "time": "2025-07-19T21:31:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
+            },
+            "dev-master": {
+                "name": "hyva-themes/magento2-swissup-sold-together",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "36d9cfac0495aef24648193027d4312f65271218"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/36d9cfac0495aef24648193027d4312f65271218",
+                    "reference": "36d9cfac0495aef24648193027d4312f65271218",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.10.6"
+                },
+                "time": "2025-07-19T21:31:19+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -546,7 +591,7 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-sold-together/tree/0.9.0",
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/1.0.0",
                     "issues": "https://github.com/swissup/hyva-sold-together/issues"
                 }
             }

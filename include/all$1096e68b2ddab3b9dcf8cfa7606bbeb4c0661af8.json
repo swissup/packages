@@ -53,12 +53,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/hyva-easytabs.git",
-                    "reference": "7d75b83899c98bc437b4660bbf9408b12396df3e"
+                    "reference": "31cd19218b62558b0950fd334993622301e74af6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-easytabs/zipball/7d75b83899c98bc437b4660bbf9408b12396df3e",
-                    "reference": "7d75b83899c98bc437b4660bbf9408b12396df3e",
+                    "url": "https://api.github.com/repos/swissup/hyva-easytabs/zipball/31cd19218b62558b0950fd334993622301e74af6",
+                    "reference": "31cd19218b62558b0950fd334993622301e74af6",
                     "shasum": ""
                 },
                 "require": {
@@ -66,7 +66,7 @@
                     "magento/framework": "*",
                     "swissup/module-easytabs": "^1.12.18"
                 },
-                "time": "2025-07-28T20:07:02+00:00",
+                "time": "2025-07-29T21:30:48+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -135236,18 +135236,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "effba7b8abe37305c0d051082a5ea18d8e9f89b3"
+                    "reference": "22cfaa02a4dcd31bdb900d6aff5006ff3be3a096"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/effba7b8abe37305c0d051082a5ea18d8e9f89b3",
-                    "reference": "effba7b8abe37305c0d051082a5ea18d8e9f89b3",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/22cfaa02a4dcd31bdb900d6aff5006ff3be3a096",
+                    "reference": "22cfaa02a4dcd31bdb900d6aff5006ff3be3a096",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.22"
                 },
-                "time": "2025-07-28T18:56:32+00:00",
+                "time": "2025-07-29T18:29:45+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -198221,12 +198221,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "bcdb82888897bc0277aa2983f278c2473c7df536"
+                    "reference": "d4c1e6b4be23e928e41937ad88fe04b6d17be246"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/bcdb82888897bc0277aa2983f278c2473c7df536",
-                    "reference": "bcdb82888897bc0277aa2983f278c2473c7df536",
+                    "url": "https://api.github.com/repos/swissup/module-pagespeed/zipball/d4c1e6b4be23e928e41937ad88fe04b6d17be246",
+                    "reference": "d4c1e6b4be23e928e41937ad88fe04b6d17be246",
                     "shasum": ""
                 },
                 "require": {
@@ -198252,7 +198252,10 @@
                     "swissup/module-speculation-rules": "^1.0.3",
                     "symfony/process": ">=4.1"
                 },
-                "time": "2025-07-29T11:49:05+00:00",
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6"
+                },
+                "time": "2025-07-29T13:50:14+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -198281,6 +198284,11 @@
                         "Swissup\\Pagespeed\\": ""
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\Test\\Unit\\": "Test/Unit/"
+                    }
+                },
                 "license": [
                     "OSL-3.0"
                 ],
@@ -198290,7 +198298,7 @@
                     "pagespeed"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-pagespeed/tree/1.12.0",
+                    "source": "https://github.com/swissup/module-pagespeed/tree/master",
                     "issues": "https://github.com/swissup/module-pagespeed/issues"
                 }
             }

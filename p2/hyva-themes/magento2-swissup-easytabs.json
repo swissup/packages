@@ -45,6 +45,51 @@
                     "source": "https://github.com/swissup/hyva-easytabs/tree/0.1.0",
                     "issues": "https://github.com/swissup/hyva-easytabs/issues"
                 }
+            },
+            {
+                "name": "hyva-themes/magento2-swissup-easytabs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/hyva-easytabs.git",
+                    "reference": "460eedaf9adbca8b0eb10e1611dfa98b07155ad1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easytabs/zipball/460eedaf9adbca8b0eb10e1611dfa98b07155ad1",
+                    "reference": "460eedaf9adbca8b0eb10e1611dfa98b07155ad1",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easytabs": "^1.13.0"
+                },
+                "time": "2025-08-13T19:28:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupEasytabs\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Easytabs",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easytabs/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-easytabs/issues"
+                }
             }
         ]
     }

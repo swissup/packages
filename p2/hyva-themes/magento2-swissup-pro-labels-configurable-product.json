@@ -91,6 +91,52 @@
                     "source": "https://github.com/swissup/hyva-pro-labels-configurable-product/tree/1.0.0",
                     "issues": "https://github.com/swissup/hyva-pro-labels-configurable-product/issues"
                 }
+            },
+            {
+                "name": "hyva-themes/magento2-swissup-pro-labels-configurable-product",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-pro-labels-configurable-product.git",
+                    "reference": "813d6e3dcb484a261c340a7e46f4b11fcfa9f739"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-pro-labels-configurable-product/zipball/813d6e3dcb484a261c340a7e46f4b11fcfa9f739",
+                    "reference": "813d6e3dcb484a261c340a7e46f4b11fcfa9f739",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "hyva-themes/magento2-swissup-pro-labels": "^1.0.3",
+                    "magento/framework": "*",
+                    "swissup/module-pro-labels-configurable-product": "^1.0.8"
+                },
+                "time": "2025-08-13T19:59:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupProLabelsConfigurableProduct\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_ProLabelsConfigurableProduct",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-pro-labels-configurable-product/tree/1.0.1",
+                    "issues": "https://github.com/swissup/hyva-pro-labels-configurable-product/issues"
+                }
             }
         ]
     }

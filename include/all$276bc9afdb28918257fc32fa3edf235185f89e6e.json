@@ -265866,6 +265866,35 @@
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             },
+            "1.6.0": {
+                "name": "swissup/product-geoip",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/geoip.git",
+                    "reference": "c481ad3fa2bae752d7ca524587cb0baf33b073cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/c481ad3fa2bae752d7ca524587cb0baf33b073cc",
+                    "reference": "c481ad3fa2bae752d7ca524587cb0baf33b073cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-geoip": "^1.5.8"
+                },
+                "time": "2025-08-21T13:53:18+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "support": {
+                    "source": "https://github.com/swissup/geoip/tree/1.6.0",
+                    "issues": "https://github.com/swissup/geoip/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/product-geoip",
                 "version": "dev-master",
@@ -265873,18 +265902,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/geoip.git",
-                    "reference": "3f1e87dace52cbf931be7c466ee50aa20a65d246"
+                    "reference": "c481ad3fa2bae752d7ca524587cb0baf33b073cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/geoip/zipball/3f1e87dace52cbf931be7c466ee50aa20a65d246",
-                    "reference": "3f1e87dace52cbf931be7c466ee50aa20a65d246",
+                    "url": "https://api.github.com/repos/swissup/geoip/zipball/c481ad3fa2bae752d7ca524587cb0baf33b073cc",
+                    "reference": "c481ad3fa2bae752d7ca524587cb0baf33b073cc",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-geoip": "^1.5.8"
                 },
-                "time": "2024-06-12T08:30:18+00:00",
+                "time": "2025-08-21T13:53:18+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -265892,7 +265921,7 @@
                 ],
                 "description": "Magento 2 module for geo location detecting by ip",
                 "support": {
-                    "source": "https://github.com/swissup/geoip/tree/1.5.8",
+                    "source": "https://github.com/swissup/geoip/tree/1.6.0",
                     "issues": "https://github.com/swissup/geoip/issues"
                 }
             }

@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "hyva-themes/magento2-swissup-seo-html-sitemap": [
+            {
+                "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-seo-html-sitemap": "^1.1.20"
+                },
+                "time": "2025-08-28T20:41:38+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.1",
+                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
+                }
+            }
+        ]
+    }
+}

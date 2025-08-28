@@ -1,98 +1,5 @@
 {
     "packages": {
-        "hyva-themes/magento2-seo-html-sitemap": {
-            "0.1.0": {
-                "name": "hyva-themes/magento2-seo-html-sitemap",
-                "version": "0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
-                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
-                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
-                    "shasum": ""
-                },
-                "require": {
-                    "hyva-themes/magento2-compat-module-fallback": "*",
-                    "magento/framework": "*",
-                    "swissup/module-seo-html-sitemap": "^1.1.20"
-                },
-                "time": "2025-08-28T20:01:35+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "src/registration.php"
-                    ],
-                    "psr-4": {
-                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Swissuplabs",
-                        "email": "support@swissuplab.com"
-                    }
-                ],
-                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
-                "support": {
-                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.0",
-                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
-                }
-            },
-            "dev-master": {
-                "name": "hyva-themes/magento2-seo-html-sitemap",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
-                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
-                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
-                    "shasum": ""
-                },
-                "require": {
-                    "hyva-themes/magento2-compat-module-fallback": "*",
-                    "magento/framework": "*",
-                    "swissup/module-seo-html-sitemap": "^1.1.20"
-                },
-                "time": "2025-08-28T20:01:35+00:00",
-                "default-branch": true,
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "src/registration.php"
-                    ],
-                    "psr-4": {
-                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Swissuplabs",
-                        "email": "support@swissuplab.com"
-                    }
-                ],
-                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
-                "support": {
-                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.0",
-                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
-                }
-            }
-        },
         "hyva-themes/magento2-swissup-easytabs": {
             "0.1.0": {
                 "name": "hyva-themes/magento2-swissup-easytabs",
@@ -687,6 +594,144 @@
                 "support": {
                     "source": "https://github.com/swissup/hyva-pro-labels-configurable-product/tree/1.0.1",
                     "issues": "https://github.com/swissup/hyva-pro-labels-configurable-product/issues"
+                }
+            }
+        },
+        "hyva-themes/magento2-swissup-seo-html-sitemap": {
+            "0.1.0": {
+                "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
+                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
+                    "reference": "25ea5f92e12b9e2ed61e9af5e8fe55d74542fae7",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-seo-html-sitemap": "^1.1.20"
+                },
+                "time": "2025-08-28T20:01:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.0",
+                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
+                }
+            },
+            "0.1.1": {
+                "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-seo-html-sitemap": "^1.1.20"
+                },
+                "time": "2025-08-28T20:41:38+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.1",
+                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
+                }
+            },
+            "dev-master": {
+                "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-seo-html-sitemap": "^1.1.20"
+                },
+                "time": "2025-08-28T20:41:38+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.1",
+                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
                 }
             }
         },

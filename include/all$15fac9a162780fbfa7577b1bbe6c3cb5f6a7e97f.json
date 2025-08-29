@@ -688,19 +688,19 @@
                     "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
                 }
             },
-            "dev-master": {
+            "1.0.0": {
                 "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
-                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c"
+                    "reference": "c336931cb3c81d5b8ff2804d911eb0a11a445a21"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
-                    "reference": "5e76cdf8a1ad217b64be24e829b7ab62cb6fd33c",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/c336931cb3c81d5b8ff2804d911eb0a11a445a21",
+                    "reference": "c336931cb3c81d5b8ff2804d911eb0a11a445a21",
                     "shasum": ""
                 },
                 "require": {
@@ -708,7 +708,52 @@
                     "magento/framework": "*",
                     "swissup/module-seo-html-sitemap": "^1.1.20"
                 },
-                "time": "2025-08-28T20:41:38+00:00",
+                "time": "2025-08-29T20:53:50+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoHtmlSitemap\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
+                }
+            },
+            "dev-master": {
+                "name": "hyva-themes/magento2-swissup-seo-html-sitemap",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-html-sitemap.git",
+                    "reference": "c336931cb3c81d5b8ff2804d911eb0a11a445a21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-html-sitemap/zipball/c336931cb3c81d5b8ff2804d911eb0a11a445a21",
+                    "reference": "c336931cb3c81d5b8ff2804d911eb0a11a445a21",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-seo-html-sitemap": "^1.1.20"
+                },
+                "time": "2025-08-29T20:53:50+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -730,7 +775,7 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/0.1.1",
+                    "source": "https://github.com/swissup/hyva-seo-html-sitemap/tree/1.0.0",
                     "issues": "https://github.com/swissup/hyva-seo-html-sitemap/issues"
                 }
             }
@@ -136227,18 +136272,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-easytabs.git",
-                    "reference": "d2fe8756bd59f50c951ee1785324f2e5db5504ef"
+                    "reference": "c3ce84f991a8d73bebcf13175549a4cceb1f41d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/d2fe8756bd59f50c951ee1785324f2e5db5504ef",
-                    "reference": "d2fe8756bd59f50c951ee1785324f2e5db5504ef",
+                    "url": "https://api.github.com/repos/swissup/module-easytabs/zipball/c3ce84f991a8d73bebcf13175549a4cceb1f41d3",
+                    "reference": "c3ce84f991a8d73bebcf13175549a4cceb1f41d3",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.24"
                 },
-                "time": "2025-08-13T19:26:28+00:00",
+                "time": "2025-08-29T13:25:41+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -136279,7 +136324,7 @@
                     "tabs"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easytabs/tree/1.13.0",
+                    "source": "https://github.com/swissup/module-easytabs/tree/master",
                     "issues": "https://github.com/swissup/module-easytabs/issues"
                 }
             }
@@ -214119,18 +214164,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3"
+                    "reference": "d256ef6db9e0307facb4493513358038ebfb8068"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/0e5fda9808364d7fb521eefa095d13b528f83fa3",
-                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d256ef6db9e0307facb4493513358038ebfb8068",
+                    "reference": "d256ef6db9e0307facb4493513358038ebfb8068",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2025-08-29T09:02:20+00:00",
+                "time": "2025-08-29T12:20:32+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -214157,7 +214202,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.9",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }

@@ -214064,6 +214064,54 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
+            "1.7.9": {
+                "name": "swissup/module-rich-snippets",
+                "version": "1.7.9",
+                "version_normalized": "1.7.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/0e5fda9808364d7fb521eefa095d13b528f83fa3",
+                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2025-08-29T09:02:20+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.9",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-rich-snippets",
                 "version": "dev-master",
@@ -214071,18 +214119,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "4ff710064af740f94ebbb50028bc2100e8c36741"
+                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/4ff710064af740f94ebbb50028bc2100e8c36741",
-                    "reference": "4ff710064af740f94ebbb50028bc2100e8c36741",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/0e5fda9808364d7fb521eefa095d13b528f83fa3",
+                    "reference": "0e5fda9808364d7fb521eefa095d13b528f83fa3",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2025-07-11T13:40:30+00:00",
+                "time": "2025-08-29T09:02:20+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -214109,7 +214157,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.8",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.9",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }

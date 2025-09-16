@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "hyva-themes/magento2-swissup-seo-cross-links": [
+            {
+                "name": "hyva-themes/magento2-swissup-seo-cross-links",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-cross-links.git",
+                    "reference": "bf83a274798777c33370a1e59287fd4a5ad7abef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-cross-links/zipball/bf83a274798777c33370a1e59287fd4a5ad7abef",
+                    "reference": "bf83a274798777c33370a1e59287fd4a5ad7abef",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": ">=103.0.0",
+                    "php": ">=7.4",
+                    "swissup/module-seo-cross-links": "*"
+                },
+                "time": "2025-09-16T20:17:38+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoCrossLinks\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Hyva theme compatibility module for Swissup/module-seo-cross-links",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-cross-links/tree/0.1.1",
+                    "issues": "https://github.com/swissup/hyva-seo-cross-links/issues"
+                }
+            }
+        ]
+    }
+}

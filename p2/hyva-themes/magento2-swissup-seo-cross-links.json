@@ -80,6 +80,46 @@
                     "source": "https://github.com/swissup/hyva-seo-cross-links/tree/0.1.1",
                     "issues": "https://github.com/swissup/hyva-seo-cross-links/issues"
                 }
+            },
+            {
+                "name": "hyva-themes/magento2-swissup-seo-cross-links",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-seo-cross-links.git",
+                    "reference": "939ced71f4b68ed671dac143be9da2b10324bf8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-seo-cross-links/zipball/939ced71f4b68ed671dac143be9da2b10324bf8f",
+                    "reference": "939ced71f4b68ed671dac143be9da2b10324bf8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": ">=103.0.0",
+                    "php": ">=7.4",
+                    "swissup/module-seo-cross-links": "*"
+                },
+                "time": "2025-09-25T19:46:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Hyva\\SwissupSeoCrossLinks\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Hyva theme compatibility module for Swissup/module-seo-cross-links",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-seo-cross-links/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-seo-cross-links/issues"
+                }
             }
         ]
     }

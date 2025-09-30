@@ -143946,6 +143946,54 @@
                     "issues": "https://github.com/swissup/module-featured-attributes/issues"
                 }
             },
+            "1.1.9": {
+                "name": "swissup/module-featured-attributes",
+                "version": "1.1.9",
+                "version_normalized": "1.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-featured-attributes.git",
+                    "reference": "afec2693dacb65c276ef6597e623aab345e6b4dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-featured-attributes/zipball/afec2693dacb65c276ef6597e623aab345e6b4dd",
+                    "reference": "afec2693dacb65c276ef6597e623aab345e6b4dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2025-09-30T11:58:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "download": "https://github.com/swissup/featured-attributes"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FeaturedAttributes\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Featured attributes extension from Swissup",
+                "keywords": [
+                    "attributes on category page",
+                    "featured attributes"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-featured-attributes/tree/1.1.9",
+                    "issues": "https://github.com/swissup/module-featured-attributes/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-featured-attributes",
                 "version": "dev-master",
@@ -143953,18 +144001,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-featured-attributes.git",
-                    "reference": "e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a"
+                    "reference": "afec2693dacb65c276ef6597e623aab345e6b4dd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-featured-attributes/zipball/e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a",
-                    "reference": "e0fe8e3e332f2f88c45fe4d2617107a9ac9b673a",
+                    "url": "https://api.github.com/repos/swissup/module-featured-attributes/zipball/afec2693dacb65c276ef6597e623aab345e6b4dd",
+                    "reference": "afec2693dacb65c276ef6597e623aab345e6b4dd",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.20"
+                    "swissup/module-core": "^1.12.24"
                 },
-                "time": "2024-11-20T15:02:43+00:00",
+                "time": "2025-09-30T11:58:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -143991,7 +144039,7 @@
                     "featured attributes"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-featured-attributes/tree/1.1.8",
+                    "source": "https://github.com/swissup/module-featured-attributes/tree/1.1.9",
                     "issues": "https://github.com/swissup/module-featured-attributes/issues"
                 }
             }

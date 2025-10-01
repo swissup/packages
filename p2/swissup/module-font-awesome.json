@@ -503,6 +503,50 @@
                     "source": "https://github.com/swissup/module-font-awesome/tree/1.4.3",
                     "issues": "https://github.com/swissup/module-font-awesome/issues"
                 }
+            },
+            {
+                "name": "swissup/module-font-awesome",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-font-awesome.git",
+                    "reference": "9feac16313472ca3d866dbc29276c1caafde3a4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-font-awesome/zipball/9feac16313472ca3d866dbc29276c1caafde3a4f",
+                    "reference": "9feac16313472ca3d866dbc29276c1caafde3a4f",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2025-10-01T08:44:56+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FontAwesome\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "FontAwesome for Magento2",
+                "keywords": [
+                    "font",
+                    "font awesome",
+                    "font-awesome",
+                    "fontawesome",
+                    "icons"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-font-awesome/tree/1.4.4",
+                    "issues": "https://github.com/swissup/module-font-awesome/issues"
+                }
             }
         ]
     }

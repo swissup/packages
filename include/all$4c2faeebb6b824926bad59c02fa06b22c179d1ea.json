@@ -97933,12 +97933,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "4efd99c72159d3590d10b5a6e68e4077e6e3c314"
+                    "reference": "758ca2fdb828f512a362b70560c8379e90f0b6ab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/4efd99c72159d3590d10b5a6e68e4077e6e3c314",
-                    "reference": "4efd99c72159d3590d10b5a6e68e4077e6e3c314",
+                    "url": "https://api.github.com/repos/swissup/module-askit/zipball/758ca2fdb828f512a362b70560c8379e90f0b6ab",
+                    "reference": "758ca2fdb828f512a362b70560c8379e90f0b6ab",
                     "shasum": ""
                 },
                 "require": {
@@ -97960,7 +97960,7 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.24"
                 },
-                "time": "2025-09-18T10:59:29+00:00",
+                "time": "2025-10-02T10:55:31+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -98002,7 +98002,7 @@
                     "questions"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-askit/tree/1.14.12",
+                    "source": "https://github.com/swissup/module-askit/tree/master",
                     "issues": "https://github.com/swissup/module-askit/issues"
                 }
             }
@@ -159844,6 +159844,45 @@
                 "support": {
                     "source": "https://github.com/swissup/module-gdpr-askit/tree/1.1.3",
                     "issues": "https://github.com/swissup/module-gdpr-askit/issues"
+                }
+            }
+        },
+        "swissup/module-gdpr-hyva": {
+            "dev-master": {
+                "name": "swissup/module-gdpr-hyva",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-gdpr.git",
+                    "reference": "0a65014d1735e89d10e7a09771cfdac2dcaf61c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-gdpr/zipball/0a65014d1735e89d10e7a09771cfdac2dcaf61c8",
+                    "reference": "0a65014d1735e89d10e7a09771cfdac2dcaf61c8",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": ">=1.1.2",
+                    "hyva-themes/magento2-theme-module": "^1.3",
+                    "swissup/module-gdpr": ">=1.8.0"
+                },
+                "time": "2025-09-29T12:27:11+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\GdprHyva": ""
+                    }
+                },
+                "description": "This module makes Swissup_Gdpr compatible with Hyvä Themes",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-gdpr/tree/master",
+                    "issues": "https://github.com/swissup/hyva-gdpr/issues"
                 }
             }
         },

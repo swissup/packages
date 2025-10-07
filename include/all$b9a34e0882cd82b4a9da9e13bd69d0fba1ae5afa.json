@@ -180499,6 +180499,59 @@
                     "issues": "https://github.com/swissup/module-lightboxpro/issues"
                 }
             },
+            "1.3.9": {
+                "name": "swissup/module-lightboxpro",
+                "version": "1.3.9",
+                "version_normalized": "1.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-lightboxpro.git",
+                    "reference": "02dd07d15c8320aea3d1055006bd8a48a24340f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/02dd07d15c8320aea3d1055006bd8a48a24340f1",
+                    "reference": "02dd07d15c8320aea3d1055006bd8a48a24340f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2025-10-07T07:28:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-lightboxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/lightboxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/lightboxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Lightboxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Lightbox Pro module for Magento 2",
+                "keywords": [
+                    "lightbox",
+                    "product image",
+                    "zoom"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.3.9",
+                    "issues": "https://github.com/swissup/module-lightboxpro/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-lightboxpro",
                 "version": "dev-master",
@@ -180506,18 +180559,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-lightboxpro.git",
-                    "reference": "fd205b04c5d4947206863b460210af9cb6dcca5d"
+                    "reference": "02dd07d15c8320aea3d1055006bd8a48a24340f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/fd205b04c5d4947206863b460210af9cb6dcca5d",
-                    "reference": "fd205b04c5d4947206863b460210af9cb6dcca5d",
+                    "url": "https://api.github.com/repos/swissup/module-lightboxpro/zipball/02dd07d15c8320aea3d1055006bd8a48a24340f1",
+                    "reference": "02dd07d15c8320aea3d1055006bd8a48a24340f1",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.21"
+                    "swissup/module-core": "^1.12.24"
                 },
-                "time": "2025-03-20T09:41:34+00:00",
+                "time": "2025-10-07T07:28:23+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -180549,7 +180602,7 @@
                     "zoom"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.3.8",
+                    "source": "https://github.com/swissup/module-lightboxpro/tree/1.3.9",
                     "issues": "https://github.com/swissup/module-lightboxpro/issues"
                 }
             }

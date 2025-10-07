@@ -112371,6 +112371,56 @@
                     "issues": "https://github.com/swissup/module-compare/issues"
                 }
             },
+            "1.2.8": {
+                "name": "swissup/module-compare",
+                "version": "1.2.8",
+                "version_normalized": "1.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-compare.git",
+                    "reference": "62c0a70d476e17e6523b662772f30a6cecaa24af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/62c0a70d476e17e6523b662772f30a6cecaa24af",
+                    "reference": "62c0a70d476e17e6523b662772f30a6cecaa24af",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2025-10-07T07:38:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-compare.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/compare/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/compare/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Compare\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Compare page design",
+                "keywords": [
+                    "compare"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-compare/tree/1.2.8",
+                    "issues": "https://github.com/swissup/module-compare/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-compare",
                 "version": "dev-master",
@@ -112378,18 +112428,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/swissup/module-compare.git",
-                    "reference": "6bcd3854c3fab67f3ecd6a8021d8f7c708241af1"
+                    "reference": "62c0a70d476e17e6523b662772f30a6cecaa24af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/6bcd3854c3fab67f3ecd6a8021d8f7c708241af1",
-                    "reference": "6bcd3854c3fab67f3ecd6a8021d8f7c708241af1",
+                    "url": "https://api.github.com/repos/swissup/module-compare/zipball/62c0a70d476e17e6523b662772f30a6cecaa24af",
+                    "reference": "62c0a70d476e17e6523b662772f30a6cecaa24af",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.20"
+                    "swissup/module-core": "^1.12.24"
                 },
-                "time": "2024-11-12T12:19:23+00:00",
+                "time": "2025-10-07T07:38:23+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -112418,7 +112468,7 @@
                     "compare"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-compare/tree/1.2.7",
+                    "source": "https://github.com/swissup/module-compare/tree/1.2.8",
                     "issues": "https://github.com/swissup/module-compare/issues"
                 }
             }

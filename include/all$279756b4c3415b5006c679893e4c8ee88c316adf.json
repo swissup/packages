@@ -214099,6 +214099,55 @@
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             },
+            "1.4.13": {
+                "name": "swissup/module-recaptcha",
+                "version": "1.4.13",
+                "version_normalized": "1.4.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-recaptcha.git",
+                    "reference": "4ed9406e19a89f2438bd38590041674b5dfc62e1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/4ed9406e19a89f2438bd38590041674b5dfc62e1",
+                    "reference": "4ed9406e19a89f2438bd38590041674b5dfc62e1",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/recaptcha": "^1.2",
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2025-10-14T11:12:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-recaptcha.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/recaptcha/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/recaptcha/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2",
+                "support": {
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.4.13",
+                    "issues": "https://github.com/swissup/module-recaptcha/issues"
+                }
+            },
             "1.4.2": {
                 "name": "swissup/module-recaptcha",
                 "version": "1.4.2",
@@ -214498,19 +214547,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-recaptcha.git",
-                    "reference": "2853913981a37074bee17353fda87229e30b5a52"
+                    "reference": "4ed9406e19a89f2438bd38590041674b5dfc62e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/2853913981a37074bee17353fda87229e30b5a52",
-                    "reference": "2853913981a37074bee17353fda87229e30b5a52",
+                    "url": "https://api.github.com/repos/swissup/module-recaptcha/zipball/4ed9406e19a89f2438bd38590041674b5dfc62e1",
+                    "reference": "4ed9406e19a89f2438bd38590041674b5dfc62e1",
                     "shasum": ""
                 },
                 "require": {
                     "google/recaptcha": "^1.2",
-                    "swissup/module-core": "^1.12.21"
+                    "swissup/module-core": "^1.12.24"
                 },
-                "time": "2025-04-07T13:59:16+00:00",
+                "time": "2025-10-14T11:12:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -214537,7 +214586,7 @@
                 ],
                 "description": "Recaptcha for M2",
                 "support": {
-                    "source": "https://github.com/swissup/module-recaptcha/tree/1.4.12",
+                    "source": "https://github.com/swissup/module-recaptcha/tree/1.4.13",
                     "issues": "https://github.com/swissup/module-recaptcha/issues"
                 }
             }

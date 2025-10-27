@@ -3526,6 +3526,73 @@
                     "source": "https://github.com/swissup/module-email/tree/0.7.6",
                     "issues": "https://github.com/swissup/module-email/issues"
                 }
+            },
+            {
+                "name": "swissup/module-email",
+                "version": "0.7.7",
+                "version_normalized": "0.7.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-email.git",
+                    "reference": "63b6f9b3b711466f95b403555d66bfbcdc03a516"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email/zipball/63b6f9b3b711466f95b403555d66bfbcdc03a516",
+                    "reference": "63b6f9b3b711466f95b403555d66bfbcdc03a516",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^102.0.5|^103.0",
+                    "magento/module-backend": "^101.0|^102.0",
+                    "magento/module-config": "^101.1",
+                    "magento/module-email": "^101.0",
+                    "magento/module-store": "^101.0",
+                    "magento/module-ui": "^101.1",
+                    "psr/log": "*",
+                    "swissup/module-oauth2-client": "^1.0.5",
+                    "symfony/google-mailer": "^6.4|^7.0",
+                    "symfony/mailer": "^6.4|^7.0",
+                    "symfony/mime": "^6.4|^7.0",
+                    "zbateson/mail-mime-parser": "^3.0"
+                },
+                "time": "2025-10-27T14:28:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-email.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/email/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/email/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Email\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+                "keywords": [
+                    "amazon ses",
+                    "email",
+                    "gmail",
+                    "mandrill",
+                    "sendmail",
+                    "smtp"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email/tree/0.7.7",
+                    "issues": "https://github.com/swissup/module-email/issues"
+                }
             }
         ]
     }

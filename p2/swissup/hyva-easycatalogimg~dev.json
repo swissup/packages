@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "swissup/hyva-easycatalogimg": [
+            {
+                "name": "swissup/hyva-easycatalogimg",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easycatalogimg.git",
+                    "reference": "f5f158d538ce3e71c3eb5c3f446beb1e6d7d3737"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easycatalogimg/zipball/f5f158d538ce3e71c3eb5c3f446beb1e6d7d3737",
+                    "reference": "f5f158d538ce3e71c3eb5c3f446beb1e6d7d3737",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easycatalogimg": "^1.5.13"
+                },
+                "time": "2025-12-15T12:44:16+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasyCatalogImg\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Catalog Images extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easycatalogimg/tree/master",
+                    "issues": "https://github.com/swissup/hyva-easycatalogimg/issues"
+                }
+            }
+        ]
+    }
+}

@@ -223978,6 +223978,54 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
+            "1.7.18": {
+                "name": "swissup/module-rich-snippets",
+                "version": "1.7.18",
+                "version_normalized": "1.7.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "d95bbd7447a0b8993573bc2f7e93fef09d148f87"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d95bbd7447a0b8993573bc2f7e93fef09d148f87",
+                    "reference": "d95bbd7447a0b8993573bc2f7e93fef09d148f87",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2026-01-14T23:09:50+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.18",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
+            },
             "1.7.2": {
                 "name": "swissup/module-rich-snippets",
                 "version": "1.7.2",
@@ -224369,18 +224417,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "5d2ca6c4dd7417ab37a2f60947a2d6c0a6194b0e"
+                    "reference": "d95bbd7447a0b8993573bc2f7e93fef09d148f87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/5d2ca6c4dd7417ab37a2f60947a2d6c0a6194b0e",
-                    "reference": "5d2ca6c4dd7417ab37a2f60947a2d6c0a6194b0e",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d95bbd7447a0b8993573bc2f7e93fef09d148f87",
+                    "reference": "d95bbd7447a0b8993573bc2f7e93fef09d148f87",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-01-12T22:34:29+00:00",
+                "time": "2026-01-14T23:09:50+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -224407,7 +224455,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.7.18",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }
@@ -283983,6 +284031,35 @@
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             },
+            "1.7.18": {
+                "name": "swissup/rich-snippets",
+                "version": "1.7.18",
+                "version_normalized": "1.7.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/rich-snippets.git",
+                    "reference": "2a989e1029d6f775ec01dc6ad6b1cc16843c1d72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/2a989e1029d6f775ec01dc6ad6b1cc16843c1d72",
+                    "reference": "2a989e1029d6f775ec01dc6ad6b1cc16843c1d72",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-rich-snippets": "^1.7.17"
+                },
+                "time": "2026-01-14T23:11:47+00:00",
+                "type": "metapackage",
+                "license": [
+                    "MIT"
+                ],
+                "description": "Implement this structured data markup in Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.7.18",
+                    "issues": "https://github.com/swissup/rich-snippets/issues"
+                }
+            },
             "1.7.2": {
                 "name": "swissup/rich-snippets",
                 "version": "1.7.2",
@@ -284222,18 +284299,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/rich-snippets.git",
-                    "reference": "fb1304300308bb4b1226f03cbc8c2dc9a1ab0c53"
+                    "reference": "2a989e1029d6f775ec01dc6ad6b1cc16843c1d72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/fb1304300308bb4b1226f03cbc8c2dc9a1ab0c53",
-                    "reference": "fb1304300308bb4b1226f03cbc8c2dc9a1ab0c53",
+                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/2a989e1029d6f775ec01dc6ad6b1cc16843c1d72",
+                    "reference": "2a989e1029d6f775ec01dc6ad6b1cc16843c1d72",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-rich-snippets": "^1.7.17"
                 },
-                "time": "2026-01-08T08:53:07+00:00",
+                "time": "2026-01-14T23:11:47+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -284241,7 +284318,7 @@
                 ],
                 "description": "Implement this structured data markup in Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/rich-snippets/tree/1.7.17",
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.7.18",
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             }

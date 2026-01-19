@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "swissup/hyva-highlight": [
+            {
+                "name": "swissup/hyva-highlight",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-highlight.git",
+                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-highlight/zipball/898f83933d8d6cd67fa8cbafb8343df226d8c751",
+                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-highlight": "^1.11.9"
+                },
+                "time": "2026-01-19T13:04:09+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaHighlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Highlight extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-highlight/tree/master",
+                    "issues": "https://github.com/swissup/hyva-highlight/issues"
+                }
+            }
+        ]
+    }
+}

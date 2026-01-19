@@ -58541,6 +58541,48 @@
                 }
             }
         },
+        "swissup/hyva-highlight": {
+            "dev-master": {
+                "name": "swissup/hyva-highlight",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-highlight.git",
+                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-highlight/zipball/898f83933d8d6cd67fa8cbafb8343df226d8c751",
+                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-highlight": "^1.11.9"
+                },
+                "time": "2026-01-19T13:04:09+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaHighlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Highlight extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-highlight/tree/master",
+                    "issues": "https://github.com/swissup/hyva-highlight/issues"
+                }
+            }
+        },
         "swissup/hyva-testimonials": {
             "dev-master": {
                 "name": "swissup/hyva-testimonials",
@@ -132729,19 +132771,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "9c59ec39d24e47a2a7cd73f8932cb7b29cc0ef1d"
+                    "reference": "40a4772de0f430ae801076872f53d92a8f3dd3ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/9c59ec39d24e47a2a7cd73f8932cb7b29cc0ef1d",
-                    "reference": "9c59ec39d24e47a2a7cd73f8932cb7b29cc0ef1d",
+                    "url": "https://api.github.com/repos/swissup/module-easybanner/zipball/40a4772de0f430ae801076872f53d92a8f3dd3ec",
+                    "reference": "40a4772de0f430ae801076872f53d92a8f3dd3ec",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.25",
                     "swissup/module-image": "^1.0.0"
                 },
-                "time": "2025-12-05T14:14:24+00:00",
+                "time": "2026-01-19T13:03:18+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -132784,7 +132826,7 @@
                     "lightbox"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-easybanner/tree/1.9.22",
+                    "source": "https://github.com/swissup/module-easybanner/tree/master",
                     "issues": "https://github.com/swissup/module-easybanner/issues"
                 }
             }

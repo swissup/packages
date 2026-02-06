@@ -1,5 +1,45 @@
 {
     "packages": {
-        "swissup/hyva-easy-slide": []
+        "swissup/hyva-easy-slide": [
+            {
+                "name": "swissup/hyva-easy-slide",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easy-slide.git",
+                    "reference": "12d61aabe598606b09a95db40adbdd3531010e5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easy-slide/zipball/12d61aabe598606b09a95db40adbdd3531010e5e",
+                    "reference": "12d61aabe598606b09a95db40adbdd3531010e5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easy-slide": "^1.8.16"
+                },
+                "time": "2026-02-02T13:47:43+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Slide extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easy-slide/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-easy-slide/issues"
+                }
+            }
+        ]
     }
 }

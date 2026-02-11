@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "swissup/hyva-easytabs": [
+            {
+                "name": "swissup/hyva-easytabs",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/hyva-easytabs.git",
+                    "reference": "07ac70796715d865c6db32999b133a48cf4d906e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easytabs/zipball/07ac70796715d865c6db32999b133a48cf4d906e",
+                    "reference": "07ac70796715d865c6db32999b133a48cf4d906e",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easytabs": "^1.13.2"
+                },
+                "time": "2026-02-11T21:59:11+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasytabs\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Easytabs",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easytabs/tree/1.1.0",
+                    "issues": "https://github.com/swissup/hyva-easytabs/issues"
+                }
+            }
+        ]
+    }
+}

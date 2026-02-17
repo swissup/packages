@@ -1,27 +1,25 @@
 {
     "packages": {
-        "swissup/hyva-easytabs": [
+        "swissup/module-argento-hyva": [
             {
-                "name": "swissup/hyva-easytabs",
+                "name": "swissup/module-argento-hyva",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/hyva-easytabs.git",
-                    "reference": "06e5ec2f0c0709b9952ddef43798d28571e84dfe"
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "a30eb431402021f213cc8e30ae668eb80eaaf27f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-easytabs/zipball/06e5ec2f0c0709b9952ddef43798d28571e84dfe",
-                    "reference": "06e5ec2f0c0709b9952ddef43798d28571e84dfe",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/a30eb431402021f213cc8e30ae668eb80eaaf27f",
+                    "reference": "a30eb431402021f213cc8e30ae668eb80eaaf27f",
                     "shasum": ""
                 },
                 "require": {
-                    "hyva-themes/magento2-compat-module-fallback": "*",
-                    "magento/framework": "*",
-                    "swissup/module-easytabs": "^1.13.2"
+                    "hyva-themes/magento2-theme-module": "*"
                 },
-                "time": "2026-02-13T20:07:41+00:00",
+                "time": "2026-02-13T20:07:40+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -29,7 +27,7 @@
                         "src/registration.php"
                     ],
                     "psr-4": {
-                        "Swissup\\HyvaEasytabs\\": "src/"
+                        "Swissup\\ArgentoHyva\\": "src/"
                     }
                 },
                 "license": [
@@ -41,10 +39,10 @@
                         "email": "support@swissuplab.com"
                     }
                 ],
-                "description": "Hyvä Themes Compatibility module for Swissup_Easytabs",
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-easytabs/tree/1.1.1",
-                    "issues": "https://github.com/swissup/hyva-easytabs/issues"
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/0.0.3",
+                    "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
             }
         ]

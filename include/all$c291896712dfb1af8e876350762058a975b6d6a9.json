@@ -58852,19 +58852,19 @@
                     "issues": "https://github.com/swissup/hyva-easy-slide/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/hyva-easy-slide",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-easy-slide.git",
-                    "reference": "12d61aabe598606b09a95db40adbdd3531010e5e"
+                    "reference": "625e38e5312c649ddb806a021143fe83e42ce079"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-easy-slide/zipball/12d61aabe598606b09a95db40adbdd3531010e5e",
-                    "reference": "12d61aabe598606b09a95db40adbdd3531010e5e",
+                    "url": "https://api.github.com/repos/swissup/hyva-easy-slide/zipball/625e38e5312c649ddb806a021143fe83e42ce079",
+                    "reference": "625e38e5312c649ddb806a021143fe83e42ce079",
                     "shasum": ""
                 },
                 "require": {
@@ -58872,7 +58872,46 @@
                     "magento/framework": "*",
                     "swissup/module-easy-slide": "^1.8.16"
                 },
-                "time": "2026-02-02T13:47:43+00:00",
+                "time": "2026-02-25T12:56:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasySlide\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Slide extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easy-slide/tree/1.0.1",
+                    "issues": "https://github.com/swissup/hyva-easy-slide/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/hyva-easy-slide",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easy-slide.git",
+                    "reference": "625e38e5312c649ddb806a021143fe83e42ce079"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easy-slide/zipball/625e38e5312c649ddb806a021143fe83e42ce079",
+                    "reference": "625e38e5312c649ddb806a021143fe83e42ce079",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easy-slide": "^1.8.16"
+                },
+                "time": "2026-02-25T12:56:32+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -58888,7 +58927,7 @@
                 ],
                 "description": "Hyva Easy Slide extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-easy-slide/tree/1.0.0",
+                    "source": "https://github.com/swissup/hyva-easy-slide/tree/1.0.1",
                     "issues": "https://github.com/swissup/hyva-easy-slide/issues"
                 }
             }
@@ -59242,19 +59281,19 @@
                     "issues": "https://github.com/swissup/hyva-highlight/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "swissup/hyva-highlight",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-highlight.git",
-                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751"
+                    "reference": "2a94e980b130ea25db833e7c489ae27dd50589c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-highlight/zipball/898f83933d8d6cd67fa8cbafb8343df226d8c751",
-                    "reference": "898f83933d8d6cd67fa8cbafb8343df226d8c751",
+                    "url": "https://api.github.com/repos/swissup/hyva-highlight/zipball/2a94e980b130ea25db833e7c489ae27dd50589c8",
+                    "reference": "2a94e980b130ea25db833e7c489ae27dd50589c8",
                     "shasum": ""
                 },
                 "require": {
@@ -59262,7 +59301,46 @@
                     "magento/framework": "*",
                     "swissup/module-highlight": "^1.11.9"
                 },
-                "time": "2026-01-19T13:04:09+00:00",
+                "time": "2026-02-25T12:49:54+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaHighlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Highlight extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-highlight/tree/1.0.1",
+                    "issues": "https://github.com/swissup/hyva-highlight/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/hyva-highlight",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-highlight.git",
+                    "reference": "2a94e980b130ea25db833e7c489ae27dd50589c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-highlight/zipball/2a94e980b130ea25db833e7c489ae27dd50589c8",
+                    "reference": "2a94e980b130ea25db833e7c489ae27dd50589c8",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-highlight": "^1.11.9"
+                },
+                "time": "2026-02-25T12:49:54+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -59278,7 +59356,7 @@
                 ],
                 "description": "Hyva Highlight extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-highlight/tree/1.0.0",
+                    "source": "https://github.com/swissup/hyva-highlight/tree/1.0.1",
                     "issues": "https://github.com/swissup/hyva-highlight/issues"
                 }
             }
@@ -59551,6 +59629,45 @@
                     "issues": "https://github.com/swissup/hyva-testimonials/issues"
                 }
             },
+            "1.0.1": {
+                "name": "swissup/hyva-testimonials",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-testimonials.git",
+                    "reference": "61bbeb868f498ee64bef0eeb33cd4f1a598ef998"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-testimonials/zipball/61bbeb868f498ee64bef0eeb33cd4f1a598ef998",
+                    "reference": "61bbeb868f498ee64bef0eeb33cd4f1a598ef998",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-testimonials": "^1.3.17"
+                },
+                "time": "2026-02-25T15:27:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaTestimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Testimonials extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-testimonials/tree/1.0.1",
+                    "issues": "https://github.com/swissup/hyva-testimonials/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/hyva-testimonials",
                 "version": "dev-master",
@@ -59558,20 +59675,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-testimonials.git",
-                    "reference": "4c3bbbb2bff08e2839d9db5f969e15b1ec999507"
+                    "reference": "61bbeb868f498ee64bef0eeb33cd4f1a598ef998"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-testimonials/zipball/4c3bbbb2bff08e2839d9db5f969e15b1ec999507",
-                    "reference": "4c3bbbb2bff08e2839d9db5f969e15b1ec999507",
+                    "url": "https://api.github.com/repos/swissup/hyva-testimonials/zipball/61bbeb868f498ee64bef0eeb33cd4f1a598ef998",
+                    "reference": "61bbeb868f498ee64bef0eeb33cd4f1a598ef998",
                     "shasum": ""
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-testimonials": "^1.0.0"
+                    "swissup/module-testimonials": "^1.3.17"
                 },
-                "time": "2025-12-22T12:03:57+00:00",
+                "time": "2026-02-25T15:27:24+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -59587,7 +59704,7 @@
                 ],
                 "description": "Hyva Testimonials extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-testimonials/tree/1.0.0",
+                    "source": "https://github.com/swissup/hyva-testimonials/tree/1.0.1",
                     "issues": "https://github.com/swissup/hyva-testimonials/issues"
                 }
             }
@@ -341652,19 +341769,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-blank.git",
-                    "reference": "fc88bc7102942b9f05f36ba234140f7722e97b6f"
+                    "reference": "16eed7b5e60be007a7b1415d22ba5aaaf65d64fd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-blank/zipball/fc88bc7102942b9f05f36ba234140f7722e97b6f",
-                    "reference": "fc88bc7102942b9f05f36ba234140f7722e97b6f",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-blank/zipball/16eed7b5e60be007a7b1415d22ba5aaaf65d64fd",
+                    "reference": "16eed7b5e60be007a7b1415d22ba5aaaf65d64fd",
                     "shasum": ""
                 },
                 "require": {
                     "hyva-themes/magento2-default-theme": "^1.4.2",
                     "swissup/module-argento-hyva": "*"
                 },
-                "time": "2026-02-13T20:09:15+00:00",
+                "time": "2026-02-25T21:28:40+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -341686,7 +341803,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-blank/tree/0.0.2",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-blank/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-blank/issues"
                 }
             }
@@ -341831,12 +341948,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "31b0cdc53700ae40d2b3182f63fc8386649a314a"
+                    "reference": "6727af5ca0b704c5e0dd37d10d24d1196b9a554c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/31b0cdc53700ae40d2b3182f63fc8386649a314a",
-                    "reference": "31b0cdc53700ae40d2b3182f63fc8386649a314a",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/6727af5ca0b704c5e0dd37d10d24d1196b9a554c",
+                    "reference": "6727af5ca0b704c5e0dd37d10d24d1196b9a554c",
                     "shasum": ""
                 },
                 "require": {
@@ -341845,7 +341962,7 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "*"
                 },
-                "time": "2026-02-24T22:22:02+00:00",
+                "time": "2026-02-25T21:57:30+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

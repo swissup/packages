@@ -3,23 +3,57 @@
         "swissup/theme-frontend-argentobreeze-stripes": [
             {
                 "name": "swissup/theme-frontend-argentobreeze-stripes",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-feat/3.0",
+                "version_normalized": "dev-feat/3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git",
-                    "reference": "dbd1e396a8b1ab9190cfb14274ccacdb661a2cd1"
+                    "reference": "d3d17be509f3509eee7b577290398255e4c7cd50"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/dbd1e396a8b1ab9190cfb14274ccacdb661a2cd1",
-                    "reference": "dbd1e396a8b1ab9190cfb14274ccacdb661a2cd1",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/d3d17be509f3509eee7b577290398255e4c7cd50",
+                    "reference": "d3d17be509f3509eee7b577290398255e4c7cd50",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "^2.6.0"
                 },
-                "time": "2025-04-09T12:56:58+00:00",
+                "time": "2026-02-27T16:00:38+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Stripes Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/feat/3.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/issues"
+                }
+            },
+            {
+                "name": "swissup/theme-frontend-argentobreeze-stripes",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git",
+                    "reference": "0e8bd0fbdbd7481dc1a1f2d373a94279805e717b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/0e8bd0fbdbd7481dc1a1f2d373a94279805e717b",
+                    "reference": "0e8bd0fbdbd7481dc1a1f2d373a94279805e717b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.0"
+                },
+                "time": "2026-02-27T15:43:04+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -32,7 +66,7 @@
                 ],
                 "description": "Argento Breeze Stripes Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/2.6.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/issues"
                 }
             }

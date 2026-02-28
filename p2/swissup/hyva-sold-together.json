@@ -180,6 +180,51 @@
                     "source": "https://github.com/swissup/hyva-sold-together/tree/1.1.0",
                     "issues": "https://github.com/swissup/hyva-sold-together/issues"
                 }
+            },
+            {
+                "name": "swissup/hyva-sold-together",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "3b6a959a484c63e8460ae11ae2d53426f11795f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-sold-together/zipball/3b6a959a484c63e8460ae11ae2d53426f11795f5",
+                    "reference": "3b6a959a484c63e8460ae11ae2d53426f11795f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.11.3"
+                },
+                "time": "2026-02-28T20:37:54+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-sold-together/tree/1.2.0",
+                    "issues": "https://github.com/swissup/hyva-sold-together/issues"
+                }
             }
         ]
     }

@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "swissup/hyva-easybanner": [
+            {
+                "name": "swissup/hyva-easybanner",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easybanner.git",
+                    "reference": "7d4a6f8cec284f30c76327ce7fac121be2bda874"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easybanner/zipball/7d4a6f8cec284f30c76327ce7fac121be2bda874",
+                    "reference": "7d4a6f8cec284f30c76327ce7fac121be2bda874",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easybanner": "^1.9.22"
+                },
+                "time": "2026-02-13T15:28:37+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasybanner\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Banner extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easybanner/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-easybanner/issues"
+                }
+            }
+        ]
+    }
+}

@@ -58643,6 +58643,45 @@
                     "issues": "https://github.com/swissup/hyva-easybanner/issues"
                 }
             },
+            "1.0.1": {
+                "name": "swissup/hyva-easybanner",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easybanner.git",
+                    "reference": "77edffe85032522259d171849b42d8b01126f421"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-easybanner/zipball/77edffe85032522259d171849b42d8b01126f421",
+                    "reference": "77edffe85032522259d171849b42d8b01126f421",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easybanner": "^1.9.23"
+                },
+                "time": "2026-03-06T17:45:47+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasybanner\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Banner extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-easybanner/tree/1.0.1",
+                    "issues": "https://github.com/swissup/hyva-easybanner/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/hyva-easybanner",
                 "version": "dev-master",
@@ -58650,20 +58689,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-easybanner.git",
-                    "reference": "7d4a6f8cec284f30c76327ce7fac121be2bda874"
+                    "reference": "77edffe85032522259d171849b42d8b01126f421"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-easybanner/zipball/7d4a6f8cec284f30c76327ce7fac121be2bda874",
-                    "reference": "7d4a6f8cec284f30c76327ce7fac121be2bda874",
+                    "url": "https://api.github.com/repos/swissup/hyva-easybanner/zipball/77edffe85032522259d171849b42d8b01126f421",
+                    "reference": "77edffe85032522259d171849b42d8b01126f421",
                     "shasum": ""
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-easybanner": "^1.9.22"
+                    "swissup/module-easybanner": "^1.9.23"
                 },
-                "time": "2026-02-13T15:28:37+00:00",
+                "time": "2026-03-06T17:45:47+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -58679,7 +58718,7 @@
                 ],
                 "description": "Hyva Easy Banner extension from Swissup",
                 "support": {
-                    "source": "https://github.com/swissup/hyva-easybanner/tree/1.0.0",
+                    "source": "https://github.com/swissup/hyva-easybanner/tree/1.0.1",
                     "issues": "https://github.com/swissup/hyva-easybanner/issues"
                 }
             }
@@ -340249,18 +340288,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-blank.git",
-                    "reference": "436a1088fbf4c0faa77ac4eff11369181ce8e2b3"
+                    "reference": "d8af9c3802a0da04410b4a077ae2c70256e4462e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-blank/zipball/436a1088fbf4c0faa77ac4eff11369181ce8e2b3",
-                    "reference": "436a1088fbf4c0faa77ac4eff11369181ce8e2b3",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-blank/zipball/d8af9c3802a0da04410b4a077ae2c70256e4462e",
+                    "reference": "d8af9c3802a0da04410b4a077ae2c70256e4462e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-breeze-blank": "^2.11.0"
+                    "swissup/theme-frontend-breeze-blank": "3.x-dev"
                 },
-                "time": "2026-02-26T10:03:16+00:00",
+                "time": "2026-03-06T15:31:21+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -340306,7 +340345,7 @@
                 ],
                 "description": "Argento Breeze Blank Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-blank/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-blank/tree/feat/3.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-blank/issues"
                 }
             },
@@ -340694,18 +340733,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "55451c5bd03febbca971f73506ead80f39e44a91"
+                    "reference": "24f71f1a6ddf9522ddd39eded9d02b6b456a0b18"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/55451c5bd03febbca971f73506ead80f39e44a91",
-                    "reference": "55451c5bd03febbca971f73506ead80f39e44a91",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/24f71f1a6ddf9522ddd39eded9d02b6b456a0b18",
+                    "reference": "24f71f1a6ddf9522ddd39eded9d02b6b456a0b18",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "dev-feat/3.0"
+                    "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-02-27T15:35:46+00:00",
+                "time": "2026-03-06T15:31:12+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -340751,7 +340790,7 @@
                 ],
                 "description": "Argento Breeze Business Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-business/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-business/tree/feat/3.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-business/issues"
                 }
             },
@@ -341649,18 +341688,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-chic.git",
-                    "reference": "5d10a2a1142f5b9d41095e1d30eff26b602c4fed"
+                    "reference": "22a18a5316bad8384e3b674d67815d7b26acda9e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-chic/zipball/5d10a2a1142f5b9d41095e1d30eff26b602c4fed",
-                    "reference": "5d10a2a1142f5b9d41095e1d30eff26b602c4fed",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-chic/zipball/22a18a5316bad8384e3b674d67815d7b26acda9e",
+                    "reference": "22a18a5316bad8384e3b674d67815d7b26acda9e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.1"
+                    "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-02-27T15:37:48+00:00",
+                "time": "2026-03-06T15:31:04+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -341706,7 +341745,7 @@
                 ],
                 "description": "Argento Breeze Chic Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-chic/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-chic/tree/feat/3.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-chic/issues"
                 }
             },
@@ -342502,18 +342541,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
-                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4"
+                    "reference": "49bae495e574e8f91c6a889d053eb9d420f4cd7e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
-                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/49bae495e574e8f91c6a889d053eb9d420f4cd7e",
+                    "reference": "49bae495e574e8f91c6a889d053eb9d420f4cd7e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.2"
+                    "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-03-02T15:23:19+00:00",
+                "time": "2026-03-06T15:30:55+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -342559,7 +342598,7 @@
                 ],
                 "description": "Argento Breeze Force Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/feat/3.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },
@@ -343253,18 +343292,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git",
-                    "reference": "b933b38bfea12aaedfd99a285f3fd48e03dd69aa"
+                    "reference": "64f095572446a3746a841e9f946dd887eac0252e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/b933b38bfea12aaedfd99a285f3fd48e03dd69aa",
-                    "reference": "b933b38bfea12aaedfd99a285f3fd48e03dd69aa",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/64f095572446a3746a841e9f946dd887eac0252e",
+                    "reference": "64f095572446a3746a841e9f946dd887eac0252e",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.0"
+                    "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-03-02T14:33:25+00:00",
+                "time": "2026-03-06T15:30:46+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -343310,7 +343349,7 @@
                 ],
                 "description": "Argento Breeze Stripes Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/feat/3.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/issues"
                 }
             },
@@ -343851,12 +343890,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "8894ed30609116a94d91e964b133982a37afd808"
+                    "reference": "1a81f48bf621edbcecae507445e9f1d0fcacc292"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/8894ed30609116a94d91e964b133982a37afd808",
-                    "reference": "8894ed30609116a94d91e964b133982a37afd808",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/1a81f48bf621edbcecae507445e9f1d0fcacc292",
+                    "reference": "1a81f48bf621edbcecae507445e9f1d0fcacc292",
                     "shasum": ""
                 },
                 "require": {
@@ -343865,7 +343904,7 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "*"
                 },
-                "time": "2026-03-06T09:59:44+00:00",
+                "time": "2026-03-06T17:37:00+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -343897,12 +343936,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "8894ed30609116a94d91e964b133982a37afd808"
+                    "reference": "818e8c7bc979138801f30e9d02ae0989afbb920f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/8894ed30609116a94d91e964b133982a37afd808",
-                    "reference": "8894ed30609116a94d91e964b133982a37afd808",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/818e8c7bc979138801f30e9d02ae0989afbb920f",
+                    "reference": "818e8c7bc979138801f30e9d02ae0989afbb920f",
                     "shasum": ""
                 },
                 "require": {
@@ -343911,7 +343950,7 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "*"
                 },
-                "time": "2026-03-06T09:59:44+00:00",
+                "time": "2026-03-06T22:33:28+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -343933,7 +343972,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/0.3.1",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
                 }
             }

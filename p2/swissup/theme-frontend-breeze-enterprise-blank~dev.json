@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "swissup/theme-frontend-breeze-enterprise-blank": [
+            {
+                "name": "swissup/theme-frontend-breeze-enterprise-blank",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-blank.git",
+                    "reference": "8f8caaf870d1a462b72dba6c33f3d194033b95aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-blank/zipball/8f8caaf870d1a462b72dba6c33f3d194033b95aa",
+                    "reference": "8f8caaf870d1a462b72dba6c33f3d194033b95aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-breeze-blank": "dev-3.x"
+                },
+                "time": "2026-03-06T12:45:39+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/breezefront/theme-frontend-breeze-enterprise-blank/tree/master",
+                    "issues": "https://github.com/breezefront/theme-frontend-breeze-enterprise-blank/issues"
+                }
+            }
+        ]
+    }
+}

@@ -3,6 +3,40 @@
         "swissup/theme-frontend-argentobreeze-force": [
             {
                 "name": "swissup/theme-frontend-argentobreeze-force",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
+                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
+                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.2"
+                },
+                "time": "2026-03-02T15:23:19+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Force Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
+                }
+            },
+            {
+                "name": "swissup/theme-frontend-argentobreeze-force",
                 "version": "dev-feat/3.0",
                 "version_normalized": "dev-feat/3.0",
                 "source": {
@@ -31,7 +65,7 @@
                 ],
                 "description": "Argento Breeze Force Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/feat/3.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },

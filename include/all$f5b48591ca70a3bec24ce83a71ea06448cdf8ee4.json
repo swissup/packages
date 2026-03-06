@@ -342393,6 +342393,40 @@
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },
+            "3.x-dev": {
+                "name": "swissup/theme-frontend-argentobreeze-force",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
+                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
+                    "reference": "e2092af1062c0dfb4a5eabccbdd14c9e10931bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.2"
+                },
+                "time": "2026-03-02T15:23:19+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Force Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
+                }
+            },
             "dev-feat/3.0": {
                 "name": "swissup/theme-frontend-argentobreeze-force",
                 "version": "dev-feat/3.0",
@@ -342423,7 +342457,7 @@
                 ],
                 "description": "Argento Breeze Force Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/feat/3.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },
@@ -343674,19 +343708,19 @@
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
                 }
             },
-            "dev-master": {
+            "0.3.1": {
                 "name": "swissup/theme-frontend-argentohyva-chic",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "274e130d7ff52f4ecc30393e9cdd95d30f21c860"
+                    "reference": "8894ed30609116a94d91e964b133982a37afd808"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/274e130d7ff52f4ecc30393e9cdd95d30f21c860",
-                    "reference": "274e130d7ff52f4ecc30393e9cdd95d30f21c860",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/8894ed30609116a94d91e964b133982a37afd808",
+                    "reference": "8894ed30609116a94d91e964b133982a37afd808",
                     "shasum": ""
                 },
                 "require": {
@@ -343695,7 +343729,53 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "*"
                 },
-                "time": "2026-03-05T20:39:46+00:00",
+                "time": "2026-03-06T09:59:44+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Hyvä Chic theme",
+                "keywords": [
+                    "argento",
+                    "chic",
+                    "hyva based theme",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/0.3.1",
+                    "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/theme-frontend-argentohyva-chic",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
+                    "reference": "8894ed30609116a94d91e964b133982a37afd808"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/8894ed30609116a94d91e964b133982a37afd808",
+                    "reference": "8894ed30609116a94d91e964b133982a37afd808",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/hyva-easytabs": "*",
+                    "swissup/module-argento-hyva": "*",
+                    "swissup/module-image": "^1.0.0",
+                    "swissup/theme-frontend-argentohyva-blank": "*"
+                },
+                "time": "2026-03-06T09:59:44+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -343717,8 +343797,80 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/master",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/0.3.1",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
+                }
+            }
+        },
+        "swissup/theme-frontend-breeze-enterprise-apollo": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-breeze-enterprise-apollo",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
+                    "reference": "0b23051c8fd96b0d94cd918c103c61db036c7391"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/0b23051c8fd96b0d94cd918c103c61db036c7391",
+                    "reference": "0b23051c8fd96b0d94cd918c103c61db036c7391",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-breeze-enterprise-blank": "*"
+                },
+                "time": "2026-03-06T13:03:17+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/breezefront/theme-frontend-breeze-enterprise-apollo/tree/master",
+                    "issues": "https://github.com/breezefront/theme-frontend-breeze-enterprise-apollo/issues"
+                }
+            }
+        },
+        "swissup/theme-frontend-breeze-enterprise-blank": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-breeze-enterprise-blank",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-blank.git",
+                    "reference": "8f8caaf870d1a462b72dba6c33f3d194033b95aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-blank/zipball/8f8caaf870d1a462b72dba6c33f3d194033b95aa",
+                    "reference": "8f8caaf870d1a462b72dba6c33f3d194033b95aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-breeze-blank": "dev-3.x"
+                },
+                "time": "2026-03-06T12:45:39+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "support": {
+                    "source": "https://github.com/breezefront/theme-frontend-breeze-enterprise-blank/tree/master",
+                    "issues": "https://github.com/breezefront/theme-frontend-breeze-enterprise-blank/issues"
                 }
             }
         },

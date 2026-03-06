@@ -3,6 +3,40 @@
         "swissup/theme-frontend-argentobreeze-stripes": [
             {
                 "name": "swissup/theme-frontend-argentobreeze-stripes",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git",
+                    "reference": "b933b38bfea12aaedfd99a285f3fd48e03dd69aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/b933b38bfea12aaedfd99a285f3fd48e03dd69aa",
+                    "reference": "b933b38bfea12aaedfd99a285f3fd48e03dd69aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^2.6.0"
+                },
+                "time": "2026-03-02T14:33:25+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Stripes Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/3.x",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/issues"
+                }
+            },
+            {
+                "name": "swissup/theme-frontend-argentobreeze-stripes",
                 "version": "dev-feat/3.0",
                 "version_normalized": "dev-feat/3.0",
                 "source": {
@@ -31,7 +65,7 @@
                 ],
                 "description": "Argento Breeze Stripes Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/feat/3.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/tree/3.x",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-stripes/issues"
                 }
             },

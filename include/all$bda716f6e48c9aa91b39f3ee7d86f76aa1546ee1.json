@@ -16887,12 +16887,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/argento-hyva.git",
-                    "reference": "bad5ef0a785f2f5f608b67a84f37eac265230d06"
+                    "reference": "6cf6c79fa4537ac24ac460e882cf4d356e1a0765"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/argento-hyva/zipball/bad5ef0a785f2f5f608b67a84f37eac265230d06",
-                    "reference": "bad5ef0a785f2f5f608b67a84f37eac265230d06",
+                    "url": "https://api.github.com/repos/swissup/argento-hyva/zipball/6cf6c79fa4537ac24ac460e882cf4d356e1a0765",
+                    "reference": "6cf6c79fa4537ac24ac460e882cf4d356e1a0765",
                     "shasum": ""
                 },
                 "require": {
@@ -16941,7 +16941,7 @@
                     "swissup/theme-frontend-argentohyva-blank": "^0.3.0",
                     "swissup/theme-frontend-argentohyva-chic": "^1.0.0"
                 },
-                "time": "2026-03-11T17:42:25+00:00",
+                "time": "2026-03-11T22:03:43+00:00",
                 "type": "metapackage",
                 "extra": {
                     "marketplace": {
@@ -17053,12 +17053,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/argento-hyva.git",
-                    "reference": "8fda2e43f10c8f1464eea3f41b3def7efa3822aa"
+                    "reference": "6cf6c79fa4537ac24ac460e882cf4d356e1a0765"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/argento-hyva/zipball/8fda2e43f10c8f1464eea3f41b3def7efa3822aa",
-                    "reference": "8fda2e43f10c8f1464eea3f41b3def7efa3822aa",
+                    "url": "https://api.github.com/repos/swissup/argento-hyva/zipball/6cf6c79fa4537ac24ac460e882cf4d356e1a0765",
+                    "reference": "6cf6c79fa4537ac24ac460e882cf4d356e1a0765",
                     "shasum": ""
                 },
                 "require": {
@@ -17107,7 +17107,7 @@
                     "swissup/theme-frontend-argentohyva-blank": "^0.3.0",
                     "swissup/theme-frontend-argentohyva-chic": "^1.0.0"
                 },
-                "time": "2026-03-11T18:06:52+00:00",
+                "time": "2026-03-11T22:03:43+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
@@ -17126,7 +17126,7 @@
                 ],
                 "description": "Argento Hyvä Themes",
                 "support": {
-                    "source": "https://github.com/swissup/argento-hyva/tree/1.0.1",
+                    "source": "https://github.com/swissup/argento-hyva/tree/1.0.0",
                     "issues": "https://github.com/swissup/argento-hyva/issues"
                 }
             }
@@ -97482,6 +97482,49 @@
                     "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
             },
+            "1.0.0": {
+                "name": "swissup/module-argento-hyva",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "e0e06916106fc38387ebcb9896af0eb31adf70e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/e0e06916106fc38387ebcb9896af0eb31adf70e2",
+                    "reference": "e0e06916106fc38387ebcb9896af0eb31adf70e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-theme-module": "*"
+                },
+                "time": "2026-03-11T22:00:52+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ArgentoHyva\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
+                "support": {
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.0.0",
+                    "issues": "https://github.com/swissup/module-argento-hyva/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-argento-hyva",
                 "version": "dev-master",
@@ -97489,18 +97532,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-argento-hyva.git",
-                    "reference": "5dbc2528ae121a69daaa9e5c99314c70af091092"
+                    "reference": "e0e06916106fc38387ebcb9896af0eb31adf70e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/5dbc2528ae121a69daaa9e5c99314c70af091092",
-                    "reference": "5dbc2528ae121a69daaa9e5c99314c70af091092",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/e0e06916106fc38387ebcb9896af0eb31adf70e2",
+                    "reference": "e0e06916106fc38387ebcb9896af0eb31adf70e2",
                     "shasum": ""
                 },
                 "require": {
                     "hyva-themes/magento2-theme-module": "*"
                 },
-                "time": "2026-02-28T23:10:16+00:00",
+                "time": "2026-03-11T22:00:52+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -97522,7 +97565,7 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
                 "support": {
-                    "source": "https://github.com/swissup/module-argento-hyva/tree/0.0.4",
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.0.0",
                     "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
             }
@@ -343988,19 +344031,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-blank.git",
-                    "reference": "de3ee9d48c0316f2310c6abc3115c427916279eb"
+                    "reference": "6c266d97f789ee8451f3576e3239f0109dd19e9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-blank/zipball/de3ee9d48c0316f2310c6abc3115c427916279eb",
-                    "reference": "de3ee9d48c0316f2310c6abc3115c427916279eb",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-blank/zipball/6c266d97f789ee8451f3576e3239f0109dd19e9a",
+                    "reference": "6c266d97f789ee8451f3576e3239f0109dd19e9a",
                     "shasum": ""
                 },
                 "require": {
-                    "hyva-themes/magento2-default-theme": "^1.4.2",
-                    "swissup/module-argento-hyva": "^0.0.4"
+                    "hyva-themes/magento2-default-theme": "^1.4.4",
+                    "swissup/module-argento-hyva": "^1.0.0"
                 },
-                "time": "2026-03-08T22:55:30+00:00",
+                "time": "2026-03-11T21:59:32+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -344022,7 +344065,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-blank/tree/0.3.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-blank/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-blank/issues"
                 }
             }
@@ -344489,21 +344532,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "07e2bea9ebb1634b43312990d26ab8aa4ce4d4fb"
+                    "reference": "e2d9baa2e676e40c092f01fe0b9256cd21174682"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/07e2bea9ebb1634b43312990d26ab8aa4ce4d4fb",
-                    "reference": "07e2bea9ebb1634b43312990d26ab8aa4ce4d4fb",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/e2d9baa2e676e40c092f01fe0b9256cd21174682",
+                    "reference": "e2d9baa2e676e40c092f01fe0b9256cd21174682",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/hyva-easytabs": "*",
-                    "swissup/module-argento-hyva": "*",
+                    "swissup/module-argento-hyva": "^1.0.0",
                     "swissup/module-image": "^1.0.0",
-                    "swissup/theme-frontend-argentohyva-blank": "*"
+                    "swissup/theme-frontend-argentohyva-blank": "^1.0.2"
                 },
-                "time": "2026-03-11T14:50:03+00:00",
+                "time": "2026-03-11T21:55:05+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -344525,7 +344567,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/1.0.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
                 }
             }

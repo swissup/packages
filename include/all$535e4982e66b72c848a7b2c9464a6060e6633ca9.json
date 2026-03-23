@@ -50280,19 +50280,19 @@
                     "source": "https://github.com/swissup/firecheckout/tree/1.34.2"
                 }
             },
-            "dev-master": {
+            "1.34.3": {
                 "name": "swissup/firecheckout",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.34.3",
+                "version_normalized": "1.34.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "a02da7a7f7b6b4f67d6d351228ff7e9bd8d8b8d8"
+                    "reference": "216e09fb5f301248115b9a0fdcf29d8f9bb396c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/a02da7a7f7b6b4f67d6d351228ff7e9bd8d8b8d8",
-                    "reference": "a02da7a7f7b6b4f67d6d351228ff7e9bd8d8b8d8",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/216e09fb5f301248115b9a0fdcf29d8f9bb396c9",
+                    "reference": "216e09fb5f301248115b9a0fdcf29d8f9bb396c9",
                     "shasum": ""
                 },
                 "require": {
@@ -50306,13 +50306,55 @@
                     "swissup/module-checkout-success": "^2.0.10",
                     "swissup/module-customer-field-manager": "^1.2.11",
                     "swissup/module-delivery-date": "^1.8.0",
-                    "swissup/module-firecheckout": "^1.34.2",
+                    "swissup/module-firecheckout": "^1.34.3",
                     "swissup/module-geoip": "^1.6.1",
                     "swissup/module-orderattachment": "^1.5.3",
                     "swissup/module-subscribe-at-checkout": "^1.3.6",
                     "swissup/module-taxvat": "^1.4.9"
                 },
-                "time": "2026-01-08T08:30:47+00:00",
+                "time": "2026-03-23T16:35:04+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "All-in-one checkout extensions for Magento2",
+                "support": {
+                    "source": "https://github.com/swissup/firecheckout/tree/1.34.3"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/firecheckout",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/firecheckout.git",
+                    "reference": "216e09fb5f301248115b9a0fdcf29d8f9bb396c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/firecheckout/zipball/216e09fb5f301248115b9a0fdcf29d8f9bb396c9",
+                    "reference": "216e09fb5f301248115b9a0fdcf29d8f9bb396c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-address-autocomplete": "^1.8.2",
+                    "swissup/module-address-field-manager": "^1.6.21",
+                    "swissup/module-address-validation": "^1.0.4",
+                    "swissup/module-bot-protection": "^1.0.2",
+                    "swissup/module-checkout-cart": "^1.5.10",
+                    "swissup/module-checkout-fields": "^1.6.15",
+                    "swissup/module-checkout-registration": "^1.2.3",
+                    "swissup/module-checkout-success": "^2.0.10",
+                    "swissup/module-customer-field-manager": "^1.2.11",
+                    "swissup/module-delivery-date": "^1.8.0",
+                    "swissup/module-firecheckout": "^1.34.3",
+                    "swissup/module-geoip": "^1.6.1",
+                    "swissup/module-orderattachment": "^1.5.3",
+                    "swissup/module-subscribe-at-checkout": "^1.3.6",
+                    "swissup/module-taxvat": "^1.4.9"
+                },
+                "time": "2026-03-23T16:35:04+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -50320,7 +50362,7 @@
                 ],
                 "description": "All-in-one checkout extensions for Magento2",
                 "support": {
-                    "source": "https://github.com/swissup/firecheckout/tree/1.34.2"
+                    "source": "https://github.com/swissup/firecheckout/tree/1.34.3"
                 }
             }
         },
@@ -221297,58 +221339,6 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
-            "dev-feature/update-llabel-text-editor": {
-                "name": "swissup/module-pro-labels",
-                "version": "dev-feature/update-llabel-text-editor",
-                "version_normalized": "dev-feature/update-llabel-text-editor",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "b743ec38c7f4a6c658f5834041023f34c965d636"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/b743ec38c7f4a6c658f5834041023f34c965d636",
-                    "reference": "b743ec38c7f4a6c658f5834041023f34c965d636",
-                    "shasum": ""
-                },
-                "require": {
-                    "swissup/module-codemirror": "^1.1.8",
-                    "swissup/module-core": "^1.12.26"
-                },
-                "suggest": {
-                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
-                },
-                "time": "2026-03-20T22:29:34+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-prolabels.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/prolabels/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\ProLabels\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Product labels and badges",
-                "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/feature/update-llabel-text-editor",
-                    "issues": "https://github.com/swissup/module-pro-labels/issues"
-                }
-            },
             "dev-master": {
                 "name": "swissup/module-pro-labels",
                 "version": "dev-master",
@@ -269053,6 +269043,35 @@
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             },
+            "1.17.35": {
+                "name": "swissup/navigationpro",
+                "version": "1.17.35",
+                "version_normalized": "1.17.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/navigationpro.git",
+                    "reference": "a7fb8179c51d23f6a2b781341909a69ed3eb4f05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/a7fb8179c51d23f6a2b781341909a69ed3eb4f05",
+                    "reference": "a7fb8179c51d23f6a2b781341909a69ed3eb4f05",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-navigationpro": "^1.17.35"
+                },
+                "time": "2026-03-23T16:35:02+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/navigationpro/tree/1.17.35",
+                    "issues": "https://github.com/swissup/navigationpro/issues"
+                }
+            },
             "1.17.4": {
                 "name": "swissup/navigationpro",
                 "version": "1.17.4",
@@ -269408,18 +269427,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "eae9e70e341194551ee5235b129554f6c4c02df4"
+                    "reference": "a7fb8179c51d23f6a2b781341909a69ed3eb4f05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/eae9e70e341194551ee5235b129554f6c4c02df4",
-                    "reference": "eae9e70e341194551ee5235b129554f6c4c02df4",
+                    "url": "https://api.github.com/repos/swissup/navigationpro/zipball/a7fb8179c51d23f6a2b781341909a69ed3eb4f05",
+                    "reference": "a7fb8179c51d23f6a2b781341909a69ed3eb4f05",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-navigationpro": "^1.17.33"
+                    "swissup/module-navigationpro": "^1.17.35"
                 },
-                "time": "2025-12-12T16:08:49+00:00",
+                "time": "2026-03-23T16:35:02+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -269427,7 +269446,7 @@
                 ],
                 "description": "Create beautiful menus for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/navigationpro/tree/1.17.34",
+                    "source": "https://github.com/swissup/navigationpro/tree/1.17.35",
                     "issues": "https://github.com/swissup/navigationpro/issues"
                 }
             }
@@ -345316,18 +345335,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
-                    "reference": "28919421622251c9914767f090a1f6a050dd01e6"
+                    "reference": "a9059fe6f2ab991cc64deabd9b8a63f6deabbb3b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/28919421622251c9914767f090a1f6a050dd01e6",
-                    "reference": "28919421622251c9914767f090a1f6a050dd01e6",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/a9059fe6f2ab991cc64deabd9b8a63f6deabbb3b",
+                    "reference": "a9059fe6f2ab991cc64deabd9b8a63f6deabbb3b",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "*"
                 },
-                "time": "2026-03-20T16:23:58+00:00",
+                "time": "2026-03-23T14:12:16+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

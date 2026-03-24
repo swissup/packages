@@ -221465,6 +221465,58 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
+            "dev-bugfix/index-respects-storeview-attribute-values": {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-bugfix/index-respects-storeview-attribute-values",
+                "version_normalized": "dev-bugfix/index-respects-storeview-attribute-values",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "33bdc10cbd926be6b67ed3e93bf3af438eef20e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/33bdc10cbd926be6b67ed3e93bf3af438eef20e2",
+                    "reference": "33bdc10cbd926be6b67ed3e93bf3af438eef20e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.26"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2026-03-24T22:31:18+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-prolabels.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/prolabels/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels/tree/bugfix/index-respects-storeview-attribute-values",
+                    "issues": "https://github.com/swissup/module-pro-labels/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-pro-labels",
                 "version": "dev-master",

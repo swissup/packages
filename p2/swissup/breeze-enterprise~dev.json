@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "swissup/breeze-enterprise": [
+            {
+                "name": "swissup/breeze-enterprise",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/breeze-enterprise.git",
+                    "reference": "a678e58f679f01fb7e656e7f6e427a9eb6e64b70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/a678e58f679f01fb7e656e7f6e427a9eb6e64b70",
+                    "reference": "a678e58f679f01fb7e656e7f6e427a9eb6e64b70",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze-content-builder": "*",
+                    "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
+                    "swissup/module-easy-slide": "*",
+                    "swissup/module-marketplace": "*",
+                    "swissup/module-navigationpro": "^1.17.35",
+                    "swissup/theme-frontend-breeze-enterprise-apollo": "^1.0.0-beta.1"
+                },
+                "time": "2026-03-24T15:37:42+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Enterprise theme for Magento",
+                "support": {
+                    "source": "https://github.com/breezefront/breeze-enterprise/tree/master",
+                    "issues": "https://github.com/breezefront/breeze-enterprise/issues"
+                }
+            }
+        ]
+    }
+}

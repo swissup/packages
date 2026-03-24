@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "swissup/module-breeze-content-builder": [
+            {
+                "name": "swissup/module-breeze-content-builder",
+                "version": "1.0.0-beta.1",
+                "version_normalized": "1.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
+                    "reference": "d3e8d83759208a434b9e7f1be0b26dc5259a9af9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/d3e8d83759208a434b9e7f1be0b26dc5259a9af9",
+                    "reference": "d3e8d83759208a434b9e7f1be0b26dc5259a9af9",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-store": "*",
+                    "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
+                    "swissup/module-core": "^1.12.26"
+                },
+                "time": "2026-03-24T16:09:50+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Content Builder module for Magento 2",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-content-builder/tree/1.0.0-beta.1",
+                    "issues": "https://github.com/breezefront/module-breeze-content-builder/issues"
+                }
+            }
+        ]
+    }
+}

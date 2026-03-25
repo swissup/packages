@@ -30249,6 +30249,40 @@
             }
         },
         "swissup/breeze-enterprise": {
+            "3.0.0-beta.1": {
+                "name": "swissup/breeze-enterprise",
+                "version": "3.0.0-beta.1",
+                "version_normalized": "3.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/breeze-enterprise.git",
+                    "reference": "588fc1c6c4b8333f37a8b81ca3ff64a445744dc3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/588fc1c6c4b8333f37a8b81ca3ff64a445744dc3",
+                    "reference": "588fc1c6c4b8333f37a8b81ca3ff64a445744dc3",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze-content-builder": "^1.0.0-beta.1",
+                    "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
+                    "swissup/module-easy-slide": "*",
+                    "swissup/module-marketplace": "*",
+                    "swissup/module-navigationpro": "^1.17.35",
+                    "swissup/theme-frontend-breeze-enterprise-apollo": "^3.0.0-beta.1"
+                },
+                "time": "2026-03-25T05:50:57+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Enterprise theme for Magento",
+                "support": {
+                    "source": "https://github.com/breezefront/breeze-enterprise/tree/3.0.0-beta.1",
+                    "issues": "https://github.com/breezefront/breeze-enterprise/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/breeze-enterprise",
                 "version": "dev-master",
@@ -30256,23 +30290,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/breeze-enterprise.git",
-                    "reference": "a678e58f679f01fb7e656e7f6e427a9eb6e64b70"
+                    "reference": "588fc1c6c4b8333f37a8b81ca3ff64a445744dc3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/a678e58f679f01fb7e656e7f6e427a9eb6e64b70",
-                    "reference": "a678e58f679f01fb7e656e7f6e427a9eb6e64b70",
+                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/588fc1c6c4b8333f37a8b81ca3ff64a445744dc3",
+                    "reference": "588fc1c6c4b8333f37a8b81ca3ff64a445744dc3",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-breeze-content-builder": "*",
+                    "swissup/module-breeze-content-builder": "^1.0.0-beta.1",
                     "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
                     "swissup/module-easy-slide": "*",
                     "swissup/module-marketplace": "*",
                     "swissup/module-navigationpro": "^1.17.35",
-                    "swissup/theme-frontend-breeze-enterprise-apollo": "^1.0.0-beta.1"
+                    "swissup/theme-frontend-breeze-enterprise-apollo": "^3.0.0-beta.1"
                 },
-                "time": "2026-03-24T15:37:42+00:00",
+                "time": "2026-03-25T05:50:57+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -30280,7 +30314,7 @@
                 ],
                 "description": "Breeze Enterprise theme for Magento",
                 "support": {
-                    "source": "https://github.com/breezefront/breeze-enterprise/tree/master",
+                    "source": "https://github.com/breezefront/breeze-enterprise/tree/3.0.0-beta.1",
                     "issues": "https://github.com/breezefront/breeze-enterprise/issues"
                 }
             }

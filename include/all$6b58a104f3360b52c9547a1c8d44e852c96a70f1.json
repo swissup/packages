@@ -279330,6 +279330,36 @@
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             },
+            "1.8.1": {
+                "name": "swissup/pro-labels",
+                "version": "1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pro-labels.git",
+                    "reference": "9b047f554871402e951334efc743ec077b2a386b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/9b047f554871402e951334efc743ec077b2a386b",
+                    "reference": "9b047f554871402e951334efc743ec077b2a386b",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-pro-labels": "^1.8.1",
+                    "swissup/module-pro-labels-configurable-product": "^1.0.9"
+                },
+                "time": "2026-03-26T23:09:32+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/pro-labels/tree/1.8.1",
+                    "issues": "https://github.com/swissup/pro-labels/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/pro-labels",
                 "version": "dev-master",
@@ -279337,19 +279367,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pro-labels.git",
-                    "reference": "1c3d69638db96bfa0a4cc4926ce6f929e703fb09"
+                    "reference": "9b047f554871402e951334efc743ec077b2a386b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/1c3d69638db96bfa0a4cc4926ce6f929e703fb09",
-                    "reference": "1c3d69638db96bfa0a4cc4926ce6f929e703fb09",
+                    "url": "https://api.github.com/repos/swissup/pro-labels/zipball/9b047f554871402e951334efc743ec077b2a386b",
+                    "reference": "9b047f554871402e951334efc743ec077b2a386b",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-pro-labels": "^1.8.0",
+                    "swissup/module-pro-labels": "^1.8.1",
                     "swissup/module-pro-labels-configurable-product": "^1.0.9"
                 },
-                "time": "2026-03-23T22:03:14+00:00",
+                "time": "2026-03-26T23:09:32+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -279357,7 +279387,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/pro-labels/tree/1.8.0",
+                    "source": "https://github.com/swissup/pro-labels/tree/1.8.1",
                     "issues": "https://github.com/swissup/pro-labels/issues"
                 }
             }

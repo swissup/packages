@@ -2503,6 +2503,59 @@
                     "source": "https://github.com/swissup/module-testimonials/tree/1.3.9",
                     "issues": "https://github.com/swissup/module-testimonials/issues"
                 }
+            },
+            {
+                "name": "swissup/module-testimonials",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-testimonials.git",
+                    "reference": "2ca286b9fd9458a7c1df82fe130309f550c177d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-testimonials/zipball/2ca286b9fd9458a7c1df82fe130309f550c177d6",
+                    "reference": "2ca286b9fd9458a7c1df82fe130309f550c177d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.26",
+                    "swissup/module-swiper": "^1.0.1"
+                },
+                "time": "2026-03-30T13:26:35+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-testimonials.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/testimonials/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/testimonials/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "keywords": [
+                    "reviews",
+                    "testimonials"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-testimonials/tree/1.4.0",
+                    "issues": "https://github.com/swissup/module-testimonials/issues"
+                }
             }
         ]
     }

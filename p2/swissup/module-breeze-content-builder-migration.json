@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "swissup/module-breeze-content-builder-migration": [
+            {
+                "name": "swissup/module-breeze-content-builder-migration",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder-migration.git",
+                    "reference": "f82d17ef3286def14e087eb497400098f814cd37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder-migration/zipball/f82d17ef3286def14e087eb497400098f814cd37",
+                    "reference": "f82d17ef3286def14e087eb497400098f814cd37",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-cms": "*",
+                    "swissup/module-breeze-content-builder": "*"
+                },
+                "suggest": {
+                    "swissup/module-easy-slide": "Required for migrating Page Builder sliders to EasySlide"
+                },
+                "time": "2026-04-09T08:03:41+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilderMigration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Migration tools for Breeze Content Builder",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-content-builder-migration/tree/1.0.0",
+                    "issues": "https://github.com/breezefront/module-breeze-content-builder-migration/issues"
+                }
+            }
+        ]
+    }
+}

@@ -41,6 +41,47 @@
                     "source": "https://github.com/breezefront/module-breeze-content-builder-migration/tree/1.0.0",
                     "issues": "https://github.com/breezefront/module-breeze-content-builder-migration/issues"
                 }
+            },
+            {
+                "name": "swissup/module-breeze-content-builder-migration",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder-migration.git",
+                    "reference": "f0f0e4484561417d2e911793ed65e0f8beba7f6c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder-migration/zipball/f0f0e4484561417d2e911793ed65e0f8beba7f6c",
+                    "reference": "f0f0e4484561417d2e911793ed65e0f8beba7f6c",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/module-cms": "*",
+                    "swissup/module-breeze-content-builder": "*"
+                },
+                "suggest": {
+                    "swissup/module-easy-slide": "Required for migrating Page Builder sliders to EasySlide"
+                },
+                "time": "2026-04-09T14:53:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilderMigration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Migration tools for Breeze Content Builder",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-content-builder-migration/tree/1.0.1",
+                    "issues": "https://github.com/breezefront/module-breeze-content-builder-migration/issues"
+                }
             }
         ]
     }

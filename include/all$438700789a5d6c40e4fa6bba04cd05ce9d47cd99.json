@@ -98897,6 +98897,49 @@
                     "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
             },
+            "1.1.2": {
+                "name": "swissup/module-argento-hyva",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "065c1b9de73c82bf3442b18a50e7088f37e9dca2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/065c1b9de73c82bf3442b18a50e7088f37e9dca2",
+                    "reference": "065c1b9de73c82bf3442b18a50e7088f37e9dca2",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-theme-module": "*"
+                },
+                "time": "2026-04-10T20:23:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ArgentoHyva\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
+                "support": {
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.1.2",
+                    "issues": "https://github.com/swissup/module-argento-hyva/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-argento-hyva",
                 "version": "dev-master",
@@ -98904,18 +98947,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-argento-hyva.git",
-                    "reference": "7af4897077c7f155487ca57dd9a7324c31d10c95"
+                    "reference": "065c1b9de73c82bf3442b18a50e7088f37e9dca2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/7af4897077c7f155487ca57dd9a7324c31d10c95",
-                    "reference": "7af4897077c7f155487ca57dd9a7324c31d10c95",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/065c1b9de73c82bf3442b18a50e7088f37e9dca2",
+                    "reference": "065c1b9de73c82bf3442b18a50e7088f37e9dca2",
                     "shasum": ""
                 },
                 "require": {
                     "hyva-themes/magento2-theme-module": "*"
                 },
-                "time": "2026-04-10T15:30:48+00:00",
+                "time": "2026-04-10T20:23:59+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -98937,7 +98980,7 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
                 "support": {
-                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.1.1",
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
             }

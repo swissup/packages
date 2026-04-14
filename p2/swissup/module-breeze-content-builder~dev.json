@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "29b308e564f339922c6cc8970abcfbed179d659a"
+                    "reference": "04a45c16e6bcb61929dbf216e97e87267785ea1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/29b308e564f339922c6cc8970abcfbed179d659a",
-                    "reference": "29b308e564f339922c6cc8970abcfbed179d659a",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/04a45c16e6bcb61929dbf216e97e87267785ea1d",
+                    "reference": "04a45c16e6bcb61929dbf216e97e87267785ea1d",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,10 @@
                     "swissup/module-codemirror": "*",
                     "swissup/module-core": "^1.12.26"
                 },
-                "time": "2026-04-10T08:47:51+00:00",
+                "suggest": {
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                },
+                "time": "2026-04-14T09:08:04+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

@@ -31075,16 +31075,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/breeze-enterprise.git",
-                    "reference": "f9b144e8ae0d1c20ecc76b5d5a9114b368038aaa"
+                    "reference": "0287c49538e81d924b8b48a995df1a0863dcb747"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/f9b144e8ae0d1c20ecc76b5d5a9114b368038aaa",
-                    "reference": "f9b144e8ae0d1c20ecc76b5d5a9114b368038aaa",
+                    "url": "https://api.github.com/repos/breezefront/breeze-enterprise/zipball/0287c49538e81d924b8b48a995df1a0863dcb747",
+                    "reference": "0287c49538e81d924b8b48a995df1a0863dcb747",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-breeze-content-builder": "^1.0.0-beta.1",
+                    "swissup/module-breeze-content-builder-migration": "^1.0.0",
                     "swissup/module-breeze-integrations": "^1.3.6",
                     "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
                     "swissup/module-easy-slide": "*",
@@ -31093,7 +31094,7 @@
                     "swissup/module-navigationpro": "^1.17.35",
                     "swissup/theme-frontend-breeze-enterprise-apollo": "^3.0.0-beta.1"
                 },
-                "time": "2026-04-10T07:08:07+00:00",
+                "time": "2026-04-14T08:05:16+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -110513,12 +110514,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "29b308e564f339922c6cc8970abcfbed179d659a"
+                    "reference": "04a45c16e6bcb61929dbf216e97e87267785ea1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/29b308e564f339922c6cc8970abcfbed179d659a",
-                    "reference": "29b308e564f339922c6cc8970abcfbed179d659a",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/04a45c16e6bcb61929dbf216e97e87267785ea1d",
+                    "reference": "04a45c16e6bcb61929dbf216e97e87267785ea1d",
                     "shasum": ""
                 },
                 "require": {
@@ -110533,7 +110534,10 @@
                     "swissup/module-codemirror": "*",
                     "swissup/module-core": "^1.12.26"
                 },
-                "time": "2026-04-10T08:47:51+00:00",
+                "suggest": {
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                },
+                "time": "2026-04-14T09:08:04+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -225163,19 +225167,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-quantity-switcher.git",
-                    "reference": "8fcaea173e99a4a656dab3d90b90dbf61f1945fb"
+                    "reference": "48a93fe17e7c753ee8b0556cecaad594ec1d3f82"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-quantity-switcher/zipball/8fcaea173e99a4a656dab3d90b90dbf61f1945fb",
-                    "reference": "8fcaea173e99a4a656dab3d90b90dbf61f1945fb",
+                    "url": "https://api.github.com/repos/swissup/module-quantity-switcher/zipball/48a93fe17e7c753ee8b0556cecaad594ec1d3f82",
+                    "reference": "48a93fe17e7c753ee8b0556cecaad594ec1d3f82",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-core": "^1.12.26",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-03-31T14:23:04+00:00",
+                "time": "2026-04-14T11:52:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -225195,7 +225199,7 @@
                     "switcher"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-quantity-switcher/tree/1.2.1",
+                    "source": "https://github.com/swissup/module-quantity-switcher/tree/master",
                     "issues": "https://github.com/swissup/module-quantity-switcher/issues"
                 }
             }
@@ -232050,18 +232054,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "ed9877f6a881e9b363bf4ad7d29365a1b55f3df1"
+                    "reference": "c2dc263a70f9d0310e6fff9098d93758b13edcd1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/ed9877f6a881e9b363bf4ad7d29365a1b55f3df1",
-                    "reference": "ed9877f6a881e9b363bf4ad7d29365a1b55f3df1",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/c2dc263a70f9d0310e6fff9098d93758b13edcd1",
+                    "reference": "c2dc263a70f9d0310e6fff9098d93758b13edcd1",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-01-26T20:53:45+00:00",
+                "time": "2026-04-14T21:28:48+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -347973,12 +347977,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "02cb644812397ffded8b0450ee14cd51ec93cd68"
+                    "reference": "b142db6d77570aeb0702bc5d95cf770c3253c39d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/02cb644812397ffded8b0450ee14cd51ec93cd68",
-                    "reference": "02cb644812397ffded8b0450ee14cd51ec93cd68",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/b142db6d77570aeb0702bc5d95cf770c3253c39d",
+                    "reference": "b142db6d77570aeb0702bc5d95cf770c3253c39d",
                     "shasum": ""
                 },
                 "require": {
@@ -347986,7 +347990,7 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "^1.1.3"
                 },
-                "time": "2026-04-10T21:01:43+00:00",
+                "time": "2026-04-14T08:30:34+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -348008,7 +348012,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/1.1.3",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
                 }
             }
@@ -348054,18 +348058,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
-                    "reference": "60d5f64882bb488daa9a2812ecb70fdab3f32349"
+                    "reference": "13128c35c028fd4c6e5d972d626f0ceba8e44121"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/60d5f64882bb488daa9a2812ecb70fdab3f32349",
-                    "reference": "60d5f64882bb488daa9a2812ecb70fdab3f32349",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/13128c35c028fd4c6e5d972d626f0ceba8e44121",
+                    "reference": "13128c35c028fd4c6e5d972d626f0ceba8e44121",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "3.0.0-beta.1"
                 },
-                "time": "2026-04-10T14:51:19+00:00",
+                "time": "2026-04-14T14:41:17+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

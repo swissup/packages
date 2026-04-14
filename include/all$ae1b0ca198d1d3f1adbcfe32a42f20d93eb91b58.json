@@ -255150,6 +255150,48 @@
                     "issues": "https://github.com/swissup/module-subscription/issues"
                 }
             },
+            "1.0.4": {
+                "name": "swissup/module-subscription",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-subscription.git",
+                    "reference": "8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-subscription/zipball/8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd",
+                    "reference": "8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.26"
+                },
+                "time": "2026-04-14T08:31:22+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Subscription\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module that allows to link downloadable products to the virtual subscription",
+                "support": {
+                    "source": "https://github.com/swissup/module-subscription/tree/1.0.4",
+                    "issues": "https://github.com/swissup/module-subscription/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-subscription",
                 "version": "dev-master",
@@ -255157,18 +255199,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-subscription.git",
-                    "reference": "f923a89dd18d043f2a67dc8450f5b936b477e5a1"
+                    "reference": "8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-subscription/zipball/f923a89dd18d043f2a67dc8450f5b936b477e5a1",
-                    "reference": "f923a89dd18d043f2a67dc8450f5b936b477e5a1",
+                    "url": "https://api.github.com/repos/swissup/module-subscription/zipball/8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd",
+                    "reference": "8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.7"
+                    "swissup/module-core": "^1.12.26"
                 },
-                "time": "2025-05-09T09:04:12+00:00",
+                "time": "2026-04-14T08:31:22+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -255189,7 +255231,7 @@
                 ],
                 "description": "Module that allows to link downloadable products to the virtual subscription",
                 "support": {
-                    "source": "https://github.com/swissup/module-subscription/tree/1.0.3",
+                    "source": "https://github.com/swissup/module-subscription/tree/1.0.4",
                     "issues": "https://github.com/swissup/module-subscription/issues"
                 }
             }

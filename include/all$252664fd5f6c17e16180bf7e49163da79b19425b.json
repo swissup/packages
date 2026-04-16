@@ -110507,19 +110507,19 @@
                     "issues": "https://github.com/breezefront/module-breeze-content-builder/issues"
                 }
             },
-            "dev-master": {
+            "1.0.0-beta.2": {
                 "name": "swissup/module-breeze-content-builder",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.0-beta.2",
+                "version_normalized": "1.0.0.0-beta2",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "47cce7810ed71d06cefc7e3931d917fc03199f9b"
+                    "reference": "f5f7e8a5a9ba607c2f2583a6ffba77374869e914"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/47cce7810ed71d06cefc7e3931d917fc03199f9b",
-                    "reference": "47cce7810ed71d06cefc7e3931d917fc03199f9b",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/f5f7e8a5a9ba607c2f2583a6ffba77374869e914",
+                    "reference": "f5f7e8a5a9ba607c2f2583a6ffba77374869e914",
                     "shasum": ""
                 },
                 "require": {
@@ -110537,7 +110537,56 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-04-15T07:21:04+00:00",
+                "time": "2026-04-16T09:53:41+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Content Builder module for Magento 2",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-content-builder/tree/1.0.0-beta.2",
+                    "issues": "https://github.com/breezefront/module-breeze-content-builder/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-content-builder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
+                    "reference": "f5f7e8a5a9ba607c2f2583a6ffba77374869e914"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/f5f7e8a5a9ba607c2f2583a6ffba77374869e914",
+                    "reference": "f5f7e8a5a9ba607c2f2583a6ffba77374869e914",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog-widget": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-rule": "*",
+                    "magento/module-store": "*",
+                    "swissup/module-breeze-theme-editor": "^1.0.0-beta.1",
+                    "swissup/module-codemirror": "*",
+                    "swissup/module-core": "^1.12.26"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                },
+                "time": "2026-04-16T09:53:41+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -110553,7 +110602,7 @@
                 ],
                 "description": "Breeze Content Builder module for Magento 2",
                 "support": {
-                    "source": "https://github.com/breezefront/module-breeze-content-builder/tree/master",
+                    "source": "https://github.com/breezefront/module-breeze-content-builder/tree/1.0.0-beta.2",
                     "issues": "https://github.com/breezefront/module-breeze-content-builder/issues"
                 }
             }

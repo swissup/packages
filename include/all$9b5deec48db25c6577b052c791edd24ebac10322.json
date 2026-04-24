@@ -59992,19 +59992,19 @@
             }
         },
         "swissup/hyva-ajaxsearch": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "swissup/hyva-ajaxsearch",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-ajaxsearch.git",
-                    "reference": "ab3131d765169802e8abba18b3f2f23542887f97"
+                    "reference": "c523ce91922d8725079927ee0e731d217f5d7f4f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/hyva-ajaxsearch/zipball/ab3131d765169802e8abba18b3f2f23542887f97",
-                    "reference": "ab3131d765169802e8abba18b3f2f23542887f97",
+                    "url": "https://api.github.com/repos/swissup/hyva-ajaxsearch/zipball/c523ce91922d8725079927ee0e731d217f5d7f4f",
+                    "reference": "c523ce91922d8725079927ee0e731d217f5d7f4f",
                     "shasum": ""
                 },
                 "require": {
@@ -60012,7 +60012,50 @@
                     "magento/framework": "*",
                     "swissup/module-ajaxsearch": "^1.14.5"
                 },
-                "time": "2026-04-23T10:24:31+00:00",
+                "time": "2026-04-24T10:20:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAjaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Ajaxsearch",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/hyva-ajaxsearch/tree/1.0.0",
+                    "issues": "https://github.com/swissup/hyva-ajaxsearch/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/hyva-ajaxsearch",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-ajaxsearch.git",
+                    "reference": "c523ce91922d8725079927ee0e731d217f5d7f4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-ajaxsearch/zipball/c523ce91922d8725079927ee0e731d217f5d7f4f",
+                    "reference": "c523ce91922d8725079927ee0e731d217f5d7f4f",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-ajaxsearch": "^1.14.5"
+                },
+                "time": "2026-04-24T10:20:39+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -60026,13 +60069,13 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Advanced ajax search",
+                "description": "Hyvä Themes Compatibility module for Swissup_Ajaxsearch",
                 "keywords": [
                     "ajaxsearch",
                     "search"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/hyva-ajaxsearch/tree/master",
+                    "source": "https://github.com/swissup/hyva-ajaxsearch/tree/1.0.0",
                     "issues": "https://github.com/swissup/hyva-ajaxsearch/issues"
                 }
             }

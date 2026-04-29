@@ -223864,6 +223864,58 @@
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             },
+            "dev-feature/media-gallery": {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-feature/media-gallery",
+                "version_normalized": "dev-feature/media-gallery",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "91c14104ca08d3d888c2fcdc16faa3bec107fb98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/91c14104ca08d3d888c2fcdc16faa3bec107fb98",
+                    "reference": "91c14104ca08d3d888c2fcdc16faa3bec107fb98",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.26"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2026-04-29T21:58:06+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-prolabels.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/prolabels/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges",
+                "support": {
+                    "source": "https://github.com/swissup/module-pro-labels/tree/feature/media-gallery",
+                    "issues": "https://github.com/swissup/module-pro-labels/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-pro-labels",
                 "version": "dev-master",
@@ -345011,18 +345063,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "2bd69d6e268313fad7368e56867ab741646d2501"
+                    "reference": "d384ea77571dcd3ede47bcced1eaf08353043479"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/2bd69d6e268313fad7368e56867ab741646d2501",
-                    "reference": "2bd69d6e268313fad7368e56867ab741646d2501",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/d384ea77571dcd3ede47bcced1eaf08353043479",
+                    "reference": "d384ea77571dcd3ede47bcced1eaf08353043479",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-27T11:50:16+00:00",
+                "time": "2026-04-29T15:14:21+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

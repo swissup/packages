@@ -31094,6 +31094,42 @@
                 }
             }
         },
+        "swissup/breeze-ai": {
+            "dev-master": {
+                "name": "swissup/breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/breeze-ai.git",
+                    "reference": "f93bbad91b8a554282a5116d9f9b9346dc578663"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/breeze-ai/zipball/f93bbad91b8a554282a5116d9f9b9346dc578663",
+                    "reference": "f93bbad91b8a554282a5116d9f9b9346dc578663",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-breeze-ai": "^1.0.0"
+                },
+                "time": "2026-04-30T10:44:45+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Breeze AI extension",
+                "keywords": [
+                    "ai",
+                    "breeze"
+                ],
+                "support": {
+                    "source": "https://github.com/breezefront/breeze-ai/tree/master",
+                    "issues": "https://github.com/breezefront/breeze-ai/issues"
+                }
+            }
+        },
         "swissup/breeze-enterprise": {
             "3.0.0-beta.1": {
                 "name": "swissup/breeze-enterprise",
@@ -110784,6 +110820,48 @@
                 }
             }
         },
+        "swissup/module-breeze-ai": {
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "8c743335a12159e85ab6c0ee4c2e16779928fd6d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-ai/zipball/8c743335a12159e85ab6c0ee4c2e16779928fd6d",
+                    "reference": "8c743335a12159e85ab6c0ee4c2e16779928fd6d",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "time": "2026-04-30T09:24:36+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-ai/tree/master",
+                    "issues": "https://github.com/breezefront/module-breeze-ai/issues"
+                }
+            }
+        },
         "swissup/module-breeze-content-builder": {
             "1.0.0-beta.1": {
                 "name": "swissup/module-breeze-content-builder",
@@ -110884,12 +110962,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "9fada972f7338d74a606a4a4bc208a6dc644a7b8"
+                    "reference": "2ecac90419d7e7fdbb877a61e3f188247255a5c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/9fada972f7338d74a606a4a4bc208a6dc644a7b8",
-                    "reference": "9fada972f7338d74a606a4a4bc208a6dc644a7b8",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/2ecac90419d7e7fdbb877a61e3f188247255a5c7",
+                    "reference": "2ecac90419d7e7fdbb877a61e3f188247255a5c7",
                     "shasum": ""
                 },
                 "require": {
@@ -110907,7 +110985,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-04-28T15:07:41+00:00",
+                "time": "2026-04-30T09:07:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -254213,12 +254291,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-sold-together.git",
-                    "reference": "3741ee6bcd51af47e65f15381c2e8360e6aecbf1"
+                    "reference": "3b7a4e4c68bd27911ab9d62b52a0e4c3f2744315"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/3741ee6bcd51af47e65f15381c2e8360e6aecbf1",
-                    "reference": "3741ee6bcd51af47e65f15381c2e8360e6aecbf1",
+                    "url": "https://api.github.com/repos/swissup/module-sold-together/zipball/3b7a4e4c68bd27911ab9d62b52a0e4c3f2744315",
+                    "reference": "3b7a4e4c68bd27911ab9d62b52a0e4c3f2744315",
                     "shasum": ""
                 },
                 "require": {
@@ -254226,7 +254304,7 @@
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-swiper": "^1.0.0"
                 },
-                "time": "2025-12-04T12:43:11+00:00",
+                "time": "2026-04-30T10:14:15+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -254253,7 +254331,7 @@
                 ],
                 "description": "Sold Together for Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/module-sold-together/tree/1.11.3",
+                    "source": "https://github.com/swissup/module-sold-together/tree/master",
                     "issues": "https://github.com/swissup/module-sold-together/issues"
                 }
             }
@@ -345154,18 +345232,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "d384ea77571dcd3ede47bcced1eaf08353043479"
+                    "reference": "1112a8c8b665e101dc1cb5c4af7b4b0665bc8627"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/d384ea77571dcd3ede47bcced1eaf08353043479",
-                    "reference": "d384ea77571dcd3ede47bcced1eaf08353043479",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/1112a8c8b665e101dc1cb5c4af7b4b0665bc8627",
+                    "reference": "1112a8c8b665e101dc1cb5c4af7b4b0665bc8627",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-29T15:14:21+00:00",
+                "time": "2026-04-30T10:41:56+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

@@ -95117,12 +95117,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxsearch.git",
-                    "reference": "670f3da53da78baf2b1485377a61113b0b5f6245"
+                    "reference": "1e84b3ab57ffe2017264ef8cf26e3ae2fd8f5cba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/670f3da53da78baf2b1485377a61113b0b5f6245",
-                    "reference": "670f3da53da78baf2b1485377a61113b0b5f6245",
+                    "url": "https://api.github.com/repos/swissup/module-ajaxsearch/zipball/1e84b3ab57ffe2017264ef8cf26e3ae2fd8f5cba",
+                    "reference": "1e84b3ab57ffe2017264ef8cf26e3ae2fd8f5cba",
                     "shasum": ""
                 },
                 "require": {
@@ -95139,7 +95139,7 @@
                     "swissup/module-core": "^1.12.26",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-04-23T08:38:26+00:00",
+                "time": "2026-05-04T12:51:44+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -111178,6 +111178,97 @@
                 "support": {
                     "source": "https://github.com/breezefront/module-breeze-content-builder-migration/tree/1.0.1",
                     "issues": "https://github.com/breezefront/module-breeze-content-builder-migration/issues"
+                }
+            }
+        },
+        "swissup/module-breeze-layout-builder": {
+            "1.0.0": {
+                "name": "swissup/module-breeze-layout-builder",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-layout-builder/zipball/2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-store": "*",
+                    "magento/module-widget": "*",
+                    "swissup/module-breeze-content-builder": "^1.0.0",
+                    "swissup/module-breeze-theme-editor": "^1.0.0"
+                },
+                "time": "2026-05-04T12:29:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeLayoutBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Layout Builder — BCB editing capabilities for product, category, and other layout-based pages",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-layout-builder/tree/1.0.0",
+                    "issues": "https://github.com/breezefront/module-breeze-layout-builder/issues"
+                }
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-layout-builder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-layout-builder/zipball/2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-store": "*",
+                    "magento/module-widget": "*",
+                    "swissup/module-breeze-content-builder": "^1.0.0",
+                    "swissup/module-breeze-theme-editor": "^1.0.0"
+                },
+                "time": "2026-05-04T12:29:03+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeLayoutBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Layout Builder — BCB editing capabilities for product, category, and other layout-based pages",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-layout-builder/tree/1.0.0",
+                    "issues": "https://github.com/breezefront/module-breeze-layout-builder/issues"
                 }
             }
         },
@@ -224141,12 +224232,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "2d302ab1d55f9d88a6800d02580dc2f220db256a"
+                    "reference": "0acc63597025476d96bdbe83a965c4cbb91e7c04"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/2d302ab1d55f9d88a6800d02580dc2f220db256a",
-                    "reference": "2d302ab1d55f9d88a6800d02580dc2f220db256a",
+                    "url": "https://api.github.com/repos/swissup/module-pro-labels/zipball/0acc63597025476d96bdbe83a965c4cbb91e7c04",
+                    "reference": "0acc63597025476d96bdbe83a965c4cbb91e7c04",
                     "shasum": ""
                 },
                 "require": {
@@ -224156,7 +224247,7 @@
                 "suggest": {
                     "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
                 },
-                "time": "2026-05-03T22:16:42+00:00",
+                "time": "2026-05-04T21:53:57+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -224183,7 +224274,7 @@
                 ],
                 "description": "Product labels and badges",
                 "support": {
-                    "source": "https://github.com/swissup/module-pro-labels/tree/1.9.0",
+                    "source": "https://github.com/swissup/module-pro-labels/tree/master",
                     "issues": "https://github.com/swissup/module-pro-labels/issues"
                 }
             }
@@ -344866,18 +344957,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-blank.git",
-                    "reference": "733b2b899a9342e6d2b174036b4eb6524db5f9b4"
+                    "reference": "367a8bfab850d2634e533a2d71863ba3e55da843"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-blank/zipball/733b2b899a9342e6d2b174036b4eb6524db5f9b4",
-                    "reference": "733b2b899a9342e6d2b174036b4eb6524db5f9b4",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-blank/zipball/367a8bfab850d2634e533a2d71863ba3e55da843",
+                    "reference": "367a8bfab850d2634e533a2d71863ba3e55da843",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-blank": "^3.0.0-beta.1"
                 },
-                "time": "2026-03-27T09:36:51+00:00",
+                "time": "2026-05-04T11:53:30+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -345311,18 +345402,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "358669489719e0ff1981c7868d78fc2051604b82"
+                    "reference": "423d6222ce65822d21bd5dcd3b4ad31630eecc50"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/358669489719e0ff1981c7868d78fc2051604b82",
-                    "reference": "358669489719e0ff1981c7868d78fc2051604b82",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-business/zipball/423d6222ce65822d21bd5dcd3b4ad31630eecc50",
+                    "reference": "423d6222ce65822d21bd5dcd3b4ad31630eecc50",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-30T14:12:36+00:00",
+                "time": "2026-05-04T11:52:40+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -346266,18 +346357,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-chic.git",
-                    "reference": "ab1182d5c594961bcd6f67c0790d38f902ca66f8"
+                    "reference": "adfa8abe47fefb01ea9aa35491367c94be31cd81"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-chic/zipball/ab1182d5c594961bcd6f67c0790d38f902ca66f8",
-                    "reference": "ab1182d5c594961bcd6f67c0790d38f902ca66f8",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-chic/zipball/adfa8abe47fefb01ea9aa35491367c94be31cd81",
+                    "reference": "adfa8abe47fefb01ea9aa35491367c94be31cd81",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-30T15:10:25+00:00",
+                "time": "2026-05-04T12:16:23+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -347119,18 +347210,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
-                    "reference": "b17638c814210fa3d9b13066b4a8151d0d2ab624"
+                    "reference": "40767aaae43e53d29e8bc2707a5d96c41dc77df6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/b17638c814210fa3d9b13066b4a8151d0d2ab624",
-                    "reference": "b17638c814210fa3d9b13066b4a8151d0d2ab624",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/40767aaae43e53d29e8bc2707a5d96c41dc77df6",
+                    "reference": "40767aaae43e53d29e8bc2707a5d96c41dc77df6",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-28T12:39:49+00:00",
+                "time": "2026-05-04T11:52:56+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -347904,18 +347995,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-stripes.git",
-                    "reference": "3a6feba491f003fe5f5e71c9a2651b1a343400f1"
+                    "reference": "2ae9e83b63897a4046cf5764dc1dcc3e1fd32784"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/3a6feba491f003fe5f5e71c9a2651b1a343400f1",
-                    "reference": "3a6feba491f003fe5f5e71c9a2651b1a343400f1",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-stripes/zipball/2ae9e83b63897a4046cf5764dc1dcc3e1fd32784",
+                    "reference": "2ae9e83b63897a4046cf5764dc1dcc3e1fd32784",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
                 },
-                "time": "2026-04-20T07:39:53+00:00",
+                "time": "2026-05-04T11:18:06+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -349156,18 +349247,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
-                    "reference": "7567257a8da5b8082c0af980da7dc06ac0530ffc"
+                    "reference": "583cfa5e473a067f3d5be7fa7115b7410a73346e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/7567257a8da5b8082c0af980da7dc06ac0530ffc",
-                    "reference": "7567257a8da5b8082c0af980da7dc06ac0530ffc",
+                    "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-enterprise-apollo/zipball/583cfa5e473a067f3d5be7fa7115b7410a73346e",
+                    "reference": "583cfa5e473a067f3d5be7fa7115b7410a73346e",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "3.0.0-beta.2"
                 },
-                "time": "2026-04-24T09:54:48+00:00",
+                "time": "2026-05-04T06:39:26+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

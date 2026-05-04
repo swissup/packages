@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "swissup/module-breeze-layout-builder": [
+            {
+                "name": "swissup/module-breeze-layout-builder",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-layout-builder/zipball/2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "reference": "2156abfa255235aa4d36a99edca4effdbd06d1bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-store": "*",
+                    "magento/module-widget": "*",
+                    "swissup/module-breeze-content-builder": "^1.0.0",
+                    "swissup/module-breeze-theme-editor": "^1.0.0"
+                },
+                "time": "2026-05-04T12:29:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeLayoutBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Layout Builder — BCB editing capabilities for product, category, and other layout-based pages",
+                "support": {
+                    "source": "https://github.com/breezefront/module-breeze-layout-builder/tree/1.0.0",
+                    "issues": "https://github.com/breezefront/module-breeze-layout-builder/issues"
+                }
+            }
+        ]
+    }
+}

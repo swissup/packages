@@ -237,6 +237,46 @@
                     "source": "https://github.com/swissup/module-oauth2-client/tree/1.0.5",
                     "issues": "https://github.com/swissup/module-oauth2-client/issues"
                 }
+            },
+            {
+                "name": "swissup/module-oauth2-client",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/swissup/module-oauth2-client.git",
+                    "reference": "6ecc67cb5c20e719853770714ffa9ae8969629c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-oauth2-client/zipball/6ecc67cb5c20e719853770714ffa9ae8969629c8",
+                    "reference": "6ecc67cb5c20e719853770714ffa9ae8969629c8",
+                    "shasum": ""
+                },
+                "require": {
+                    "league/oauth2-google": "^4.0",
+                    "magento/framework": "^102.0|^103.0",
+                    "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-05-15T11:22:01+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\OAuth2Client\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Magento 2 module to provide OAuth 2.0 supports",
+                "support": {
+                    "source": "https://github.com/swissup/module-oauth2-client/tree/1.0.6",
+                    "issues": "https://github.com/swissup/module-oauth2-client/issues"
+                }
             }
         ]
     }

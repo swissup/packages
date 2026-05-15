@@ -836,6 +836,48 @@
                     "source": "https://github.com/swissup/module-email-templates/tree/1.2.6",
                     "issues": "https://github.com/swissup/module-email-templates/issues"
                 }
+            },
+            {
+                "name": "swissup/module-email-templates",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-email-templates.git",
+                    "reference": "09c9a357efde90fb9052f79d914a439607d161d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-email-templates/zipball/09c9a357efde90fb9052f79d914a439607d161d9",
+                    "reference": "09c9a357efde90fb9052f79d914a439607d161d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-05-15T11:22:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\EmailTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ],
+                "support": {
+                    "source": "https://github.com/swissup/module-email-templates/tree/1.2.7",
+                    "issues": "https://github.com/swissup/module-email-templates/issues"
+                }
             }
         ]
     }

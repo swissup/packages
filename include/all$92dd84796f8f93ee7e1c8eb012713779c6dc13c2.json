@@ -351718,25 +351718,25 @@
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },
-            "3.x-dev": {
+            "3.0.0": {
                 "name": "swissup/theme-frontend-argentobreeze-force",
-                "version": "3.x-dev",
-                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
-                    "reference": "028b1364b016a57c80f5b46a3ecab462889015a5"
+                    "reference": "f3dcdfc961f40076f32416025ef2867e91176a4d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/028b1364b016a57c80f5b46a3ecab462889015a5",
-                    "reference": "028b1364b016a57c80f5b46a3ecab462889015a5",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/f3dcdfc961f40076f32416025ef2867e91176a4d",
+                    "reference": "f3dcdfc961f40076f32416025ef2867e91176a4d",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "3.x-dev"
+                    "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
                 },
-                "time": "2026-05-28T08:51:28+00:00",
+                "time": "2026-06-04T11:35:22+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -351748,7 +351748,42 @@
                 ],
                 "description": "Argento Breeze Force Theme",
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.x",
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.0.0",
+                    "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
+                }
+            },
+            "3.x-dev": {
+                "name": "swissup/theme-frontend-argentobreeze-force",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-force.git",
+                    "reference": "f3dcdfc961f40076f32416025ef2867e91176a4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentobreeze-force/zipball/f3dcdfc961f40076f32416025ef2867e91176a4d",
+                    "reference": "f3dcdfc961f40076f32416025ef2867e91176a4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
+                },
+                "time": "2026-06-04T11:35:22+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Force Theme",
+                "support": {
+                    "source": "https://github.com/swissup/theme-frontend-argentobreeze-force/tree/3.0.0",
                     "issues": "https://github.com/swissup/theme-frontend-argentobreeze-force/issues"
                 }
             },
@@ -351805,7 +351840,6 @@
                     "swissup/theme-frontend-argentobreeze-blank": "^2.6.2"
                 },
                 "time": "2026-02-11T14:25:33+00:00",
-                "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

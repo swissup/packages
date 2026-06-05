@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "swissup/module-checkout-consumer-rights": [
+            {
+                "name": "swissup/module-checkout-consumer-rights",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-consumer-rights.git",
+                    "reference": "39cf1eaab8c397b7e77c422961410b685d8d0b3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout-consumer-rights/zipball/39cf1eaab8c397b7e77c422961410b685d8d0b3f",
+                    "reference": "39cf1eaab8c397b7e77c422961410b685d8d0b3f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.5.3"
+                },
+                "time": "2026-06-05T08:28:01+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutConsumerRights\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Checkout Consumer Rights module",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout-consumer-rights/tree/master",
+                    "issues": "https://github.com/swissup/module-checkout-consumer-rights/issues"
+                }
+            }
+        ]
+    }
+}

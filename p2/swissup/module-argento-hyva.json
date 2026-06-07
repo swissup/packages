@@ -344,6 +344,49 @@
                     "source": "https://github.com/swissup/module-argento-hyva/tree/1.1.2",
                     "issues": "https://github.com/swissup/module-argento-hyva/issues"
                 }
+            },
+            {
+                "name": "swissup/module-argento-hyva",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "c118f5a258c947ab4eaf69688610bc61aa6eb542"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-argento-hyva/zipball/c118f5a258c947ab4eaf69688610bc61aa6eb542",
+                    "reference": "c118f5a258c947ab4eaf69688610bc61aa6eb542",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-theme-module": "*"
+                },
+                "time": "2026-06-07T20:09:05+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ArgentoHyva\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes",
+                "support": {
+                    "source": "https://github.com/swissup/module-argento-hyva/tree/1.2.0",
+                    "issues": "https://github.com/swissup/module-argento-hyva/issues"
+                }
             }
         ]
     }

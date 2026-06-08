@@ -116651,6 +116651,43 @@
                     "issues": "https://github.com/swissup/module-checkout/issues"
                 }
             },
+            "1.5.4": {
+                "name": "swissup/module-checkout",
+                "version": "1.5.4",
+                "version_normalized": "1.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout.git",
+                    "reference": "e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-checkout/zipball/e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53",
+                    "reference": "e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-06-08T08:25:51+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Checkout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
+                "support": {
+                    "source": "https://github.com/swissup/module-checkout/tree/1.5.4",
+                    "issues": "https://github.com/swissup/module-checkout/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/module-checkout",
                 "version": "dev-master",
@@ -116658,18 +116695,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout.git",
-                    "reference": "027810a1fc5624f457229d25af8a340ae6786b7e"
+                    "reference": "e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-checkout/zipball/027810a1fc5624f457229d25af8a340ae6786b7e",
-                    "reference": "027810a1fc5624f457229d25af8a340ae6786b7e",
+                    "url": "https://api.github.com/repos/swissup/module-checkout/zipball/e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53",
+                    "reference": "e06d43cea29c04ae3318ecb4d6d2a7b67fa5ce53",
                     "shasum": ""
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.25"
+                    "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-05-26T13:31:11+00:00",
+                "time": "2026-06-08T08:25:51+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -116685,7 +116722,7 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections.",
                 "support": {
-                    "source": "https://github.com/swissup/module-checkout/tree/master",
+                    "source": "https://github.com/swissup/module-checkout/tree/1.5.4",
                     "issues": "https://github.com/swissup/module-checkout/issues"
                 }
             }

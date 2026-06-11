@@ -7,14 +7,8 @@
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/swissup/module-email.git",
+                    "url": "git@github.com:swissup/module-email.git",
                     "reference": "d5fc2ad552569793686b0952fc98c1d3b5f8eb2d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-email/zipball/d5fc2ad552569793686b0952fc98c1d3b5f8eb2d",
-                    "reference": "d5fc2ad552569793686b0952fc98c1d3b5f8eb2d",
-                    "shasum": ""
                 },
                 "require": {
                     "magento/framework": "^102.0.5|^103.0",
@@ -63,11 +57,7 @@
                     "mandrill",
                     "sendmail",
                     "smtp"
-                ],
-                "support": {
-                    "source": "https://github.com/swissup/module-email/tree/0.7.11",
-                    "issues": "https://github.com/swissup/module-email/issues"
-                }
+                ]
             }
         ]
     }

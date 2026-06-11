@@ -61440,6 +61440,48 @@
                 }
             }
         },
+        "swissup/hyva-askit": {
+            "dev-master": {
+                "name": "swissup/hyva-askit",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-askit.git",
+                    "reference": "43f84cf6d454293dc5563791c243643f5b1ed329"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/hyva-askit/zipball/43f84cf6d454293dc5563791c243643f5b1ed329",
+                    "reference": "43f84cf6d454293dc5563791c243643f5b1ed329",
+                    "shasum": ""
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-askit": "^1.4.20"
+                },
+                "time": "2026-06-09T12:20:36+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAskit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Askit extension from Swissup",
+                "support": {
+                    "source": "https://github.com/swissup/hyva-askit/tree/master",
+                    "issues": "https://github.com/swissup/hyva-askit/issues"
+                }
+            }
+        },
         "swissup/hyva-easy-slide": {
             "1.0.0": {
                 "name": "swissup/hyva-easy-slide",
@@ -113158,12 +113200,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "d2f617fb4bccff1837323e0355dcd9f015b30eeb"
+                    "reference": "140c558e3cc4a4715382a86f16f14e4ddc489252"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-ai/zipball/d2f617fb4bccff1837323e0355dcd9f015b30eeb",
-                    "reference": "d2f617fb4bccff1837323e0355dcd9f015b30eeb",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-ai/zipball/140c558e3cc4a4715382a86f16f14e4ddc489252",
+                    "reference": "140c558e3cc4a4715382a86f16f14e4ddc489252",
                     "shasum": ""
                 },
                 "require": {
@@ -113172,7 +113214,7 @@
                     "php": "^7.4|^8.0|^8.1|^8.2",
                     "swissup/module-core": "*"
                 },
-                "time": "2026-06-08T14:37:22+00:00",
+                "time": "2026-06-11T12:54:40+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -113440,12 +113482,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "cc4f6a3629ada1fcc0d593c96ed61c2768e800bd"
+                    "reference": "da7091c34d71974877484630b968321891c8f419"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/cc4f6a3629ada1fcc0d593c96ed61c2768e800bd",
-                    "reference": "cc4f6a3629ada1fcc0d593c96ed61c2768e800bd",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-content-builder/zipball/da7091c34d71974877484630b968321891c8f419",
+                    "reference": "da7091c34d71974877484630b968321891c8f419",
                     "shasum": ""
                 },
                 "require": {
@@ -113463,7 +113505,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-06-08T08:22:32+00:00",
+                "time": "2026-06-09T14:10:16+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -113662,12 +113704,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
-                    "reference": "127237d74bd1b548e2c9310848a0a4ff9c784a3d"
+                    "reference": "71e7dd32c1dab85f735c9f69860757d4282d5ac2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/breezefront/module-breeze-layout-builder/zipball/127237d74bd1b548e2c9310848a0a4ff9c784a3d",
-                    "reference": "127237d74bd1b548e2c9310848a0a4ff9c784a3d",
+                    "url": "https://api.github.com/repos/breezefront/module-breeze-layout-builder/zipball/71e7dd32c1dab85f735c9f69860757d4282d5ac2",
+                    "reference": "71e7dd32c1dab85f735c9f69860757d4282d5ac2",
                     "shasum": ""
                 },
                 "require": {
@@ -113680,7 +113722,7 @@
                     "swissup/module-breeze-content-builder": "^1.0.0",
                     "swissup/module-breeze-theme-editor": "^1.0.0"
                 },
-                "time": "2026-06-05T15:18:36+00:00",
+                "time": "2026-06-10T09:44:11+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -168079,15 +168121,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout-integrations.git",
-                    "reference": "ac51f7fdc513b721f8c4eebc0ed4b29e1d7de616"
+                    "reference": "d9b3ab6dd908634df47fe124b4cc359daf080223"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/ac51f7fdc513b721f8c4eebc0ed4b29e1d7de616",
-                    "reference": "ac51f7fdc513b721f8c4eebc0ed4b29e1d7de616",
+                    "url": "https://api.github.com/repos/swissup/module-firecheckout-integrations/zipball/d9b3ab6dd908634df47fe124b4cc359daf080223",
+                    "reference": "d9b3ab6dd908634df47fe124b4cc359daf080223",
                     "shasum": ""
                 },
-                "time": "2024-05-15T07:27:33+00:00",
+                "time": "2026-06-11T11:21:01+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -168106,7 +168148,7 @@
                     "firecheckout"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/1.4.8",
+                    "source": "https://github.com/swissup/module-firecheckout-integrations/tree/master",
                     "issues": "https://github.com/swissup/module-firecheckout-integrations/issues"
                 }
             }
@@ -237478,6 +237520,55 @@
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             },
+            "1.8.4": {
+                "name": "swissup/module-rich-snippets",
+                "version": "1.8.4",
+                "version_normalized": "1.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "3c45a4850941446b4b5967f9328d2fa4c21f7589"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/3c45a4850941446b4b5967f9328d2fa4c21f7589",
+                    "reference": "3c45a4850941446b4b5967f9328d2fa4c21f7589",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2026-06-09T21:16:56+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers",
+                "support": {
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.8.4",
+                    "issues": "https://github.com/swissup/module-rich-snippets/issues"
+                }
+            },
             "dev-feature/local-business": {
                 "name": "swissup/module-rich-snippets",
                 "version": "dev-feature/local-business",
@@ -237533,19 +237624,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "d10bd9f9540a1fc26c3c77a52ff9879059e5ec07"
+                    "reference": "3c45a4850941446b4b5967f9328d2fa4c21f7589"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/d10bd9f9540a1fc26c3c77a52ff9879059e5ec07",
-                    "reference": "d10bd9f9540a1fc26c3c77a52ff9879059e5ec07",
+                    "url": "https://api.github.com/repos/swissup/module-rich-snippets/zipball/3c45a4850941446b4b5967f9328d2fa4c21f7589",
+                    "reference": "3c45a4850941446b4b5967f9328d2fa4c21f7589",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-06-08T20:47:58+00:00",
+                "time": "2026-06-09T21:16:56+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -237572,7 +237663,7 @@
                 ],
                 "description": "Structured data markup for Google's crawlers",
                 "support": {
-                    "source": "https://github.com/swissup/module-rich-snippets/tree/master",
+                    "source": "https://github.com/swissup/module-rich-snippets/tree/1.8.4",
                     "issues": "https://github.com/swissup/module-rich-snippets/issues"
                 }
             }
@@ -299117,6 +299208,35 @@
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             },
+            "1.8.4": {
+                "name": "swissup/rich-snippets",
+                "version": "1.8.4",
+                "version_normalized": "1.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/rich-snippets.git",
+                    "reference": "6527b37850f486445a696fb52add092a43af5915"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/6527b37850f486445a696fb52add092a43af5915",
+                    "reference": "6527b37850f486445a696fb52add092a43af5915",
+                    "shasum": ""
+                },
+                "require": {
+                    "swissup/module-rich-snippets": "^1.8.2"
+                },
+                "time": "2026-06-09T21:18:55+00:00",
+                "type": "metapackage",
+                "license": [
+                    "MIT"
+                ],
+                "description": "Implement this structured data markup in Magento 2",
+                "support": {
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.8.4",
+                    "issues": "https://github.com/swissup/rich-snippets/issues"
+                }
+            },
             "dev-master": {
                 "name": "swissup/rich-snippets",
                 "version": "dev-master",
@@ -299124,18 +299244,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/rich-snippets.git",
-                    "reference": "b4849f9d149ba7e134a25c33c5f10fed1ce6d036"
+                    "reference": "6527b37850f486445a696fb52add092a43af5915"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/b4849f9d149ba7e134a25c33c5f10fed1ce6d036",
-                    "reference": "b4849f9d149ba7e134a25c33c5f10fed1ce6d036",
+                    "url": "https://api.github.com/repos/swissup/rich-snippets/zipball/6527b37850f486445a696fb52add092a43af5915",
+                    "reference": "6527b37850f486445a696fb52add092a43af5915",
                     "shasum": ""
                 },
                 "require": {
                     "swissup/module-rich-snippets": "^1.8.2"
                 },
-                "time": "2026-05-15T11:27:38+00:00",
+                "time": "2026-06-09T21:18:55+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -299143,7 +299263,7 @@
                 ],
                 "description": "Implement this structured data markup in Magento 2",
                 "support": {
-                    "source": "https://github.com/swissup/rich-snippets/tree/1.8.2",
+                    "source": "https://github.com/swissup/rich-snippets/tree/1.8.4",
                     "issues": "https://github.com/swissup/rich-snippets/issues"
                 }
             }
@@ -354673,12 +354793,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "102c7c48a861edd89f8d7e47d96a46037f68f14d"
+                    "reference": "488480a2c93655a177dc554f97c1fbf83a279317"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/102c7c48a861edd89f8d7e47d96a46037f68f14d",
-                    "reference": "102c7c48a861edd89f8d7e47d96a46037f68f14d",
+                    "url": "https://api.github.com/repos/swissup/theme-frontend-argentohyva-chic/zipball/488480a2c93655a177dc554f97c1fbf83a279317",
+                    "reference": "488480a2c93655a177dc554f97c1fbf83a279317",
                     "shasum": ""
                 },
                 "require": {
@@ -354686,7 +354806,7 @@
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "^1.2.0"
                 },
-                "time": "2026-06-07T20:25:43+00:00",
+                "time": "2026-06-09T12:34:20+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -354708,7 +354828,7 @@
                     "theme"
                 ],
                 "support": {
-                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/1.2.0",
+                    "source": "https://github.com/swissup/theme-frontend-argentohyva-chic/tree/master",
                     "issues": "https://github.com/swissup/theme-frontend-argentohyva-chic/issues"
                 }
             }

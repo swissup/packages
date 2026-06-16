@@ -6932,6 +6932,67 @@
                     "layered navigation",
                     "seo layered navigation"
                 ]
+            },
+            {
+                "name": "swissup/module-ajaxlayerednavigation",
+                "version": "1.6.8",
+                "version_normalized": "1.6.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
+                    "reference": "a9e4e28f552991c7e5b9fdb19c30a8d37eb6f6a2"
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-catalog-inventory": ">=100.3",
+                    "magento/module-catalog-url-rewrite": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-eav": ">=102.0",
+                    "magento/module-layered-navigation": ">=100.3",
+                    "magento/module-review": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-06-16T11:39:27+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxlayerednavigation.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxlayerednavigation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced catalog filters with ajax and seo support",
+                "keywords": [
+                    "ajaxlayerednavigation",
+                    "filters",
+                    "layered navigation",
+                    "seo layered navigation"
+                ]
             }
         ]
     }

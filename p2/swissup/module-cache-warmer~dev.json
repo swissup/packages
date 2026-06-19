@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-cache-warmer.git",
-                    "reference": "69576f28f1a8cd7384f8b38a4134356b6054a15a"
+                    "reference": "2ee20efc80ba1342d2290e85036f293338c2f820"
                 },
                 "require": {
                     "guzzlehttp/guzzle": "^6.2|^7.3",
@@ -27,7 +27,10 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-05-15T11:22:10+00:00",
+                "require-dev": {
+                    "phpunit/phpunit": "^10.5"
+                },
+                "time": "2026-06-19T13:16:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -36,6 +39,11 @@
                     ],
                     "psr-4": {
                         "Swissup\\CacheWarmer\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Swissup\\CacheWarmer\\Test\\": "Test/"
                     }
                 },
                 "license": [

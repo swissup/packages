@@ -88082,7 +88082,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "1eb344f3fec041fe0e23fd37cafb8126c7b2e700"
+                    "reference": "145340c7f0553e8908c95fd73624eb78b3228c3a"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -88090,7 +88090,7 @@
                     "php": "^7.4|^8.0|^8.1|^8.2",
                     "swissup/module-core": "*"
                 },
-                "time": "2026-06-22T07:45:04+00:00",
+                "time": "2026-06-22T11:27:49+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -279331,6 +279331,32 @@
                     "swissup/theme-frontend-breeze-blank": "^3.0.0"
                 },
                 "time": "2026-06-18T14:17:59+00:00",
+                "default-branch": true,
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ]
+            }
+        },
+        "swissup/theme-frontend-breeze-enterprise-eir": {
+            "dev-master": {
+                "name": "swissup/theme-frontend-breeze-enterprise-eir",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
+                    "reference": "a78b040bf611e462a8ef79c510509b0f84893214"
+                },
+                "require": {
+                    "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
+                },
+                "time": "2026-06-22T19:49:12+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

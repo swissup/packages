@@ -212796,6 +212796,34 @@
                 ],
                 "description": "Theme styles editing extension from Swissup"
             },
+            "1.12.0": {
+                "name": "swissup/module-theme-editor",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-theme-editor.git",
+                    "reference": "1d88dded0df61905c11e84a6d1330c8e089bead0"
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-06-23T10:28:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ThemeEditor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Theme styles editing extension from Swissup"
+            },
             "1.2.0": {
                 "name": "swissup/module-theme-editor",
                 "version": "1.2.0",
@@ -213660,13 +213688,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-theme-editor.git",
-                    "reference": "762ece9649e963285ab67d1abc26b5dac6947c83"
+                    "reference": "1d88dded0df61905c11e84a6d1330c8e089bead0"
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.8",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-05-15T11:16:44+00:00",
+                "time": "2026-06-23T10:28:17+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

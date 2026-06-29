@@ -46194,6 +46194,41 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_Easytabs"
             },
+            "1.1.4": {
+                "name": "swissup/hyva-easytabs",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easytabs.git",
+                    "reference": "1382b456972ada31696cc1c094da7346eb8d9576"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easytabs": "^1.13.2"
+                },
+                "time": "2026-06-29T10:02:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasytabs\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Easytabs"
+            },
             "dev-master": {
                 "name": "swissup/hyva-easytabs",
                 "version": "dev-master",
@@ -46201,14 +46236,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-easytabs.git",
-                    "reference": "067768ec039910460bb0d9d68a0041aac64ba9b5"
+                    "reference": "1382b456972ada31696cc1c094da7346eb8d9576"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
                     "swissup/module-easytabs": "^1.13.2"
                 },
-                "time": "2026-06-28T10:52:39+00:00",
+                "time": "2026-06-29T10:02:17+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

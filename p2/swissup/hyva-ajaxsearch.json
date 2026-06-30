@@ -33,6 +33,39 @@
                     "ajaxsearch",
                     "search"
                 ]
+            },
+            {
+                "name": "swissup/hyva-ajaxsearch",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-ajaxsearch.git",
+                    "reference": "27e020eeb7c392686b7669e825e120540cdfee58"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-ajaxsearch": "^1.14.10"
+                },
+                "time": "2026-06-30T08:29:51+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAjaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Ajaxsearch",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ]
             }
         ]
     }

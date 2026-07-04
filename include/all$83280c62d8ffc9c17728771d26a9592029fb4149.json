@@ -183270,6 +183270,48 @@
                 ],
                 "description": "Product labels and badges"
             },
+            "dev-feature/active-period": {
+                "name": "swissup/module-pro-labels",
+                "version": "dev-feature/active-period",
+                "version_normalized": "dev-feature/active-period",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels.git",
+                    "reference": "bec56c8552911a5beb94219ce9dd9c8bc20a7c84"
+                },
+                "require": {
+                    "swissup/module-codemirror": "^1.1.8",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "suggest": {
+                    "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
+                },
+                "time": "2026-07-04T21:13:22+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-prolabels.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/prolabels/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabels\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges"
+            },
             "dev-master": {
                 "name": "swissup/module-pro-labels",
                 "version": "dev-master",
@@ -280113,14 +280155,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "982bd3b087d378dd00272835e190bfd9088dbd51"
+                    "reference": "4dfb36241c82277ffe084a9a1425dbb999f91b36"
                 },
                 "require": {
                     "swissup/module-argento-hyva": "^1.2.1",
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "^1.2.0"
                 },
-                "time": "2026-06-30T08:32:33+00:00",
+                "time": "2026-07-04T06:09:23+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

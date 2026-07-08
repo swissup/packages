@@ -89172,14 +89172,14 @@
                 ],
                 "description": "Breeze Content Builder module for Magento 2"
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "swissup/module-breeze-content-builder",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "7b5baea57eff1a2e402d6e7c1365a73b943cc1a9"
+                    "reference": "dab8170870036a51079b5423775dd27bdc918d76"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -89196,7 +89196,46 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-07-06T13:33:43+00:00",
+                "time": "2026-07-08T14:30:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Content Builder module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-content-builder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
+                    "reference": "dab8170870036a51079b5423775dd27bdc918d76"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog-widget": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-rule": "*",
+                    "magento/module-store": "*",
+                    "swissup/module-breeze-theme-editor": "^1.0.0",
+                    "swissup/module-codemirror": "*",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                },
+                "time": "2026-07-08T14:30:30+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

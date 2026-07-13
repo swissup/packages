@@ -540,6 +540,33 @@
                     "OSL-3.0"
                 ],
                 "description": "Manage abandoned carts and send reminder emails"
+            },
+            {
+                "name": "swissup/module-abandoned-cart",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-abandoned-cart.git",
+                    "reference": "bf0dbec5674ae2ad6262e599c6684558b9dee7e3"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-07-13T06:52:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AbandonedCart\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage abandoned carts and send reminder emails"
             }
         ]
     }

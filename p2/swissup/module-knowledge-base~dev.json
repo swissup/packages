@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-knowledge-base.git",
-                    "reference": "f90dd2c8857e03f699245b19bfda6b9326ac5f5c"
+                    "reference": "c943a58626798bc5bfd2cc1c70c655e2f4c7cbda"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -24,7 +24,13 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-05-15T11:22:13+00:00",
+                "require-dev": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "phpunit/phpunit": "^10.5"
+                },
+                "time": "2026-07-13T15:16:42+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -33,6 +39,11 @@
                     ],
                     "psr-4": {
                         "Swissup\\KnowledgeBase\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Swissup\\KnowledgeBase\\Test\\": "Test/"
                     }
                 },
                 "license": [

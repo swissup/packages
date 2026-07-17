@@ -89420,14 +89420,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "1.0.7": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "862703d40be53d25a8bd98fe0c43598a2df30df2"
+                    "reference": "61c0a2223cb662ae66b82be9ba9fd790898b394f"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -89435,7 +89435,37 @@
                     "php": "^7.4|^8.0|^8.1|^8.2",
                     "swissup/module-core": "*"
                 },
-                "time": "2026-07-13T13:36:24+00:00",
+                "time": "2026-07-17T14:04:48+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "61c0a2223cb662ae66b82be9ba9fd790898b394f"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "time": "2026-07-17T14:04:48+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

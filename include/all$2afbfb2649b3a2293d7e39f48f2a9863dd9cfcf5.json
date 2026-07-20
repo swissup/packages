@@ -199337,6 +199337,44 @@
                     "autogenerate metadata"
                 ]
             },
+            "1.7.12": {
+                "name": "swissup/module-seo-templates",
+                "version": "1.7.12",
+                "version_normalized": "1.7.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-seo-templates.git",
+                    "reference": "4f7a8142c69014b66e661fac509fe1a9b0414a0b"
+                },
+                "require": {
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2026-07-20T11:01:37+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/seo-templates/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/seo-templates/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SeoTemplates\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Generate product and category metadata for Magento 2.x",
+                "keywords": [
+                    "autogenerate metadata"
+                ]
+            },
             "1.7.2": {
                 "name": "swissup/module-seo-templates",
                 "version": "1.7.2",
@@ -199648,12 +199686,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-templates.git",
-                    "reference": "014b8afedb7532ed0ab7e97cdc2d7aabe95421e0"
+                    "reference": "4f7a8142c69014b66e661fac509fe1a9b0414a0b"
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-07-07T08:24:07+00:00",
+                "time": "2026-07-20T11:01:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

@@ -306,6 +306,46 @@
                     "OSL-3.0"
                 ],
                 "description": "Breeze Content Builder module for Magento 2"
+            },
+            {
+                "name": "swissup/module-breeze-content-builder",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
+                    "reference": "7b6bdabfdf8503c6234c0c88d572747880dfe11a"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog-widget": "*",
+                    "magento/module-cms": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-rule": "*",
+                    "magento/module-store": "*",
+                    "swissup/module-breeze-theme-editor": "^1.0.0",
+                    "swissup/module-codemirror": "*",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-swiper": "*"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                },
+                "time": "2026-07-20T11:01:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeContentBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Content Builder module for Magento 2"
             }
         ]
     }

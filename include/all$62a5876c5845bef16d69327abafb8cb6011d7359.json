@@ -89690,14 +89690,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "1.0.8": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "61c0a2223cb662ae66b82be9ba9fd790898b394f"
+                    "reference": "c293f34a07e439f0017496e803ea9b68339d79fd"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -89705,7 +89705,67 @@
                     "php": "^7.4|^8.0|^8.1|^8.2",
                     "swissup/module-core": "*"
                 },
-                "time": "2026-07-17T14:04:48+00:00",
+                "time": "2026-07-21T14:39:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-fix/llms-txt-markdown-links": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-fix/llms-txt-markdown-links",
+                "version_normalized": "dev-fix/llms-txt-markdown-links",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "49206f44ce162985344ba4cf93d1680c58949693"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "time": "2026-07-21T10:12:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "c293f34a07e439f0017496e803ea9b68339d79fd"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "time": "2026-07-21T14:39:02+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

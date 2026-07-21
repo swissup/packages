@@ -62401,14 +62401,14 @@
                     "seo layered navigation"
                 ]
             },
-            "dev-master": {
+            "dev-fix/issue-107-phpunit12-test-migration": {
                 "name": "swissup/module-ajaxlayerednavigation",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-fix/issue-107-phpunit12-test-migration",
+                "version_normalized": "dev-fix/issue-107-phpunit12-test-migration",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
-                    "reference": "fd0880ece8eaf128d3cfd8efd8a116989c561cb7"
+                    "reference": "b5904f651e75796c0df6436e4e5f2449f0d4dd1d"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -62430,7 +62430,68 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-07-09T07:47:07+00:00",
+                "time": "2026-07-21T13:10:49+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxlayerednavigation.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxlayerednavigation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced catalog filters with ajax and seo support",
+                "keywords": [
+                    "ajaxlayerednavigation",
+                    "filters",
+                    "layered navigation",
+                    "seo layered navigation"
+                ]
+            },
+            "dev-master": {
+                "name": "swissup/module-ajaxlayerednavigation",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
+                    "reference": "e5c0666724751213bf1a7b0bfd51ad3fa1cd9df8"
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-catalog-inventory": ">=100.3",
+                    "magento/module-catalog-url-rewrite": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-eav": ">=102.0",
+                    "magento/module-layered-navigation": ">=100.3",
+                    "magento/module-review": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-07-21T13:14:34+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -75803,7 +75864,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxsearch.git",
-                    "reference": "28072f876f646de4d279f7c5417252dae713d50f"
+                    "reference": "095093849c3963de8144a54838e56d05163b26ef"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -75819,7 +75880,7 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-06-01T10:18:48+00:00",
+                "time": "2026-07-21T13:43:41+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -282127,12 +282188,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
-                    "reference": "2418744d36f0c701578b128c2c59cc33632798eb"
+                    "reference": "96cd74f8b1e0e4aa6aa01a0e04f4c4db074b52d8"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.1.2"
                 },
-                "time": "2026-07-09T13:08:48+00:00",
+                "time": "2026-07-21T12:53:37+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -282340,12 +282401,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "452ca5ec3fcd82642281d94db5d68bd880a4fb0b"
+                    "reference": "4e7c35fef641e15b6244542b06e383e573ec1f20"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-07-20T21:15:27+00:00",
+                "time": "2026-07-21T21:08:28+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

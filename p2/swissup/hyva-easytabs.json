@@ -245,6 +245,41 @@
                     }
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_Easytabs"
+            },
+            {
+                "name": "swissup/hyva-easytabs",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easytabs.git",
+                    "reference": "6b72f2fc939566cef5b92112b706b6559e2664a6"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easytabs": "^1.13.4"
+                },
+                "time": "2026-07-31T10:24:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasytabs\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Easytabs"
             }
         ]
     }

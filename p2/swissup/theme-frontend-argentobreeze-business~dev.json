@@ -52,6 +52,30 @@
             },
             {
                 "name": "swissup/theme-frontend-argentobreeze-business",
+                "version": "dev-feat/minicart-crosssells",
+                "version_normalized": "dev-feat/minicart-crosssells",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
+                    "reference": "aa798bffeb9430ce3e211e44489e7d8b2a84c92c"
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
+                },
+                "time": "2026-08-03T14:47:08+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Business Theme"
+            },
+            {
+                "name": "swissup/theme-frontend-argentobreeze-business",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

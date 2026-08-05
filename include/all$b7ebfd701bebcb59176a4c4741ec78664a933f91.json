@@ -215429,6 +215429,49 @@
                     "testimonials"
                 ]
             },
+            "1.4.1": {
+                "name": "swissup/module-testimonials",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-testimonials.git",
+                    "reference": "8ca632f78d89c0d4a603991539af6313c3435447"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-swiper": "^1.0.1"
+                },
+                "time": "2026-08-05T12:57:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-testimonials.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/testimonials/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/testimonials/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "keywords": [
+                    "reviews",
+                    "testimonials"
+                ]
+            },
             "dev-breeze-dynamic-js": {
                 "name": "swissup/module-testimonials",
                 "version": "dev-breeze-dynamic-js",
@@ -215479,13 +215522,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-testimonials.git",
-                    "reference": "68ea17b3e29ba2a0b630b79cb2db126ba73c1ebe"
+                    "reference": "8ca632f78d89c0d4a603991539af6313c3435447"
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.26",
+                    "swissup/module-core": "^1.12.27",
                     "swissup/module-swiper": "^1.0.1"
                 },
-                "time": "2026-07-23T07:34:51+00:00",
+                "time": "2026-08-05T12:57:10+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

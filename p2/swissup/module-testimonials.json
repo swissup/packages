@@ -2056,6 +2056,49 @@
                     "reviews",
                     "testimonials"
                 ]
+            },
+            {
+                "name": "swissup/module-testimonials",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-testimonials.git",
+                    "reference": "8ca632f78d89c0d4a603991539af6313c3435447"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-swiper": "^1.0.1"
+                },
+                "time": "2026-08-05T12:57:10+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-testimonials.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/testimonials/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/testimonials/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Testimonials\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Testimonials extension from Swissup",
+                "keywords": [
+                    "reviews",
+                    "testimonials"
+                ]
             }
         ]
     }

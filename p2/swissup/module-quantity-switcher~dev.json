@@ -3,18 +3,50 @@
         "swissup/module-quantity-switcher": [
             {
                 "name": "swissup/module-quantity-switcher",
+                "version": "dev-fix/arrow-room-lost-after-mount",
+                "version_normalized": "dev-fix/arrow-room-lost-after-mount",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-quantity-switcher.git",
+                    "reference": "0825972c708cf2ea283ed396cdaad66f0a489db5"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.26",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-08-05T11:31:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\QuantitySwitcher\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Quantity Switcher extension for Magento 2.x e-commerce",
+                "keywords": [
+                    "quantity",
+                    "switcher"
+                ]
+            },
+            {
+                "name": "swissup/module-quantity-switcher",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-quantity-switcher.git",
-                    "reference": "f2d44f2351b0355ca44625e97fcdc3e44818f007"
+                    "reference": "1a948011a36e951b2b47bdccacfae172d8cfb226"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-07-21T06:15:49+00:00",
+                "time": "2026-08-05T11:55:01+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

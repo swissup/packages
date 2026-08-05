@@ -3,46 +3,6 @@
         "swissup/module-breeze-content-builder": [
             {
                 "name": "swissup/module-breeze-content-builder",
-                "version": "dev-feat/component-descriptions-for-ai",
-                "version_normalized": "dev-feat/component-descriptions-for-ai",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "9d328740a16eb9253d916e0d825880168f941a03"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "magento/module-backend": "*",
-                    "magento/module-catalog-widget": "*",
-                    "magento/module-cms": "*",
-                    "magento/module-page-cache": "*",
-                    "magento/module-rule": "*",
-                    "magento/module-store": "*",
-                    "swissup/module-breeze-theme-editor": "^1.0.0",
-                    "swissup/module-codemirror": "*",
-                    "swissup/module-core": "^1.12.27",
-                    "swissup/module-swiper": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
-                },
-                "time": "2026-08-04T15:07:15+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeContentBuilder\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze Content Builder module for Magento 2"
-            },
-            {
-                "name": "swissup/module-breeze-content-builder",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

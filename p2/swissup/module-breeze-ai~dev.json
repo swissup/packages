@@ -3,39 +3,6 @@
         "swissup/module-breeze-ai": [
             {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-feat/ai-landing-page-builder",
-                "version_normalized": "dev-feat/ai-landing-page-builder",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "1bf01f6b5120ddd9bbdc13b9903d45e717e38cbf"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^7.4|^8.0|^8.1|^8.2",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-08-04T15:07:48+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            {
-                "name": "swissup/module-breeze-ai",
                 "version": "dev-fix/llms-txt-markdown-links",
                 "version_normalized": "dev-fix/llms-txt-markdown-links",
                 "source": {

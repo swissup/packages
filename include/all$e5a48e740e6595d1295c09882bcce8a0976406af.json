@@ -90278,39 +90278,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-feat/ai-landing-page-builder": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-feat/ai-landing-page-builder",
-                "version_normalized": "dev-feat/ai-landing-page-builder",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "1bf01f6b5120ddd9bbdc13b9903d45e717e38cbf"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^7.4|^8.0|^8.1|^8.2",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-08-04T15:07:48+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-fix/llms-txt-markdown-links": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-fix/llms-txt-markdown-links",
@@ -90829,46 +90796,6 @@
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
                 "time": "2026-08-05T13:00:55+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeContentBuilder\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze Content Builder module for Magento 2"
-            },
-            "dev-feat/component-descriptions-for-ai": {
-                "name": "swissup/module-breeze-content-builder",
-                "version": "dev-feat/component-descriptions-for-ai",
-                "version_normalized": "dev-feat/component-descriptions-for-ai",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "9d328740a16eb9253d916e0d825880168f941a03"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "magento/module-backend": "*",
-                    "magento/module-catalog-widget": "*",
-                    "magento/module-cms": "*",
-                    "magento/module-page-cache": "*",
-                    "magento/module-rule": "*",
-                    "magento/module-store": "*",
-                    "swissup/module-breeze-theme-editor": "^1.0.0",
-                    "swissup/module-codemirror": "*",
-                    "swissup/module-core": "^1.12.27",
-                    "swissup/module-swiper": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
-                },
-                "time": "2026-08-04T15:07:15+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -187667,6 +187594,38 @@
                     "switcher"
                 ]
             },
+            "dev-fix/arrow-room-lost-after-mount": {
+                "name": "swissup/module-quantity-switcher",
+                "version": "dev-fix/arrow-room-lost-after-mount",
+                "version_normalized": "dev-fix/arrow-room-lost-after-mount",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-quantity-switcher.git",
+                    "reference": "0825972c708cf2ea283ed396cdaad66f0a489db5"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.26",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-08-05T11:31:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\QuantitySwitcher\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Quantity Switcher extension for Magento 2.x e-commerce",
+                "keywords": [
+                    "quantity",
+                    "switcher"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/module-quantity-switcher",
                 "version": "dev-master",
@@ -187674,13 +187633,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-quantity-switcher.git",
-                    "reference": "f2d44f2351b0355ca44625e97fcdc3e44818f007"
+                    "reference": "1a948011a36e951b2b47bdccacfae172d8cfb226"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-07-21T06:15:49+00:00",
+                "time": "2026-08-05T11:55:01+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

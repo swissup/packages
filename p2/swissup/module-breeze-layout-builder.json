@@ -34,6 +34,40 @@
                     "OSL-3.0"
                 ],
                 "description": "Breeze Layout Builder — BCB editing capabilities for product, category, and other layout-based pages"
+            },
+            {
+                "name": "swissup/module-breeze-layout-builder",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
+                    "reference": "1bcf8f2195027f5126d9ae7def01eb579ca19b6e"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-page-cache": "*",
+                    "magento/module-store": "*",
+                    "magento/module-widget": "*",
+                    "swissup/module-breeze-content-builder": "^1.0.8",
+                    "swissup/module-breeze-theme-editor": "^1.0.0"
+                },
+                "time": "2026-08-05T12:58:44+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeLayoutBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Layout Builder — BCB editing capabilities for product, category, and other layout-based pages"
             }
         ]
     }

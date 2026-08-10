@@ -90517,6 +90517,39 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
+            "dev-feat/vision-image-input": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-feat/vision-image-input",
+                "version_normalized": "dev-feat/vision-image-input",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "659e7440c19b21cc7b6af901b95a255b8a8ce47d"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-08-10T13:11:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
             "dev-fix/bulk-empty-field-panels": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-fix/bulk-empty-field-panels",
@@ -166008,14 +166041,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "c001642e342880005e9e1e8939fded3b8e0af462"
+                    "reference": "922d0590fda2d4f396111ce02bf20b319e5affb3"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-stickyfill": "^1.2.2"
                 },
-                "time": "2026-08-04T10:49:44+00:00",
+                "time": "2026-08-10T08:13:23+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -281116,12 +281149,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "aa798bffeb9430ce3e211e44489e7d8b2a84c92c"
+                    "reference": "de83d99390ad46af7d0e0e80b3757de9cc829f2d"
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
                 },
-                "time": "2026-08-03T14:47:08+00:00",
+                "time": "2026-08-10T14:53:23+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -284563,12 +284596,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-apollo.git",
-                    "reference": "613e59fe73a850bfd6b00c0377c777b8232d7b9f"
+                    "reference": "a38c1c4afe74a9bfc6bf6aecf2ee1099df160971"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.2.0"
                 },
-                "time": "2026-08-07T07:20:16+00:00",
+                "time": "2026-08-10T11:52:05+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -284799,12 +284832,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "d4f1745befd44cf0a41cecca69ae344a187e7d08"
+                    "reference": "3b42ffe5ebb5063444d5695ea9c986c5641ceaf8"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-07T20:56:49+00:00",
+                "time": "2026-08-10T21:09:33+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

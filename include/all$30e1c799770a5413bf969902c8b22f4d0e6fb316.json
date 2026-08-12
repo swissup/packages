@@ -70035,7 +70035,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "ba69b1681190b2ec4122fb03d9d23b4235ffd0c1"
+                    "reference": "2645781504f3081dabe797188d898a1cfcd2c63b"
                 },
                 "require": {
                     "ext-json": "*",
@@ -70051,7 +70051,7 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-suggestpage": "^1.2.14"
                 },
-                "time": "2026-07-16T07:07:44+00:00",
+                "time": "2026-08-12T14:07:55+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -86244,14 +86244,14 @@
                     "questions"
                 ]
             },
-            "dev-master": {
+            "dev-fix/issue-71-locale-csv": {
                 "name": "swissup/module-askit",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-fix/issue-71-locale-csv",
+                "version_normalized": "dev-fix/issue-71-locale-csv",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "d0112b06e0bf1b874cc0f2ba6f4f13291077e220"
+                    "reference": "0381cd594bad692761c27f09e4fb40646a62fb42"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -86272,7 +86272,76 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-07-27T08:43:18+00:00",
+                "time": "2026-08-12T08:27:07+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-askit.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/askit/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ]
+            },
+            "dev-master": {
+                "name": "swissup/module-askit",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "ef2944dee2327baede8eb25222509c65c0297a2a"
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-url-rewrite": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-08-12T08:55:24+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -91000,7 +91069,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "b1b27c5e65b063a5419b18ba09213d7d27f992e8"
+                    "reference": "fe4e91054d498c474326b37310e7709ad5f87f78"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -91018,7 +91087,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-08-06T13:13:28+00:00",
+                "time": "2026-08-12T12:59:57+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -180534,6 +180603,84 @@
                     "pagespeed"
                 ]
             },
+            "dev-fix/fuzzy-content-strategy-head-corruption": {
+                "name": "swissup/module-pagespeed",
+                "version": "dev-fix/fuzzy-content-strategy-head-corruption",
+                "version_normalized": "dev-fix/fuzzy-content-strategy-head-corruption",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "772112a8a3252d41d91efa15451f8796c07f0cce"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "laminas/laminas-http": "^2.6",
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-catalog": ">=104.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-customer": ">=103.0",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-store": ">=101.1",
+                    "magento/module-theme": ">=101.1",
+                    "mobiledetect/mobiledetectlib": "^2.8|^3.74|^4.8",
+                    "mrclay/minify": "~3.0.0",
+                    "psr/log": "*",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-image": "^1.0.0",
+                    "swissup/module-image-optimizer": "^1.0.12",
+                    "swissup/module-logger": "^2.0",
+                    "swissup/module-speculation-rules": "^1.0.3",
+                    "symfony/process": ">=4.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6"
+                },
+                "time": "2026-08-12T12:42:13+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/",
+                            "store": "https://swissuplabs.com/page-speed-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-pagespeed.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\Test\\Unit\\": "Test/Unit/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ]
+            },
             "dev-fix/requirejs-bundle-pool-order-27428": {
                 "name": "swissup/module-pagespeed",
                 "version": "dev-fix/requirejs-bundle-pool-order-27428",
@@ -180619,7 +180766,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "aa4b809e744eabc25febb0065b5334e6bc261a01"
+                    "reference": "ac1fae2648d45def871573a9a48047f4b29633aa"
                 },
                 "require": {
                     "ext-json": "*",
@@ -180648,7 +180795,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6"
                 },
-                "time": "2026-08-07T11:32:07+00:00",
+                "time": "2026-08-12T15:26:09+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -280855,12 +281002,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "fa90beec4732d6cedd576c3924d0ea3aee1c73bc"
+                    "reference": "f7edcab5a6061ffc30cb96f21a916786aa40f6c1"
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
                 },
-                "time": "2026-08-11T14:59:49+00:00",
+                "time": "2026-08-12T11:29:10+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [
@@ -284538,12 +284685,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "dec0814b9d6ebaf525c37b7041610d4f800ad22c"
+                    "reference": "8fa9a37c9317542890ec1295a84e237ddd732686"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-11T21:36:06+00:00",
+                "time": "2026-08-12T21:44:13+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

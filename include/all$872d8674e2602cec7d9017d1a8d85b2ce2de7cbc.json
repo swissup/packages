@@ -212315,6 +212315,38 @@
                 ],
                 "description": "Module that allows to link downloadable products to the virtual subscription"
             },
+            "1.0.6": {
+                "name": "swissup/module-subscription",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-subscription.git",
+                    "reference": "7d118d08659ebbfc87bdffcb6b207812475ab918"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-08-13T14:01:45+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Subscription\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module that allows to link downloadable products to the virtual subscription"
+            },
             "dev-master": {
                 "name": "swissup/module-subscription",
                 "version": "dev-master",
@@ -212322,12 +212354,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-subscription.git",
-                    "reference": "8f0f3c349bf6ea3f2656f7f7b6078bf12e38d9bd"
+                    "reference": "7d118d08659ebbfc87bdffcb6b207812475ab918"
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.26"
+                    "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-04-14T08:31:22+00:00",
+                "time": "2026-08-13T14:01:45+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

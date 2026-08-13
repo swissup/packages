@@ -160,6 +160,38 @@
                     "OSL-3.0"
                 ],
                 "description": "Module that allows to link downloadable products to the virtual subscription"
+            },
+            {
+                "name": "swissup/module-subscription",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-subscription.git",
+                    "reference": "7d118d08659ebbfc87bdffcb6b207812475ab918"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-08-13T14:01:45+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Subscription\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Module that allows to link downloadable products to the virtual subscription"
             }
         ]
     }

@@ -194230,6 +194230,45 @@
                 ],
                 "description": "Structured data markup for Google's crawlers"
             },
+            "1.8.5": {
+                "name": "swissup/module-rich-snippets",
+                "version": "1.8.5",
+                "version_normalized": "1.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-rich-snippets.git",
+                    "reference": "2685fe561280f7a63eeacb75059d60f339da9a52"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-seo-core": "^1.3.10"
+                },
+                "time": "2026-08-14T21:09:54+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-richsnippets.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/richsnippets/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/richsnippets/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\RichSnippets\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Structured data markup for Google's crawlers"
+            },
             "dev-feature/local-business": {
                 "name": "swissup/module-rich-snippets",
                 "version": "dev-feature/local-business",
@@ -194275,13 +194314,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "830f6014db8dccb789ab97479107184f4d59215f"
+                    "reference": "2685fe561280f7a63eeacb75059d60f339da9a52"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-06-19T20:34:28+00:00",
+                "time": "2026-08-14T21:09:54+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

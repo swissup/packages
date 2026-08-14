@@ -84,6 +84,34 @@
                     "OSL-3.0"
                 ],
                 "description": "Swissup Checkout Consumer Rights module"
+            },
+            {
+                "name": "swissup/module-checkout-consumer-rights",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-consumer-rights.git",
+                    "reference": "02da055d57919f8d0c999edbe5702769dfdfd4aa"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.5.4"
+                },
+                "time": "2026-08-14T11:04:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutConsumerRights\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Checkout Consumer Rights module"
             }
         ]
     }

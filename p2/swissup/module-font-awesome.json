@@ -417,6 +417,40 @@
                     "fontawesome",
                     "icons"
                 ]
+            },
+            {
+                "name": "swissup/module-font-awesome",
+                "version": "1.4.5",
+                "version_normalized": "1.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-font-awesome.git",
+                    "reference": "7b323b7e639afb3762ec8522c8e673afb887e57f"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-08-17T08:25:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FontAwesome\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "FontAwesome for Magento2",
+                "keywords": [
+                    "font",
+                    "font awesome",
+                    "font-awesome",
+                    "fontawesome",
+                    "icons"
+                ]
             }
         ]
     }

@@ -3,17 +3,51 @@
         "swissup/module-font-awesome": [
             {
                 "name": "swissup/module-font-awesome",
+                "version": "dev-fix/font-preload-toggle",
+                "version_normalized": "dev-fix/font-preload-toggle",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-font-awesome.git",
+                    "reference": "22a42ffb1b4713e92e38dec6925e13c6b66abccd"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2026-08-17T08:22:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\FontAwesome\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "FontAwesome for Magento2",
+                "keywords": [
+                    "font",
+                    "font awesome",
+                    "font-awesome",
+                    "fontawesome",
+                    "icons"
+                ]
+            },
+            {
+                "name": "swissup/module-font-awesome",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-font-awesome.git",
-                    "reference": "9feac16313472ca3d866dbc29276c1caafde3a4f"
+                    "reference": "7b323b7e639afb3762ec8522c8e673afb887e57f"
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.24"
+                    "swissup/module-core": "^1.12.27"
                 },
-                "time": "2025-10-01T08:44:56+00:00",
+                "time": "2026-08-17T08:25:17+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

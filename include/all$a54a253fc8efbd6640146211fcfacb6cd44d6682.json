@@ -91098,14 +91098,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-fix/bulk-selection-scope": {
+            "dev-feat/build-page-from-screenshot": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/bulk-selection-scope",
-                "version_normalized": "dev-fix/bulk-selection-scope",
+                "version": "dev-feat/build-page-from-screenshot",
+                "version_normalized": "dev-feat/build-page-from-screenshot",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "33d5e973203a46f0414511819cf3c4e00eca524c"
+                    "reference": "f348457894f6099377871698ab9931567bae65aa"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -91116,40 +91116,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-08-17T07:56:20+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            "dev-fix/model-form-provider-options": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/model-form-provider-options",
-                "version_normalized": "dev-fix/model-form-provider-options",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "9366968a840029dd3aa61ed0881372a99386d479"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^7.4|^8.0|^8.1|^8.2",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-08-14T07:09:16+00:00",
+                "time": "2026-08-17T15:21:27+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -103143,9 +103110,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "ac70c7aefb691de0417b3b28df8381b7c94250f0"
+                    "reference": "f7eef6a25ef1e4a21fb9cefbd86186e80dc4e7d1"
                 },
-                "time": "2026-05-15T11:00:10+00:00",
+                "time": "2026-08-17T14:58:15+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -282097,12 +282064,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "9ac6aa44247508ae27bd1828c0315eec70fa78db"
+                    "reference": "bebce937cc1524437546f2acd4404c671f7b06e9"
                 },
                 "require": {
                     "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
                 },
-                "time": "2026-07-27T13:05:40+00:00",
+                "time": "2026-08-17T12:30:56+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -282128,30 +282095,6 @@
                     "swissup/theme-frontend-argentobreeze-blank": "dev-feat/3.0"
                 },
                 "time": "2026-02-27T15:35:46+00:00",
-                "type": "magento2-theme",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ]
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Argento Breeze Business Theme"
-            },
-            "dev-feat/minicart-crosssells": {
-                "name": "swissup/theme-frontend-argentobreeze-business",
-                "version": "dev-feat/minicart-crosssells",
-                "version_normalized": "dev-feat/minicart-crosssells",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-business.git",
-                    "reference": "d00d5063b5373a723a8ff0d9c07c77006e6b2750"
-                },
-                "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
-                },
-                "time": "2026-08-13T14:47:33+00:00",
                 "type": "magento2-theme",
                 "autoload": {
                     "files": [

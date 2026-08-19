@@ -91250,14 +91250,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "dev-feat/value-backup": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-feat/value-backup",
+                "version_normalized": "dev-feat/value-backup",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "b69352d3eef7dc574805089d0b5942e1e3453ad1"
+                    "reference": "27e298967239b520a5bb314689ab1df03653fa69"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -91268,7 +91268,40 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-08-18T12:33:21+00:00",
+                "time": "2026-08-19T07:37:55+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "e5e22882390ec62c5c3366f00cf493afaaa2077a"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-08-19T15:21:03+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -103222,16 +103255,17 @@
                 ],
                 "description": "Swissup core module. It's purpose is to add Swissup menu and config entries"
             },
-            "dev-feature/packages-file-storage": {
+            "dev-master": {
                 "name": "swissup/module-core",
-                "version": "dev-feature/packages-file-storage",
-                "version_normalized": "dev-feature/packages-file-storage",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "73cf28f0d87349b604281584e74cb567505b61f3"
+                    "reference": "115f377219b0a7d55a81ede48a4c29e6147148f2"
                 },
-                "time": "2026-08-18T15:15:20+00:00",
+                "time": "2026-08-19T07:34:12+00:00",
+                "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -103246,17 +103280,16 @@
                 ],
                 "description": "Swissup core module. It's purpose is to add Swissup menu and config entries"
             },
-            "dev-master": {
+            "dev-outdated-modules-badge": {
                 "name": "swissup/module-core",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-outdated-modules-badge",
+                "version_normalized": "dev-outdated-modules-badge",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "f7eef6a25ef1e4a21fb9cefbd86186e80dc4e7d1"
+                    "reference": "0a0016d8b7ad7ba218e25dfb1b42d0fe015c73d2"
                 },
-                "time": "2026-08-17T14:58:15+00:00",
-                "default-branch": true,
+                "time": "2026-08-19T14:58:45+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -285915,12 +285948,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "a0bfde306eea9256fc60d6b66e99490ccac6d875"
+                    "reference": "02d37dffe416af0a8eba6067da19a0baf2188b7d"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-18T11:01:51+00:00",
+                "time": "2026-08-19T21:44:48+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

@@ -3,12 +3,12 @@
         "swissup/module-breeze-ai": [
             {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-feat/value-backup",
+                "version_normalized": "dev-feat/value-backup",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "b69352d3eef7dc574805089d0b5942e1e3453ad1"
+                    "reference": "27e298967239b520a5bb314689ab1df03653fa69"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -19,7 +19,40 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-08-18T12:33:21+00:00",
+                "time": "2026-08-19T07:37:55+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "e5e22882390ec62c5c3366f00cf493afaaa2077a"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^7.4|^8.0|^8.1|^8.2",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-08-19T15:21:03+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

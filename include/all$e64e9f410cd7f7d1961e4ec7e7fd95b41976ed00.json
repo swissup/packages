@@ -49335,6 +49335,41 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
             },
+            "1.2.4": {
+                "name": "swissup/hyva-sold-together",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "baec1cae857ad4c37408a693a67b146b0315ea29"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.11.4"
+                },
+                "time": "2026-08-28T06:52:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
+            },
             "dev-master": {
                 "name": "swissup/hyva-sold-together",
                 "version": "dev-master",
@@ -49342,14 +49377,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-sold-together.git",
-                    "reference": "d3ee84e332d87895659d1b794baeae130224cc4b"
+                    "reference": "baec1cae857ad4c37408a693a67b146b0315ea29"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
                     "swissup/module-sold-together": "^1.11.4"
                 },
-                "time": "2026-08-04T12:20:42+00:00",
+                "time": "2026-08-28T06:52:16+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

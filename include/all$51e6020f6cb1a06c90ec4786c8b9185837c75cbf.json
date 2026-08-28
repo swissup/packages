@@ -92123,39 +92123,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-claude/relaxed-shirley-d523bc": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-claude/relaxed-shirley-d523bc",
-                "version_normalized": "dev-claude/relaxed-shirley-d523bc",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "12ba053daeedea53b06d87ec09a90f3c03164654"
-                },
-                "require": {
-                    "magento/framework": "*",
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^7.4|^8.0|^8.1|^8.2",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-08-27T13:51:00+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -287735,12 +287702,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "8c4a9d29cd9a95775f6cb91cb8acca7652338d86"
+                    "reference": "d8e0f37afbdb5516d012f69465a3e6587e075a84"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-27T21:09:51+00:00",
+                "time": "2026-08-28T21:04:04+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

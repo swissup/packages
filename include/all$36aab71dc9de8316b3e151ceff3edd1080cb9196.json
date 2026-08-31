@@ -92304,14 +92304,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "dev-fix/96-field-actions-layout": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-fix/96-field-actions-layout",
+                "version_normalized": "dev-fix/96-field-actions-layout",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "0bcf86372d747cc9afb43e47d1841dcefd3dc391"
+                    "reference": "9c5b396c13477f4091b80f02ccbbcd0f2d8d95af"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92321,7 +92321,39 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-08-28T14:38:24+00:00",
+                "time": "2026-08-31T15:42:27+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "dd87e3d416088790ffdd6a956389df90a6aecff3"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-08-31T15:04:46+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -93012,7 +93044,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "7f774f7f3986281800eb1855f08daa29c51808b2"
+                    "reference": "45a7e66c7023a08bfe68177bc3f88f9d62c42236"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -93030,7 +93062,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
                 },
-                "time": "2026-08-28T13:14:47+00:00",
+                "time": "2026-08-31T15:09:12+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -285147,6 +285179,30 @@
                 ],
                 "description": "Argento Breeze Chic Theme"
             },
+            "3.0.1": {
+                "name": "swissup/theme-frontend-argentobreeze-chic",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argentobreeze-chic.git",
+                    "reference": "1a7f1b49f6eb12d03cb3570cacff13fe578e3819"
+                },
+                "require": {
+                    "swissup/theme-frontend-argentobreeze-blank": "^3.1.0"
+                },
+                "time": "2026-08-31T08:52:39+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Argento Breeze Chic Theme"
+            },
             "3.x-dev": {
                 "name": "swissup/theme-frontend-argentobreeze-chic",
                 "version": "3.x-dev",
@@ -285154,12 +285210,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentobreeze-chic.git",
-                    "reference": "1e3072b013b109100c0a7bd21af4d19e16c9301a"
+                    "reference": "1a7f1b49f6eb12d03cb3570cacff13fe578e3819"
                 },
                 "require": {
-                    "swissup/theme-frontend-argentobreeze-blank": "^3.0.0"
+                    "swissup/theme-frontend-argentobreeze-blank": "^3.1.0"
                 },
-                "time": "2026-07-27T13:19:53+00:00",
+                "time": "2026-08-31T08:52:39+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -288585,12 +288641,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "d8e0f37afbdb5516d012f69465a3e6587e075a84"
+                    "reference": "1964697b67edfcf5e8ce354989c5290c079147e8"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-28T21:04:04+00:00",
+                "time": "2026-08-31T21:08:19+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

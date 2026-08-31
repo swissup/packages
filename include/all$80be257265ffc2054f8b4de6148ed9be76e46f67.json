@@ -252958,6 +252958,60 @@
                     "theme"
                 ]
             },
+            "1.48.3": {
+                "name": "swissup/theme-frontend-argento-chic",
+                "version": "1.48.3",
+                "version_normalized": "1.48.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/theme-frontend-argento-chic.git",
+                    "reference": "fca9e0c2939c2681bb11b5321f184562f77cef19"
+                },
+                "require": {
+                    "swissup/theme-frontend-argento-blank": "*"
+                },
+                "time": "2026-08-31T08:52:15+00:00",
+                "type": "magento2-theme",
+                "extra": {
+                    "swissup": {
+                        "purchase_code": "TM_ArgentoArgento",
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-argento-m2.html",
+                            "store": "https://argentotheme.com/",
+                            "download": "https://argentotheme.com/downloadable/customer/products/",
+                            "identity_key": "https://argentotheme.com/license/customer/activation/",
+                            "docs": "https://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "https://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/theme-frontend-argento-chic.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/argento/",
+                            "changelog": "https://docs.swissuplabs.com/m2/argento/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Most advanced responsive theme for Magento",
+                "keywords": [
+                    "argento",
+                    "chic",
+                    "responsive template",
+                    "responsive theme",
+                    "template",
+                    "theme"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/theme-frontend-argento-chic",
                 "version": "dev-master",
@@ -252965,12 +253019,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argento-chic.git",
-                    "reference": "4d83b114d588a668625f70bcc786b270b44ee9b6"
+                    "reference": "fca9e0c2939c2681bb11b5321f184562f77cef19"
                 },
                 "require": {
                     "swissup/theme-frontend-argento-blank": "*"
                 },
-                "time": "2026-06-17T11:27:25+00:00",
+                "time": "2026-08-31T08:52:15+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "extra": {

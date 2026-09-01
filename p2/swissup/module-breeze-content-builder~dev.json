@@ -8,25 +8,38 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "45a7e66c7023a08bfe68177bc3f88f9d62c42236"
+                    "reference": "a4923d6b87869c4d0f2d46f62b39403caf9bdc55"
                 },
                 "require": {
-                    "magento/framework": "*",
+                    "magento/framework": "^103.0",
                     "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-catalog-inventory": "*",
                     "magento/module-catalog-widget": "*",
                     "magento/module-cms": "*",
+                    "magento/module-configurable-product": "*",
+                    "magento/module-customer": "*",
+                    "magento/module-newsletter": "*",
                     "magento/module-page-cache": "*",
                     "magento/module-rule": "*",
                     "magento/module-store": "*",
+                    "magento/module-swatches": "*",
+                    "magento/module-theme": "*",
+                    "magento/module-ui": "*",
+                    "magento/module-variable": "*",
+                    "magento/module-widget": "*",
+                    "php": "^8.1",
                     "swissup/module-breeze-theme-editor": "^1.0.0",
                     "swissup/module-codemirror": "*",
                     "swissup/module-core": "^1.13.1",
                     "swissup/module-swiper": "*"
                 },
                 "suggest": {
-                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                    "magento/module-review": "Renders review stars in the Featured Product component",
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
+                    "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
                 },
-                "time": "2026-08-31T15:09:12+00:00",
+                "time": "2026-09-01T10:33:34+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

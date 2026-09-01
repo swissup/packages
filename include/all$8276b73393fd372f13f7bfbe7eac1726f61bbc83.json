@@ -92336,14 +92336,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-fix/96-field-actions-layout": {
+            "dev-fix/91-widget-json-escape": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/96-field-actions-layout",
-                "version_normalized": "dev-fix/96-field-actions-layout",
+                "version": "dev-fix/91-widget-json-escape",
+                "version_normalized": "dev-fix/91-widget-json-escape",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "9c5b396c13477f4091b80f02ccbbcd0f2d8d95af"
+                    "reference": "2df0250dd3df601b229735dd56a42f156c3b4cbd"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92353,7 +92353,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-08-31T15:42:27+00:00",
+                "time": "2026-09-01T12:41:12+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -92375,7 +92375,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "e0b3b7e43ad25c9d09b5587eb09787a5e55e84fc"
+                    "reference": "c6926af8444062c47f7f53a0d13c3b62fe78bc92"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92385,7 +92385,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-01T09:01:16+00:00",
+                "time": "2026-09-01T15:19:27+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -93076,25 +93076,38 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "45a7e66c7023a08bfe68177bc3f88f9d62c42236"
+                    "reference": "a4923d6b87869c4d0f2d46f62b39403caf9bdc55"
                 },
                 "require": {
-                    "magento/framework": "*",
+                    "magento/framework": "^103.0",
                     "magento/module-backend": "*",
+                    "magento/module-catalog": "*",
+                    "magento/module-catalog-inventory": "*",
                     "magento/module-catalog-widget": "*",
                     "magento/module-cms": "*",
+                    "magento/module-configurable-product": "*",
+                    "magento/module-customer": "*",
+                    "magento/module-newsletter": "*",
                     "magento/module-page-cache": "*",
                     "magento/module-rule": "*",
                     "magento/module-store": "*",
+                    "magento/module-swatches": "*",
+                    "magento/module-theme": "*",
+                    "magento/module-ui": "*",
+                    "magento/module-variable": "*",
+                    "magento/module-widget": "*",
+                    "php": "^8.1",
                     "swissup/module-breeze-theme-editor": "^1.0.0",
                     "swissup/module-codemirror": "*",
                     "swissup/module-core": "^1.13.1",
                     "swissup/module-swiper": "*"
                 },
                 "suggest": {
-                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools"
+                    "magento/module-review": "Renders review stars in the Featured Product component",
+                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
+                    "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
                 },
-                "time": "2026-08-31T15:09:12+00:00",
+                "time": "2026-09-01T10:33:34+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -288105,9 +288118,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-stripes.git",
-                    "reference": "6f8a215f6d597c793fbb2722a83fa38deb58bc90"
+                    "reference": "5a8bfd0aece07985e39eb790a2e60ebf3392d029"
                 },
-                "time": "2026-08-28T06:56:48+00:00",
+                "time": "2026-09-01T18:36:52+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -288719,12 +288732,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "1964697b67edfcf5e8ce354989c5290c079147e8"
+                    "reference": "5ea6668f2bbcca551950b19a3cde6b74015f1369"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-08-31T21:08:19+00:00",
+                "time": "2026-09-01T22:10:00+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

@@ -3,12 +3,12 @@
         "swissup/module-breeze-ai": [
             {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/107-widget-discoverability",
-                "version_normalized": "dev-fix/107-widget-discoverability",
+                "version": "dev-feat/116-bulk-cancel",
+                "version_normalized": "dev-feat/116-bulk-cancel",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "61ea5b2c4b183fdfaa43ac469d5bda8e1b930b23"
+                    "reference": "6253100f9f645b86e9231f89aa41264c23683f82"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -18,39 +18,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-03T12:10:52+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/111-chat-panel-page-id",
-                "version_normalized": "dev-fix/111-chat-panel-page-id",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "0cf836a6f174024a7b271fc71e574d0fc3fc3737"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-09-03T12:27:10+00:00",
+                "time": "2026-09-04T13:49:54+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -72,7 +40,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "258de128695eff0236f627ff3bd7702366cbfccc"
+                    "reference": "9bc7314231f6330ecc5f6530c0291a696871f58d"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -82,7 +50,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-04T07:59:57+00:00",
+                "time": "2026-09-04T12:19:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

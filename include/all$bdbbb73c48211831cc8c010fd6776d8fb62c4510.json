@@ -81404,6 +81404,39 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup Argento themes"
             },
+            "1.2.3": {
+                "name": "swissup/module-argento-hyva",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "0be93891bcac8ddce811222be8b0ca35e7f7bcd3"
+                },
+                "require": {
+                    "hyva-themes/magento2-theme-module": "*"
+                },
+                "time": "2026-09-08T05:53:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ArgentoHyva\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes"
+            },
             "dev-dev": {
                 "name": "swissup/module-argento-hyva",
                 "version": "dev-dev",
@@ -81444,12 +81477,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-argento-hyva.git",
-                    "reference": "a988cade38c73a25aca626bf6e45f14900b76eda"
+                    "reference": "0be93891bcac8ddce811222be8b0ca35e7f7bcd3"
                 },
                 "require": {
                     "hyva-themes/magento2-theme-module": "*"
                 },
-                "time": "2026-08-30T06:55:57+00:00",
+                "time": "2026-09-08T05:53:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

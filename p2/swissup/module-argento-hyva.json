@@ -396,6 +396,39 @@
                     }
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup Argento themes"
+            },
+            {
+                "name": "swissup/module-argento-hyva",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-argento-hyva.git",
+                    "reference": "a50748b7a5684c3302de8358f38a27065b77fda3"
+                },
+                "require": {
+                    "hyva-themes/magento2-theme-module": "*"
+                },
+                "time": "2026-09-09T07:53:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ArgentoHyva\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup Argento themes"
             }
         ]
     }

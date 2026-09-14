@@ -92963,38 +92963,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-fix/134-operationless-runs-in-grid": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/134-operationless-runs-in-grid",
-                "version_normalized": "dev-fix/134-operationless-runs-in-grid",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "6ee879215beadbc78de6e125086d102ac60edb3f"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-09-11T15:24:43+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -105387,9 +105355,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "5b7b24a4740a0d8695bc863a249ebdee18179bb7"
+                    "reference": "e5542ce1408580f24f55ba023b04741e088fc291"
                 },
-                "time": "2026-08-28T10:44:12+00:00",
+                "time": "2026-09-14T14:58:19+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -139076,9 +139044,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout-integrations.git",
-                    "reference": "4aa797b46f15c1161e4acbb5252bb4d6bf543920"
+                    "reference": "41d1ebdc8e85afba899caa76463131f3e5b325e7"
                 },
-                "time": "2026-08-05T13:07:07+00:00",
+                "require": {
+                    "php": "^8.0"
+                },
+                "time": "2026-09-14T07:57:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -289136,9 +289107,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-stripes.git",
-                    "reference": "246589a565788fb5e547afd11f9cd450de73a7f5"
+                    "reference": "53cede3c23d5b3e8cc3e755389df809496a12d11"
                 },
-                "time": "2026-09-12T05:49:33+00:00",
+                "time": "2026-09-14T07:06:54+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -289819,12 +289790,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "6698249aee213f906929c65621936d153f012933"
+                    "reference": "7059e92015ec08e8a44dd01df2c7edc02578a141"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-11T21:32:29+00:00",
+                "time": "2026-09-14T21:45:48+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

@@ -92931,6 +92931,38 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
+            "1.8.1": {
+                "name": "swissup/module-breeze-ai",
+                "version": "1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "32a023fd14e61c082f8c0757689bb5824afaa735"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-09-14T11:49:22+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
             "dev-fix/134-operationless-runs-in-grid": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-fix/134-operationless-runs-in-grid",
@@ -92970,7 +93002,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "da63cd93ac64849b718a58d9dfbb76299a073fe1"
+                    "reference": "32a023fd14e61c082f8c0757689bb5824afaa735"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92980,7 +93012,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-11T14:09:27+00:00",
+                "time": "2026-09-14T11:49:22+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

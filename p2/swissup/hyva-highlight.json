@@ -290,6 +290,35 @@
                     "OSL-3.0"
                 ],
                 "description": "Hyva Highlight extension from Swissup"
+            },
+            {
+                "name": "swissup/hyva-highlight",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-highlight.git",
+                    "reference": "a381737f02940682bb162dff2f125b6a1389551e"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-highlight": "^1.11.9"
+                },
+                "time": "2026-09-15T08:58:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaHighlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Highlight extension from Swissup"
             }
         ]
     }

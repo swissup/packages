@@ -47981,6 +47981,35 @@
                 ],
                 "description": "Hyva Easy Banner extension from Swissup"
             },
+            "1.0.4": {
+                "name": "swissup/hyva-easybanner",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-easybanner.git",
+                    "reference": "b799fbd07dab20cb9e18d74b743b71c0426ef208"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-easybanner": "^1.9.24"
+                },
+                "time": "2026-09-15T09:00:14+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaEasybanner\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Easy Banner extension from Swissup"
+            },
             "dev-master": {
                 "name": "swissup/hyva-easybanner",
                 "version": "dev-master",
@@ -47988,14 +48017,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-easybanner.git",
-                    "reference": "9737033718cd4eb5d584de302c4c190e20f4ae91"
+                    "reference": "b799fbd07dab20cb9e18d74b743b71c0426ef208"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-easybanner": "^1.9.23"
+                    "swissup/module-easybanner": "^1.9.24"
                 },
-                "time": "2026-04-02T10:15:40+00:00",
+                "time": "2026-09-15T09:00:14+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

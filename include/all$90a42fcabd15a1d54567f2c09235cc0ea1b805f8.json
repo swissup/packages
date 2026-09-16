@@ -94272,7 +94272,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-layout-builder.git",
-                    "reference": "ea8cead43ac8ed1f5d0b86c09fd4360e6aaa6d10"
+                    "reference": "aad26a7c21601241d9d491bb858895f11b52cbd0"
                 },
                 "require": {
                     "magento/framework": "*",
@@ -94284,7 +94284,7 @@
                     "swissup/module-breeze-content-builder": "^1.1.0",
                     "swissup/module-breeze-theme-editor": "^1.0.0"
                 },
-                "time": "2026-09-11T12:39:49+00:00",
+                "time": "2026-09-16T14:11:56+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -105488,6 +105488,30 @@
                     "reference": "6fdf6071951a09bcddab134c320983f9dd587ce2"
                 },
                 "time": "2024-12-02T14:52:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Core\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries"
+            },
+            "dev-installer": {
+                "name": "swissup/module-core",
+                "version": "dev-installer",
+                "version_normalized": "dev-installer",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-core.git",
+                    "reference": "3c3f3b1ef562b20cb40712016f9091deb32ea64c"
+                },
+                "time": "2026-09-16T13:06:00+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -289974,12 +289998,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "e13b994eb5e701e00a8555656cdca819f2edf5e4"
+                    "reference": "5bf007a64efd0307937bbf3bb77b99b8fb046ccf"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-15T22:55:47+00:00",
+                "time": "2026-09-16T22:31:19+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

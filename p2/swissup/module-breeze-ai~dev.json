@@ -3,44 +3,12 @@
         "swissup/module-breeze-ai": [
             {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/146-147-icon-refusal-and-image-provenance",
-                "version_normalized": "dev-fix/146-147-icon-refusal-and-image-provenance",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "5fb27f744b1e1e0c7732421ae155249f9ac45786"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "time": "2026-09-15T17:14:39+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            {
-                "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "604e251944fe5f07ced53555bcab9141c07a6ea5"
+                    "reference": "81a57bf74bc0471b88283b32c7eda2398fe26c61"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -50,7 +18,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-17T11:49:54+00:00",
+                "time": "2026-09-17T13:31:31+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

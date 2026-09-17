@@ -93117,6 +93117,38 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
+            "1.8.5": {
+                "name": "swissup/module-breeze-ai",
+                "version": "1.8.5",
+                "version_normalized": "1.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "604e251944fe5f07ced53555bcab9141c07a6ea5"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "time": "2026-09-17T11:49:54+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
             "dev-fix/146-147-icon-refusal-and-image-provenance": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-fix/146-147-icon-refusal-and-image-provenance",
@@ -93156,7 +93188,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "269c7750ccbc2d694999d800e6ee1113fe0d7b35"
+                    "reference": "604e251944fe5f07ced53555bcab9141c07a6ea5"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -93166,7 +93198,7 @@
                 "require-dev": {
                     "swissup/module-logger": "*"
                 },
-                "time": "2026-09-17T07:14:04+00:00",
+                "time": "2026-09-17T11:49:54+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

@@ -94227,59 +94227,6 @@
                 ],
                 "description": "Breeze Content Builder module for Magento 2"
             },
-            "dev-fix/46-field-row-extension-point": {
-                "name": "swissup/module-breeze-content-builder",
-                "version": "dev-fix/46-field-row-extension-point",
-                "version_normalized": "dev-fix/46-field-row-extension-point",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "a68c9fd29d4e3d930640b55bd371ba80dca71ffe"
-                },
-                "require": {
-                    "magento/framework": "^103.0",
-                    "magento/module-backend": "*",
-                    "magento/module-catalog": "*",
-                    "magento/module-catalog-inventory": "*",
-                    "magento/module-catalog-widget": "*",
-                    "magento/module-cms": "*",
-                    "magento/module-configurable-product": "*",
-                    "magento/module-customer": "*",
-                    "magento/module-newsletter": "*",
-                    "magento/module-page-cache": "*",
-                    "magento/module-rule": "*",
-                    "magento/module-store": "*",
-                    "magento/module-swatches": "*",
-                    "magento/module-theme": "*",
-                    "magento/module-ui": "*",
-                    "magento/module-variable": "*",
-                    "magento/module-widget": "*",
-                    "php": "^8.1",
-                    "swissup/module-breeze-theme-editor": "^1.0.0",
-                    "swissup/module-codemirror": "*",
-                    "swissup/module-core": "^1.13.1",
-                    "swissup/module-swiper": "*"
-                },
-                "suggest": {
-                    "magento/module-review": "Renders review stars in the Featured Product component",
-                    "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
-                    "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
-                },
-                "time": "2026-09-17T14:32:43+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeContentBuilder\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze Content Builder module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-content-builder",
                 "version": "dev-master",
@@ -105812,9 +105759,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "3c3f3b1ef562b20cb40712016f9091deb32ea64c"
+                    "reference": "cc0b306cbb7d168453df6a777b340a538bd08e86"
                 },
-                "time": "2026-09-16T13:06:00+00:00",
+                "require": {
+                    "composer/composer": "^2.0",
+                    "php": "^8.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0",
+                    "symfony/console": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/process": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "time": "2026-09-18T14:46:04+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -105827,7 +105781,7 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries"
+                "description": "Swissup core module. Your starting point to use SwissupLabs packages."
             },
             "dev-master": {
                 "name": "swissup/module-core",
@@ -290473,12 +290427,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "5bf007a64efd0307937bbf3bb77b99b8fb046ccf"
+                    "reference": "7ed6debf1020574189bcff788e1f9d962143085d"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-16T22:31:19+00:00",
+                "time": "2026-09-18T22:16:41+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

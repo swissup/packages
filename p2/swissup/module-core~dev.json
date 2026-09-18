@@ -32,9 +32,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-core.git",
-                    "reference": "3c3f3b1ef562b20cb40712016f9091deb32ea64c"
+                    "reference": "cc0b306cbb7d168453df6a777b340a538bd08e86"
                 },
-                "time": "2026-09-16T13:06:00+00:00",
+                "require": {
+                    "composer/composer": "^2.0",
+                    "php": "^8.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0",
+                    "symfony/console": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/process": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "time": "2026-09-18T14:46:04+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -47,7 +54,7 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Swissup core module. It's purpose is to add Swissup menu and config entries"
+                "description": "Swissup core module. Your starting point to use SwissupLabs packages."
             },
             {
                 "name": "swissup/module-core",

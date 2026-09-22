@@ -92447,41 +92447,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-feat/163-trim-chat-history": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-feat/163-trim-chat-history",
-                "version_normalized": "dev-feat/163-trim-chat-history",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "5064be64c132d88a5b78f94408c64cec6d6765c7"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-09-21T13:54:36+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -92489,7 +92454,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "b68695ddde94c432007d70b6fe5befb9a1f4e349"
+                    "reference": "277f46da34ee488149fc4093c19bd618850caa6c"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92502,7 +92467,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-09-22T08:33:29+00:00",
+                "time": "2026-09-22T13:32:35+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -136599,14 +136564,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout-integrations.git",
-                    "reference": "58ca56f6cc1f4950f99e47d2db327a8c9b1286de"
+                    "reference": "a7a1cef3ed8d5de89743c28a6d98bd0e0cd335a8"
                 },
                 "require": {
                     "php": "^8.0"
                 },
-                "time": "2026-09-18T14:20:41+00:00",
+                "time": "2026-09-22T07:24:46+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/firecheckout/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -136618,10 +136591,7 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Code for third-party modules that requires additional logic at firecheckout page",
-                "keywords": [
-                    "firecheckout"
-                ]
+                "description": "Code for third-party modules that requires additional logic at firecheckout page"
             }
         },
         "swissup/module-font-awesome": {
@@ -168586,13 +168556,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-orderattachment.git",
-                    "reference": "1daa10677f3176e5c9ef6dd9d6fdf03a12185abf"
+                    "reference": "a38b7ce02c609e3c92f0867aa87ddacdec43d352"
                 },
                 "require": {
                     "php": ">=7.4.0",
                     "swissup/module-checkout": "^1.5.2"
                 },
-                "time": "2025-06-19T08:10:30+00:00",
+                "time": "2026-09-22T15:11:07+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -287501,12 +287471,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "aa27eef7bcb0aefbf7bb44a2e2be76b1ac4f657e"
+                    "reference": "f57c8dc116958b405a6f9b7b655736af7bed3309"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-21T22:03:12+00:00",
+                "time": "2026-09-22T20:09:05+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

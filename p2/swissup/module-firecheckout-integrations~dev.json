@@ -8,14 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout-integrations.git",
-                    "reference": "58ca56f6cc1f4950f99e47d2db327a8c9b1286de"
+                    "reference": "a7a1cef3ed8d5de89743c28a6d98bd0e0cd335a8"
                 },
                 "require": {
                     "php": "^8.0"
                 },
-                "time": "2026-09-18T14:20:41+00:00",
+                "time": "2026-09-22T07:24:46+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/firecheckout/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/firecheckout/changelog/"
+                        }
+                    }
+                },
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -27,10 +35,7 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Code for third-party modules that requires additional logic at firecheckout page",
-                "keywords": [
-                    "firecheckout"
-                ]
+                "description": "Code for third-party modules that requires additional logic at firecheckout page"
             }
         ]
     }

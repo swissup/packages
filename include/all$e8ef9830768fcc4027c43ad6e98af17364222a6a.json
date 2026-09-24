@@ -92517,41 +92517,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-claude/quizzical-shamir-3dbfff": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-claude/quizzical-shamir-3dbfff",
-                "version_normalized": "dev-claude/quizzical-shamir-3dbfff",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "22e1144662ee2c19ecade81ebb4e676e8cb8c1f2"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-09-23T15:17:34+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -287576,12 +287541,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "9fa55857dfa71856cebc1d67363eb2b3e977f220"
+                    "reference": "8ca29717422a2e4bffef656e6a8ffb7b59effdab"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-23T21:26:36+00:00",
+                "time": "2026-09-24T21:30:39+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

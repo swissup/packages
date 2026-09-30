@@ -92622,6 +92622,76 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
+            "dev-claude/serene-antonelli-3b8b47": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-claude/serene-antonelli-3b8b47",
+                "version_normalized": "dev-claude/serene-antonelli-3b8b47",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "c715e50c283f1e3a2fc8c031face165de62b87cb"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
+                },
+                "time": "2026-09-30T06:31:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-fix/182-panel-form-key": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-fix/182-panel-form-key",
+                "version_normalized": "dev-fix/182-panel-form-key",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "d2af7cede4d9e18172a269a48a1ebd317a1eb80d"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
+                },
+                "time": "2026-09-30T07:49:32+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -288245,12 +288315,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "662724e8a3a842178b386fc440b39e2bcd79bd0a"
+                    "reference": "96fbb91aa4467250727c41c7f4a652bce0a1aa71"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-09-29T21:01:00+00:00",
+                "time": "2026-09-30T21:41:44+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

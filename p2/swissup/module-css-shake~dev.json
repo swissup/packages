@@ -1,19 +1,20 @@
 {
     "packages": {
-        "swissup/module-checkout": [
+        "swissup/module-css-shake": [
             {
-                "name": "swissup/module-checkout",
+                "name": "swissup/module-css-shake",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:swissup/module-checkout.git",
-                    "reference": "0e504c525df9f8260d9ea6c192ecabedfab383b6"
+                    "url": "git@github.com:swissup/module-css-shake.git",
+                    "reference": "fb5238060690869a8bc9e389c9fe6e0dda5fd9e9"
                 },
                 "require": {
-                    "swissup/module-core": "^1.12.27"
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.14.0"
                 },
-                "time": "2026-10-01T08:49:47+00:00",
+                "time": "2026-10-01T12:56:31+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -21,13 +22,13 @@
                         "registration.php"
                     ],
                     "psr-4": {
-                        "Swissup\\Checkout\\": ""
+                        "Swissup\\CssShake\\": ""
                     }
                 },
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections."
+                "description": "CSS delivery optimizations for Magento"
             }
         ]
     }

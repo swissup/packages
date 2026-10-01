@@ -1,5 +1,34 @@
 {
     "packages": {
-        "swissup/module-css-shake": []
+        "swissup/module-css-shake": [
+            {
+                "name": "swissup/module-css-shake",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-css-shake.git",
+                    "reference": "a342a29b79271cbbbc05c70bbabc5370463e56f9"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.14.0"
+                },
+                "time": "2026-10-01T13:16:52+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CssShake\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "CSS delivery optimizations for Magento"
+            }
+        ]
     }
 }

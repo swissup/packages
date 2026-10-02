@@ -300,6 +300,33 @@
             },
             {
                 "name": "swissup/module-suggestpage",
+                "version": "1.2.15",
+                "version_normalized": "1.2.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-suggestpage.git",
+                    "reference": "e866a192b51c80cc10afa7b6ec209fc7a3322d10"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.24"
+                },
+                "time": "2026-10-02T15:11:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Suggestpage\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "The Magento 2 module Suggest Page gives your customers custom page, shown after product was added to shopping cart"
+            },
+            {
+                "name": "swissup/module-suggestpage",
                 "version": "1.2.2",
                 "version_normalized": "1.2.2.0",
                 "source": {

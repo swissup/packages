@@ -1114,6 +1114,38 @@
                     "quantity",
                     "switcher"
                 ]
+            },
+            {
+                "name": "swissup/module-quantity-switcher",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-quantity-switcher.git",
+                    "reference": "b9ac17cc5917b1be047c8559aae043243cf041f5"
+                },
+                "require": {
+                    "swissup/module-core": "^1.13.1",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-10-02T10:21:40+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\QuantitySwitcher\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Quantity Switcher extension for Magento 2.x e-commerce",
+                "keywords": [
+                    "quantity",
+                    "switcher"
+                ]
             }
         ]
     }

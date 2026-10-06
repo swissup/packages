@@ -56192,6 +56192,85 @@
                 "description": "The simple extension that allows to perform admin log in automatically without asking for login/password."
             }
         },
+        "swissup/module-advanced-js-bundling": {
+            "0.1.0": {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "d1da42d7db0c4abf45ca40f00a30d51984a4b329"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-06T09:27:13+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
+            },
+            "dev-main": {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "d1da42d7db0c4abf45ca40f00a30d51984a4b329"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-06T09:27:13+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
+            }
+        },
         "swissup/module-ajaxlayerednavigation": {
             "1.0.0": {
                 "name": "swissup/module-ajaxlayerednavigation",
@@ -92761,7 +92840,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "5807f16567ea9ef0287e5856f6ed49ddb8cd4d4f"
+                    "reference": "e46386f89135995bad6411f2d621b2e2493e26ad"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92774,7 +92853,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-05T15:13:56+00:00",
+                "time": "2026-10-06T09:33:46+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -99786,12 +99865,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-fields.git",
-                    "reference": "61f0d48f33200b5b5033ddaa5a0b96b745f4b7d3"
+                    "reference": "7caa0fccfa8f3dff9dc55e01b13a7341e6a09408"
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.4"
                 },
-                "time": "2026-09-09T11:28:16+00:00",
+                "time": "2026-10-06T09:08:36+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -100494,12 +100573,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-registration.git",
-                    "reference": "631ca6e961dc7aa79596ba51f43bdc226faa2298"
+                    "reference": "bef99154eadc9feaa92a8191db33feb22a8d9a9e"
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.3"
                 },
-                "time": "2025-12-18T12:56:35+00:00",
+                "time": "2026-10-06T07:23:30+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -143505,13 +143584,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-geoip.git",
-                    "reference": "a347ffe3fb65c21f9ea1e75dd229e5bad8554e70"
+                    "reference": "a087b3b5b3bb560ac59402b1f19eb65e510d708a"
                 },
                 "require": {
                     "geoip2/geoip2": "~2.0 || ~3.0",
                     "swissup/module-checkout": "^1.5.3"
                 },
-                "time": "2026-05-21T09:59:08+00:00",
+                "time": "2026-10-06T09:26:17+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -182649,7 +182728,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "b964d673cb9649ebf13f2540ca1fa98a9e46ee57"
+                    "reference": "cb52e33fe298101aca879af60b7bedda1c99ee66"
                 },
                 "require": {
                     "ext-json": "*",
@@ -182679,7 +182758,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6"
                 },
-                "time": "2026-10-05T15:13:33+00:00",
+                "time": "2026-10-06T09:27:13+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {

@@ -71058,7 +71058,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "4bb05d4902867ac90a500d8f4e40a9d41ab4f5c0"
+                    "reference": "cf9457b5eb69af0317150566ac9c908d88abbeb0"
                 },
                 "require": {
                     "ext-json": "*",
@@ -71074,7 +71074,7 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-suggestpage": "^1.2.14"
                 },
-                "time": "2026-10-02T14:54:35+00:00",
+                "time": "2026-10-06T14:33:02+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -87728,6 +87728,75 @@
                     "questions"
                 ]
             },
+            "dev-fix/issue-75-security-audit": {
+                "name": "swissup/module-askit",
+                "version": "dev-fix/issue-75-security-audit",
+                "version_normalized": "dev-fix/issue-75-security-audit",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "cd8a83b44b0ce616c0caa93b80f1d23c536fcd94"
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-url-rewrite": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-06T15:21:30+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-askit.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/askit/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/module-askit",
                 "version": "dev-master",
@@ -92894,41 +92963,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-feat/191-search-vocabulary": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-feat/191-search-vocabulary",
-                "version_normalized": "dev-feat/191-search-vocabulary",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "e46386f89135995bad6411f2d621b2e2493e26ad"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-06T09:33:46+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -92936,7 +92970,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "96204772109802ffc68dd582bfbb955a1e5590d2"
+                    "reference": "cf4f89da7b4183499e7a11a46b454393d791a106"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -92949,7 +92983,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-05T14:42:18+00:00",
+                "time": "2026-10-06T13:10:09+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -96381,13 +96415,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
-                    "reference": "e859985add58af0394f7151d74ce9de7da17ae2a"
+                    "reference": "b00a87413633c019c9e424f70bc7117614a96442"
                 },
                 "require": {
                     "orhanerday/open-ai": "^4.7.1",
                     "swissup/module-core": "^1.12.22"
                 },
-                "time": "2025-06-02T08:36:20+00:00",
+                "time": "2026-10-06T11:58:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -115195,13 +115229,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "c9476e553e3affba93757ef07f34b9ee2b736789"
+                    "reference": "b269a429cd7db06443f0752f7e7fb39aec418b5d"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-image": "^1.0.0"
                 },
-                "time": "2026-08-04T21:26:07+00:00",
+                "time": "2026-10-06T13:48:15+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -123158,6 +123192,58 @@
                     "swissup/module-core": "^1.12.4"
                 },
                 "time": "2021-04-26T07:05:00+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ]
+            },
+            "dev-fix/security-product-visibility-graphql-conditions": {
+                "name": "swissup/module-easytabs",
+                "version": "dev-fix/security-product-visibility-graphql-conditions",
+                "version_normalized": "dev-fix/security-product-visibility-graphql-conditions",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easytabs.git",
+                    "reference": "06c0a8a8b003a9f2f3b027f878de5a50d211ae26"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-06T15:09:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -141886,7 +141972,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "f4ad5bd265141cc6eea3701291ab79b34dda7cb5"
+                    "reference": "44e77428cba37fa65876777eebd23fe57f3eae14"
                 },
                 "require": {
                     "php": "^8.0",
@@ -141894,7 +141980,7 @@
                     "swissup/module-core": "^1.13.1",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-08-28T13:11:28+00:00",
+                "time": "2026-10-06T11:45:32+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -152524,14 +152610,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-highlight.git",
-                    "reference": "81cdc5e9b3e887ab514a67413b13e73d5815b427"
+                    "reference": "16fe35e071913ef78aea3b52a732596eeddf1554"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.25",
                     "swissup/module-rtl": "^1.3.8",
                     "swissup/module-swiper": "^1.0.0"
                 },
-                "time": "2025-12-05T14:14:22+00:00",
+                "time": "2026-10-06T14:43:23+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -167293,14 +167379,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-navigationpro.git",
-                    "reference": "e50a2bd679b454cd614238131c9843226f21b241"
+                    "reference": "fe9760dada7f1bd2af3c5dd434a487a95323b6af"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-stickyfill": "^1.2.2"
                 },
-                "time": "2026-10-05T09:12:34+00:00",
+                "time": "2026-10-06T12:36:20+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -188827,7 +188913,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels.git",
-                    "reference": "cb44f92747aa245720a7b54fe548081d500feb93"
+                    "reference": "f974cb7a3bb67a3804985eb29857db1de0cf980b"
                 },
                 "require": {
                     "swissup/module-codemirror": "^1.1.8",
@@ -188836,7 +188922,7 @@
                 "suggest": {
                     "swissup/module-font-awesome": "Works nicely with labels. You can easily use font awesome icons as labels. There are few example labels in module presets."
                 },
-                "time": "2026-10-05T20:38:43+00:00",
+                "time": "2026-10-06T21:23:02+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -189152,13 +189238,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels-configurable-product.git",
-                    "reference": "c210c6e306141986390167d93c45610337c0ea3d"
+                    "reference": "3074b56eb9c9b8b9854d3cbaa164ea7d90467673"
                 },
                 "require": {
+                    "magento/module-catalog": ">=100.0",
                     "magento/module-configurable-product": ">=100.0",
-                    "swissup/module-pro-labels": "^1.7.22"
+                    "swissup/module-pro-labels": "^1.10.0"
                 },
-                "time": "2025-09-25T13:13:40+00:00",
+                "time": "2026-10-06T20:29:04+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -199701,12 +199788,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-cross-links.git",
-                    "reference": "680e1bc37f95fad3317293996f9ba65b96008b55"
+                    "reference": "b101a807d076d94e18233bc8b0f0c5b41bccc1d2"
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-07-28T12:17:09+00:00",
+                "time": "2026-10-06T12:56:26+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -213081,7 +213168,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-sold-together.git",
-                    "reference": "884c4f33525c381e341fe51fd6665999f37e8eff"
+                    "reference": "f98d148b0b29037509c77e884f4f0cdb9833273c"
                 },
                 "require": {
                     "php": "^8.1",
@@ -213089,7 +213176,7 @@
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-swiper": "^1.0.0"
                 },
-                "time": "2026-05-15T11:22:20+00:00",
+                "time": "2026-10-06T21:07:24+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -214327,12 +214414,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-subscribe-at-checkout.git",
-                    "reference": "140d2a571bb01c1b68f5019d1e5ee4d07d393d1c"
+                    "reference": "6a87ba8d14aaec2c45749d89af002f749024f458"
                 },
                 "require": {
                     "swissup/module-checkout": "^1.5.2"
                 },
-                "time": "2025-04-09T11:49:50+00:00",
+                "time": "2026-10-06T10:37:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

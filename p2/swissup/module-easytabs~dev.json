@@ -3,6 +3,58 @@
         "swissup/module-easytabs": [
             {
                 "name": "swissup/module-easytabs",
+                "version": "dev-fix/security-product-visibility-graphql-conditions",
+                "version_normalized": "dev-fix/security-product-visibility-graphql-conditions",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-easytabs.git",
+                    "reference": "06c0a8a8b003a9f2f3b027f878de5a50d211ae26"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-06T15:09:17+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                            "download": "https://swissuplabs.com/subscription/customer/products/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Easytabs\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Easy Tabs extension from Swissup",
+                "keywords": [
+                    "easytabs",
+                    "homepage tabs",
+                    "product tabs",
+                    "tabs"
+                ]
+            },
+            {
+                "name": "swissup/module-easytabs",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

@@ -3,47 +3,12 @@
         "swissup/module-breeze-ai": [
             {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-feat/191-search-vocabulary",
-                "version_normalized": "dev-feat/191-search-vocabulary",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "e46386f89135995bad6411f2d621b2e2493e26ad"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-06T09:33:46+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            {
-                "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "96204772109802ffc68dd582bfbb955a1e5590d2"
+                    "reference": "cf4f89da7b4183499e7a11a46b454393d791a106"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -56,7 +21,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-05T14:42:18+00:00",
+                "time": "2026-10-06T13:10:09+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

@@ -84,6 +84,34 @@
                     "OSL-3.0"
                 ],
                 "description": "CSS delivery optimizations for Magento"
+            },
+            {
+                "name": "swissup/module-css-shake",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-css-shake.git",
+                    "reference": "b46406f80a21ae48780e3d2f93de2908cfe6b7e7"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.14.0"
+                },
+                "time": "2026-10-07T07:59:41+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CssShake\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "CSS delivery optimizations for Magento"
             }
         ]
     }

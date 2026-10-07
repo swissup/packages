@@ -3,6 +3,45 @@
         "swissup/module-recaptcha": [
             {
                 "name": "swissup/module-recaptcha",
+                "version": "dev-fix/protect-place-order-endpoints",
+                "version_normalized": "dev-fix/protect-place-order-endpoints",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-recaptcha.git",
+                    "reference": "b43c5807e7c11da7a8f10614453f91f4622b447c"
+                },
+                "require": {
+                    "google/recaptcha": "^1.2",
+                    "swissup/module-core": "^1.12.25"
+                },
+                "time": "2026-10-07T13:11:15+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-recaptcha.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/recaptcha/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/recaptcha/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Recaptcha\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Recaptcha for M2"
+            },
+            {
+                "name": "swissup/module-recaptcha",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

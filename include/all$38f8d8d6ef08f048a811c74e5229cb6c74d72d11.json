@@ -96802,6 +96802,33 @@
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections."
             },
+            "1.5.5": {
+                "name": "swissup/module-checkout",
+                "version": "1.5.5",
+                "version_normalized": "1.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout.git",
+                    "reference": "ea8f9f2fff4274b09dec1b0aac0e9369749b67e6"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-08T12:23:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Checkout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections."
+            },
             "dev-master": {
                 "name": "swissup/module-checkout",
                 "version": "dev-master",
@@ -96809,12 +96836,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout.git",
-                    "reference": "0e504c525df9f8260d9ea6c192ecabedfab383b6"
+                    "reference": "ea8f9f2fff4274b09dec1b0aac0e9369749b67e6"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-10-01T08:49:47+00:00",
+                "time": "2026-10-08T12:23:08+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

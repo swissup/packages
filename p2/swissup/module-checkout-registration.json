@@ -665,6 +665,41 @@
                     "OSL-3.0"
                 ],
                 "description": "Configurable customer registration at checkout page"
+            },
+            {
+                "name": "swissup/module-checkout-registration",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-registration.git",
+                    "reference": "a81b40c94f3d57378f703e4cd9961fb5ce32b843"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.5"
+                },
+                "time": "2026-10-08T12:28:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutRegistration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Configurable customer registration at checkout page"
             }
         ]
     }

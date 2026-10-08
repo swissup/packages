@@ -196,6 +196,34 @@
                     "OSL-3.0"
                 ],
                 "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT"
+            },
+            {
+                "name": "swissup/module-chat-gpt-assistant",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
+                    "reference": "2b0c55425545b332d0eed65d2380e51417315652"
+                },
+                "require": {
+                    "orhanerday/open-ai": "^4.7.1",
+                    "swissup/module-core": "^1.12.22"
+                },
+                "time": "2026-10-08T12:31:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ChatGptAssistant\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT"
             }
         ]
     }

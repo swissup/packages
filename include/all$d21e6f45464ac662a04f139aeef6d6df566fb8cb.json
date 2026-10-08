@@ -12546,7 +12546,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/argento-breeze.git",
-                    "reference": "9e3b2106b8368471e7d91b97ca17f85c77b973a4"
+                    "reference": "535cc5bc1a6d38ffaa6d6af5e70a5fa18a102f73"
                 },
                 "require": {
                     "swissup/module-ajaxpro": "^1.7.39",
@@ -12606,7 +12606,7 @@
                     "swissup/theme-frontend-argentobreeze-force": "^3.0.1",
                     "swissup/theme-frontend-argentobreeze-stripes": "^3.1.3"
                 },
-                "time": "2026-08-31T13:08:25+00:00",
+                "time": "2026-10-08T13:11:03+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "extra": {
@@ -25743,12 +25743,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "eb60860ce85ae97df5a7647c69ba92c1be0c98df"
+                    "reference": "befba4b95413f0ff118447811a9df82527dddec6"
                 },
                 "require": {
-                    "swissup/module-attributepages": "^1.8.5"
+                    "swissup/module-attributepages": "^1.8.6"
                 },
-                "time": "2026-06-23T13:08:11+00:00",
+                "time": "2026-10-08T12:32:04+00:00",
                 "type": "metapackage",
                 "license": [
                     "OSL-3.0"
@@ -25762,12 +25762,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/attributepages.git",
-                    "reference": "eb60860ce85ae97df5a7647c69ba92c1be0c98df"
+                    "reference": "befba4b95413f0ff118447811a9df82527dddec6"
                 },
                 "require": {
-                    "swissup/module-attributepages": "^1.8.5"
+                    "swissup/module-attributepages": "^1.8.6"
                 },
-                "time": "2026-06-23T13:08:11+00:00",
+                "time": "2026-10-08T12:32:04+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -37072,6 +37072,29 @@
                     "transactional email"
                 ]
             },
+            "1.2.8": {
+                "name": "swissup/email-templates",
+                "version": "1.2.8",
+                "version_normalized": "1.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/email-templates.git",
+                    "reference": "e87cf06a99d90584bee9ba0000c6648e23cb5748"
+                },
+                "require": {
+                    "swissup/module-email-templates": "^1.2.7"
+                },
+                "time": "2026-10-08T12:33:35+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Fancy email templates for Magento 2 (metapackage)",
+                "keywords": [
+                    "email template",
+                    "transactional email"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/email-templates",
                 "version": "dev-master",
@@ -37079,12 +37102,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/email-templates.git",
-                    "reference": "67aa5665f5964674e2464824421d7ee4a7c0c177"
+                    "reference": "e87cf06a99d90584bee9ba0000c6648e23cb5748"
                 },
                 "require": {
-                    "swissup/module-email-templates": "^1.2.6"
+                    "swissup/module-email-templates": "^1.2.7"
                 },
-                "time": "2026-05-15T11:27:31+00:00",
+                "time": "2026-10-08T12:33:35+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -42930,6 +42953,25 @@
                 ],
                 "description": "GDPR compliance for Magento 2"
             },
+            "1.9.3": {
+                "name": "swissup/gdpr",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/gdpr.git",
+                    "reference": "87d95e4d1c2e7b07ac29275bc7ac2b41e254fcb9"
+                },
+                "require": {
+                    "swissup/module-gdpr": "^1.9.2"
+                },
+                "time": "2026-10-08T12:31:43+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance for Magento 2"
+            },
             "dev-master": {
                 "name": "swissup/gdpr",
                 "version": "dev-master",
@@ -42937,12 +42979,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/gdpr.git",
-                    "reference": "ed8c0ce7729234228a002fd8a8e242f924472834"
+                    "reference": "87d95e4d1c2e7b07ac29275bc7ac2b41e254fcb9"
                 },
                 "require": {
                     "swissup/module-gdpr": "^1.9.2"
                 },
-                "time": "2026-08-28T13:13:25+00:00",
+                "time": "2026-10-08T12:31:43+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -97120,6 +97162,34 @@
                 ],
                 "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT"
             },
+            "1.1.5": {
+                "name": "swissup/module-chat-gpt-assistant",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
+                    "reference": "2b0c55425545b332d0eed65d2380e51417315652"
+                },
+                "require": {
+                    "orhanerday/open-ai": "^4.7.1",
+                    "swissup/module-core": "^1.12.22"
+                },
+                "time": "2026-10-08T12:31:31+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ChatGptAssistant\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "AI assistant for Magento 2 powered by OpenAI Chat GPT"
+            },
             "dev-master": {
                 "name": "swissup/module-chat-gpt-assistant",
                 "version": "dev-master",
@@ -97127,13 +97197,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-chat-gpt-assistant.git",
-                    "reference": "b00a87413633c019c9e424f70bc7117614a96442"
+                    "reference": "2b0c55425545b332d0eed65d2380e51417315652"
                 },
                 "require": {
                     "orhanerday/open-ai": "^4.7.1",
                     "swissup/module-core": "^1.12.22"
                 },
-                "time": "2026-10-06T11:58:33+00:00",
+                "time": "2026-10-08T12:31:31+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -101440,6 +101510,41 @@
                 ],
                 "description": "Configurable customer registration at checkout page"
             },
+            "1.2.4": {
+                "name": "swissup/module-checkout-registration",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-registration.git",
+                    "reference": "a81b40c94f3d57378f703e4cd9961fb5ce32b843"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.5"
+                },
+                "time": "2026-10-08T12:28:33+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/checkout-registration/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutRegistration\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Configurable customer registration at checkout page"
+            },
             "dev-master": {
                 "name": "swissup/module-checkout-registration",
                 "version": "dev-master",
@@ -101447,12 +101552,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-registration.git",
-                    "reference": "bef99154eadc9feaa92a8191db33feb22a8d9a9e"
+                    "reference": "a81b40c94f3d57378f703e4cd9961fb5ce32b843"
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.5.3"
+                    "swissup/module-checkout": "^1.5.5"
                 },
-                "time": "2026-10-06T07:23:30+00:00",
+                "time": "2026-10-08T12:28:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -143128,14 +143233,14 @@
                     "gdpr"
                 ]
             },
-            "dev-master": {
+            "1.9.3": {
                 "name": "swissup/module-gdpr",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "44e77428cba37fa65876777eebd23fe57f3eae14"
+                    "reference": "a96738d8879126774765177cdb5dcf40e54829f2"
                 },
                 "require": {
                     "php": "^8.0",
@@ -143143,7 +143248,51 @@
                     "swissup/module-core": "^1.13.1",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-10-06T11:45:32+00:00",
+                "time": "2026-10-08T12:28:42+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-gdpr.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/gdpr/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/gdpr/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Gdpr\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "GDPR compliance made easy",
+                "keywords": [
+                    "gdpr"
+                ]
+            },
+            "dev-master": {
+                "name": "swissup/module-gdpr",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-gdpr.git",
+                    "reference": "a96738d8879126774765177cdb5dcf40e54829f2"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-codemirror": "^1.1.16",
+                    "swissup/module-core": "^1.13.1",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-10-08T12:28:42+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -144887,6 +145036,58 @@
                     "postcode"
                 ]
             },
+            "1.6.3": {
+                "name": "swissup/module-geoip",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-geoip.git",
+                    "reference": "8a16113273880ca6c317fa2099521c8e36ba0c24"
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0 || ~3.0",
+                    "swissup/module-checkout": "^1.5.5"
+                },
+                "time": "2026-10-08T12:28:38+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-geoip.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "address detection",
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/module-geoip",
                 "version": "dev-master",
@@ -144894,13 +145095,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-geoip.git",
-                    "reference": "a087b3b5b3bb560ac59402b1f19eb65e510d708a"
+                    "reference": "8a16113273880ca6c317fa2099521c8e36ba0c24"
                 },
                 "require": {
                     "geoip2/geoip2": "~2.0 || ~3.0",
-                    "swissup/module-checkout": "^1.5.3"
+                    "swissup/module-checkout": "^1.5.5"
                 },
-                "time": "2026-10-06T09:26:17+00:00",
+                "time": "2026-10-08T12:28:38+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -185330,6 +185531,47 @@
                 ],
                 "description": "Create nice sales pdf documents with html and css"
             },
+            "1.4.12": {
+                "name": "swissup/module-pdf-invoice",
+                "version": "1.4.12",
+                "version_normalized": "1.4.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pdf-invoice.git",
+                    "reference": "e01b28248b57cfb85c7a52a737854c95e7a824d1"
+                },
+                "require": {
+                    "mpdf/mpdf": "^8.0.0",
+                    "mpdf/qrcode": "^1.0.0",
+                    "swissup/module-codemirror": "^1.1.6",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-08T12:31:39+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-pdf-invoices.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pdf-invoices/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pdf-invoices/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\PdfInvoice\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create nice sales pdf documents with html and css"
+            },
             "1.4.2": {
                 "name": "swissup/module-pdf-invoice",
                 "version": "1.4.2",
@@ -185665,7 +185907,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pdf-invoice.git",
-                    "reference": "c849f581814fcdf43701b3a5f67e06139725ba6f"
+                    "reference": "e01b28248b57cfb85c7a52a737854c95e7a824d1"
                 },
                 "require": {
                     "mpdf/mpdf": "^8.0.0",
@@ -185673,7 +185915,7 @@
                     "swissup/module-codemirror": "^1.1.6",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-10-07T13:24:52+00:00",
+                "time": "2026-10-08T12:31:39+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -228906,6 +229148,25 @@
                 ],
                 "description": "Create beautiful menus for Magento 2"
             },
+            "1.19.4": {
+                "name": "swissup/navigationpro",
+                "version": "1.19.4",
+                "version_normalized": "1.19.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/navigationpro.git",
+                    "reference": "b2a4c17d8f9857d9047347557c6be003c34d2c59"
+                },
+                "require": {
+                    "swissup/module-navigationpro": "^1.19.3"
+                },
+                "time": "2026-10-08T12:32:08+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Create beautiful menus for Magento 2"
+            },
             "1.8.0": {
                 "name": "swissup/navigationpro",
                 "version": "1.8.0",
@@ -229027,12 +229288,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/navigationpro.git",
-                    "reference": "92275cc892a4c29cc6f01a4b7d6212666830a462"
+                    "reference": "b2a4c17d8f9857d9047347557c6be003c34d2c59"
                 },
                 "require": {
                     "swissup/module-navigationpro": "^1.19.3"
                 },
-                "time": "2026-08-17T12:44:18+00:00",
+                "time": "2026-10-08T12:32:08+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -234093,6 +234354,26 @@
                 ],
                 "description": "Product labels and badges"
             },
+            "1.10.3": {
+                "name": "swissup/pro-labels",
+                "version": "1.10.3",
+                "version_normalized": "1.10.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/pro-labels.git",
+                    "reference": "9e1421340f7f5ff17d2f60d08ae7e8aea9ef46a6"
+                },
+                "require": {
+                    "swissup/module-pro-labels": "^1.10.2",
+                    "swissup/module-pro-labels-configurable-product": "^1.0.9"
+                },
+                "time": "2026-10-08T12:31:43+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges"
+            },
             "1.2.0": {
                 "name": "swissup/pro-labels",
                 "version": "1.2.0",
@@ -235978,13 +236259,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/pro-labels.git",
-                    "reference": "3ba20e50deb1043a67961c7f6331ed4bd2e2b882"
+                    "reference": "9e1421340f7f5ff17d2f60d08ae7e8aea9ef46a6"
                 },
                 "require": {
-                    "swissup/module-pro-labels": "^1.10.1",
+                    "swissup/module-pro-labels": "^1.10.2",
                     "swissup/module-pro-labels-configurable-product": "^1.0.9"
                 },
-                "time": "2026-08-14T21:32:10+00:00",
+                "time": "2026-10-08T12:31:43+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -237672,6 +237953,25 @@
                 ],
                 "description": "Custom checkout fields"
             },
+            "1.6.18": {
+                "name": "swissup/product-checkout-fields",
+                "version": "1.6.18",
+                "version_normalized": "1.6.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-fields.git",
+                    "reference": "7009eb70c1902f5efd614d296e5ca84ef566e5aa"
+                },
+                "require": {
+                    "swissup/module-checkout-fields": "^1.6.17"
+                },
+                "time": "2026-10-08T12:31:48+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom checkout fields"
+            },
             "1.6.2": {
                 "name": "swissup/product-checkout-fields",
                 "version": "1.6.2",
@@ -237831,12 +238131,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/checkout-fields.git",
-                    "reference": "e63fa2d34c8552758b68a818b41237a9582d2fd2"
+                    "reference": "7009eb70c1902f5efd614d296e5ca84ef566e5aa"
                 },
                 "require": {
                     "swissup/module-checkout-fields": "^1.6.17"
                 },
-                "time": "2026-09-09T11:30:15+00:00",
+                "time": "2026-10-08T12:31:48+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -240021,6 +240321,25 @@
                 ],
                 "description": "Magento 2 module for geo location detecting by ip"
             },
+            "1.6.3": {
+                "name": "swissup/product-geoip",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/geoip.git",
+                    "reference": "f88e79afcc30599a8c7a4aca66196db3b9475668"
+                },
+                "require": {
+                    "swissup/module-geoip": "^1.6.2"
+                },
+                "time": "2026-10-08T12:31:57+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip"
+            },
             "dev-master": {
                 "name": "swissup/product-geoip",
                 "version": "dev-master",
@@ -240028,12 +240347,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/geoip.git",
-                    "reference": "c89c837a3f63ae36a8ab86dabe624df921cf1295"
+                    "reference": "f88e79afcc30599a8c7a4aca66196db3b9475668"
                 },
                 "require": {
                     "swissup/module-geoip": "^1.6.2"
                 },
-                "time": "2026-05-21T10:01:08+00:00",
+                "time": "2026-10-08T12:31:57+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -240996,6 +241315,25 @@
                 ],
                 "description": "Subscribe to newsletter directly from checkout page"
             },
+            "1.3.7": {
+                "name": "swissup/product-subscribe-at-checkout",
+                "version": "1.3.7",
+                "version_normalized": "1.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/subscribe-at-checkout.git",
+                    "reference": "599d994046bb69131b1bf1d833721c50cd8d4d33"
+                },
+                "require": {
+                    "swissup/module-subscribe-at-checkout": "^1.3.6"
+                },
+                "time": "2026-10-08T12:32:09+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Subscribe to newsletter directly from checkout page"
+            },
             "dev-master": {
                 "name": "swissup/product-subscribe-at-checkout",
                 "version": "dev-master",
@@ -241003,12 +241341,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/subscribe-at-checkout.git",
-                    "reference": "9b8fd215e4c3322df7801c2a3cbc573831f1ec40"
+                    "reference": "599d994046bb69131b1bf1d833721c50cd8d4d33"
                 },
                 "require": {
-                    "swissup/module-subscribe-at-checkout": "^1.3.5"
+                    "swissup/module-subscribe-at-checkout": "^1.3.6"
                 },
-                "time": "2025-04-09T12:02:45+00:00",
+                "time": "2026-10-08T12:32:09+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -243839,6 +244177,25 @@
                 ],
                 "description": "Implement this structured data markup in Magento 2"
             },
+            "1.8.6": {
+                "name": "swissup/rich-snippets",
+                "version": "1.8.6",
+                "version_normalized": "1.8.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/rich-snippets.git",
+                    "reference": "b1af15eaf9f7f1b58ad4be6ed73aa8156fea5243"
+                },
+                "require": {
+                    "swissup/module-rich-snippets": "^1.8.5"
+                },
+                "time": "2026-10-08T12:32:04+00:00",
+                "type": "metapackage",
+                "license": [
+                    "MIT"
+                ],
+                "description": "Implement this structured data markup in Magento 2"
+            },
             "dev-master": {
                 "name": "swissup/rich-snippets",
                 "version": "dev-master",
@@ -243846,12 +244203,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/rich-snippets.git",
-                    "reference": "a7b960a02005c81ec8c02b3c76701e6c8df3779e"
+                    "reference": "b1af15eaf9f7f1b58ad4be6ed73aa8156fea5243"
                 },
                 "require": {
                     "swissup/module-rich-snippets": "^1.8.5"
                 },
-                "time": "2026-08-14T21:11:55+00:00",
+                "time": "2026-10-08T12:32:04+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -246176,6 +246533,31 @@
                     "social login"
                 ]
             },
+            "1.1.13": {
+                "name": "swissup/social-login",
+                "version": "1.1.13",
+                "version_normalized": "1.1.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/social-login.git",
+                    "reference": "879c90b8ab419d0b2318c24730308b9278572eee"
+                },
+                "require": {
+                    "swissup/module-social-login": "^1.1.12"
+                },
+                "time": "2026-10-08T12:33:45+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Login or register in Magento store using social account",
+                "keywords": [
+                    "login with facebook",
+                    "login with google",
+                    "login with twitter",
+                    "social login"
+                ]
+            },
             "1.1.2": {
                 "name": "swissup/social-login",
                 "version": "1.1.2",
@@ -246383,12 +246765,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/social-login.git",
-                    "reference": "08f62301131a895d96bfc100f1406a3f680d23b3"
+                    "reference": "879c90b8ab419d0b2318c24730308b9278572eee"
                 },
                 "require": {
                     "swissup/module-social-login": "^1.1.12"
                 },
-                "time": "2025-12-08T13:54:17+00:00",
+                "time": "2026-10-08T12:33:45+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [

@@ -1264,6 +1264,58 @@
                     "geoip",
                     "postcode"
                 ]
+            },
+            {
+                "name": "swissup/module-geoip",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-geoip.git",
+                    "reference": "8a16113273880ca6c317fa2099521c8e36ba0c24"
+                },
+                "require": {
+                    "geoip2/geoip2": "~2.0 || ~3.0",
+                    "swissup/module-checkout": "^1.5.5"
+                },
+                "time": "2026-10-08T12:28:38+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-geoip.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/geoip/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/geoip/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Geoip\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 module for geo location detecting by ip",
+                "keywords": [
+                    "address detection",
+                    "city",
+                    "country",
+                    "geoip",
+                    "postcode"
+                ]
             }
         ]
     }

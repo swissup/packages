@@ -1004,6 +1004,47 @@
             },
             {
                 "name": "swissup/module-sold-together",
+                "version": "1.11.5",
+                "version_normalized": "1.11.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together.git",
+                    "reference": "fdddfd27a94f2f412da1307588d85d60940ef4c5"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-rtl": "^1.3.4",
+                    "swissup/module-swiper": "^1.0.0"
+                },
+                "time": "2026-10-08T12:36:23+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-sold-together.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/module-sold-together/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/module-sold-together/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogether\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Sold Together for Magento 2"
+            },
+            {
+                "name": "swissup/module-sold-together",
                 "version": "1.2.0",
                 "version_normalized": "1.2.0.0",
                 "source": {

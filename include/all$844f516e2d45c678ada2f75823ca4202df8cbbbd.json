@@ -105299,6 +105299,44 @@
                 ],
                 "description": "Delete checked orders from your store"
             },
+            "1.3.6": {
+                "name": "swissup/module-delete-orders",
+                "version": "1.3.6",
+                "version_normalized": "1.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delete-orders.git",
+                    "reference": "dd6783a6c2c1adb932ea61834c9b691030322954"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-10-08T12:28:59+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-delete-orders.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/delete-orders/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/delete-orders/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeleteOrders\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Delete checked orders from your store"
+            },
             "dev-master": {
                 "name": "swissup/module-delete-orders",
                 "version": "dev-master",
@@ -105306,12 +105344,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delete-orders.git",
-                    "reference": "eed9aaaefe66e645f7e5ddc3355fa9ccff44e151"
+                    "reference": "dd6783a6c2c1adb932ea61834c9b691030322954"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-10-07T09:22:37+00:00",
+                "time": "2026-10-08T12:28:59+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

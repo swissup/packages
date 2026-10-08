@@ -59,6 +59,35 @@
             },
             {
                 "name": "swissup/module-pro-labels-configurable-product",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels-configurable-product.git",
+                    "reference": "b8b88dafd01812d5fabb2323497baa57067684ce"
+                },
+                "require": {
+                    "magento/module-catalog": ">=100.0",
+                    "magento/module-configurable-product": ">=100.0",
+                    "swissup/module-pro-labels": "^1.10.3"
+                },
+                "time": "2026-10-08T12:38:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabelsConfigurableProduct\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges. Advanced behavior for configurable product"
+            },
+            {
+                "name": "swissup/module-pro-labels-configurable-product",
                 "version": "1.0.2",
                 "version_normalized": "1.0.2.0",
                 "source": {

@@ -103623,6 +103623,34 @@
                 ],
                 "description": "CSS delivery optimizations for Magento"
             },
+            "1.2.2": {
+                "name": "swissup/module-css-shake",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-css-shake.git",
+                    "reference": "93072281fcf965d71cc633641b0627a4733e0b53"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.14.0"
+                },
+                "time": "2026-10-08T12:29:03+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CssShake\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "CSS delivery optimizations for Magento"
+            },
             "dev-master": {
                 "name": "swissup/module-css-shake",
                 "version": "dev-master",
@@ -103630,13 +103658,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-css-shake.git",
-                    "reference": "b46406f80a21ae48780e3d2f93de2908cfe6b7e7"
+                    "reference": "93072281fcf965d71cc633641b0627a4733e0b53"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-core": "^1.14.0"
                 },
-                "time": "2026-10-07T07:59:41+00:00",
+                "time": "2026-10-08T12:29:03+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

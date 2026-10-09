@@ -38,6 +38,82 @@
                     "pagespeed",
                     "requirejs"
                 ]
+            },
+            {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "cf896f661d15c5c19e02eab9ba4ed5af01f814d3"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-09T08:14:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
+            },
+            {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "10c36c65a4958f856275bb9737d22d2478713338"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-09T13:09:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
             }
         ]
     }

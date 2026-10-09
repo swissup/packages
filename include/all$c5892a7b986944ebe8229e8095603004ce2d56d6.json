@@ -56870,14 +56870,14 @@
                     "requirejs"
                 ]
             },
-            "dev-main": {
+            "0.1.1": {
                 "name": "swissup/module-advanced-js-bundling",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-advanced-js-bundling.git",
-                    "reference": "d1da42d7db0c4abf45ca40f00a30d51984a4b329"
+                    "reference": "cf896f661d15c5c19e02eab9ba4ed5af01f814d3"
                 },
                 "require": {
                     "magento/framework": ">=103.0",
@@ -56888,7 +56888,83 @@
                     "swissup/module-codemirror": "^1.1.12",
                     "swissup/module-pagespeed": "^1.21.0"
                 },
-                "time": "2026-10-06T09:27:13+00:00",
+                "time": "2026-10-09T08:14:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
+            },
+            "0.1.2": {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "10c36c65a4958f856275bb9737d22d2478713338"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-09T13:09:04+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AdvancedJsBundling\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced RequireJS bundling for Magento 2",
+                "keywords": [
+                    "bundling",
+                    "pagespeed",
+                    "requirejs"
+                ]
+            },
+            "dev-main": {
+                "name": "swissup/module-advanced-js-bundling",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-advanced-js-bundling.git",
+                    "reference": "10c36c65a4958f856275bb9737d22d2478713338"
+                },
+                "require": {
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-theme": ">=101.1",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-pagespeed": "^1.21.0"
+                },
+                "time": "2026-10-09T13:09:04+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -184929,85 +185005,6 @@
                     ],
                     "psr-4": {
                         "Swissup\\Pagespeed\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Pagespeed module",
-                "keywords": [
-                    "minify",
-                    "pagespeed"
-                ]
-            },
-            "dev-feat/extract-advanced-js-bundling": {
-                "name": "swissup/module-pagespeed",
-                "version": "dev-feat/extract-advanced-js-bundling",
-                "version_normalized": "dev-feat/extract-advanced-js-bundling",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "1714b207b931eede803787696acffbbcd165bb20"
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-pcre": "*",
-                    "ext-xml": "*",
-                    "laminas/laminas-http": "^2.6",
-                    "magento/framework": ">=103.0",
-                    "magento/module-backend": ">=102.0",
-                    "magento/module-catalog": ">=104.0",
-                    "magento/module-config": ">=101.2",
-                    "magento/module-customer": ">=103.0",
-                    "magento/module-deploy": ">=100.4",
-                    "magento/module-store": ">=101.1",
-                    "magento/module-theme": ">=101.1",
-                    "mobiledetect/mobiledetectlib": "^2.8|^3.74|^4.8",
-                    "mrclay/minify": "~3.0.0",
-                    "psr/log": "*",
-                    "swissup/module-advanced-js-bundling": "^0.1.0",
-                    "swissup/module-codemirror": "^1.1.12",
-                    "swissup/module-core": "^1.13.0",
-                    "swissup/module-image": "^1.0.0",
-                    "swissup/module-image-optimizer": "^1.1.0",
-                    "swissup/module-logger": "^2.0",
-                    "swissup/module-speculation-rules": "^1.0.3",
-                    "symfony/process": ">=4.1"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.6"
-                },
-                "time": "2026-10-08T15:17:22+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "swissup": {
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/",
-                            "store": "https://swissuplabs.com/page-speed-magento-2.html"
-                        }
-                    },
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-pagespeed.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Pagespeed\\": ""
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Swissup\\Pagespeed\\Test\\Unit\\": "Test/Unit/"
                     }
                 },
                 "license": [

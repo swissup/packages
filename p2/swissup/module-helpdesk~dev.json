@@ -3,12 +3,12 @@
         "swissup/module-helpdesk": [
             {
                 "name": "swissup/module-helpdesk",
-                "version": "dev-fix/inbound-email-sender-70",
-                "version_normalized": "dev-fix/inbound-email-sender-70",
+                "version": "dev-fix/cms-filter-stored-xss-71",
+                "version_normalized": "dev-fix/cms-filter-stored-xss-71",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "10123f77e4d270727aa829e4bce109d564804554"
+                    "reference": "284e11a7f7bef8cf01f0914cd369a89815845987"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -36,7 +36,7 @@
                     "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
                     "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
                 },
-                "time": "2026-10-13T15:11:26+00:00",
+                "time": "2026-10-14T15:30:02+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {
@@ -67,12 +67,12 @@
             },
             {
                 "name": "swissup/module-helpdesk",
-                "version": "dev-fix/ticket-reply-ownership-69",
-                "version_normalized": "dev-fix/ticket-reply-ownership-69",
+                "version": "dev-fix/download-hash-and-preview-73",
+                "version_normalized": "dev-fix/download-hash-and-preview-73",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "9428a3c718ff7a10841c0e129541a99af855c1b4"
+                    "reference": "ccccd9b1ecc6c2cdeeec16282d69936400602418"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -100,7 +100,135 @@
                     "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
                     "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
                 },
-                "time": "2026-10-13T15:09:12+00:00",
+                "time": "2026-10-14T15:10:04+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ]
+            },
+            {
+                "name": "swissup/module-helpdesk",
+                "version": "dev-fix/low-findings-74",
+                "version_normalized": "dev-fix/low-findings-74",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "541e3a257297332a14ec68d25eb11faed13bb835"
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "magento/framework": ">=102.0.5",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-email": ">=101.0",
+                    "magento/module-media-storage": ">=100.3",
+                    "magento/module-sales": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "php": "^8.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-oauth2-client": "^1.0.6"
+                },
+                "suggest": {
+                    "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
+                    "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
+                },
+                "time": "2026-10-14T15:22:22+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Helpdesk\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Helpdesk module",
+                "keywords": [
+                    "helpdesk"
+                ]
+            },
+            {
+                "name": "swissup/module-helpdesk",
+                "version": "dev-fix/upload-endpoint-guards-72",
+                "version_normalized": "dev-fix/upload-endpoint-guards-72",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-helpdesk.git",
+                    "reference": "09f477af98d7bfe317097c7afdb7cb33c61cd8a8"
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "html2text/html2text": "^4.2",
+                    "league/html-to-markdown": "^4.8",
+                    "magento/framework": ">=102.0.5",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-email": ">=101.0",
+                    "magento/module-media-storage": ">=100.3",
+                    "magento/module-sales": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "php": "^8.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-oauth2-client": "^1.0.6"
+                },
+                "suggest": {
+                    "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
+                    "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
+                },
+                "time": "2026-10-14T15:31:28+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {

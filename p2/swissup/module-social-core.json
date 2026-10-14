@@ -81,6 +81,33 @@
                     "OSL-3.0"
                 ],
                 "description": "Social core module. It adds config section and stores API credentials."
+            },
+            {
+                "name": "swissup/module-social-core",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-social-core.git",
+                    "reference": "63067bfef54bb0c889b415e01b9bef0b89f2773b"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.7"
+                },
+                "time": "2026-10-14T12:04:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SocialCore\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Social core module. It adds config section and stores API credentials."
             }
         ]
     }

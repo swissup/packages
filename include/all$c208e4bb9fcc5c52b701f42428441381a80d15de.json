@@ -93864,76 +93864,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-feature/query-skill-contract-189": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-feature/query-skill-contract-189",
-                "version_normalized": "dev-feature/query-skill-contract-189",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "1d185e6d1d22483a343e513ea8177cc1addb2aec"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-13T14:24:13+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            "dev-feature/structured-buildpage-188": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-feature/structured-buildpage-188",
-                "version_normalized": "dev-feature/structured-buildpage-188",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "8568ecc7dfea48cfe1ed449d56b6c5932fbc6bf6"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-12T14:33:36+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -93941,7 +93871,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "89ddd9c956f73b6a0a079c5eb487e475061a63d1"
+                    "reference": "48d7ef72acfbae37ae9484ea44b7972fc1215b20"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -93954,7 +93884,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-13T14:17:42+00:00",
+                "time": "2026-10-16T12:10:59+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -149728,134 +149658,6 @@
                     "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
                 },
                 "time": "2026-10-08T13:00:39+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Helpdesk\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Helpdesk module",
-                "keywords": [
-                    "helpdesk"
-                ]
-            },
-            "dev-claude/guest-ticket-token-79-d237f7": {
-                "name": "swissup/module-helpdesk",
-                "version": "dev-claude/guest-ticket-token-79-d237f7",
-                "version_normalized": "dev-claude/guest-ticket-token-79-d237f7",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "d04b653fe9bf6b147f510f2e5cd844e7857262ce"
-                },
-                "require": {
-                    "ext-pcre": "*",
-                    "html2text/html2text": "^4.2",
-                    "league/html-to-markdown": "^4.8",
-                    "magento/framework": ">=102.0.5",
-                    "magento/module-backend": ">=101.0",
-                    "magento/module-captcha": ">=100.3",
-                    "magento/module-cms": ">=103.0",
-                    "magento/module-contact": ">=100.3",
-                    "magento/module-customer": ">=102.0",
-                    "magento/module-email": ">=101.0",
-                    "magento/module-media-storage": ">=100.3",
-                    "magento/module-sales": ">=102.0",
-                    "magento/module-store": ">=101.0",
-                    "magento/module-theme": ">=101.0",
-                    "magento/module-ui": ">=101.1",
-                    "magento/module-user": ">=101.1",
-                    "php": "^8.1",
-                    "psr/log": "*",
-                    "swissup/module-core": "^1.12.27",
-                    "swissup/module-oauth2-client": "^1.0.6"
-                },
-                "suggest": {
-                    "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
-                    "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
-                },
-                "time": "2026-10-15T15:20:20+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-helpdesk.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/helpdesk/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/helpdesk/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Helpdesk\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Swissup Helpdesk module",
-                "keywords": [
-                    "helpdesk"
-                ]
-            },
-            "dev-fix/attachment-link-lifetime-91": {
-                "name": "swissup/module-helpdesk",
-                "version": "dev-fix/attachment-link-lifetime-91",
-                "version_normalized": "dev-fix/attachment-link-lifetime-91",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-helpdesk.git",
-                    "reference": "2e2bfb0b8947813eee14dadf259347c43d9142fa"
-                },
-                "require": {
-                    "ext-pcre": "*",
-                    "html2text/html2text": "^4.2",
-                    "league/html-to-markdown": "^4.8",
-                    "magento/framework": ">=102.0.5",
-                    "magento/module-backend": ">=101.0",
-                    "magento/module-captcha": ">=100.3",
-                    "magento/module-cms": ">=103.0",
-                    "magento/module-contact": ">=100.3",
-                    "magento/module-customer": ">=102.0",
-                    "magento/module-email": ">=101.0",
-                    "magento/module-media-storage": ">=100.3",
-                    "magento/module-sales": ">=102.0",
-                    "magento/module-store": ">=101.0",
-                    "magento/module-theme": ">=101.0",
-                    "magento/module-ui": ">=101.1",
-                    "magento/module-user": ">=101.1",
-                    "php": "^8.1",
-                    "psr/log": "*",
-                    "swissup/module-core": "^1.12.27",
-                    "swissup/module-oauth2-client": "^1.0.6"
-                },
-                "suggest": {
-                    "laminas/laminas-mail": "^2.20 - required to receive e-mails (POP3/IMAP) on Magento 2.4.8+, which no longer ships it. Supports PHP up to 8.3.",
-                    "oroinc/laminas-mail": "PHP 8.4 fork of laminas/laminas-mail. Add {\"replace\": {\"laminas/laminas-mail\": \"*\"}} to the root composer.json when using it."
-                },
-                "time": "2026-10-15T15:20:07+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "marketplace": {

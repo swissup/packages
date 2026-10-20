@@ -76222,6 +76222,67 @@
                     "search"
                 ]
             },
+            "1.15.0": {
+                "name": "swissup/module-ajaxsearch",
+                "version": "1.15.0",
+                "version_normalized": "1.15.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxsearch.git",
+                    "reference": "36e4f5a4bc5bdfe7f078d06863e7ebca13a80332"
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-search": ">=101.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-rtl": "^1.3.4"
+                },
+                "time": "2026-10-20T13:59:12+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "marketplace": "https://marketplace.magento.com/swissup-ajaxsearch.html",
+                            "store": "https://swissuplabs.com/",
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxsearch/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxsearch.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxsearch/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxsearch/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Advanced ajax search",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ]
+            },
             "1.2.0": {
                 "name": "swissup/module-ajaxsearch",
                 "version": "1.2.0",
@@ -78817,7 +78878,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxsearch.git",
-                    "reference": "2bd3752ea63c001e9fcfe75cb8950221ac3932fc"
+                    "reference": "36e4f5a4bc5bdfe7f078d06863e7ebca13a80332"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -78833,7 +78894,7 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-10-06T14:31:56+00:00",
+                "time": "2026-10-20T13:59:12+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

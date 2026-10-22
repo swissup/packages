@@ -94097,14 +94097,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "dev-fix/columns-layout-vocabulary-210": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-fix/columns-layout-vocabulary-210",
+                "version_normalized": "dev-fix/columns-layout-vocabulary-210",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "c8cdb8da5670f99b3dea8e93dc62ea57e926368c"
+                    "reference": "3fd6f8eb5c1b340e661ba6a2fb37e4a78e494b4e"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94117,7 +94117,42 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-19T13:59:26+00:00",
+                "time": "2026-10-22T13:37:21+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "6c788cc41f5d5d0309a56bd01d10ac0e9d1d9c20"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
+                },
+                "time": "2026-10-22T12:14:25+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -98350,12 +98385,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout.git",
-                    "reference": "ea8f9f2fff4274b09dec1b0aac0e9369749b67e6"
+                    "reference": "dec5bc4011d92f6df4db32122ac8e7ddcf7267fc"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-10-08T12:23:08+00:00",
+                "time": "2026-10-22T10:25:12+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -138795,7 +138830,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout.git",
-                    "reference": "7d5dec391855b7895533394c08e4aa501bb8cffc"
+                    "reference": "edca6f0dcbaef07bbfdbe871c5b17682d34a037c"
                 },
                 "require": {
                     "php": "^8.1",
@@ -138805,7 +138840,7 @@
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-tippyjs": "^6.0.0"
                 },
-                "time": "2026-10-14T07:06:54+00:00",
+                "time": "2026-10-22T10:23:54+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -144100,7 +144135,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-gdpr.git",
-                    "reference": "a96738d8879126774765177cdb5dcf40e54829f2"
+                    "reference": "c7bdb328addd12e83a7399f34d91feebce5dfe5e"
                 },
                 "require": {
                     "php": "^8.0",
@@ -144108,7 +144143,7 @@
                     "swissup/module-core": "^1.13.1",
                     "swissup/module-rtl": "^1.3.4"
                 },
-                "time": "2026-10-08T12:28:42+00:00",
+                "time": "2026-10-22T11:54:25+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -293068,12 +293103,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
-                    "reference": "7badee48c912d19566d9f778665c795918f3a6c3"
+                    "reference": "2253390e919aafcfdb637fe418e42e462667d308"
                 },
                 "require": {
                     "swissup/theme-frontend-breeze-enterprise-blank": "^3.0.0"
                 },
-                "time": "2026-10-21T21:19:20+00:00",
+                "time": "2026-10-22T20:32:18+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

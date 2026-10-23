@@ -49516,6 +49516,38 @@
                 "description": "Hyvä Themes Compatibility module for Swissup_SeoHtmlSitemap"
             }
         },
+        "swissup/hyva-social-login": {
+            "dev-master": {
+                "name": "swissup/hyva-social-login",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-social-login.git",
+                    "reference": "de307a474fbc29cc197e4aadd5fde974fa6f76a7"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": ">=1.1.2",
+                    "hyva-themes/magento2-theme-module": "^1.3",
+                    "swissup/module-social-login": "^1.2.0"
+                },
+                "time": "2026-10-23T13:26:31+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaSocialLogin\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "This module makes Swissup_SocialLogin compatible with Hyvä Themes"
+            }
+        },
         "swissup/hyva-sold-together": {
             "0.0.1": {
                 "name": "swissup/hyva-sold-together",
@@ -94193,41 +94225,6 @@
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
                 "time": "2026-10-23T14:48:36+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
-            "dev-fix/columns-layout-vocabulary-210": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/columns-layout-vocabulary-210",
-                "version_normalized": "dev-fix/columns-layout-vocabulary-210",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "3fd6f8eb5c1b340e661ba6a2fb37e4a78e494b4e"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-22T13:37:21+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

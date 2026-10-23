@@ -1,5 +1,29 @@
 {
     "packages": {
-        "swissup/theme-frontend-breeze-enterprise-eir": []
+        "swissup/theme-frontend-breeze-enterprise-eir": [
+            {
+                "name": "swissup/theme-frontend-breeze-enterprise-eir",
+                "version": "3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/theme-frontend-breeze-enterprise-eir.git",
+                    "reference": "76642a0e61aecbf8c54ea72518d4de35ab28dca9"
+                },
+                "require": {
+                    "swissup/theme-frontend-breeze-enterprise-blank": "^3.4.0"
+                },
+                "time": "2026-10-23T08:40:59+00:00",
+                "type": "magento2-theme",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ]
+            }
+        ]
     }
 }

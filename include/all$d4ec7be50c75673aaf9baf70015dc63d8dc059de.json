@@ -47592,14 +47592,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-ajaxsearch.git",
-                    "reference": "bb95a42347cb19e49b47ec6d26e5c4c308a61c62"
+                    "reference": "a538a21b52237181f012d32ab28fcc3ca52cbd9b"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
                     "swissup/module-ajaxsearch": "^1.14.11"
                 },
-                "time": "2026-08-28T06:52:53+00:00",
+                "time": "2026-10-28T13:00:46+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -94290,41 +94290,6 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-claude/phase1-test-sets-244-8e8fb3": {
-                "name": "swissup/module-breeze-ai",
-                "version": "dev-claude/phase1-test-sets-244-8e8fb3",
-                "version_normalized": "dev-claude/phase1-test-sets-244-8e8fb3",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "d04650f4b2bbde025a5d26d88ed2cee90fe604df"
-                },
-                "require": {
-                    "openai-php/client": "^0.10 || ^0.19",
-                    "php": "^8.1",
-                    "swissup/module-core": "*"
-                },
-                "require-dev": {
-                    "swissup/module-logger": "*"
-                },
-                "suggest": {
-                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
-                },
-                "time": "2026-10-27T15:17:00+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\BreezeAi\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Breeze AI module for Magento 2"
-            },
             "dev-master": {
                 "name": "swissup/module-breeze-ai",
                 "version": "dev-master",
@@ -94332,7 +94297,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "189a94fdecb333b9ae398137f20e7d946151e097"
+                    "reference": "44709a08f22bf6b3108b503477cb38bf95dd33c2"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94345,7 +94310,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and Build from screenshot compose their result out of its components and write it as a Content Builder draft, and its editor gains the AI chat panel and a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-27T14:18:06+00:00",
+                "time": "2026-10-28T15:56:51+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -291629,13 +291594,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-blank.git",
-                    "reference": "a9c859a567690cf6acf8120c7a073e438c1d454d"
+                    "reference": "c482e558dceb26ad0d8e4708203307751523fd41"
                 },
                 "require": {
                     "hyva-themes/magento2-default-theme": "^1.4.4",
                     "swissup/module-argento-hyva": "^1.2.0"
                 },
-                "time": "2026-06-07T20:20:19+00:00",
+                "time": "2026-10-28T21:45:00+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -292615,14 +292580,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "4bec93921012baf5e3fc4defcc301c48557765df"
+                    "reference": "7fb45a876d62ac317234b0a74fb0d8115c0d81df"
                 },
                 "require": {
                     "swissup/module-argento-hyva": "^1.2.4",
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "^1.2.0"
                 },
-                "time": "2026-09-09T07:59:08+00:00",
+                "time": "2026-10-28T22:41:42+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -292910,9 +292875,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-stripes.git",
-                    "reference": "36b6cdf00cb8f4b404610ba8db22072143fb2b72"
+                    "reference": "fe4d7f20637094896cea3f75ad898d86288c606f"
                 },
-                "time": "2026-09-15T09:01:23+00:00",
+                "time": "2026-10-28T13:27:12+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

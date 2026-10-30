@@ -94290,14 +94290,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-master": {
+            "dev-feat/245-hero-slider": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-feat/245-hero-slider",
+                "version_normalized": "dev-feat/245-hero-slider",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "a0c6cd32f1f9ad9ff4486983a06cf76df827409a"
+                    "reference": "4eec2d2fa590dcdc56bfffe0ab769aac282f7372"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94310,7 +94310,42 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and the editor's AI chat panel compose their result out of its components and write it as a Content Builder draft, and its editor gains a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-10-29T15:21:35+00:00",
+                "time": "2026-10-30T14:43:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\BreezeAi\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze AI module for Magento 2"
+            },
+            "dev-master": {
+                "name": "swissup/module-breeze-ai",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/module-breeze-ai.git",
+                    "reference": "60677c1effc4938a8fcdc6b3c14604cf49f95cc0"
+                },
+                "require": {
+                    "openai-php/client": "^0.10 || ^0.19",
+                    "php": "^8.1",
+                    "swissup/module-core": "*"
+                },
+                "require-dev": {
+                    "swissup/module-logger": "*"
+                },
+                "suggest": {
+                    "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and the editor's AI chat panel compose their result out of its components and write it as a Content Builder draft, and its editor gains a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
+                },
+                "time": "2026-10-30T14:02:41+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -95531,7 +95566,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "f04b8602f770423a09ae1fdd4c02bbb82bf914f2"
+                    "reference": "e283b085c500f48dcaea4b4bdbae683f26305eec"
                 },
                 "require": {
                     "magento/framework": "^103.0",
@@ -95562,7 +95597,7 @@
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
                     "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
                 },
-                "time": "2026-10-26T08:59:14+00:00",
+                "time": "2026-10-30T22:19:27+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -199619,13 +199654,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-rich-snippets.git",
-                    "reference": "67fa9a57065abbbcf1e4a3a31e38165bb2625a74"
+                    "reference": "fb8add86265811d78371b7e4ebd48666e4005b1e"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-10-08T12:28:51+00:00",
+                "time": "2026-10-30T21:43:20+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

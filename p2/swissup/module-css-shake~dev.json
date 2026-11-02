@@ -3,6 +3,34 @@
         "swissup/module-css-shake": [
             {
                 "name": "swissup/module-css-shake",
+                "version": "dev-easybanner-tokens",
+                "version_normalized": "dev-easybanner-tokens",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-css-shake.git",
+                    "reference": "46ddef22ef740a0da16c97ee7d6e9d7a552a21ce"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-core": "^1.14.0"
+                },
+                "time": "2026-11-02T20:08:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CssShake\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "CSS delivery optimizations for Magento"
+            },
+            {
+                "name": "swissup/module-css-shake",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

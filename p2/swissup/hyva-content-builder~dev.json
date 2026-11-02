@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "swissup/hyva-content-builder": [
+            {
+                "name": "swissup/hyva-content-builder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-content-builder.git",
+                    "reference": "9ae2550f86cfa5449b19a7a5bde48fff8ff5c58f"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-breeze-content-builder": "^1.3.0"
+                },
+                "replace": {
+                    "swissup/hyva-breeze-content-builder": "*"
+                },
+                "time": "2026-11-02T21:50:39+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaContentBuilder\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_BreezeContentBuilder"
+            }
+        ]
+    }
+}

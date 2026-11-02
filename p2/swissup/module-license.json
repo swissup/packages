@@ -288,6 +288,38 @@
                     "OSL-3.0"
                 ],
                 "description": "License checker for argentotheme.com, swissuplabs.com and firecheckout.net"
+            },
+            {
+                "name": "swissup/module-license",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-license.git",
+                    "reference": "c9dc0f0866c70d8720c4a0f4232217b229324610"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-11-02T09:18:11+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "hidden": true
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\License\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "License checker for argentotheme.com, swissuplabs.com and firecheckout.net"
             }
         ]
     }

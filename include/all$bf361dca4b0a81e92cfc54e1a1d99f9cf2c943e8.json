@@ -28603,6 +28603,37 @@
                 "description": "Consumer rights metapackage"
             }
         },
+        "swissup/checkout-doctor": {
+            "dev-master": {
+                "name": "swissup/checkout-doctor",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "a719b28d2dc95dfc657e948d9cd59538570380ab"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.0"
+                },
+                "time": "2026-11-03T13:38:31+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            }
+        },
         "swissup/checkout-registration": {
             "1.0.1": {
                 "name": "swissup/checkout-registration",
@@ -94360,14 +94391,14 @@
                 ],
                 "description": "Breeze AI module for Magento 2"
             },
-            "dev-fix/245-tab-panel-side-by-side": {
+            "dev-fix/245-stacked-banner-text": {
                 "name": "swissup/module-breeze-ai",
-                "version": "dev-fix/245-tab-panel-side-by-side",
-                "version_normalized": "dev-fix/245-tab-panel-side-by-side",
+                "version": "dev-fix/245-stacked-banner-text",
+                "version_normalized": "dev-fix/245-stacked-banner-text",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "56184187f8e9f4efa446635699896dca68192654"
+                    "reference": "f06ba9c933ef899cfadf8313905b3592f4fd9454"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94380,7 +94411,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and the editor's AI chat panel compose their result out of its components and write it as a Content Builder draft, and its editor gains a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-11-02T16:07:19+00:00",
+                "time": "2026-11-03T09:51:59+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -94402,7 +94433,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "6b01cf19a8f2455975fe5c69c9da997c3760cde1"
+                    "reference": "baf56b2a27664e871794798cdc3b7e2a37176b36"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94415,7 +94446,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and the editor's AI chat panel compose their result out of its components and write it as a Content Builder draft, and its editor gains a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-11-02T14:58:31+00:00",
+                "time": "2026-11-03T09:08:49+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -105691,34 +105722,6 @@
                 ],
                 "description": "CSS delivery optimizations for Magento"
             },
-            "dev-easybanner-tokens": {
-                "name": "swissup/module-css-shake",
-                "version": "dev-easybanner-tokens",
-                "version_normalized": "dev-easybanner-tokens",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-css-shake.git",
-                    "reference": "46ddef22ef740a0da16c97ee7d6e9d7a552a21ce"
-                },
-                "require": {
-                    "php": "^8.1",
-                    "swissup/module-core": "^1.14.0"
-                },
-                "time": "2026-11-02T20:08:30+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CssShake\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "CSS delivery optimizations for Magento"
-            },
             "dev-master": {
                 "name": "swissup/module-css-shake",
                 "version": "dev-master",
@@ -105726,13 +105729,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-css-shake.git",
-                    "reference": "93072281fcf965d71cc633641b0627a4733e0b53"
+                    "reference": "9b5ee60c29731410f6307bcc302af02d76b5e8ac"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-core": "^1.14.0"
                 },
-                "time": "2026-10-08T12:29:03+00:00",
+                "time": "2026-11-03T12:34:40+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -117480,13 +117483,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-easybanner.git",
-                    "reference": "a09a86afd3f126fd8937d771f8e7b6785e429df3"
+                    "reference": "04447eb223a29098f81d5eb1b56fbfe12dcbe494"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-image": "^1.0.0"
                 },
-                "time": "2026-10-08T12:28:46+00:00",
+                "time": "2026-11-03T12:46:33+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

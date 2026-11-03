@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "swissup/module-checkout-doctor": [
+            {
+                "name": "swissup/module-checkout-doctor",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "7d67f2baa17be905c947b51e163c5600a3cb2be3"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.0"
+                },
+                "time": "2026-11-03T14:02:43+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            }
+        ]
+    }
+}

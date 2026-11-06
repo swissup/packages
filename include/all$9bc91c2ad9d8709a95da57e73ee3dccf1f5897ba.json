@@ -47657,14 +47657,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-askit.git",
-                    "reference": "43f84cf6d454293dc5563791c243643f5b1ed329"
+                    "reference": "fa1af5a7363ba83d701fb89a182e7f437bf1c756"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
                     "swissup/module-askit": "^1.4.20"
                 },
-                "time": "2026-06-09T12:20:36+00:00",
+                "time": "2026-11-06T11:36:09+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -94402,7 +94402,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-ai.git",
-                    "reference": "672d1de21acc4aa000e9a1bab0817383aa074ae1"
+                    "reference": "a87728c335fc44054c4713bc381a6dd6076ed547"
                 },
                 "require": {
                     "openai-php/client": "^0.10 || ^0.19",
@@ -94415,7 +94415,7 @@
                 "suggest": {
                     "swissup/module-breeze-content-builder": "Content Builder integration: Build Landing Page and the editor's AI chat panel compose their result out of its components and write it as a Content Builder draft, and its editor gains a per-field AI Generate button (that button needs 1.2.3 or newer, the first release whose property panel fires the bcb:fieldRowReady event it attaches to)."
                 },
-                "time": "2026-11-05T16:15:04+00:00",
+                "time": "2026-11-06T16:02:25+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -95742,7 +95742,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "ac4c182ecf7a83f39b071e26ebf10c43d965b8a2"
+                    "reference": "c9b2020fee1f54bdd1e7475af90bdf8c475cab4f"
                 },
                 "require": {
                     "magento/framework": "^103.0",
@@ -95773,7 +95773,7 @@
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
                     "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
                 },
-                "time": "2026-11-05T08:40:02+00:00",
+                "time": "2026-11-06T14:51:16+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -100022,14 +100022,42 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-doctor.git",
-                    "reference": "a34c7c7830c0a50bb5acf9dd54783dc72e902492"
+                    "reference": "73ca8835b2740326e866a527d64a96ab6b65460a"
                 },
                 "require": {
                     "php": "^8.0",
                     "swissup/module-checkout": "^1.0"
                 },
-                "time": "2026-11-05T16:15:15+00:00",
+                "time": "2026-11-06T13:46:15+00:00",
                 "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            },
+            "dev-rejections-struggle": {
+                "name": "swissup/module-checkout-doctor",
+                "version": "dev-rejections-struggle",
+                "version_normalized": "dev-rejections-struggle",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "a6dcd55a8b24ff6e1c581bdac5c45508d6f7589e"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-checkout": "^1.0"
+                },
+                "time": "2026-11-06T14:24:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -186888,6 +186916,85 @@
                     "minify",
                     "pagespeed"
                 ]
+            },
+            "dev-perf/pipeline-profiling": {
+                "name": "swissup/module-pagespeed",
+                "version": "dev-perf/pipeline-profiling",
+                "version_normalized": "dev-perf/pipeline-profiling",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pagespeed.git",
+                    "reference": "94b7033805fb3a1aea076d944c9c9897e4d84362"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "laminas/laminas-http": "^2.6",
+                    "magento/framework": ">=103.0",
+                    "magento/module-backend": ">=102.0",
+                    "magento/module-catalog": ">=104.0",
+                    "magento/module-config": ">=101.2",
+                    "magento/module-customer": ">=103.0",
+                    "magento/module-deploy": ">=100.4",
+                    "magento/module-store": ">=101.1",
+                    "magento/module-theme": ">=101.1",
+                    "mobiledetect/mobiledetectlib": "^2.8|^3.74|^4.8",
+                    "mrclay/minify": "~3.0.0",
+                    "psr/log": "*",
+                    "swissup/module-advanced-js-bundling": "^0.1.0",
+                    "swissup/module-codemirror": "^1.1.12",
+                    "swissup/module-core": "^1.13.0",
+                    "swissup/module-image": "^1.0.0",
+                    "swissup/module-image-optimizer": "^1.1.0",
+                    "swissup/module-logger": "^2.0",
+                    "swissup/module-speculation-rules": "^1.0.3",
+                    "symfony/process": ">=4.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6"
+                },
+                "time": "2026-11-06T09:24:30+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/",
+                            "store": "https://swissuplabs.com/page-speed-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-pagespeed.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/pagespeed/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/pagespeed/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Swissup\\Pagespeed\\Test\\Unit\\": "Test/Unit/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Pagespeed module",
+                "keywords": [
+                    "minify",
+                    "pagespeed"
+                ]
             }
         },
         "swissup/module-partytown": {
@@ -208820,12 +208927,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-templates.git",
-                    "reference": "49f710c12f8c4368cea33f07d2e53d5cdaa9dbbe"
+                    "reference": "6241e611df68b9ca44ed44a14b1be84461612c39"
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-10-27T21:17:46+00:00",
+                "time": "2026-11-06T22:20:13+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -293208,14 +293315,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-chic.git",
-                    "reference": "47634d921f492593404b0cd2156ccd79c9ab9879"
+                    "reference": "715abd7a5ca48b27f0d85721d681baf451c8aaec"
                 },
                 "require": {
                     "swissup/module-argento-hyva": "^1.2.4",
                     "swissup/module-image": "^1.0.0",
                     "swissup/theme-frontend-argentohyva-blank": "^1.2.0"
                 },
-                "time": "2026-10-29T22:23:00+00:00",
+                "time": "2026-11-06T11:55:05+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {
@@ -293503,9 +293610,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/theme-frontend-argentohyva-stripes.git",
-                    "reference": "fe4d7f20637094896cea3f75ad898d86288c606f"
+                    "reference": "82d993d1bf3960543d1e2fff7ff051e3d92df21a"
                 },
-                "time": "2026-10-28T13:27:12+00:00",
+                "time": "2026-11-06T12:25:08+00:00",
                 "default-branch": true,
                 "type": "magento2-theme",
                 "autoload": {

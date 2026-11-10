@@ -100015,6 +100015,34 @@
             }
         },
         "swissup/module-checkout-doctor": {
+            "1.0.0": {
+                "name": "swissup/module-checkout-doctor",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "8a60f724bf0af3c78d180983ceaffc18b3e4ebc1"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-checkout": "^1.0"
+                },
+                "time": "2026-11-10T14:58:46+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            },
             "dev-master": {
                 "name": "swissup/module-checkout-doctor",
                 "version": "dev-master",
@@ -100022,13 +100050,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-doctor.git",
-                    "reference": "c08370a4edda4e87f8a00f6228e967245c8d1bba"
+                    "reference": "8a60f724bf0af3c78d180983ceaffc18b3e4ebc1"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-checkout": "^1.0"
                 },
-                "time": "2026-11-09T15:14:11+00:00",
+                "time": "2026-11-10T14:58:46+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

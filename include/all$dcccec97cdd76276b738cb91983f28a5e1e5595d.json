@@ -193345,6 +193345,35 @@
                 ],
                 "description": "Product labels and badges. Advanced behavior for configurable product"
             },
+            "1.0.11": {
+                "name": "swissup/module-pro-labels-configurable-product",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-pro-labels-configurable-product.git",
+                    "reference": "c0b50ac207d0f7aaa0c87ad5967a55b302f4970d"
+                },
+                "require": {
+                    "magento/module-catalog": ">=100.0",
+                    "magento/module-configurable-product": ">=100.0",
+                    "swissup/module-pro-labels": "^1.10.3"
+                },
+                "time": "2026-11-11T22:49:48+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\ProLabelsConfigurableProduct\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product labels and badges. Advanced behavior for configurable product"
+            },
             "1.0.2": {
                 "name": "swissup/module-pro-labels-configurable-product",
                 "version": "1.0.2",
@@ -193576,14 +193605,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pro-labels-configurable-product.git",
-                    "reference": "c90c7190ee3a297fd4153f4819133dca2130aaea"
+                    "reference": "c0b50ac207d0f7aaa0c87ad5967a55b302f4970d"
                 },
                 "require": {
                     "magento/module-catalog": ">=100.0",
                     "magento/module-configurable-product": ">=100.0",
                     "swissup/module-pro-labels": "^1.10.3"
                 },
-                "time": "2026-10-13T21:25:04+00:00",
+                "time": "2026-11-11T22:49:48+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

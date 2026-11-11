@@ -81,6 +81,34 @@
                     "OSL-3.0"
                 ],
                 "description": "Manage Sold Together relations with Magento Import/Export"
+            },
+            {
+                "name": "swissup/module-sold-together-import-export",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-sold-together-import-export.git",
+                    "reference": "48115c4130019406188e497a1d795ced2d9d0f63"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-sold-together": "^1.11.6"
+                },
+                "time": "2026-11-11T22:54:29+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\SoldTogetherImportExport\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Manage Sold Together relations with Magento Import/Export"
             }
         ]
     }

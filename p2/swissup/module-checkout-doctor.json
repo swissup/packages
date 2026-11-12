@@ -140,6 +140,34 @@
                     "OSL-3.0"
                 ],
                 "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            },
+            {
+                "name": "swissup/module-checkout-doctor",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "02091adcd6cbea73e79e0117093c617ec6d6d597"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-checkout": "^1.5.5"
+                },
+                "time": "2026-11-12T10:31:47+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
             }
         ]
     }

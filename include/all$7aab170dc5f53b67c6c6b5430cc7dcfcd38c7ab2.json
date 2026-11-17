@@ -28625,6 +28625,28 @@
                 "description": "Consumer rights metapackage"
             }
         },
+        "swissup/checkout-doctor": {
+            "dev-master": {
+                "name": "swissup/checkout-doctor",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-doctor.git",
+                    "reference": "7f312e215f08bb64546ebf99adc9bcb9c54b2118"
+                },
+                "require": {
+                    "swissup/module-checkout-dcotor": "^1.0.7"
+                },
+                "time": "2026-11-17T12:28:23+00:00",
+                "default-branch": true,
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Checkout doctor metapackage"
+            }
+        },
         "swissup/checkout-registration": {
             "1.0.1": {
                 "name": "swissup/checkout-registration",
@@ -41317,7 +41339,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/firecheckout.git",
-                    "reference": "88dbfd2ec4df6796d04bcf9be04447e9275abc5f"
+                    "reference": "14910bee7a86868bdf647cc3122e3b87da11560a"
                 },
                 "require": {
                     "swissup/module-address-autocomplete": "^1.8.4",
@@ -41326,6 +41348,7 @@
                     "swissup/module-bot-protection": "^1.0.2",
                     "swissup/module-checkout-cart": "^1.5.10",
                     "swissup/module-checkout-consumer-rights": "^1.1.0",
+                    "swissup/module-checkout-doctor": "^1.0.7",
                     "swissup/module-checkout-fields": "^1.6.18",
                     "swissup/module-checkout-registration": "^1.2.3",
                     "swissup/module-checkout-success": "^2.0.12",
@@ -41337,7 +41360,7 @@
                     "swissup/module-subscribe-at-checkout": "^1.3.7",
                     "swissup/module-taxvat": "^1.4.9"
                 },
-                "time": "2026-10-08T12:40:36+00:00",
+                "time": "2026-11-17T12:25:22+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [
@@ -72261,6 +72284,61 @@
                     "swissup/module-suggestpage": "^1.2.10"
                 },
                 "time": "2024-06-11T13:11:49+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/duplicate-minicart-73": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/duplicate-minicart-73",
+                "version_normalized": "dev-fix/duplicate-minicart-73",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "91699602266e42f0cb4648e54fcbbbf923bb8d4c"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-17T11:19:17+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -139830,7 +139908,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-firecheckout.git",
-                    "reference": "b9ec768030139c2b3666f1b1ab816361976c8852"
+                    "reference": "1583a5d3173a21c99ba39dc18f33d27345482ee1"
                 },
                 "require": {
                     "php": "^8.1",
@@ -139840,7 +139918,7 @@
                     "swissup/module-rtl": "^1.3.4",
                     "swissup/module-tippyjs": "^6.0.0"
                 },
-                "time": "2026-11-16T14:22:08+00:00",
+                "time": "2026-11-17T10:27:18+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -187513,7 +187591,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-pagespeed.git",
-                    "reference": "c2e7ddf53b4a324f717bc4a7610d596f00536125"
+                    "reference": "18d91705b9f391f821ac94ba016c6cb9c726591a"
                 },
                 "require": {
                     "ext-json": "*",
@@ -187543,7 +187621,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6"
                 },
-                "time": "2026-11-11T10:18:52+00:00",
+                "time": "2026-11-17T10:01:40+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

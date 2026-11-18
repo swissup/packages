@@ -1,5 +1,25 @@
 {
     "packages": {
-        "swissup/checkout-doctor": []
+        "swissup/checkout-doctor": [
+            {
+                "name": "swissup/checkout-doctor",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/checkout-doctor.git",
+                    "reference": "67c0461f3f28998447e4e4a21a710bca2a1e8937"
+                },
+                "require": {
+                    "swissup/module-checkout-dcotor": "^1.0.7"
+                },
+                "time": "2026-11-18T08:34:27+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Checkout doctor metapackage"
+            }
+        ]
     }
 }

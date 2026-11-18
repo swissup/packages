@@ -47821,7 +47821,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-content-builder.git",
-                    "reference": "830c2e7ac28bd6ac9659bc985fd83db46a957285"
+                    "reference": "5d43ab7912587215cec2b5ecad618626b395a198"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
@@ -47838,7 +47838,7 @@
                 "replace": {
                     "swissup/hyva-breeze-content-builder": "*"
                 },
-                "time": "2026-11-14T00:32:24+00:00",
+                "time": "2026-11-18T21:30:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -95989,7 +95989,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/module-breeze-content-builder.git",
-                    "reference": "977eabcc985beef80df1dabfcd50557c387dbf6f"
+                    "reference": "f7a131fe7e80271494a6b451d790f8ecd08c93c4"
                 },
                 "require": {
                     "magento/framework": "^103.0",
@@ -96020,7 +96020,7 @@
                     "swissup/module-breeze-content-builder-migration": "Page Builder to BCB migration tools",
                     "swissup/module-marketplace": "Runs the BcbCmsPage installer command shipped with sample content"
                 },
-                "time": "2026-11-14T00:23:47+00:00",
+                "time": "2026-11-18T21:29:37+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -100272,13 +100272,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-consumer-rights.git",
-                    "reference": "5b98fde8c1f1b25580f9bee113efc2a7f946d924"
+                    "reference": "335bc889bf45c9116794c1c7cb47a52b6222466c"
                 },
                 "require": {
                     "php": "^8.0",
                     "swissup/module-checkout": "^1.5.4"
                 },
-                "time": "2026-11-12T15:08:02+00:00",
+                "time": "2026-11-18T08:05:34+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -100563,34 +100563,6 @@
                 },
                 "time": "2026-11-18T08:32:27+00:00",
                 "default-branch": true,
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CheckoutDoctor\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Keep an eye on your checkout page and get notified if something is wrong."
-            },
-            "dev-tracker-ignore-aborted-requests": {
-                "name": "swissup/module-checkout-doctor",
-                "version": "dev-tracker-ignore-aborted-requests",
-                "version_normalized": "dev-tracker-ignore-aborted-requests",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-checkout-doctor.git",
-                    "reference": "dc1debbfe333f668241b0dbbe4b5b393fdcd2975"
-                },
-                "require": {
-                    "php": "^8.1",
-                    "swissup/module-checkout": "^1.5.5"
-                },
-                "time": "2026-11-17T15:31:58+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

@@ -100829,6 +100829,34 @@
                 ],
                 "description": "Keep an eye on your checkout page and get notified if something is wrong."
             },
+            "1.0.9": {
+                "name": "swissup/module-checkout-doctor",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-doctor.git",
+                    "reference": "830468ec3568c41da34311eaa9f280546d1c46ad"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T12:44:30+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutDoctor\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Keep an eye on your checkout page and get notified if something is wrong."
+            },
             "dev-master": {
                 "name": "swissup/module-checkout-doctor",
                 "version": "dev-master",
@@ -100836,13 +100864,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-doctor.git",
-                    "reference": "33f4abe10dcaaf9e8e5ee90d10940e701ef80131"
+                    "reference": "830468ec3568c41da34311eaa9f280546d1c46ad"
                 },
                 "require": {
                     "php": "^8.1",
-                    "swissup/module-checkout": "^1.5.5"
+                    "swissup/module-checkout": "^1.5.6"
                 },
-                "time": "2026-11-18T08:32:27+00:00",
+                "time": "2026-11-19T12:44:30+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

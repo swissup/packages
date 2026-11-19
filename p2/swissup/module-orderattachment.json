@@ -1748,6 +1748,45 @@
                     "OSL-3.0"
                 ],
                 "description": "Order Attachment Magento 2 extension"
+            },
+            {
+                "name": "swissup/module-orderattachment",
+                "version": "1.5.5",
+                "version_normalized": "1.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-orderattachment.git",
+                    "reference": "5b5429042ba215affab6da898d5a55ca52fa23ab"
+                },
+                "require": {
+                    "php": ">=7.4.0",
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:45+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-orderattachment.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/order-attachments/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/order-attachments/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Orderattachment\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Order Attachment Magento 2 extension"
             }
         ]
     }

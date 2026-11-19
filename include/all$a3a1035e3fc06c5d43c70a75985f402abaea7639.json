@@ -102320,6 +102320,46 @@
                     "order comment"
                 ]
             },
+            "1.6.19": {
+                "name": "swissup/module-checkout-fields",
+                "version": "1.6.19",
+                "version_normalized": "1.6.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-fields.git",
+                    "reference": "1916127992062d0ee116f712758ec282c8777054"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:53+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/checkout-fields/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/checkout-fields/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutFields\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Custom checkout fields",
+                "keywords": [
+                    "checkout fields",
+                    "checkout questions",
+                    "order comment"
+                ]
+            },
             "1.6.2": {
                 "name": "swissup/module-checkout-fields",
                 "version": "1.6.2",
@@ -102647,12 +102687,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-fields.git",
-                    "reference": "ed0cc377ae61f30ee93915f94aeb98a678f369df"
+                    "reference": "1916127992062d0ee116f712758ec282c8777054"
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.5.5"
+                    "swissup/module-checkout": "^1.5.6"
                 },
-                "time": "2026-11-13T07:58:48+00:00",
+                "time": "2026-11-19T11:35:53+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

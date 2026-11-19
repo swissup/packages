@@ -109770,6 +109770,42 @@
                 ],
                 "description": "Choose delivery date directly at the checkout page"
             },
+            "1.9.2": {
+                "name": "swissup/module-delivery-date",
+                "version": "1.9.2",
+                "version_normalized": "1.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "fcf056c789ee5c67b2c6ee13786267ea2c57ee63"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:39+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page"
+            },
             "dev-master": {
                 "name": "swissup/module-delivery-date",
                 "version": "dev-master",
@@ -109777,13 +109813,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-delivery-date.git",
-                    "reference": "2b5e8531cb9c1b5d127a7335d5ebefab5ec7fa79"
+                    "reference": "fcf056c789ee5c67b2c6ee13786267ea2c57ee63"
                 },
                 "require": {
                     "php": "^8.0",
-                    "swissup/module-checkout": "^1.5.5"
+                    "swissup/module-checkout": "^1.5.6"
                 },
-                "time": "2026-11-11T10:29:45+00:00",
+                "time": "2026-11-19T11:35:39+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

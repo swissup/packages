@@ -1680,6 +1680,42 @@
                     "OSL-3.0"
                 ],
                 "description": "Choose delivery date directly at the checkout page"
+            },
+            {
+                "name": "swissup/module-delivery-date",
+                "version": "1.9.2",
+                "version_normalized": "1.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-delivery-date.git",
+                    "reference": "fcf056c789ee5c67b2c6ee13786267ea2c57ee63"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:39+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/delivery-date/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/delivery-date/changelog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\DeliveryDate\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Choose delivery date directly at the checkout page"
             }
         ]
     }

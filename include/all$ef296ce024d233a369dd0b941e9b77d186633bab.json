@@ -100332,6 +100332,34 @@
                 ],
                 "description": "Swissup Checkout Consumer Rights module"
             },
+            "1.1.1": {
+                "name": "swissup/module-checkout-consumer-rights",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout-consumer-rights.git",
+                    "reference": "62af41d1c17c9faa3178adc09ed0fb397a70ff52"
+                },
+                "require": {
+                    "php": "^8.0",
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:58+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\CheckoutConsumerRights\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Swissup Checkout Consumer Rights module"
+            },
             "dev-master": {
                 "name": "swissup/module-checkout-consumer-rights",
                 "version": "dev-master",
@@ -100339,13 +100367,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-checkout-consumer-rights.git",
-                    "reference": "335bc889bf45c9116794c1c7cb47a52b6222466c"
+                    "reference": "62af41d1c17c9faa3178adc09ed0fb397a70ff52"
                 },
                 "require": {
                     "php": "^8.0",
-                    "swissup/module-checkout": "^1.5.4"
+                    "swissup/module-checkout": "^1.5.6"
                 },
-                "time": "2026-11-18T08:05:34+00:00",
+                "time": "2026-11-19T11:35:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

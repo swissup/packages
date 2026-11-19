@@ -601,6 +601,50 @@
             },
             {
                 "name": "swissup/module-taxvat",
+                "version": "1.4.10",
+                "version_normalized": "1.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-taxvat.git",
+                    "reference": "582f259c4182536db2838e32cc640299c5276275"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-19T11:35:44+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/taxvat/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/taxvat/changelog"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-taxvat.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/taxvat/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/taxvat/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Taxvat\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento 2 Checkout Tax VAT"
+            },
+            {
+                "name": "swissup/module-taxvat",
                 "version": "1.4.2",
                 "version_normalized": "1.4.2.0",
                 "source": {

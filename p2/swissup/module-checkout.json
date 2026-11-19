@@ -459,6 +459,33 @@
                     "OSL-3.0"
                 ],
                 "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections."
+            },
+            {
+                "name": "swissup/module-checkout",
+                "version": "1.5.6",
+                "version_normalized": "1.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-checkout.git",
+                    "reference": "b847e62824219bba8131a23edfe1d9d56dca5a0b"
+                },
+                "require": {
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-11-19T11:26:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Checkout\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Dummy checkout module. It's purpose is to add swissup menu and config sections."
             }
         ]
     }

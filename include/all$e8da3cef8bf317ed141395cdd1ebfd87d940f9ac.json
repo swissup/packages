@@ -49076,14 +49076,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-highlight.git",
-                    "reference": "a381737f02940682bb162dff2f125b6a1389551e"
+                    "reference": "52d7851677fefe1439f847755b70eef21f217fc9"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
                     "swissup/module-highlight": "^1.11.9"
                 },
-                "time": "2026-09-15T08:58:24+00:00",
+                "time": "2026-11-20T00:09:40+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -72632,14 +72632,14 @@
                 ],
                 "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
             },
-            "dev-master": {
+            "dev-fix/quickview-instant-purchase-86": {
                 "name": "swissup/module-ajaxpro",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-fix/quickview-instant-purchase-86",
+                "version_normalized": "dev-fix/quickview-instant-purchase-86",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-ajaxpro.git",
-                    "reference": "e455ddfd4164d36c15695bb9f499beb609fb5601"
+                    "reference": "c99bacbbbb5e268dd7f8b52e4ead270672e3a4db"
                 },
                 "require": {
                     "ext-json": "*",
@@ -72655,7 +72655,337 @@
                     "swissup/module-core": "^1.12.27",
                     "swissup/module-suggestpage": "^1.2.15"
                 },
-                "time": "2026-11-17T14:06:55+00:00",
+                "time": "2026-11-20T15:19:39+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/quickview-msrp-popup-85": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/quickview-msrp-popup-85",
+                "version_normalized": "dev-fix/quickview-msrp-popup-85",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "4ce9e1329806a45229bc9f2a051ae9d849be7e56"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T15:22:08+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/reinit-section-handles-78": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/reinit-section-handles-78",
+                "version_normalized": "dev-fix/reinit-section-handles-78",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "66bb9215941fa11a0e9cc9bac3c3698a5a44e0b1"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T12:21:44+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/sections-array-type-77": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/sections-array-type-77",
+                "version_normalized": "dev-fix/sections-array-type-77",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "a7864c983812ac6daf4397c031d5efb73b59fed9"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T12:20:57+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/uenc-padding-alphabet-76": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/uenc-padding-alphabet-76",
+                "version_normalized": "dev-fix/uenc-padding-alphabet-76",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "b2c90e68f4a5cbf77c9f60c51ce55f2f04dc7606"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T12:19:09+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-fix/uenc-type-check-75": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-fix/uenc-type-check-75",
+                "version_normalized": "dev-fix/uenc-type-check-75",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "0ed052b53c99af6f58b1d16a48b7022ab3e742fd"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T12:18:01+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxpro.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxpro/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Ajaxpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions"
+            },
+            "dev-master": {
+                "name": "swissup/module-ajaxpro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-ajaxpro.git",
+                    "reference": "03144523aa7caeb50992d6f77b54fa340a42376c"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-checkout": ">=100.3",
+                    "magento/module-configurable-product": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-swatches": ">=100.3",
+                    "magento/module-tax": ">=100.3",
+                    "swissup/module-core": "^1.12.27",
+                    "swissup/module-suggestpage": "^1.2.15"
+                },
+                "time": "2026-11-20T14:56:58+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -100956,34 +101286,6 @@
                     "swissup/module-checkout": "^1.5.6"
                 },
                 "time": "2026-11-19T12:44:30+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\CheckoutDoctor\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Keep an eye on your checkout page and get notified if something is wrong."
-            },
-            "dev-cookie": {
-                "name": "swissup/module-checkout-doctor",
-                "version": "dev-cookie",
-                "version_normalized": "dev-cookie",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-checkout-doctor.git",
-                    "reference": "b840cd3d952d0c21be29bf3858e293215cf3feda"
-                },
-                "require": {
-                    "php": "^8.1",
-                    "swissup/module-checkout": "^1.5.6"
-                },
-                "time": "2026-11-19T15:44:26+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -156940,14 +157242,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-highlight.git",
-                    "reference": "2d202cf0497df3ca521f63656526fc8d46c2ae28"
+                    "reference": "bea3ea6cf243728f7bfd46c2ff481e7b19dd9a4f"
                 },
                 "require": {
                     "swissup/module-core": "^1.12.25",
                     "swissup/module-rtl": "^1.3.8",
                     "swissup/module-swiper": "^1.0.0"
                 },
-                "time": "2026-10-08T12:28:51+00:00",
+                "time": "2026-11-20T10:13:28+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {
@@ -188815,6 +189117,37 @@
                 "description": "Magento 2 module for Partytown integration"
             }
         },
+        "swissup/module-paypal-ppcp-subscriptions": {
+            "dev-master": {
+                "name": "swissup/module-paypal-ppcp-subscriptions",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-paypal-ppcp-subscriptions.git",
+                    "reference": "8005b98195be5aa5e208c88670b7b28c21217e83"
+                },
+                "require": {
+                    "paypal/module-ppcp": "^6.1.0",
+                    "swissup/module-stripe-enhancements": "^4.7.2"
+                },
+                "time": "2026-11-20T15:44:08+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\PaypalPpcpSubscriptions\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "PayPal Complete Payments subscriptions for Swissup StripeEnhancements"
+            }
+        },
         "swissup/module-pdf-invoice": {
             "1.0.0": {
                 "name": "swissup/module-pdf-invoice",
@@ -205961,12 +206294,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-seo-cross-links.git",
-                    "reference": "b28450d15a064f8f9c887e757ed210482d0d07d8"
+                    "reference": "2c857a1c9c88f6c18c393857571f7a83749d7d58"
                 },
                 "require": {
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-10-08T12:28:47+00:00",
+                "time": "2026-11-20T10:45:21+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -220541,6 +220874,30 @@
                 ],
                 "description": "StripePayment module enhancements"
             },
+            "4.7.2": {
+                "name": "swissup/module-stripe-enhancements",
+                "version": "4.7.2",
+                "version_normalized": "4.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-stripe-enhancements.git",
+                    "reference": "1c34b73653c58774f8d4f780a981e8e4e64c3bb3"
+                },
+                "time": "2026-11-20T15:43:49+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\StripeEnhancements\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "StripePayment module enhancements"
+            },
             "dev-master": {
                 "name": "swissup/module-stripe-enhancements",
                 "version": "dev-master",
@@ -220548,9 +220905,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-stripe-enhancements.git",
-                    "reference": "9eb3b80fdfd1db25e2efd09bd9ea1ca6c3b29c7c"
+                    "reference": "1c34b73653c58774f8d4f780a981e8e4e64c3bb3"
                 },
-                "time": "2026-10-20T20:26:58+00:00",
+                "time": "2026-11-20T15:43:49+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

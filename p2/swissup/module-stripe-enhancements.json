@@ -384,6 +384,30 @@
                     "OSL-3.0"
                 ],
                 "description": "StripePayment module enhancements"
+            },
+            {
+                "name": "swissup/module-stripe-enhancements",
+                "version": "4.7.2",
+                "version_normalized": "4.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-stripe-enhancements.git",
+                    "reference": "1c34b73653c58774f8d4f780a981e8e4e64c3bb3"
+                },
+                "time": "2026-11-20T15:43:49+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\StripeEnhancements\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "StripePayment module enhancements"
             }
         ]
     }

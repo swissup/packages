@@ -54,6 +54,33 @@
                     "OSL-3.0"
                 ],
                 "description": "PayPal Complete Payments subscriptions for Swissup StripeEnhancements"
+            },
+            {
+                "name": "swissup/module-paypal-ppcp-subscriptions",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-paypal-ppcp-subscriptions.git",
+                    "reference": "5fffe584d1de58db366ba87f19b280defca2db03"
+                },
+                "require": {
+                    "swissup/module-stripe-enhancements": "^4.7.2"
+                },
+                "time": "2026-11-23T09:47:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\PaypalPpcpSubscriptions\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "PayPal Complete Payments subscriptions for Swissup StripeEnhancements"
             }
         ]
     }

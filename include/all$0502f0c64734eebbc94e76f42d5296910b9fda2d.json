@@ -57409,6 +57409,45 @@
                     "validation"
                 ]
             },
+            "1.0.5": {
+                "name": "swissup/module-address-validation",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-validation.git",
+                    "reference": "c22572f4fe14aec104fdc9b5673b49d9c4e0a995"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-24T07:36:26+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-validation/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-validation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressValidation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Shipping address validation and verification at checkout page",
+                "keywords": [
+                    "address",
+                    "validation"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/module-address-validation",
                 "version": "dev-master",
@@ -57416,12 +57455,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-address-validation.git",
-                    "reference": "79738e36b6ec352c5e410359fba66762a5d40409"
+                    "reference": "c22572f4fe14aec104fdc9b5673b49d9c4e0a995"
                 },
                 "require": {
-                    "swissup/module-checkout": "^1.5.2"
+                    "swissup/module-checkout": "^1.5.6"
                 },
-                "time": "2026-11-12T14:23:02+00:00",
+                "time": "2026-11-24T07:36:26+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

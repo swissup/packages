@@ -273,6 +273,45 @@
                     "address",
                     "validation"
                 ]
+            },
+            {
+                "name": "swissup/module-address-validation",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-address-validation.git",
+                    "reference": "430239d889ddfcda22388b1ee902eb5a047774f7"
+                },
+                "require": {
+                    "swissup/module-checkout": "^1.5.6"
+                },
+                "time": "2026-11-25T12:09:15+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/address-validation/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/address-validation/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\AddressValidation\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Shipping address validation and verification at checkout page",
+                "keywords": [
+                    "address",
+                    "validation"
+                ]
             }
         ]
     }

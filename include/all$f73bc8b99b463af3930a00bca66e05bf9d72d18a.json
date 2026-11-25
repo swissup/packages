@@ -26939,14 +26939,14 @@
                 ],
                 "description": "Breeze Content Builder Metapackage"
             },
-            "dev-master": {
+            "1.3.1": {
                 "name": "swissup/breeze-content-builder",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:breezefront/breeze-content-builder.git",
-                    "reference": "9c3510946473dc5f7fca71d2bd9b5f136a5ed06b"
+                    "reference": "8301e06f84717c902b36e134d64f3b36835e04ea"
                 },
                 "require": {
                     "swissup/module-breeze-content-builder": "^1.3.0",
@@ -26954,7 +26954,29 @@
                     "swissup/module-breeze-layout-builder": "^1.3.3",
                     "swissup/module-breeze-theme-editor": "^1.0.0"
                 },
-                "time": "2026-11-14T00:25:48+00:00",
+                "time": "2026-11-25T23:04:07+00:00",
+                "type": "metapackage",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Breeze Content Builder Metapackage"
+            },
+            "dev-master": {
+                "name": "swissup/breeze-content-builder",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:breezefront/breeze-content-builder.git",
+                    "reference": "8301e06f84717c902b36e134d64f3b36835e04ea"
+                },
+                "require": {
+                    "swissup/module-breeze-content-builder": "^1.3.0",
+                    "swissup/module-breeze-content-builder-migration": "^1.0.1",
+                    "swissup/module-breeze-layout-builder": "^1.3.3",
+                    "swissup/module-breeze-theme-editor": "^1.0.0"
+                },
+                "time": "2026-11-25T23:04:07+00:00",
                 "default-branch": true,
                 "type": "metapackage",
                 "license": [

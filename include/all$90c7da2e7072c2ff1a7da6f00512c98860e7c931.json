@@ -65527,67 +65527,6 @@
                     "seo layered navigation"
                 ]
             },
-            "dev-feature/attribute-tooltip": {
-                "name": "swissup/module-ajaxlayerednavigation",
-                "version": "dev-feature/attribute-tooltip",
-                "version_normalized": "dev-feature/attribute-tooltip",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:swissup/module-ajaxlayerednavigation.git",
-                    "reference": "31dcdac93967628284ccc7cf2205ed01a8671aaa"
-                },
-                "require": {
-                    "magento/framework": ">=102.0",
-                    "magento/module-backend": ">=101.0",
-                    "magento/module-catalog": ">=103.0",
-                    "magento/module-catalog-inventory": ">=100.3",
-                    "magento/module-catalog-url-rewrite": ">=100.3",
-                    "magento/module-cms": ">=103.0",
-                    "magento/module-customer": ">=102.0",
-                    "magento/module-directory": ">=100.3",
-                    "magento/module-eav": ">=102.0",
-                    "magento/module-layered-navigation": ">=100.3",
-                    "magento/module-review": ">=100.3",
-                    "magento/module-store": ">=101.0",
-                    "magento/module-swatches": ">=100.3",
-                    "magento/module-theme": ">=101.0",
-                    "magento/module-widget": ">=101.1",
-                    "psr/log": "*",
-                    "swissup/module-core": "^1.12.27",
-                    "swissup/module-rtl": "^1.3.4"
-                },
-                "time": "2026-11-25T15:02:56+00:00",
-                "type": "magento2-module",
-                "extra": {
-                    "marketplace": {
-                        "gallery": [
-                            "https://docs.swissuplabs.com/images/marketplace/module-ajaxlayerednavigation.png"
-                        ],
-                        "links": {
-                            "docs": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/",
-                            "changelog": "https://docs.swissuplabs.com/m2/extensions/ajaxlayerednavigation/changelog/"
-                        }
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Swissup\\Ajaxlayerednavigation\\": ""
-                    }
-                },
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Advanced catalog filters with ajax and seo support",
-                "keywords": [
-                    "ajaxlayerednavigation",
-                    "filters",
-                    "layered navigation",
-                    "seo layered navigation"
-                ]
-            },
             "dev-fix/issue-107-phpunit12-test-migration": {
                 "name": "swissup/module-ajaxlayerednavigation",
                 "version": "dev-fix/issue-107-phpunit12-test-migration",
@@ -90134,7 +90073,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "53fb8289412c23b65304b070b182b85b61d0f300"
+                    "reference": "392518a7fc830a5dc59ea4fbc42f4d9b43f78c82"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -90155,7 +90094,7 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-11-25T16:18:47+00:00",
+                "time": "2026-11-26T14:25:07+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -90341,7 +90280,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "09b6fac070fd2be07a947de91b53e2f76e7437c4"
+                    "reference": "f73f566551fb07f9e0337d8aa0854c90389e2875"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -90362,7 +90301,7 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-11-25T16:21:37+00:00",
+                "time": "2026-11-26T14:49:20+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -90410,7 +90349,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "e2fce5e11b4ae64c1e170a9e010e8c9fd3e65a8b"
+                    "reference": "eb4660d2463ac2e8e26ef7da3eec776c0f55b5db"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -90431,7 +90370,76 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-11-25T15:40:00+00:00",
+                "time": "2026-11-26T14:55:15+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "swissup": {
+                        "links": {
+                            "docs": "http://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "http://docs.swissuplabs.com/m2/extensions/askit/changelog/",
+                            "store": "https://swissuplabs.com/product-question-extension-for-magento-2.html"
+                        }
+                    },
+                    "marketplace": {
+                        "gallery": [
+                            "https://docs.swissuplabs.com/images/marketplace/module-askit.png"
+                        ],
+                        "links": {
+                            "docs": "https://docs.swissuplabs.com/m2/extensions/askit/",
+                            "changelog": "https://docs.swissuplabs.com/m2/extensions/askit/changelog/"
+                        }
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\Askit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Product, Category, Cms Page questions and comments",
+                "keywords": [
+                    "answers",
+                    "comments",
+                    "faq",
+                    "page comments",
+                    "product questions",
+                    "questions"
+                ]
+            },
+            "dev-fix/shared-answer-captcha-93": {
+                "name": "swissup/module-askit",
+                "version": "dev-fix/shared-answer-captcha-93",
+                "version_normalized": "dev-fix/shared-answer-captcha-93",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/module-askit.git",
+                    "reference": "061e0d7a313b5d3bcc8e4feb1f7bef6dec2b57d4"
+                },
+                "require": {
+                    "magento/framework": ">=102.0",
+                    "magento/module-backend": ">=101.0",
+                    "magento/module-captcha": ">=100.3",
+                    "magento/module-catalog": ">=103.0",
+                    "magento/module-cms": ">=103.0",
+                    "magento/module-contact": ">=100.3",
+                    "magento/module-customer": ">=102.0",
+                    "magento/module-directory": ">=100.3",
+                    "magento/module-graph-ql": ">=100.3",
+                    "magento/module-store": ">=101.0",
+                    "magento/module-theme": ">=101.0",
+                    "magento/module-ui": ">=101.1",
+                    "magento/module-url-rewrite": ">=101.1",
+                    "magento/module-user": ">=101.1",
+                    "magento/module-widget": ">=101.1",
+                    "psr/log": "*",
+                    "swissup/module-core": "^1.12.27"
+                },
+                "time": "2026-11-26T15:01:28+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -90479,7 +90487,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-askit.git",
-                    "reference": "5463abb1b838930f6a0b402fd54950ec8060107b"
+                    "reference": "763b52170d93f68ac569c44249992dfa41c20af5"
                 },
                 "require": {
                     "magento/framework": ">=102.0",
@@ -90500,7 +90508,7 @@
                     "psr/log": "*",
                     "swissup/module-core": "^1.12.27"
                 },
-                "time": "2026-11-25T15:41:20+00:00",
+                "time": "2026-11-26T14:52:44+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "swissup": {
@@ -160783,13 +160791,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/module-hreflang.git",
-                    "reference": "4bfe37790ef1d882e6155c343160ac1d56f7e041"
+                    "reference": "70b95bc4e0701c7f47758f0ed0bcf9d8176bf18d"
                 },
                 "require": {
                     "php": "^8.1",
                     "swissup/module-seo-core": "^1.3.10"
                 },
-                "time": "2026-10-08T12:28:55+00:00",
+                "time": "2026-11-26T22:19:06+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "extra": {

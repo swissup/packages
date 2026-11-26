@@ -49287,6 +49287,35 @@
                 ],
                 "description": "Hyva Highlight extension from Swissup"
             },
+            "1.1.7": {
+                "name": "swissup/hyva-highlight",
+                "version": "1.1.7",
+                "version_normalized": "1.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-highlight.git",
+                    "reference": "628bef19a87dae93ed0b4005615899b6b1b14a5e"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-highlight": "^1.11.10"
+                },
+                "time": "2026-11-26T15:50:24+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaHighlight\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Highlight extension from Swissup"
+            },
             "dev-master": {
                 "name": "swissup/hyva-highlight",
                 "version": "dev-master",
@@ -49294,14 +49323,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-highlight.git",
-                    "reference": "6b135ff85bd017993702685db17b4ecaef3eb3d2"
+                    "reference": "628bef19a87dae93ed0b4005615899b6b1b14a5e"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-highlight": "^1.11.9"
+                    "swissup/module-highlight": "^1.11.10"
                 },
-                "time": "2026-11-20T22:20:32+00:00",
+                "time": "2026-11-26T15:50:24+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

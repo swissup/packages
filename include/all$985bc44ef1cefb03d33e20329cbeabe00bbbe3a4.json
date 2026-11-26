@@ -47915,6 +47915,39 @@
                     "search"
                 ]
             },
+            "1.0.4": {
+                "name": "swissup/hyva-ajaxsearch",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-ajaxsearch.git",
+                    "reference": "f424e85ede95a7ed3ee95947a686f7b663b50cdb"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-ajaxsearch": "^1.15.0"
+                },
+                "time": "2026-11-26T09:06:47+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAjaxsearch\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_Ajaxsearch",
+                "keywords": [
+                    "ajaxsearch",
+                    "search"
+                ]
+            },
             "dev-master": {
                 "name": "swissup/hyva-ajaxsearch",
                 "version": "dev-master",
@@ -47922,14 +47955,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-ajaxsearch.git",
-                    "reference": "a538a21b52237181f012d32ab28fcc3ca52cbd9b"
+                    "reference": "f424e85ede95a7ed3ee95947a686f7b663b50cdb"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-ajaxsearch": "^1.14.11"
+                    "swissup/module-ajaxsearch": "^1.15.0"
                 },
-                "time": "2026-10-28T13:00:46+00:00",
+                "time": "2026-11-26T09:06:47+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -47980,6 +48013,35 @@
                 ],
                 "description": "Hyva Askit extension from Swissup"
             },
+            "1.0.1": {
+                "name": "swissup/hyva-askit",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-askit.git",
+                    "reference": "e247f8539906116a79247811bbb961357237d110"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-askit": "^1.14.28"
+                },
+                "time": "2026-11-26T09:07:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAskit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Askit extension from Swissup"
+            },
             "dev-master": {
                 "name": "swissup/hyva-askit",
                 "version": "dev-master",
@@ -47987,14 +48049,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-askit.git",
-                    "reference": "cd75ead3817560cf6a81b7222c8319708d1edd52"
+                    "reference": "e247f8539906116a79247811bbb961357237d110"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-askit": "^1.4.20"
+                    "swissup/module-askit": "^1.14.28"
                 },
-                "time": "2026-11-09T12:06:02+00:00",
+                "time": "2026-11-26T09:07:42+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {
@@ -49256,6 +49318,67 @@
                 "description": "Hyva Highlight extension from Swissup"
             }
         },
+        "swissup/hyva-navigationpro": {
+            "1.0.0": {
+                "name": "swissup/hyva-navigationpro",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-navigationpro.git",
+                    "reference": "9c9a1968b9585cd5d8e31de020ffdbc0d02231ba"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": ">=1.1.2",
+                    "hyva-themes/magento2-theme-module": "^1.3",
+                    "swissup/module-navigationpro": "^1.19"
+                },
+                "time": "2026-11-26T08:52:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaNavigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva compatibility module for Swissup NavigationPro"
+            },
+            "dev-master": {
+                "name": "swissup/hyva-navigationpro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-navigationpro.git",
+                    "reference": "9c9a1968b9585cd5d8e31de020ffdbc0d02231ba"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": ">=1.1.2",
+                    "hyva-themes/magento2-theme-module": "^1.3",
+                    "swissup/module-navigationpro": "^1.19"
+                },
+                "time": "2026-11-26T08:52:59+00:00",
+                "default-branch": true,
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaNavigationpro\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva compatibility module for Swissup NavigationPro"
+            }
+        },
         "swissup/hyva-pro-labels": {
             "0.0.1": {
                 "name": "swissup/hyva-pro-labels",
@@ -50429,6 +50552,41 @@
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
             },
+            "1.2.6": {
+                "name": "swissup/hyva-sold-together",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "7b20b0388a1f82fc898e76256d3f32e40cf30c6d"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.11.6"
+                },
+                "time": "2026-11-26T09:12:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
+            },
             "dev-master": {
                 "name": "swissup/hyva-sold-together",
                 "version": "dev-master",
@@ -50436,14 +50594,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:swissup/hyva-sold-together.git",
-                    "reference": "b9f6e329c86dc549527be134b5f98974461a67b5"
+                    "reference": "7b20b0388a1f82fc898e76256d3f32e40cf30c6d"
                 },
                 "require": {
                     "hyva-themes/magento2-compat-module-fallback": "*",
                     "magento/framework": "*",
-                    "swissup/module-sold-together": "^1.11.4"
+                    "swissup/module-sold-together": "^1.11.6"
                 },
-                "time": "2026-11-11T11:50:42+00:00",
+                "time": "2026-11-26T09:12:08+00:00",
                 "default-branch": true,
                 "type": "magento2-module",
                 "autoload": {

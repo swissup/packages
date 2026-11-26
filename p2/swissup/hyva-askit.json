@@ -29,6 +29,35 @@
                     "OSL-3.0"
                 ],
                 "description": "Hyva Askit extension from Swissup"
+            },
+            {
+                "name": "swissup/hyva-askit",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-askit.git",
+                    "reference": "e247f8539906116a79247811bbb961357237d110"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-askit": "^1.14.28"
+                },
+                "time": "2026-11-26T09:07:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaAskit\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Hyva Askit extension from Swissup"
             }
         ]
     }

@@ -350,6 +350,41 @@
                     }
                 ],
                 "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
+            },
+            {
+                "name": "swissup/hyva-sold-together",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:swissup/hyva-sold-together.git",
+                    "reference": "7b20b0388a1f82fc898e76256d3f32e40cf30c6d"
+                },
+                "require": {
+                    "hyva-themes/magento2-compat-module-fallback": "*",
+                    "magento/framework": "*",
+                    "swissup/module-sold-together": "^1.11.6"
+                },
+                "time": "2026-11-26T09:12:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "src/registration.php"
+                    ],
+                    "psr-4": {
+                        "Swissup\\HyvaSoldTogether\\": "src/"
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Swissuplabs",
+                        "email": "support@swissuplab.com"
+                    }
+                ],
+                "description": "Hyvä Themes Compatibility module for Swissup_SoldTogether"
             }
         ]
     }
